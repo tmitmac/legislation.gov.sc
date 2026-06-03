@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Legislation Viewer</title>
+
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      font-family: Georgia;
+    }
+
+    #sidebar {
+      width: 260px;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+      overflow-y: auto;
+      height: 100vh;
+    }
+
+    #main {
+      flex: 1;
+      padding: 30px;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .section-link {
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .section-link:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="sidebar">Loading...</div>
+<div id="main">Select a document</div>
+
+
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const file = params.get("act");
+
+if (file) {
+  loadAct("legislation/" + file);
+}
+
+async function loadAct(path) {
+  const res = await fetch(path);
+  const text = await res.text();
+
+  const doc = parseLegislation(text);
+
+  buildSidebar(doc);
+  document.getElementById("main").innerHTML = renderLegislation(doc);
+}
+
+function parseLegislation(text) {
+  const lines = text.split("\n");
+
+  let doc = { title: "", status: "", version: "", parts: [] };
+
+  let currentPart = null;
+  let currentSection = null;
+
+  for (let line of lines) {
+    line = line.trim();
+
+    if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
+    else if (line.startsWith("STATUS:")) doc.status = line.replace("STATUS:", "").trim();
+    else if (line.startsWith("VERSION:")) doc.version = line.replace("VERSION:", "").trim();
+
+    else if (line.startsWith("PART:")) {
+      currentPart = { name: line.replace("PART:", "").trim(), sections: [] };
+      doc.parts.push(currentPart);
+    }
+
+    else if (line.startsWith("SECTION:")) {
+      currentSection = {
+        number: line.replace("SECTION:", "").trim(),
+        heading: "",
+        clauses: []
+      };
+      currentPart.sections.push(currentSection);
+    }
+
+    else if (line.startsWith("HEADING:")) {
+      currentSection.heading = line.replace("HEADING:", "").trim();
+    }
+
+else if (/^\d+\./.test(line)) {
+  currentSection.clauses.push(line);
+}
+
+else {
+  // IMPORTANT: catch ALL normal text
+  if (currentSection) {
+    currentSection.clauses.push(line);
+  }
+}
+
+
+  }
+
+  return doc;
+}
+
+function renderLegislation(doc) {
+  let html = `<h1>${doc.title}</h1>`;
+  html += `<p>${doc.status} | ${doc.version}</p>`;
+
+  for (const part of doc.parts) {
+    html += `<h2>${part.name}</h2>`;
+
+    for (const section of part.sections) {
+
+      // 🔥 BOLD SECTION HEADER (number + title)
+      html += `
+        <div id="section-${section.number}">
+          <h3 style="font-weight: bold;">
+            Section ${section.number}: ${section.heading}
+          </h3>
+      `;
+
+for (const clause of section.clauses) {
+
+  let formatted = clause;
+
+  // only convert numbers like 1. 2. 3.
+  formatted = formatted.replace(/^(\d+)\.\s*/, "($1) ");
+
+  // DO NOT touch letters — they are already correct
+
+  html += `<p>${formatted}</p>`;
+}
+
+      html += `</div>`;
+    }
+  }
+
+  return html;
+}
+
+function buildSidebar(doc) {
+  const sidebar = document.getElementById("sidebar");
+  sidebar.innerHTML = `<h3>${doc.title}</h3>`;
+
+  doc.parts.forEach(part => {
+    const partEl = document.createElement("div");
+    partEl.innerHTML = `<b>${part.name}</b>`;
+    sidebar.appendChild(partEl);
+
+    part.sections.forEach(sec => {
+      const link = document.createElement("div");
+      link.className = "section-link";
+      link.innerText = "Section " + sec.number;
+
+      link.onclick = () => {
+        document.querySelector(`#section-${sec.number}`)
+          ?.scrollIntoView({ behavior: "smooth" });
+      };
+
+      sidebar.appendChild(link);
+    });
+  });
+}
+</script>
+
+</body>
+</html>

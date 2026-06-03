@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Square Country Legislation</title>
+</head>
+
+<body>
+
+<h1>Legislation Search PROTOTYPE</h1>
+
+<input id="search" placeholder="Search legislation...">
+<button onclick="search()">Search</button>
+
+<div id="results"></div>
+
+<script>
+const acts = [
+  { name: "Defence Expansion Act 2025", file: "viewer.html?act=defence-expansion-act-2025.txt" },
+  { name: "Education Act 2024", file: "viewer.html?act=education-act-2024.txt" }
+];
+
+function search() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const results = document.getElementById("results");
+
+  results.innerHTML = "";
+
+  acts
+    .filter(a => a.name.toLowerCase().includes(q))
+    .forEach(a => {
+      const div = document.createElement("div");
+      div.innerHTML = `<a href="${a.file}">${a.name}</a>`;
+      results.appendChild(div);
+    });
+}
+</script>
+
+</body>
+</html>
