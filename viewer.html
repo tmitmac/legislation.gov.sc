@@ -4,39 +4,158 @@
   <title>Legislation Viewer</title>
 
   <style>
-    body {
+body {
   margin: 0;
   font-family: Times;
+  padding-top: 140px;
+  overflow-y: auto;   /* 👈 SINGLE SCROLL CONTAINER */
+}
+
+/* NAVBAR */
+.leg-nav {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #e8edf3;
+    border-bottom: 1px solid #c7d1dc;
+    padding: 22px 40px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    transition: transform 0.25s ease;
 }
 
 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
 
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
 
-/* layout pushed below navbar + titlebar */
+.brand-logo {
+    height: 70px;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15));
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+
+.brand-text .maori {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a1a2a;
+}
+
+.brand-text .english {
+    font-size: 15px;
+    color: #4d5a66;
+}
+
+/* LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-links a span {
+    display: block;
+    font-size: 12px;
+    color: #5f6a75;
+}
+
+/* SEARCH */
+.nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d3dbe3;
+    padding-top: 18px;
+}
+
+.search-controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+}
+
+.nav-search select,
+.nav-search input {
+    padding: 10px 12px;
+    border: 1px solid #b7c2ce;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.nav-search input {
+    flex: 1;
+}
+
+.search-btn {
+    background: #0055cc;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.advanced-search {
+    margin-left: 26px;
+    font-size: 14px;
+    color: #0055cc;
+    text-decoration: none;
+}
+
 #layout {
   display: flex;
-  margin-top: 128px; /* 72px navbar + 56px titlebar */
-  height: calc(100vh - 128px);
+  margin-top: 140px;
+  padding-left: 50px;
+  align-items: flex-start; /* IMPORTANT */
 }
 
 
-/* sidebar */
 #sidebar {
   width: 380px;
-  border-right: 1px solid #ddd;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  border: 1px solid #c7c7c7;
   padding: 12px;
-  overflow-y: auto;
   font-family: Arial, sans-serif;
   background: #fafafa;
-  transition: transform 0.3s ease;
+
+  height: calc(100vh - 180px);  /* 👈 KEY FIX */
+  overflow-y: auto;             /* 👈 makes it internal scroll */
+  position: sticky;
+  top: 160px;
 }
 
-/* main content expands */
-#main {
-  flex: 1;
-  padding: 30px;
-  overflow-y: auto;
+html, body {
+  height: 100%;
 }
+
 
 /* hidden state */
 body.sidebar-hidden #sidebar {
@@ -118,19 +237,20 @@ body.sidebar-hidden #layout {
   display: grid;
   grid-template-columns: 160px 1fr 160px;
   align-items: center;
+  line-height: 1;
 
   width: 700px;
   margin: 30px auto 0 auto;
 
   background: white;
   border: 1px solid #bbb;
-  height: 60px;
+  height: 80px; /* taller */
 }
 
 .contents-btn {
   font-family: Times;
   font-size: 16px;
-  background: none;
+  background: #e7e7e7;
   border: none;
   cursor: pointer;
   text-align: left;
@@ -145,7 +265,9 @@ body.sidebar-hidden #layout {
   color: black;
 }
 
-
+.contents-spacer {
+  width: 100%;
+}
 
 .contents-wrapper {
   width: 700px;
@@ -155,26 +277,35 @@ body.sidebar-hidden #layout {
 
 .contents-toggle {
   width: 100%;
-  padding: 12px;
+  padding: 14px 16px;
   font-weight: 700;
-  background: #0f172a;
-  color: white;
-  border: none;
+  font-family: Times;
+  background: white;
+  color: black;
+  border: 1px solid #bbb;
   cursor: pointer;
-  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contents-box {
+  width: 700px;
+  margin: 0 auto;
   max-height: 0;
   overflow: hidden;
-  border: 1px solid #ddd;
-  border-top: none;
-  background: #fafafa;
-  transition: max-height 0.3s ease;
+
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+
+  background: white;
+
+  transition: max-height 0.25s ease;
 }
 
 .contents-box.open {
-  max-height: 260px;
+  max-height: 300px;
 }
 
 .contents-item {
@@ -227,18 +358,26 @@ body.sidebar-hidden #layout {
 /* EACH ROW (taller + table-like) */
 .section-link {
   display: flex;
-  gap: 12px;
-  padding: 14px 12px; /* 👈 taller rows */
+  gap: 10px;
+  padding: 10px 10px;   /* shorter */
   cursor: pointer;
   font-weight: 600;
   border-bottom: 1px solid #f0f0f0;
   align-items: center;
-  min-height: 48px; /* 👈 ensures height */
+  min-height: 22px;     /* reduced height */
 }
 
-.section-link:hover {
-  background: #f5f5f5;
+.section-link.active {
+  background: #126cd3; 
+  color: white;
 }
+
+.section-link.active .section-code,
+.section-link.active .section-name {
+  color: white;
+}
+
+
 
 /* section number column */
 .section-code {
@@ -256,21 +395,22 @@ body.sidebar-hidden #layout {
 
 /* section number */
 .section-code {
-  font-weight: 800;
+  font-weight: 400;
   min-width: 60px;
+  color: #126cd3;
+  font-size: 14px;
 }
 
 /* section title */
 .section-name {
-  font-weight: 600;
-  color: #333;
+  font-weight: 400;
+  color: #126cd3;
+  font-size: 14px;
 }
 
         #main {
       flex: 1;
       padding: 30px;
-      height: 100vh;
-      overflow-y: auto;
     }
 
     h1 {
@@ -368,6 +508,43 @@ h2 {
 
 <body>
 
+    <nav class="leg-nav">
+    <div class="nav-header">
+        <div class="brand">
+            <img src="coat-of-arms.png" alt="Coat of Arms" class="brand-logo">
+            <div class="brand-text">
+                <span class="maori">Square Country Legislation</span>
+                <span class="english">Legislación del país cuadrado</span>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home <span>Hogar</span></a></li>
+            <li><a href="#">Browse agencies<span>Buscar agencias</span></a></li>
+            <li><a href="#">Learn more<span>Más información</span></a></li>
+        </ul>
+    </div>
+
+    <div class="nav-search">
+        <div class="search-controls">
+            <select>
+                <option>In force</option>
+                <option>Bills</option>
+                <option>Not in force</option>
+            </select>
+
+            <select>
+                <option>Title contains</option>
+                <option>Content contains</option>
+            </select>
+
+            <input type="text" placeholder="Search in-force Acts and secondary legislation…">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <a href="#" class="advanced-search">Advanced search</a>
+    </div>
+</nav>
 
 
 <div id="layout">
@@ -378,11 +555,15 @@ h2 {
 <button id="toggleSidebar">☰</button>
 
 
+  <custom-footer></custom-footer>
 
 
 <script>
 const params = new URLSearchParams(window.location.search);
 const file = params.get("act");
+
+let sectionLinks = {};   // ✅ global so everything can access it
+let activeId = null;
 
 if (file) {
   loadAct("legislation/" + file);
@@ -396,20 +577,12 @@ async function loadAct(path) {
 
   buildSidebar(doc);
   document.getElementById("main").innerHTML = renderLegislation(doc);
-
-  
-
-  // TITLE BAR (always active act)
-  document.getElementById("docTitle").innerText = doc.title;
-
-  document.getElementById("docMeta").innerText =
-    `Act No: ${doc.actNumber || "—"} | ${doc.status || "—"} | ${doc.version || "—"} | ${doc.agency || "—"}`;
 }
 
 function parseLegislation(text) {
   const lines = text.split("\n");
 
-    let doc = {
+  let doc = {
     title: "",
     actNumber: "",
     status: "",
@@ -418,7 +591,8 @@ function parseLegislation(text) {
     dateOfAssent: "",
     commencement: "",
     parts: []
-    };
+  };
+
   let currentPart = null;
   let currentSection = null;
 
@@ -426,37 +600,33 @@ function parseLegislation(text) {
     line = line.trim();
 
     if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
-else if (line.startsWith("ACTNUMBER:")) {
-  doc.actNumber = line.replace("ACTNUMBER:", "").trim();
-}
 
-else if (line.startsWith("AGENCY:")) {
-  doc.agency = line.replace("AGENCY:", "").trim();
-}
+    else if (line.startsWith("ACTNUMBER:"))
+      doc.actNumber = line.replace("ACTNUMBER:", "").trim();
 
-else if (line.startsWith("DATEOFASSENT:")) {
-  doc.dateOfAssent = line.replace("DATEOFASSENT:", "").trim();
-}
+    else if (line.startsWith("AGENCY:"))
+      doc.agency = line.replace("AGENCY:", "").trim();
 
-else if (line.startsWith("COMMENCEMENT:")) {
-  doc.commencement = line.replace("COMMENCEMENT:", "").trim();
-}
+    else if (line.startsWith("DATEOFASSENT:"))
+      doc.dateOfAssent = line.replace("DATEOFASSENT:", "").trim();
 
-else if (line.startsWith("PARTNUMBER:")) {
-  currentPart = {
-    number: line.replace("PARTNUMBER:", "").trim(),
-    title: "",
-    sections: []
-  };
+    else if (line.startsWith("COMMENCEMENT:"))
+      doc.commencement = line.replace("COMMENCEMENT:", "").trim();
 
-  doc.parts.push(currentPart);
-}
+    else if (line.startsWith("PARTNUMBER:")) {
+      currentPart = {
+        number: line.replace("PARTNUMBER:", "").trim(),
+        title: "",
+        sections: []
+      };
+      doc.parts.push(currentPart);
+    }
 
-else if (line.startsWith("PARTTITLE:")) {
-  if (currentPart) {
-    currentPart.title = line.replace("PARTTITLE:", "").trim();
-  }
-}
+    else if (line.startsWith("PARTTITLE:")) {
+      if (currentPart) {
+        currentPart.title = line.replace("PARTTITLE:", "").trim();
+      }
+    }
 
     else if (line.startsWith("SECTION:")) {
       currentSection = {
@@ -471,25 +641,21 @@ else if (line.startsWith("PARTTITLE:")) {
       currentSection.heading = line.replace("HEADING:", "").trim();
     }
 
-else if (/^\d+\./.test(line)) {
-  currentSection.clauses.push(line);
-}
+    else if (/^\d+\./.test(line)) {
+      currentSection.clauses.push(line);
+    }
 
-else {
-  // IMPORTANT: catch ALL normal text
-  if (currentSection) {
-    currentSection.clauses.push(line);
-  }
-}
-
-
+    else {
+      if (currentSection) currentSection.clauses.push(line);
+    }
   }
 
   return doc;
 }
 
 function renderLegislation(doc) {
-let html = `
+
+  let html = `
 <div class="act-header">
 
   <div class="act-header-title">
@@ -518,32 +684,7 @@ let html = `
 </div>
 `;
 
-html += `
-<div class="contents-wrapper">
-
-  <div class="contents-bar">
-
-    <button class="contents-btn" onclick="toggleContents()">
-      Show Contents \/
-    </button>
-
-    <div class="contents-title">
-      Contents
-    </div>
-
-    <div class="contents-spacer"></div>
-
-  </div>
-
-  <div id="contents-box" class="contents-box">
-  </div>
-
-</div>
-`;
-
   for (const part of doc.parts) {
-
-    // FIX: use structured fields instead of part.name
     html += `
       <div class="part">
         <div class="part-number">Part ${part.number}</div>
@@ -552,7 +693,6 @@ html += `
     `;
 
     for (const section of part.sections) {
-
       html += `<div class="section" id="section-${section.number}">`;
 
       html += `
@@ -560,30 +700,19 @@ html += `
           <div class="section-number">${section.number}</div>
           <div class="section-title">${section.heading}</div>
         </div>
+        <div class="section-text">
       `;
 
-      html += `<div class="section-text">`;
-
       for (const clause of section.clauses) {
-
         let level = 1;
-
-        // subclause detection
         if (/^\(\w+\)/.test(clause)) level = 2;
         if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
 
-        let formatted = clause.replace(/^(\d+)\.\s*/, "($1) ");
+        let formatted = clause
+          .replace(/^(\d+)\.\s*/, "($1) ")
+          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
-        formatted = formatted.replace(
-  /\*\*(.*?)\*\*/g,
-  "<strong>$1</strong>"
-);
-
-        html += `
-          <div class="clause level-${level}">
-            ${formatted}
-          </div>
-        `;
+        html += `<div class="clause level-${level}">${formatted}</div>`;
       }
 
       html += `</div></div>`;
@@ -595,23 +724,18 @@ html += `
 
 function buildSidebar(doc) {
   const sidebar = document.getElementById("sidebar");
-
   sidebar.innerHTML = `<div class="sidebar-title">Contents</div>`;
-
+  sectionLinks = {}; // reset
 
   doc.parts.forEach(part => {
-    // PART header (not collapsible)
     const partEl = document.createElement("div");
     partEl.style.padding = "10px 8px";
     partEl.style.fontWeight = "900";
     partEl.style.marginTop = "10px";
     partEl.style.borderTop = "1px solid #ddd";
-
     partEl.innerText = `Part ${part.number}`;
-
     sidebar.appendChild(partEl);
 
-    // sections under each part
     part.sections.forEach(sec => {
       const row = document.createElement("div");
       row.className = "section-link";
@@ -623,14 +747,60 @@ function buildSidebar(doc) {
 
       row.onclick = () => {
         document.querySelector(`#section-${sec.number}`)
-          ?.scrollIntoView({ behavior: "smooth" });
+          ?.scrollIntoView({ behavior: "auto" });
+
+        setActive(sec.number);
       };
 
       sidebar.appendChild(row);
+      sectionLinks[sec.number] = row; // ✅ IMPORTANT FIX
     });
   });
-  
 }
+
+function setActive(id) {
+  document.querySelectorAll(".section-link").forEach(el => {
+    el.classList.remove("active");
+  });
+
+  const active = sectionLinks[id];
+
+  if (active) {
+    active.classList.add("active");
+    keepInSidebarView(active); // 👈 clean internal scroll control
+  }
+
+  activeId = id;
+}
+
+function keepInSidebarView(el) {
+  const container = document.getElementById("sidebar");
+
+  const elTop = el.offsetTop;
+  const elBottom = elTop + el.offsetHeight;
+
+  const viewTop = container.scrollTop;
+  const viewBottom = viewTop + container.clientHeight;
+
+  if (elTop < viewTop) {
+    container.scrollTop = elTop - 20;
+  } else if (elBottom > viewBottom) {
+    container.scrollTop = elBottom - container.clientHeight + 20;
+  }
+}
+
+window.addEventListener("scroll", () => {
+  let current = null;
+
+  document.querySelectorAll(".section").forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top <= 180) current = sec.id.replace("section-", "");
+  });
+
+  if (current && current !== activeId) {
+    setActive(current);
+  }
+});
 
 document.getElementById("toggleSidebar").onclick = () => {
   document.body.classList.toggle("sidebar-hidden");
@@ -639,7 +809,9 @@ document.getElementById("toggleSidebar").onclick = () => {
 function toggleContents() {
   document.getElementById("contents-box").classList.toggle("open");
 }
-</script>
 
+
+</script>
+<script src="components/footer.js"></script>
 </body>
 </html>
