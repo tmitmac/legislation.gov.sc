@@ -7,129 +7,12 @@
 body {
   margin: 0;
   font-family: Times;
-  padding-top: 140px;
   overflow-y: auto;   /* 👈 SINGLE SCROLL CONTAINER */
-}
-
-/* NAVBAR */
-.leg-nav {
-    font-family: "Inter", "Segoe UI", Arial, sans-serif;
-    background: #e8edf3;
-    border-bottom: 1px solid #c7d1dc;
-    padding: 22px 40px;
-
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
-    transition: transform 0.25s ease;
-}
-
-
-.nav-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 22px;
-}
-
-.brand {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
-
-.brand-logo {
-    height: 70px;
-    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15));
-}
-
-.brand-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.25;
-}
-
-.brand-text .maori {
-    font-size: 22px;
-    font-weight: 600;
-    color: #0a1a2a;
-}
-
-.brand-text .english {
-    font-size: 15px;
-    color: #4d5a66;
-}
-
-/* LINKS */
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 42px;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #003366;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.nav-links a span {
-    display: block;
-    font-size: 12px;
-    color: #5f6a75;
-}
-
-/* SEARCH */
-.nav-search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #d3dbe3;
-    padding-top: 18px;
-}
-
-.search-controls {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex: 1;
-}
-
-.nav-search select,
-.nav-search input {
-    padding: 10px 12px;
-    border: 1px solid #b7c2ce;
-    border-radius: 6px;
-    font-size: 14px;
-}
-
-.nav-search input {
-    flex: 1;
-}
-
-.search-btn {
-    background: #0055cc;
-    color: white;
-    border: none;
-    padding: 10px 22px;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
-.advanced-search {
-    margin-left: 26px;
-    font-size: 14px;
-    color: #0055cc;
-    text-decoration: none;
 }
 
 #layout {
   display: flex;
-  margin-top: 140px;
+  margin-top: 50px;
   padding-left: 50px;
   align-items: flex-start; /* IMPORTANT */
 }
@@ -150,6 +33,13 @@ body {
   overflow-y: auto;             /* 👈 makes it internal scroll */
   position: sticky;
   top: 160px;
+}
+
+.part.active-part {
+  background: #eef5ff;
+  border-left: 4px solid #126cd3;
+  padding-left: 10px;
+  transition: 0.2s ease;
 }
 
 html, body {
@@ -319,6 +209,58 @@ body.sidebar-hidden #layout {
   background: #f3f4f6;
 }
 
+.contents-row {
+  font-weight: 900;
+  cursor: default;
+}
+
+.sidebar-close {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* BLUE RETURN TAB (hidden sidebar button) */
+#sidebarTab {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) translateX(-100%);
+  width: 40px;
+  height: 80px;
+  background: #126cd3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  transition: transform 0.25s ease;
+  z-index: 1000;
+}
+
+/* show tab only when sidebar is hidden */
+body.sidebar-hidden #sidebarTab {
+  transform: translateY(-50%) translateX(0);
+}
+
+.footnotes {
+  margin-top: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.footnote {
+  font-size: 12px;
+  color: #000000;
+  line-height: 1.3;
+  margin-top: 4px;
+  font-family: Arial, sans-serif;
+}
+
 /* PART block */
 .part-block {
   margin-bottom: 10px;
@@ -362,7 +304,7 @@ body.sidebar-hidden #layout {
   padding: 10px 10px;   /* shorter */
   cursor: pointer;
   font-weight: 600;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #c7c7c7;
   align-items: center;
   min-height: 22px;     /* reduced height */
 }
@@ -406,6 +348,24 @@ body.sidebar-hidden #layout {
   font-weight: 400;
   color: #126cd3;
   font-size: 14px;
+}
+
+.part-link {
+  font-weight: 800;
+  font-size: 50px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.part-link .section-code {
+  color: #126cd3;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.part-link .section-name {
+  color: #126cd3;
+  font-size: 18px;
+  font-weight: 700;
 }
 
         #main {
@@ -502,58 +462,277 @@ h2 {
   margin-left: 40px;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background: #126cd3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 2000;
+}
+
+/* show when active */
+#backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
   </style>
+<style>
+/* Page background */
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title-header {
+  background: #f3f3f3;
+  padding-top: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+
+    transition:
+    padding 0.35s ease,
+    background-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+/* COMPACT MODE */
+body.header-fixed .title-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+body.header-fixed #layout {
+  margin-top: 90px; /* adjust until content sits correctly */
+}
+
+body.compact-header .title-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+body.compact-header .container {
+  padding-top: 0;
+}
+
+body.compact-header .status-row {
+  display: flex;
+  margin-bottom: px;
+  gap: 6px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+body.compact-header .badge {
+  font-size: 10px;
+  padding: 2px 6px;
+}
+
+body.compact-header .meta {
+  font-size: 11px;
+}
+
+body.compact-header .title {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  line-height: 1.2;
+}
+
+body.compact-header .bottom-row {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+/* Top metadata row */
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+.badge-gray {
+  background: #e7e7e7;
+  color: #555;
+}
+
+.badge-green {
+  background: #cfe9c9;
+  color: #2f6b22;
+}
+
+.meta {
+  color: #5d5d5d;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+/* Main title */
+.title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  line-height: 1.05;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: -0.4px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+/* Bottom section */
+.bottom-row {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  align-items: flex-end;
+  font-family: sans-serif;
+}
+
+.tab {
+  text-decoration: none;
+  color: #1261d1;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 18px;
+}
+
+.tab.active {
+  background: #fff;
+  color: #111;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #1261d1;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.action svg {
+  width: 18px;
+  height: 30px;
+}
+</style>
 </head>
 
 
 <body>
+<custom-navbar></custom-navbar>
 
-    <nav class="leg-nav">
-    <div class="nav-header">
-        <div class="brand">
-            <img src="coat-of-arms.png" alt="Coat of Arms" class="brand-logo">
-            <div class="brand-text">
-                <span class="maori">Square Country Legislation</span>
-                <span class="english">Legislación del país cuadrado</span>
-            </div>
-        </div>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home <span>Hogar</span></a></li>
-            <li><a href="#">Browse agencies<span>Buscar agencias</span></a></li>
-            <li><a href="#">Learn more<span>Más información</span></a></li>
-        </ul>
+<section class="title-header">
+  <div class="container">
+    <!-- Status Row -->
+    <div class="status-row">
+      <span class="badge badge-gray">Act</span>
+      <span class="badge badge-green">In force</span>
+      <span class="badge badge-green">Latest version</span>
+
+<span class="meta" id="actMeta"></span>
     </div>
 
-    <div class="nav-search">
-        <div class="search-controls">
-            <select>
-                <option>In force</option>
-                <option>Bills</option>
-                <option>Not in force</option>
-            </select>
+    <!-- Title -->
+    <h1 class="title" id="actTitle"></h1>
 
-            <select>
-                <option>Title contains</option>
-                <option>Content contains</option>
-            </select>
+    <!-- Tabs + Actions -->
+    <div class="bottom-row">
+      <div class="tabs">
+        <a href="#" class="tab active">Principal Act</a>
+        <a href="index.html" class="tab">Versions (1)</a>
+        <a href="#" class="tab">Related Bill (1)</a>
+      </div>
 
-            <input type="text" placeholder="Search in-force Acts and secondary legislation…">
-            <button class="search-btn">Search</button>
-        </div>
+      <div class="actions">
+        <a href="#" class="action" onclick="downloadActPDF()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3v12"></path>
+            <path d="M7 10l5 5 5-5"></path>
+            <path d="M5 21h14"></path>
+          </svg>
+          Download
+        </a>
 
-        <a href="#" class="advanced-search">Advanced search</a>
+        <a href="#" class="action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M20 20l-4-4"></path>
+          </svg>
+          Search content
+        </a>
+      </div>
     </div>
-</nav>
-
+  </div>
+</section>
 
 <div id="layout">
   <div id="sidebar">Loading...</div>
   <div id="main">Select a document</div>
 </div>
 
-<button id="toggleSidebar">☰</button>
+<div id="sidebarTab" onclick="openSidebar()">☰</div>
 
+<div id="backToTop" onclick="scrollToTop()">↑</div>
+
+<br></br>
 
   <custom-footer></custom-footer>
 
@@ -573,10 +752,16 @@ async function loadAct(path) {
   const res = await fetch(path);
   const text = await res.text();
 
-  const doc = parseLegislation(text);
+const doc = parseLegislation(text);
 
-  buildSidebar(doc);
-  document.getElementById("main").innerHTML = renderLegislation(doc);
+// 👇 update header dynamically
+document.getElementById("actTitle").textContent = doc.title;
+
+buildSidebar(doc);
+document.getElementById("main").innerHTML = renderLegislation(doc);
+
+document.getElementById("actMeta").textContent =
+  `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
 }
 
 function parseLegislation(text) {
@@ -632,7 +817,8 @@ function parseLegislation(text) {
       currentSection = {
         number: line.replace("SECTION:", "").trim(),
         heading: "",
-        clauses: []
+        clauses: [],
+        footnotes: []
       };
       currentPart.sections.push(currentSection);
     }
@@ -644,10 +830,21 @@ function parseLegislation(text) {
     else if (/^\d+\./.test(line)) {
       currentSection.clauses.push(line);
     }
+    
+    /* 👇 ADD THIS BLOCK RIGHT HERE */
+else if (line.startsWith("AMENDMENT:")) {
+  if (currentSection) {
+    currentSection.footnotes.push(
+      line.replace("AMENDMENT:", "").trim()
+    );
+  }
+}
 
     else {
       if (currentSection) currentSection.clauses.push(line);
     }
+
+    
   }
 
   return doc;
@@ -715,8 +912,18 @@ function renderLegislation(doc) {
         html += `<div class="clause level-${level}">${formatted}</div>`;
       }
 
-      html += `</div></div>`;
-    }
+// footnotes (NEW)
+if (section.footnotes && section.footnotes.length > 0) {
+  html += `<div class="footnotes">`;
+
+  section.footnotes.forEach(note => {
+    html += `<div class="footnote">${note}</div>`;
+  });
+
+  html += `</div>`;
+}
+
+html += `</div></div>`;    }
   }
 
   return html;
@@ -724,19 +931,40 @@ function renderLegislation(doc) {
 
 function buildSidebar(doc) {
   const sidebar = document.getElementById("sidebar");
-  sidebar.innerHTML = `<div class="sidebar-title">Contents</div>`;
-  sectionLinks = {}; // reset
+  const partFirstSection = {};
+sidebar.innerHTML = `
+  <div class="section-link contents-row">
+    <div class="section-code">Contents</div>
+    <div class="section-name"></div>
+
+    <button id="sidebarCloseBtn" class="sidebar-close">☰</button>
+  </div>
+`; sectionLinks = {}; // reset
 
   doc.parts.forEach(part => {
-    const partEl = document.createElement("div");
-    partEl.style.padding = "10px 8px";
-    partEl.style.fontWeight = "900";
-    partEl.style.marginTop = "10px";
-    partEl.style.borderTop = "1px solid #ddd";
-    partEl.innerText = `Part ${part.number}`;
-    sidebar.appendChild(partEl);
+const partEl = document.createElement("div");
+partEl.className = "section-link part-link";
+
+partEl.innerHTML = `
+  <div class="section-code">Part ${part.number}</div>
+  <div class="section-name">${part.title || ""}</div>
+`;
+
+partEl.onclick = () => {
+  const first = partFirstSection[part.number];
+
+  document.querySelector(`#section-${first}`)
+    ?.scrollIntoView({ behavior: "auto" });
+
+  setActive(first);
+};
+
+sidebar.appendChild(partEl);
 
     part.sections.forEach(sec => {
+        if (!partFirstSection[part.number]) {
+  partFirstSection[part.number] = sec.number;
+}
       const row = document.createElement("div");
       row.className = "section-link";
 
@@ -767,10 +995,24 @@ function setActive(id) {
 
   if (active) {
     active.classList.add("active");
-    keepInSidebarView(active); // 👈 clean internal scroll control
+    keepInSidebarView(active);
   }
 
   activeId = id;
+
+  // 💙 NEW: highlight the part too
+  const sectionEl = document.querySelector(`#section-${id}`);
+  if (sectionEl) {
+    const partBlock = sectionEl.closest(".part");
+    
+    document.querySelectorAll(".part").forEach(p => {
+      p.classList.remove("active-part");
+    });
+
+    if (partBlock) {
+      partBlock.classList.add("active-part");
+    }
+  }
 }
 
 function keepInSidebarView(el) {
@@ -790,28 +1032,98 @@ function keepInSidebarView(el) {
 }
 
 window.addEventListener("scroll", () => {
-  let current = null;
+  const viewportMiddle = window.innerHeight / 2;
+
+  let closestId = null;
+  let closestDistance = Infinity;
 
   document.querySelectorAll(".section").forEach(sec => {
     const rect = sec.getBoundingClientRect();
-    if (rect.top <= 180) current = sec.id.replace("section-", "");
+
+    const sectionMiddle = rect.top + rect.height / 2;
+    const distance = Math.abs(sectionMiddle - viewportMiddle);
+
+    if (distance < closestDistance) {
+      closestDistance = distance;
+      closestId = sec.id.replace("section-", "");
+    }
   });
 
-  if (current && current !== activeId) {
-    setActive(current);
+  if (closestId && closestId !== activeId) {
+    setActive(closestId);
   }
 });
-
-document.getElementById("toggleSidebar").onclick = () => {
-  document.body.classList.toggle("sidebar-hidden");
-};
 
 function toggleContents() {
   document.getElementById("contents-box").classList.toggle("open");
 }
 
+document.addEventListener("click", (e) => {
+  if (e.target.id === "sidebarCloseBtn") {
+    document.body.classList.add("sidebar-hidden");
+  }
+});
 
+function openSidebar() {
+  document.body.classList.remove("sidebar-hidden");
+}
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+  const current = window.scrollY;
+
+  if (current > 40) {
+    document.body.classList.add("nav-hidden");
+  } else {
+    document.body.classList.remove("nav-hidden");
+  }
+
+  lastScroll = current;
+});
+
+window.addEventListener("scroll", () => {
+  const y = window.scrollY;
+
+  if (y > 120) {
+    document.body.classList.add("compact-header");
+    document.body.classList.add("header-fixed");
+  } else {
+    document.body.classList.remove("compact-header");
+    document.body.classList.remove("header-fixed");
+  }
+});
+
+function downloadActPDF() {
+  if (!currentDoc || !currentDoc.actNumber) return;
+
+  const fileName = currentDoc.actNumber.trim() + ".pdf";
+  const filePath = "formatted-legislation/" + fileName;
+
+  // IMPORTANT: just open it directly (most reliable)
+  window.open(filePath, "_blank");
+}
 </script>
+<script src="components/navbar.js"></script>
 <script src="components/footer.js"></script>
+
+
 </body>
 </html>
