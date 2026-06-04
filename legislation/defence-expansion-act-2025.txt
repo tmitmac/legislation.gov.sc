@@ -1,4 +1,4 @@
-﻿Defence Expansion Act 2025
+Defence Expansion Act 2025
 ________________
 
 
@@ -6,17 +6,21 @@ ________________
 
 TITLE: Defence Expansion Act 2025
 
+ACTNUMBER: 2025 No 43
 
 STATUS: In Force
 
+VERSION: Latest Version
 
-VERSION: 30 November 2025
+AGENCY: Ministry of Defence
 
+DATEOFASSENT: 6 November 2025
 
-ADMINISTERED: Ministry of Defence
+COMMENCEMENT: see section 2
 
+PARTNUMBER: 1
 
-PART: Preliminary Provisions
+PARTTITLE: Preliminary Provisions
 
 
 An act to strengthen the national defence of Square Country; to increase funding, modernise capabilities, and improve efficiency in the management and oversight of the armed forces; and to provide for related matters.
@@ -28,7 +32,7 @@ SECTION: 1
 HEADING: Short Title
 
 
-This Act may be cited as the Defence Expansion Act 2025.
+This Act may be cited as the **Defence Expansion Act 2025**.
 
 
 SECTION: 2
@@ -59,12 +63,12 @@ SECTION: 4
 HEADING: Interpretation
         
 In this Act, unless context otherwise requires—
-“Armed Forces” means the Army, Navy, Air Force, and any other service established under law.
-“Commissioner” means the Chief of Defence Administration appointed under section 10.
-“Department” means the Department Of Defence.
-“Minister” means the Minister of Defence.
-“Funding” means all appropriated sums allocated for defence purposes.
-“Officers” means persons employed by the Ministry of Defence in the performance of its
+**“Armed Forces”** means the Army, Navy, Air Force, and any other service established under law.
+**“Commissioner”** means the Chief of Defence Administration appointed under section 10.
+**“Department”** means the Department Of Defence.
+**“Minister”** means the Minister of Defence.
+**“Funding”** means all appropriated sums allocated for defence purposes.
+**“Officers”** means persons employed by the Ministry of Defence in the performance of its
 functions.
 
 
@@ -99,7 +103,9 @@ principles—
 5. Strategic modernisation and capability development.
 
 
-PART: Establishment and Administration
+PARTNUMBER: 2
+
+PARTTITLE: Establishment and Administration
 
 
 SECTION: 8
@@ -118,13 +124,13 @@ SECTION: 9
 HEADING: Functions of the Department
         
 The functions of the Department are to—
-1. manage and allocate defence funding;
-2. oversee procurement, maintenance, and modernisation of equipment;
-3. ensure operational readiness of all branches of the armed forces;
-4. provide advice to the Prime Minister and Cabinet on defence policy and strategic planning;
-5. maintain training, welfare, and education programs for military personnel;
-6. audit, monitor, and report on the use of defence resources; and
-7. perform any other function conferred by this or any other enactment.
+(a) manage and allocate defence funding;
+(b) oversee procurement, maintenance, and modernisation of equipment;
+(c) ensure operational readiness of all branches of the armed forces;
+(d) provide advice to the Prime Minister and Cabinet on defence policy and strategic planning;
+(e) maintain training, welfare, and education programs for military personnel;
+(f) audit, monitor, and report on the use of defence resources; and
+(g) perform any other function conferred by this or any other enactment.
 
 
 SECTION: 10
@@ -188,7 +194,10 @@ HEADING: Annual Reports
         
 1. The Chief shall submit annual reports on defence funding usage, modernisation progress, and readiness levels.
 2. Reports shall be laid before Parliament.
-PART: Defence Funding Framework
+
+PARTNUMBER: 3
+
+PARTTITLE: Defence Funding Framework
 
 
 SECTION: 16
@@ -231,8 +240,10 @@ The Department shall ensure that the Armed Forces maintain readiness levels cons
 national security requirements, including personnel training, maintenance of equipment, and
 strategic deployments.
 
+PARTNUMBER: 4
 
-PART: Oversight and Reporting
+
+PARTTITLE: Oversight and Reporting
 
 
 SECTION: 20
@@ -263,7 +274,9 @@ All officers shall maintain records and provide documentation to ensure public a
 defence funds.
 
 
-PART: Miscellaneous and Final Provisions
+PARTNUMBER: 5
+
+PARTTITLE: Miscellaneous and Final Provisions
 
 
 SECTION: 23
