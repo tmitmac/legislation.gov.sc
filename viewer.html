@@ -5,41 +5,378 @@
 
   <style>
     body {
-      display: flex;
-      margin: 0;
-      font-family: Georgia;
-    }
+  margin: 0;
+  font-family: Times;
+}
 
-    #sidebar {
-      width: 260px;
-      border-right: 1px solid #ccc;
-      padding: 10px;
-      overflow-y: auto;
-      height: 100vh;
-    }
 
-    #main {
+
+
+/* layout pushed below navbar + titlebar */
+#layout {
+  display: flex;
+  margin-top: 128px; /* 72px navbar + 56px titlebar */
+  height: calc(100vh - 128px);
+}
+
+
+/* sidebar */
+#sidebar {
+  width: 380px;
+  border-right: 1px solid #ddd;
+  padding: 12px;
+  overflow-y: auto;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  transition: transform 0.3s ease;
+}
+
+/* main content expands */
+#main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* hidden state */
+body.sidebar-hidden #sidebar {
+  transform: translateX(-100%);
+}
+
+/* expand main when sidebar hidden */
+body.sidebar-hidden #layout {
+  margin-left: -380px;
+}
+
+/* toggle button */
+#toggleSidebar {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 999;
+  padding: 8px 12px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}   
+    
+
+
+/* title */
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.act-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.act-header-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.act-header-meta {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.act-header-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.act-header-row {
+  display: contents;
+}
+
+.act-label {
+  text-align: right;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.act-value {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.contents-bar {
+  display: grid;
+  grid-template-columns: 160px 1fr 160px;
+  align-items: center;
+
+  width: 700px;
+  margin: 30px auto 0 auto;
+
+  background: white;
+  border: 1px solid #bbb;
+  height: 60px;
+}
+
+.contents-btn {
+  font-family: Times;
+  font-size: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.contents-title {
+  text-align: center;
+  font-family: Times;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.contents-wrapper {
+  width: 700px;
+  margin: 30px auto 50px auto;
+  text-align: left;
+}
+
+.contents-toggle {
+  width: 100%;
+  padding: 12px;
+  font-weight: 700;
+  background: #0f172a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.contents-box {
+  max-height: 0;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-top: none;
+  background: #fafafa;
+  transition: max-height 0.3s ease;
+}
+
+.contents-box.open {
+  max-height: 260px;
+}
+
+.contents-item {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.contents-item:hover {
+  background: #f3f4f6;
+}
+
+/* PART block */
+.part-block {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+/* PART header (boldest row) */
+.part-header {
+  padding: 14px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6;
+  font-size: 15px;
+}
+
+.part-header:hover {
+  background: #e5e7eb;
+}
+
+/* slide-out container */
+.section-list {
+  display: none;
+  border-top: 1px solid #eee;
+}
+
+/* expanded state */
+.part-block.open .section-list {
+  display: block;
+}
+
+/* EACH ROW (taller + table-like) */
+.section-link {
+  display: flex;
+  gap: 12px;
+  padding: 14px 12px; /* 👈 taller rows */
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: center;
+  min-height: 48px; /* 👈 ensures height */
+}
+
+.section-link:hover {
+  background: #f5f5f5;
+}
+
+/* section number column */
+.section-code {
+  font-weight: 800;
+  min-width: 70px;
+  color: #111;
+}
+
+/* section title */
+.section-name {
+  font-weight: 600;
+  color: #333;
+  line-height: 1.2;
+}
+
+/* section number */
+.section-code {
+  font-weight: 800;
+  min-width: 60px;
+}
+
+/* section title */
+.section-name {
+  font-weight: 600;
+  color: #333;
+}
+
+        #main {
       flex: 1;
       padding: 30px;
       height: 100vh;
       overflow-y: auto;
     }
 
-    .section-link {
-      cursor: pointer;
-      padding: 5px;
-    }
+    h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
 
-    .section-link:hover {
-      background: #eee;
-    }
+h2 {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.part {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.part-number {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.part-title {
+  font-size: 20px;
+  font-weight: 700; /* make bold */
+  margin-top: 4px;
+  color: #333;
+}
+
+.section {
+  margin-top: 22px;
+  padding-top: 10px;
+}
+
+.section-header {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  margin-bottom: 6px;
+  line-height: 2;
+}
+
+.section-row {
+  display: flex;
+  gap: 12px;
+  margin: 6px 0;
+}
+
+.section-number {
+  min-width: 55px;
+  font-weight: 700;
+  color: #111;
+}
+
+.section-title {
+  font-size: 18px;   /* bigger than body */
+  font-weight: 600;
+  color: #111;
+}
+
+.section-body {
+  flex: 1;
+}
+
+.section-text {
+  margin-left: 71px;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.25;
+}
+
+/* base clause */
+.clause {
+  margin: 3px 0;
+}
+
+/* subclause levels */
+.level-1 {
+  margin-left: 0px;
+}
+
+.level-2 {
+  margin-left: 20px;
+}
+
+.level-3 {
+  margin-left: 40px;
+}
+
   </style>
 </head>
 
+
 <body>
 
-<div id="sidebar">Loading...</div>
-<div id="main">Select a document</div>
+
+
+<div id="layout">
+  <div id="sidebar">Loading...</div>
+  <div id="main">Select a document</div>
+</div>
+
+<button id="toggleSidebar">☰</button>
+
 
 
 
@@ -59,13 +396,29 @@ async function loadAct(path) {
 
   buildSidebar(doc);
   document.getElementById("main").innerHTML = renderLegislation(doc);
+
+  
+
+  // TITLE BAR (always active act)
+  document.getElementById("docTitle").innerText = doc.title;
+
+  document.getElementById("docMeta").innerText =
+    `Act No: ${doc.actNumber || "—"} | ${doc.status || "—"} | ${doc.version || "—"} | ${doc.agency || "—"}`;
 }
 
 function parseLegislation(text) {
   const lines = text.split("\n");
 
-  let doc = { title: "", status: "", version: "", parts: [] };
-
+    let doc = {
+    title: "",
+    actNumber: "",
+    status: "",
+    version: "",
+    agency: "",
+    dateOfAssent: "",
+    commencement: "",
+    parts: []
+    };
   let currentPart = null;
   let currentSection = null;
 
@@ -73,13 +426,37 @@ function parseLegislation(text) {
     line = line.trim();
 
     if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
-    else if (line.startsWith("STATUS:")) doc.status = line.replace("STATUS:", "").trim();
-    else if (line.startsWith("VERSION:")) doc.version = line.replace("VERSION:", "").trim();
+else if (line.startsWith("ACTNUMBER:")) {
+  doc.actNumber = line.replace("ACTNUMBER:", "").trim();
+}
 
-    else if (line.startsWith("PART:")) {
-      currentPart = { name: line.replace("PART:", "").trim(), sections: [] };
-      doc.parts.push(currentPart);
-    }
+else if (line.startsWith("AGENCY:")) {
+  doc.agency = line.replace("AGENCY:", "").trim();
+}
+
+else if (line.startsWith("DATEOFASSENT:")) {
+  doc.dateOfAssent = line.replace("DATEOFASSENT:", "").trim();
+}
+
+else if (line.startsWith("COMMENCEMENT:")) {
+  doc.commencement = line.replace("COMMENCEMENT:", "").trim();
+}
+
+else if (line.startsWith("PARTNUMBER:")) {
+  currentPart = {
+    number: line.replace("PARTNUMBER:", "").trim(),
+    title: "",
+    sections: []
+  };
+
+  doc.parts.push(currentPart);
+}
+
+else if (line.startsWith("PARTTITLE:")) {
+  if (currentPart) {
+    currentPart.title = line.replace("PARTTITLE:", "").trim();
+  }
+}
 
     else if (line.startsWith("SECTION:")) {
       currentSection = {
@@ -112,35 +489,104 @@ else {
 }
 
 function renderLegislation(doc) {
-  let html = `<h1>${doc.title}</h1>`;
-  html += `<p>${doc.status} | ${doc.version}</p>`;
+let html = `
+<div class="act-header">
+
+  <div class="act-header-title">
+    ${doc.title}
+  </div>
+
+  <div class="act-header-details">
+
+    <div class="act-header-row">
+      <div class="act-label">Public Act</div>
+      <div class="act-value">${doc.actNumber}</div>
+    </div>
+
+    <div class="act-header-row">
+      <div class="act-label">Date of assent</div>
+      <div class="act-value">${doc.dateOfAssent}</div>
+    </div>
+
+    <div class="act-header-row">
+      <div class="act-label">Commencement</div>
+      <div class="act-value">${doc.commencement}</div>
+    </div>
+
+  </div>
+
+</div>
+`;
+
+html += `
+<div class="contents-wrapper">
+
+  <div class="contents-bar">
+
+    <button class="contents-btn" onclick="toggleContents()">
+      Show Contents \/
+    </button>
+
+    <div class="contents-title">
+      Contents
+    </div>
+
+    <div class="contents-spacer"></div>
+
+  </div>
+
+  <div id="contents-box" class="contents-box">
+  </div>
+
+</div>
+`;
 
   for (const part of doc.parts) {
-    html += `<h2>${part.name}</h2>`;
+
+    // FIX: use structured fields instead of part.name
+    html += `
+      <div class="part">
+        <div class="part-number">Part ${part.number}</div>
+        <div class="part-title">${part.title}</div>
+      </div>
+    `;
 
     for (const section of part.sections) {
 
-      // 🔥 BOLD SECTION HEADER (number + title)
+      html += `<div class="section" id="section-${section.number}">`;
+
       html += `
-        <div id="section-${section.number}">
-          <h3 style="font-weight: bold;">
-            Section ${section.number}: ${section.heading}
-          </h3>
+        <div class="section-header">
+          <div class="section-number">${section.number}</div>
+          <div class="section-title">${section.heading}</div>
+        </div>
       `;
 
-for (const clause of section.clauses) {
+      html += `<div class="section-text">`;
 
-  let formatted = clause;
+      for (const clause of section.clauses) {
 
-  // only convert numbers like 1. 2. 3.
-  formatted = formatted.replace(/^(\d+)\.\s*/, "($1) ");
+        let level = 1;
 
-  // DO NOT touch letters — they are already correct
+        // subclause detection
+        if (/^\(\w+\)/.test(clause)) level = 2;
+        if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
 
-  html += `<p>${formatted}</p>`;
-}
+        let formatted = clause.replace(/^(\d+)\.\s*/, "($1) ");
 
-      html += `</div>`;
+        formatted = formatted.replace(
+  /\*\*(.*?)\*\*/g,
+  "<strong>$1</strong>"
+);
+
+        html += `
+          <div class="clause level-${level}">
+            ${formatted}
+          </div>
+        `;
+      }
+
+      html += `</div></div>`;
     }
   }
 
@@ -149,26 +595,49 @@ for (const clause of section.clauses) {
 
 function buildSidebar(doc) {
   const sidebar = document.getElementById("sidebar");
-  sidebar.innerHTML = `<h3>${doc.title}</h3>`;
+
+  sidebar.innerHTML = `<div class="sidebar-title">Contents</div>`;
+
 
   doc.parts.forEach(part => {
+    // PART header (not collapsible)
     const partEl = document.createElement("div");
-    partEl.innerHTML = `<b>${part.name}</b>`;
+    partEl.style.padding = "10px 8px";
+    partEl.style.fontWeight = "900";
+    partEl.style.marginTop = "10px";
+    partEl.style.borderTop = "1px solid #ddd";
+
+    partEl.innerText = `Part ${part.number}`;
+
     sidebar.appendChild(partEl);
 
+    // sections under each part
     part.sections.forEach(sec => {
-      const link = document.createElement("div");
-      link.className = "section-link";
-      link.innerText = "Section " + sec.number;
+      const row = document.createElement("div");
+      row.className = "section-link";
 
-      link.onclick = () => {
+      row.innerHTML = `
+        <div class="section-code">${sec.number}</div>
+        <div class="section-name">${sec.heading}</div>
+      `;
+
+      row.onclick = () => {
         document.querySelector(`#section-${sec.number}`)
           ?.scrollIntoView({ behavior: "smooth" });
       };
 
-      sidebar.appendChild(link);
+      sidebar.appendChild(row);
     });
   });
+  
+}
+
+document.getElementById("toggleSidebar").onclick = () => {
+  document.body.classList.toggle("sidebar-hidden");
+};
+
+function toggleContents() {
+  document.getElementById("contents-box").classList.toggle("open");
 }
 </script>
 
