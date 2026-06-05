@@ -1,16 +1,10 @@
-Defence Expansion Act 2025
-________________
-
-
-
-
 TITLE: Defence Expansion Act 2025
 
 ACTNUMBER: 2025 No 43
 
 STATUS: In Force
 
-VERSION: Latest Version
+VERSION: latest
 
 AGENCY: Ministry of Defence
 
