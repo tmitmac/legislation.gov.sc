@@ -4,7 +4,7 @@ class CustomFooter extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <style>
         footer {
-          background: #1e293b;
+          background: #034490;
           font-family: arial;
           color: white;
           padding: 2rem;
@@ -43,8 +43,8 @@ class CustomFooter extends HTMLElement {
         .copyright {
           margin-top: 2rem;
           padding-top: 1rem;
-          border-top: 1px solid #334155;
-          color: #9ca3af;
+          border-top: 1px solid #d3dbe3;
+          color: #d3dbe3;
           font-size: 0.875rem;
         }
         @media (max-width: 768px) {
@@ -90,7 +90,7 @@ class CustomFooter extends HTMLElement {
           </div>
         </div>
         <div class="copyright">
-          &copy; ${new Date().getFullYear()} Square Country Government. All rights reserved.
+          &copy; ${new Date().getFullYear()} Parliamentary Counsel Office | Square Country Government. All rights reserved.
         </div>
       </footer>
     `;
