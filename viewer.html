@@ -419,6 +419,73 @@ h2 {
   pointer-events: auto;
 }
 
+#searchOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+}
+
+#searchBox {
+  position: absolute;
+  top: 120px;
+  right: 40px;
+  width: 380px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 25px rgba(0,0,0,.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-header {
+  padding: 12px;
+  font-weight: 700;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  font-family: arial;
+}
+
+.search-header button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-body {
+  display: flex;
+  gap: 6px;
+  padding: 12px;
+}
+
+.search-body input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-body button {
+  width: 40px;
+  cursor: pointer;
+}
+
+#searchCount {
+  padding: 0 12px 12px;
+  color: #666;
+  font-size: 13px;
+}
+
+.search-match {
+  background: #fff176;
+  color: black;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+.search-match.current-match {
+  background: #ff9800;
+  color: black;
+}
+
   </style>
 <style>
 /* Page background */
@@ -620,8 +687,6 @@ body.compact-header .bottom-row {
   align-items: center;
   gap: 20px;
   padding-bottom: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-  sans-serif;
 }
 
 .action {
@@ -632,7 +697,8 @@ body.compact-header .bottom-row {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
 }
 
 .action svg {
@@ -681,7 +747,7 @@ body.compact-header .bottom-row {
           Download
         </a>
 
-        <a href="#" class="action">
+        <a href="#" class="action" onclick="openSearchBox(); return false;">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="7"></circle>
             <path d="M20 20l-4-4"></path>
@@ -1158,10 +1224,176 @@ function updateBadges(doc) {
     versionEl.className = "badge badge-red";
   }
 }
+
+let searchMatches = [];
+let currentMatch = -1;
+
+function openSearchBox() {
+  document.getElementById("searchOverlay").style.display = "block";
+  document.getElementById("searchInput").focus();
+}
+
+function closeSearchBox() {
+  document.getElementById("searchOverlay").style.display = "none";
+}
+
+function clearHighlights() {
+  document.querySelectorAll(".search-match").forEach(el => {
+    el.outerHTML = el.textContent;
+  });
+}
+
+function highlightMatches(term) {
+  clearHighlights();
+
+  if (!term) return;
+
+  const regex = new RegExp(
+    term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+    "gi"
+  );
+
+  document.querySelectorAll(
+    ".section-title, .clause, .footnote"
+  ).forEach(el => {
+    el.innerHTML = el.innerHTML.replace(
+      regex,
+      match => `<span class="search-match">${match}</span>`
+    );
+  });
+}
+
+function searchContent() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim()
+    .toLowerCase();
+
+  searchMatches = [];
+  currentMatch = -1;
+
+  clearHighlights();
+
+  if (!term) return;
+
+  highlightMatches(term);
+
+  document.querySelectorAll(".section").forEach(section => {
+    if (section.textContent.toLowerCase().includes(term)) {
+      searchMatches.push(section);
+    }
+  });
+
+  document.getElementById("searchCount").textContent =
+    `${searchMatches.length} result(s)`;
+
+  if (searchMatches.length) {
+    currentMatch = 0;
+    goToMatch();
+  }
+}
+
+function goToMatch() {
+
+  document
+    .querySelectorAll(".search-match")
+    .forEach(el => el.classList.remove("current-match"));
+
+  if (
+    currentMatch < 0 ||
+    currentMatch >= searchMatches.length
+  ) return;
+
+  const section = searchMatches[currentMatch];
+
+  const firstMatch =
+    section.querySelector(".search-match");
+
+  if (firstMatch) {
+    firstMatch.classList.add("current-match");
+  }
+
+  const rect = section.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "smooth"
+  });
+
+  document.getElementById("searchCount").textContent =
+    `${currentMatch + 1} of ${searchMatches.length}`;
+}
+
+function searchNext() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim();
+
+  if (!searchMatches.length) {
+    searchContent();
+    return;
+  }
+
+  currentMatch++;
+
+  if (currentMatch >= searchMatches.length) {
+    currentMatch = 0;
+  }
+
+  goToMatch();
+}
+
+function searchPrevious() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim();
+
+  if (!searchMatches.length) {
+    searchContent();
+    return;
+  }
+
+  currentMatch--;
+
+  if (currentMatch < 0) {
+    currentMatch = searchMatches.length - 1;
+  }
+
+  goToMatch();
+}
 </script>
 <script src="components/navbar.js"></script>
 <script src="components/footer.js"></script>
 
+<div id="searchOverlay" style="display:none;">
+  <div id="searchBox">
+    <div class="search-header">
+      Search content
+      <button onclick="closeSearchBox()">✕</button>
+    </div>
+
+    <div class="search-body">
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Search this Act..."
+        onkeydown="if(event.key==='Enter') searchContent()"
+      >
+
+      <button onclick="searchPrevious()">◀</button>
+      <button onclick="searchNext()">▶</button>
+    </div>
+
+    <div id="searchCount"></div>
+  </div>
+</div>
 
 </body>
 </html>
