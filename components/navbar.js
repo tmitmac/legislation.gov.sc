@@ -126,6 +126,10 @@ body.nav-hidden .leg-nav {
     font-weight: 600;
 }
 
+.search-btn:hover {
+    background: #0f5cb4;
+}
+
 .advanced-search {
     margin-left: 26px;
     font-size: 14px;
