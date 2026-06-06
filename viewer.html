@@ -703,32 +703,34 @@ body.compact-header .bottom-row {
   height: 30px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
 
-  /* force sidebar gone */
-  #sidebar {
-    display: none !important;
-    width: 0 !important;
-    min-width: 0 !important;
-    flex: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* stop flex layout from reserving space */
+  /* kill layout system entirely */
   #layout {
     display: block !important;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
   }
 
-  /* main takes full width */
+  /* HARD REMOVE sidebar */
+  #sidebar {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    left: -99999px !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* main becomes full screen */
   #main {
     width: 100% !important;
     padding: 12px !important;
   }
 
-  /* hide toggle tab too */
+  /* hide toggle */
   #sidebarTab {
     display: none !important;
   }
@@ -759,7 +761,7 @@ body.compact-header .bottom-row {
     <div class="bottom-row">
       <div class="tabs">
         <a href="#" class="tab active">Principal Act</a>
-        <a href="index.html" class="tab-version">Versions (67)</a>
+        <a href="index.html" class="tab-version">Versions (2)</a>
         <a href="#" class="tab-related">Related Bill (0)</a>
       </div>
 
