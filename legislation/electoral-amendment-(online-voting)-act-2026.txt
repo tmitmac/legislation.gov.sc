@@ -4,7 +4,7 @@ ACTNUMBER: 2026 No 01
 
 STATUS: In Force
 
-VERSION: Latest Version
+VERSION: Latest
 
 AGENCY: Ministry of Justice
 
