@@ -258,12 +258,7 @@ body.sidebar-hidden #sidebarTab {
   color: #111;
 }
 
-/* section title */
-.section-name {
-  font-weight: 600;
-  color: #333;
-  line-height: 1.2;
-}
+
 
 /* section number */
 .section-code {
@@ -275,9 +270,11 @@ body.sidebar-hidden #sidebarTab {
 
 /* section title */
 .section-name {
-  font-weight: 400;
+  font-weight: 500;
   color: #126cd3;
   font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
 }
 
 .part-link {
@@ -706,7 +703,28 @@ body.compact-header .bottom-row {
   height: 30px;
 }
 
+/* MOBILE: hide sidebar completely */
+@media (max-width: 768px) {
+  #sidebar {
+    display: none !important;
+  }
 
+  #layout {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  #main {
+    width: 100%;
+    flex: none;
+    padding: 15px;
+  }
+
+  /* also hide sidebar toggle tab since it's useless */
+  #sidebarTab {
+    display: none !important;
+  }
+}
 </style>
 </head>
 
@@ -799,7 +817,7 @@ buildSidebar(doc);
 document.getElementById("main").innerHTML = renderLegislation(doc);
 
 document.getElementById("actMeta").textContent =
-  `(as enacted) | ${doc.actNumber} | Administered by the ${doc.agency}`;
+  `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
 }
 
 function parseLegislation(text) {
@@ -808,6 +826,7 @@ function parseLegislation(text) {
   let doc = {
     title: "",
     actNumber: "",
+    type: "",
     status: "",
     version: "",
     agency: "",
@@ -835,6 +854,10 @@ function parseLegislation(text) {
 
     else if (line.startsWith("COMMENCEMENT:"))
       doc.commencement = line.replace("COMMENCEMENT:", "").trim();
+
+
+else if (line.startsWith("TYPE:"))
+  doc.type = line.replace("TYPE:", "").trim();
 
       else if (line.startsWith("STATUS:"))
   doc.status = line.replace("STATUS:", "").trim();
@@ -1193,9 +1216,21 @@ function updateBadges(doc) {
   const versionEl = document.getElementById("badgeVersion");
 
   // TYPE
-  typeEl.textContent = "Act";
-  typeEl.className = "badge badge-gray";
+ if (doc.type?.toLowerCase() === "act") {
+    typeEl.textContent = "Act";
+    typeEl.className = "badge badge-gray";
+  } else if (doc.type?.toLowerCase() === "bill") {
+    typeEl.textContent = "Bill";
+    typeEl.className = "badge badge-gray";
+  } else if (doc.type?.toLowerCase() === "secondary") {
+    typeEl.textContent = "Secondary Legislation";
+    typeEl.className = "badge badge-gray";    
+  } else {
+    typeEl.textContent = doc.type || "Unknown";
+    typeEl.className = "badge badge-gray";
+  }
 
+  
   // STATUS (example logic)
   if (doc.status?.toLowerCase() === "in force") {
     statusEl.textContent = "In force";
@@ -1208,6 +1243,9 @@ function updateBadges(doc) {
     statusEl.className = "badge badge-red";
   } else if (doc.status?.toLowerCase() === "revoked") {
     statusEl.textContent = "Revoked";
+    statusEl.className = "badge badge-red";
+  } else if (doc.status?.toLowerCase() === "terminated") {
+    statusEl.textContent = "Terminated";
     statusEl.className = "badge badge-red";
   } else {
     statusEl.textContent = doc.status || "Unknown";
