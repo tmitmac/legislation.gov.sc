@@ -703,24 +703,32 @@ body.compact-header .bottom-row {
   height: 30px;
 }
 
-/* MOBILE: hide sidebar completely */
 @media (max-width: 768px) {
+
+  /* force sidebar gone */
   #sidebar {
     display: none !important;
+    width: 0 !important;
+    min-width: 0 !important;
+    flex: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
+  /* stop flex layout from reserving space */
   #layout {
+    display: block !important;
     padding-left: 0 !important;
     margin-left: 0 !important;
   }
 
+  /* main takes full width */
   #main {
-    width: 100%;
-    flex: none;
-    padding: 15px;
+    width: 100% !important;
+    padding: 12px !important;
   }
 
-  /* also hide sidebar toggle tab since it's useless */
+  /* hide toggle tab too */
   #sidebarTab {
     display: none !important;
   }
