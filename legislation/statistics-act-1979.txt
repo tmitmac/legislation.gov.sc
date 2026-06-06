@@ -4,7 +4,7 @@ ACTNUMBER: 1979 No 12
 
 STATUS: In Force
 
-VERSION: Latest Version
+VERSION: Latest
 
 AGENCY: National Statistics Office
 
