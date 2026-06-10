@@ -1,0 +1,270 @@
+TITLE: Electoral (Online Voting) Amendment Act 2026
+
+ACTNUMBER: 2026 No 01
+
+STATUS: In Force
+
+TYPE: Act
+
+VERSION: Latest
+
+AGENCY: Ministry of Justice & Corrections and Electoral Commission
+
+DATEOFASSENT: 20 January 2026
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions                                                                   
+
+LONGTITLE: An Act to amend the Electoral Act 1986; to provide for the establishment and operation of a secure online voting system; to enable electors to cast votes electronically at general elections, by‑elections, and referendums; and to ensure the integrity, secrecy, accessibility, and proper administration of online voting in Square Country.
+
+
+SECTION: 1
+
+
+HEADING: Short Title
+
+
+This Act is the **Electoral (Online Voting) Amendment Act 2026**.
+
+
+SECTION: 2
+
+
+HEADING: Commencement
+        
+1. This Act comes into force on a date appointed by the Governor-General by Order in Council.
+2. Different provisions may be brought into force on different dates.
+
+
+SECTION: 3
+
+
+HEADING: Purpose
+
+
+The purposes of this Act are—
+1. to permit electors to cast votes electronically using an approved online voting system;
+2. to ensure that online voting is secure, accessible, and verifiable;
+3. to maintain the secrecy and integrity of the ballot;
+4. to supplement the Electoral Act 1986 without replacing existing voting methods.
+
+
+SECTION: 4
+
+
+HEADING: Act binds the crown
+        
+This Act binds the crown in right of Square Country.
+
+
+SECTION: 5
+
+
+HEADING: Interpretation
+        
+In this Act, unless the context otherwise requires—
+**“Commission”** means the Electoral Commission established under the Electoral Act 1986.
+**“Online vote”** means a vote cast using the online voting system established under this Act.
+**“Online voting system”** means the secure electronic system approved by the Commission for the purpose of casting votes.
+**“Polling day”** has the meaning given in the Electoral Act 1986.
+
+PARTNUMBER: 2
+
+PARTTITLE: Establishment of Online Voting System
+
+
+SECTION: 6
+
+
+HEADING: Authority to establish online voting
+        
+1. The Commission may establish and operate an online voting system for use in—
+(a) general elections;
+(b) by-elections;
+(c) referendums.
+2. The system must comply with technical and security standards prescribed by regulations.
+
+
+SECTION: 7
+
+
+HEADING: Application of this Act
+        
+This Act applies in addition to the Electoral Act 1986.
+
+
+SECTION: 8
+
+
+HEADING: Relationship with Electoral Act 1986
+        
+If any provision of this Act conflicts with the Electoral Act 1986, the Electoral Act prevails unless this Act expressly states otherwise.
+
+PARTNUMBER: 3
+
+PARTTITLE: Operation of Online Voting
+
+
+SECTION: 9
+
+
+HEADING: Eligibility to cast an online vote
+
+
+1. Any elector whose name appears on the electoral roll may cast an online vote.
+2. An elector may cast either—
+(a) an online vote; or
+(b) a vote at a polling place; but not both.
+
+
+SECTION: 10
+
+
+HEADING: Authentication of electors
+        
+1. The Commission must establish secure authentication procedures.
+2. Authentication may include—
+(a) multi-factor verification;
+(b) unique voting credentials;
+(c) identity checks against the electoral roll.
+3. Authentication procedures must not compromise ballot secrecy.
+
+
+SECTION: 11
+
+
+HEADING: Casting of online votes
+        
+1. An elector may cast an online vote only through the online voting system.
+2. The system must provide clear instructions for voting.
+3. The system must prevent duplicate voting.
+
+
+SECTION: 12
+
+
+HEADING: Secrecy of online voting
+        
+1. A vote cast online must be secret.
+2. No person may—
+(a) attempt to discover how an elector voted online;
+(b) require an elector to reveal their online vote;
+(c) interfere with an elector casting an online vote.
+3. A person who contravenes this section commits an offence.
+
+
+SECTION: 13
+
+
+HEADING: Receipt and recording of online votes
+
+
+1. The system must record each vote in a secure, encrypted form.
+2. The system must generate a confirmation of receipt.
+3. The Commission must maintain an auditable record of online votes without compromising anonymity.
+
+
+SECTION: 14
+
+
+HEADING: Counting of online votes
+
+
+1. Online votes must be decrypted and counted only after the close of polling.
+2. Online votes must be included in the preliminary and official counts.
+3. Online votes must not be linked to individual electors during counting.
+
+
+SECTION: 15
+
+
+HEADING: Suspension of online voting
+        
+1. The Commission may suspend online voting if—
+(a) a security breach occurs;
+(b) system integrity cannot be assured;
+(c) any other circumstance arises that may compromise the election.
+2. If online voting is suspended, electors must be permitted to vote at a polling place.
+
+PARTNUMBER: 4
+
+PARTTITLE: Offences and Enforcement
+
+
+SECTION: 16
+
+
+HEADING: Interference with online voting
+        
+A person commits an offence if the person—
+1. Interferes with the online voting system;
+2. Attempts to tamper with, alter, or intercept online votes;
+3. Impersonates an elector for the purpose of casting an online vote.
+
+
+SECTION: 17
+
+
+HEADING: Unlawful disclosure
+        
+A person commits an offence if the person knowingly discloses information that may reveal how an elector voted online.
+
+
+SECTION: 18
+
+
+HEADING: Attempted offences
+        
+A person who attempts to commit an offence under this Act is liable as if the offence had been completed. 
+
+
+SECTION: 19
+
+
+HEADING: Penalties
+        
+A person convicted of an offence under this Act is liable to—
+1. imprisonment for up to 2 years; or
+2. a fine not exceeding 50,000 Square Dollars; or
+3. both. 
+
+PARTNUMBER: 4
+
+PARTTITLE: Regulations and Miscellaneous
+
+
+SECTION: 20
+
+
+HEADING: Regulations
+        
+The Governor-General may, be Order in Council, make regulations prescribing—
+1. technical and security standards;
+2. authentication requirements;
+3. auditing and verification procedures;
+4. contingency procedures for system failure;
+5. any other matter necessary for the operation of online voting.
+
+
+SECTION: 21
+
+
+HEADING: Protection of officials
+        
+No civil or criminal proceedings may be brought against the Commission or its officials for acts done in good faith under this Act.
+
+
+SECTION: 22
+
+
+HEADING: Review of online voting system
+        
+1. The Commission must review the operation of online voting after the first general election in which it is used.
+2. The Commission must report to Parliament on—
+(a) security and integrity;
+(b) accessibility;
+(c) turnout effects;
+(d) recommended improvements.
