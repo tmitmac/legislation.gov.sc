@@ -1,0 +1,181 @@
+TITLE: Electoral (Social Media Advertising) Amendment Act 2013
+
+ACTNUMBER: 2013 No 36
+
+TYPE: Act
+
+STATUS: In Force
+
+VERSION: Latest
+
+AGENCY: the Ministry of Justice & Corrections and Electoral Commission
+
+DATEOFASSENT: 30 August 2013
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+LONGTITLE: An Act to amend the Electoral Act 1986; to regulate the publication and promotion of electoral advertising on social media platforms; to ensure transparency in online political messaging; and to provide for the proper administration, oversight, and enforcement of digital electoral advertising in Square Country.
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the Electoral Amendment (Social Media Advertising) Act 2013.
+
+SECTION: 2
+
+HEADING: Commencement
+
+1. This Act comes into force on 1 September 2013.
+2. Different provisions may be brought into force on different dates by Order in Council.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purposes of this Act are—
+1. to regulate electoral advertising published on social media platforms;
+2. to ensure transparency in the identification of promoters of online electoral content;
+3. to impose obligations on platform operators to maintain public records of paid electoral advertisements;
+4. to extend existing electoral advertising rules to digital environments.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown in right of Square Country.
+
+SECTION: 5
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+**“digital platform”** means any internet-based service, application, or website that enables users to create, share, or view content, including social media platforms, video-sharing services, and messaging applications.
+**“platform operator”** means any person or entity that owns, controls, or administers a digital platform on which social media advertising may be published.
+**“social media advertising”** means any form of electoral advertising published, displayed, promoted, or disseminated on a digital platform, whether paid or unpaid, and includes sponsored posts, targeted advertisements, boosted content, and algorithmically distributed material.
+
+PARTNUMBER: 2
+
+PARTTITLE: Regulation of Social Media Electoral Advertising
+
+SECTION: 6
+
+HEADING: Application of this Act
+
+1. This Act applies to all social media advertising published during the regulated election period.
+2. This Act applies whether the advertising originates within Square Country or is directed at persons ordinarily resident in Square Country.
+
+SECTION: 7
+
+HEADING: Relationship with Electoral Act 1986
+
+1. This Act applies in addition to the Electoral Act 1986.
+2. If any provision in this Act conflicts with the Electoral Act 1986, the Electoral Act prevails unless this Act expressly states otherwise.
+
+SECTION: 8
+
+HEADING: Promoter identification requirements
+
+1. Every item of social media advertising must clearly and prominently state—
+(a) the name of the promoter; and
+(b) a contact address within Square Country.
+2. The promoter statement must be visible without requiring user interaction, except where the platform’s technical format requires a secondary action, in which case the statement must be accessible with one click or tap.
+
+SECTION: 9
+
+HEADING: Obligations of platform operators
+
+1. A platform operator must take reasonable steps to ensure that social media advertising published on its platform during the regulated election period—
+(a) contains a promoter statement in accordance with section 8; and
+(b) is not published anonymously.
+2. A platform operator must maintain a publicly accessible archive of all paid electoral advertisements published on its platform during the regulated election period.
+3. The archive must include—
+(a) the content of the advertisement;
+(b) the name of the promoter;
+(c) the dates of publication
+(d) the total amount paid for publication;
+(e) any demographic or geographic targeting parameters used.
+4. The archive must remain publicly accessible for 4 years after polling day.
+
+SECTION: 10
+
+HEADING: Targeting restrictions
+
+1. A promoter must not use personal data for the purpose of micro-targeting social media advertising unless—
+(a) the individual has given explicit consent; and
+(b) the data was collected lawfully.
+2. A platform operator must provide a mechanism enabling users to view the reason they were targeted with any electoral advertisement.
+
+SECTION: 11
+
+HEADING: Prohibited conduct
+
+A person must not—
+1. publish social media advertising that falsely purports to originate from another person;
+2. use automated accounts to artificially amplify electoral messages;
+3. engage in coordinated inauthentic behaviour for the purpose of influencing electoral outcomes.
+
+PARTNUMBER: 3
+
+PARTTITLE: Offences and Enforcement
+
+SECTION: 12
+
+HEADING: Offences
+
+A person commits an offence if the person contravenes section 8, 9, 10, or 11.
+
+SECTION: 13
+
+HEADING: Penalties
+
+A person convicted of an offence under this Act is liable to—
+1. imprisonment for up to 12 months; or
+2. a fine not exceeding ₴50,000; or
+3. Both
+
+SECTION: 14
+
+HEADING: Attempted offences
+
+A person who attempts to commit an offense under this Act is liable as if the offence had been completed.
+
+PARTNUMBER: 4
+
+PARTTITLE: Regulations and Miscellaneous
+
+SECTION: 15
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations prescribing—
+1. technical standards for promoter statements on digital platforms;
+2. requirements for the form and operation of advertisement archives
+3. auditing and verification procedures;
+4. any other matter necessary for the administration of this Act.
+
+SECTION: 16
+
+HEADING: Protection of officials
+
+No civil or criminal proceedings may be brought against the Commission or its officials for acts done in good faith under this act.
+
+SECTION: 17
+
+HEADING: Review of social media advertising rules
+
+1. The Commission must review the operation of this Act after the first general election following its commencement.
+2. The Commission must report to Parliament on—
+(a) compliance and enforcement
+(b) transparency and accessibility;
+(c) recommended improvements.
+
+
+
+
+
+
