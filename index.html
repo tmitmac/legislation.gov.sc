@@ -1,61 +1,417 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Square Country Legislation</title>   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Square Country Legislation</title>
   <link rel="icon" type="image/x-icon" href="images/SCL.png">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
 
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e293b',
+            secondary: '#1e40af',
+            accent: '#3b82f6'
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body class="bg-gray-50 min-h-screen flex flex-col antialiased">
 
-<h1>Legislation Search PROTOTYPE</h1>
+<custom-navbar></custom-navbar>
 
-<input id="search" placeholder="Search legislation...">
-<button onclick="search()">Search</button>
+<div id="searchOverlay"
+     class="fixed inset-0 bg-black/40 hidden z-40">
+</div>
 
-<div id="results"></div>
+<!-- SEARCH RESULTS -->
+<div id="searchDropdown"
+     class="hidden absolute left-1/2 top-[175px] z-50
+            w-[1300px] max-w-[90vw]
+            -translate-x-1/2
+            bg-white border border-gray-300 shadow-lg rounded-lg">
+  <div id="results"></div>
+</div>
 
-<h2>The current search functionality is still a <strong>work in progress</strong>. We apologise for any inconvenience. For now, search for the title of the item of legislation you wish to view and <strong>click</strong> search.
-Then, click on the underlined title that matches your query, and you will be redirected to the page containing the item of legislation. We will continue to work on and upgrade the current systems, and look forward to sharing the completed design and functionality with you.</h2>
 
-<h3>With honour, Parliamentary Counsel Office, Square Country Government.</h3>  
-  
+
+<main class="flex-grow">
+
+
+  <!-- BROWSE SECTIONS -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+
+    <h2 class="text-2xl font-bold text-slate-800 mb-6">
+      Browse Legislation
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+
+      <a href="recent.html"
+      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
+
+        <i data-feather="clock" class="mb-3"></i>
+
+        <h3 class="font-semibold text-lg mb-2">
+          Recent Legislation
+        </h3>
+
+        <p class="text-gray-600 text-sm">
+          View laws passed in the past 12 months
+        </p>
+
+      </a>
+
+
+      <a href="archive.html"
+      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
+
+        <i data-feather="archive" class="mb-3"></i>
+
+        <h3 class="font-semibold text-lg mb-2">
+          Full Archive
+        </h3>
+
+        <p class="text-gray-600 text-sm">
+          Browse all historical Acts
+        </p>
+
+      </a>
+
+
+      <a href="constitution.html"
+      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
+
+        <i data-feather="book-open" class="mb-3"></i>
+
+        <h3 class="font-semibold text-lg mb-2">
+          Declaration of Independent Sovereignty
+        </h3>
+
+        <p class="text-gray-600 text-sm">
+          View legislation
+        </p>
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ABOUT -->
+  <section class="bg-white border-y">
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+
+      <h2 class="text-2xl font-bold mb-4">
+        About Square Country Legislation
+      </h2>
+
+      <p class="text-gray-600 max-w-3xl leading-relaxed">
+
+        Legislation published on this portal is the official law of Square Country.
+
+        Acts are passed by Parliament and receive Royal Assent before becoming law.
+
+        This website is maintained by the Office of Legislative Counsel.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- STATISTICS -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+
+    <h2 class="text-2xl font-bold mb-6">
+      Legislation Statistics
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+
+      <div class="bg-white border p-6 rounded-xl">
+
+        <p class="text-3xl font-bold">
+          3,946
+        </p>
+
+        <p class="text-gray-600">
+          Total Acts
+        </p>
+
+      </div>
+
+
+      <div class="bg-white border p-6 rounded-xl">
+
+        <p class="text-3xl font-bold">
+          1798
+        </p>
+
+        <p class="text-gray-600">
+          Oldest Act
+        </p>
+
+      </div>
+
+
+      <div class="bg-white border p-6 rounded-xl">
+
+        <p class="text-3xl font-bold">
+          2025
+        </p>
+
+        <p class="text-gray-600">
+          Latest Act
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+  <!-- ACT MENU -->
+  <div id="actMenu"
+       class="fixed inset-0 bg-black/40 hidden items-end justify-center z-50">
+
+    <div onclick="closeActMenu()" class="absolute inset-0"></div>
+
+    <div id="actMenuPanel"
+         class="bg-white rounded-t-2xl shadow-xl w-full max-w-md
+                p-4 sm:p-6 max-h-[85vh] overflow-y-auto
+                transform translate-y-full transition-transform duration-300 ease-out">
+
+      <div class="w-12 h-1.5 bg-gray-300 rounded-full mx-auto mb-4"></div>
+
+      <h2 id="actTitle" class="text-xl sm:text-2xl font-bold text-primary mb-1"></h2>
+      <p id="actNumber" class="text-gray-600 mb-4"></p>
+
+      <!-- REPEALED NOTICE -->
+      <div id="repealedNotice"
+           class="hidden mb-6 rounded-lg border border-red-300 bg-red-50 p-4">
+        <div class="flex items-start">
+          <i data-feather="alert-triangle"
+             class="text-red-600 w-5 h-5 mr-3 mt-0.5"></i>
+          <div>
+            <p class="font-semibold text-red-700">
+              This Act has been repealed
+            </p>
+            <p id="repealedText" class="text-sm text-red-700 mt-1"></p>
+          </div>
+        </div>
+      </div>
+
+      <a id="originalLink"
+         target="_blank"
+         class="block w-full bg-[#126cd3] text-white text-center py-3.5 rounded-lg
+                hover:bg-[#0f5cb4] active:scale-[0.99] transition mb-4">
+        View Original Act
+      </a>
+
+      <button onclick="closeActMenu()"
+              class="mt-6 w-full border border-gray-300 py-3 rounded-lg
+                     hover:bg-gray-100 active:scale-[0.99] transition">
+        Close
+      </button>
+    </div>
+  </div>
+
+</main>
+
+<custom-footer></custom-footer>
+</body>
 <script>
 const acts = [
   /* 2020s */
-  { number: "SC-2026-01", name: "Electoral Amendment (Online Voting) Act 2026", file: "viewer.html?act=electoral-amendment-(online-voting)-act-2026.txt"},
-  { number: "SC-2025-43", name: "Defence Expansion Act 2025", file: "viewer.html?act=defence-expansion-act-2025.txt" },
-  { number: "SC-2025-42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=federal-revenue-and-tax-reform-act-2025-version-2.txt" },
+  { number: "SC-2026-04", name: "Appropriations (June Estimates) Bill 2026", file: "viewer.html?act=2000-2099/2026/appropriations-(june-estimates)-bill-2026.txt"},
+  { number: "SC-2026-02", name: "Immigration Security and Border Integrity Act 2026", file: "viewer.html?act=2000-2099/2026/immigration-security-and-border-integrity-act-2026.txt"},
+  { number: "SC-2026-01", name: "Electoral (Online Voting) Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-(online-voting)-amendment-act-2026.txt"},
+  { number: "SC-2025-44", name: "Criminal Responsibility (Age Reduction) Amendment Act 2025", file: "viewer.html?act=2000-2099/2025/criminal-responsibility-(age-reduction)-amendment-act-2025.txt"},
+  { number: "SC-2025-43", name: "Defence Expansion Act 2025", file: "viewer.html?act=2000-2099/2025/defence-expansion-act-2025.txt" },
+  { number: "SC-2025-42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=2000-2099/2025/federal-revenue-and-tax-reform-act-2025-version-2.txt" },
   /* 2010s */
+  { number: "SC-2015-53", name: "Education and Training Act 2015", file: "viewer.html?act=2000-2099/2015/education-and-training-act-2015.txt" },
+  { number: "SC-2013-36", name: "Electoral (Social Media Advertising) Amendment Act 2013", file: "viewer.html?act=2000-2099/2013/electoral-(social-media-advertising)-amendment-act-2013.txt" },
   /* 2000s */
-  { number: "SC-2006-44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=immigration-(open-arms)-act-2006.txt" },
+  { number: "SC-2006-44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=2000-2099/2006/immigration-(open-arms)-act-2006.txt" },
   /* 1990s */
-  /* 1980s */ 
-  { number: "SC-1986-33", name: "Electoral Act 1986", file: "viewer.html?act=electoral-act-1986.txt" },
+  /* 1980s */
+  { number: "SC-1988-72", name: "Public Holidays Act 1988", file: "viewer.html?act=1900-1999/1988/public-holidays-act-1988.txt" }, 
+  { number: "SC-1986-33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986.txt" },
   /* 1970s */
-  { number: "SC-1979-12", name: "Statistics Act 1979", file: "viewer.html?act=statistics-act-1979.txt" },
-  { number: "SC-1967-29", name: "Decimal Currency Act 1967", file: "viewer.html?act=decimal-currency-act-1967.txt" },
+  { number: "SC-1979-12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979-version-2.txt" },
+  /* 1960s */
+  { number: "SC-1967-29", name: "Decimal Currency Act 1967", file: "viewer.html?act=1900-1999/1967/decimal-currency-act-1967.txt" },
+  { number: "SC-1963-08", name: "Crimes Act 1964", file: "viewer.html?act=1900-1999/1964/crimes-act-1964.txt" },
+  { number: "SC-1964-32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt" },  
+  /* 1950s */
+  { number: "SC-1950-02", name: "Wildlife Act 1950", file: "viewer.html?act=1900-1999/1950/wildlife-act-1950.txt" },
+  /* 1940s */ 
+  { number: "SC-1949-08", name: "Education Act 1949", file: "viewer.html?act=1900-1999/1949/education-act-1949.txt" },
+  /* 1930s */
+  { number: "SC-1939-01", name: "Immigration Control and Customs Act 1939", file: "viewer.html?act=1900-1999/1939/immigration-control-and-customs-act-1939.txt" },
+  /* 1920s */
+  { number: "SC-1923-05", name: "Legal Tender Act 1923", file: "viewer.html?act=1900-1999/1923/legal-tender-act-1923.txt" },
+  /* 1910s */
+  { number: "SC-1915-62", name: "Extended Wartime Measures Act 1915", file: "viewer.html?act=1900-1999/1915/extended-wartime-measures-act-1915.txt" },
+  /* 1900s */
+  { number: "SC-1902-52", name: "Public Service Act 1902", file: "viewer.html?act=1900-1999/1902/public-service-act-1902.txt" },
+  /* 1850s */
+  { number: "SC-1852-13", name: "Statistical Returns Act 1852", file: "viewer.html?act=1800-1899/1852/statistical-returns-act-1852.txt" },
+
 
 
 
 
 ];
 
-function search() {
-  const q = document.getElementById("search").value.toLowerCase();
+// quick lookup (important for popup)
+const legislationIndex = Object.fromEntries(
+  acts.map(a => [a.number.toUpperCase(), a])
+);
+
+function search(query = "") {
+  const q = query.trim().toLowerCase();
+
   const results = document.getElementById("results");
+  const dropdown = document.getElementById("searchDropdown");
+  const overlay = document.getElementById("searchOverlay");
 
   results.innerHTML = "";
 
-  acts
-    .filter(a => a.name.toLowerCase().includes(q))
-    .forEach(a => {
-      const div = document.createElement("div");
-      div.innerHTML = `<a href="${a.file}">${a.name}</a>`;
-      results.appendChild(div);
-    });
+  // 🚫 block too-broad search term
+  if (q === "act" || q === "acts") {
+    dropdown.classList.add("hidden");
+    overlay.classList.add("hidden");
+    return;
+  }
+  
+
+  if (!q) {
+    dropdown.classList.add("hidden");
+    overlay.classList.add("hidden");
+    return;
+  }
+
+const filtered = acts
+  .filter(a =>
+    a.name.toLowerCase().includes(q)
+  )
+.sort((a, b) => {
+  const aLen = a.name.length;
+  const bLen = b.name.length;
+
+  // slight boost if it starts with query
+  const aBoost = a.name.toLowerCase().startsWith(q) ? -10 : 0;
+  const bBoost = b.name.toLowerCase().startsWith(q) ? -10 : 0;
+
+  return (aLen + aBoost) - (bLen + bBoost);
+});
+  overlay.classList.remove("hidden");
+  dropdown.classList.remove("hidden");
+
+  if (!filtered.length) {
+    dropdown.classList.remove("hidden");
+
+    results.innerHTML = `
+      <div class="px-5 py-4 text-gray-500">
+        No legislation found
+      </div>
+    `;
+    return;
+  }
+
+  filtered.forEach(a => {
+
+    const row = document.createElement("button");
+
+    row.className =
+      "block w-full text-left px-5 py-4 border-b hover:bg-gray-100";
+
+    row.innerHTML = `
+      <span class="text-blue-700 hover:underline">
+        ${highlightMatch(a.name, q)}
+      </span>
+    `;
+
+    row.onclick = () => openActMenu(a.number);
+
+    results.appendChild(row);
+  });
+
+  dropdown.classList.remove("hidden");
 }
+
+function highlightMatch(text, query) {
+  const regex = new RegExp(`(${query})`, "ig");
+
+  return text.replace(
+    regex,
+    '<span class="font-semibold text-blue-600">$1</span>'
+  );
+}
+
+// ✅ POPUP OPEN
+function openActMenu(number) {
+  const doc = legislationIndex[number.toUpperCase()];
+  if (!doc) return;
+
+  document.getElementById("actTitle").textContent = doc.name;
+  document.getElementById("actNumber").textContent = doc.number;
+  document.getElementById("originalLink").href = doc.file;
+
+  const menu = document.getElementById("actMenu");
+  const panel = document.getElementById("actMenuPanel");
+
+  menu.classList.remove("hidden");
+  menu.classList.add("flex");
+
+  requestAnimationFrame(() => {
+    panel.classList.remove("translate-y-full");
+  });
+}
+
+// ✅ CLOSE POPUP
+function closeActMenu() {
+  const menu = document.getElementById("actMenu");
+  const panel = document.getElementById("actMenuPanel");
+
+  panel.classList.add("translate-y-full");
+
+  setTimeout(() => {
+    menu.classList.add("hidden");
+    menu.classList.remove("flex");
+  }, 300);
+}
+
+window.addEventListener('navbar-search', e => {
+  console.log('SEARCH:', e.detail);
+  search(e.detail);
+});
 </script>
 
-</body>
+<script src="components/navbar.js"></script>
+<script src="components/footer.js"></script>
+
 </html>
