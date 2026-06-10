@@ -1,0 +1,920 @@
+TITLE: Statistics Act 1979
+
+ACTNUMBER: 1979 No 12
+
+TYPE: Act
+
+STATUS: In Force
+
+VERSION: Latest
+
+AGENCY: National Statistics Office
+
+DATEOFASSENT: 1 January 1980
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+An Act to establish the National Statistics Office; to provide for the collection, compilation, analysis, and dissemination of official statistics; to coordinate statistical activities across Government; to prescribe statistical standards and ensure the integrity, independence, and confidentiality of statistical information; to provide for the conduct of surveys and censuses and the use of administrative data; to establish mechanisms for oversight, accountability, and performance review; to repeal the Statistical Collections Act 1952; and for related purposes.
+
+
+SECTION: 1
+
+
+HEADING: Short Title
+
+1. This Act may be cited as the **Statistics Act 1979**.
+2. In all other enactments, references to the Statistics Act shall be construed as references to this Act unless the context otherwise requires.
+3. The short title may be abbreviated as “Stats Act 1979” in administrative instruments, registers, and citations.
+
+
+
+SECTION: 2
+
+HEADING: Commencement
+        
+1. Except as provided in this section, this Act comes into force on 1 January 1980.
+2. The following provisions come into force on a date appointed by Order in Council:
+(a) section 25 (Censuses);
+(b) section 27 (Access to premises);
+(c) any provision of Part 5 relating to data security standards.
+3. An order in council under subsection (2)—
+(a) may appoint different dates for different provisions;
+(b) may specify transitional arrangements;
+(c) must be published in the Gazette.
+4. Any regulation or notice made for the purpose of bringing this Act into force may be made before 1 January 1980, but shall not take effect until that date.
+
+SECTION: 3
+
+HEADING: Purpose
+
+1. The purpose of this Act is to—
+(a) establish an independent national statistical authority;
+(b) ensure the production of high-quality, reliable, and impartial office statistics;
+(c) promote public trust in the confidentiality and integrity of statistical information;
+(d) coordinate statistical activities across Government agencies and departments;
+(e) provide for the secure collection, storage, analysis, and dissemination of statistical information.
+2. To achieve these purposes, this Act—
+(a) confers powers on the National Statistics Office to collect information;
+(b) imposes duties on persons to provide information when lawfully required;
+(c) establishes safeguards to protect confidential information;
+(d) provides for oversight, accountability, and transparency mechanisms.
+3. This Act shall be interpreted in a manner that—
+(a) promotes the independence of official statistics;
+(b) ensures that statistical methods are determined by professional considerations;
+(c) avoids political or improper influence on statistical outputs.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+1. In this Act, unless the context otherwise requires—
+**“administrative data”** means information collected by a public authority for non-statistical purposes, including taxation, licensing, registration, and service delivery;
+**“Board”** means the Independent Statistical Advisory Board established under section 37;
+**“census”** means a complete enumeration of a population or class of persons, businesses, or entities conducted under section 24;
+**“confidential information”** means information that identifies, or could reasonably be expected to identify, a person;
+**“Minister”** means the Minister of Statistics;
+**“National Statistician”** means the person appointed under section 10;
+**“Office”** means the National Statistics Office established under section 6;
+**“official statistic”** means any statistic produced, certified, or published by the Office under this Act;
+**“public authority”** includes any Ministry, Department, Crown entity, local authority, or statutory body;
+**“register”** means a statistical register maintained under section 22;
+**“survey”** means a collection of information from a sample or subset of a population.
+2. A reference to providing information “in writing” includes providing information—
+(a) electronically;
+(b) through secure data transfer systems approved by the National Statistician;
+(c) in any other form prescribed by regulation.
+3. A reference to “person” includes—
+(a) an individual;
+(b) a body corporate;
+(c) an unincorporated association;
+(d) a partnership;
+(e) a public authority. 
+4. If a term is defined both in this Act and in another enactment, the definition in this Act prevails unless the context otherwise requires.
+5. The Governor-General may, by Order in Council, prescribe additional definitions for the purpose of this Act.
+
+SECTION: 5
+
+HEADING: Act binds the Crown
+
+This act binds the Crown of Square Country
+
+PARTNUMBER: 2
+
+PARTTITLE: Establishment and Governance of the National Statistics Office
+
+SECTION: 6
+
+HEADING: National Statistics Office established
+
+1. There is hereby established an organisation to be known as the National Statistics Office.
+2. The Office—
+(a) is a body corporate;
+(b) has perpetual succession;
+(c) has a common seal;
+(d) may sue and be sued in its corporate name;
+(e) may acquire, hold, and dispose of real and personal property;
+(f) may enter into contracts and agreements;
+(g) may perform all acts necessary or convenient for the performance of its functions.
+3. The Office is the central authority for the production and coordination of official statistics in Square Country.
+4. The Office is not a servant or agent of the Crown unless expressly provided by any other enactment.
+
+SECTION: 7
+
+HEADING: Legal status and powers
+
+1. The office has all powers necessary for the performance of its functions under this Act.
+2. Without limiting subsection (1), the Office may—
+(a) establish committees, working groups, and advisory panels;
+(b) enter into memoranda of understanding with public authorities;
+(c) receive, store, and process administrative data;
+(d) develop and maintain statistical systems, classifications, and methodologies;
+(e) provide statistical services to public authorities on a cost-recovery basis;
+(f) charge fees for specialised statistical products or customised data services;
+(g) participate in international statistical cooperation.
+3. The Office may not—
+(a) use information collected under this Act for enforcement, taxation, or regulatory purposes;
+(b) engage in commercial activities unrelated to statistical functions.
+(c) publish any statistic that compromises confidentiality.
+4. Any act done by the Office is valid despite any vacancy in its membership or staff.
+
+SECTION: 8
+
+HEADING: Seal of Office
+
+1. The Office shall have a common seal.
+2. The seal shall be kept in the custody of the National Statistician or a person authorised by the National Statistician.
+3. The seal may be affixed to any document—
+(a) by the National Statistician; or
+(b) by an employee authorised in writing for that purpose.
+4. Judicial notice shall be taken of the seal of the Office, and every document purporting to be sealed with the seal shall be presumed to have been duly sealed unless the contrary is proved.
+
+SECTION: 9
+
+HEADING: Ministerial responsibility
+
+1. The Minister is responsible for the administration of this Act.
+2. The Minister may—
+(a) issue general policy directions relating to the strategic priorities of the statistical system;
+(b) approve the annual Official Statistics Programme under section 17;
+(c) request the Office to undertake statistical work in the public interest.
+3. The Minister may not—
+(a) direct the Office regarding the content, timing, or methodology of any statistical release;
+(b) require the alteration, suppression, or delay of any official statistic;
+(c) interfere with the professional judgement of the National Statistician.
+4. Any direction issued under subsection (2)(a)—
+(a) must be in writing;
+(b) must be published in the Gazette;
+(c) does not take effect until publication.
+5. The Minister shall, at least once each year, meet with the National Statistician to discuss the performance and strategic direction of the Office.
+
+SECTION: 10
+
+HEADING: Charter of Statistical Independence
+
+1. The Office shall operate in accordance with the Charter of Statistical Independence.
+2. The Charter—
+(a) affirms the professional independence of the Office;
+(b) sets out principles relating to impartiality, transparency, and integrity;
+(c) governs the relationship between the Office, the Minister, and public authorities;
+(d) may include provisions relating to pre-release access, publication protocols, and quality   assurance.
+3. The Charter shall be—
+(a) prepared by the National Statistician;
+(b) approved by the Minister;
+(c) published in the Gazette;
+(d) laid before Parliament.
+4. The Charter may be amended—
+(a) on the recommendation of the National Statistician; or
+(b) at the direction of the Minister, after consultation with the National Statistician.
+5. In the event of inconsistency between the Charter and this Act, this Act prevails.
+6. All employees of the Office shall comply with the Charter.
+7. Failure to comply with the Charter does not of itself give rise to legal proceedings, but may be considered—
+(a) in any review under section 37;
+(b) by the independent Statistical Advisory Board;
+(c) by Parliament.
+
+PARTNUMBER: 3
+
+PARTTITLE: National Statistician and Staff
+
+SECTION: 11
+
+HEADING: National Statistician
+
+1. There shall be a chief executive of the Office, to be known as the National Statistician.
+2. The National Statistician shall be appointed by the Governor-General, acting—
+(a) on the recommendation of the Minister; and
+(b) after consultation with the Independent Statistical Advisory Board.
+3. A person is eligible for appointment as National Statistician only if the Minister is satisfied that the person—
+(a) has substantial experience in statistical methodology, data governance, or public administration;
+(b) possesses the professional independence required for the role;
+(c) is of sound character and integrity.
+4. The National Statistician holds office for a term not exceeding 5 years, and may be reappointed.
+5. The National Statistician may resign by written notice to the Minister.
+6. The Governor-General may remove the National Statistician from office only—
+(a) for inability to perform functions of the office;
+(b) for misconduct;
+(c) for neglect of duty;
+(d) for breach of the Charter of Statistical Independence.
+7. The removal of the National Statistician—
+(a) must be notified in the Gazette;
+(b) does not affect the validity of anything done by the National Statistician before removal.
+
+SECTION: 12
+
+HEADING: Functions and duties of National Statistician
+
+1. The National Statistician is responsible for—
+(a) the overall leadership and management of the Office;
+(b) ensuring the integrity, quality, and independence of official statistics;
+(c) determining statistical methods, classifications, and standards;
+(d) approving the timing and content of statistical releases;
+(e) preparing the annual Official Statistics programme under section 17;
+(f) ensuring compliance with confidentiality and security obligations;
+(g) representing the Office in national and international statistical forums.
+2. In performing the functions under this Act, the National Statistician—
+(a) shall act independently of the Minister and all public authorities in relation to statistical methodology, analysis, and publication;
+(b) shall have regard to the Charter of Statistical Independence;
+(c) shall ensure that official statistics are produced impartially and objectively.
+3. The National Statistician must publish—
+(a) a statement of statistical principles;
+(b) a code of practice for official statistics;
+(c) any revisions to classifications or standards.
+4. The National Statistician may issue written directions to employees of the Office concerning—
+(a) statistical methods;
+(b) data collection procedures;
+(c) confidentiality protocols;
+(d) operational matters.
+5. Directions issued under subsection (4) are binding on all employees.
+
+SECTION: 13
+
+HEADING: Delegations
+
+1. The National Statistician may, by written instrument, delegate any function or power under this Act to—
+(a) the Deputy National Statistician;
+(b) any employee of the Office;
+(c) any person engaged under contract to provide statistical services.
+2. A delegation under subsection (1)---
+(a) does not prevent the National Statistician from exercising the function or power;
+(b) may be subject to conditions;
+(c) may be varied or revoked at any time.
+3. A person exercising a delegated function or power must comply with—
+(a) the terms of the delegation;
+(b) the Charter of Statistical Independence;
+(c) any written directions issued by the National Statistician.
+4. A delegation does not authorise the sub-delegation of any function or power unless expressly permitted in the instrument of delegation.
+
+SECTION: 14
+
+HEADING: Deputy National Statistician
+
+1. The National Statistician shall appoint a Deputy National Statistician.
+2. The Deputy National Statistician—
+(a) shall assist the National Statistician in the performance of functions;
+(b) shall act as National Statistician during any vacancy, absence, or incapacity;
+(c) may exercise any function or power delegated under section 13.
+3. The Deputy National Statistician holds office on terms and conditions determined by the National Statistician.
+4. Anything done by the Deputy National Statistician while acting under subsection (2)(b) has the same effect as if done by the National Statistician.
+
+SECTION: 15
+
+HEADING: Staff of Office
+
+1. The National Statistician may appoint such employees as are necessary for the performance of the Office’s functions.
+2. Employees of the Office—
+(a) are employed on terms and conditions determined by the National Statistician;
+(b) must comply with all confidentiality and security obligations under this Act;
+(c) must act impartially and independently in statistical matters.
+3. The National Statistician may—
+(a) second employees to other public authorities;
+(b) receive employees on secondment from other public authorities;
+(c) engage consultants or contractors for specialised statistical work.
+4. An employee on secondment to the Office is, for the duration of the secondment—
+(a) subject to the direction of the National Statistician;
+(b) deemed to be an employee of the Office for the purposes of confidentiality and security obligations.
+5. The Office shall establish and maintain a system of professional development for employees, including training in—
+(a) statistical methodology;
+(b) data governance;
+(c) confidentiality and ethics;
+(d) information security.
+
+SECTION: 16
+
+HEADING: Oath of secrecy
+
+1. Every person appointed or engaged under this Part must, before performing any function under this Act, take an oath of secrecy in the prescribed form.
+2. The oath of secrecy shall bind the person—
+(a) during the period of employment or engagement; and
+(b) after the termination of employment or engagement.
+3. A person who has not taken the oath of secrecy must not—
+(a) access any confidential information;
+(b) participate in any statistical collection;
+(c) perform any function involving identifiable data.
+4. The National Statistician shall keep a register of all persons who have taken the oath of secrecy.
+5. The form of the oath may be prescribed by regulation or set out in a Schedule to this Act.
+
+PARTNUMBER: 4
+
+PARTTITLE: Official Statistics System
+
+1. The Office shall, for each financial year, prepare an Official Statistics Programme.
+2. The Programme must set out—
+(a) the statistical outputs to be produced during the year;
+(b) the classifications, standards, and methodologies to be applied;
+(c) the timetable for major statistical releases;
+(d) any proposed new surveys or discontinuation of existing surveys;
+(e) any significant methodological changes.
+3. In preparing the Programme, the National Statistician must—
+(a) consult public authorities that produce or use official statistics;
+(b) consider the information needs of Parliament, businesses, researchers, and the public;
+(c) assess the cost, feasibility, and burden of proposed statistical activities.
+4. The Programme must be submitted to the Minister for approval no later than 3 months before the start of the financial year.
+5. The Minister may approve the Programme—
+(a) without modification; or
+(b) with modifications recommended by the Minister, after consultation with the National Statistician.
+6. The Programme must be—
+(a) published in the Gazette;
+(b) made available on the Office’s website; [amendment]
+(c) laid before Parliament.
+7. The Office must report annually on the extent to which the Programme has been implemented.
+
+SECTION: 18
+
+HEADING: Statistical standards
+
+1. The National Statistician may issue statistical standards for the purpose of ensuring consistency, comparability, and quality of official statistics.
+2. Standards issued under subsection (1) may relate to—
+(a) classifications and coding systems;
+(b) sampling methods;
+(c) data collection methods;
+(d) metadata requirements;
+(e) quality assurance procedures;
+(f) data integration and linkage protocols.
+3. A standard may apply—
+(a) to all official statistics;
+(b) to a specified class of statistics;
+(c) to a specified public authority.
+4. A public authority must comply with any standard that applies to it.
+5. The National Statistician must publish—
+(a) all standards issued under this section;
+(b) any amendments or revocations of standards;
+(c) explanatory material relating to the application of standards.
+6. A standard does not take effect until—
+(a) it is published in the Gazette; and
+(b) at least 28 days have passed since publication.
+
+SECTION: 19
+
+HEADING: Certification of official statistics
+
+1. The National Statistician may certify a statistic as an official statistic if satisfied that—
+(a) it has been produced in accordance with applicable standards;
+(b) it meets prescribed quality criteria;
+(c) its methodology is transparent and professionally sound;
+(d) its publication serves the public interest.
+2. Certification may be granted—
+(a) for a single statistical release;
+(b) for a series of releases;
+(c) for a statistical product or dataset.
+3. The National Statistician must maintain a Register of Certified Official Statistics, which must include—
+(a) the title of each certified statistic;
+(b) the date of certification;
+(c) any conditions attached to certification;
+(d) the date of any revocation.
+4. Certification may be revoked it—
+(a) the statistic no longer meets applicable standards;
+(b) the methodology has materially changed;
+(c) the statistic has been superseded or discontinued.
+5. A decision to certify or revoke certification must be published in the Gazette.
+
+SECTION: 20
+
+HEADING: Coordination across Government
+
+1. Every public authority must—
+(a) cooperate with the Office in the production of official statistics;
+(b) provide information reasonably required for statistical purposes;
+(c) comply with applicable statistical standards;
+(d) consult the Office before undertaking any major statistical activity.
+2. The Office may issue coordination directives to public authorities relating to—
+(a) the timing of statistical releases;
+(b) the use of classifications or standards;
+(c) the avoidance of duplication in data collection;
+(d) the integration of administrative data.
+3. A public authority must comply with any coordination directive issued under subsection (2).
+4. The Office may convene inter-agency committees to facilitate coordination.
+5. The National Statistician may require a public authority to prepare a Statistical Improvement Plan if the authority’s statistical activities do not meet required standards.
+
+SECTION: 21
+
+HEADING: Use of administrative data
+
+1. The Office may access administrative data held by any public authority for statistical purposes.
+2. A public authority must provide administrative data to the Office—
+(a) in the form requested;
+(b) within a reasonable time;
+(c) subject to any conditions relating to security or confidentiality.
+3. The Office may link administrative datasets for statistical purposes, provided that—
+(a) identifiable information is removed as soon as practicable;
+(b) linkage keys are stored securely and separately;
+(c) the linkage complies with applicable standards.
+4. The Office must not use administrative data—
+(a) for enforcement, compliance or regulatory action;
+(b) to make decisions affecting the rights or obligations of any person.
+5. The National Statistician must publish protocols governing the use of administrative data.
+
+SECTION: 22
+
+HEADING: Statistical registers
+
+1. The Office may establish and maintain statistical registers, including—
+(a) a population register;
+(b) a business register;
+(c) a dwelling register;
+(d) any other register prescribed by regulation.
+2. A statistical register may contain—
+(a) identifying information;
+(b) classification codes; 
+(c) linkage keys;
+(d) metadata;
+(e) any other information necessary for statistical purposes.
+3. The Office must ensure that—
+(a) identifying information is used only for linkage and maintenance;
+(b) statistical outputs derived from registers do not identify any person;
+(c) registers are kept secure and up to date.
+4. The National Statistician must publish—
+(a) a description of each register;
+(b) the purposes for which it is maintained;
+(c) the sources of information used to maintain it.
+5. A statistical register is not a public register and must not be used for administrative or enforcement purposes.
+
+PARTNUMBER: 5
+
+PARTTITLE: Collection of Information
+
+SECTION: 23
+
+HEADING: Authority to collect information
+
+1. The Office may collect information for statistical purposes in accordance with this Act.
+2. Information may be collected—
+(a) by survey;
+(b) by census;
+(c) from administrative data;
+(d) from registers maintained under section 21;
+(e) by any other method approved by the National Statistician.
+3. The Office may collect information from—
+(a) individuals;
+(b) households;
+(c) businesses;
+(d) public authorities;
+(e) any other persons or entities prescribed by regulation.
+4. The National Statistician must ensure that any collection of information—
+(a) is necessary for the production of official statistics;
+(b) minimises the burden on respondents;
+(c) complies with applicable statistical standards;
+(d) is conducted in a manner that protects confidentiality.
+5. The Office must publish, at least annually, a list of all active statistical collections.
+
+SECTION: 24
+
+HEADING: Surveys
+
+1. The Office may conduct surveys for the purpose of producing official statistics.
+2. Before conducting a survey, the National Statistician must issue a survey notice that—
+(a) describes the purpose of the survey;
+(b) identifies the population or sample to be surveyed;
+(c) specifies the information to be collected;
+        (d) sets out the method of collection;
+        (e) states whether the survey is mandatory or voluntary.
+3. A survey notice must be—
+(a) published on the Office’s website; [amendment]
+(b) provided to any person selected to participate;
+(c) retained in the Office’s records
+4. A survey may be conducted—
+(a) in person;
+(b) by telephone;
+(c) by post;
+(d) electronically;
+(e) by any other method approved by the National Statistician.
+5. The National Statistician may approve the use of sampling methods, including—
+(a) random sampling;
+(b) stratified sampling;
+(c) cluster sampling;
+(d) multi-stage sampling.
+6. A person selected to participate in a mandatory survey must provide the information requested under section 24.
+
+SECTION: 25
+
+HEADING: Censuses
+
+1. The Office may conduct a census of—
+(a) the population;
+(b) dwellings;
+(c) businesses
+(d) any other class of persons or entities prescribed by regulation.
+2. A census of the  population must be conducted at intervals not exceeding 5 years, or at such shorter intervals as the Minister may direct.
+3. Before conducting a census, the Governor-General must, by Order in Council, make a Census Order that—
+(a) specifies the date of the census;
+(b) identifies the persons required to participate;
+(c) prescribes the information to be collected;
+(d) sets out any special procedures to be followed.
+4. A Census Order must be published in the Gazette.
+5. Every person required to participate in a census must—
+(a) complete the census form accurately and fully;
+(b) return the form within the time specified;
+(c) comply with any instructions issued by the Office.
+6. The National Statistician may approve the use of administrative data to supplement or replace census responses, provided that—
+(a) confidentiality is protected;
+(b) the methodology is published;
+(c) the use of administrative data is disclosed in the census report.
+
+AMENDMENT: Section 25(2): amended, on 1 January 2005, by section 5 of the Statistics Amendment Act 2004 (2004 No 82).
+
+SECTION: 26
+
+HEADING: Duty to provide information
+
+1. A person to whom a lawful request for information is made under this Act must provide the information—
+(a) accurately;
+(b) fully;
+(c) within the time specified in the request.
+2. A request for information is lawful if—
+(a) it is made for statistical purposes;
+(b) it is authorised by this Act or any other enactment;
+(c) it is made in writing in a form approved by the National Statistician.
+3. A person may request an extension of time to comply with a request for information, and the National Statistician may grant or refuse the request.
+4. Nothing in this section requires a person to disclose information that is subject to—
+(a) legal professional privilege;
+(b) parliamentary privilege;
+(c) any privilege prescribed by regulation.
+5. A person who fails to comply with this section may be liable for an offence under section 40.
+
+SECTION: 27
+
+HEADING: Access to premises for statistical purposes
+
+1. For the purpose of verifying information collected under this Act, an authorised officer of the Office may enter any business premises during normal working hours.
+2. An authorised officer may—
+3. An authorised officer must not enter—
+(a) a dwelling;
+(b) any part of premises used exclusively as a dwelling; 
+      unless the occupier consents in writing.
+4. An authorised officer must produce evidence of identity and authority on request.
+5. A person must not obstruct or hinder an authorised officer acting under this section.
+6. Anything obtained under this section must be treated as confidential information under Part 5.
+
+SECTION: 28
+
+HEADING: Protection of privileged information
+
+1. Nothing in this Act requires a person to disclose information that is subject to—
+(a) legal professional privilege;
+(b) medical confidentiality;
+(c) religious confession privilege;
+(d) any other privilege recognised by law.
+2. If a person claims privilege in respect of information requested under this Act—
+(a) the claim must be made in writing;
+(b) the National Statistician must determine whether the claim is valid;
+(c) the determination must be notified to the person in writing.
+3. If the National Statistician determines that the claim is not valid, the person must provide the information unless they appeal the determination.
+4. A person may appeal a determination under subsection (3) to the District Court within 20 working days.
+
+PARTNUMBER: 6
+
+PARTTITLE: Confidentiality, Security, and Use of Information
+
+SECTION: 29
+
+HEADING: Confidentiality of information
+
+1. All information collected, received, or accessed by the Office under this Act is confidential information unless—
+(a) it is publicly available from another source; or
+(b) it has been anonymised in accordance with section 32.
+2. Confidential information must be used solely for statistical purposes.
+3. The Office must take all reasonable steps to ensure that confidential information—
+(a) is protected against loss, unauthorised access, use, modification, or disclosure;
+(b) is stored securely in accordance with applicable security standards.
+(c) is accessed only by persons who require access for statistical purposes.
+4. No person may be required to provide confidential information to any court, tribunal, or public authority except as expressly permitted by this Act.
+5. Confidential information is not admissible in evidence in any civil or criminal proceedings, except in proceedings for an offence under this Act.
+
+SECTION: 30
+
+HEADING: Prohibited disclosures
+
+1. A person must not disclose confidential information unless the disclosure is permitted under section 31.
+2. Without limiting subsection (1), a person must not disclose—
+(a) information that identifies, or could reasonably be expected to identify, any person;
+(b) information relating to the affairs of any individual, household, or business.
+(c) any linkage key or other mechanism used to connect datasets;
+(d) any information obtained under section 26.
+3. A person must not attempt to identify any person from anonymised or aggregated data.
+4. A person must not disclose confidential information to—
+(a) any enforcement agency;
+(b) any regulatory authority;
+(c) any tax authority;
+(d) any public authority for administrative purposes.
+5. A disclosure in contravention of this section constitutes an offence under section 40.
+
+SECTION: 31
+
+HEADING: Permitted disclosures
+
+1. Confidential information may be disclosed only—
+(a) with the written consent of the person to whom the information relates;
+(b) in anonymised or aggregated form;
+(c) for research purposes approved under subsection (4);
+(d) in accordance with regulations made under this Act.
+2. A disclosure under subsection (1)(b) must not enable the identification of any person, whether directly or indirectly.
+3. The National Statistician may disclose information to a public authority if—
+(a) the information is required for the maintenance of a statistical register; and
+(b) the disclosure is necessary to ensure the accuracy of the register.
+4. The National Statistician may approve access to confidential information for research purposes if satisfied that—
+(a) the research serves the public interest;
+(b) the information will be used solely for statistical analysis;
+(c) adequate security measures are in place;
+(d) the researchers have signed a confidentiality undertaking;
+(e) the results of the research will not identify any person.
+5. Any approval under subsection (4)—
+(a) must be in writing;
+(b) may be subject to conditions;
+(c) may be revoked at any time.
+6. The National Statistician must publish an annual list of all research approvals granted under this section.
+
+SECTION: 32
+
+HEADING: Data anonymisation
+
+1. The Office must ensure that any data released publicly is anonymised in accordance with this section.
+2. Data is anonymised only if—
+(a) all direct identifiers have been removed;
+(b) all indirect identifiers have been modified;
+(c) the risk of re-identification is assessed as low in accordance with applicable standards.
+3. The National Statistician must issue anonymisation standards that—
+(a) specify acceptable methods of de-identification;
+(b) set out procedures for assessing re-identification risk;
+(c) prescribe safeguard for the release of microdata.
+4. A person must not attempt to reverse or circumvent any anonymisation process.
+
+SECTION: 33
+
+HEADING: Security obligations
+
+1. The Office must establish and maintain a data security framework that complies with—
+(a) applicable statistical standards;
+(b) any regulations made under this Act;
+(c) any information security standards prescribed by the Minister.
+2. The data security framework must include—
+(a) physical security measures;
+(b) electronic security measures;
+(c) access controls;
+(d) encryption requirements;
+(e) audit and monitoring procedures;
+(f) incident response procedures.
+3. The National Statistician must ensure that—
+(a) all employees receive training in data security;
+(b) access to confidential information is restricted to authorised persons;
+(c) all access to confidential information is logged and monitored.
+4. A security incident involving confidential information must be reported—
+(a) immediately to the National Statistician;
+(b) as soon as practicable to the Minister;
+(c) in the annual report under section 35.
+5. The Office must conduct an independent security audit at least once every 3 years.
+
+SECTION: 34
+
+HEADING: Retention and disposa; of information
+
+1. The Office must establish retention schedules for all information collected under this Act.
+2. Retention schedules must specify—
+(a) the period for which information must be retained;
+(b) the conditions under which information may be archived;
+(c) the procedures for the secure disposal of information.
+3. Information must not be retained longer than is necessary for statistical purposes.
+4. The National Statistician must ensure that disposal of information—
+(a) is conducted securely;
+(b) prevents reconstruction or recovery of the information;
+(c) is documented in a disposal record.
+5. Disposal records must be retained for at least 10 years.
+6. The Office may transfer anonymised historical datasets to the national archives, subject to any conditions prescribed by regulation.
+
+PARTNUMBER: 7
+
+PARTTITLE: Accountability, and Oversight
+
+SECTION: 35
+
+HEADING: Annual report
+
+1. The National Statistician must, within 3 months after the end of each financial year, prepare an annual report on the operations of the Office.
+2. The annual report must include—
+(a) a summary of statistical outputs produced during the year;
+(b) an assessment of performance against the Official Statistics Programme;
+(c) details of any significant methodological changes;
+(d) information on the use of administrative data;
+(e) a report on confidentiality and security incidents;
+(f) financial statements for the Office;
+(g) any recommendations for improving the national statistical system.
+3. The Minister must present the annual report to Parliament as soon as practicable after receiving it.
+4. The Office must publish the annual report on its website no later than 10 working days after it is presented to Parliament.
+5. The annual report may include any additional information the National Statistician considers appropriate.
+
+SECTION: 36
+
+HEADING: Performance measures
+
+1. The National Statistician must establish performance measures for assessing the quality and effectiveness of the Office’s statistical activities.
+2. Performance measures must relate to—
+(a) accuracy and reliability of statistical outputs;
+(b) timeliness and punctuality of releases;
+(c) relevance to user needs;
+(d) coherence and comparability across datasets;
+(e) respondent burden;
+(f) confidentiality and security compliance;
+(g) cost-effectiveness.
+3. Performance measures must be—
+(a) published annually;
+(b) reviewed at least once every 3 years;
+(c) developed in consultation with the Independent Statistical Advisory Board.
+4. The annual report under section 35 must include an assessment of performance against these measures.
+
+SECTION: 37
+
+HEADING: Independent Statistical Advisory Board
+
+1. There is established an Independent Statistical Advisory Board.
+2. The Board consists of—
+(a) a Chair appointed by the Governor-General on the recommendation of the Minister;
+(b) not fewer than 4 and not more than 8 other members appointed by the Minister;
+(c) at least one member with expertise in statistical methodology;
+(d) at least one member with expertise in ethics or privacy.
+3. A person is not eligible for appointment to the Board if they—
+(a) are an employee of the Office;
+(b) are a member of Parliament;
+(c) hold any office that may give rise to a conflict of interest.
+4. Members of the Board hold office for a term not exceeding 3 years and may be reappointed.
+5. The functions of the Board are to—
+(a) advise the National Statistician on statistical standards and methodologies;
+(b) review the independence and integrity of the Office;
+(c) monitor compliance with the Charter of Statistical Independence;
+(d) provide advice on the Official Statistics Programme;
+(e) report annually to the Minister on the performance of the Office.
+6. The Board may—
+(a) request information from the Office;
+(b) commission independent reviews;
+(c) consult with public authorities, researchers, and data users.
+7. The Board must publish an annual report, which must be presented to Parliament by the Minister.
+8. The Board may regulate its own procedures.
+
+SECTION: 38
+
+HEADING: Review of statistical methods
+
+1. The Office must undergo an independent review of statistical methods at least once every 5 years.
+2. A review under subsection (1) must—
+(a) assess the quality, reliability, and integrity of statistical outputs;
+(b) evaluate compliance with statistical standards;
+(c) examine the use of administrative data and data linkage;
+(d) assess the adequacy of confidentiality protections;
+(e) identify opportunities for improvement.
+3. The review must be conducted by—
+(a) an independent expert appointed by the Minister; or
+(b) a panel of experts approved by the Independent Statistical Advisory Board.
+4. The National Statistician must provide the reviewers with access to—
+(a) methodologies and documentation;
+(b) internal quality assurance processes;
+(c) any other information reasonably required for the review.
+5. A report of the review must be—
+(a) provided to the Minister;
+(b) provided to the Independent Statistical Advisory Board;
+(c) published on the Office’s website.
+6. The National Statistician must prepare a response to the review, including any actions to be taken.
+
+SECTION: 39
+
+HEADING: Parliamentary scrutiny
+
+1. The annual report of the Office and the annual report of the Independent Statistical Advisory Board must be referred to the parliamentary committee responsible for statistics.
+2. The committee may—
+(a) examine the reports;
+(b) call for evidence from the National Statistician;
+(c) request information relating to the performance of the Office;
+(d) make recommendations to the Minister.
+3. The National Statistician must appear before the committee if requested.
+4. The committee may conduct inquiries into—
+(a) the independence of official statistics;
+(b) the adequacy of statistical standards;
+(c) the performance of the Office;
+(d) any matter relating to the national statistical system.
+5. The committee must report its findings to Parliament.
+
+PARTNUMBER: 8
+
+PARTTITLE: Regulations, and Miscellaneous Provisions
+
+SECTION: 40
+
+HEADING: Offences
+
+1. A person commits an offence if the person, without reasonable excuse—
+(a) refuses of fails to provide information required under section 26;
+(b) provides information that the person knows to be false or misleading in a material particular;
+(c) obstructs, hinders, or resists and authorised officer exercising powers under section 27;
+(d) fails to comply with any lawful requirement made under this Act.
+2. A person commits an offence if the person—
+(a) discloses confidential information in contravention of section 30;
+(b) attempts to identify any person from anonymised or aggregated data;
+(c) attempts to reverse or circumvent any anonymisation process under section 32;
+(d) knowingly breaches the oath of secrecy required under section 16.
+3. A person commits an offence if the person—
+(a) knowingly accesses confidential information without authorisation;
+(b) uses confidential information for a purpose other than a statistical purpose;
+(c) fails to comply with any condition imposed under section 31(4).
+4. A person commits an offence if the person—
+(a) tampers with, destroys, or alters any record required for statistical purposes;
+(b) interferes with any statistical collection;
+(c) impersonates an authorised officer of the Office.
+5. An offence under this section is punishable in accordance with section 41.
+
+SECTION: 41
+
+HEADING: Penalties
+
+1. A person convicted of an offence under section 40(1) or (3) is liable—
+(a) in the case of an individual, to a fine not exceeding ₴5,000;
+(b) in the case of a body corporate, to a fine not exceeding ₴50,000.
+2. A person is convicted of an offence under section 40(2) or (4) is liable—
+(a) in the case of an individual, to a fine not exceeding ₴20,000 or imprisonment for a term not exceeding 2 years, or both;
+(b) in the case of a body corporate, to a fine not exceeding ₴200,000.
+3. In determining the penalty, the court may consider—
+(a) the seriousness of the breach;
+(b) the extent of any harm caused;
+(c) whether the breach was deliberate or reckless;
+(d) whether the person has previously been convicted of an offence under this Act.
+4. A court may order a person convicted of an offence under this Act to pay the reasonable costs of any investigation undertaken by the office.
+
+SECTION: 42
+
+HEADING: Regulations
+
+1. The Governor-General may, by Order in Council made on the recommendation of the Minister, make regulations for the purposes of this Act.
+2. Without limiting subsection (1), regulations may be made for—
+(a) prescribing statistical standards, classifications, and definitions;
+(b) prescribing forms and procedures for surveys and censuses;
+(c) prescribing the content and form the oath of secrecy;
+(d) prescribing security standards for the handling of confidential information;
+(e) prescribing the retention and disposal of information;
+(f) prescribing classes of persons or entities required to provide information;
+(g) prescribing privileges recognised under section 28;
+(h) prescribing offences and penalties not exceeding those in section 41.
+(i) prescribing any matter required or permitted by this Act to be prescribed.
+3. Before recommending regulations under subsection (2)(a), (b), or (d), the Minister must consult the National Statistician.
+4. Regulations made under this Act may—
+(a) apply generally or to specified classes of persons;
+(b) incorporate by reference any standard, code, or guideline;
+(c) adopt different provisions for different circumstances.
+
+SECTION: 43
+
+HEADING: Transitional provisions
+
+1. On the commencement of this Act—
+(a) all statistical functions, powers, and duties of the Department of Economic Records are transferred to the Office;
+(b) all employees engaged in statistical work in that department are deemed to be employees of the Office on the same terms and conditions;
+(c) all property, records, and information held by that Department for statistical purposes vest in the Office.
+2. Any survey or census commenced before the commencement of this Act may be continued and completed as if commenced under this Act.
+3. Any standard, classification, or methodology in force immediately before the commencement of this Act continues in force until replaced or revoked under this Act.
+4. Any reference in any enactment or document to the Department of Economic Records, in relation to statistical matters, must be read as a reference to the Office.
+
+SECTION: 44
+
+HEADING: Repeals and savings
+
+1. The Statistical Returns Act 1852 is repealed.
+2. Despite subsection (1), any regulation, notice, order, or instrument made under the repealed Act continues in force—
+(a) as if made under this Act;
+(b) until it is replaced, amended, or revoked under this Act.
+3. Nothing in this Act affects the validity of any statistical collection undertaken before the commencement of this Act.
+4. Any legal proceedings commenced under the repealed Act may be continued as if commenced under this Act.
+
+
+SCHEDULE 1—OATH OF SECRECY
+(Section 16)
+
+
+1        Oath of Secrecy
+        A person taking the oath must say:
+
+
+“I, ____________________________, of ____________________________, being appointed or engaged to perform functions under the Statistics Act 1979, do solemnly and sincerely swear (or affirm) that—
+1. I will faithfully and honestly fulfil my duties under the Statistics Act 1979;
+2. I will not, except as permitted by that Act, disclose to any person any information obtained by me in the course of my duties that relates to the affairs of any individual, household, business, or other person;
+3. I will not use any such information for any purpose other than a statistical purpose authorised by law;
+4. I will take all reasonable steps to protect the confidentiality and security of information entrusted to me;
+5. I acknowledge that these obligations continue after my employment or engagement ends; and
+6. I understand that any breach of this oath may constitute an offence under the Statistics Act 1979 and may result in penalties.
