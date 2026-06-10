@@ -1,0 +1,248 @@
+﻿TITLE: Criminal Responsibility (Age Reduction) Amendment Act 2025
+
+ACTNUMBER: 2025 No 44
+
+TYPE: Act
+
+STATUS: not yet in force
+
+VERSION: Latest
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: 11 November 2025
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+LONGTITLE: An Act to amend the law relating to criminal responsibility; to reduce the age at which offenders may be charged and tried as adults; to provide for the treatment, sentencing, and detention of offenders aged fourteen to seventeen years; to strengthen accountability for serious offending while preserving judicial discretion and rehabilitation principles; to make consequential amendments to related enactments; and for related purposes.
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the **Criminal Responsibility (Age Reduction) Amendment Act 2025**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+1. This Act comes into force on **1 July 2026**, except as provided in subsection (2).
+2. The Minister of Justice and Corrections may, by notice in the Square Gazette, bring any provision of this Act into force on an earlier date if the Minister is satisfied that the justice system and associated agencies are prepared for its implementation.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this Act is to amend the Criminal Responsibility Act 1993 in order to—
+(a) reduce the age at which an offender can be charged and tried as an adult from 18 years to 14 years;
+(b) strengthen accountability for serious offending among younger individuals;
+(c) promote early intervention, rehabilitation, and personal responsibility; and
+(d) ensure consistency between the Criminal Responsibility Act 1993 and other relevant statutes relating to sentencing, detention, and correctional management.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+**“principle Act”** means the Criminal Responsibility Act 1993;
+**“youth offender”** means an individual aged 14 years or over but under 18 years at the time an offence is alleged to have been committed.
+
+SECTION: 5
+
+HEADING: Section 6 replaced
+        
+Replace section 6 of the principle Act with:
+                
+SECTION: 6
+
+HEADING: Age of adult criminal responsibility
+
+1. Every person who is 14 years of age or older shall be deemed to have full criminal responsibility for their actions and may be charged, tried, convicted, and sentenced as an adult.
+2. A person under the age of 14 years shall not be charged with an offence except as provided under section 7.
+3. Nothing in this section shall prevent the court from considering the maturity, comprehension, and capacity of an offender to understand the nature and consequences of their actions.
+
+SECTION: 6
+
+HEADING: New section 7 substituted
+
+Replace section 7 of the principle Act with:
+
+SECTION: 7
+
+HEADING: Youth offenders: judicial considerations
+                
+1. Where an offender is 14 years of age or older but under 18 years, the sentencing court must, in determining the appropriate sentence, take into account—
+(a) the degree of the offender’s maturity and understanding;
+(b) the circumstances leading to the offence
+(c) the availability of rehabilitation and educational opportunities; and
+(d) the best interests of the community in relation to deterrence and public safety.
+(2)  A youth offender may be sentenced under the same provisions as adult offenders,
+        but the court retains discretion to apply modified sentences where special
+        circumstances justify such consideration.
+(3)  Nothing in this section shall be construed as limiting the sentencing powers of
+        the court.
+
+SECTION: 7
+
+HEADING: Section 8 inserted (Special detention provisions for offenders aged 14 to 17)
+
+
+7        Section 8 inserted (Special detention provisions for offenders aged 14 to 17)
+        Insert after section 7:
+
+
+                8        Special detention provisions for offenders aged 14 to 17
+1. Where a youth offender is sentenced to a term of imprisonment, the Minister of Justice and Corrections must ensure that—
+1. the offender is detained separately from adult prisoners where practicable; and
+2. the conditions of detention include access to education, counselling, and rehabilitation services appropriate to their age and maturity.
+                       (2)  Nothing in this section prevents the transfer of a youth offender to an adult
+                         facility if required for security, discipline, or welfare reasons, provided that the
+                         reasons are recorded in writing and approved by the Secretary for Corrections. 
+
+
+8        Section 9 amended (Burden of proof for incapacity due to age)
+        In section 9(1), replace “eighteen years” with “fourteen years”.
+        In section 9(2), replace “eighteen years” with “fourteen years”.
+
+
+
+
+
+
+
+
+
+
+
+
+9        Transitional and savings provisions
+1. This Act does not apply to offences committed before its commencement date.
+2. Any person who was under 18 years at the time of the offence but whose trial commenced prior to this Act coming into force shall continue to be tried under the previous provisions.
+3. Any references in other enactments to “18 years” as the age of criminal responsibility shall, on the commencement of this Act, to be read as references to “14 years”.
+4. The Minister of Justice and Corrections may, by regulations made under this Act, make such transitional or savings provisions as are necessary to give full effect to this section.
+
+
+10        Consequential amendments
+        The following enactments are amended as indicated
+1. Juvenile Justice Act 2001—
+Replace every reference to “18 years” with “14 years”.
+2. Corrections Management Act 2010—
+Amend section 15 to provide for separate management of offenders aged 14 to 17.
+       (c)  Sentencing and Parole Reform Act 2014—
+Amend section 27 to ensure youth offenders remain eligible for parole consideration consistent
+with this Act. 
+       (d)  Crimes (Procedural Fairness) Regulations 1995—
+         Replace “18” with “14” wherever it appears in Part 2.
+
+
+11        Review of the Act
+1. The Minister of Justice and Corrections must, within 3 years after the commencement of this Act, initiate a review of its operation and effectiveness.
+2. The review must examine—
+(a) the impact of the reduced age on rates of youth offending;
+(b) the adequacy of rehabilitation and reintegration measures; and
+(c) any unintended social or legal consequences arising from the implementation of this Act.
+3. The Minister must present a report of the review to Parliament within 6 months after the review’s completion.
+
+
+12        Repeals and revocations
+        Any provision of law inconsistent with this Act is hereby repealed to the extent of inconsistency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCHEDULE 1—Consequential Amendments
+
+
+Enactments                                                Amendment
+Criminal Responsibility Act 1993                        Replace “18” with “14” wherever it appears
+
+
+                 Juvenile Justice Act 2001                             Amend definition of “juvenile” to mean a
+                                 person under 14 years of age
+
+
+           Corrections Management Act 2010                        Insert news Part 4A — “Youth detention
+                                                             management”
+
+
+           Sentencing and Parole Reform Act                         Add provision for parole hearings to consider
+           2014                                                          developmental maturity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+1        General
+This is a consolidation of the Federal Revenue and Tax Reform Act 2025 that incorporates the
+amendments made to the legislation so that it shows the law as at its stated date.
+
+
+2        Legal Status
+A consolidation is taken to correctly state, as at its stated date, the law enacted or made by the
+legislation consolidated and by the amendments. The presumption applies unless the contrary is
+shown.
+Section 78 of the Legislation Act 2019 provides that this consolidation, published as an electronic
+version, is an official version. A printed version of legislation that is produced directly from this
+official electronic version is also an official version.
