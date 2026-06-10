@@ -355,6 +355,23 @@ h2 {
   color: #333;
 }
 
+.act-header-longtitle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 30px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.subpart {
+  text-align: center;
+  margin: 30px 0 18px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #444;
+}
+
 .section {
   margin-top: 22px;
   padding-top: 10px;
@@ -754,7 +771,7 @@ body.compact-header .bottom-row {
     <div class="bottom-row">
       <div class="tabs">
         <a href="#" class="tab active">Principal Act</a>
-        <a href="index.html" class="tab-version">Versions 1)</a>
+        <a href="index.html" class="tab-version">Versions (2)</a>
         <a href="#" class="tab-related">Related Bill (0)</a>
       </div>
 
@@ -813,6 +830,9 @@ const doc = parseLegislation(text);
 
 updateBadges(doc); // 👈 add this
 
+// update browser tab title
+document.title = `${doc.title} | Square Country Legislation`;
+
 // 👇 update header dynamically
 document.getElementById("actTitle").textContent = doc.title;
 
@@ -826,25 +846,32 @@ document.getElementById("actMeta").textContent =
 function parseLegislation(text) {
   const lines = text.split("\n");
 
-  let doc = {
-    title: "",
-    actNumber: "",
-    type: "",
-    status: "",
-    version: "",
-    agency: "",
-    dateOfAssent: "",
-    commencement: "",
-    parts: []
-  };
+let doc = {
+  title: "",
+  longTitle: "",
+  actNumber: "",
+  type: "",
+  status: "",
+  version: "",
+  agency: "",
+  dateOfAssent: "",
+  commencement: "",
+  parts: [],
+  subparts: []
+};
 
   let currentPart = null;
+  let currentSubpart = null;
   let currentSection = null;
 
   for (let line of lines) {
     line = line.trim();
 
-    if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
+    if (line.startsWith("TITLE:"))
+  doc.title = line.replace("TITLE:", "").trim();
+
+else if (line.startsWith("LONGTITLE:"))
+  doc.longTitle = line.replace("LONGTITLE:", "").trim();
 
     else if (line.startsWith("ACTNUMBER:"))
       doc.actNumber = line.replace("ACTNUMBER:", "").trim();
@@ -858,17 +885,19 @@ function parseLegislation(text) {
     else if (line.startsWith("COMMENCEMENT:"))
       doc.commencement = line.replace("COMMENCEMENT:", "").trim();
 
+    else if (line.startsWith("TYPE:"))
+      doc.type = line.replace("TYPE:", "").trim();
 
-else if (line.startsWith("TYPE:"))
-  doc.type = line.replace("TYPE:", "").trim();
+    else if (line.startsWith("STATUS:"))
+      doc.status = line.replace("STATUS:", "").trim();
 
-      else if (line.startsWith("STATUS:"))
-  doc.status = line.replace("STATUS:", "").trim();
-
-else if (line.startsWith("VERSION:"))
-  doc.version = line.replace("VERSION:", "").trim();
+    else if (line.startsWith("VERSION:"))
+      doc.version = line.replace("VERSION:", "").trim();
 
     else if (line.startsWith("PARTNUMBER:")) {
+
+      currentSubpart = null;
+      
       currentPart = {
         number: line.replace("PARTNUMBER:", "").trim(),
         title: "",
@@ -883,11 +912,25 @@ else if (line.startsWith("VERSION:"))
       }
     }
 
-        else if (line.startsWith("SUBPARTTITLE:")) {
-      if (currentPart) {
-        currentPart.title = line.replace("SUBPARTTITLE:", "").trim();
-      }
-    }
+    else if (line.startsWith("SUBPART:")) {
+  currentSubpart = {
+    number: line.replace("SUBPART:", "").trim(),
+    title: "",
+    sections: []
+  };
+
+  if (currentPart) {
+    if (!currentPart.subparts) currentPart.subparts = [];
+    currentPart.subparts.push(currentSubpart);
+  }
+}
+
+else if (line.startsWith("SUBPARTTITLE:")) {
+  if (currentSubpart) {
+    currentSubpart.title =
+      line.replace("SUBPARTTITLE:", "").trim();
+  }
+}
 
     else if (line.startsWith("SECTION:")) {
       currentSection = {
@@ -896,8 +939,12 @@ else if (line.startsWith("VERSION:"))
         clauses: [],
         footnotes: []
       };
-      currentPart.sections.push(currentSection);
-    }
+      if (currentSubpart) {
+        currentSubpart.sections.push(currentSection);
+      } else {
+        currentPart.sections.push(currentSection);
+      }    
+}
 
     else if (line.startsWith("HEADING:")) {
       currentSection.heading = line.replace("HEADING:", "").trim();
@@ -935,6 +982,8 @@ function renderLegislation(doc) {
     ${doc.title}
   </div>
 
+
+
   <div class="act-header-details">
 
     <div class="act-header-row">
@@ -953,17 +1002,61 @@ function renderLegislation(doc) {
     </div>
 
   </div>
-
+      <div class="act-header-longtitle">
+      ${doc.longTitle}
+      </div>
 </div>
 `;
 
   for (const part of doc.parts) {
+  html += `
+    <div class="part">
+      <div class="part-number">Part ${part.number}</div>
+      <div class="part-title">${part.title}</div>
+    </div>
+      `;
+
+      if (part.subparts?.length) {
+
+  for (const subpart of part.subparts) {
+
     html += `
-      <div class="part">
-        <div class="part-number">Part ${part.number}</div>
-        <div class="part-title">${part.title}</div>
+      <div class="subpart">
+        Subpart ${subpart.number}&mdash;${subpart.title}
       </div>
     `;
+
+    for (const section of subpart.sections) {
+
+  html += `<div class="section" id="section-${section.number}">`;
+
+  html += `
+    <div class="section-header">
+      <div class="section-number">${section.number}</div>
+      <div class="section-title">${section.heading}</div>
+    </div>
+    <div class="section-text">
+  `;
+
+  for (const clause of section.clauses) {
+    let level = 1;
+    if (/^\(\w+\)/.test(clause)) level = 2;
+    if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
+
+    let formatted = clause
+      .replace(/^(\d+)\.\s*/, "($1) ")
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+    html += `<div class="clause level-${level}">${formatted}</div>`;
+  }
+
+  html += `</div></div>`;
+}
+  }
+
+}
+    
+    
 
     for (const section of part.sections) {
       html += `<div class="section" id="section-${section.number}">`;
@@ -1238,6 +1331,9 @@ function updateBadges(doc) {
   if (doc.status?.toLowerCase() === "in force") {
     statusEl.textContent = "In force";
     statusEl.className = "badge badge-green";
+  } else if (doc.status?.toLowerCase() === "current") {
+    statusEl.textContent = "Current";
+    statusEl.className = "badge badge-green";
   } else if (doc.status?.toLowerCase() === "repealed") {
     statusEl.textContent = "Repealed";
     statusEl.className = "badge badge-red";
@@ -1409,6 +1505,8 @@ function searchPrevious() {
 
   goToMatch();
 }
+
+
 </script>
 <script src="components/navbar.js"></script>
 <script src="components/footer.js"></script>
