@@ -20,8 +20,9 @@ body {
 }
 
 
+/* DEFAULT (desktop-first) */
 #sidebar {
-  display: none;
+  display: block;
   width: 380px;
   margin-left: 12px;
   margin-top: 12px;
@@ -32,12 +33,13 @@ body {
   font-family: Arial, sans-serif;
   background: #fafafa;
 
-  height: calc(100vh - 180px);  /* 👈 KEY FIX */
-  overflow-y: auto;             /* 👈 makes it internal scroll */
+  height: calc(100vh - 180px);
+  overflow-y: auto;
   position: sticky;
   top: 160px;
 }
 
+/* MOBILE OVERRIDE */
 @media (max-width: 768px) {
   #sidebar,
   #sidebarTab {
