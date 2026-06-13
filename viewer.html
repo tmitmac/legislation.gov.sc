@@ -355,21 +355,46 @@ h2 {
   color: #333;
 }
 
-.act-header-longtitle {
-  font-size: 15px;
-  font-weight: bold;
-  color: #555;
-  margin-top: 30px;
-  max-width: 800px;
-  text-align: center;
+.subpart {
+  margin-top: 25px;
+  margin-bottom: 4px;
 }
 
-.subpart {
+.subpart-title {
   text-align: center;
-  margin: 30px 0 18px;
+  color: #333333;
   font-size: 19px;
-  font-weight: 500;
-  color: #444;
+  font-weight: 400;
+  margin: 4px 0 2px 0;  /* tighter spacing */
+}
+
+.subpart + .section {
+  margin-top: 20px;
+}
+
+/* SUBPART row in sidebar */
+.subpart-link {
+  font-size: 20px;
+  opacity: 0.9;
+  background: #f9fafb;
+}
+
+/* optional hover */
+.subpart-link:hover {
+  background: #f1f5f9;
+}
+
+/* optional indentation */
+.subpart-link .section-code {
+  color: #126cd3;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.subpart-link .section-name {
+  color: #126cd3;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .section {
@@ -823,55 +848,65 @@ if (file) {
 }
 
 async function loadAct(path) {
+
+  // ⏳ slow everything before anything appears
+  await sleep(1200);
+
   const res = await fetch(path);
   const text = await res.text();
 
-const doc = parseLegislation(text);
+  const doc = parseLegislation(text);
 
-updateBadges(doc); // 👈 add this
+  updateBadges(doc);
 
-// update browser tab title
-document.title = `${doc.title} | Square Country Legislation`;
+  document.title = `${doc.title} | Square Country Legislation`;
+  document.getElementById("actTitle").textContent = doc.title;
 
-// 👇 update header dynamically
-document.getElementById("actTitle").textContent = doc.title;
+  // ⏳ delay before ANY DOM rendering
+  await sleep(600);
 
-buildSidebar(doc);
-document.getElementById("main").innerHTML = renderLegislation(doc);
+  document.getElementById("main").innerHTML = `
+    <div style="padding:20px;font-size:16px;color:#666;">
+      Loading legislation...
+    </div>
+  `;
 
-document.getElementById("actMeta").textContent =
-  `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+  buildSidebar(doc);
+
+  // ⏳ delay again before full render
+  await sleep(200);
+
+  document.getElementById("main").innerHTML = renderLegislation(doc);
+
+  document.getElementById("actMeta").textContent =
+    `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
 }
 
 function parseLegislation(text) {
   const lines = text.split("\n");
 
-let doc = {
-  title: "",
-  longTitle: "",
-  actNumber: "",
-  type: "",
-  status: "",
-  version: "",
-  agency: "",
-  dateOfAssent: "",
-  commencement: "",
-  parts: [],
-  subparts: []
-};
+  let doc = {
+    title: "",
+    actNumber: "",
+    type: "",
+    status: "",
+    version: "",
+    agency: "",
+    dateOfAssent: "",
+    commencement: "",
+    parts: [],
+    schedules: [],
+  };
 
   let currentPart = null;
   let currentSubpart = null;
   let currentSection = null;
+  let currentSchedule = null;
 
   for (let line of lines) {
     line = line.trim();
 
-    if (line.startsWith("TITLE:"))
-  doc.title = line.replace("TITLE:", "").trim();
-
-else if (line.startsWith("LONGTITLE:"))
-  doc.longTitle = line.replace("LONGTITLE:", "").trim();
+    if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
 
     else if (line.startsWith("ACTNUMBER:"))
       doc.actNumber = line.replace("ACTNUMBER:", "").trim();
@@ -885,24 +920,25 @@ else if (line.startsWith("LONGTITLE:"))
     else if (line.startsWith("COMMENCEMENT:"))
       doc.commencement = line.replace("COMMENCEMENT:", "").trim();
 
-    else if (line.startsWith("TYPE:"))
-      doc.type = line.replace("TYPE:", "").trim();
 
-    else if (line.startsWith("STATUS:"))
-      doc.status = line.replace("STATUS:", "").trim();
+else if (line.startsWith("TYPE:"))
+  doc.type = line.replace("TYPE:", "").trim();
 
-    else if (line.startsWith("VERSION:"))
-      doc.version = line.replace("VERSION:", "").trim();
+      else if (line.startsWith("STATUS:"))
+  doc.status = line.replace("STATUS:", "").trim();
+
+else if (line.startsWith("VERSION:"))
+  doc.version = line.replace("VERSION:", "").trim();
 
     else if (line.startsWith("PARTNUMBER:")) {
+    currentPart = {
+      number: line.replace("PARTNUMBER:", "").trim(),
+      title: "",
+      subparts: [],
+      sections: []
+    };
 
       currentSubpart = null;
-      
-      currentPart = {
-        number: line.replace("PARTNUMBER:", "").trim(),
-        title: "",
-        sections: []
-      };
       doc.parts.push(currentPart);
     }
 
@@ -912,25 +948,44 @@ else if (line.startsWith("LONGTITLE:"))
       }
     }
 
-    else if (line.startsWith("SUBPART:")) {
-  currentSubpart = {
-    number: line.replace("SUBPART:", "").trim(),
-    title: "",
-    sections: []
-  };
+      else if (line.startsWith("SUBPARTNUMBER:")) {
+    currentSubpart = {
+      number: line.replace("SUBPARTNUMBER:", "").trim(),
+      title: "",
+      sections: []
+    };
 
-  if (currentPart) {
-    if (!currentPart.subparts) currentPart.subparts = [];
-    currentPart.subparts.push(currentSubpart);
+    if (currentPart) {
+      currentPart.subparts.push(currentSubpart);
+    }
   }
-}
 
-else if (line.startsWith("SUBPARTTITLE:")) {
-  if (currentSubpart) {
-    currentSubpart.title =
-      line.replace("SUBPARTTITLE:", "").trim();
+  else if (line.startsWith("SUBPARTTITLE:")) {
+    if (currentSubpart) {
+      currentSubpart.title =
+        line.replace("SUBPARTTITLE:", "").trim();
+    }
   }
-}
+
+        else if (line.startsWith("SCHEDULENUMBER:")) {
+          currentSchedule = {
+            number: line.replace("SCHEDULENUMBER:", "").trim(),
+            title: "",
+            sections: []
+          };
+
+          doc.schedules.push(currentSchedule);
+
+          currentPart = null;
+          currentSubpart = null;
+        }
+
+        else if (line.startsWith("SCHEDULETITLE:")) {
+          if (currentSchedule) {
+            currentSchedule.title =
+              line.replace("SCHEDULETITLE:", "").trim();
+          }
+        }
 
     else if (line.startsWith("SECTION:")) {
       currentSection = {
@@ -939,12 +994,17 @@ else if (line.startsWith("SUBPARTTITLE:")) {
         clauses: [],
         footnotes: []
       };
-      if (currentSubpart) {
+
+      if (currentSchedule) {
+        currentSchedule.sections.push(currentSection);
+
+      } else if (currentSubpart) {
         currentSubpart.sections.push(currentSection);
-      } else {
+
+      } else if (currentPart) {
         currentPart.sections.push(currentSection);
-      }    
-}
+      }
+    }
 
     else if (line.startsWith("HEADING:")) {
       currentSection.heading = line.replace("HEADING:", "").trim();
@@ -973,62 +1033,8 @@ else if (line.startsWith("AMENDMENT:")) {
   return doc;
 }
 
-function renderLegislation(doc) {
-
-  let html = `
-<div class="act-header">
-
-  <div class="act-header-title">
-    ${doc.title}
-  </div>
-
-
-
-  <div class="act-header-details">
-
-    <div class="act-header-row">
-      <div class="act-label">Public Act</div>
-      <div class="act-value">${doc.actNumber}</div>
-    </div>
-
-    <div class="act-header-row">
-      <div class="act-label">Date of assent</div>
-      <div class="act-value">${doc.dateOfAssent}</div>
-    </div>
-
-    <div class="act-header-row">
-      <div class="act-label">Commencement</div>
-      <div class="act-value">${doc.commencement}</div>
-    </div>
-
-  </div>
-      <div class="act-header-longtitle">
-      ${doc.longTitle}
-      </div>
-</div>
-`;
-
-  for (const part of doc.parts) {
-  html += `
-    <div class="part">
-      <div class="part-number">Part ${part.number}</div>
-      <div class="part-title">${part.title}</div>
-    </div>
-      `;
-
-      if (part.subparts?.length) {
-
-  for (const subpart of part.subparts) {
-
-    html += `
-      <div class="subpart">
-        Subpart ${subpart.number}&mdash;${subpart.title}
-      </div>
-    `;
-
-    for (const section of subpart.sections) {
-
-  html += `<div class="section" id="section-${section.number}">`;
+function renderSection(section) {
+  let html = `<div class="section" id="section-${section.number}">`;
 
   html += `
     <div class="section-header">
@@ -1050,50 +1056,82 @@ function renderLegislation(doc) {
     html += `<div class="clause level-${level}">${formatted}</div>`;
   }
 
+  if (section.footnotes?.length) {
+    html += `<div class="footnotes">`;
+    section.footnotes.forEach(note => {
+      let formattedNote = note.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      html += `<div class="footnote">${formattedNote}</div>`;
+    });
+    html += `</div>`;
+  }
+
   html += `</div></div>`;
+  return html;
 }
+
+function renderLegislation(doc) {
+
+  let html = `
+<div class="act-header">
+
+  <div class="act-header-title">
+    ${doc.title}
+  </div>
+
+  <div class="act-header-details">
+
+    <div class="act-header-row">
+      <div class="act-label">Public Act</div>
+      <div class="act-value">${doc.actNumber}</div>
+    </div>
+
+    <div class="act-header-row">
+      <div class="act-label">Date of assent</div>
+      <div class="act-value">${doc.dateOfAssent}</div>
+    </div>
+
+    <div class="act-header-row">
+      <div class="act-label">Commencement</div>
+      <div class="act-value">${doc.commencement}</div>
+    </div>
+
+  </div>
+
+</div>
+`;
+
+for (const part of doc.parts) {
+  html += `
+    <div class="part">
+      <div class="part-number">Part ${part.number}</div>
+      <div class="part-title">${part.title}</div>
+    </div>
+  `;
+
+  // CASE 1: sections directly under part (no subparts)
+  for (const section of part.sections) {
+    html += renderSection(section);
   }
 
-}
-    
-    
-
-    for (const section of part.sections) {
-      html += `<div class="section" id="section-${section.number}">`;
-
-      html += `
-        <div class="section-header">
-          <div class="section-number">${section.number}</div>
-          <div class="section-title">${section.heading}</div>
+  // CASE 2: subparts
+  for (const subpart of part.subparts) {
+    html += `
+      <div class="subpart">
+        <div class="subpart-title">
+          Subpart ${subpart.number}—${subpart.title}
         </div>
-        <div class="section-text">
-      `;
+      </div>
+    `;
 
-      for (const clause of section.clauses) {
-        let level = 1;
-        if (/^\(\w+\)/.test(clause)) level = 2;
-        if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
+    for (const section of subpart.sections) {
+      html += renderSection(section);
+    }
+  }
 
-        let formatted = clause
-          .replace(/^(\d+)\.\s*/, "($1) ")
-          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-
-        html += `<div class="clause level-${level}">${formatted}</div>`;
-      }
-
-// footnotes (NEW)
-if (section.footnotes && section.footnotes.length > 0) {
-  html += `<div class="footnotes">`;
-
-  section.footnotes.forEach(note => {
-    html += `<div class="footnote">${note}</div>`;
-  });
-
-  html += `</div>`;
+  
 }
 
-html += `</div></div>`;    }
-  }
+
 
   return html;
 }
@@ -1119,39 +1157,45 @@ function scrollSectionToMiddle(sectionId) {
 function buildSidebar(doc) {
   const sidebar = document.getElementById("sidebar");
   const partFirstSection = {};
-sidebar.innerHTML = `
-  <div class="section-link contents-row">
-    <div class="contents-code">Contents</div>
-    <div class="section-name"></div>
 
-    <button id="sidebarCloseBtn" class="sidebar-close">☰</button>
-  </div>
-`; sectionLinks = {}; // reset
+  sidebar.innerHTML = `
+    <div class="section-link contents-row">
+      <div class="contents-code">Contents</div>
+      <div class="section-name"></div>
+      <button id="sidebarCloseBtn" class="sidebar-close">☰</button>
+    </div>
+  `;
+
+  sectionLinks = {}; // reset
 
   doc.parts.forEach(part => {
-const partEl = document.createElement("div");
-partEl.className = "section-link part-link";
+    // PART ROW
+    const partEl = document.createElement("div");
+    partEl.className = "section-link part-link";
 
-partEl.innerHTML = `
-  <div class="section-code">Part ${part.number}</div>
-  <div class="section-name">${part.title || ""}</div>
-`;
+    partEl.innerHTML = `
+      <div class="section-code">Part ${part.number}</div>
+      <div class="section-name">${part.title || ""}</div>
+    `;
 
-partEl.onclick = () => {
-  const first = partFirstSection[part.number];
+    partEl.onclick = () => {
+      const first = partFirstSection[part.number];
+      if (!first) return;
 
-  document.querySelector(`#section-${first}`)
-    ?.scrollIntoView({ behavior: "auto" });
+      document.querySelector(`#section-${first}`)
+        ?.scrollIntoView({ behavior: "auto" });
 
-  setActive(first);
-};
+      setActive(first);
+    };
 
-sidebar.appendChild(partEl);
+    sidebar.appendChild(partEl);
 
+    // 🔵 DIRECT SECTIONS (no subpart)
     part.sections.forEach(sec => {
-        if (!partFirstSection[part.number]) {
-  partFirstSection[part.number] = sec.number;
-}
+      if (!partFirstSection[part.number]) {
+        partFirstSection[part.number] = sec.number;
+      }
+
       const row = document.createElement("div");
       row.className = "section-link";
 
@@ -1160,15 +1204,122 @@ sidebar.appendChild(partEl);
         <div class="section-name">${sec.heading}</div>
       `;
 
-row.onclick = () => {
-  scrollSectionToMiddle(sec.number);
-  setActive(sec.number);
-};
+      row.onclick = () => {
+        scrollSectionToMiddle(sec.number);
+        setActive(sec.number);
+      };
 
       sidebar.appendChild(row);
-      sectionLinks[sec.number] = row; // ✅ IMPORTANT FIX
+      sectionLinks[sec.number] = row;
+    });
+
+    // 🟣 SUBPARTS + THEIR SECTIONS (THIS WAS MISSING)
+    part.subparts.forEach(subpart => {
+
+      const subpartEl = document.createElement("div");
+      subpartEl.className = "section-link subpart-link";
+
+        subpartEl.innerHTML = `
+          <div class="section-code">
+            Subpart ${subpart.number}
+          </div>
+          <div class="section-name">
+            ${subpart.title || ""}
+          </div>
+        `;
+
+      sidebar.appendChild(subpartEl);
+
+      subpart.sections.forEach(sec => {
+        if (!partFirstSection[part.number]) {
+          partFirstSection[part.number] = sec.number;
+        }
+
+        const row = document.createElement("div");
+        row.className = "section-link";
+
+        row.innerHTML = `
+          <div class="section-code">${sec.number}</div>
+          <div class="section-name">${sec.heading}</div>
+        `;
+
+        row.onclick = () => {
+          scrollSectionToMiddle(sec.number);
+          setActive(sec.number);
+        };
+
+        sidebar.appendChild(row);
+        sectionLinks[sec.number] = row;
+      });
     });
   });
+
+  // SCHEDULES
+doc.schedules?.forEach(schedule => {
+
+  const scheduleEl =
+    document.createElement("div");
+
+  scheduleEl.className =
+    "section-link part-link";
+
+  scheduleEl.innerHTML = `
+    <div class="section-code">
+      Schedule ${schedule.number}
+    </div>
+
+    <div class="section-name">
+      ${schedule.title}
+    </div>
+  `;
+
+  scheduleEl.onclick = () => {
+
+    const anchor =
+      document.querySelector(
+        `#schedule-${schedule.number}`
+      );
+
+    if (!anchor) return;
+
+    anchor.scrollIntoView({
+      behavior: "auto",
+      block: "start"
+    });
+  };
+
+  sidebar.appendChild(scheduleEl);
+
+  schedule.sections.forEach(sec => {
+
+    const row =
+      document.createElement("div");
+
+    row.className =
+      "section-link";
+
+    row.innerHTML = `
+      <div class="section-code">
+        ${sec.number}
+      </div>
+
+      <div class="section-name">
+        ${sec.heading}
+      </div>
+    `;
+
+    row.onclick = () => {
+      scrollSectionToMiddle(sec.number);
+      setActive(sec.number);
+    };
+
+    sidebar.appendChild(row);
+
+    sectionLinks[sec.number] = row;
+
+  });
+
+});
 }
 
 function setActive(id) {
@@ -1330,9 +1481,6 @@ function updateBadges(doc) {
   // STATUS (example logic)
   if (doc.status?.toLowerCase() === "in force") {
     statusEl.textContent = "In force";
-    statusEl.className = "badge badge-green";
-  } else if (doc.status?.toLowerCase() === "current") {
-    statusEl.textContent = "Current";
     statusEl.className = "badge badge-green";
   } else if (doc.status?.toLowerCase() === "repealed") {
     statusEl.textContent = "Repealed";
@@ -1506,6 +1654,9 @@ function searchPrevious() {
   goToMatch();
 }
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 </script>
 <script src="components/navbar.js"></script>
