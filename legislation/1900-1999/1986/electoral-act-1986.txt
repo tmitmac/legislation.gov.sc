@@ -1,4 +1,4 @@
-﻿TITLE: Electoral Act 1986
+TITLE: Electoral Act 1986
 
 ACTNUMBER: 1986 No 33
 
@@ -8,7 +8,7 @@ STATUS: in force
 
 VERSION: latest   
 
-AGENCY: Ministry of Justice & Corrections and Electoral Commission
+AGENCY: the Ministry of Justice & Corrections and Electoral Commission
 
 DATEOFASSENT: 18 May 1986
 
@@ -374,7 +374,7 @@ SECTION: 32
 HEADING: Obligation to enrol
 
 1. Every person who is entitled to enrol must apply for enrolment within 30 days of becoming eligible.
-2. Failure to enrol is an offence punishable by a fine not exceeding ₴500.
+2. Failure to enrol is an offence punishable by a fine not exceeding **₴500**.
 3. A person who fails to enrol remains entitled to enrol at any time.
 
 AMENDMENT: Section 32: inserted, on 1 January 1998, by section 7 of the Electoral Amendment Act 1997 (1997 No 58).
@@ -424,7 +424,7 @@ HEADING: Change of address
 
 1. An elector must notify the Commission of any chane of address within 30 days.
 2. The Commission must transfer the elector to the appropriate electoral roll.
-3. Failure to notify a change of address is an offence punishable by a fine not exceeding ₴200.
+3. Failure to notify a change of address is an offence punishable by a fine not exceeding **₴200**.
 
 SECTION: 38
 
@@ -1379,7 +1379,7 @@ SECTION: 126
 
 HEADING: Deposits
 
-1. The deposit for nomination is ₴500.
+1. The deposit for nomination is **₴500**.
 2. The deposit must be paid at the time of nomination.
 3. The deposit is refunded if the candidate—
 (a) is elected; or
@@ -1414,9 +1414,9 @@ The purposes of this part are—
 (e) to prevent corrupt and illegal practices;
 (f) to promote public confidence in the integrity of elections.
 
-SUBPART: 1
+SUBPARTNUMBER: 1
 
-SUBPARTTITLE: General Rules for Campaigning
+SUBPARTTITLE: General Rules of Campaigning
 
 SECTION: 129
 
@@ -1434,12 +1434,6 @@ HEADING: Right to campaign
 2. No person may obstruct or interfere with lawful campaigning.
 3. A person who contravenes subsection (2) commits an offence.
 
-
-
-SUBPART: 2
-
-SUBPARTTITLE: GYATT
-
 SECTION: 131
 
 HEADING: Use of public resources prohibited
@@ -1453,18 +1447,10 @@ HEADING: Use of public resources prohibited
 (e) public funds.
 3. A person who contravenes this section commits an illegal practice.
 
-SUBPART: 3
+SECTION: 132
 
-SUBPARTTITLE: GYATT
+HEADING: Bribery and treating prohibited
 
-PARTNUMBER: 10
-
-PARTTITLE: Dog
-
-
-
-
-132        Bribery and treating prohibited
 1. A person must not—
 (a) give or offer any gift, loan, or advantage to influence an elector;
 (b) provide food, drink, or entertainment for the purpose of influencing an elector.
@@ -1473,19 +1459,24 @@ PARTTITLE: Dog
 (b) public meetings open to all electors.
 3. A person who contravenes this section commits a corrupt practice.
 
+SECTION: 133
 
-133        Undue influence
+HEADING: Undue influence
+
 1. A person must not—
 (a) intimidate, threaten, or coerce an elector;
 (b) use force or violence to influence voting;
 (c) prevent an elector from voting.
 2. A person who contravenes this section commits a corrupt practice.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Election Advertising
+SUBPARTTITLE: Election Advertising
 
+SECTION: 134
 
-134        Meaning of election advertisement
+HEADING: Meaning of election advertisement
+
 1. An election advertisement is any form of communication that—
 (a) encourages or persuades voters to vote or not vote for a candidate or party; or
 (b) encourages or persuades voters to vote or not vote in a particular way on a referendum question.
@@ -1502,8 +1493,10 @@ Subpart 2—Election Advertising
 (c) private conversations;
 (d) academic analysis.
 
+SECTION: 135
 
-135        Promoter statements required
+HEADING: Promoter statements required
+
 1. Every election advertisement must include a promoter statement.
 2. A promoter statement must include—
 (a) the name of the promoter;
@@ -1511,24 +1504,30 @@ Subpart 2—Election Advertising
 3. An advertisement without a promoter statement is prohibited.
 4. A person who publishes an advertisement without a promoter statement commits an illegal practice.
 
+SECTION: 136
 
-136        Third-party promoters
+HEADING: Third-party promoters
+
 1. A person who is not a candidate or party may promote election advertising as a third-party promoter.
-2. A third-party promoter must register with the Commission if they spend more than ₴1,000.
+2. A third-party promoter must register with the Commission if they spend more than **₴1,000**.
 3. A third-party promoter must file spending returns.
 4. A person who fails to register commits an offence.
 
+SECTION: 137
 
-137        Prohibited advertising
-        A person must not publish—
-1. false statements about a candidate's eligibility;
-2. false statements about a candidate's criminal record;
-3. advertisements likely to mislead or deceive electors;
-4. advertisements purporting to be from the Commission;
-5. advertisements that simulate ballot papers.
+HEADING: Prohibited advertising
 
+A person must not publish—
+(a) false statements about a candidate's eligibility;
+(b) false statements about a candidate's criminal record;
+(c) advertisements likely to mislead or deceive electors;
+(d) advertisements purporting to be from the Commission;
+(e) advertisements that simulate ballot papers.
 
-138        Election signs
+SECTION: 138
+
+HEADING: Election signs
+
 1. Election signs may be displayed only during the campaign period.
 2. A sign must not—
 (a) exceed the size prescribed by regulation;
@@ -1536,21 +1535,28 @@ Subpart 2—Election Advertising
 (c) be placed on private property without permission.
 3. The Commission may order the removal of unlawful signs.
 
+SECTION: 139
 
-139        Social media advertising [amendment]
+HEADING: Social media advertising 
+
 1. Election advertising on social media must comply with this Act.
 2. A promoter statement must be included in a manner appropriate to the platform
 3. Paid political advertising must be clearly identified as such.
 
+AMENDMENT: Section 139: inserted, on 1 January 2014, by section 4 of the Electoral (Social Media Advertising) Amendment Act 2013 (2023 No 36).
 
-Subpart 3—Campaign Finance
+SUBPARTNUMBER: 3
 
+SUBPARTTITLE: Campaign Finance
 
-140        Campaign spending limits
-1. A candidate must not spend more than ₴50,000 during the campaign period.
+SECTION: 140
+
+HEADING: Campaign spending limits
+
+1. A candidate must not spend more than **₴50,000** during the campaign period.
 2. A political party must not spend more than—
-(a) ₴200,000; plus
-(b) ₴10,000 for each electorate contested.
+(a) **₴200,000**; plus
+(b) **₴10,000** for each electorate contested.
 3. Spending includes
 (a) advertising;
 (b) staff costs
@@ -1562,23 +1568,29 @@ Subpart 3—Campaign Finance
 (b) personal travel not reimbursed;
 (c) internal party communications.
 
+SECTION: 141
 
-141        Donation disclosure
-1. A candidate must disclose all donations exceeding ₴1,000.
-2. A party must disclose all donations exceeding ₴5,000.
-3. Anonymous donations exceeding ₴500 are prohibited.
+HEADING: Donation disclosure
+
+1. A candidate must disclose all donations exceeding **₴1,000**.
+2. A party must disclose all donations exceeding **₴5,000**.
+3. Anonymous donations exceeding **₴500** are prohibited.
 4. Foreign donations are prohibited.
 5. A person who knowingly conceals a donation commits an illegal practice.
 
+SECTION: 142
 
-142        Loans treated as donations
+HEADING: Loans treated as donations
+
 1. A loan to a candidate or party is treated as a donation unless—
 (a) it is made at a commercial interest rate; and
 (b) it is repaid within 12 months.
 2. A loan from a foreign person is prohibited.
 
+SECTION: 143
 
-143        Reporting of donations
+HEADING: Reporting of donations
+
 1. Candidates must file a donation return within 40 days after polling day.
 2. Parties must file a donation return within 60 days after polling day.
 3. Returns must include—
@@ -1587,18 +1599,23 @@ Subpart 3—Campaign Finance
 (c) the date of donation;
 (d) any conditions attached to the donation.
 
+SECTION: 144
 
-144        Auditing of party finances
+HEADING: Auditing of party finances
+
 1. Every registered party must appoint an auditor.
 2. The auditor must be independent.
 3. The auditor must examine the party’s financial statements and donation returns.
 4. The auditor must report any irregularities to the Commission.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Broadcasting and Media
+SUBPARTTITLE: Broadcasting and Media
 
+SECTION: 145
 
-145        Broadcasting allocation
+HEADING: Broadcasting allocation
+
 1. The Commission must allocate broadcasting time to registered parties.
 2. Allocation must take into account—
 (a) the party’s share of the party vote at the previous election;
@@ -1606,14 +1623,18 @@ Subpart 4—Broadcasting and Media
 (c) the party’s representation in Parliament.
 3. The Commission must publish the allocation.
 
+SECTION: 146
 
-146        Broadcasting restrictions
+HEADING: Broadcasting restrictions
+
 1. Broadcasters must not favour any candidate or party.
 2. Broadcasters must not charge different rates for political advertising.
 3. Broadcasters must not refuse lawful political advertising.
 
+SECTION: 147
 
-147        Opinion polls
+HEADING: Opinion polls
+
 1. Opinion polls must disclose—
 (a) the sample size;
 (b) the margin of error;
@@ -1621,11 +1642,14 @@ Subpart 4—Broadcasting and Media
 (d) the methodology.
 2. A poll that fails to comply must not be published.
 
+SUBPARTNUMBER: 5
 
-Subpart 5—Prohibited Conduct
+SUBPARTTITLE: Prohibited Conduct
 
+SECTION: 148
 
-148        Campaigning near polling places
+HEADING: Campaigning near polling places
+
 1. No person may campaign within 100 metres of a polling place.
 2. A person must not—
 (a) display campaign material;
@@ -1634,51 +1658,64 @@ Subpart 5—Prohibited Conduct
 (d) solicit votes.
 3. A person who contravenes this section commits an offence.
 
+SECTION: 149
 
-149        False statements 
+HEADING: False statements 
+
 1. A person must not publish a false statement about—
 (a) a candidate’s personal character;
 (b) a candidate’s conduct;
 (c) a candidate’s eligibility.
 2. A person who contravenes this section commits an illegal practice.
 
+SECTION: 150
 
-150        Interference with campaign material
+HEADING: Interference with campaign material
+
 1. A person must not remove, deface, or destroy campaign material belonging to another person.
 2. A person who contravenes this section commits an offence.
 
+SUBPARTNUMBER: 6
 
-Subpart 6—Offences
+SUBPARTTITLE: Offences
 
+SECTION: 151
 
-151        Corrupt practices
-        A person commits a corrupt practice if the person—
-1. engages in bribery;
-2. engages in treating;
-3. engages in undue influence;
-4. knowingly published false statements about eligibility;
-5. knowingly falsifies donation returns.
+HEADING: Corrupt practices
 
+A person commits a corrupt practice if the person—
+(a) engages in bribery;
+(b) engages in treating;
+(c) engages in undue influence;
+(d) knowingly published false statements about eligibility;
+(e) knowingly falsifies donation returns.
 
-152        Illegal practices
-        A person commits an illegal practice if the person—
-1. exceeds spending limits;
-2. fails to disclose donations
-3. publishes advertising without a proper statement;
-4. misuses public resources.
+SECTION: 152
 
+HEADING: Illegal practices
 
-153        Penalties
+A person commits an illegal practice if the person—
+(a) exceeds spending limits;
+(b) fails to disclose donations
+(c) publishes advertising without a proper statement;
+(d) misuses public resources.
+
+SECTION: 153
+
+HEADING: Penalties
+
 1. A person convicted of a corrupt practice is liable to imprisonment for up to 5 years.
-2. A person convicted of an illegal practice is liable to a fine not exceeding ₴50,000.
+2. A person convicted of an illegal practice is liable to a fine not exceeding **₴50,000**.
 3. A person convicted of an offence under this Part may be disqualified from voting or standing for an election for up to 3 years.
 
+PARTNUMBER: 10
 
-Part 9
-Voting, Polling Places, and Ballot Papers
+PARTTITLE: Voting, Polling Places, and Ballot Papers
 
+SECTION: 154
 
-154        Right to vote
+HEADING: Right to vote
+
 1. Every elector whose name appears on the electoral roll for a district is entitled to vote in that district.
 2. An elector may cast—
 (a) one electorate vote; and
@@ -1686,11 +1723,14 @@ Voting, Polling Places, and Ballot Papers
 3. No person may vote more than once.
 4. A person who votes more than once commits a corrupt practice.
 
+SUBPARTNUMBER: 1
 
-Subpart 1—Polling Places
+SUBPARTTITLE: Polling Places
 
+SECTION: 155
 
-155        Establishment of polling places
+HEADING: Establishment of polling places
+
 1. The Commission must establish polling places in each electoral district.
 2. Polling places must be—
 (a) reasonably accessible;
@@ -1698,20 +1738,26 @@ Subpart 1—Polling Places
 (c) suitable for maintaining secrecy of the ballot.
 3. The Commission must publish a list of polling places at least 20 days before polling day.
 
+SECTION: 156
 
-156        Hours of polling
-1. Polling places must be open from 9:00 a.m. to 7:00 p.m. on polling day.
+HEADING: Hours of polling
+
+1. Polling places must be open from 9:00 a.m. to 7:00 p.m. on polling day and during advance voting.
 2. A polling place must not close while electors are waiting to vote.
 3. A person who is in line at 7:00 p.m. must be permitted to vote.
 
+SECTION: 157
 
-157        Returning officers responsible for polling places
+HEADING: Returning officers responsible for polling places
+
 1. A returning officer is responsible for the conduct of polling in their district.
 2. A returning officer may appoint deputy returning officers and polling officials.
 3. Polling officials must act impartially.
 
+SECTION: 158
 
-158        Mobile polling station
+HEADING: Mobile polling station
+
 1. The Commission may establish mobile polling stations for—
 (a) hospitals;
 (b) rest homes;
@@ -1719,17 +1765,22 @@ Subpart 1—Polling Places
 (d) correctional facilities.
 2. Mobile polling stations must comply with all requirements of this Act.
 
+SECTION: 156
 
-159        Advance voting places
+HEADING: Advance voting places
+
 1. The Commission must establish advance voting places.
 2. Advance voting may begin on the date specified in the election timetable.
 3. Advance voting places must comply with all requirements for voting places.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Ballot Papers
+SUBPARTTITLE: Ballot Papers
 
+SECTION: 160
 
-160        Form of ballot papers
+HEADING: Form of ballot papers
+
 1. The Commission must prepare ballot papers for each district.
 2. A ballot paper must contain—
 (a) the names of all electorate candidates;
@@ -1739,8 +1790,10 @@ Subpart 2—Ballot Papers
 3. The order of electorate candidates must be alphabetical by surname.
 4. The order of political parties must be alphabetical by party name.
 
+SECTION: 161
 
-161        Security of ballot papers
+HEADING: Security of ballot papers
+
 1. Ballot papers must be printed on secure paper.
 2. Ballot papers must be stored securely before polling day.
 3. A person must not—
@@ -1749,8 +1802,10 @@ Subpart 2—Ballot Papers
 (c) destroy or alter ballot papers.
 4. A person who contravenes this section commits a corrupt practice.
 
+SECTION: 162
 
-162        Issue of ballot papers
+HEADING: Issue of ballot papers
+
 1. A polling official must issue a ballot paper to each elector who—
 (a) states their name;
 (b) is found on the roll;
@@ -1758,8 +1813,9 @@ Subpart 2—Ballot Papers
 2. The polling official must mark the roll to indicate that the elector has voted.
 3. A ballot paper must not be issued to a person whose name is not on the roll unless they cast a special vote.
 
+SECTION: 163
 
-163        Spoiled ballot papers
+HEADING: Spoiled ballot papers
 1. An elector who spoils a ballot may return it to a polling official.
 2. The polling official must—
 (a) mark the spoiled ballot paper “SPOILED”;
@@ -1767,18 +1823,23 @@ Subpart 2—Ballot Papers
 (c) issue a new ballot paper.
 3. Spoiled ballot papers must not be counted.
 
+SECTION: 164
 
-164        Lost ballot papers
+HEADING: Lost ballot papers
+
 1. A person who claims to have lost a ballot paper may be issued a new one only if—
 (a) the original ballot paper has not been placed in the ballot box; and
 (b) the returning officer approves the issue.
 2. The original ballot paper is invalid.
 
+SUBPARTNUMBER: 3
 
-Subpart 3—Casting of Votes
+SUBPARTTITLE: Casting of Votes
 
+SECTION: 165
 
-165        Voting procedure
+HEADING: Voting procedure
+
 1. An elector must—
 (a) receive a ballot paper
 (b) proceed to the voting booth;
@@ -1787,8 +1848,10 @@ Subpart 3—Casting of Votes
 (e) place the ballot paper in the ballot box.
 2. A polling official must not observe how an elector votes.
 
+SECTION: 166
 
-166        Secrecy of voting
+HEADING: Secrecy of voting
+
 1. Every elector has the right to vote in secret.
 2. A person must not—
 (a) attempt to discover how another person voted;
@@ -1796,8 +1859,10 @@ Subpart 3—Casting of Votes
 (c) require an elector to reveal their vote.
 3. A person who contravenes this section commits an offense.
 
+SECTION: 167
 
-167        Assistance to voters
+HEADING: Assistance to voters
+
 1. An elector who is unable to vote without assistance may request help.
 2. Assistance may be provided by—
 (a) a polling official; or
@@ -1808,8 +1873,10 @@ Subpart 3—Casting of Votes
 (c) not influence the elector.
 4. A person who influences an assisted voter commits a corrupt practice.
 
+SECTION: 168
 
-168        Tendered votes
+HEADING: Tendered votes
+
 1. A tendered vote may be cast if—
 (a) the elector claims to be entitled to vote;
 (b) the elector’s name is marked as having already voted;
@@ -1817,20 +1884,25 @@ Subpart 3—Casting of Votes
 2. A tendered vote must be placed in a sealed envelope.
 3. Tendered votes must be examined during the official count.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Special Votes
+SUBPARTTITLE: Special Votes
 
+SECTION: 169
 
-169        Who may cast a special vote
-        A person may cast a special vote if—
-1. The person is not on the printed roll but claims entitlement;
-2. The person is voting outside their district;
-3. The person is overseas;
-4. The person is in hospital, prison, or a remote location;
-5. The person’s name has been incorrectly removed from the roll.
+HEADING: Who may cast a special vote
 
+A person may cast a special vote if—
+(a) The person is not on the printed roll but claims entitlement;
+(b) The person is voting outside their district;
+(c) The person is overseas;
+(d) The person is in hospital, prison, or a remote location;
+(e) The person’s name has been incorrectly removed from the roll.
 
-170        Special vote declaration
+SECTION: 170
+
+HEADING: Special vote declaration
+
 1. A special voter must complete a special vote declaration.
 2. The declaration must include—
 (a) the voter’s name;
@@ -1839,8 +1911,10 @@ Subpart 4—Special Votes
 (d) a signature.
 3. A special vote without a declaration is invalid.
 
+SECTION: 171
 
-171        Special vote envelopes
+HEADING: Special vote envelopes
+
 1. A special vote must be placed in a sealed envelope.
 2. The envelope must be marked with—
 (a) the voter’s name;
@@ -1848,49 +1922,56 @@ Subpart 4—Special Votes
 (c) the polling place.
 3. Special vote envelopes must be delivered to the returning officer.
 
+SECTION: 172
 
+HEADING: Verification of special votes
 
-
-
-
-172        Verification of special votes
 1. The returning officer must verify each special vote by—
 (a) checking the roll;
 (b) confirming the voter has not already voted;
 (c) confirming the declaration is complete.
 2. A special vote that fails verification is rejected.
 
+SECTION: 173
 
-173        Ballot boxes
+HEADING: Ballot boxes
+
 1. Ballot boxes must be—
 (a) secure;
 (b) sealed before polling begins
 (c) opened only during the count.
 2. A polling official must record the seal number.
 
+SECTION: 174
 
-174        Custody of ballot boxes
+HEADING: Custody of ballot boxes
+
 1. Ballot boxes must remain under the control of polling officials at all times.
 2. A person must not tamper with a ballot box.
 3. A person who contravenes this section commits a corrupt practice.
 
+SECTION: 175
 
-175        Closing of polling places
+HEADING: Closing of polling places
+
 1. At 7:00 p.m., the polling place must close.
 2. Polling officials must—
 (a) seal the ballot box;
 (b) complete the polling place return;
 (c) deliver materials to the returning officer.
 
+PARTNUMBER: 11
 
-Part 10
-Counting of Votes and Declaration of Results
+PARTTITLE: Counting of Votes and Declaration of Results
 
+SUBPARTNUMBER: 1
 
-Subpart 1—Preliminary Count
+SUBPARTTITLE: Preliminary Count
 
+SECTION: 176
 
-176        Preliminary count to begin immediately after close of polling
+HEADING: Preliminary count to begin immediately after close of polling
+
 1. As soon as practicable after 7:00 p.m. on polling day, polling officials must begin the preliminary count.
 2. The preliminary count must be conducted at each polling place.
 3. The preliminary count must include—
@@ -1899,8 +1980,10 @@ Subpart 1—Preliminary Count
 (c) all advance ordinary votes.
 4. Special votes must not be counted during the preliminary count.
 
+SECTION: 177
 
-177        Procedure for preliminary count
+HEADING: Procedure for preliminary count
+
 1. Polling officials must—
 (a) open the ballot box;
 (b) unfold each ballot paper;
@@ -1913,8 +1996,10 @@ Subpart 1—Preliminary Count
 (c) they are blank;
 (d) they are marked in a way that does not clearly indicate the voter’s intention.
 
+SECTION: 178
 
-178        Recording of preliminary results
+HEADING: Recording of preliminary results
+
 1. The polling place manager must record—
 (a) the number of votes for each electorate candidate;
 (b) the number of votes for each political party;
@@ -1922,8 +2007,10 @@ Subpart 1—Preliminary Count
 (d) the number of ballot papers issued.
 2. The polling place manager must sign the preliminary results.
 
+SECTION: 179
 
-179        Transmission of preliminary results
+HEADING: Transmission of preliminary results
+
 1. Preliminary results must be transmitted to the returning officer as soon as practicable.
 2. Transmission may be by—
 (a) secure electronic means;
@@ -1931,16 +2018,21 @@ Subpart 1—Preliminary Count
 (c) any other method approved by the Commission.
 3. The returning officer must forward preliminary results to the Commission
 
+SECTION: 180
 
-180        Publication of preliminary results
+HEADING: Publication of preliminary results
+
 1. The Commission must publish preliminary results progressively on polling night.
 2. Preliminary results are not final and must be labelled as such.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Official Count
+SUBPARTTITLE: Official Count
 
+SECTION: 181
 
-181        Official count to begin on the first business day after poling
+HEADING: Official count to begin on the first business day after polling
+
 1. The returning officer must begin the official count no later than the first business day after polling day.
 2. The official count must include—
 (a) all ordinary votes;
@@ -1949,8 +2041,10 @@ Subpart 2—Official Count
 (d) all advance votes;
 (e) all votes not counted in the preliminary count.
 
+SECTION: 182
 
-182        Reconciliation of ballot papers
+HEADING: Reconciliation of ballot papers
+
 1. Before counting begins, the returning officer must reconcile—
 (a) the number of ballot papers issued;
 (b) the number of ballot papers returned;
@@ -1959,8 +2053,10 @@ Subpart 2—Official Count
 (e) the number of ballot papers in the ballot box.
 2. Any discrepancy must be investigated and recorded.
 
+SECTION: 183
 
-183        Scrutiny of ballot papers
+HEADING: Scrutiny of ballot papers
+
 1. The returning officer must examine each ballot paper to determine its validity.
 2. A ballot paper must be rejected if—
 (a) it is not authentic;
@@ -1971,16 +2067,20 @@ Subpart 2—Official Count
 (a) it is incorrectly folded;
 (b) it contains extraneous marks that do not identify the voter.
 
+SECTION: 184
 
-184        Counting of ordinary votes
+HEADING: Counting of ordinary votes
+
 1. Ordinary votes must be counted first.
 2. The returning officer must record—
 (a) the number of valid electorate votes for each candidate;
 (b) the number of valid party votes for each party;
 (c) the number of rejected ordinary votes.
 
+SECTION: 185
 
-185        Verification and counting of special votes
+HEADING: Verification and counting of special votes
+
 1. Special vote declarations must be examined before the votes are counted.
 2. A special vote must be rejected if—
 (a) the declaration is incomplete;
@@ -1989,39 +2089,51 @@ Subpart 2—Official Count
 (d) the voter is not enrolled.
 3. Verified special votes must be counted in the same manner as ordinary votes.
 
+SECTION: 186
 
-186        Tendered votes
+HEADING: Tendered votes
+
 1. Tendered votes must be examined separately.
 2. A tendered vote must be counted only if—
 (a) the vote is found to be eligible;
 (b) the voter has not voted elsewhere.
 3. Tendered votes must be recorded separately.
 
+SECTION: 187
 
-187        Rejected votes
+HEADING: Rejected votes
+
 1. The returning officer must keep a record of all rejected votes.
 2. Rejected votes must be placed in a sealed envelope marked “REJECTED”.
 
+SUBPARTNUMBER: 3
 
-Subpart 3—Declaration of Electorate Results
+SUBPARTTITLE: Declaration of Electorate Results
 
+SECTION: 188
 
-188        Determination of electorate winner
+HEADING: Determination of electorate winner
+
 1. The candidate with the highest number of valid electorate votes is elected.
 2. If two or more candidates receive the same number of votes, the returning officer must determine the winner by lot.
 3. The drawing of lots must be conducted publicly.
 
+SECTION: 189
 
-189        Declaration of electorate results
+HEADING: Declaration of electorate results
+
 1. The returning officer must declare the elected candidate as soon as the official count is complete.
 2. The declaration must be published in the Gazette.
 3. The returning officer must notify the Commission.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Recount
+SUBPARTTITLE: Recount
 
+SECTION: 190
 
-190        Right to request recount
+HEADING: Right to request recount
+
 1. A candidate may request a recount within 48 hours after the declaration of results.
 2. A request must—
 (a) be in writing;
@@ -2029,8 +2141,10 @@ Subpart 4—Recount
 (c) be accompanied by the prescribed fee.
 3. The fee is refundable if the recount changes the result.
 
+SECTION: 191
 
-191        Conduct of recount
+HEADING: Conduct of recount
+
 1. The returning officer must conduct the recount as soon as practicable
 2. The recount must include—
 (a) all ordinary votes;
@@ -2039,8 +2153,10 @@ Subpart 4—Recount
 (d) all rejected votes.
 3. The returning officer may revise decisions made during the official recount.
 
+SECTION: 192
 
-192        Judicial recount
+HEADING: Judicial recount
+
 1. A candidate may apply to the High Court for a judicial recount.
 2. The Court may—
 (a) order a recount;
@@ -2048,11 +2164,14 @@ Subpart 4—Recount
 (c) make any necessary orders.
 3. The Court’s decision is final.
 
+SUBPARTNUMBER: 5
 
-Subpart 5—Certification and Publication 
+SUBPARTTITLE: Certification and Publication 
 
+SECTION: 193
 
-193        Certification of official results
+HEADING: Certification of official results
+
 1. When the official count is complete, the returning officer must certify—
 (a) the number of votes for each electorate candidate;
 (b) the number of votes for each political party;
@@ -2060,8 +2179,10 @@ Subpart 5—Certification and Publication
 (d) the total number of valid votes.
 2. The certification must be sent to the Commission.
 
+SECTION: 194
 
-194        Publication of official results
+HEADING: Publication of official results
+
 1. The Commission must publish the official results within 5 days after receiving all certifications.
 2. Publication must include—
 (a) electorate results;
@@ -2072,64 +2193,68 @@ Subpart 5—Certification and Publication
 (f) ballot validity;
 (g); results timing.
 
+SECTION: 195
 
-195        Transmission of results for seat allocation
+HEADING: Transmission of results for seat allocation
+
 1. The Commission must transmit the party vote totals to the Chief Electoral Commissioner.
 2. The Chief Electoral Commissioner must allocate list seats in accordance with Part 11.
 
+PARTNUMBER: 12
 
+PARTTITLE: Allocation of Seats (Mixed-Member Proportional System)
 
+SECTION: 196
 
+HEADING: Purpose
 
+The purpose of this Part is—
+(a) To provide for the allocation of seats in Parliament in proportion to the party vote;
+(b) To ensure that each political party’s total number of seats reflect its share of the party vote.
+(c) To provide for the use of the Sainte-Laguë method;
+(d) To provide for the allocation of list seats;
+(e) To provide for overhang seats;
+(f) To ensure that electorate seats are deducted from each party’s entitlement.
 
+SUBPARTNUMBER: 1
 
+SUBPARTTITLE: General Principles
 
+SECTION: 197
 
+HEADING: Total number of seats
 
-
-
-Part 11
-Allocation of Seats (Mixed-Member Proportional System)
-
-
-196        Purpose
-        The purpose of this Part is—
-1. To provide for the allocation of seats in Parliament in proportion to the party vote;
-2. To ensure that each political party’s total number of seats reflect its share of the party vote.
-3. To provide for the use of the Sainte-Laguë method;
-4. To provide for the allocation of list seats;
-5. To provide for overhang seats;
-6. To ensure that electorate seats are deducted from each party’s entitlement.
-
-
-Subpart 1—General Principles
-
-
-197        Total number of seats
 1. Parliament consists of—
 (a) 13 electorate seats; and
 (b) 13 list seats;
 for a total of 26 seats.
 2. Parliament may temporarily exceed 26 seats if overhang seats arise under this Part.
 
+SECTION: 198
 
-198        Party vote determines proportional entitlement
+HEADING: Party vote determines proportional entitlement
+
 1. The total number of seats to which a political party is entitled is determined solely by the party vote.
 2. Electorate seats won by a party are deducted from that entitlement.
 3. List seats are allocated to bring each party up to its entitlement.
 
+SECTION: 199
 
-199        Threshold for eligibility
+HEADING:Threshold for eligibility
+
 1. A political party is eligible for list seats only if—
-(a) it receives at least 4% of the total party vote; or
-(b) it wins at least one electoral seat.
+(a) it receives at least **4%** of the total party vote; or
+(b) it wins at least **one electoral seat**.
 2. A party that does not meet either threshold is not entitled to any list seats.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Calculation of Party Entitlements
+SUBPARTTITLE: Calculation of Party Entitlements
 
+SECTION: 200
 
-200        Sainte-Laguë method to be used
+HEADING: Sainte-Laguë method to be used
+
 1. The Sainte-Laguë must be used to allocate seats to political parties.
 2. The method is set out in Schedule 1
 3. The divisors to be used are—
@@ -2140,32 +2265,41 @@ Subpart 2—Calculation of Party Entitlements
 (e) 9;
 and so one for as many seats as required.
 
+SECTION: 201
 
-201        Party vote totals
+HEADING: Party vote totals
+
 1. The Commission must determine the total number of valid party votes cast for each political party.
 2. Invalid or rejected party votes must not be included.
 3. The total number of valid party votes must be used for  the calculation of entitlements.
 
+SECTION: 202
 
-202        Allocation of seats to parties
+HEADING: Allocation of seats to parties
+
 1. The Chief Electoral Commissioner must—
 (a) apply the Sainte-Laguë method to the party vote totals;
 (b) allocate 26 seats among the eligible parties.
 2. The number of seats allocated to each party under subsection (1) is that party’s proportional entitlement.
 
+SECTION: 203
 
-203        Deduction of electorate seats
+HEADING: Deduction of electorate seats
+
 1. The number of electorate seats won by a party must be deducted from its proportional entitlement.
 2. If the number of electorate seats won by a party is—
 (a) less than its entitlement, the difference is filled by list seats;
 (b) equal to its entitlement, the party receives no list seats;
 (c) greater than its entitlement, the party has overhang seats.
 
+SUBPARTNUMBER: 3
 
-Subpart 3—List Seat Allocation
+SUBPARTTITLE: List Seat Allocation
 
+SECTION: 204
 
-204        Allocation of list seats
+HEADING: Allocation of list seats
+
 1. List seats must be allocated to eligible parties in the order of candidates on their party lists.
 2. A candidate is not eligible to be allocated a list seat if—
 (a) the candidate has died;
@@ -2173,40 +2307,44 @@ Subpart 3—List Seat Allocation
 (c) the candidate is ineligible to be a Member of Parliament.
 3. If a party has fewer list candidates than the number of list seats it is entitled to, the remaining seats remain vacant. 
 
+SECTION: 205
 
+HEADING: Declaration of list MPs
 
-
-
-
-
-
-205        Declaration of list MPs
 1. When list seats have been allocated, the Chief Electoral Commissioner must declare elected the candidates who fill those seats.
 2. The declaration must be published in the Gazette.
 3. A list MP takes office on the date of publication.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Overhang Seats
+SUBPARTTITLE: Overhang Seats
 
+SECTION: 206
 
-206        Overhang seats
+HEADING: Overhang seats
+
 1. A party has overhang seats if the number of electorate seats it wins exceeds its proportional entitlement.
 2. Overhang seats are retained by the party.
 3. Parliament is increased by the number of overhang seats.
 4. Other parties do not receive additional seats to compensate for overhang.
 
+SECTION: 207
 
-207        Effect of overhang on Parliament
+HEADING: Effect of overhang on Parliament
+
 1. If overhang seats arise, the total number of seats in Parliament is—
 (a) 26; plus
 (b) the number of overhang seats.
 2. Overhang seats remain in Parliament until the next general election.
 
+SUBPARTNUMBER: 5
 
-Subpart 5—Vacancies and Replacements
+SUBPARTTITLE: Vacancies and Replacements
 
+SECTION: 208
 
-208        Vacancy in list seats
+HEADING: Vacancy in list seats
+
 1. A list seat becomes vacant if—
 (a) the list MP dies;
 (b) the list MP resigns;
@@ -2214,29 +2352,31 @@ Subpart 5—Vacancies and Replacements
 (d) the list MP’s election is declared void.
 2. A vacancy in a list seat must be filled under section 209.
 
+SECTION: 209
 
-209        Replacement of list MPs
+HEADING: Replacement of list MPs
+
 1. The Commission must declare elected the next available candidate on the party’s list.
 2. A candidate is not available if—
 (a) the candidate has died;
-(b the candidate has withdrawn;
+(b) the candidate has withdrawn;
 (c) the candidate is ineligible.
 3. If no candidates remain on the list, the seat remains vacant.
 
+SECTION: 210
 
-
-
-
-
-210        Vacancy in electorate seats
+HEADING: Vacancy in electorate seats
 1. A vacancy in an electorate seat must be filled by a by-election under Part 6.
 2. A party list may not be used to fill an electorate vacancy.
 
+SUBPARTNUMBER: 6
 
-Subpart 6—Publication and Certification
+SUBPARTTITLE: Publication and Certification
 
+SECTION: 211
 
-211        Publication of seat allocation
+HEADING: Publication of seat allocation
+
 1. The Commission must publish—
 (a) the total number of seats allocated to each party;
 (b) the number of electorate seats won by each party;
@@ -2244,8 +2384,10 @@ Subpart 6—Publication and Certification
 (d) the number of overhang seats (if any).
 2. Publication must occur within 3 days after allocation.
 
+SECTION: 212
 
-212        Certification of final composition of Parliament
+HEADING: Certification of final composition of Parliament
+
 1. The Chief Electoral Commissioner must certify the final composition of Parliament.
 2. Certification must include—
 (a) the names of all electorate MPs;
@@ -2254,71 +2396,88 @@ Subpart 6—Publication and Certification
 (d) the total number of seats in Parliament.
 3. Certification must be transmitted to the Governor-General.
 
+PARTNUMBER: 13
 
-Part 12
-Members of Parliament
+PARTTITLE: Members of Parliament
 
+SECTION: 213
 
-213        Composition of Parliament
+HEADING: Composition of Parliament
+
 1. Parliament consists of—
 (a) 13 electorate Members of Parliament; and
 (b) 13 list Members of Parliament;
 subject to any overhang seats under Part 11.
 2. All Members of Parliament have equal powers, rights, and privileges.
 
+SUBPARTNUMBER: 1
 
-Subpart 1—Qualifications and Disqualifications
+SUBPARTTITLE: Qualifications and Disqualifications
 
+SECTION: 214
 
-214        Qualifications for membership
-        A person is qualified to be a Member of Parliament if the person—
-1. is a citizen of Square Country;
-2. is enrolled as an elector;
-3. is at least 18 years of age;
-4. is not disqualified under this Act or any other enactment.
+HEADING: Qualifications for membership
 
+A person is qualified to be a Member of Parliament if the person—
+(a) is a citizen of Square Country;
+(b) is enrolled as an elector;
+(c) is at least 18 years of age;
+(d) is not disqualified under this Act or any other enactment.
 
-215        Disqualifications
-        A person is disqualified from being a Member of Parliament if the person—
-1. is a judge;
-2. is a member of the armed forces or police;
-3. is an undischarged bankrupt;
-4. has been convicted of an offence punishable by imprisonment for 2 years or more, unless pardoned;
-5. is of unsound mind as determined by a court;
-6. hold an office of profit under the Crown, unless resigned before taking office;
-7. is a member of a foreign legislature.
+SECTION: 215
 
+HEADING: Disqualifications
 
-216        Disqualification after election
+A person is disqualified from being a Member of Parliament if the person—
+(a) is a judge;
+(b) is a member of the armed forces or police;
+(c) is an undischarged bankrupt;
+(d) has been convicted of an offence punishable by imprisonment for 2 years or more, unless pardoned;
+(e) is of unsound mind as determined by a court;
+(f) hold an office of profit under the Crown, unless resigned before taking office;
+(g) is a member of a foreign legislature.
+
+SECTION: 216
+
+HEADING: Disqualification after election
+
 1. If a Member of Parliament becomes disqualified after being elected, the seat becomes vacant.
 2. The Speaker must notify the Governor-General and the Commission.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Oath of Office
+SUBPARTTITLE: Oath of Office
 
+SECTION: 217
 
-217        Oath or affirmation required
-1. A person elected as a Member of Parliament must, before taking their seat, take the oath of affirmation set out in schedule 3.
+HEADING: Oath or affirmation required
+
+1. A person elected as a Member of Parliament must, before taking their seat, take the oath of affirmation set out in schedule 2.
 2. The oath must be taken before the Governor-General of a person authorised by the Governor-General.
 3. A person who fails to take the oath within 30 days of being declared elected may not sit or vote until the oath is taken.
 
+SECTION: 218
 
-218        Effect of failure to take oath
+HEADING: Effect of failure to take oath
+
 1. A person who fails to take the oath within 90 days of being declared elected ceases to be a Member of Parliament.
 2. The seat becomes vacant.
 
+SUBPARTNUMBER: 3
 
+SUBPARTTITLE: Conduct and Discipline
 
+SECTION: 219
 
-Subpart 3—Conduct and Discipline
+HEADING: Privileges of Members
 
-
-219        Privileges of Members
 1. Members of Parliament have the privileges and immunities set out in the Parliamentary Privileges Act.
 2. Nothing in this Act limits parliamentary privilege.
 
+SECTION: 220
 
-220        Misconduct by Members
+HEADING: Misconduct by Members
+
 1. A Member commits misconduct if the Member—
 (a) engages in disorderly behaviour;
 (b)wilfully disrupts parliamentary proceedings;
@@ -2326,90 +2485,116 @@ Subpart 3—Conduct and Discipline
 (d) breaches the code of conduct.
 2. Misconduct may result in suspension or expulsion.
 
+SECTION: 221
 
-221        Expulsion of Members
+HEADING: Expulsion of Members
+
 1. Parliament may expel a Member only if—
 (a) the Member has committed serious misconduct; and
 (b) the motion to expel is supported by at least 75% of all Members.
 2. A Member who is expelled ceases to be a Member immediately.
 3. The seat becomes vacant.
 
+SECTION: 222
 
-222        Suspension of Members
+HEADING: Suspension of Members
+
 1. Parliament may suspend a Member for misconduct.
 2. A suspension may not exceed 30 sitting days.
 3. A suspended Member may not sit, vote, or receive salary during the suspension.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Remuneration and Entitlements
+SUBPARTTITLE: Remuneration and Entitlements
 
+SECTION: 223
 
-223        Remuneration of Members
+HEADING: Remuneration of Members
+
 1. Members are entitled to salary and allowances determined by the Remuneration Authority.
 2. Remuneration must not be altered during a Member’s term except as part of a general adjustment.
 
+SECTION: 224
 
-224        Travel and accommodation
+HEADING: Travel and accommodation
+
 1. Members are entitled to travel and accommodation allowances for parliamentary duties.
 2. The Commission may issue guidelines for the administration of allowances.
 
+SECTION: 225
 
-225        Superannuation
-        Members are entitled to participate in the parliamentary superannuation scheme established by
-        law. 
+HEADING: Superannuation
 
+Members are entitled to participate in the parliamentary superannuation scheme established by law. 
 
-Subpart 5—Miscellaneous
+SUBPARTNUMBER: 5
 
+SUBPARTTITLE: Miscellaneous
 
-226        Attendance of Members
+SECTION: 226
+
+HEADING: Attendance of Members
+
 1. A Member must attend sittings of Parliament unless excused.
 2. A Member who is absent without leave for 30 consecutive sitting days ceases to be a Member.
 3. The seat becomes vacant.
 
+SECTION: 227
 
-227        Prohibition on dual membership
-        A Member may not simultaneously serve
-1. in a foreign legislature;
-2. as a judge;
-3. as a member of the armed forces or police.
+HEADING: Prohibition on dual membership
 
+A Member may not simultaneously serve
+(a) in a foreign legislature;
+(b) as a judge;
+(c) as a member of the armed forces or police.
 
-228        Effect of dissolution
+SECTION: 228
+
+HEADING: Effect of dissolution
+
 1. All Members cease to hold office upon dissolution of Parliament.
 2. Members remain entitled to salary allowances until the return of the writs.
 
+PARTNUMBER: 14
 
-Part 13
-Electoral Offences
+PARTTITLE: Electoral Offences
 
+SECTION: 229
 
-229        Purpose
-        The purposes of this Part are—
-1. to define corrupt and illegal practices;
-2. to provide penalties for electoral offences;
-3. to ensure the integrity of elections;
-4. to provide for enforcement and prosecution
-5. to protect electors, candidates, and officials from coercion, fraud, and intimidation.
+HEADING: Purpose
 
+The purposes of this Part are—
+(a) to define corrupt and illegal practices;
+(b) to provide penalties for electoral offences;
+(c) to ensure the integrity of elections;
+(d) to provide for enforcement and prosecution
+(e) to protect electors, candidates, and officials from coercion, fraud, and intimidation.
 
-Subpart 1—Corrupt Practices
+SUBPARTNUMBER: 1
 
+SUBPARTTITLE: Corrupt Practices
 
-230        Bribery
+SECTION: 230
+
+HEADING: Bribery
+
 1. A person commits bribery if the person—
 (a) gives, offers, or promises any gift, loan, reward, or advantage, to influence and elector;
 (b) requests or receives any such benefit in exchange for voting or not voting;
 (c) induces a person to stand or withdraw as a candidate.
 2. Bribery is a corrupt practice.
 
+SECTION: 231
 
-231        Treating
+HEADING: Treating
+
 1. A person commits treating if the person provides food, drink, entertainment, or hospitality for the purpose of influencing an elector.
 2. Treating is a corrupt practice.
 
+SECTION: 232
 
-232        Undue influence
+HEADING: Undue influence
+
 1. A person commits undue influence if the person—
 (a) uses or threatens force, violence, or restraint;
 (b) inflicts or threatens harm;
@@ -2417,8 +2602,10 @@ Subpart 1—Corrupt Practices
 (d) prevents an elector from voting.
 2. Undue influence is a corrupt practice.
 
+SECTION: 233
 
-233        Personation
+HEADING: Personation
+
 1. A person commits personation if the person—
 (a) votes in the name of another person;
 (b) votes more than once;
@@ -2426,146 +2613,172 @@ Subpart 1—Corrupt Practices
 (d) induces another person to commit personation.
 2. Personation is a corrupt practice.
 
+SECTION: 234
 
-234        False statements about candidates
+HEADING: False statements about candidates
+
 1. A person commits a corrupt practice if the person knowingly published a false statement alleging—
 (a) that a candidate has committed a crime;
 (b) that a candidate is disqualified;
 (c) that a candidate is guilty of misconduct.
 2. A person does not commit an offence if the statement was made in good faith and on reasonable grounds.
 
+SECTION: 235
 
-235        Corrupt practices by officials
+HEADING: Corrupt practices by officials
+
 1. A polling official, returning officer, or Commission employee commits a corrupt practice if the person—
 (a) falsifies a ballot paper or return;
 (b) destroys or alters a ballot paper;
 (c) permits unauthorised access to ballot papers;
 (d) knowingly counts invalid votes or rejects valid votes.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Illegal Practices
+SUBPARTTITLE: Illegal Practices
 
+SECTION: 236
 
-236        Illegal practices defined
-        A person commits an illegal practice if the person—
-1. Exceeds spending limits;
-2. Fails to disclose donations;
-3. Publishes election advertising without a promoter statement;
-4. Campaigns within 100 metres of a polling place;
-5. Misuses public resources;
-6. Knowingly provides false information for enrolment;
-7. Interferes with campaign material;
-8. Fails to file required returns.
+HEADING: Illegal practices defined
 
+A person commits an illegal practice if the person—
+(a) Exceeds spending limits;
+(b) Fails to disclose donations;
+(c) Publishes election advertising without a promoter statement;
+(d) Campaigns within 100 metres of a polling place;
+(e) Misuses public resources;
+(f) Knowingly provides false information for enrolment;
+(g) Interferes with campaign material;
+(h) Fails to file required returns.
 
+SECTION: 237
 
+HEADING: False statements in nomination papers
 
-237        False statements in nomination papers
-        A person commits an illegal practice if the person knowingly makes a false statement in a
-        nomination paper.
+A person commits an illegal practice if the person knowingly makes a false statement in a nomination paper.
 
+SECTION: 238
 
-238        Breach of secrecy
-1. A person commits an illegal practice if the person—
+HEADING: Breach of secrecy
+
+A person commits an illegal practice if the person—
 (a) attempts to discover how another person voted;
 (b) discloses information obtained in violation of ballot secrecy;
 (c) photographs or records a marked ballot paper.
 
+SECTION: 239
 
-239        Interference with polling
-        A person commits an illegal practice if the person—
-1. obstructs electors;
-2. disrupts polling;
-3. interferes with ballot boxes;
-4. refuses to leave a polling place when directed.
+HEADING: Interference with polling
 
+A person commits an illegal practice if the person—
+(a) obstructs electors;
+(b) disrupts polling;
+(c) interferes with ballot boxes;
+(d) refuses to leave a polling place when directed.
 
-Subpart 3—Minor Offences
+SUBPARTNUMBER: 3
 
+SUBPARTTITLE: Minor Offences
 
-240        Minor offences
-        A person commits a minor offence if the person—
-1. removes or defaces election signs;
-2. fails to notify a change of address
-3. fails to comply with a lawful direction of a polling official;
-4. enters a polling booth without permission.
+SECTION: 240
 
+HEADING: Minor offences
 
-241        Attempted offences
-        A person who attempts to commit any offence under this Act is guilty of an offence of the same
-        type. 
+A person commits a minor offence if the person—
+(a) removes or defaces election signs;
+(b) fails to notify a change of address
+(c) fails to comply with a lawful direction of a polling official;
+(d) enters a polling booth without permission.
 
+SECTION: 241
 
-Subpart 4—Penalties
+HEADING: Attempted offences
 
+A person who attempts to commit any offence under this Act is guilty of an offence of the same type. 
 
-242        Penalties for corrupt practices
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Penalties
+
+SECTION: 242
+
+HEADING: Penalties for corrupt practices
+
 1. A person convicted of a corrupt practice is liable to—
 (a) imprisonment for up to 5 years; or
-(b) a fine not exceeding ₴100,000; or
+(b) a fine not exceeding **₴100,000**; or
 (c) both.
 2. A person convicted of a corrupt practice is disqualified from—
 (a) voting for 3 years;
 
+SECTION: 243
 
-243        Penalties for illegal practices
+HEADING: Penalties for illegal practices
+
 1. A person convicted of an illegal practice is liable to—
-(a) a fine not exceeding ₴50,000;
+(a) a fine not exceeding **₴50,000**;
 (b) disqualification from voting for up to 1 year.
 2. A candidate convicted of an illegal practice may have their election declared void.
 
+SECTION: 244
 
-244        Penalties for minor offences
-A person convicted of a minor offence is liable to a fine not exceeding ₴5,000.
+HEADING: Penalties for minor offences
 
+A person convicted of a minor offence is liable to a fine not exceeding **₴5,000**.
 
-Subpart 5—Liability of Candidates and Parties
+SUBPARTNUMBER: 5
 
+SUBPARTTITLE: Liability of Candidates and Parties
 
-245        Liability of candidates
+SECTION: 245
+
+HEADING: Liability of candidates
+
 1. A candidate is liable for offences committed by their agents if—
 (a) the candidate authorised the conduct; or
 (b) the candidate failed to take reasonable steps to prevent the offence.
 2. A candidate is not liable if the offence was committed without their knowledge despite reasonable precautions.
 
+SECTION: 246
 
-246        Liability of party secretaries
+HEADING: Liability of party secretaries
+
 1. A party secretary is liable for—
 (a) false donation returns;
 (b) false party list declarations;
 (c) failure to file required documents.
 2. A party secretary may be prosecuted personally.
 
+SECTION: 247
 
-247        Liability of promoters
-        A promoter is liable for any offence arising from election advertising they publish or cause to be
-        published. 
+HEADING: Liability of promoters
 
+A promoter is liable for any offence arising from election advertising they publish or cause to be published. 
 
-Subpart 6—Prosecution and Enforcement
+SUBPARTNUMBER: 6
 
+SUBPARTTITLE: Prosecution and Enforcement
 
-248        Time limits for prosecutions
+SECTION: 248
+
+HEADING: Time limits for prosecutions
+
 1. A prosecution for a corrupt practice must be commenced within 3 years.
 2. A prosecution for an illegal practice must be commenced within 1 year.
 3. A prosecution for a minor offence must be commenced within 6 months.
 
+SECTION: 249
 
+HEADING: Who may prosecute
 
-
-
-
-
-
-
-
-249        Who may prosecute
 1. The Commission may prosecute any offence under this Act.
 2. The police may prosecute any offence under this Act.
 3. A private prosecution may be brought with leave of the High Court.
 
+SECTION: 250
 
-250        Powers of investigation
+HEADING: Powers of investigation
+
 1. The commission may—
 (a) require documents;
 (b) require information;
@@ -2574,42 +2787,52 @@ Subpart 6—Prosecution and Enforcement
 (e) enter premises with consent or warrant.
 2. A person who obstructs an investigation commits an offence.
 
+SECTION: 251
 
-251        Evidence
+HEADING: Evidence
+
 1. Certified copies of electoral documents are admissible as evidence.
 2. A certificate signed by the Chief Electoral Commissioner is prime facie evidence of its contents.
 
+SECTION: 252
 
-252        Protection of whistleblowers
-        A person who reports an electoral offence in good faith is protected from civil and criminal
-        Liability.
+HEADING: Protection of whistleblowers
 
+A person who reports an electoral offence in good faith is protected from civil and criminal liability.
 
-Part 14
-Referendums
+PARTNUMBER: 15
 
+PARTTITLE: Referendums
 
-253        Purpose
-        The purposes of this Part are—
-1. to provide for the conduct of referendums in Square Country;
-2. to ensure that referendums are administered fairly and impartially;
-3. to regulate campaigning and advertising relating to referendum questions;
-4. to provide for the counting and certification of referendum results;
-5. to distinguish between binding and indicative referendums.
+SECTION: 253
 
+HEADING: Purpose
 
-Subpart 1—General Provisions
+The purposes of this Part are—
+(a) to provide for the conduct of referendums in Square Country;
+(b) to ensure that referendums are administered fairly and impartially;
+(c) to regulate campaigning and advertising relating to referendum questions;
+(d) to provide for the counting and certification of referendum results;
+(e) to distinguish between binding and indicative referendums.
 
+SUBPARTNUMBER: 1
 
-254        Types of referendums
+SUBPARTTITLE: General Provisions
+
+SECTION: 254
+
+HEADING: Types of referendums
+
 1. A referendum may be—
 (a) binding, if expressly declared binding by an Act of Parliament; or
 (b) indicative, if held for the purpose of gauging public opinion.
 2. A binding referendum has legal effect as specified in the enabling Act.
 3. An indicative referendum does not have legal effect but must be reported to Parliament.
 
+SECTION: 255
 
-255        Referendum questions
+HEADING: Referendum questions
+
 1. A referendum question must be—
 (a) clear;
 (b) neutral;
@@ -2617,8 +2840,10 @@ Subpart 1—General Provisions
 2. The wording of the question must be approved by Parliament.
 3. The Commission must publish the question at least 60 days before polling day.
 
+SECTION: 256
 
-256        Application of electoral procedure
+HEADING: Application of electoral procedure
+
 1. Except as otherwise provided in this Part, the procedures for general elections apply to referendums with necessary modifications.
 2. This includes—
 (a) enrolment;
@@ -2628,11 +2853,14 @@ Subpart 1—General Provisions
 (e) counting;
 (f) offences.
 
+SUBPARTNUMBER: 2
 
-Subpart 2—Writs and Timetable
+SUBPARTTITLE: Writs and Timetable
 
+SECTION: 257
 
-257        Issue of writ for referendum
+HEADING: Issue of writ for referendum
+
 1. The Governor-General must issue a writ for a referendum when required by law.
 2. The writ must specify—
 (a) the referendum question;
@@ -2640,8 +2868,10 @@ Subpart 2—Writs and Timetable
 (c) the date for the return of the writ.
 3. The Commission must publish the writ in the Gazette.
 
+SECTION: 258
 
-258        Referendum timetable
+HEADING: Referendum timetable
+
 1. The following timetable applies unless otherwise provided:
 (a) Day 0: Writ issued;
 (b) Day 10: Close of registration for referendum promoters;
@@ -2653,24 +2883,31 @@ Subpart 2—Writs and Timetable
 2. The Commission may adjust dates for administrative reasons.
 3. The Governor-General may postpone polling day in accordance with Part 6.
 
+SUBPARTNUMBER: 3
 
-Subpart 3—Information and Campaigning
+SUBPARTTITLE: Information and Campaigning
 
+SECTION: 259
 
-259        Official information statement
+HEADING: Official information statement
+
 1. The Commission must prepare an official information statement.
 2. The statement must include—
 (a) the referendum question;
 (b) a neutral explanation of the proposal, if provided by Parliament.
 
+SECTION: 260
 
-260        Referendum promoters
-1. A person who spends more than ₴1,000 on referendum advertising must register as a referendum promoter.
+HEADING: Referendum promoters
+
+1. A person who spends more than **₴1,000** on referendum advertising must register as a referendum promoter.
 2. A promoter must file spending returns.
 3. A promoter must include a promoter statement on all advertising.
 
+SECTION: 261
 
-261        Referendum advertising
+HEADING: Referendum advertising
+
 1. Referendum advertising must comply with the rules in Part 8.
 2. Advertising must not—
 (a) mislead or deceive electors;
@@ -2678,8 +2915,10 @@ Subpart 3—Information and Campaigning
 (c) purport to be from the Commission.
 3. A person who contravenes this section commits an illegal practice.
 
+SECTION: 262
 
-262        Prohibited conduct
+HEADING: Prohibited conduct
+
 1. A person must not—
 (a) bribe or treat electors;
 (b) intimidate electors;
@@ -2687,11 +2926,14 @@ Subpart 3—Information and Campaigning
 (d) campaign within 100 metres of a polling place.
 2. A person who contravenes this section commits an offence.
 
+SUBPARTNUMBER: 4
 
-Subpart 4—Ballot Papers and Voting
+SUBPARTTITLE: Ballot Papers and Voting
 
+SECTION: 263
 
-263        Form of referendum ballot paper
+HEADING: Form of referendum ballot paper
+
 1. A referendum ballot paper must contain—
 (a) the referendum question;
 (b) the options “Yes” and “No”, unless otherwise provided;
@@ -2699,23 +2941,30 @@ Subpart 4—Ballot Papers and Voting
 (d) a unique serial number.
 2. The Commission may prescribe alternative formats for multi-option referendums.
 
+SECTION: 264
 
-264        Voting procedure
+HEADING: Voting procedure
+
 1. An elector must make the ballot paper in secret.
 2. A ballot paper must be marked in a manner that clearly indicates the voter’s intention.
 3. A ballot paper that does not clearly indicate intention must be rejected.
 
+SUBPARTNUMBER: 5
 
-Subpart 5—Counting and Results
+SUBPARTTITLE: Counting and Results
 
+SECTION: 265
 
-265        Preliminary count
+HEADING: Preliminary count
+
 1. The preliminary count must begin immediately after the close of polling.
 2. The preliminary count must include all ordinary referendum votes.
 3. Special votes must not be counted during the preliminary count.
 
+SECTION: 265
 
-266        Official count
+HEADING: Official count
+
 1. The official count must begin on the first business day after polling day.
 2. The official count must include—
 (a) ordinary votes;
@@ -2723,8 +2972,10 @@ Subpart 5—Counting and Results
 (c) tendered votes.
 3. The returning officer must determine the number of valid “Yes” and “No” votes.
 
+SECTION: 267
 
-267        Declaration of results
+HEADING: Declaration of results
+
 1. The Commission must declare the official results within 45 days after polling day.
 2. The declaration must include—
 (a) the number of valid votes for each option;
@@ -2734,36 +2985,44 @@ Subpart 5—Counting and Results
 (e) results timing.
 3. The declaration must be published in the Gazette.
 
+SECTION: 268
 
-268        Effect of results
+HEADING: Effect of results
 1. If the referendum is binding, the result has legal effect as specified in the enabling Act.
 2. If the referendum is indicative, the Commission must present the results to Parliament.
 
+SUBPARTNUMBER: 6
 
-Subpart 6—Offences and Penalties
+SUBPARTTITLE: Offences and Penalties
 
+SECTION: 269
 
-269        Offences relating to referendums
-        A person commits an offence if the person—
-1. knowingly publishes false information about the referendum question;
-2. interferes with referendum ballot papers;
-3. obstructs referendum officials
-4. impersonates a referendum official;
-5. destroys or alters referendum documents.
+HEADING: Offences relating to referendums
 
+A person commits an offence if the person—
+(a) knowingly publishes false information about the referendum question;
+(b) interferes with referendum ballot papers;
+(c) obstructs referendum officials
+(d) impersonates a referendum official;
+(e) destroys or alters referendum documents.
 
-270        Penalties
+SECTION: 270
+
+HEADING: Penalties
+
 1. A person convicted of an offence under this Part is liable to—
 (a) imprisonment for up to 2 years; or
-(b) a fine not exceeding ₴50,000.
+(b) a fine not exceeding **₴50,000**.
 2. A person convicted of a corrupt practice under this Part is disqualified from voting for 3 years.
 
+PARTNUMBER: 16
 
-Part 15
-Miscellaneous and Transitional Provisions
+PARTTITLE: Miscellaneous and Transitional Provisions
 
+SECTION: 271
 
-271        Regulations
+HEADING: Regulations
+
 1. The Governor-General may, by Order in Council made on the recommendation of the Commission, make regulations for the purpose of—
 (a) prescribing forms required under this Act;
 (b) prescribing procedures for enrolment, voting, counting, and certification;
@@ -2773,8 +3032,10 @@ Miscellaneous and Transitional Provisions
 (f) any other matter necessary for the administration of this Act.
 2. Regulations must be consistent with the purposes of this Act.
 
+SECTION: 272
 
-272        Power to issue guidelines
+HEADING: Power to issue guidelines
+
 1. The Commission may issue guidelines relating to—
 (a) the conduct of polling
 (b) the duties of returning officers and polling officials;
@@ -2782,34 +3043,36 @@ Miscellaneous and Transitional Provisions
 (d) the administration of campaign finance rules.
 2. Guidelines are not legally binding but must be taken into account by officials.
 
+SECTION: 273
 
-273        Protection of Commission and officials
+HEADING: Protection of Commission and officials
+
 1. No civil or criminal proceedings may be brought against the Commission, a returning officer, or a polling official for any act done in good faith in the performance of their duties.
 2. This section does not apply to acts done in bad faith or with gross negligence.
 
+SECTION: 274
 
+HEADING: Service of documents
 
-
-
-
-
-
-274        Service of documents
 1. Any notice or document required to be served under this Act may be served—
 (a) personally;
 (b) by post;
 (c) by electronic means approved by the Commission.
 2. Service by post is deemed effective 3 days after posting.
 
+SECTION: 275
 
-275        Publication requirements
+HEADING: Publication requirements
+
 1. Any matter required to be published under this Act must be published—
 (a) in the Gazette; and
 (b) on the Commission’s website. [amended]
 2. The Commission may publish additional notices it considers appropriate.
 
+SECTION: 276
 
-276        Fees
+HEADING: Fees
+
 1. The Commission may prescribe fees for—
 (a) nomination deposits;
 (b) recount applications;
@@ -2817,39 +3080,53 @@ Miscellaneous and Transitional Provisions
 (d) certification services.
 2. Fees must be reasonable and proportionate.
 
+SUBPARTNUMBER: 1
 
-Subpart 2—Savings and Transitional Provisions
+SUBPARTTITLE: Savings and Transitional Provisions
 
+SECTION: 277
 
-277        Existing electoral rolls
-1. Electoral rolls in force immediately before the commencement of this Act continue in force until replaced under Part 2.
+HEADING: Existing electoral rolls
+
+1. Electoral rolls in force immediately before the commencement of this Act continue in force until replaced under Part 3.
 2. Electors enrolled under previous legislation are deemed enrolled under this Act.
 
+SECTION: 278
 
-278        Existing political parties
+HEADING: Existing political parties
+
 1. A political party registered under previous legislation is deemed registered under this Act.
 2. The party must comply with the requirements of Part 3 within 12 months of commencement.
 
+SECTION: 279
 
-279        Transitional arrangements for boundaries
+HEADING: Transitional arrangements for boundaries
+
 1. Electoral district boundaries in force immediately before the commencement of this Act remain in force until replaced under Part 5.
 2. The first boundary review under this Act must be completed within 3 years of commencement.
 
+SECTION: 280
 
-280        Transitional arrangements for campaign finance
+HEADING: Transitional arrangements for campaign finance
+
 1. Campaign finance rules under this Act apply to any election held after the commencement date.
 2. Donations received before commencement must be disclosed if they would have been required under this Act.
 
+SECTION: 281
 
-281        Transitional arrangements for referendums
+HEADING: Transitional arrangements for referendums
+
 1. Any referendum process commenced before the commencement of this Act continues under previous law unless otherwise directed by Parliament.
 2. The Commission may apply procedures under this Act if doing so does not prejudice any person.
 
+SUBPARTNUMBER: 2
 
-Subpart 3—Repeals and Commencement
+SUBPARTTITLE: Repeals and Commencement
 
+SECTION: 282
 
-282        Repeal of previous enactments
+HEADING: Repeal of previous enactments
+
 1. The following enactments are repealed:
 (a) the Electoral Act 1953;
 (b) the Electoral Amendment Act 1975;
@@ -2857,43 +3134,27 @@ Subpart 3—Repeals and Commencement
 (d) any other enactment inconsistent with this Act.
 2. Regulations made under repealed enactments continue in force until replaced.
 
+SECTION: 283
 
-283        Savings
+HEADING: Savings
+
 1. Anything lawfully done under a repealed enactment is deemed to have been done under this Act.
 2. Any investigation, prosecution, or proceeding commenced under a repealed enactment may continue as if this Act has not been passed.
 
+SECTION: 284
 
-284        Review of this Act
+HEADING: Review of this Act
+
 1. The Commission must review the operation of this Act after the second general election held under it.
 2. The Commission must report to Parliament on—
 (a) the effectiveness of the MMP system;
 (b) the administration of elections;
 (c) any recommended amendments.
 
+SCHEDULENUMBER: 1
 
+SCHEDULETITLE: SAINTE‑LAGUË SEAT ALLOCATION METHOD
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SCHEDULE 1 — SAINTE‑LAGUË SEAT ALLOCATION METHOD
-(Section 200)
 
 
 1        Purpose of this Schedule
