@@ -39,20 +39,50 @@ body {
   top: 160px;
 }
 
-/* MOBILE OVERRIDE */
 @media (max-width: 768px) {
+
+  /* stack layout properly */
+  #layout {
+    display: block !important;
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* hide sidebar completely */
   #sidebar,
   #sidebarTab {
     display: none !important;
   }
 
-  #layout {
-    display: block !important;
-  }
-
+  /* main takes full width */
   #main {
     width: 100% !important;
     padding: 12px !important;
+  }
+
+  /* stop sticky + weird desktop offsets */
+  #sidebar {
+    position: static !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* header should NOT behave like desktop spacing system */
+  body.header-fixed #layout {
+    margin-top: 0 !important;
+  }
+
+  body.compact-header .title-header {
+    padding: 10px 12px !important;
+  }
+
+  .container {
+    padding: 0 12px !important;
+  }
+
+  .act-header-details {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
   }
 }
 
@@ -73,9 +103,10 @@ body.sidebar-hidden #sidebar {
   transform: translateX(-100%);
 }
 
-/* expand main when sidebar hidden */
-body.sidebar-hidden #layout {
-  margin-left: -380px;
+@media (min-width: 769px) {
+  body.sidebar-hidden #layout {
+    margin-left: -380px;
+  }
 }
 
 /* toggle button */
@@ -789,7 +820,7 @@ body.compact-header .bottom-row {
     <div class="bottom-row">
       <div class="tabs">
         <a href="#" class="tab active">Principal Act</a>
-        <a href="index.html" class="tab-version">Versions (2)</a>
+        <a href="index.html" class="tab-version">Versions (3)</a>
         <a href="#" class="tab-related">Related Bill (0)</a>
       </div>
 
