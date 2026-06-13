@@ -848,38 +848,24 @@ if (file) {
 }
 
 async function loadAct(path) {
-
-  // ⏳ slow everything before anything appears
-  await sleep(1200);
-
   const res = await fetch(path);
   const text = await res.text();
 
-  const doc = parseLegislation(text);
+const doc = parseLegislation(text);
 
-  updateBadges(doc);
+updateBadges(doc); // 👈 add this
 
-  document.title = `${doc.title} | Square Country Legislation`;
-  document.getElementById("actTitle").textContent = doc.title;
+// update browser tab title
+document.title = `${doc.title} | Square Country Legislation`;
 
-  // ⏳ delay before ANY DOM rendering
-  await sleep(600);
+// 👇 update header dynamically
+document.getElementById("actTitle").textContent = doc.title;
 
-  document.getElementById("main").innerHTML = `
-    <div style="padding:20px;font-size:16px;color:#666;">
-      Loading legislation...
-    </div>
-  `;
+buildSidebar(doc);
+document.getElementById("main").innerHTML = renderLegislation(doc);
 
-  buildSidebar(doc);
-
-  // ⏳ delay again before full render
-  await sleep(200);
-
-  document.getElementById("main").innerHTML = renderLegislation(doc);
-
-  document.getElementById("actMeta").textContent =
-    `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+document.getElementById("actMeta").textContent =
+  `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
 }
 
 function parseLegislation(text) {
@@ -1654,9 +1640,6 @@ function searchPrevious() {
   goToMatch();
 }
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 </script>
 <script src="components/navbar.js"></script>
