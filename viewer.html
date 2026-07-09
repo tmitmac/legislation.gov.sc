@@ -225,7 +225,6 @@ body.sidebar-hidden #sidebarTab {
 
 .footnotes {
   margin-top: 12px;
-  border-top: 1px solid #ddd;
   padding-top: 8px;
 }
 
@@ -345,6 +344,22 @@ body.sidebar-hidden #sidebarTab {
   font-weight: 700;
 }
 
+.schedule-section {
+  margin-top: 28px;
+}
+
+.schedule-section .section-header {
+  padding-top: 10px;
+}
+
+.schedule-section .section-number {
+  font-weight: 800;
+}
+
+.schedule-section .section-title {
+  font-size: 18px;
+}
+
         #main {
       flex: 1;
       padding: 30px;
@@ -447,7 +462,7 @@ h2 {
 }
 
 .section-title {
-  font-size: 18px;   /* bigger than body */
+  font-size: 19.968px;   /* bigger than body */
   font-weight: 600;
   color: #111;
 }
@@ -458,9 +473,15 @@ h2 {
 
 .section-text {
   margin-left: 71px;
-  font-size: 15px;
+  font-size: 16.64px;
   color: #333;
   line-height: 1.25;
+}
+
+.center-block {
+  text-align: center;
+  margin: 20px 0;   /* space above + below */
+  font-weight: 500; /* optional */
 }
 
 /* base clause */
@@ -820,7 +841,7 @@ body.compact-header .bottom-row {
     <div class="bottom-row">
       <div class="tabs">
         <a href="#" class="tab active">Principal Act</a>
-        <a href="index.html" class="tab-version">Versions (3)</a>
+        <a href="index.html" class="tab-version">Versions (2)</a>
         <a href="#" class="tab-related">Related Bill (0)</a>
       </div>
 
@@ -984,10 +1005,13 @@ else if (line.startsWith("VERSION:"))
             sections: []
           };
 
+          currentSubpart = null;
+
           doc.schedules.push(currentSchedule);
 
           currentPart = null;
           currentSubpart = null;
+          currentscheduleSection = null;
         }
 
         else if (line.startsWith("SCHEDULETITLE:")) {
@@ -997,24 +1021,47 @@ else if (line.startsWith("VERSION:"))
           }
         }
 
-    else if (line.startsWith("SECTION:")) {
-      currentSection = {
-        number: line.replace("SECTION:", "").trim(),
-        heading: "",
-        clauses: [],
-        footnotes: []
-      };
+else if (
+  line.startsWith("SECTION:") ||
+  line.startsWith("SCHEDULESECTION:")
+) {
 
-      if (currentSchedule) {
-        currentSchedule.sections.push(currentSection);
+  const isSchedule =
+    line.startsWith("SCHEDULESECTION:");
 
-      } else if (currentSubpart) {
-        currentSubpart.sections.push(currentSection);
+const sectionNumber = line
+  .replace(
+    isSchedule
+      ? "SCHEDULESECTION:"
+      : "SECTION:",
+    ""
+  )
+  .trim();
 
-      } else if (currentPart) {
-        currentPart.sections.push(currentSection);
-      }
-    }
+  currentSection = {
+    number: sectionNumber,
+
+    // UNIQUE INTERNAL ID
+    id: isSchedule
+      ? `schedule-${currentSchedule.number}-${sectionNumber}`
+      : `section-${sectionNumber}`,
+
+    heading: "",
+    clauses: [],
+    footnotes: [],
+    scheduleSection: isSchedule
+  };
+
+  if (isSchedule && currentSchedule) {
+    currentSchedule.sections.push(currentSection);
+
+  } else if (currentSubpart) {
+    currentSubpart.sections.push(currentSection);
+
+  } else if (currentPart) {
+    currentPart.sections.push(currentSection);
+  }
+}
 
     else if (line.startsWith("HEADING:")) {
       currentSection.heading = line.replace("HEADING:", "").trim();
@@ -1023,6 +1070,14 @@ else if (line.startsWith("VERSION:"))
     else if (/^\d+\./.test(line)) {
       currentSection.clauses.push(line);
     }
+
+    else if (line.startsWith("CENTER:")) {
+  const value = line.replace("CENTER:", "").trim();
+
+  if (currentSection) {
+    currentSection.clauses.push({ type: "center", text: value });
+  }
+}
     
     /* 👇 ADD THIS BLOCK RIGHT HERE */
 else if (line.startsWith("AMENDMENT:")) {
@@ -1044,7 +1099,15 @@ else if (line.startsWith("AMENDMENT:")) {
 }
 
 function renderSection(section) {
-  let html = `<div class="section" id="section-${section.number}">`;
+      let html = `
+      <div
+        class="
+          section
+          ${section.scheduleSection ? "schedule-section" : ""}
+        "
+        id="${section.id}"
+      >
+      `;
 
   html += `
     <div class="section-header">
@@ -1054,22 +1117,37 @@ function renderSection(section) {
     <div class="section-text">
   `;
 
-  for (const clause of section.clauses) {
-    let level = 1;
-    if (/^\(\w+\)/.test(clause)) level = 2;
-    if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
+for (const clause of section.clauses) {
 
-    let formatted = clause
-      .replace(/^(\d+)\.\s*/, "($1) ")
-      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  // CENTER BLOCK
+if (typeof clause === "object" && clause.type === "center") {
 
-    html += `<div class="clause level-${level}">${formatted}</div>`;
-  }
+  let formatted = clause.text
+    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+  html += `<div class="center-block">${formatted}</div>`;
+  continue;
+}
+
+  let level = 1;
+  if (/^\(\w+\)/.test(clause)) level = 2;
+  if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
+
+let formatted = clause
+  .replace(/^(\d+)\.\s*/, "($1) ")
+  .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+  html += `<div class="clause level-${level}">${formatted}</div>`;
+}
 
   if (section.footnotes?.length) {
     html += `<div class="footnotes">`;
     section.footnotes.forEach(note => {
-      let formattedNote = note.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      let formattedNote = note
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.*?)\*/g, "<em>$1</em>");
       html += `<div class="footnote">${formattedNote}</div>`;
     });
     html += `</div>`;
@@ -1136,18 +1214,48 @@ for (const part of doc.parts) {
     for (const section of subpart.sections) {
       html += renderSection(section);
     }
+    
   }
+
 
   
 }
 
+  // RENDER SCHEDULES AFTER LAST SECTION
+  for (const schedule of doc.schedules) {
 
+    html += `
+      <div
+        class="part"
+        id="schedule-${schedule.number}"
+      >
+        <div class="part-number">
+          Schedule ${schedule.number}
+        </div>
+
+        <div class="part-title">
+          ${schedule.title}
+        </div>
+      </div>
+    `;
+
+    for (const section of schedule.sections) {
+      html += renderSection(section);
+    }
+  }
 
   return html;
 }
 
-function scrollSectionToMiddle(sectionId) {
-  const el = document.querySelector(`#section-${sectionId}`);
+function scrollSectionToMiddle(sectionId, isSchedule = false) {
+
+  const selector =
+    isSchedule
+      ? `#schedule-section-${sectionId}`
+      : `#section-${sectionId}`;
+
+  const el = document.querySelector(selector);
+
   if (!el) return;
 
   const rect = el.getBoundingClientRect();
@@ -1318,14 +1426,22 @@ doc.schedules?.forEach(schedule => {
       </div>
     `;
 
-    row.onclick = () => {
-      scrollSectionToMiddle(sec.number);
-      setActive(sec.number);
+      row.onclick = () => {
+        scrollSectionToMiddle(
+          sec.number,
+          true
+        );
+
+      setActive(
+        `schedule-${sec.number}`
+      );
     };
 
     sidebar.appendChild(row);
 
-    sectionLinks[sec.number] = row;
+    sectionLinks[
+    `schedule-${sec.number}`
+  ] = row;
 
   });
 
@@ -1391,7 +1507,10 @@ window.addEventListener("scroll", () => {
 
     if (distance < closestDistance) {
       closestDistance = distance;
-      closestId = sec.id.replace("section-", "");
+      closestId =
+      sec.id.startsWith("schedule-section-")
+        ? `schedule-${sec.id.replace("schedule-section-", "")}`
+        : sec.id.replace("section-", "");
     }
   });
 
