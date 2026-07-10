@@ -88,7 +88,7 @@
       </a>
 
 
-      <a href="constitution.html"
+      <a href="declaration.html"
       class="bg-white border rounded-xl p-6 hover:shadow-md transition">
 
         <i data-feather="book-open" class="mb-3"></i>
@@ -222,12 +222,11 @@
         </div>
       </div>
 
-      <a id="originalLink"
-         target="_blank"
-         class="block w-full bg-[#126cd3] text-white text-center py-3.5 rounded-lg
-                hover:bg-[#0f5cb4] active:scale-[0.99] transition mb-4">
-        View Original Act
-      </a>
+        <a id="originalLink"
+          class="block w-full bg-[#126cd3] text-white text-center py-3.5 rounded-lg
+                  hover:bg-[#0f5cb4] active:scale-[0.99] transition mb-4">
+          View Original Act
+        </a>
 
       <button onclick="closeActMenu()"
               class="mt-6 w-full border border-gray-300 py-3 rounded-lg
@@ -263,9 +262,10 @@ const acts = [
   { number: "SC-1979-12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979-version-2.txt" },
   /* 1960s */
   { number: "SC-1967-29", name: "Decimal Currency Act 1967", file: "viewer.html?act=1900-1999/1967/decimal-currency-act-1967.txt" },
-  { number: "SC-1963-08", name: "Crimes Act 1964", file: "viewer.html?act=1900-1999/1964/crimes-act-1964.txt" },
-  { number: "SC-1964-32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt" },  
+  { number: "SC-1964-32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt" }, 
+  { number: "SC-1963-08", name: "Crimes Act 1964", file: "viewer.html?act=1900-1999/1964/crimes-act-1964.txt" }, 
   /* 1950s */
+  { number: "SC-1953-47", name: "Electoral Act 1953", file: "viewer.html?act=1900-1999/1953/electoral-act-1953.txt" },
   { number: "SC-1950-02", name: "Wildlife Act 1950", file: "viewer.html?act=1900-1999/1950/wildlife-act-1950.txt" },
   /* 1940s */ 
   { number: "SC-1949-08", name: "Education Act 1949", file: "viewer.html?act=1900-1999/1949/education-act-1949.txt" },
@@ -279,7 +279,10 @@ const acts = [
   { number: "SC-1902-52", name: "Public Service Act 1902", file: "viewer.html?act=1900-1999/1902/public-service-act-1902.txt" },
   /* 1850s */
   { number: "SC-1852-13", name: "Statistical Returns Act 1852", file: "viewer.html?act=1800-1899/1852/statistical-returns-act-1852.txt" },
-
+  /* 1790s */
+  { number: "SC-1796-01", name: "Declaration of Independent Sovereignty", file: "declaration.html" },
+  /* 1660s */
+  { number: "SC-1688-01", name: "Bill of Rights 1688", file: "viewer.html?act=1688/bill-of-rights-1688.txt" },
 
 
 
@@ -379,7 +382,12 @@ function openActMenu(number) {
 
   document.getElementById("actTitle").textContent = doc.name;
   document.getElementById("actNumber").textContent = doc.number;
-  document.getElementById("originalLink").href = doc.file;
+  const link = document.getElementById("originalLink");
+
+    link.onclick = (e) => {
+      e.preventDefault();
+      window.location.href = doc.file;
+    };
 
   const menu = document.getElementById("actMenu");
   const panel = document.getElementById("actMenuPanel");
