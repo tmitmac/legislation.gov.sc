@@ -1751,7 +1751,7 @@ SECTION: 154A
 
 HEADING: Right to vote
 
-1. Every citizen is entitle to vote in the district of which their name belongs on the electoral roll.
+1. Every citizen is entitled to vote in the district of which their name belongs on the electoral roll.
 2. An elector may cast—
 (a) one electorate vote; and
 (b) one party vote.
