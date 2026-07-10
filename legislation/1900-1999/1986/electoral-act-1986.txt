@@ -53,12 +53,6 @@ HEADING: Act binds the Crown
 
 This act binds the Crown of Square Country
 
-SECTION: 4A
-
-HEADING: Declaration of Independent Sovereignty
-
-This Act recognises the Declaration of Independent Sovereignty.
-
 SECTION: 5
 
 HEADING: Interpretation
@@ -75,6 +69,7 @@ HEADING: Interpretation
 (c) both.
 **"Census"** means the census of population and dwellings carried out by the National Statistics Office under the Statistics Act 1979.
 **“Chief Electoral Commissioner”** means the person appointed under section 18.
+**"Citizen"** means any Square Country Citizen or the meaning given by Section 5A.
 **“Commission”** means the Electoral Commission established under Part 1.
 **“Elector”** means a person whose name lawfully appears on an electoral roll.
 **“Electoral district”** means a district established under Part 5 for the purpose of electing an electorate Member of Parliament.
@@ -101,7 +96,16 @@ HEADING: Interpretation
 3. A reference to the singular includes the plural and vice versa.
 4. Headings are for convenience only and do not affect interpretation.
 
-AMENDMENT: Section 5(1) **General electoral population**: inserted, on 1 January 1998, section 3 of the Electoral Amendment Act 1992 (1992 No 13).
+AMENDMENT: Section 5(1) **General electoral population**: inserted, on 1 January 1998, by section 3 of the Electoral Amendment Act 1992 (1992 No 13).
+AMENDMENT: Section 5(1) **Citizen**: inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 5A
+
+HEADING: Meaning of Ruby Country born Square Citizen
+
+All citizens of Ruby Country who have lawfully moved to Square Country under the *Trans-Mexican Agreement Adoption Act 2009* are Ruby Country born Square Citizens.
+
+AMENDMENT: Section 5A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
 
 SECTION: 6
 
@@ -109,6 +113,20 @@ HEADING: Applications of this Act
 
 1. This Act applies to all general elections, by-elections, and referendums held after its commencement.
 2. This Act does not apply to local government elections unless expressly provided by another enactment.
+
+SECTION: 6A
+
+HEADING: Application of this Act outside Square Country
+
+All parts of this Act apply outside of Square Country within Square Country territory except where Section 6AA applies.
+
+SECTION: 6AA
+
+HEADING: Application of this Act in Westland (Tierras del oeste)
+
+This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under Section 8 of the *Westland (Tierras del oeste) Empowerment Act 1996*.
+
+AMENDMENT: Section 6AA inserted, on 18 August 1996, by schedule 2 of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
 
 SECTION: 7
 
@@ -1725,12 +1743,24 @@ SECTION: 154
 
 HEADING: Right to vote
 
-1. Every elector whose name appears on the electoral roll for a district is entitled to vote in that district.
+[Repealed]
+
+AMENDMENT: Section 154 repealed, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 154A
+
+HEADING: Right to vote
+
+1. Every citizen is entitle to vote in the district of which their name belongs on the electoral roll.
 2. An elector may cast—
 (a) one electorate vote; and
 (b) one party vote.
 3. No person may vote more than once.
 4. A person who votes more than once commits a corrupt practice.
+5. No person may vote on behalf of another person except as specified in section 167(5).
+6. A person who votes on behalf of another person commits a corrupt practice.
+
+AMENDMENT: Section 154A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
 
 SUBPARTNUMBER: 1
 
@@ -1881,6 +1911,7 @@ HEADING: Assistance to voters
 (b) maintain secrecy;
 (c) not influence the elector.
 4. A person who influences an assisted voter commits a corrupt practice.
+5. A person who assists a voter is not committing a corrupt practice under section 154A(5).
 
 SECTION: 168
 
@@ -3139,8 +3170,8 @@ HEADING: Repeal of previous enactments
 
 1. The following enactments are repealed:
 (a) the Electoral Act 1953;
-(b) the Electoral Amendment Act 1975;
-(c) the Electoral Finance Act 1979;
+(b) the Electoral Finance Act 1979;
+(c) any amendments to the Electoral Act 1953;
 (d) any other enactment inconsistent with this Act.
 2. Regulations made under repealed enactments continue in force until replaced.
 
