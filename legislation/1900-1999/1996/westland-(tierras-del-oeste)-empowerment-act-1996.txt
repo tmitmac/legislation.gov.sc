@@ -8,7 +8,7 @@ STATUS: In force
 
 VERSION: Latest
 
-AGENCY: Ministry of Justice & Corrections
+AGENCY: the Ministry of Justice & Corrections
 
 DATEOFASSENT: 1 January 1997
 
@@ -33,11 +33,12 @@ HEADING: Interpretation
 In this Act, unless the context otherwise requires—
 **"Citizen"** means any citizen of Square Country or Ruby Country born Square Citizens who primarily resides in Westland (Tierras del oeste).
 **“General Election”** means an election held for all seats in Parliament.
-**"Insignificant laws"** has the meaning given to it in Section 2A.
+**"Insignificant laws"** has the meaning given to it in Section 2AA.
 **"MP"** means a Member of His Majesty's Parliament of Square Country.
 **“Party vote”** means the vote cast by an elector for a political party for the purpose of determining the allocation of list seats.
-**"Significant laws"** has the meaning given to it in Section 2AA.
+**"Significant laws"** has the meaning given to it in Section 2AAA.
 **"Parliament"** means His Majesty's Parliament of Square Country.
+**"Westland (Tierras del oeste)"** has the meaning given to it in Section 2A.
 
 SECTION: 2A
 
