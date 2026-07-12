@@ -8,7 +8,7 @@ STATUS: in force
 
 VERSION: latest   
 
-AGENCY: the Ministry of Justice & Corrections and Electoral Commission
+AGENCY: the Ministry of Justice & Corrections and the Electoral Commission
 
 DATEOFASSENT: 18 May 1986
 
@@ -91,6 +91,7 @@ HEADING: Interpretation
 **“Returning officer”** means a person appointed under section 157 to oversee the conduct of an election in an electoral district.
 **"Sainte‑Laguë method”** means the method of allocating seats described in schedule 1.
 **“Special vote”** means a vote cast in accordance with sections 169 to 172.
+**"Westland citizen"** means a citizen of Westland (Tierras del oeste).
 **“Writ”** means a writ issued under Part 6 for the purpose of holding an election.
 2. A reference in this Act to the masculine includes the feminine and vice versa.
 3. A reference to the singular includes the plural and vice versa.
@@ -98,6 +99,7 @@ HEADING: Interpretation
 
 AMENDMENT: Section 5(1) **General electoral population**: inserted, on 1 January 1998, by section 3 of the Electoral Amendment Act 1992 (1992 No 13).
 AMENDMENT: Section 5(1) **Citizen**: inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+AMENDMENT: Section 5(1) **Westland citizen**: inserted, on 1 August 1996, by section 7 of the Electoral Amendment Act 1996 (1996 No 143).
 
 SECTION: 5A
 
@@ -124,7 +126,7 @@ SECTION: 6AA
 
 HEADING: Application of this Act in Westland (Tierras del oeste)
 
-This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under Section 8 of the *Westland (Tierras del oeste) Empowerment Act 1996*.
+This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under Section 15 of the *Westland (Tierras del oeste) Empowerment Act 1996*.
 
 AMENDMENT: Section 6AA inserted, on 18 August 1996, by schedule 2 of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
 
@@ -1762,6 +1764,15 @@ HEADING: Right to vote
 
 AMENDMENT: Section 154A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
 
+SECTION: 154AA
+
+HEADING: Right of Westland (Tierras del oeste) citizens to vote
+
+1. Should the Westland (Tierras del oeste) Council decide to take part in a general election, Westland citizens may only cast a party vote.
+2. The same rules in Section 154, from subsection (3) onwards, apply.
+
+AMENDMENT: Section 154AA inserted, on 1 August 1996, by section 8 of the Electoral Amendment Act 1996 (1996 No 143).
+
 SUBPARTNUMBER: 1
 
 SUBPARTTITLE: Polling Places
@@ -3063,8 +3074,7 @@ SECTION: 271
 
 HEADING: Regulations
 
-1. The Governor-General may, by Order in Council made on the recommendation of the Commission, make regulations for the purpose 
-of—
+1. The Governor-General may, by Order in Council made on the recommendation of the Commission, make regulations for the purpose of—
 (a) prescribing forms required under this Act;
 (b) prescribing procedures for enrolment, voting, counting, and certification;
 (c) prescribing requirements for ballot papers, ballot boxes, and polling materials;
@@ -3308,5 +3318,5 @@ SCHEDULESECTION: 4
 
 HEADING: Record of oath or affirmation
 
-(1) The Clerk of the House must record the taking of the oath or affirmation.
-(2) The record must be kept in the parliamentary archives.
+1. The Clerk of the House must record the taking of the oath or affirmation.
+2. The record must be kept in the parliamentary archives.
