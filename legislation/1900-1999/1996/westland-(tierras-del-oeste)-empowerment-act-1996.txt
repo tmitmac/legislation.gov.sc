@@ -112,7 +112,7 @@ SECTION: 8
 HEADING: Limited power to make significant laws
 
 1. At all times, the Council has the limited power to make significant laws.
-2. Alterations to significant laws may only be performed with the prior consent of Parliament.
+2. In the interest of consistency, alterations to significant laws may only be performed with the prior consent of Parliament.
 3. Parliament retains the rights to legislate for education, health, and justice.
 
 SECTION: 9
