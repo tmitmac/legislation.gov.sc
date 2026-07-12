@@ -23,15 +23,19 @@ SECTION: 1
 HEADING: Short Title and Commencement
 
 1. This Act may be cited as the **Westland (Tierras del oeste) Empowerment Act 1996**.
-2. Unless otherwise specified, this Act comes into force on 1 January
+2. This Act comes into force on 1 August 1996.
+3. Different provisions of this Act may be brought into force on different dates by Order in Council, if so provided.
 
 SECTION: 2
 
 HEADING: Interpretation
 
 In this Act, unless the context otherwise requires—
-**"Citizen"** means any citizen of Square Country or Ruby Country born Square Citizens.
-**"Insignificant laws"** has the meaning given to is in Section 2A.
+**"Citizen"** means any citizen of Square Country or Ruby Country born Square Citizens who primarily resides in Westland (Tierras del oeste).
+**“General Election”** means an election held for all seats in Parliament.
+**"Insignificant laws"** has the meaning given to it in Section 2A.
+**"MP"** means a Member of His Majesty's Parliament of Square Country.
+**“Party vote”** means the vote cast by an elector for a political party for the purpose of determining the allocation of list seats.
 **"Significant laws"** has the meaning given to it in Section 2AA.
 **"Parliament"** means His Majesty's Parliament of Square Country.
 
@@ -59,7 +63,7 @@ HEADING: Purpose
 
 The purpose of this Act is to—
 (a) provide for the semi-independence of the Westland (Tierras del oeste) region;
-(b) ensure the majority of decision-making power lies with the Westland (Tierras del oeste) Council established in Section 6;
+(b) ensure the majority of decision-making power lies with the Westland (Tierras del oeste) Council established in Section 6; and
 (c) ensure robust administrative oversight of citizens and legislation.
 
 
@@ -91,25 +95,40 @@ HEADING: Establishment of the Westland (Tierras del oeste) Council
 (d) may acquire, hold, and dispose of property, and
 (e) may do all things necessary or convenient to be done for or in connection with the performance of its functions.
  
-SECTION: 9
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Powers
+
+SECTION: 7
 
 HEADING: Power to make insignificant laws
 
 1. At all times, the Council has the power to make insignificant laws in a way the Council best sees fit to serve the citizens of Westland (Tierras del oeste).
 2. Once passed, these laws are final and cannot be altered or affected by Parliament.
 
-SECTION: 10
+SECTION: 8
 
 HEADING: Limited power to make significant laws
 
 1. At all times, the Council has the limited power to make significant laws.
 2. Alterations to significant laws may only be performed with the prior consent of Parliament.
+3. Parliament retains the rights to legislate for education, health, and justice.
 
-SUBPARTNUMBER: 1
+SECTION: 9
+
+HEADING: Power to call for independence referendum
+
+1. The Council has the right to call for a referendum on the independence of Westland (Tierras del oeste).
+2. Full independence cannot be granted without the democratic acceptance of the affirmative.
+3. If the referendum passes, Parliament cannot appeal.
+4. All referendums must strictly adhere to the *Electoral Act 1986*.
+5. Without limiting subsection (1), the Council may only call for a referendum on independence once every minimum of five years. 
+
+SUBPARTNUMBER: 2
 
 SUBPARTTITLE: Council Structure
 
-SECTION: 11
+SECTION: 10
 
 HEADING: Council to determine structure
 
@@ -119,12 +138,50 @@ HEADING: Council to determine structure
 (c) the Council acts in good faith and without corruption.
 2. Without limiting subsection (1), Parliament retains the power to interfere if the Council does not uphold its basic values set out in subsection (1).
 
-
 PARTNUMBER: 3
+
+PARTTITLE: Status of Westland (Tierras del oeste)
+
+SECTION: 11
+
+HEADING: Recognition of Westland (Tierras del oeste)
+
+Westland (Tierras del oeste) is hereby recognised by Parliament as a **semi-independent territory**.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Obligations of Parliament
+
+SECTION: 12
+
+HEADING: Financial obligations of Parliament
+
+1. Parliament is obliged to fund basic infrastructure, including but not limited to—
+(a) roads, bridges, and tunnels;
+(b) energy & power;
+(c) water & sanitation; and
+(d) telecommunications.
+2. The Council appeal to Parliament if infrastructure is not adequately funded.
+
+SECTION: 13
+
+HEADING: Security obligations of Parliament
+
+1. Parliament is obliged to provide a security guarantee to Westland (Tierras del oeste) in the potential event of any land, sea, or air invasion.
+2. Parliament is obliged to allocate a reasonable portion of funding to military advancements in Westland (Tierras del oeste).
+
+SECTION: 14
+
+HEADING: Moral obligations of Parliament
+
+1. Parliament is morally obliged to ensure the stability of regional governance in Westland (Tierras del oeste).
+2. Parliament is morally obliged to assist in the resolution of any social disputes should the Council require it.
+
+PARTNUMBER: 4
 
 PARTTITLE: Electoral Matters
 
-SECTION: 12
+SECTION: 15
 
 HEADING: Participation in General Elections
 
@@ -133,10 +190,49 @@ HEADING: Participation in General Elections
 3. Parliament may not force the Council to take part.
 4. Without limiting subsection (1), the Council must adhere to the *Electoral Act 1986* at all times should it decide to take part.
 
+SECTION: 16
 
+HEADING: Westland (Tierras del oeste) not to return any electorate MPs
 
+1. In any general election, there shall be no electorate MPs representing Westland (Tierras del oeste).
+2. Subsection (1) does not limit the Council's ability to take part in a general election under Section 15.
 
+PARTNUMBER: 5
 
+PARTTITLE: Relationship with Square Country
+
+SECTION: 17
+
+HEADING: Cooperation
+
+Parliament will always cooperate fully, entirely, and in good faith with the Council.
+
+SECTION: 18
+
+HEADING: Dispute Resolution
+
+Parliament will do the utmost to resolve any dispute that arises between Parliament and the Council.
+
+PARTNUMBER: 6
+
+PARTTITLE: Miscellaneous
+
+SECTION: 19
+
+HEADING: Review
+
+1. Parliament must commission a review into this Act five years after it comes into force.
+2. The report must include its—
+(a) effectiveness;
+(b) socioeconomic results; and
+(c) any recommended amendments.
+
+SECTION: 20
+
+HEADING: Transitional Provisions
+
+1. Any insignificant bill related to Westland (Tierras del oeste) in Parliament before the commencement of this Act shall hereby be terminated.
+2. Any significant bill related to Westland (Tierras del oeste) in Parliament before the commencement of this Act shall continue to progress through the legislative system.
 
 SCHEDULENUMBER: 1
 
