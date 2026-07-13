@@ -596,6 +596,17 @@ h2 {
   color: black;
 }
 
+.leg-link {
+  color: #126cd3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leg-link:hover {
+  text-decoration: underline;
+  color: #105bb1
+}
+
   </style>
 <style>
 /* Page background */
@@ -1137,9 +1148,59 @@ if (typeof clause === "object" && clause.type === "center") {
 let formatted = clause
   .replace(/^(\d+)\.\s*/, "($1) ")
   .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-  .replace(/\*(.*?)\*/g, "<em>$1</em>");
+  .replace(/\*(.*?)\*/g, "<em>$1</em>")
 
-  html += `<div class="clause level-${level}">${formatted}</div>`;
+  // Part links
+.replace(
+  /\[\[Part:(.*?)\]\]/g,
+  `<a href="#" class="leg-link" onclick="jumpToPart('$1'); return false;">Part $1</a>`
+)
+.replace(
+  /\[\[section:(.*?)\]\]/g,
+  `<a href="#" class="leg-link" onclick="scrollSectionToMiddle('$1'); return false;">section $1</a>`
+)
+.replace(
+  /\[\[Schedule:(.*?)\]\]/g,
+  `<a href="#" class="leg-link" onclick="jumpToSchedule('$1'); return false;">Schedule $1</a>`
+)
+.replace(
+  /\[\[Act:(.*?)\]\]/g,
+  (match, actName) => {
+
+    const yearMatch = actName.match(/\b(18|19|20|21)\d{2}\b/);
+
+    if (!yearMatch) {
+      return actName;
+    }
+
+    const year = yearMatch[0];
+
+    const century =
+      year.startsWith("18") ? "1800-1899" :
+      year.startsWith("19") ? "1900-1999" :
+      year.startsWith("20") ? "2000-2099" :
+      "2100-2199";
+
+    const slug = actName
+      .toLowerCase()
+      .replace(year, "")
+      .replace(/act/g, "act")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+    const filename =
+      `${slug}-${year}.txt`;
+
+    const path =
+      `${century}/${year}/${filename}`;
+
+    return `
+      <a href="viewer.html?act=${path}" class="leg-link">
+        ${actName}</a>`;
+  }
+);
+
+html += `<div class="clause level-${level}">${formatted}</div>`;
 }
 
   if (section.footnotes?.length) {
@@ -1190,7 +1251,7 @@ function renderLegislation(doc) {
 
 for (const part of doc.parts) {
   html += `
-    <div class="part">
+    <div class="part" id="part-${part.number}">
       <div class="part-number">Part ${part.number}</div>
       <div class="part-title">${part.title}</div>
     </div>
@@ -1204,7 +1265,7 @@ for (const part of doc.parts) {
   // CASE 2: subparts
   for (const subpart of part.subparts) {
     html += `
-      <div class="subpart">
+      <div class="subpart" id="subpart-${part.number}-${subpart.number}">
         <div class="subpart-title">
           Subpart ${subpart.number}—${subpart.title}
         </div>
@@ -1783,6 +1844,39 @@ function searchPrevious() {
   goToMatch();
 }
 
+function jumpToPart(number) {
+  const el = document.getElementById(`part-${number}`);
+
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "auto"
+  });
+}
+
+function jumpToSchedule(number) {
+  const el = document.getElementById(`schedule-${number}`);
+
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "auto"
+  });
+}
 
 </script>
 <script src="components/navbar.js"></script>
