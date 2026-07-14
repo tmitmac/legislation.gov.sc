@@ -255,7 +255,12 @@ body.nav-hidden .leg-nav {
   .search-controls select:nth-child(2),
   .search-controls input {
       border-left: 1px solid #b7c2ce;
-  }
+      width: 100%;
+      height: 52px;
+      font-size: 16px;
+      padding: 0 14px;
+      box-sizing: border-box;
+}
 
 
   .search-btn {
