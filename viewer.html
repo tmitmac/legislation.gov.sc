@@ -97,6 +97,19 @@ html, body {
   height: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-title {
+    display: none !important;
+  }
+}
+
+
 
 /* hidden state */
 body.sidebar-hidden #sidebar {
@@ -922,6 +935,22 @@ document.getElementById("main").innerHTML = renderLegislation(doc);
 
 document.getElementById("actMeta").textContent =
   `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+
+  const hash = decodeURIComponent(location.hash);
+
+if (hash) {
+  requestAnimationFrame(() => {
+    const el = document.querySelector(hash);
+    if (el) {
+      const rect = el.getBoundingClientRect();
+
+      window.scrollTo({
+        top: window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2,
+        behavior: "auto"
+      });
+    }
+  });
+}
 }
 
 function parseLegislation(text) {
@@ -1156,8 +1185,9 @@ let formatted = clause
   `<a href="#" class="leg-link" onclick="jumpToPart('$1'); return false;">Part $1</a>`
 )
 .replace(
-  /\[\[section:(.*?)\]\]/g,
-  `<a href="#" class="leg-link" onclick="scrollSectionToMiddle('$1'); return false;">section $1</a>`
+  /\[\[section:([^\]]+)\]\]/gi,
+  (match, ref) => `
+    <a href="#" class="leg-link" onclick="scrollSectionToMiddle('${ref}'); return false;"> section ${ref}</a>`
 )
 .replace(
   /\[\[Schedule:(.*?)\]\]/g,
@@ -1206,9 +1236,36 @@ html += `<div class="clause level-${level}">${formatted}</div>`;
   if (section.footnotes?.length) {
     html += `<div class="footnotes">`;
     section.footnotes.forEach(note => {
-      let formattedNote = note
-      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*(.*?)\*/g, "<em>$1</em>");
+let formattedNote = note
+  .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*(.*?)\*/g, "<em>$1</em>")
+
+  .replace(
+  /\[\[Act:(.*?)\|section:([^\]]+)\]\]/g,
+  (match, actName, sectionRef) => {
+
+    const yearMatch = actName.match(/\b(18|19|20|21)\d{2}\b/);
+    if (!yearMatch) return match;
+
+    const year = yearMatch[0];
+
+    const century =
+      year.startsWith("18") ? "1800-1899" :
+      year.startsWith("19") ? "1900-1999" :
+      year.startsWith("20") ? "2000-2099" :
+      "2100-2199";
+
+    const slug = actName
+      .toLowerCase()
+      .replace(year, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+    const path = `${century}/${year}/${slug}-${year}.txt`;
+
+    return `${actName} <a class="leg-link" href="viewer.html?act=${path}#section-${encodeURIComponent(sectionRef)}"> section ${sectionRef}</a>`;
+  }
+)
       html += `<div class="footnote">${formattedNote}</div>`;
     });
     html += `</div>`;
@@ -1308,12 +1365,20 @@ for (const part of doc.parts) {
   return html;
 }
 
-function scrollSectionToMiddle(sectionId, isSchedule = false) {
+function scrollSectionToMiddle(ref, isSchedule = false) {
 
-  const selector =
-    isSchedule
-      ? `#schedule-section-${sectionId}`
-      : `#section-${sectionId}`;
+  // Gets "5" from:
+  // 5
+  // 5(1)
+  // 5(1)(b)
+  // 5A(2)(c)
+  const sectionNumber = ref.match(/^[0-9]+[A-Za-z]*/)?.[0];
+
+  if (!sectionNumber) return;
+
+  const selector = isSchedule
+    ? `#schedule-section-${sectionNumber}`
+    : `#section-${sectionNumber}`;
 
   const el = document.querySelector(selector);
 
@@ -1321,14 +1386,12 @@ function scrollSectionToMiddle(sectionId, isSchedule = false) {
 
   const rect = el.getBoundingClientRect();
 
-  const targetY =
-    window.scrollY +
-    rect.top -
-    (window.innerHeight / 2) +
-    (rect.height / 2);
-
   window.scrollTo({
-    top: targetY,
+    top:
+      window.scrollY +
+      rect.top -
+      window.innerHeight / 2 +
+      rect.height / 2,
     behavior: "auto"
   });
 }
