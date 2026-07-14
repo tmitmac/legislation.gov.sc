@@ -393,7 +393,6 @@ searchInput.addEventListener('keydown', e => {
   }
 });
 
-searchInput.addEventListener('input', runSearch);
   }
 }
 
