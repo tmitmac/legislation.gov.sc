@@ -186,6 +186,98 @@ body.nav-hidden .leg-nav {
   padding-left: 50px;
   align-items: flex-start; /* IMPORTANT */
 }
+
+/* MOBILE NAVIGATION */
+@media (max-width: 768px) {
+
+  .leg-nav {
+      padding: 15px 16px;
+  }
+
+  .nav-header {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      gap: 18px;
+  }
+
+  .brand {
+      gap: 10px;
+  }
+
+  .brand-text .maori {
+      font-size: 18px;
+  }
+
+  .brand-text .english {
+      font-size: 13px;
+  }
+
+
+  /* Stack menu links */
+  .nav-links {
+      width: 100%;
+      flex-direction: column;
+      gap: 12px;
+      padding-top: 5px;
+  }
+
+  .nav-links a {
+      font-size: 15px;
+  }
+
+
+  /* Search becomes vertical */
+  .nav-search {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+      padding-top: 15px;
+  }
+
+
+  .search-controls {
+      flex-direction: column;
+      width: 100%;
+      gap: 8px;
+  }
+
+
+  .nav-search select,
+  .nav-search input {
+      width: 100%;
+      height: 44px;
+      border: 1px solid #b7c2ce;
+      border-radius: 4px;
+  }
+
+
+  .search-controls select:nth-child(2),
+  .search-controls input {
+      border-left: 1px solid #b7c2ce;
+  }
+
+
+  .search-btn {
+      width: 100%;
+      height: 44px;
+      margin-left: 0;
+      border-radius: 4px;
+  }
+
+
+  .advanced-search {
+      margin-left: 0;
+      text-align: center;
+      display: block;
+  }
+
+
+  #layout {
+      padding-left: 0;
+      margin-top: 25px;
+  }
+}
       </style>
 
           <nav class="leg-nav">
