@@ -8,7 +8,7 @@ STATUS: in force
 
 VERSION: latest   
 
-AGENCY: the Ministry of Justice & Corrections and the Electoral Commission
+AGENCY: the Ministry of Justice & Corrections
 
 DATEOFASSENT: 18 May 1986
 
