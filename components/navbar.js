@@ -246,7 +246,7 @@ body.nav-hidden .leg-nav {
   .nav-search select,
   .nav-search input {
       width: 100%;
-      height: 88px;
+      height: 44px;
       border: 1px solid #b7c2ce;
       border-radius: 4px;
   }
@@ -276,6 +276,20 @@ body.nav-hidden .leg-nav {
   #layout {
       padding-left: 0;
       margin-top: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .brand-text .english,
+  .nav-links span {
+      display:none;
+  }
+}
+
+@media (max-width:768px) {
+  .leg-nav {
+      position: sticky;
+      top:0;
   }
 }
       </style>
@@ -345,9 +359,6 @@ function runSearch() {
     detail: searchInput.value
   }));
 }
-
-// Live dropdown while typing
-searchInput.addEventListener('input', runSearch);
 
 // Search button goes to search page
 searchBtn.addEventListener('click', () => {
