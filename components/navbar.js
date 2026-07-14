@@ -213,7 +213,7 @@ body.nav-hidden .leg-nav {
       font-size: 13px;
   }
 
-
+/*MOBILE*/
   /* Stack menu links */
   .nav-links {
       width: 100%;
@@ -246,7 +246,7 @@ body.nav-hidden .leg-nav {
   .nav-search select,
   .nav-search input {
       width: 100%;
-      height: 44px;
+      height: 88px;
       border: 1px solid #b7c2ce;
       border-radius: 4px;
   }
