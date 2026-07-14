@@ -97,9 +97,9 @@ HEADING: Interpretation
 3. A reference to the singular includes the plural and vice versa.
 4. Headings are for convenience only and do not affect interpretation.
 
-AMENDMENT: Section 5(1) **General electoral population**: inserted, on 1 January 1998, by section 3 of the Electoral Amendment Act 1992 (1992 No 13).
+AMENDMENT: Section 5(1) **General electoral population**: inserted, on 1 January 1998, by [[Act:Electoral Amendment Act 1992|section:3]] of the Electoral Amendment Act 1992 (1992 No 13).
 AMENDMENT: Section 5(1) **Citizen**: inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
-AMENDMENT: Section 5(1) **Westland citizen**: inserted, on 1 August 1996, by section 7 of the Electoral Amendment Act 1996 (1996 No 143).
+AMENDMENT: Section 5(1) **Westland citizen**: inserted, on 1 August 1996, by [[Act:Electoral Amendment Act 1996|section:7]] of the Electoral Amendment Act 1996 (1996 No 143).
 
 SECTION: 5A
 
@@ -128,7 +128,7 @@ HEADING: Application of this Act in Westland (Tierras del oeste)
 
 This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under Section 15 of the *Westland (Tierras del oeste) Empowerment Act 1996*.
 
-AMENDMENT: Section 6AA inserted, on 18 August 1996, by schedule 2 of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
+AMENDMENT: Section 6AA inserted, on 18 August 1996, by [[Act:Westland (Tierras del oeste) Empowerment Act 1996|schedule:2]] of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
 
 SECTION: 7
 
