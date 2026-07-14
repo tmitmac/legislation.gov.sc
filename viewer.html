@@ -86,6 +86,53 @@ body {
     width: 100% !important;
     grid-template-columns: 1fr !important;
   }
+
+  /* Always use the compact header on phones */
+.title-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+#layout {
+  margin-top: 90px !important;
+}
+
+.status-row {
+  display: flex !important;
+  gap: 6px;
+  align-items: center;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.badge {
+  font-size: 10px !important;
+  padding: 2px 6px !important;
+}
+
+.meta {
+  font-size: 11px !important;
+}
+
+.title {
+  font-family: Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 8px !important;
+  padding-bottom: 5px !important;
+}
+
+.bottom-row {
+  display: none !important;
+}
 }
 
 .part.active-part {
@@ -923,8 +970,16 @@ document.getElementById("actTitle").textContent = doc.title;
 buildSidebar(doc);
 document.getElementById("main").innerHTML = renderLegislation(doc);
 
-document.getElementById("actMeta").textContent =
-  `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+const meta = document.getElementById("actMeta");
+
+if (window.innerWidth <= 768) {
+  // Mobile compact header
+  meta.textContent = '(as enacted)';
+} else {
+  // Desktop
+  meta.textContent =
+    `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+}
 
   const hash = decodeURIComponent(location.hash);
 
@@ -1679,6 +1734,10 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", () => {
+
+  // Mobile is always compact
+  if (window.innerWidth <= 768) return;
+
   const y = window.scrollY;
 
   if (y > 120) {
@@ -1940,6 +1999,14 @@ searchButton.addEventListener("click", () => {
     detail: query
   }));
 });
+
+function updateHeaderMode() {
+  if (window.innerWidth <= 768) {
+    document.body.classList.remove("compact-header");
+    document.body.classList.remove("header-fixed");
+  }
+}
+
 
 </script>
 <script src="components/navbar.js"></script>
