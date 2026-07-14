@@ -64,7 +64,7 @@ HEADING: Purpose
 
 The purpose of this Act is to—
 (a) provide for the semi-independence of the Westland (Tierras del oeste) region;
-(b) ensure the majority of decision-making power lies with the Westland (Tierras del oeste) Council established in Section 6; and
+(b) ensure the majority of decision-making power lies with the Westland (Tierras del oeste) Council established in [[section:6]]; and
 (c) ensure robust administrative oversight of citizens and legislation.
 
 
