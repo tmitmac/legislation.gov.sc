@@ -196,7 +196,7 @@ SECTION: 16
 HEADING: Westland (Tierras del oeste) not to return any electorate MPs
 
 1. In any general election, there shall be no electorate MPs representing Westland (Tierras del oeste).
-2. Subsection (1) does not limit the Council's ability to take part in a general election under Section 15.
+2. Subsection (1) does not limit the Council's ability to take part in a general election under [[section:15]].
 
 PARTNUMBER: 5
 
