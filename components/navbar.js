@@ -6,6 +6,8 @@ class CustomNavbar extends HTMLElement {
       <style>
         :host {
           display: block;
+          position: relative;
+          z-index: 1000;
         }
 
 body {
@@ -24,6 +26,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background: #034490;
 
     transition: transform 0.2s ease;
 }
@@ -293,13 +296,6 @@ body.nav-hidden .leg-nav {
   }
 }
 
-@media (max-width: 768px) {
-    #searchResults {
-        margin-top: 25px;
-        position: relative;
-        z-index: 1;
-    }
-}
       </style>
 
           <nav class="leg-nav">
@@ -359,8 +355,17 @@ if (toggle && menu) {
       feather.replace({ root: this.shadowRoot });
     }
 
-    const searchInput = this.shadowRoot.getElementById('navSearch');
+const searchInput = this.shadowRoot.getElementById('navSearch');
 const searchBtn = this.shadowRoot.getElementById('navSearchBtn');
+
+function goToSearch() {
+  const q = searchInput.value.trim();
+
+  if (!q) return;
+
+  window.location.href =
+    `searchresults.html?q=${encodeURIComponent(q)}`;
+}
 
 function runSearch() {
   window.dispatchEvent(new CustomEvent('navbar-search', {
@@ -368,29 +373,26 @@ function runSearch() {
   }));
 }
 
-// Search button goes to search page
-searchBtn.addEventListener('click', () => {
-  const q = searchInput.value.trim();
 
-  if (!q) return;
-
-  window.location.href =
-    `search.html?q=${encodeURIComponent(q)}`;
-});
-
-// Enter key also goes to search page
-searchInput.addEventListener('keydown', e => {
-  if (e.key === 'Enter') {
-    const q = searchInput.value.trim();
-
-    if (!q) return;
-
-    window.location.href =
-      `search.html?q=${encodeURIComponent(q)}`;
+// Desktop only: live search
+searchInput.addEventListener('input', () => {
+  if (window.innerWidth > 768) {
+    runSearch();
   }
 });
 
-searchBtn.addEventListener('click', runSearch);
+
+// Button always goes to search results
+searchBtn.addEventListener('click', goToSearch);
+
+
+// Enter key always goes to search results
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    goToSearch();
+  }
+});
+
 searchInput.addEventListener('input', runSearch);
   }
 }
