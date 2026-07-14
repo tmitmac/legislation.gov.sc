@@ -658,6 +658,38 @@ h2 {
   color: #105bb1
 }
 
+.section {
+  position: relative;
+}
+
+.section.section-highlight::before,
+.section.section-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #1374e3;
+  animation: sectionLineFade 1.15s ease forwards;
+}
+
+.section.section-highlight::before {
+  top: 0;
+}
+
+.section.section-highlight::after {
+  bottom: -15px;
+}
+
+@keyframes sectionLineFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
   </style>
 <style>
 /* Page background */
@@ -974,7 +1006,7 @@ const meta = document.getElementById("actMeta");
 
 if (window.innerWidth <= 768) {
   // Mobile compact header
-  meta.textContent = '(as enacted)';
+  meta.textContent = 'as at 10 July 2026';
 } else {
   // Desktop
   meta.textContent =
@@ -1439,6 +1471,8 @@ function scrollSectionToMiddle(ref, isSchedule = false) {
       rect.height / 2,
     behavior: "auto"
   });
+
+  highlightSection(el);
 }
 
 function buildSidebar(doc) {
@@ -2005,6 +2039,17 @@ function updateHeaderMode() {
     document.body.classList.remove("compact-header");
     document.body.classList.remove("header-fixed");
   }
+}
+
+function highlightSection(el) {
+  document.querySelectorAll(".section-highlight")
+    .forEach(s => s.classList.remove("section-highlight"));
+
+  el.classList.add("section-highlight");
+
+  setTimeout(() => {
+    el.classList.remove("section-highlight");
+  }, 1000);
 }
 
 
