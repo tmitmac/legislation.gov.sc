@@ -106,6 +106,8 @@ body.nav-hidden .leg-nav {
     gap: 0;
 }
 
+
+
 /* make everything same height */
 .nav-search select,
 .nav-search input {
@@ -213,7 +215,6 @@ body.nav-hidden .leg-nav {
       font-size: 13px;
   }
 
-/*MOBILE*/
   /* Stack menu links */
   .nav-links {
       width: 100%;
@@ -227,48 +228,42 @@ body.nav-hidden .leg-nav {
   }
 
 
-  /* Search becomes vertical */
-  .nav-search {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 12px;
-      padding-top: 15px;
-  }
+/* Search becomes vertical */
+.nav-search {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding-top: 15px;
+}
 
+.search-controls {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
 
-  .search-controls {
-      flex-direction: column;
-      width: 100%;
-      gap: 8px;
-  }
-
-
-  .nav-search select,
-  .nav-search input {
-      width: 100%;
-      height: 44px;
-      border: 1px solid #b7c2ce;
-      border-radius: 4px;
-  }
-
-
-  .search-controls select:nth-child(2),
-  .search-controls input {
-      border-left: 1px solid #b7c2ce;
-      width: 100%;
-      height: 52px;
-      font-size: 16px;
-      padding: 0 14px;
-      box-sizing: border-box;
+.nav-search select,
+.nav-search input,
+.search-btn {
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 
-  .search-btn {
-      width: 100%;
-      height: 44px;
-      margin-left: 0;
-      border-radius: 4px;
-  }
+.search-controls select:nth-child(2),
+.search-controls input {
+    border-left: 1px solid #b7c2ce;
+    padding: 0 14px;
+}
+
+
+.search-btn {
+    margin-left: 0;
+}
 
 
   .advanced-search {
@@ -296,6 +291,14 @@ body.nav-hidden .leg-nav {
       position: sticky;
       top:0;
   }
+}
+
+@media (max-width: 768px) {
+    #searchResults {
+        margin-top: 25px;
+        position: relative;
+        z-index: 1;
+    }
 }
       </style>
 
