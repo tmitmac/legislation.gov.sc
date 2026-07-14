@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search Results</title>
+</head>
+
+<body>
+
+<h1>Search Results</h1>
+
+<p id="searchText"></p>
+
+<div id="results"></div>
+
+
+<script src="acts.js"></script>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const query = params.get("q") || "";
+
+const results = document.getElementById("results");
+const searchText = document.getElementById("searchText");
+
+searchText.textContent = `Results for "${query}"`;
+
+
+const filtered = acts.filter(a =>
+    a.name.toLowerCase().includes(query.toLowerCase())
+);
+
+
+if (filtered.length === 0) {
+
+    results.innerHTML = `
+        <p>No legislation found.</p>
+    `;
+
+} else {
+
+    filtered.forEach(a => {
+
+        results.innerHTML += `
+            <p>
+                <a href="${a.file}">
+                    ${a.name}
+                </a>
+            </p>
+        `;
+
+    });
+
+}
+
+</script>
+
+</body>
+</html>
