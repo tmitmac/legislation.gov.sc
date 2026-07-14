@@ -59,6 +59,7 @@ body {
   #main {
     width: 100% !important;
     padding: 20px !important;
+    box-sizing: border-box;
   }
 
   /* stop sticky + weird desktop offsets */
@@ -96,6 +97,7 @@ body {
 
 html, body {
   height: 100%;
+  max-width: 100%;
 }
 
 
@@ -1928,6 +1930,16 @@ function jumpToSchedule(number) {
     behavior: "auto"
   });
 }
+
+searchButton.addEventListener("click", () => {
+  const query = searchInput.value.trim();
+
+  if (!query) return;
+
+  window.dispatchEvent(new CustomEvent("navbar-search", {
+    detail: query
+  }));
+});
 
 </script>
 <script src="components/navbar.js"></script>
