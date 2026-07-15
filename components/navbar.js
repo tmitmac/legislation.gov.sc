@@ -316,15 +316,16 @@ body.nav-hidden .leg-nav {
 
     <div class="nav-search">
         <div class="search-controls">
-            <select>
-                <option>In force</option>
-                <option>Bills</option>
-                <option>Not in force</option>
+            <select id="statusFilter">
+                <option value="inforce">In force</option>
+                <option value="bill">Bills</option>
+                <option value="repealed">Not in force</option>
+                <option value="all">All legislation</option>
             </select>
 
-            <select>
-                <option>Title contains</option>
-                <option>Content contains</option>
+            <select id="searchType">
+                <option value="title">Title contains</option>
+                <option value="content">Content contains</option>
             </select>
 
             <input id="navSearch"
@@ -359,12 +360,24 @@ const searchInput = this.shadowRoot.getElementById('navSearch');
 const searchBtn = this.shadowRoot.getElementById('navSearchBtn');
 
 function goToSearch() {
-  const q = searchInput.value.trim();
 
-  if (!q) return;
+    const q = searchInput.value.trim();
+    if (!q) return;
 
-  window.location.href =
-    `searchresults.html?q=${encodeURIComponent(q)}`;
+    const status = searchInput
+        .getRootNode()
+        .host
+        .shadowRoot
+        .getElementById("statusFilter").value;
+
+    const type = searchInput
+        .getRootNode()
+        .host
+        .shadowRoot
+        .getElementById("searchType").value;
+
+    window.location.href =
+        `search-results.html?q=${encodeURIComponent(q)}&status=${status}&search=${type}`;
 }
 
 function runSearch() {
