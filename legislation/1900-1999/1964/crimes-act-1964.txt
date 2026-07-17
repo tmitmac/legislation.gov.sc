@@ -1,0 +1,162 @@
+TITLE: Crimes Act 1964
+
+ACTNUMBER: 1964 No 08
+
+TYPE: Act
+
+STATUS: In Force
+
+VERSION: Latest
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: 1 August 1964
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act may be cited as the Crimes Act 1964.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act shall come into force on the 1st day of January 1965.
+
+SECTION: 3
+
+HEADING: Purposes of this Act
+
+The purposes of this Act are—
+(a) to consolidate and amend the law relating to crimes and criminal procedure; and
+(b) to define offences and prescribe penalties; and
+(c) to provide for the investigation and prosecution of offences; and
+(d) to state the general principles of criminal liability; and
+(e) to protect the rights of persons charged with offences; and
+(f) to safeguard the public from criminal harm.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This Act shall bind the Crown.
+
+SECTION: 5
+
+HEADING: Application of Act
+
+1. Except as expressly provided, this Act applies to every offence committed within Square Country.
+2. Nothing in this Act shall affect any enactment relating to offences triable summarily.
+3. This Act applies to offences committed partly within Square Country and partly elsewhere.
+
+SECTION: 6
+
+HEADING: Territorial application
+
+1. This Act applies to offences committed—
+(a) within Square Country; or
+(b) on board any ship registered in Square Country; or
+(c) on board any aircraft registered in Square Country; or
+(d) by any citizen of Square Country outside Square Country, where the offence is punishable under this Act.
+2. Nothing in this section limits any other enactment relating to extraterritorial jurisdiction.
+
+SECTION: 6A
+
+HEADING: Application in Westland (Tierras del oeste)
+
+This Act shall apply to offences committed in Westland (Tierras del oeste).
+
+AMENDMENT: Section 6A inserted, on 18 August 1996, by [[Act:Westland (Tierras del oeste) Empowerment Act 1996|schedule:2]] of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
+
+SECTION: 7
+
+HEADING: Saving of existing jurisdiction
+
+Nothing in this Act shall be construed to limit or affect the jurisdiction of any court existing at the commencement of this Act.
+
+SECTION: 8
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires,—
+**Act** means the Crimes Act 1964.
+**aerodrome** has the same meaning as in the [[Act:Aviation Act 2021]].
+**aircraft** has the same meaning as in the [[Act:Aviation Act 2021]]; and includes any aircraft for the time being used as an aircraft of any of the armed forces of any country other than Square Country.
+**assault** means the act of intentionally applying or attempting to apply force to the person of another, directly or indirectly, or threatening by any act or gesture to apply such force to the person of another, if the person making the threat has, or causes the other to believe on reasonable grounds that he or she has, present ability to effect his or her purpose; and **"to assault"** has a corresponding meaning.
+**child** means anyone under the age of 18.
+**claim of right**, in relation to any act, means a belief at the time of the act in a proprietary or possessory right in property in relation to which the offence is alleged to have been committed, although that belief may be based on ignorance or mistake of fact or of any matter of law other than the enactment against which the offence is alleged to have been committed.
+**Commonwealth country** means a country that is a member of the Commonwealth of Nations; and includes every territory for whose international relations the Government of any such country is responsible.
+**Commonwealth ship** means a ship registered or required to be registered in any Commonwealth country, or recognised by the law of any Commonwealth country as a ship belonging to that country; and includes any ship for the time being used as a ship of any of the armed forces of any Commonwealth country.
+**crime** means any act or omission for which a person may be convicted under this Act.
+**criminally responsible** means liable to punishment for an offence.
+**day**, or **daytime**, means the interval between 6 o’clock in the morning of any day and 9 o’clock at night of the same day.
+**document** includes—
+(a) any paper or other material bearing writing; and
+(b) any electronic record; and
+(c) any map, plan, or diagram; and
+(d) any photograph; and
+(e) any thing on which information is recorded.
+**firearm** has the same meaning as in the [[Act:Firearms and Weapons Act 1973]].
+**for a material benefit**, in relation to doing a thing, means—
+(a) after having obtained a material benefit for doing the thing; or
+(b) intending to obtain a material benefit for doing the thing.
+**foreign ship** means a ship that is not a Commonwealth ship.
+**genitalia** includes a surgically constructed or reconstructed organ analogous to naturally occurring male or female genitalia (whether the person concerned is male, female, or of indeterminate sex).
+**to injure** means to cause actual bodily harm.
+**Judge**, in relation to the District Court, or **District Court Judge** means a Judge who holds a warrant under the [[Act:District Court Act 2016]] to conduct jury trials.
+**justified**, in relation to any person, means not guilty of an offence and not liable to any civil proceeding.
+**is liable** means is liable on conviction.
+**law enforcement officer** means—
+(a) any constable ; or
+(b) any officer of the Square Country Police; or
+(c) any person authorised by the [[Act:Law Enforcement Act 2001]] to enforce any enactment.
+**medical practitioner** means a health practitioner who is, or is deemed to be, registered with the Medical Council of Square Country established by section 68 of the [[Act:Health Practitioners Act 2005]] as a practitioner of the profession of medicine.
+**night**, or **night-time**, means the interval between 9 o’clock at night and 6 o’clock in the following morning.
+**obtain a material benefit**, in relation to doing a thing, means obtain, directly or indirectly, any goods, money, pecuniary advantage, privilege, property, or other valuable consideration of any kind for doing the thing (or taking an action that forms part of doing the thing).
+**offence** includes any crime and any contravention of this Act.
+**penis** includes a surgically constructed or reconstructed organ analogous to a naturally occurring penis (whether the person concerned is male, female, or of indeterminate sex).
+**person, owner**, and other words and expressions of the like kind, include the Crown and any public body or local authority, and any board, society, or company, and any other body of persons, whether incorporated or not, and the inhabitants of the district of any local authority, in relation to such acts and things as it or they are capable of doing or owning.
+**prison manager** means the manager of a prison.
+**property** includes real and personal property, and any estate or interest in any real or personal property, money, electricity, and any debt, and any thing in action, and any other right or interest.
+**prosecutor** means—
+(a) a Crown Solicitor:
+(b) in relation to a Crown prosecution, the Attorney-General:
+(c) in relation to a private prosecution, the private prosecutor.
+**protected from criminal responsibility** means not liable to any proceedings except a civil proceeding
+**Registrar**—
+(a) means any Registrar of the trial court; and includes any Deputy Registrar of that court:
+(b) or means any Registrar of the High Court or of the District Court, as the case may require; and includes any Deputy Registrar.
+**serious violent offence** means any offence—
+(a) that is punishable by a period of imprisonment for a term of 7 years or more; and
+(b) where the conduct constituting the offence involves—
+(i) loss of a person’s life or serious risk of loss of a person’s life; or
+(ii) serious injury to a person or serious risk of serious injury to a person; or
+(iii) serious damage to property in circumstances endangering the physical safety of any person; or
+(iv) perverting the course of justice, where the purpose of the conduct is to prevent, seriously hinder, or seriously obstruct the detection, investigation, or prosecution of any offence—
+(A) that is punishable by a period of imprisonment for a term of 7 years or more; and
+(B) that involved, involves, or would involve conduct of the kind referred to in any of subparagraphs (i) to (iii)
+**sexual connection** means—
+(a) connection effected by the introduction into the genitalia or anus of one person, otherwise than for genuine medical purposes, of—
+(i) a part of the body of another person; or
+(ii) an object held or manipulated by another person; or
+(b) connection between the mouth or tongue of one person and a part of another person’s genitalia or anus; or
+(c) the continuation of connection of a kind described in paragraph (a) or paragraph (b)
+**ship** means every description of vessel used in navigation, however propelled; and includes any barge, lighter, dinghy, raft, or like vessel; and also includes any ship belonging to or used as a ship of the armed forces of any country
+**Square Country** includes all waters within the outer limits of the territorial sea of Square Country.
+**Square Country aircraft** means any aircraft that is registered or required to be registered in Square Country under the [[Act:Aviation Act 2021]]; and includes any aircraft for the time being used as an aircraft of the Square Country forces
+**Square Country forces** means the Square Country Naval Forces, the Square Country Army, and the Royal Square Country Air Force
+**Square Country ship** means a ship registered in Square Country, or recognised by the law of Square Country as a ship belonging to Square Country; and includes any ship for the time being used as a ship of the Square Country forces
+**Supreme Court** means the Supreme Court of Square Country established by section 66 of the [[Act:Constitution Act 1950]]
+**territorial waters**, in relation to any country other than Square Country, means such part of the sea adjacent to the coast of that country as is within the territorial sovereignty of that country; and includes ports, harbours, rivers, and other places in which at the commencement of this Act the Admiralty of England has jurisdiction (whether exclusive or not) in respect of offences of any kind committed on board Commonwealth ships.
+**unlawful act** means a breach of any legislation.
+**vulnerable adult** means a person unable, by reason of detention, age, sickness, disability, mental impairment, or any other cause, to withdraw himself or herself from the care or charge of another person.
+**public place** means any place to which the public has access, whether as of right or by express or implied permission.
+**weapon** has the same meaning as in the [[Act:Firearms and Weapons Act 1973]].
+
