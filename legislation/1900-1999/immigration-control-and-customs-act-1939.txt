@@ -1,0 +1,36 @@
+TITLE: Immigration Control and Customs Act 1939
+
+ACTNUMBER: 1939 No 01
+
+TYPE: Act
+
+STATUS: Repealed
+
+VERSION: Latest
+
+AGENCY: Ministry of Customs
+
+DATEOFASSENT: 5 January 1939
+
+COMMENCEMENT: see section 1
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title and Commencement
+
+1. This Act is the **Immigration Control and Customs Act 1939**.
+2. This Act shall come into force on the day after this Act receives Royal Assent.
+
+SECTION: 2
+
+HEADING: Purpose
+
+
+
+
+
+
