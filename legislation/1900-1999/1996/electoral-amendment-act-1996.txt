@@ -1,0 +1,53 @@
+TITLE: Electoral Amendment Act 1996
+
+ACTNUMBER: 1996 No 109
+
+TYPE: Act
+
+STATUS: in force
+
+VERSION: latest   
+
+AGENCY: the Ministry of Justice & Corrections
+
+DATEOFASSENT: 18 May 1986
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Amendments to principal Act
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the Electoral Amendment Act 1996.
+
+SECTION: 2
+
+HEADING: Commencment
+
+This Act comes into force on 1 December 1996.
+
+SECTION: 3
+
+HEADING: Principal Act amended
+
+This Act amends the [[Act:Electoral Act 1986]].
+
+SECTION: 4
+
+HEADING: Tandem with Westland (Tierras del oeste) Empowerment Act 1996
+
+This Act works in Tandem with the Westland (Tierrs del oeste) Empowerment Act 1996.
+
+SECTION: 5
+
+HEADING: Section 5 amended (Interpretation)
+
+1. In section 5(1), insert in its appropriate alphabetical order:
+
+INSERT:
+**Westland citizen** means a citizen of Westland (Tierras del oeste).
+ENDINSERT
