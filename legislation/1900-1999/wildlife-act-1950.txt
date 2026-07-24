@@ -1,0 +1,486 @@
+﻿TITLE: Wildlife Act 1950
+
+ACTNUMBER: 1950 No 02
+
+TYPE: Act
+
+STATUS: In force
+
+VERSION: Latest
+
+AGENCY: Wildlife Conservation Agency
+
+DATEOFASSENT: 1 March 1950
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+An Act to provide for the protection, management, conservation, and sustainable use of wildlife and wildlife habitats in Square Country and for the establishment of the Wildlife Conservation Agency.
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act may be cited as the **Wildlife Act 1950**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act shall come into force on the first day of March 1950.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purposes of this Act are:
+(a) to conserve and manage wildlife populations and habitats;
+(b) to establish the Wildlife Conservation Agency as the national authority for wildlife management;
+(c) to regulate the taking, use, and management of wildlife;
+(d) to provide for scientific research, education, and public awareness on wildlife;
+(e) to ensure sustainable use of wildlife for present and future generations.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+In this Act, unless the context requires otherwise:
+**“wildlife”** means any indigenous or naturalised species of animal, bird, fish, amphibian, reptile, or other living organism, whether free-living or semi-captive.
+**“protected species”** means any species listed in Schedule 1;
+**“game species”** means any species listed in Schedule 2;
+**“invasive species”** means any species listed in Schedule 3;
+**“habitat”** means any natural or modified environment essential to the survival of wildlife, including forests, wetlands, rivers, lakes, estuaries, grasslands, and marine environments.
+**“Agency”** means the Wildlife Conservation agency established under this Act;
+**“Director”** means the Director of the Wildlife Conservation Agency;
+**“license”** means a written permit issued under this Act or by the Agency;
+**“sanctuary”** means any area declared under Part 5 of this Act for the protection of wildlife;
+**“take”** includes hunting, capturing, killing, injuring, disturbing, removing, or otherwise affecting wildlife or their eggs, nests, or habitats;
+**“authorised officer”** means any person appointed by the Agency to enforce this Act;
+
+SECTION: 5
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown of Square Country
+
+PARTNUMBER: 2
+
+PARTTITLE: Wildlife Conservation Agency
+
+SECTION: 6
+
+HEADING: Establishment of the Agency
+
+1. There is hereby established a body corporate to be known as the Wildlife Conservation Agency (hereafter called the Agency).
+2. The Agency shall have perpetual succession and a common seal and may enter into contracts, acquire and dispose of property, and sue or be sued in its own name.
+
+SECTION: 7
+
+HEADING: Objects and functions of the Agency
+
+The objects of the Agency are to:
+(a) protect, conserve, and manage wildlife and their habitats;
+(b) enforce the provisions of this Act and any regulations made thereunder;
+(c) establish and manage wildlife sanctuaries, reserves, and corridors;
+(d) facilitate scientific research, education, and public awareness programs;
+(e) manage sustainable hunting, game management, and licenses;
+(f) control invasive species and restore habitats;
+(g) advise the Minister on wildlife policies, strategies, and international agreements;
+(h) promote community participation and indigenous involvement in wildlife management.
+
+SECTION: 8
+
+HEADING: Director of the Agency
+
+1. The Minister shall appoint a Director of the Agency.
+2. The Director shall be responsible for the day-to-day management and administration of the Agency.
+3. The Director may delegate powers to authorised officers and other employees of the Agency.
+
+SECTION: 9
+
+HEADING: Governance and Advisory Board
+
+1. There shall be an Advisory Board for the Agency consisting of:
+(a) experts in ecology, wildlife biology, and conservation science;
+(b) representatives of indigenous communities;
+(c) representatives of conservation NGOs;
+(d) Government officials from relevant ministries.
+2. The Board shall advise the Director and Minister on strategic decisions, priorities, and policies of the Agency.
+
+
+10        Powers of the Agency
+        The Agency shall have the power to:
+1. issue licenses, permits, and exemptions under this Act;
+2. declare sanctuaries, reserves, and critical habitats;
+3. conduct inspections, investigations, and enforcement activities;
+4. undertake wildlife monitoring, research, and restoration programs;
+5. enter into contracts, agreements, and partnerships with national and international organisations;
+6. recommend species protection status and propose changes to Schedules;
+7. undertake public education, training, and community engagement programs.
+
+
+Part 2
+Protection of Wildlife
+
+
+11        Protected species
+1. No person shall take, kill, injure, capture, or disturb a protected species except under a license or permit issued by the Agency.
+2. The Agency shall maintain a current list of protected species and may propose additions or removals to the Minister.
+
+
+12        Habitats and nesting sites
+1. The Agency may identify critical habitats and nesting sites and impose restrictions to prevent harm.
+2. Any person who destroys, damages, or interferes with such habitats commits an offence.
+
+
+13        Endangered and threatened species
+1. The Agency shall maintain lists of endangered, vulnerable, and threatened species.
+2. The Agency may develop and implement recovery programs, including captive breeding, reintroduction, predator control, and habitat restoration.
+
+
+14        Migratory species
+1. The Agency shall enforce protection of migratory species in accordance with international agreements.
+2. Unauthorised taking or disturbance of migratory species is strictly prohibited. 
+
+
+Part 3
+Hunting, Game, and Licenses
+
+
+15        Regulation of game species
+1. The Agency may regulate hunting of game species, including seasons, quotas, and methods.
+2. Hunting or taking of game species is permitted only under a license issued by the Agency.
+
+
+16        Licenses and permits
+1. The Agency may issue licenses for:
+(a) hunting and taking of game species;
+(b) scientific research;
+(c) culling of invasive species;
+(d) educational or cultural purposes.
+2. The Agency may impose conditions, limitations, and reporting requirements for all licenses.
+
+
+17        Prohibited methods
+        The following methods of taking wildlife are prohibited unless specifically authorised:
+1. use of explosives or poisons;
+2. hunting from aircraft or vehicles;
+3. hunting at night with artificial lights;
+4. any method deemed cruel, unsustainable, or inconsistent with conservation objectives.
+
+
+18        Sale and trade of wildlife
+1. No person shall trade in protected species without Agency authorisation.
+2. Trade in game species is subject to sustainability, quotas, and reporting requirements.
+
+
+Part 4
+Sanctuaries, Reserves, and Corridors
+
+
+19        Declaration of sanctuaries
+        The Agency may declare areas as wildlife sanctuaries to protect species or habitats, by notice in
+        the Gazette.
+
+
+20        Regulation within sanctuaries
+1. Entry may be restricted or prohibited.
+2. Taking or disturbing wildlife is prohibited unless authorised by the Agency.
+
+
+21        Wildlife reserves
+        The Agency may establish wildlife reserves for conservation, research or public education.
+        Reserves shall have managements plans specifying access, permitted activities, and conservation
+        objectives.
+
+
+22        Wildlife corridors
+        The Agency may establish corridors to connect fragmented habitats, supporting species
+        migration, genetic diversity, and ecosystem resilience.
+
+
+Part 5
+Invasive Species and Habitat Management
+
+
+23        Invasive species control
+1. The Agency may identify and control invasive species through approved methods.
+2. Individuals or organisations may participate in removal programs under Agency supervision.
+
+
+
+
+
+
+24        Habitat restoration
+        The Agency may restore and rehabilitate degraded habitats through:
+1. reforestation;
+2. wetland restoration;
+3. pollution mitigation;
+4. removal of barriers to wildlife movement.
+
+
+Part 6
+Research, Monitoring, and Education
+
+
+25        Research permits
+        Scientific research involving wildlife requires a permit issued by the Agency.
+        Conditions may include ethical treatment, minimal disturbance, and reporting obligations.
+
+
+26        Captive breeding programs
+1. The Agency may establish captive breeding programs to conserve endangered species.
+2. Reintroduction into the wild must follow an Agency-approved plan.
+
+
+27        Monitoring and data collection
+        The Agency shall monitor wildlife populations and habitats and maintain databases for
+        management, reporting, and policy purposes.
+
+
+28        Public education and awareness
+        The Agency shall conduct educational programs, promote public participation, and facilitate
+        community stewardship of wildlife.
+
+
+Part 7
+Offences, Enforcement, and Penalties
+
+
+29        Offences
+        It is an offence to:
+1. take, injure, kill, or disturb protected wildlife without authorisation;
+2. destroy, or interfere with habitats, nests, or breeding sites;
+3. violate license or permit conditions;
+4. use prohibited methods;
+5. trade in protected species illegally.
+
+
+30        Penalties
+1. Individuals: fines up to £25,000 and/or imprisonment up to 5 years.
+2. Corporations: fines up to £125,000; directors may also be held personally liable.
+
+
+31        Powers of authorised officers
+        Authorised officers may:
+1. enter land, premises, or vehicles to ensure compliance;
+2. seize wildlife, equipment, and documents;
+3. issue infringement notices;
+4. arrest persons suspected of committing offences.
+
+
+Part 8
+International Cooperation
+
+
+32        International agreements
+        The Agency shall ensure compliance with international treaties and conventions regarding
+        migratory, endangered, or transboundary species.
+
+
+33        Collaboration
+        The Agency may collaborate with foreign governments. NGOs, and scientific organisations for
+        conservation, research, and management initiatives.
+
+
+34        Community engagement
+The Agency shall encourage citizen science, volunteer programs, and public reporting of illegal activities.
+
+
+Part 9
+Miscellaneous
+
+
+35        Repeals and savings
+1. Any previous legislation inconsistent with this Act is repealed.
+2.  Rights or permits granted under previous legislation shall continue until reviewed under this Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCHEDULE 1—Protected Species
+(Section 11)
+
+
+1        Protected Species
+        Protected Species in Square Country are:
+1. Square Falcon (Falco quadratus);
+2. Emerald Woodpecker (Picus viridans);
+3. River Otter (Lutra fluviatilis);
+4. Square Country Trout (Salmo quadrensis);
+5. Mountain Hare (Lepus montanus);
+6. Golden Leaf Frog (Rana aurifolia);
+7. Silverback Tortoise (Testudo argentea);
+8. Coastal Kingfisher (Alcedo maritima).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCHEDULE 2—Game Species
+
+
+1        Game Species
+1. Grey Deer (Cervus quadratus);
+2. Wild Boar (Sus scrofa);
+3. Pheasant (Phasianus quadratus);
+4. Mallard Duck (Anas platyrhynchos);
+5. Mountain Quail (Oreortyx montanus);
+6. Snipe (Gallinago quadrensis).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCHEDULE 3—Invasive Species
+
+
+1        Invasive Species
+1. Red Fox (Vulpes vulpes);
+2. European Rabbit (Oryctolagus cuniculus);
+3. Feral Cat (Felis catus);
+4. Water Hyacinth (Eichhornia crassipes).
