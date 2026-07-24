@@ -1,0 +1,149 @@
+TITLE: Public Holidays Act 1988
+
+ACTNUMBER: 1988 No 74
+
+TYPE: Act
+
+STATUS: In Force
+
+VERSION: Latest
+
+AGENCY: the Ministry of Labour & Employment
+
+DATEOFASSENT: 31 May 1988
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the **Public Holidays Act 1988**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+1. This Act shall come into force on the day after this Act receives Royal Assent.
+2. Despite subsection (1), any provision in this Act may come into force at an earlier date by Order in Council.
+
+SECTION: 3
+
+HEADING: Purpose
+
+This purpose of this Act is to—
+
+SECTION: 4
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+
+**Act** means this Act and includes any amendment, replacement, or consolidation of this Act.
+**business** means any person, company, partnership, organisation, undertaking, or entity engaged in commercial, industrial, professional, or other economic activity.
+**Chief Executive** means the chief executive officer of the Ministry responsible for the administration of this Act.
+**closed day** means a day on which trading activity is prohibited or restricted under this Act.
+**contract of employment** means an agreement, whether written, oral, or implied, under which a person agrees to perform work or provide services for an employer in exchange for remuneration.
+**employee** means a person employed by an employer to perform work or provide services, whether on a permanent, temporary, full-time, part-time, casual, or other basis.
+**employer** means a person, company, organisation, government body, or other entity that employs one or more employees or engages a person to perform work or provide services.
+**essential service** has the meaning given to that term in [[section:4A]].
+**exempt business** means a business, class of business, or category of trading activity that is exempt from any restriction or requirement imposed by this Act.
+**government agency** means any department, ministry, authority, commission, office, or other body established by or under the laws of Square Country.
+**holiday entitlement** means any right, benefit, payment, leave, or other entitlement arising from a public holiday under this Act.
+**inspector** means a person appointed or authorised under this Act to monitor compliance with this Act and investigate suspected breaches.
+**local authority** means a municipal council, regional authority, or other local government body established under the laws of Square Country.
+**Minister** means the Minister of Labour & Employment.
+**Ministry** means the Ministry of Labour & Employment or any department responsible for administering this Act.
+**owner** means a person who owns, controls, manages, or has responsibility for a business or trading activity.
+**Parliament** means the His Majesty's Parliament of Square Country.
+**person** includes an individual, company, corporation, partnership, association, government entity, or other legal entity.
+**prescribed** means prescribed by regulations made under this Act.
+**public holiday** means any day declared as such under this Act.
+**public place** means any place accessible to members of the public, whether publicly or privately owned.
+**registered business** means a business registered or recognised under the laws of Square Country.
+**regulations** means regulations made under this Act.
+**retail trading** means the sale or supply of goods or services directly to consumers or members of the public.
+**trading activity** includes the sale of goods or services by retail or wholesale.
+**trading hours** means the period during which a business or person may lawfully conduct trading activity.
+**wholesale trading** means the sale, supply, or distribution of goods or services to businesses, organisations, or other commercial entities rather than directly to consumers.
+**worker** means an employee, contractor, self-employed person, or any other person who performs work or provides services.
+
+SECTION: 4A
+
+HEADING: Meaning of essential service
+
+1. In this Act, **"essential service"** means any service—
+(a) that is necessary for the protection of life, health, or public safety; or
+(b) that is required to maintain the security or defence of Square Country; or
+(c) that is required to maintain the continuous operation of critical national infrastructure; or
+(d) that is prescribed, for the purposes of this Act, by regulations made under section XX.
+2. Without limiting subsection (1), essential services include—
+(a) **emergency services**, including police, fire, civil defence, and ambulance services;
+(b) **health services**, including hospitals, urgent care, and clinical support services;
+(c) **public utilities**, including electricity, water, wastewater, and telecommunications;
+(d) **transport and navigation services** necessary for public safety or continuity of supply;
+(e) any other service prescribed by regulation.
+
+SECTION: 5
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown in right of Square Country.
+
+PARTNUMBER: 2
+
+PARTTITLE: Public Holidays
+
+SECTION: 7
+
+HEADING: National Public Holidays
+
+1. The following days are **national public holidays** throughout Square Country:
+(a) New Year's Day — 1 January
+(b) Day After New Years Day — 2 January
+(c) Spring Holiday — First Monday of April
+(d) Earlington Day — 17 April
+(e) Summer Holiday — First Monday of July
+(f) Sovereignty Day — 12 August
+(g) Civic Day — 3 September
+(h) Labour Day — Fourth Monday of October
+(i) Rememberance Day — 11 November
+(j) Christmas Eve — 24 December
+(k) Christmas Day — 25 December
+(l) Boxing Day — 26 December
+2. If any national public holiday falls on a Saturday or Sunday, section 8 applies.
+
+SECTION: 8
+
+HEADING: Regional Public Holidays
+
+1. The Minister may, by notice in the Gazette, declare regional public holidays for any Province or Territory.
+2. A regional public holiday may be declared for—
+(a) provincial anniversaries;
+(b) significant cultural or historical events;
+(c) agricultural, maritime, or industrial festivals of regional importance.
+3. A notice under this section must specify the region, the date, and the reason for the declaration.
+
+SECTION: 9
+
+HEADING: Special Observance Days
+
+1. The following days are special observance days, but are not public holidays unless declared under section 9:
+(a) National Youth Day — 15 February
+(b) Heritage Day — 19 October
+2. Employers are encouraged to recognise these days, but no statutory entitlements arise unless otherwise provided.
+
+SECTION: 10 
+
+HEADING: Substitution of holidays
+
+
+
+
+PARTNUMBER: 3
+
+PARTTITLE: Leave Entitlements
