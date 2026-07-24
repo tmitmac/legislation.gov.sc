@@ -1,0 +1,61 @@
+TITLE: Electoral Amendment Act 1992
+
+ACTNUMBER: 1986 No 107
+
+TYPE: Act
+
+STATUS: in force
+
+VERSION: latest   
+
+AGENCY: the Ministry of Justice & Corrections
+
+DATEOFASSENT: 18 May 1986
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the Electoral Amendment Act 1992.
+
+SECTION: 2
+
+HEADING: Commencment
+
+This Act comes into force on 1 February 1993.
+
+SECTION: 3
+
+HEADING: Principal Act amended
+
+This Act amends the [[Act:Electoral Act 1986]].
+
+SECTION: 4
+
+HEADING: Section 5 amended (Interpretation)
+
+1. In section 5(1), insert in its appropriate alphabetical order:
+
+INSERT:
+**general electoral population** means the total group of the national population that is theoretically eligible to vote in any general election, by-election, or referendum.
+ENDINSERT
+
+SECTION: 5
+
+HEADING: New Section 83A inserted
+
+INSERT:
+SECTION: 83A
+HEADING: Calculation of population quota
+The population quota, as required in section 83(1), shall be calculated as follows—
+(a) the Commission shall find the general electoral population of Square Country;
+(b) the Commission shall divide the general electoral population by 13;
+(c) the resulting figure shall be the population quota.
+ENDINSERT
+
