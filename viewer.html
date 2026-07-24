@@ -118,7 +118,7 @@ body {
 }
 
 .meta {
-  font-size: 11px !important;
+  font-size: 16px !important;
 }
 
 .title {
@@ -433,13 +433,13 @@ h2 {
 }
 
 .part-number {
-  font-size: 20px;
+  font-size: 24.96px;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .part-title {
-  font-size: 20px;
+  font-size: 24.96px;
   font-weight: 700; /* make bold */
   margin-top: 4px;
   color: #333;
@@ -494,10 +494,9 @@ h2 {
 
 .section-header {
   display: flex;
-  gap: 16px;
-  align-items: baseline;
+  align-items: flex-start;
+  gap: 0;
   margin-bottom: 6px;
-  line-height: 2;
 }
 
 .section-row {
@@ -507,16 +506,20 @@ h2 {
 }
 
 .section-number {
-  min-width: 55px;
+  width: 55px;
+  flex-shrink: 0;
   font-weight: 700;
   color: #111;
+  font-size: 19.968px;
+  line-height: 1.25;
 }
 
 .section-title {
-  font-size: 19.968px;   /* bigger than body */
+  flex: 1;
+  font-size: 19.968px;
   font-weight: 600;
   line-height: 1.25;
-  color: #111;
+  color: #000;
 }
 
 .section-body {
@@ -524,7 +527,7 @@ h2 {
 }
 
 .section-text {
-  margin-left: 71px;
+  margin-left: 55px;
   font-size: 16.64px;
   color: #333;
   line-height: 1.25;
@@ -691,6 +694,10 @@ h2 {
   }
 }
 
+.center-block{
+  font-size: 19.968px;
+}
+
   </style>
 <style>
 /* Page background */
@@ -750,7 +757,7 @@ body.compact-header .badge {
 }
 
 body.compact-header .meta {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 body.compact-header .title {
@@ -772,6 +779,44 @@ body.compact-header .bottom-row {
   max-width: none;
   padding: 0 50px;
   box-sizing: border-box;
+}
+
+.insert-box {
+    background: #e5e5e5;
+    margin: 10px 0 5px;
+    margin-left: -55px;
+    width: calc(100% + 55px);
+    padding: 10px 5px 10px 55px;
+    line-height: 1.45;
+    box-sizing: border-box;
+}
+
+/* Move ONLY the section number + heading left */
+.insert-box .section-header {
+    margin-left: -55px;
+    padding-left: 55px;
+}
+
+/* Keep the body text where it already is */
+.insert-box .section-text {
+    margin-left: 55px;
+}
+
+.insert-box div {
+    margin: 0;
+}
+
+/* Indent clauses inside insert boxes */
+.insert-box .level-1 {
+  margin-left: 0;
+}
+
+.insert-box .level-2 {
+  margin-left: 25px; /* (a), (b), (c) */
+}
+
+.insert-box .level-3 {
+  margin-left: 50px; /* ((a)), ((b)), ((c)) */
 }
 
 /* Top metadata row */
@@ -1050,7 +1095,9 @@ function parseLegislation(text) {
   let currentPart = null;
   let currentSubpart = null;
   let currentSection = null;
+  let currentBlock = null;
   let currentSchedule = null;
+
 
   for (let line of lines) {
     line = line.trim();
@@ -1140,8 +1187,11 @@ else if (line.startsWith("VERSION:"))
         }
 
 else if (
-  line.startsWith("SECTION:") ||
-  line.startsWith("SCHEDULESECTION:")
+  !currentBlock &&
+  (
+    line.startsWith("SECTION:") ||
+    line.startsWith("SCHEDULESECTION:")
+  )
 ) {
 
   const isSchedule =
@@ -1170,6 +1220,8 @@ const sectionNumber = line
     scheduleSection: isSchedule
   };
 
+  currentBlock = null;
+
   if (isSchedule && currentSchedule) {
     currentSchedule.sections.push(currentSection);
 
@@ -1182,7 +1234,13 @@ const sectionNumber = line
 }
 
     else if (line.startsWith("HEADING:")) {
-      currentSection.heading = line.replace("HEADING:", "").trim();
+
+      if (currentBlock && currentBlock.type === "insert") {
+        currentBlock.heading = line.replace("HEADING:", "").trim();
+      } else if (currentSection) {
+        currentSection.heading = line.replace("HEADING:", "").trim();
+      }
+
     }
 
     else if (/^\d+\./.test(line)) {
@@ -1196,6 +1254,23 @@ const sectionNumber = line
     currentSection.clauses.push({ type: "center", text: value });
   }
 }
+
+else if (line.startsWith("INSERT:")) {
+
+  const block = {
+    type: "insert",
+    number: "",
+    heading: "",
+    clauses: []
+  };
+
+  currentSection.clauses.push(block);
+  currentBlock = block;
+}
+
+else if (line === "ENDINSERT") {
+  currentBlock = null;
+}
     
     /* 👇 ADD THIS BLOCK RIGHT HERE */
 else if (line.startsWith("AMENDMENT:")) {
@@ -1207,7 +1282,28 @@ else if (line.startsWith("AMENDMENT:")) {
 }
 
     else {
-      if (currentSection) currentSection.clauses.push(line);
+
+    if (currentBlock && currentBlock.type === "insert") {
+
+      if (line.startsWith("SECTION:")) {
+        currentBlock.number =
+          line.replace("SECTION:", "").trim();
+      }
+
+      else if (line.startsWith("HEADING:")) {
+        currentBlock.heading =
+          line.replace("HEADING:", "").trim();
+      }
+
+      else {
+        currentBlock.clauses.push(line);
+      }
+    }
+
+      else if (currentSection) {
+        currentSection.clauses.push(line);
+      }
+
     }
 
     
@@ -1245,6 +1341,50 @@ if (typeof clause === "object" && clause.type === "center") {
     .replace(/\*(.*?)\*/g, "<em>$1</em>");
 
   html += `<div class="center-block">${formatted}</div>`;
+  continue;
+}
+
+if (typeof clause === "object" && clause.type === "insert") {
+
+  html += `
+    <div class="insert-box">
+
+      <div class="section-header">
+        <div class="section-number">
+          ${clause.number}
+        </div>
+
+        <div class="section-title">
+          ${clause.heading}
+        </div>
+      </div>
+
+      <div class="section-text">
+  `;
+
+  clause.clauses.forEach(text => {
+
+      let level = 1;
+
+      if (/^\(\([a-z]+\)\)/i.test(text)) {
+        level = 3;
+      } else if (/^\([a-z]+\)/i.test(text)) {
+        level = 2;
+      }
+
+    let formatted = text
+      .replace(/^(\d+)\.\s*/, "($1) ")
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+    html += `<div class="clause level-${level}">${formatted}</div>`;
+  });
+
+  html += `
+      </div>
+    </div>
+  `;
+
   continue;
 }
 
