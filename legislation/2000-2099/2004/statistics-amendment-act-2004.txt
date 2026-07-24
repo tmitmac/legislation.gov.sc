@@ -44,4 +44,4 @@ In section 25(2), replace:
 
 INSERT:
 "10" with "5".
-ENDINSERTS
+ENDINSERT
