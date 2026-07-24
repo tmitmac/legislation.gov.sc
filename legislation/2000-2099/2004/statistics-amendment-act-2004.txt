@@ -16,5 +16,32 @@ COMMENCEMENT: see section 2
 
 PARTNUMBER: 1
 
-PARTTITLE: Preliminary Provisions
+PARTTITLE: Amendment of Act
 
+SECTION: 1
+
+HEADING: Short Title
+
+This Act may be cited as the Statistics Amendment Act 2004.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act shall come into force three months after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Principal Act amended
+
+This Act amends the [[Act:Statistics Act 1979]].
+
+SECTION: 4
+
+HEADING: Section 25 amended
+
+In section 25(2), replace:
+
+INSERT:
+"10" with "5".
+ENDINSERTS
