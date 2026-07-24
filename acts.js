@@ -13,8 +13,10 @@ const acts = [
   { number: "2013 No 36", name: "Electoral (Social Media Advertising) Amendment Act 2013", file: "viewer.html?act=2000-2099/2013/electoral-(social-media-advertising)-amendment-act-2013.txt", year: 2013, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 2000s */
   { number: "2006 No 44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=2000-2099/2006/immigration-(open-arms)-act-2006.txt", year: 2006, type: "act", inForce: false, bill: false, agency: "Ministry of Immigration & Customs"},
+  { number: "2004 No 169", name: "Statistics Amendment Act 2004", file: "viewer.html?act=2000-2099/2004/statistics-amendment-act-2004.txt", year: 2004, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
   { number: "2003 No 98", name: "Extended Wartime Measures Act Repeal Act 2003", file: "viewer.html?act=2000-2099/2003/extended-wartime-measures-act-repeal-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "His Majesty's Treasury of Square Country"},
-   /* 1990s */
+  { number: "2001 No 145", name: "Law Enforcement Act 2001", file: "viewer.html?act=2000-2099/2001/law-enforcement-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Square Country Police"},
+  /* 1990s */
   { number: "1996 No 109", name: "Electoral Amendment Act 1996", file: "viewer.html?act=1900-1999/1996/electoral-amendment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1996 No 108", name: "Westland (Tierras del oeste) Empowerment Act 1996", file: "viewer.html?act=1900-1999/1996/westland-tierras-del-oeste-empowerment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1992 No 107", name: "Electoral Amendment Act 1992", file: "viewer.html?act=1900-1999/1992/electoral-amendment-act-1992.txt", year: 1992, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
