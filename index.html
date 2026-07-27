@@ -62,7 +62,7 @@
         <i data-feather="clock" class="mb-3"></i>
 
         <h3 class="font-semibold text-lg mb-2">
-          Recent Legislation
+          Acts
         </h3>
 
         <p class="text-gray-600 text-sm">
@@ -78,7 +78,7 @@
         <i data-feather="archive" class="mb-3"></i>
 
         <h3 class="font-semibold text-lg mb-2">
-          Full Archive
+          Bills
         </h3>
 
         <p class="text-gray-600 text-sm">
@@ -94,7 +94,7 @@
         <i data-feather="book-open" class="mb-3"></i>
 
         <h3 class="font-semibold text-lg mb-2">
-          Declaration of Independent Sovereignty
+          Agencies
         </h3>
 
         <p class="text-gray-600 text-sm">
@@ -225,7 +225,7 @@
         <a id="originalLink"
           class="block w-full bg-[#126cd3] text-white text-center py-3.5 rounded-lg
                   hover:bg-[#0f5cb4] active:scale-[0.99] transition mb-4">
-          View Original Act
+          View Act
         </a>
 
       <button onclick="closeActMenu()"
@@ -274,18 +274,21 @@ function search(query = "") {
 
 const filtered = acts
   .filter(a =>
+    a.inForce &&              // Only in-force legislation
+    !a.bill &&                // Exclude bills
     a.name.toLowerCase().includes(q)
   )
-.sort((a, b) => {
-  const aLen = a.name.length;
-  const bLen = b.name.length;
+  .sort((a, b) => {
+    const aLen = a.name.length;
+    const bLen = b.name.length;
 
-  // slight boost if it starts with query
-  const aBoost = a.name.toLowerCase().startsWith(q) ? -10 : 0;
-  const bBoost = b.name.toLowerCase().startsWith(q) ? -10 : 0;
+    // slight boost if it starts with query
+    const aBoost = a.name.toLowerCase().startsWith(q) ? -10 : 0;
+    const bBoost = b.name.toLowerCase().startsWith(q) ? -10 : 0;
 
-  return (aLen + aBoost) - (bLen + bBoost);
-});
+    return (aLen + aBoost) - (bLen + bBoost);
+  })
+  .slice(0, 10); // Maximum of 10 results
   overlay.classList.remove("hidden");
   dropdown.classList.remove("hidden");
 
@@ -308,7 +311,7 @@ const filtered = acts
       "block w-full text-left px-5 py-4 border-b hover:bg-gray-100";
 
     row.innerHTML = `
-      <span class="text-blue-700 hover:underline">
+      <span class="text-black hover:underline font-medium">
         ${highlightMatch(a.name, q)}
       </span>
     `;
@@ -318,6 +321,26 @@ const filtered = acts
     results.appendChild(row);
   });
 
+  // Always show a Bills suggestion as the last row
+const billsRow = document.createElement("button");
+
+billsRow.className =
+  "block w-full text-left px-5 py-4 border-b hover:bg-gray-100 text-black font-medium";
+
+billsRow.innerHTML = `
+  Looking for current bills?
+  <span class="text-blue-600 hover:underline font-medium">
+    Search Bills for "${q}"
+  </span>
+`;
+
+billsRow.onclick = () => {
+  window.location.href =
+    `search-results.html?q=${encodeURIComponent(q)}&status=bill&search=title`;
+};
+
+results.appendChild(billsRow);
+
   dropdown.classList.remove("hidden");
 }
 
@@ -326,7 +349,7 @@ function highlightMatch(text, query) {
 
   return text.replace(
     regex,
-    '<span class="font-semibold text-blue-600">$1</span>'
+    '<span class="text-blue-600">$1</span>'
   );
 }
 
