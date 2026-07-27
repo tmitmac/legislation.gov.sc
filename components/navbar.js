@@ -387,10 +387,19 @@ function runSearch() {
 }
 
 
-// Desktop only: live search
+// Desktop only: live search (minimum 3 characters)
 searchInput.addEventListener('input', () => {
   if (window.innerWidth > 768) {
-    runSearch();
+    const query = searchInput.value.trim();
+
+    if (query.length > 2) {
+      runSearch();
+    } else {
+      // Hide/clear live results when fewer than 4 characters
+      window.dispatchEvent(new CustomEvent('navbar-search', {
+        detail: ''
+      }));
+    }
   }
 });
 
