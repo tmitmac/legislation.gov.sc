@@ -26,6 +26,7 @@ const acts = [
   /* 1980s */
   { number: "1988 No 72", name: "Public Holidays Act 1988", file: "viewer.html?act=1900-1999/1988/public-holidays-act-1988.txt", year: 1988, type: "act", inForce: true, bill: false, agency: "Ministry of Labour & Employment"}, 
   { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "1983 No 124", name: "Agriculture Act 1983", file: "viewer.html?act=1900-1999/1983/agriculture-act-1983.txt", year: 1983, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
   /* 1970s */
   { number: "1979 No 12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979.txt", year: 1979, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
   /* 1960s */
@@ -46,7 +47,7 @@ const acts = [
   /* 1910s */
   { number: "1915 No 62", name: "Extended Wartime Measures Act 1915", file: "viewer.html?act=1900-1999/1915/extended-wartime-measures-act-1915.txt", year: 2025, type: "act", inForce: false, bill: false, agency: "Square Country Army Corps"},
   /* 1900s */
-  { number: "1902 No 52", name: "Public Service Act 1902", file: "viewer.html?act=1900-1999/1902/public-service-act-1902.txt", year: 1902, type: "act", inForce: false, bill: false, agency: "Ministry for Municipal Affairs"},
+  { number: "1902 No 52", name: "Public Service Act 1902", file: "viewer.html?act=1900-1999/1902/public-service-act-1902.txt", year: 1902, type: "act", inForce: true, bill: false, agency: "Ministry for Municipal Affairs"},
   /* 1850s */
   { number: "1852 No 13", name: "Statistical Returns Act 1852", file: "viewer.html?act=1800-1899/1852/statistical-returns-act-1852.txt", year: 1852, type: "act", inForce: false, bill: false, agency: "Ministry of Statistical Cooperations"},
   /* 1790s */
