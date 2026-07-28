@@ -357,9 +357,11 @@ function renderResults(list){
     }
 
     // Status badge
-    if (act.inForce === true) {
+    if (act.bill) {
+        badges += `<span class="badge-green">Current</span>`;
+    } else if (act.inForce === true) {
         badges += `<span class="badge-green">In force</span>`;
-    } else if (act.inForce === false) {
+    } else {
         badges += `<span class="badge-red">Repealed</span>`;
     }
 
