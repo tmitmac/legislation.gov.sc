@@ -1,0 +1,231 @@
+TITLE: Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026
+
+ACTNUMBER: 2026 No 03
+
+TYPE: Act
+
+STATUS: not yet in force
+
+VERSION: Latest
+
+AGENCY: Ministry of Agriculture, Fisheries, and Natural Resources
+
+DATEOFASSENT: 25 July 2026
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the **Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+1. This Act comes into force on 1 September 2026.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this Act is to—
+(a) merge the Ministry of Agriculture, the Ministry of Fisheries, and the Ministry for Natural Resources into a single ministry; and
+(b) establish the Ministry for Agriculture, Fisheries, and Natural Resources; and
+(c) ensure continuity of governmental administration during the transition; and
+(d) provide for the transfer of employees, assets, liabilities, statutory functions, and legal proceedings; and
+(e) amend and repeal enactments rendered obsolete by the merger.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+**former ministries** means—
+(a) the Ministry of Agriculture; and
+(b) the Ministry of Fisheries; and
+(c) the Ministry for Natural Resources.
+**Minister** means the Minister responsible for the New Ministry.
+**New Ministry** means the Ministry of Agriculture, Fisheries, and Natural Resources established under [[section:5]].
+**Parliament** means His Majesty's Parliament of Square Country.
+**Public Service Commissioner** means the person given the powers of the Public Service Commissioner under the [[Act:Public Service Act 1902]].
+
+PARTNUMBER: 2
+
+PARTTITLE: Establishment of Ministry
+
+SECTION: 5
+
+HEADING: Establishment of Ministry for Agriculture, Fisheries, and Natural Resources
+
+1. On and after the commencement of this Act, there is established a department of State to be known as the Ministry for Agriculture, Fisheries, and Natural Resources.
+2. The New Ministry is responsible for all functions, powers, and duties previously exercised by any of the former ministries.
+3. The New Ministry is under the direction of the Minister for Agriculture, Fisheries, and Natural Resources.
+4. The New Ministry may establish internal divisions, directorates, or units for the purpose of administering its functions, including (without limitation) divisions for—
+(a) agriculture and rural development;
+(b) fisheries management and marine resources;
+(c) natural resources stewardship;
+(d) environmental compliance and monitoring;
+(e) scientific and technical services.
+
+SECTION: 6
+
+HEADING: Dissolution of former ministries
+
+1. On and after the commencement of this Act, the former ministries are dissolved.
+2. All functions, powers, and duties of the former ministries are transferred to the New Ministry.
+3. Any reference in any enactment, regulation, instrument, contract, or document to a former ministry must, unless the context otherwise requires, be read as a reference to the New Ministry.
+4. The Governor-General may, by Order in Council, declare that any reference to a former ministry in a specified enactment or instrument is to be read as a reference to a specified division of the New Ministry.
+
+SECTION: 7
+
+HEADING: Transfer of employees
+
+1. Every person employed by a former ministry immediately before the commencement of this Act becomes an employee of the New Ministry on that date.
+2. The transfer does not—
+(a) break the employee’s continuity of employment; or
+(b) affect any entitlement to salary, leave, or other employment conditions; or
+(c) require the employee’s consent.
+3. The Public Service Commissioner may issue directions relating to the integration of staff structures, grading, and remuneration.
+
+SECTION: 8
+
+HEADING: Transfer of assets and liabilities
+
+1. All assets, liabilities, rights, and obligations of the former ministries vest in the New Ministry on the commencement of this Act.
+2. Any legal proceedings commenced by or against a former ministry may be continued, completed, or enforced by or against the New Ministry.
+3. Any permit, licence, approval, or authorisation issued by a former ministry remains valid until its expiry or replacement.
+
+SECTION: 9
+
+HEADING: Transfer of statutory powers
+
+1. Any statutory power conferred on the head of a former ministry is, on and after the commencement of this Act, exercisable by the Secretary of the New Ministry.
+2. Any delegation made by a former ministry continues in force until revoked or replaced by the New Ministry.
+
+SECTION: 10
+
+HEADING: Records and information
+
+1. All records, data, archives, and information held by a former ministry become records of the New Ministry.
+2. The New Ministry must ensure continuity of access to records required for ongoing regulatory, enforcement, or administrative functions.
+
+SECTION: 11
+
+HEADING: Existing contracts and agreements
+
+All contracts, memoranda of understanding, international agreements, and cooperative arrangements entered into by a former ministry continue in force as if entered into by the New Ministry.
+
+PARTNUMBER: 3
+
+PARTTITLE: Transitional, Savings, and Miscellaneous Provisions
+
+SECTION: 12
+
+HEADING: Transitional Secretariat
+
+1. A Transitional Secretariat is established for the period beginning on the day after Royal Assent and ending on 30 June 2027.
+2. The Secretariat is responsible for—
+(a) coordinating the merger;
+(b) aligning regulatory frameworks;
+(c) preparing consolidated operational policies;
+(d)advising the Minister on transitional matters.
+3. The Secretariat must report quarterly to the Minister.
+
+SECTION: 13
+
+HEADING: Transitional regulations
+
+The Governor-General may, by Order in Council, make regulations for the purpose of facilitating the transition from the former ministries to the New Ministry, including regulations that—
+(a) modify or suspend provisions of any enactment for a period not exceeding 12 months;
+(b) provide for temporary administrative arrangements;
+(c) validate anything done in anticipation of the commencement of this Act.
+
+SECTION: 14
+
+HEADING: Savings provisions
+
+Nothing in this Act affects—
+(a) any investigation commenced by a former ministry;
+(b) any enforcement action underway;
+(c) any obligation imposed on any person under an enactment administered by a former ministry.
+
+SECTION: 15
+
+HEADING: Consequential amendments
+
+The Acts listed in **Schedule 1** are amended as set out in that Schedule.
+
+SECTION: 16
+
+HEADING: Repeals
+
+The enactments listed in **Schedule 2** are repealed.
+
+SECTION: 17
+
+HEADING: Review of operation of Act
+
+1. The Minister must, within 3 years after the commencement of this Act, cause a review of the operation and effectiveness of this Act.
+2. A report of the review must be presented to Parliament.
+
+SECTION: 18
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for the purpose of giving full effect to this Act.
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION: 1
+
+HEADING: Agriculture Act 1983
+
+Replace every reference to “Ministry of Agriculture” with “Ministry for Agriculture, Fisheries, and Natural Resources”.
+
+SCHEDULESECTION: 2
+
+HEADING: Fisheries Management Act 1991
+
+Replace every reference to “Ministry of Fisheries” with “Ministry for Agriculture, Fisheries, and Natural Resources”.
+
+SCHEDULESECTION: 3
+
+HEADING: Natural Resources Administration Act 1979
+
+Replace every reference to “Ministry for Natural Resources” with “Ministry for Agriculture, Fisheries, and Natural Resources”.
+
+SCHEDULESECTION: 4
+
+HEADING: Environmental Compliance Act 2004
+
+Replace “Ministry for Natural Resources” with “Ministry for Agriculture, Fisheries, and Natural Resources”.
+
+SCHEDULENUMBER: 2
+
+SCHEDULETITLE: Repeals
+
+SCHEDULESECTION: 1
+
+HEADING: Ministry of Agriculture Establishment Act 1965
+
+Repealed.
+
+SCHEDULESECTION: 2
+
+HEADING: Ministry of Fisheries Establishment Act 1974
+
+Repealed.
+
+SCHEDULESECTION: 3
+
+HEADING: Ministry for Natural Resources Establishment Act 1979
+
+Repealed.
