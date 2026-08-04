@@ -8,6 +8,8 @@ STATUS: In force
 
 VERSION: Latest
 
+VERSIONTITLE: as at 04 August 2026
+
 AGENCY: the Ministry of Justice & Corrections
 
 DATEOFASSENT: 1 January 1997
@@ -123,7 +125,8 @@ HEADING: Power to call for independence referendum
 2. Full independence cannot be granted without the democratic acceptance of the affirmative.
 3. If the referendum passes, Parliament cannot appeal.
 4. All referendums must strictly adhere to the [[Act:Electoral Act 1986]].
-5. Without limiting subsection (1), the Council may only call for a referendum on independence once every minimum of five years. 
+
+AMENDMENT: Section 9(5): repealed, on 4 August 2026, by section 4 of the Westland (Tierras del oeste) Amendment Act 2026 (2026 No 04).
 
 SUBPARTNUMBER: 2
 
@@ -251,8 +254,9 @@ SCHEDULESECTION: 1
 
 HEADING: Section 6AA inserted into the Electoral Act 1986
 
+INSERT:
 This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under Section 8 of the *Westland (Tierras del oeste) Empowerment Act 1996*.
-
+ENDINSERT
 
 
 
