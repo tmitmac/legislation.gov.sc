@@ -453,7 +453,7 @@ h2 {
 .subpart-title {
   text-align: center;
   color: #333333;
-  font-size: 19px;
+  font-size: 24.96px;
   font-weight: 400;
   margin: 4px 0 2px 0;  /* tighter spacing */
 }
@@ -1052,11 +1052,11 @@ const meta = document.getElementById("actMeta");
 
 if (window.innerWidth <= 768) {
   // Mobile compact header
-  meta.textContent = 'as at 10 July 2026';
+  meta.textContent = doc.versionTitle || "as enacted";
 } else {
   // Desktop
   meta.textContent =
-    `(as enacted) | ${doc.actNumber} | Administered by ${doc.agency}`;
+    `${doc.versionTitle || "as enacted"} | ${doc.actNumber} | Administered by ${doc.agency}`;
 }
 
   const hash = decodeURIComponent(location.hash);
@@ -1085,6 +1085,7 @@ function parseLegislation(text) {
     type: "",
     status: "",
     version: "",
+    versionTitle: "",
     agency: "",
     dateOfAssent: "",
     commencement: "",
@@ -1125,6 +1126,9 @@ else if (line.startsWith("TYPE:"))
 
 else if (line.startsWith("VERSION:"))
   doc.version = line.replace("VERSION:", "").trim();
+
+  else if (line.startsWith("VERSIONTITLE:"))
+  doc.versionTitle = line.replace("VERSIONTITLE:", "").trim();
 
     else if (line.startsWith("PARTNUMBER:")) {
     currentPart = {
@@ -1958,6 +1962,9 @@ function updateBadges(doc) {
   // STATUS (example logic)
   if (doc.status?.toLowerCase() === "in force") {
     statusEl.textContent = "In force";
+    statusEl.className = "badge badge-green";
+  } else if (doc.status?.toLowerCase() === "current") {
+    statusEl.textContent = "Current";
     statusEl.className = "badge badge-green";
   } else if (doc.status?.toLowerCase() === "repealed") {
     statusEl.textContent = "Repealed";
