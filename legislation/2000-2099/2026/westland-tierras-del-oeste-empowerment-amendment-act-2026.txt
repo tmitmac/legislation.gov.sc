@@ -43,3 +43,20 @@ SECTION: 4
 HEADING: Power to call for independence referendum
 
 Section 9(5) is repealed.
+
+SECTION: 5
+
+HEADING: Section 9A inserted
+
+After section 9, insert:
+
+INSERT:
+SECTION: 9A
+HEADING: Declaration of referendum
+(1) If, under section 9(1), the Council calls for a referendum, the Council must provide a **Declaration of Referendum Intentions** to Parliament.
+(2) This Declaration must include—
+(a) the referendum question;
+(b) the proposed timeline of the referendum; and
+(c) indication of whether the referendum is indicative or binding.
+(3) Parliament may not reject, decline, or disregard, to any effect, a declaration made by the Council.
+ENDINSERT
