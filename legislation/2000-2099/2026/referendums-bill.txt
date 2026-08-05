@@ -1,0 +1,80 @@
+TITLE: Referendums Bill
+
+ACTNUMBER: 189—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+VERSIONTITLE: Introduction 5 August 2026
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: see section 2
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Explanatory Note
+
+The objective of the Employment Holiday Bill (the **Bill**) is to 
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the **Referendums Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force the day after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this act is to—
+(a) repeal Part 15 (Referendums) of the [[Act:Electoral Act 1986]];
+(b) provide for clear and consistent law in regards to the conduct of referendums in Square Country.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 5
+
+HEADING: Interpretation
+
+1. In this Act, unless the context otherwise requires—
+**Act** means the [[Act:Electoral Act 1986]].
+**advance vote** means a vote cast before polling day in accordance with Part 10 of the Act.
+
+
+SECTION: 6
+
+HEADING: Applications of this Act
+
+1. This Act shall apply within all Square Country territory.
+2. This Act applies to all referendums held after its commencement.
+
+
+PARTNUMBER: 2
+
+PARTTITLE: Referendums
+
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION:1
+
+HEADING: Electoral Act 1986
+

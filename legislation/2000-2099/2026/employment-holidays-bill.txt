@@ -1,0 +1,38 @@
+TITLE: Employment Holidays Bill
+
+ACTNUMBER: 188—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+AGENCY: Ministry of Labour & Employment
+
+DATEOFASSENT: see section 2
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Explanatory Note
+
+The objective of the Employment Holiday Bill (the **Bill**) is to 
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act is the **Employment Holidays Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force the day after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
