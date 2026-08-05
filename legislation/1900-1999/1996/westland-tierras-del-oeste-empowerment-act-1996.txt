@@ -128,6 +128,19 @@ HEADING: Power to call for independence referendum
 
 AMENDMENT: Section 9(5): repealed, on 4 August 2026, by section 4 of the Westland (Tierras del oeste) Amendment Act 2026 (2026 No 04).
 
+SECTION: 9A
+
+HEADING: Declaration of referendum
+
+1. If, under [[section:9(1)]], the Council calls for a referendum, the Council must provide a **Declaration of Referendum Intentions** to Parliament.
+2. This Declaration must include—
+(a) the referendum question;
+(b) the proposed timeline of the referendum; and
+(c) indication of whether the referendum is indicative or binding.
+3. Parliament may not reject, decline, or disregard, to any effect, a declaration made by the Council.
+
+AMENDMENT: Section 9A: inserted, on 4 August 2026, by section 5 of the Westland (Tierras del oeste) Amendment Act 2026 (2026 No 04).
+
 SUBPARTNUMBER: 2
 
 SUBPARTTITLE: Council Structure
