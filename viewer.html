@@ -160,65 +160,52 @@ body {
   }
 
 #layout {
-  margin-top: 75px !important;
+  margin-top: 90px !important;
 }
 
 
-  /* Badges */
-  .status-row {
-    display: flex !important;
-    align-items: center;
-    gap: 5px;
+/* Badges */
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
 
-    width: 100%;
+.badge {
+  flex-shrink: 0;
+  font-size: 9px !important;
+  font-weight: 600;
+  line-height: 1;
+  padding: 3px 6px !important; /* slightly narrower */
+}
 
-    padding: 0 !important;
-    margin: 0 0 5px 0 !important;
+/* "as at" / metadata text */
+.status-row .meta {
+  display: inline-block !important;
 
-    overflow: hidden;
-  }
+  font-size: 10px !important;
+  font-weight: 500 !important;
 
-  .badge {
-    flex-shrink: 0;
+  line-height: 1 !important;
 
-    font-size: 9px !important;
-    font-weight: 600;
+  color: #666;
 
-    line-height: 1;
-
-    padding: 3px 6px !important;
-
-  }
-
-    /* Hide the long desktop metadata on mobile */
-  .status-row .meta {
-    display: none !important;
-  }
+  margin-left: 3px !important;
+  white-space: nowrap;
+}
 
 .meta {
   font-size: 16px !important;
 }
 
-/* Act title */
 .title {
-  margin: 0 !important;
-
-  padding: 0 !important;
-
   font-family: Arial, sans-serif !important;
-
-  font-size: 15px !important;
-  font-weight: 600 !important;
-
-  line-height: 1.2 !important;
-
-  color: #222;
-
-  text-align: left;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 8px !important;
+  padding-bottom: 5px !important;
 }
 
 .bottom-row {
