@@ -49,14 +49,14 @@ HEADING: Interpretation
 
 In this Act, unless the context requires otherwise:
 **“wildlife”** means any indigenous or naturalised species of animal, bird, fish, amphibian, reptile, or other living organism, whether free-living or semi-captive.
-**“protected species”** means any species listed in Schedule 1;
-**“game species”** means any species listed in Schedule 2;
-**“invasive species”** means any species listed in Schedule 3;
+**“protected species”** means any species listed in [[Schedule:1]];
+**“game species”** means any species listed in [[Schedule:2]];
+**“invasive species”** means any species listed in [[Schedule:3]];
 **“habitat”** means any natural or modified environment essential to the survival of wildlife, including forests, wetlands, rivers, lakes, estuaries, grasslands, and marine environments.
 **“Agency”** means the Wildlife Conservation agency established under this Act;
 **“Director”** means the Director of the Wildlife Conservation Agency;
 **“license”** means a written permit issued under this Act or by the Agency;
-**“sanctuary”** means any area declared under Part 5 of this Act for the protection of wildlife;
+**“sanctuary”** means any area declared under [[Part:5]] of this Act for the protection of wildlife;
 **“take”** includes hunting, capturing, killing, injuring, disturbing, removing, or otherwise affecting wildlife or their eggs, nests, or habitats;
 **“authorised officer”** means any person appointed by the Agency to enforce this Act;
 
@@ -133,7 +133,7 @@ HEADING: Protected species
 1. No person shall take, kill, injure, capture, or disturb a protected species except under a license or permit issued by the Agency.
 2. The Agency shall maintain a current list of protected species and may propose additions or removals to the Minister.
 
-SECTION: 9
+SECTION: 12
 
 HEADING: Habitats and nesting sites
 
