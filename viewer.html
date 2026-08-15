@@ -241,6 +241,237 @@ body.sidebar-hidden #sidebar {
   color: #126cd3;
 }
 
+/* =========================================
+   MAIN CONTENTS - NZ LEGISLATION STYLE
+   ========================================= */
+
+.main-contents {
+  border: 1px solid #c7c7c7;
+  background: #f7f7f7;
+  margin: 0 0 45px 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  max-height: 120px;
+  overflow: hidden;
+  transition:
+    max-height 0.3s ease,
+    box-shadow 0.15s ease;
+}
+
+
+.main-contents.open {
+  max-height: 100000px;
+}
+
+.main-contents-header {
+  height: 78px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-contents-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+.main-contents-toggle {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: #e7e7e7;
+  color: #111;
+
+  padding: 12px 14px;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.main-contents-toggle:hover {
+  background: #dedede;
+}
+
+.main-contents-arrow {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+
+  border-right: 1.8px solid #333;
+  border-bottom: 1.8px solid #333;
+
+  transform: rotate(45deg);
+  margin-left: 9px;
+  margin-bottom: 4px;
+
+  transition: transform 0.2s ease;
+}
+
+.main-contents.open .main-contents-arrow {
+  transform: rotate(225deg);
+  margin-bottom: -2px;
+}
+
+
+/* CONTENTS LIST */
+
+.main-contents-list {
+  display: none;
+  padding: 0 115px 35px 25px;
+}
+
+.main-contents.open .main-contents-list {
+  display: block;
+}
+
+
+/* Individual entries */
+
+.main-contents-item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+
+  align-items: baseline;
+
+  padding: 3px 0;
+
+  color: #126cd3;
+  text-decoration: none;
+
+  font-size: 19px;
+  line-height: 1.35;
+}
+
+.main-contents-item:hover {
+  text-decoration: underline;
+  color: #105bb1;
+}
+
+
+/* Number */
+
+.main-contents-number {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* Name */
+
+.main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* PART headings */
+
+.main-contents-part {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: #126cd3;
+
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+.main-contents-part .main-contents-number,
+.main-contents-part .main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* SUBPART headings */
+
+.main-contents-subpart {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 3px;
+  margin-bottom: 5px;
+
+  color: #126cd3;
+
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+.main-contents-subpart .main-contents-number,
+.main-contents-subpart .main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+}
+
+
+/* Schedule headings */
+
+.main-contents-schedule {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 18px;
+  margin-bottom: 6px;
+
+  color: #111;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .main-contents {
+    margin-bottom: 30px;
+  }
+
+  .main-contents-header {
+    height: 65px;
+  }
+
+  .main-contents-title {
+    font-size: 21px;
+  }
+
+  .main-contents-toggle {
+    right: 8px;
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+
+  .main-contents-list {
+    padding: 0 25px 25px 25px;
+  }
+
+  .main-contents-item {
+    grid-template-columns: 55px 1fr;
+    font-size: 16px;
+  }
+
+  .main-contents-number,
+  .main-contents-name {
+    font-size: 16px;
+  }
+}
+
 .sidebar-close {
   margin-left: auto;
   border: none;
@@ -1526,6 +1757,142 @@ function renderLegislation(doc) {
   </div>
 
 </div>
+
+<!-- MAIN CONTENTS BAR -->
+<div class="main-contents" id="mainContents">
+
+  <div class="main-contents-header">
+
+    <div class="main-contents-title">
+      Contents
+    </div>
+
+    <button
+      class="main-contents-toggle"
+      onclick="toggleMainContents()"
+    >
+      <span id="contentsToggleText">Show contents</span>
+      <span class="main-contents-arrow"></span>
+    </button>
+
+  </div>
+
+  <div class="main-contents-list">
+`;
+
+  // BUILD MAIN CONTENTS LIST
+  for (const part of doc.parts) {
+
+    html += `
+      <a
+        href="#"
+        class="main-contents-item main-contents-part"
+        onclick="jumpToPart('${part.number}'); return false;"
+      >
+        <div class="main-contents-number">
+          Part ${part.number}
+        </div>
+
+        <div class="main-contents-name">
+          ${part.title || ""}
+        </div>
+      </a>
+    `;
+
+    // Sections directly under the Part
+    for (const section of part.sections) {
+
+      html += `
+        <a
+          href="#"
+          class="main-contents-item"
+          onclick="scrollSectionToMiddle('${section.number}'); return false;"
+        >
+          <div class="main-contents-number">
+            ${section.number}
+          </div>
+
+          <div class="main-contents-name">
+            ${section.heading || ""}
+          </div>
+        </a>
+      `;
+    }
+
+// Subparts
+for (const subpart of part.subparts) {
+
+  html += `
+    <div class="main-contents-item main-contents-subpart">
+      <div class="main-contents-name">
+        Subpart ${subpart.number}—${subpart.title || ""}
+      </div>
+    </div>
+  `;
+
+      for (const section of subpart.sections) {
+
+        html += `
+          <a
+            href="#"
+            class="main-contents-item"
+            onclick="scrollSectionToMiddle('${section.number}'); return false;"
+          >
+            <div class="main-contents-number">
+              ${section.number}
+            </div>
+
+            <div class="main-contents-name">
+              ${section.heading || ""}
+            </div>
+          </a>
+        `;
+      }
+    }
+  }
+
+  // Schedules
+  for (const schedule of doc.schedules) {
+
+    html += `
+      <a
+        href="#"
+        class="main-contents-item main-contents-part"
+        onclick="jumpToSchedule('${schedule.number}'); return false;"
+      >
+        <div class="main-contents-number">
+          Schedule ${schedule.number}
+        </div>
+
+        <div class="main-contents-name">
+          ${schedule.title || ""}
+        </div>
+      </a>
+    `;
+
+    for (const section of schedule.sections) {
+
+      html += `
+        <a
+          href="#"
+          class="main-contents-item"
+          onclick="scrollSectionToMiddle('${section.number}', true); return false;"
+        >
+          <div class="main-contents-number">
+            ${section.number}
+          </div>
+
+          <div class="main-contents-name">
+            ${section.heading || ""}
+          </div>
+        </a>
+      `;
+    }
+  }
+
+  html += `
+  </div>
+</div>
 `;
 
 for (const part of doc.parts) {
@@ -2200,6 +2567,18 @@ function highlightSection(el) {
   }, 1000);
 }
 
+function toggleMainContents() {
+  const box = document.getElementById("mainContents");
+  const text = document.getElementById("contentsToggleText");
+
+  box.classList.toggle("open");
+
+  if (box.classList.contains("open")) {
+    text.textContent = "Hide contents";
+  } else {
+    text.textContent = "Show contents";
+  }
+}
 
 </script>
 <script src="components/navbar.js"></script>
