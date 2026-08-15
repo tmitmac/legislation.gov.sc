@@ -6,7 +6,9 @@ TYPE: Act
 
 STATUS: in force
 
-VERSION: latest   
+VERSION: latest 
+
+VERSIONTITLE: as at 18 June 2026
 
 AGENCY: the Ministry of Justice & Corrections
 
@@ -91,8 +93,9 @@ HEADING: Interpretation
 **Member of Parliament** means a person declared elected under this Act as—
 (a) an electorate MP; or
 (b) a list MP.
-**mental impairment**, in relation to any person, means an impairment causing a person to lack, wholly or partly, the capacity to understand the nature of any decision about registering as an elector
+**mental impairment**, in relation to any person, means an impairment causing a person to lack, wholly or partly, the capacity to understand the nature of any decision about registering as an elector or candidate.
 **overhang seat** means a seat held by a party in excess of the number of seats to which it is entitled under [[section:206]].
+**Parliament** means His Majesty's Parliament of Square Country.
 **party list** means a list of candidates submitted by a registered political party under [[Part:5]].
 **party secretary** means the person appointed by a political party as its secretary for the purposes of this Act.
 **party vote** means the vote cast by an elector for a political party for the purpose of determining the allocation of list seats.
@@ -105,7 +108,7 @@ HEADING: Interpretation
 **treating** has the meaning assigned to that term by [[section:231]].
 **undue influence** has the meaning assigned to that term by [[section:232]].
 **Westland citizen** means a citizen of Westland (Tierras del oeste).
-**writ** means a writ issued under [[Part:7]] for the purpose of holding an election.
+**writ** means a writ issued under [[section:97]] for the purpose of holding an election.
 2. A reference in this Act to the masculine includes the feminine and vice versa.
 3. A reference to the singular includes the plural and vice versa.
 4. Headings are for convenience only and do not affect interpretation.
@@ -962,7 +965,7 @@ HEADING: Population quota
 
 SECTION: 83A
 
-HEADING: Calulation of population quota
+HEADING: Calculation of population quota
 
 The population quota, as required in [[section:83(1)]], shall be calculated as follows—
 (a) the Commission shall find the general electoral population of Square Country;
@@ -1750,6 +1753,11 @@ HEADING: Penalties
 2. A person convicted of an illegal practice is liable to a fine not exceeding **₴50,000**.
 3. A person convicted of an offence under this Part may be disqualified from voting or standing for an election for up to 3 years.
 
+PARTNUMBER: 9A
+
+PARTTITLE: Donations
+
+
 PARTNUMBER: 10
 
 PARTTITLE: Voting, Polling Places, and Ballot Papers
@@ -2497,7 +2505,7 @@ A person is disqualified from being a Member of Parliament if the person—
 (b) is a member of the armed forces or police;
 (c) is an undischarged bankrupt;
 (d) has been convicted of an offence punishable by imprisonment for 2 years or more, unless pardoned;
-(e) is of unsound mind as determined by a court;
+(e) has a mental impairment as determined by a court;
 (f) hold an office of profit under the Crown, unless resigned before taking office;
 (g) is a member of a foreign legislature.
 
