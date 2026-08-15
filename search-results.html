@@ -1,400 +1,1305 @@
-
 <!DOCTYPE html>
-<html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Square Country Legislation</title>
-  <link rel="icon" type="image/x-icon" href="images/SCL.png">
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#1e293b',
-            secondary: '#1e40af',
-            accent: '#3b82f6'
-          }
+    <title>Square Country Legislation</title>
+
+    <link rel="icon" type="image/x-icon" href="images/SCL.png">
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e293b',
+                        secondary: '#1e40af',
+                        accent: '#3b82f6'
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#fff;
-    color:#333
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.container{
-    display:flex;
-    max-width:1400px;
-    margin:30px auto;
-    gap:24px
-}
+        html {
+            scroll-behavior: smooth;
+        }
 
-.sidebar{
-    width:330px;
-    border:1px solid #ddd
-}
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #333;
+        }
 
-.sidehead{
-    padding:18px;
-    border-bottom:1px solid #ddd;
-    font-size:20px;
-    font-weight:700
-}
+        /* =========================
+           MAIN LAYOUT
+        ========================= */
 
-.section{
-    padding:18px;
-    border-bottom:1px solid #ddd
-}
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: 30px auto;
+            padding: 0 24px;
+            gap: 28px;
+            align-items: flex-start;
+        }
 
-h1{
-    font:700 50px Georgia,serif;
-    margin:0 0 20px;
-    
-}
+        .sidebar {
+            width: 330px;
+            flex: 0 0 330px;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
 
-.main{
-    flex:1
-}
+        .main {
+            flex: 1;
+            min-width: 0;
+        }
 
-.top{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:16px;
-}
+        /* =========================
+           SIDEBAR
+        ========================= */
 
-#resultsHeading{
-    font-size:25px;
-    font-weight:500;
-}
+        .sidehead {
+            padding: 18px;
+            border-bottom: 1px solid #ddd;
+            font-size: 20px;
+            font-weight: 700;
+        }
 
-.sort-label{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    font-size:14px;
-}
+        .section {
+            padding: 18px;
+            border-bottom: 1px solid #ddd;
+        }
 
-select{
-    padding:12px 18px;
-    border:1px solid #ccc;
-    font-size:18px
-}
+        .section:last-child {
+            border-bottom: none;
+        }
 
-.card{
-    font: Georgia, serif;
-    border:1px solid #d8d8d8;
-    padding:16px;
-    margin-bottom:18px
-}
+        .section h3 {
+            margin: 0 0 14px;
+            font-size: 17px;
+            font-weight: 700;
+        }
 
-.badge{
-    display:inline-block;
-    background:#e8e8e8;
-    padding:4px 10px;
-    font-size:12px;
-    line-height: 1;
-}
+        .section strong {
+            font-size: 15px;
+        }
 
-.badge-green {
-  display:inline-block;
-  background: #cfe9c9;
-  color: #2f6b22;
-  padding:4px 10px;
-  font-size:12px;
-  line-height: 1;
-}
+        .section button {
+            margin-top: 10px;
+            padding: 7px 11px;
+            border: 1px solid #ccc;
+            background: #f5f5f5;
+            border-radius: 3px;
+            font-size: 13px;
+            cursor: pointer;
+        }
 
-.badge-red {
-  display:inline-block;
-  background: #edcfce;
-  color: #a40c0b;
-  padding:4px 10px;
-  font-size:12px;
-  line-height: 1;
-}
+        label {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin: 11px 0;
+            font-size: 15px;
+            line-height: 1.4;
+        }
 
-a.title{
-    display:block;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-    color:#005fcc;
-    font-size:21px;
-    font-weight:100px;
-    margin:12px 0;
-    text-decoration:underline
-}
+        label input {
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
 
-.meta{
-    color:#666;
-    font-size:14px
-}
+        .section select {
+            width: 100%;
+            min-height: 42px;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            background: #fff;
+            font-size: 14px;
+        }
 
-label{
-    display:block;
-    margin:10px 0;
-    font-size:17px
-}
+        /* =========================
+           RESULTS HEADER
+        ========================= */
 
-.header-row{
-    display:flex;
-    align-items:center;
-    gap:5px;
-    flex-wrap:wrap;
-}
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 24px;
+            margin-bottom: 22px;
+        }
 
-.header-meta{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-    font-size:13px;
-    font-weight: 500;
-    color:#666;
-}
+        h1 {
+            font: 700 42px Georgia, serif;
+            line-height: 1.15;
+            margin: 0;
+            color: #222;
+        }
 
-#sortSelect{
-    width:220px;
-    height:42px;
-    padding:8px 14px;
-    font-size:14px;
-}
+        #resultsHeading {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 1.35;
+        }
 
+        .sort-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            font-size: 14px;
+            white-space: nowrap;
+        }
 
+        #sortSelect {
+            width: 220px;
+            height: 42px;
+            padding: 8px 14px;
+            border: 1px solid #ccc;
+            background: #fff;
+            font-size: 14px;
+        }
 
-</style>
+        /* =========================
+           RESULT CARDS
+        ========================= */
+
+        .card {
+            border: 1px solid #d8d8d8;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            background: #fff;
+        }
+
+        .card:hover {
+            border-color: #bdbdbd;
+        }
+
+        .header-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .header-meta {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        a.title {
+            display: block;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", sans-serif;
+            color: #005fcc;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 1.35;
+            margin: 12px 0 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+
+        a.title:hover {
+            color: #003f91;
+        }
+
+        /* =========================
+           BADGES
+        ========================= */
+
+        .badge,
+        .badge-green,
+        .badge-red {
+            display: inline-flex;
+            align-items: center;
+            min-height: 22px;
+            padding: 4px 9px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", sans-serif;
+            font-size: 12px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .badge {
+            background: #e8e8e8;
+            color: #333;
+        }
+
+        .badge-green {
+            background: #cfe9c9;
+            color: #2f6b22;
+        }
+
+        .badge-red {
+            background: #edcfce;
+            color: #a40c0b;
+        }
+
+        /* =========================
+           TABLET
+        ========================= */
+
+        @media (max-width: 1000px) {
+
+            .container {
+                gap: 20px;
+                padding: 0 18px;
+            }
+
+            .sidebar {
+                width: 280px;
+                flex-basis: 280px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            #resultsHeading {
+                font-size: 20px;
+            }
+
+            .top {
+                gap: 16px;
+            }
+
+            #sortSelect {
+                width: 190px;
+            }
+        }
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 768px) {
+
+            .container {
+                display: block;
+                width: 100%;
+                margin: 20px auto;
+                padding: 0 14px;
+            }
+
+            /* Sidebar becomes full-width filter panel */
+
+            .sidebar {
+                width: 100%;
+                margin-bottom: 24px;
+            }
+
+            .sidehead {
+                padding: 15px 16px;
+                font-size: 18px;
+            }
+
+            .section {
+                padding: 15px 16px;
+            }
+
+            /* Results header stacks */
+
+            .top {
+                display: block;
+                margin-bottom: 18px;
+            }
+
+            #resultsHeading {
+                font-size: 20px;
+                line-height: 1.4;
+                margin-bottom: 16px;
+            }
+
+            .sort-label {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+                width: 100%;
+                gap: 10px;
+            }
+
+            #sortSelect {
+                width: 100%;
+                height: 42px;
+            }
+
+            /* Cards */
+
+            .card {
+                padding: 16px;
+                margin-bottom: 14px;
+            }
+
+            a.title {
+                font-size: 18px;
+                line-height: 1.4;
+                margin-top: 11px;
+            }
+
+            .header-meta {
+                font-size: 12px;
+                line-height: 1.5;
+            }
+
+            .badge,
+            .badge-green,
+            .badge-red {
+                font-size: 11px;
+                padding: 5px 8px;
+            }
+
+            /* Better mobile agency select */
+
+            .section select {
+                min-height: 44px;
+            }
+        }
+
+        /* =========================
+           SMALL PHONES
+        ========================= */
+
+        @media (max-width: 480px) {
+
+            .container {
+                padding: 0 10px;
+                margin-top: 15px;
+            }
+
+            .sidehead {
+                font-size: 17px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            #resultsHeading {
+                font-size: 18px;
+            }
+
+            .sort-label {
+                display: block;
+            }
+
+            .sort-label strong {
+                display: block;
+                margin-bottom: 7px;
+            }
+
+            #sortSelect {
+                width: 100%;
+            }
+
+            .card {
+                padding: 14px;
+            }
+
+            .header-row {
+                gap: 5px;
+            }
+
+            .header-meta {
+                width: 100%;
+                margin-top: 2px;
+            }
+
+            a.title {
+                font-size: 17px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
     <custom-navbar></custom-navbar>
 
-<div class="container">
-    <div class="sidebar">
-        <div class="sidehead">Refine results</div>
-    <div class="section"><strong>Refined by:</strong><br><button>In force ×</button></div>
-<div class="section"><h3>Legislation status</h3>
-<label><input type=radio> All statuses (3,351)</label>
-<label><input type=radio checked> In force (1,563)</label>
-<label><input type=radio> Not in force (1,435)</label>
-<label><input type=radio> No value (354)</label>
-</div>
-<div class="section"><h3>Legislation type</h3>
-<label><input type=radio checked> All types (1,563)</label>
-<label><input type=radio> Act (288)</label>
-<label><input type=radio> Secondary legislation (1,275)</label>
-</div>
-<div class="section"><h3>Administering agencies</h3>
-<select style="width:100%"><option>All agencies (1,563)</option></select></div>
-</div>
-<div class="main">
-<div class="top">
-    <h1 id="resultsHeading"></h1>
+    <div class="container">
 
-    <div class="sort-label">
-        <strong>Sort by</strong>
-        <select id="sortSelect">
-            <option value="relevance">Most relevant</option>
-            <option value="az">Title A–Z</option>
-            <option value="yearnew">Newest first</option>
-            <option value="yearold">Oldest first</option>
-        </select>
+        <!-- =========================
+             FILTER SIDEBAR
+        ========================= -->
+
+        <aside class="sidebar">
+
+            <div class="sidehead">
+                Refine results
+            </div>
+
+            <div class="section">
+                <strong>Refined by:</strong>
+                <br>
+
+                <button>
+                    In force ×
+                </button>
+            </div>
+
+            <div class="section">
+
+                <h3>Legislation status</h3>
+
+                <label>
+                    <input type="radio" name="status">
+                    <span>All statuses (3,351)</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="status" checked>
+                    <span>In force (1,563)</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="status">
+                    <span>Not in force (1,435)</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="status">
+                    <span>No value (354)</span>
+                </label>
+
+            </div>
+
+            <div class="section">
+
+                <h3>Legislation type</h3>
+
+                <label>
+                    <input type="radio" name="type" checked>
+                    <span>All types (1,563)</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="type">
+                    <span>Act (288)</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="type">
+                    <span>Secondary legislation (1,275)</span>
+                </label>
+
+            </div>
+
+            <div class="section">
+
+                <h3>Administering agencies</h3>
+
+                <select>
+                    <option>All agencies (1,563)</option>
+                </select>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =========================
+             RESULTS
+        ========================= -->
+
+        <main class="main">
+
+            <div class="top">
+
+                <h1 id="resultsHeading"></h1>
+
+                <div class="sort-label">
+
+                    <strong>Sort by</strong>
+
+                    <select id="sortSelect">
+
+                        <option value="relevance">
+                            Most relevant
+                        </option>
+
+                        <option value="az">
+                            Title A–Z
+                        </option>
+
+                        <option value="yearnew">
+                            Newest first
+                        </option>
+
+                        <option value="yearold">
+                            Oldest first
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div id="resultsContainer"></div>
+
+        </main>
+
     </div>
-</div>
-
-<div id="resultsContainer"></div>
 
 
-</body>
+    <script src="acts.js"></script>
 
-<script src="acts.js"></script>
-<script>
+    <script>
 
-    const params = new URLSearchParams(window.location.search);
-const query = (params.get("q") || "").trim().toLowerCase();
-const status = params.get("status") || "inforce";
-const searchType = params.get("search") || "title";
+        const params = new URLSearchParams(window.location.search);
 
-customElements.whenDefined("custom-navbar").then(() => {
-    const navbar = document.querySelector("custom-navbar");
+        const query =
+            (params.get("q") || "")
+                .trim()
+                .toLowerCase();
 
-    const shadow = navbar.shadowRoot;
+        const status =
+            params.get("status") || "inforce";
 
-    shadow.getElementById("statusFilter").value = status;
-    shadow.getElementById("searchType").value = searchType;
-});
-
-async function performSearch() {
-
-    let results = [];
-
-    for (const act of acts) {
-
-        // Status filter
-        if (status === "inforce" && !(act.inForce === true && !act.bill)) {
-            continue;
-        }
-
-        if (status === "repealed" && !(act.inForce === false && !act.bill)) {
-            continue;
-        }
-
-        if (status === "bill" && !act.bill) {
-            continue;
-        }
+        const searchType =
+            params.get("search") || "title";
 
 
-        let matches = false;
+        /* =========================
+           UPDATE NAVBAR
+        ========================= */
+
+        customElements.whenDefined("custom-navbar").then(() => {
+
+            const navbar =
+                document.querySelector("custom-navbar");
+
+            if (!navbar || !navbar.shadowRoot) return;
+
+            const statusFilter =
+                navbar.shadowRoot.getElementById("statusFilter");
+
+            const searchTypeFilter =
+                navbar.shadowRoot.getElementById("searchType");
+
+            if (statusFilter) {
+                statusFilter.value = status;
+            }
+
+            if (searchTypeFilter) {
+                searchTypeFilter.value = searchType;
+            }
+
+        });
 
 
-        // Title search
-        if (searchType === "title") {
-
-            matches = act.name
-                .toLowerCase()
-                .includes(query);
-
-        }
+        /* =========================
+           SEARCH
+        ========================= */
 
 
-        // Content search
-        if (searchType === "content") {
+    async function performSearch() {
 
-            try {
+        let results = [];
 
-                const response = await fetch(
-                    act.file.replace("viewer.html?act=", "")
-                );
+        for (const act of acts) {
 
-                const text = await response.text();
+            /* Status filter */
 
-                matches = text
-                    .toLowerCase()
-                    .includes(query);
+            if (
+                status === "inforce" &&
+                !(act.inForce === true && !act.bill)
+            ) {
+                continue;
+            }
 
-            } catch(error) {
+            if (
+                status === "repealed" &&
+                !(act.inForce === false && !act.bill)
+            ) {
+                continue;
+            }
 
-                console.error(
-                    "Could not search:",
-                    act.file
-                );
+            if (
+                status === "bill" &&
+                !act.bill
+            ) {
+                continue;
+            }
+
+
+            let matches = false;
+            let relevance = 0;
+
+
+            /* =========================
+               TITLE SEARCH
+            ========================= */
+
+            if (searchType === "title") {
+
+                const title =
+                    act.name.toLowerCase();
+
+                const position =
+                    title.indexOf(query);
+
+
+                if (position !== -1) {
+
+                    matches = true;
+
+
+                    /*
+                     * Exact title
+                     * e.g. "Education Act"
+                     */
+
+                    if (title === query) {
+
+                        relevance = 1000;
+
+                    }
+
+
+                    /*
+                     * Title starts with search
+                     * e.g. "Education Act 2026"
+                     */
+
+                    else if (
+                        title.startsWith(query)
+                    ) {
+
+                        relevance = 800;
+
+                    }
+
+
+                    /*
+                     * Search term appears early
+                     */
+
+                    else {
+
+                        relevance =
+                            600 -
+                            position;
+
+                    }
+
+
+                    /*
+                     * Shorter titles get a small
+                     * relevance boost.
+                     */
+
+                    relevance +=
+                        Math.max(
+                            0,
+                            100 - title.length
+                        );
+
+                }
+
+            }
+
+
+            /* =========================
+               CONTENT SEARCH
+            ========================= */
+
+            if (searchType === "content") {
+
+                try {
+
+                    const response =
+                        await fetch(
+                            act.file.replace(
+                                "viewer.html?act=",
+                                ""
+                            )
+                        );
+
+                    const text =
+                        await response.text();
+
+                    const lowerText =
+                        text.toLowerCase();
+
+                    const position =
+                        lowerText.indexOf(query);
+
+
+                    if (position !== -1) {
+
+                        matches = true;
+
+
+                        /*
+                         * Content matches get a
+                         * lower base score than
+                         * title matches.
+                         */
+
+                        relevance =
+                            300 -
+                            Math.min(position, 250);
+
+
+                        /*
+                         * Boost if the legislation
+                         * title also contains the
+                         * search term.
+                         */
+
+                        if (
+                            act.name
+                                .toLowerCase()
+                                .includes(query)
+                        ) {
+
+                            relevance += 400;
+
+                        }
+
+                    }
+
+                } catch (error) {
+
+                    console.error(
+                        "Could not search:",
+                        act.file
+                    );
+
+                }
+
+            }
+
+
+            if (matches) {
+
+                results.push({
+                    ...act,
+                    relevance
+                });
 
             }
 
         }
 
 
-        if (matches) {
-            results.push(act);
+        /*
+         * Most relevant is the default order.
+         */
+
+        results.sort(
+            (a, b) =>
+                b.relevance - a.relevance
+        );
+
+
+        document
+            .getElementById("resultsHeading")
+            .textContent =
+                `Your search for '${query}' has returned ` +
+                `${results.length} result` +
+                `${results.length !== 1 ? "s" : ""}`;
+
+
+        renderResults(results);
+
+    }
+
+
+    /* =========================
+       SORTING
+    ========================= */
+
+    document
+        .getElementById("sortSelect")
+        .addEventListener("change", async () => {
+
+            const value =
+                document.getElementById("sortSelect").value;
+
+
+            /*
+             * Search again so we have the
+             * complete result set.
+             */
+
+            let results = [];
+
+            for (const act of acts) {
+
+                /* Status filter */
+
+                if (
+                    status === "inforce" &&
+                    !(act.inForce === true && !act.bill)
+                ) {
+                    continue;
+                }
+
+                if (
+                    status === "repealed" &&
+                    !(act.inForce === false && !act.bill)
+                ) {
+                    continue;
+                }
+
+                if (
+                    status === "bill" &&
+                    !act.bill
+                ) {
+                    continue;
+                }
+
+
+                let matches = false;
+                let relevance = 0;
+
+
+                /* Title */
+
+                if (searchType === "title") {
+
+                    const title =
+                        act.name.toLowerCase();
+
+                    const position =
+                        title.indexOf(query);
+
+
+                    if (position !== -1) {
+
+                        matches = true;
+
+
+                        if (title === query) {
+
+                            relevance = 1000;
+
+                        } else if (
+                            title.startsWith(query)
+                        ) {
+
+                            relevance = 800;
+
+                        } else {
+
+                            relevance =
+                                600 - position;
+
+                        }
+
+                        relevance +=
+                            Math.max(
+                                0,
+                                100 - title.length
+                            );
+
+                    }
+
+                }
+
+
+                /* Content */
+
+                if (searchType === "content") {
+
+                    try {
+
+                        const response =
+                            await fetch(
+                                act.file.replace(
+                                    "viewer.html?act=",
+                                    ""
+                                )
+                            );
+
+                        const text =
+                            await response.text();
+
+                        const lowerText =
+                            text.toLowerCase();
+
+                        const position =
+                            lowerText.indexOf(query);
+
+
+                        if (position !== -1) {
+
+                            matches = true;
+
+                            relevance =
+                                300 -
+                                Math.min(
+                                    position,
+                                    250
+                                );
+
+
+                            if (
+                                act.name
+                                    .toLowerCase()
+                                    .includes(query)
+                            ) {
+
+                                relevance += 400;
+
+                            }
+
+                        }
+
+                    } catch (error) {
+
+                        matches = false;
+
+                    }
+
+                }
+
+
+                if (matches) {
+
+                    results.push({
+                        ...act,
+                        relevance
+                    });
+
+                }
+
+            }
+
+
+            /* =========================
+               APPLY SORT
+            ========================= */
+
+            if (value === "relevance") {
+
+                results.sort(
+                    (a, b) =>
+                        b.relevance - a.relevance
+                );
+
+            }
+
+
+            if (value === "az") {
+
+                results.sort(
+                    (a, b) =>
+                        a.name.localeCompare(b.name)
+                );
+
+            }
+
+
+            if (value === "yearnew") {
+
+                results.sort(
+                    (a, b) =>
+                        (b.year || 0) -
+                        (a.year || 0)
+                );
+
+            }
+
+
+            if (value === "yearold") {
+
+                results.sort(
+                    (a, b) =>
+                        (a.year || 0) -
+                        (b.year || 0)
+                );
+
+            }
+
+
+            renderResults(results);
+
+        });
+
+
+        /* =========================
+           SORTING
+        ========================= */
+
+        document
+            .getElementById("sortSelect")
+            .addEventListener("change", async () => {
+
+                const value =
+                    document.getElementById("sortSelect").value;
+
+                /* Re-run search so we always have
+                   the current results */
+
+                let results = [];
+
+                for (const act of acts) {
+
+                    if (
+                        status === "inforce" &&
+                        !(act.inForce === true && !act.bill)
+                    ) continue;
+
+                    if (
+                        status === "repealed" &&
+                        !(act.inForce === false && !act.bill)
+                    ) continue;
+
+                    if (
+                        status === "bill" &&
+                        !act.bill
+                    ) continue;
+
+                    let matches = false;
+
+                    if (searchType === "title") {
+
+                        matches =
+                            act.name
+                                .toLowerCase()
+                                .includes(query);
+
+                    } else if (searchType === "content") {
+
+                        try {
+
+                            const response =
+                                await fetch(
+                                    act.file.replace(
+                                        "viewer.html?act=",
+                                        ""
+                                    )
+                                );
+
+                            const text =
+                                await response.text();
+
+                            matches =
+                                text
+                                    .toLowerCase()
+                                    .includes(query);
+
+                        } catch (error) {
+
+                            matches = false;
+
+                        }
+
+                    }
+
+                    if (matches) {
+                        results.push(act);
+                    }
+
+                }
+
+
+                if (value === "az") {
+
+                    results.sort((a, b) =>
+                        a.name.localeCompare(b.name)
+                    );
+
+                }
+
+                if (value === "yearnew") {
+
+                    results.sort((a, b) =>
+                        (b.year || 0) - (a.year || 0)
+                    );
+
+                }
+
+                if (value === "yearold") {
+
+                    results.sort((a, b) =>
+                        (a.year || 0) - (b.year || 0)
+                    );
+
+                }
+
+
+                renderResults(results);
+
+            });
+
+
+        /* =========================
+           RENDER RESULTS
+        ========================= */
+
+        function renderResults(list) {
+
+            const container =
+                document.getElementById(
+                    "resultsContainer"
+                );
+
+            container.innerHTML = "";
+
+
+            if (list.length === 0) {
+
+                container.innerHTML = `
+                    <div class="card">
+                        No legislation matched your search.
+                    </div>
+                `;
+
+                return;
+
+            }
+
+
+            list.forEach(act => {
+
+                let badges = "";
+
+
+                /* Type badge */
+
+                if (act.type) {
+
+                    badges += `
+                        <span class="badge">
+                            ${
+                                act.type
+                                    .charAt(0)
+                                    .toUpperCase()
+                                +
+                                act.type.slice(1)
+                            }
+                        </span>
+                    `;
+
+                }
+
+
+                /* Status badge */
+
+                if (act.bill) {
+
+                    badges += `
+                        <span class="badge-green">
+                            Current
+                        </span>
+                    `;
+
+                } else if (act.inForce === true) {
+
+                    badges += `
+                        <span class="badge-green">
+                            In force
+                        </span>
+                    `;
+
+                } else {
+
+                    badges += `
+                        <span class="badge-red">
+                            Repealed
+                        </span>
+                    `;
+
+                }
+
+
+                /* Latest version badge */
+
+                if (
+                    act.type === "act" &&
+                    !act.bill
+                ) {
+
+                    badges += `
+                        <span class="badge-green">
+                            Latest version
+                        </span>
+                    `;
+
+                }
+
+
+                container.innerHTML += `
+
+                    <article class="card">
+
+                        <div class="header-row">
+
+                            ${badges}
+
+                            <span class="header-meta">
+
+                                (as enacted)
+
+                                ${
+                                    act.number
+                                        ? ` | ${act.number}`
+                                        : ""
+                                }
+
+                                ${
+                                    act.agency
+                                        ? ` | Administered by ${act.agency}`
+                                        : ""
+                                }
+
+                            </span>
+
+                        </div>
+
+
+                        <a
+                            class="title"
+                            href="${act.file}"
+                        >
+                            ${act.name}
+                        </a>
+
+                    </article>
+
+                `;
+
+            });
+
         }
 
-    }
+
+        /* =========================
+           INITIAL SEARCH
+        ========================= */
+
+        performSearch();
+
+    </script>
 
 
-    document.getElementById("resultsHeading").textContent =
-    `Your search for '${query}' has returned ${results.length} result${results.length !== 1 ? "s" : ""}`;
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
 
+</body>
 
-    renderResults(results);
-
-}
-
-
-performSearch();
-
-document.getElementById("resultsHeading").textContent =
-`Your title search for '${query}' has returned ${filtered.length} result${filtered.length !== 1 ? "s" : ""}`;
-
-renderResults(filtered);
-
-
-document.getElementById("sortSelect").addEventListener("change", () => {
-
-    const value = document.getElementById("sortSelect").value;
-
-    if(value === "az"){
-        filtered.sort((a,b)=>a.name.localeCompare(b.name));
-    }
-
-    renderResults(filtered);
-
-});
-
-
-function renderResults(list){
-
-    const container = document.getElementById("resultsContainer");
-
-    container.innerHTML = "";
-
-    if(list.length === 0){
-
-        container.innerHTML = `
-        <div class="card">
-            No legislation matched your search.
-        </div>`;
-
-        return;
-    }
-
-
-    list.forEach(act => {
-
-    let badges = "";
-
-    // Type badge
-    if (act.type) {
-        badges += `<span class="badge">${
-            act.type.charAt(0).toUpperCase() + act.type.slice(1)
-        }</span>`;
-    }
-
-    // Status badge
-    if (act.bill) {
-        badges += `<span class="badge-green">Current</span>`;
-    } else if (act.inForce === true) {
-        badges += `<span class="badge-green">In force</span>`;
-    } else {
-        badges += `<span class="badge-red">Repealed</span>`;
-    }
-
-    // Latest version badge (Acts only)
-    if (act.type === "act" && !act.bill) {
-        badges += `<span class="badge-green">Latest version</span>`;
-    }
-
-container.innerHTML += `
-    <div class="card">
-
-        <div class="header-row">
-            ${badges}
-
-            <span class="header-meta">
-                (as enacted)
-                ${act.number ? ` | ${act.number}` : ""}
-                ${act.agency ? ` | Administered by ${act.agency}` : ""}
-            </span>
-        </div>
-
-        <a class="title" href="${act.file}">
-            ${act.name}
-        </a>
-
-    </div>
-`;
-
-});
-
-}
-</script>
-
-<script src="components/navbar.js"></script>
-<script src="components/footer.js"></script>
 </html>
