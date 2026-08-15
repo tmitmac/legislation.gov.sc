@@ -1,4 +1,4 @@
-﻿TITLE: Wildlife Act 1950
+TITLE: Wildlife Act 1950
 
 ACTNUMBER: 1950 No 02
 
@@ -110,9 +110,11 @@ HEADING: Governance and Advisory Board
 (d) Government officials from relevant ministries.
 2. The Board shall advise the Director and Minister on strategic decisions, priorities, and policies of the Agency.
 
+SECTION: 10
 
-10        Powers of the Agency
-        The Agency shall have the power to:
+HEADING: Powers of the Agency
+
+The Agency shall have the power to:
 1. issue licenses, permits, and exemptions under this Act;
 2. declare sanctuaries, reserves, and critical habitats;
 3. conduct inspections, investigations, and enforcement activities;
@@ -121,41 +123,51 @@ HEADING: Governance and Advisory Board
 6. recommend species protection status and propose changes to Schedules;
 7. undertake public education, training, and community engagement programs.
 
+PARTNUMBER: 3
 
-Part 2
-Protection of Wildlife
+PARTTITLE: Protection of Wildlife
 
+SECTION: 11
 
-11        Protected species
+HEADING: Protected species
 1. No person shall take, kill, injure, capture, or disturb a protected species except under a license or permit issued by the Agency.
 2. The Agency shall maintain a current list of protected species and may propose additions or removals to the Minister.
 
+SECTION: 9
 
-12        Habitats and nesting sites
+HEADING: Habitats and nesting sites
+
 1. The Agency may identify critical habitats and nesting sites and impose restrictions to prevent harm.
 2. Any person who destroys, damages, or interferes with such habitats commits an offence.
 
+SECTION: 13
 
-13        Endangered and threatened species
+HEADING: Endangered and threatened species
+
 1. The Agency shall maintain lists of endangered, vulnerable, and threatened species.
 2. The Agency may develop and implement recovery programs, including captive breeding, reintroduction, predator control, and habitat restoration.
 
+SECTION: 14
 
-14        Migratory species
+HEADING: Migratory species
+
 1. The Agency shall enforce protection of migratory species in accordance with international agreements.
 2. Unauthorised taking or disturbance of migratory species is strictly prohibited. 
 
+PARTNUMBER: 4
 
-Part 3
-Hunting, Game, and Licenses
+PARTTITLE: Hunting, Game, and Licenses
 
+SECTION: 15
 
-15        Regulation of game species
+HEADING: Regulation of game species
+
 1. The Agency may regulate hunting of game species, including seasons, quotas, and methods.
 2. Hunting or taking of game species is permitted only under a license issued by the Agency.
 
+SECTION: 16
 
-16        Licenses and permits
+HEADING: Licenses and permits
 1. The Agency may issue licenses for:
 (a) hunting and taking of game species;
 (b) scientific research;
@@ -163,324 +175,211 @@ Hunting, Game, and Licenses
 (d) educational or cultural purposes.
 2. The Agency may impose conditions, limitations, and reporting requirements for all licenses.
 
+SECTION: 17
 
-17        Prohibited methods
-        The following methods of taking wildlife are prohibited unless specifically authorised:
+HEADING: Prohibited methods
+
+The following methods of taking wildlife are prohibited unless specifically authorised:
 1. use of explosives or poisons;
 2. hunting from aircraft or vehicles;
 3. hunting at night with artificial lights;
 4. any method deemed cruel, unsustainable, or inconsistent with conservation objectives.
 
+SECTION: 18
 
-18        Sale and trade of wildlife
+HEADING: Sale and trade of wildlife
+
 1. No person shall trade in protected species without Agency authorisation.
 2. Trade in game species is subject to sustainability, quotas, and reporting requirements.
 
+PARTNUMBER: 5
 
-Part 4
-Sanctuaries, Reserves, and Corridors
+PARTTITLE: Sanctuaries, Reserves, and Corridors
 
+SECTION: 19
 
-19        Declaration of sanctuaries
-        The Agency may declare areas as wildlife sanctuaries to protect species or habitats, by notice in
-        the Gazette.
+HEADING: Declaration of sanctuaries
 
+The Agency may declare areas as wildlife sanctuaries to protect species or habitats, by notice in the Gazette.
 
-20        Regulation within sanctuaries
+SECTION: 20
+
+HEADING: Regulation within sanctuaries
+
 1. Entry may be restricted or prohibited.
 2. Taking or disturbing wildlife is prohibited unless authorised by the Agency.
 
+SECTION: 21
 
-21        Wildlife reserves
-        The Agency may establish wildlife reserves for conservation, research or public education.
-        Reserves shall have managements plans specifying access, permitted activities, and conservation
-        objectives.
+HEADING: Wildlife reserves
 
+1. The Agency may establish wildlife reserves for conservation, research or public education. 
+2. Reserves shall have managements plans specifying access, permitted activities, and conservation objectives.
 
-22        Wildlife corridors
-        The Agency may establish corridors to connect fragmented habitats, supporting species
-        migration, genetic diversity, and ecosystem resilience.
+SECTION: 22
 
+HEADING: Wildlife corridors
 
-Part 5
-Invasive Species and Habitat Management
+The Agency may establish corridors to connect fragmented habitats, supporting species migration, genetic diversity, and ecosystem resilience.
 
+PARTNUMBER: 6
 
-23        Invasive species control
+PARTTITLE: Invasive Species and Habitat Management
+
+SECTION: 23
+
+HEADING: Invasive species control
+
 1. The Agency may identify and control invasive species through approved methods.
 2. Individuals or organisations may participate in removal programs under Agency supervision.
 
+SECTION: 24
 
+HEADING: Habitat restoration
 
-
-
-
-24        Habitat restoration
-        The Agency may restore and rehabilitate degraded habitats through:
+The Agency may restore and rehabilitate degraded habitats through:
 1. reforestation;
 2. wetland restoration;
 3. pollution mitigation;
 4. removal of barriers to wildlife movement.
 
+PARTNUMBER: 7
 
-Part 6
-Research, Monitoring, and Education
+PARTTITLE: Research, Monitoring, and Education
 
+SECTION: 25
 
-25        Research permits
-        Scientific research involving wildlife requires a permit issued by the Agency.
-        Conditions may include ethical treatment, minimal disturbance, and reporting obligations.
+HEADING: Research permits
 
+1. Scientific research involving wildlife requires a permit issued by the Agency.
+2. Conditions may include ethical treatment, minimal disturbance, and reporting obligations.
 
-26        Captive breeding programs
+SECTION: 26
+
+HEADING: Captive breeding programs
+
 1. The Agency may establish captive breeding programs to conserve endangered species.
 2. Reintroduction into the wild must follow an Agency-approved plan.
 
+SECTION: 27
 
-27        Monitoring and data collection
-        The Agency shall monitor wildlife populations and habitats and maintain databases for
-        management, reporting, and policy purposes.
+HEADING: Monitoring and data collection
 
+The Agency shall monitor wildlife populations and habitats and maintain databases for management, reporting, and policy purposes.
 
-28        Public education and awareness
-        The Agency shall conduct educational programs, promote public participation, and facilitate
-        community stewardship of wildlife.
+SECTION: 28
 
+HEADING: Public education and awareness
 
-Part 7
-Offences, Enforcement, and Penalties
+The Agency shall conduct educational programs, promote public participation, and facilitate community stewardship of wildlife.
 
+PARTNUMBER: 8
 
-29        Offences
-        It is an offence to:
+PARTTITLE: Offences, Enforcement, and Penalties
+
+SECTION: 29
+
+HEADING: Offences
+
+It is an offence to:
 1. take, injure, kill, or disturb protected wildlife without authorisation;
 2. destroy, or interfere with habitats, nests, or breeding sites;
 3. violate license or permit conditions;
 4. use prohibited methods;
 5. trade in protected species illegally.
 
+SECTION: 30
 
-30        Penalties
+HEADING: Penalties
+
 1. Individuals: fines up to £25,000 and/or imprisonment up to 5 years.
 2. Corporations: fines up to £125,000; directors may also be held personally liable.
 
+SECTION: 31
 
-31        Powers of authorised officers
-        Authorised officers may:
+HEADING: Powers of authorised officers
+
+Authorised officers may:
 1. enter land, premises, or vehicles to ensure compliance;
 2. seize wildlife, equipment, and documents;
 3. issue infringement notices;
 4. arrest persons suspected of committing offences.
 
+PARTNUMBER: 9
 
-Part 8
-International Cooperation
+PARTTITLE: International Cooperation
 
+SECTION: 32
 
-32        International agreements
-        The Agency shall ensure compliance with international treaties and conventions regarding
-        migratory, endangered, or transboundary species.
+HEADING: International agreements
 
+The Agency shall ensure compliance with international treaties and conventions regarding migratory, endangered, or transboundary species.
 
-33        Collaboration
-        The Agency may collaborate with foreign governments. NGOs, and scientific organisations for
-        conservation, research, and management initiatives.
+SECTION: 33
 
+HEADING: Collaboration
 
-34        Community engagement
+The Agency may collaborate with foreign governments. NGOs, and scientific organisations for conservation, research, and management initiatives.
+
+SECTION: 34
+
+HEADING: Community engagement
+
 The Agency shall encourage citizen science, volunteer programs, and public reporting of illegal activities.
 
+PARTNUMBER: 10
 
-Part 9
-Miscellaneous
+PARTTITLE: Miscellaneous
 
+SECTION: 35
 
-35        Repeals and savings
+HEADING: Repeals and savings
+
 1. Any previous legislation inconsistent with this Act is repealed.
 2.  Rights or permits granted under previous legislation shall continue until reviewed under this Act.
 
+SCHEDULENUMBER: 1
 
+SCHEDULETITLE: Protected Species 
 
+SCHEDULESECTION: 1
 
+HEADING: Protected Species
 
+Protected Species in Square Country are:
+(a) Square Falcon (Falco quadratus);
+(b) Emerald Woodpecker (Picus viridans);
+(c) River Otter (Lutra fluviatilis);
+(d) Square Country Trout (Salmo quadrensis);
+(e) Mountain Hare (Lepus montanus);
+(f) Golden Leaf Frog (Rana aurifolia);
+(g) Silverback Tortoise (Testudo argentea);
+(h) Coastal Kingfisher (Alcedo maritima).
 
+SCHEDULENUMBER: 2
 
+SCHEDULETITLE: Game Species 
 
+SCHEDULESECTION: 1
 
+HEADING: Game Species
 
+(a) Grey Deer (Cervus quadratus);
+(b) Wild Boar (Sus scrofa);
+(c) Pheasant (Phasianus quadratus);
+(d) Mallard Duck (Anas platyrhynchos);
+(e) Mountain Quail (Oreortyx montanus);
+(f) Snipe (Gallinago quadrensis).
 
+SCHEDULENUMBER: 3
 
+SCHEDULETITLE: Invasive Species 
 
+SCHEDULESECTION: 1
 
+HEADING: Invasive Species
 
-
-
-
-
-
-
-
-
-
-
-
-SCHEDULE 1—Protected Species
-(Section 11)
-
-
-1        Protected Species
-        Protected Species in Square Country are:
-1. Square Falcon (Falco quadratus);
-2. Emerald Woodpecker (Picus viridans);
-3. River Otter (Lutra fluviatilis);
-4. Square Country Trout (Salmo quadrensis);
-5. Mountain Hare (Lepus montanus);
-6. Golden Leaf Frog (Rana aurifolia);
-7. Silverback Tortoise (Testudo argentea);
-8. Coastal Kingfisher (Alcedo maritima).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SCHEDULE 2—Game Species
-
-
-1        Game Species
-1. Grey Deer (Cervus quadratus);
-2. Wild Boar (Sus scrofa);
-3. Pheasant (Phasianus quadratus);
-4. Mallard Duck (Anas platyrhynchos);
-5. Mountain Quail (Oreortyx montanus);
-6. Snipe (Gallinago quadrensis).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SCHEDULE 3—Invasive Species
-
-
-1        Invasive Species
-1. Red Fox (Vulpes vulpes);
-2. European Rabbit (Oryctolagus cuniculus);
-3. Feral Cat (Felis catus);
-4. Water Hyacinth (Eichhornia crassipes).
+(a) Red Fox (Vulpes vulpes);
+(b) European Rabbit (Oryctolagus cuniculus);
+(c) Feral Cat (Felis catus);
+(d) Water Hyacinth (Eichhornia crassipes).
