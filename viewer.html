@@ -20,6 +20,52 @@ body {
   align-items: flex-start; /* IMPORTANT */
 }
 
+.act-header-image {
+  width: 325px;
+  height: 325px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.version-as-at {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.version-as-at-label {
+  font-weight: 600;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+
+  .act-header-image {
+    width: 200px;
+    height: 200px;
+  }
+
+    .version-as-at {
+    display: none;
+  }
+
+  .version-as-at-label {
+    display: none;
+  }
+
+  .version-as-at {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+}
+
 
 /* DEFAULT (desktop-first) */
 #sidebar {
@@ -1891,6 +1937,19 @@ function renderLegislation(doc) {
 
   let html = `
 <div class="act-header">
+
+  <div class="version-as-at">
+    <span class="version-as-at-label">Version</span>
+    ${doc.versionTitle || "as enacted"}
+  </div>
+
+  <div>
+    <img
+      src="images/crest.png"
+      alt="Coat of Arms"
+      class="act-header-image"
+    >
+  </div>
 
   <div class="act-header-title">
     ${doc.title}
