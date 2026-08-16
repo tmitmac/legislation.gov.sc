@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <title>Legislation Viewer</title>
+  <link rel="icon" type="image/x-icon" href="images/SCL.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+body {
+  margin: 0;
+  font-family: Times;
+  overflow-y: auto;   /* 👈 SINGLE SCROLL CONTAINER */
+}
+
+#layout {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 50px;
+  align-items: flex-start; /* IMPORTANT */
+}
+
+.act-header-image {
+  width: 325px;
+  height: 325px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.version-as-at {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.version-as-at-label {
+  font-weight: 600;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+
+  .act-header-image {
+    width: 240px;
+    height: 240px;
+  }
+
+    .version-as-at {
+    display: none;
+  }
+
+  .version-as-at-label {
+    display: none;
+  }
+
+  .version-as-at {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+}
+
+
+/* DEFAULT (desktop-first) */
+#sidebar {
+  display: block;
+  width: 380px;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  border: 1px solid #c7c7c7;
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+  position: sticky;
+  top: 160px;
+}
+
+@media (max-width: 768px) {
+
+  /* stack layout properly */
+  #layout {
+    display: block !important;
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* hide sidebar completely */
+  #sidebar,
+  #sidebarTab {
+    display: none !important;
+  }
+
+  /* main takes full width */
+  #main {
+    width: 100% !important;
+    padding: 20px 16px !important;
+    box-sizing: border-box;
+  }
+
+  /* stop sticky + weird desktop offsets */
+  #sidebar {
+    position: static !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* header should NOT behave like desktop spacing system */
+  body.header-fixed #layout {
+    margin-top: 0 !important;
+  }
+
+  body.compact-header .title-header {
+    padding: 10px 12px !important;
+  }
+
+  .container {
+    padding: 0 12px !important;
+  }
+
+.act-header-details {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.government-bill {
+  width: 100%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.government-bill-type {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+.government-bill-number {
+  font-size: 17px;
+  color: #444;
+  font-weight: 400;
+}
+
+.act-header-row {
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    padding: 0 !important;
+    padding-bottom: 4px !important; /* was 7px */
+  }
+
+.act-header-row:last-child {
+  border-bottom: none;
+}
+
+  .act-label {
+    text-align: left !important;
+    padding-right: 5px !important; /* was 10px */
+    font-weight: 600 !important;
+    color: #444;
+    font-size: 14px !important;
+    flex-shrink: 0;
+  }
+
+  .act-value {
+    text-align: right !important;
+    padding-left: 5px !important; /* was 10px */
+    font-size: 14px !important;
+    color: #111;
+    line-height: 1.3;
+  }
+
+.act-header {
+  margin-bottom: 35px !important;
+  padding: 0 5px 20px !important;
+}
+
+.act-header-title {
+  font-size: 24px !important;
+  line-height: 1.2 !important;
+  margin-bottom: 18px !important;
+}
+
+  /* Always use the compact header on phones */
+  .title-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 8px 14px 9px !important;
+
+    background: #f3f3f3;
+
+    border-bottom: 1px solid #d6d6d6;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    z-index: 900;
+  }
+
+    .title-header .container {
+    width: 100%;
+    max-width: none;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+#layout {
+  margin-top: 90px !important;
+}
+
+
+/* Badges */
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.badge {
+  flex-shrink: 0;
+  font-size: 9px !important;
+  font-weight: 600;
+  line-height: 1;
+  padding: 3px 6px !important; /* slightly narrower */
+}
+
+/* "as at" / metadata text */
+.status-row .meta {
+  display: inline-block !important;
+
+  font-size: 13px !important;
+  font-weight: 500 !important;
+
+  line-height: 1 !important;
+
+  color: #666;
+
+  margin-left: 3px !important;
+  white-space: nowrap;
+}
+
+.meta {
+  font-size: 16px !important;
+}
+
+.title {
+  font-family: Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-top: 8px !important;
+  padding-bottom: 5px !important;
+}
+
+.bottom-row {
+  display: none !important;
+}
+}
+
+.part.active-part {
+  background: #eef5ff;
+  border-left: 4px solid #126cd3;
+  padding-left: 10px;
+  transition: 0.2s ease;
+}
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+}
+
+
+
+/* hidden state */
+body.sidebar-hidden #sidebar {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 769px) {
+  body.sidebar-hidden #layout {
+    margin-left: -380px;
+  }
+}
+
+/* toggle button */
+#toggleSidebar {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 999;
+  padding: 8px 12px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}   
+    
+
+
+/* title */
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.act-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.act-header-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.act-header-meta {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.contents-item:hover {
+  background: #f3f4f6;
+}
+
+.contents-row {
+  font-weight: 900;
+  cursor: default;
+}
+
+.contents-code {
+  font-weight: 600;
+  font-size: 20px;
+  color: #126cd3;
+}
+
+/* =========================================
+   MAIN CONTENTS - NZ LEGISLATION STYLE
+   ========================================= */
+
+.main-contents {
+  border: 1px solid #c7c7c7;
+  background: #f7f7f7;
+  margin: 0 0 45px 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  max-height: 120px;
+  overflow: hidden;
+  transition:
+    max-height 0.3s ease,
+    box-shadow 0.15s ease;
+}
+
+
+.main-contents.open {
+  max-height: 100000px;
+}
+
+.main-contents-header {
+  height: 78px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-contents-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+.main-contents-toggle {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: #e7e7e7;
+  color: #111;
+
+  padding: 12px 14px;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.main-contents-toggle:hover {
+  background: #dedede;
+}
+
+.main-contents-arrow {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+
+  border-right: 1.8px solid #333;
+  border-bottom: 1.8px solid #333;
+
+  transform: rotate(45deg);
+  margin-left: 9px;
+  margin-bottom: 4px;
+
+  transition: transform 0.2s ease;
+}
+
+.main-contents.open .main-contents-arrow {
+  transform: rotate(225deg);
+  margin-bottom: -2px;
+}
+
+
+/* CONTENTS LIST */
+
+.main-contents-list {
+  display: none;
+  padding: 0 115px 35px 25px;
+}
+
+.main-contents.open .main-contents-list {
+  display: block;
+}
+
+
+/* Individual entries */
+
+.main-contents-item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+
+  align-items: baseline;
+
+  padding: 3px 0;
+
+  color: #126cd3;
+  text-decoration: none;
+
+  font-size: 19px;
+  line-height: 1.35;
+}
+
+.main-contents-item:hover {
+  text-decoration: underline;
+  color: #105bb1;
+}
+
+
+/* Number */
+
+.main-contents-number {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* Name */
+
+.main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* PART headings */
+
+.main-contents-part {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: #126cd3;
+
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+.main-contents-part .main-contents-number,
+.main-contents-part .main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+
+/* SUBPART headings */
+
+.main-contents-subpart {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 3px;
+  margin-bottom: 5px;
+
+  color: #126cd3;
+
+  font-size: 17.3635px;
+  font-weight: 400;
+}
+
+.main-contents-subpart .main-contents-number,
+.main-contents-subpart .main-contents-name {
+  color: #126cd3;
+  font-size: 17.3635px;
+}
+
+
+/* Schedule headings */
+
+.main-contents-schedule {
+  display: block;
+
+  text-align: center;
+
+  margin-top: 18px;
+  margin-bottom: 6px;
+
+  color: #111;
+}
+
+
+/* Mobile Contents Bar */
+
+@media (max-width: 768px) {
+
+  .main-contents {
+    margin: 0 0 28px 0;
+    border: 1px solid #d0d0d0;
+    background: #f8f8f8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+
+    max-height: 58px;
+    overflow: hidden;
+
+    transition:
+      max-height 0.35s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .main-contents.open {
+    max-height: 100000px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Header */
+  .main-contents-header {
+    height: 58px;
+    padding: 0 10px 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Contents title */
+  .main-contents-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #222;
+  }
+
+  /* Show contents button */
+  .main-contents-toggle {
+    position: static;
+    transform: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 36px;
+    padding: 8px 10px;
+
+    background: #eeeeee;
+    color: #222;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    white-space: nowrap;
+  }
+
+  .main-contents-toggle:active {
+    background: #e2e2e2;
+  }
+
+  /* Arrow */
+  .main-contents-arrow {
+    width: 7px;
+    height: 7px;
+
+    border-right: 1.6px solid #333;
+    border-bottom: 1.6px solid #333;
+
+    margin-left: 8px;
+    margin-bottom: 4px;
+
+    transition:
+      transform 0.25s ease,
+      margin-bottom 0.25s ease;
+  }
+
+  .main-contents.open .main-contents-arrow {
+    transform: rotate(225deg);
+    margin-bottom: -3px;
+  }
+
+  /* Contents list */
+  .main-contents-list {
+    padding: 8px 16px 22px 16px;
+  }
+
+  .main-contents-item {
+    grid-template-columns: 48px 1fr;
+    gap: 6px;
+
+    padding: 4px 0;
+
+    font-size: 16px;
+    line-height: 1.35;
+  }
+
+  .main-contents-number,
+  .main-contents-name {
+    font-size: 16px;
+  }
+
+  .main-contents-part {
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+
+  .main-contents-subpart {
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+}
+
+.sidebar-close {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* BLUE RETURN TAB (hidden sidebar button) */
+#sidebarTab {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) translateX(-100%);
+  width: 40px;
+  height: 80px;
+  background: #126cd3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  transition: transform 0.25s ease;
+  z-index: 1000;
+}
+
+/* show tab only when sidebar is hidden */
+body.sidebar-hidden #sidebarTab {
+  transform: translateY(-50%) translateX(0);
+}
+
+.footnotes {
+  margin-top: 12px;
+  padding-top: 8px;
+}
+
+.footnote {
+  font-size: 12px;
+  color: #000000;
+  line-height: 1.3;
+  margin-top: 4px;
+  font-family: times;
+}
+
+/* PART block */
+.part-block {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+/* PART header (boldest row) */
+.part-header {
+  padding: 14px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6;
+  font-size: 15px;
+}
+
+.part-header:hover {
+  background: #e5e7eb;
+}
+
+/* slide-out container */
+.section-list {
+  display: none;
+  border-top: 1px solid #eee;
+}
+
+/* expanded state */
+.part-block.open .section-list {
+  display: block;
+}
+
+/* EACH ROW (taller + table-like) */
+.section-link {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;   /* shorter */
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 1px solid #c7c7c7;
+  align-items: center;
+  min-height: 22px;     /* reduced height */
+}
+
+.section-link:hover {
+  background: #f1f1f1;
+}
+
+.section-link.active {
+  background: #126cd3; 
+  color: white;
+}
+
+.section-link.active .section-code,
+.section-link.active .section-name {
+  color: white;
+}
+
+
+
+/* section number column */
+.section-code {
+  font-weight: 800;
+  min-width: 70px;
+  color: #111;
+}
+
+
+
+/* section number */
+.section-code {
+  font-weight: 400;
+  min-width: 60px;
+  color: #126cd3;
+  font-size: 14px;
+}
+
+/* section title */
+.section-name {
+  font-weight: 500;
+  color: #126cd3;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+}
+
+.part-link {
+  font-weight: 800;
+  font-size: 50px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.part-link .section-code {
+  color: #126cd3;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.part-link .section-name {
+  color: #126cd3;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.schedule-section {
+  margin-top: 28px;
+}
+
+.schedule-section .section-header {
+  padding-top: 10px;
+}
+
+.schedule-section .section-number {
+  font-weight: 800;
+}
+
+.schedule-section .section-title {
+  font-size: 18px;
+}
+
+        #main {
+      flex: 1;
+      padding: 30px;
+    }
+
+    h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.part {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.part-number {
+  font-size: 24.96px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.part-title {
+  font-size: 24.96px;
+  font-weight: 700; /* make bold */
+  margin-top: 4px;
+  color: #333;
+}
+
+.subpart {
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+.subpart-title {
+  text-align: center;
+  color: #333333;
+  font-size: 24.96px;
+  font-weight: 400;
+  margin: 4px 0 2px 0;  /* tighter spacing */
+}
+
+.subpart + .section {
+  margin-top: 20px;
+}
+
+/* SUBPART row in sidebar */
+.subpart-link {
+  font-size: 20px;
+  opacity: 0.9;
+  background: #f9fafb;
+}
+
+/* optional hover */
+.subpart-link:hover {
+  background: #f1f5f9;
+}
+
+/* optional indentation */
+.subpart-link .section-code {
+  color: #126cd3;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.subpart-link .section-name {
+  color: #126cd3;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.section {
+  margin-top: 22px;
+  padding-top: 10px;
+}
+
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  margin-bottom: 6px;
+}
+
+.section-row {
+  display: flex;
+  gap: 12px;
+  margin: 6px 0;
+}
+
+.section-number {
+  width: 55px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: #111;
+  font-size: 19.968px;
+  line-height: 1.25;
+}
+
+.section-title {
+  flex: 1;
+  font-size: 19.968px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000;
+}
+
+.section-body {
+  flex: 1;
+}
+
+.section-text {
+  margin-left: 55px;
+  font-size: 16.64px;
+  color: #333;
+  line-height: 1.25;
+}
+
+.center-block {
+  text-align: center;
+  margin: 20px 0;   /* space above + below */
+  font-weight: 500; /* optional */
+}
+
+/* base clause */
+.clause {
+  margin: 3px 0;
+}
+
+/* subclause levels */
+.level-1 {
+  margin-left: 0px;
+}
+
+.level-2 {
+  margin-left: 20px;
+}
+
+.level-3 {
+  margin-left: 40px;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background: #126cd3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 2000;
+}
+
+/* show when active */
+#backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#searchOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+}
+
+#searchBox {
+  position: absolute;
+  top: 120px;
+  right: 40px;
+  width: 380px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 25px rgba(0,0,0,.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-header {
+  padding: 12px;
+  font-weight: 700;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  font-family: arial;
+}
+
+.search-header button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-body {
+  display: flex;
+  gap: 6px;
+  padding: 12px;
+}
+
+.search-body input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-body button {
+  width: 40px;
+  cursor: pointer;
+}
+
+#searchCount {
+  padding: 0 12px 12px;
+  color: #666;
+  font-size: 13px;
+}
+
+.search-match {
+  background: #fff176;
+  color: black;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+.search-match.current-match {
+  background: #ff9800;
+  color: black;
+}
+
+.leg-link {
+  color: #126cd3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leg-link:hover {
+  text-decoration: underline;
+  color: #105bb1
+}
+
+.section {
+  position: relative;
+}
+
+.section.section-highlight::before,
+.section.section-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #1374e3;
+  animation: sectionLineFade 1.15s ease forwards;
+}
+
+.section.section-highlight::before {
+  top: 0;
+}
+
+.section.section-highlight::after {
+  bottom: -15px;
+}
+
+@keyframes sectionLineFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.center-block{
+  font-size: 19.968px;
+}
+
+  </style>
+<style>
+/* Page background */
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title-header {
+  background: #f3f3f3;
+  padding-top: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+
+    transition:
+    padding 0.35s ease,
+    background-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+/* COMPACT MODE */
+body.header-fixed .title-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+body.header-fixed #layout {
+  margin-top: 90px; /* adjust until content sits correctly */
+}
+
+body.compact-header .title-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+body.compact-header .container {
+  padding-top: 0;
+}
+
+body.compact-header .status-row {
+  display: flex;
+  margin-bottom: px;
+  gap: 6px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+body.compact-header .badge {
+  font-size: 10px;
+  padding: 2px 6px;
+}
+
+body.compact-header .meta {
+  font-size: 12px;
+}
+
+body.compact-header .title {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  line-height: 1.2;
+}
+
+body.compact-header .bottom-row {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.insert-box {
+    background: #e5e5e5;
+    margin: 10px 0 5px;
+    margin-left: -55px;
+    width: calc(100% + 55px);
+    padding: 10px 5px 10px 55px;
+    line-height: 1.45;
+    box-sizing: border-box;
+}
+
+/* Move ONLY the section number + heading left */
+.insert-box .section-header {
+    margin-left: -55px;
+    padding-left: 55px;
+}
+
+/* Keep the body text where it already is */
+.insert-box .section-text {
+    margin-left: 55px;
+}
+
+.insert-box div {
+    margin: 0;
+}
+
+/* Indent clauses inside insert boxes */
+.insert-box .level-1 {
+  margin-left: 0;
+}
+
+.insert-box .level-2 {
+  margin-left: 25px; /* (a), (b), (c) */
+}
+
+.insert-box .level-3 {
+  margin-left: 50px; /* ((a)), ((b)), ((c)) */
+}
+
+/* Top metadata row */
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  line-height: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+}
+
+.badge-gray {
+  background: #e7e7e7;
+  color: #555;
+}
+
+.badge-green {
+  background: #cfe9c9;
+  color: #2f6b22;
+}
+
+.badge-red {
+  background: #edcfce;
+  color: #a40c0b;
+}
+
+.meta {
+  color: #5d5d5d;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+}
+
+/* Main title */
+.title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  line-height: 1.05;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: -0.4px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+/* Bottom section */
+.bottom-row {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  align-items: flex-end;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+}
+
+.tab {
+  text-decoration: none;
+  color: #1261d1;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 18px;
+}
+
+.tab:hover {
+  background: #eaeaea;
+}
+
+.tab-version {
+  text-decoration: none;
+  color: #1261d1;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 18px;
+}
+
+.tab-version:hover {
+  background: #eaeaea;
+}
+
+.tab-related {
+  text-decoration: none;
+  color: #1261d1;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 18px;
+}
+
+.tab-related:hover {
+  background: #eaeaea;
+}
+
+.tab.active {
+  background: #fff;
+  color: #111;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #1261d1;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+}
+
+.action svg {
+  width: 18px;
+  height: 30px;
+}
+</style>
+
+
+<body>
+<custom-navbar></custom-navbar>
+
+
+<section class="title-header">
+  <div class="container">
+    <!-- Status Row -->
+    <div class="status-row" id="statusRow">
+  <span class="badge" id="badgeType"></span>
+  <span class="badge" id="badgeStatus"></span>
+  <span class="badge" id="badgeVersion"></span>
+
+  <span class="meta" id="actMeta"></span>
+</div>
+
+    <!-- Title -->
+    <h1 class="title" id="actTitle"></h1>
+
+    <!-- Tabs + Actions -->
+    <div class="bottom-row">
+      <div class="tabs">
+        <a href="#" class="tab active">Principal Act</a>
+        <a href="index.html" class="tab-version">Versions (2)</a>
+        <a href="#" class="tab-related">Related Bill (0)</a>
+      </div>
+
+      <div class="actions">
+        <a href="#" class="action" onclick="downloadActPDF()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3v12"></path>
+            <path d="M7 10l5 5 5-5"></path>
+            <path d="M5 21h14"></path>
+          </svg>
+          Download
+        </a>
+
+        <a href="#" class="action" onclick="openSearchBox(); return false;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M20 20l-4-4"></path>
+          </svg>
+          Search content
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="layout">
+  <div id="sidebar">Loading...</div>
+  <div id="main">Select a document</div>
+</div>
+
+<div id="sidebarTab" onclick="openSidebar()">☰</div>
+
+<div id="backToTop" onclick="scrollToTop()">↑</div>
+
+<br></br>
+
+  <custom-footer></custom-footer>
+
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const file = params.get("act");
+
+let sectionLinks = {};   // ✅ global so everything can access it
+let activeId = null;
+
+if (file) {
+  loadAct("legislation/" + file);
+}
+
+async function loadAct(path) {
+  const res = await fetch(path);
+  const text = await res.text();
+
+const doc = parseLegislation(text);
+
+updateBadges(doc); // 👈 add this
+
+// update browser tab title
+document.title = `${doc.title} | Square Country Legislation`;
+
+// 👇 update header dynamically
+document.getElementById("actTitle").textContent = doc.title;
+
+buildSidebar(doc);
+document.getElementById("main").innerHTML = renderLegislation(doc);
+
+const meta = document.getElementById("actMeta");
+
+if (window.innerWidth <= 768) {
+  // Mobile compact header
+  meta.textContent = doc.versionTitle || "as enacted";
+} else {
+  // Desktop
+  meta.textContent =
+    `${doc.versionTitle || "as enacted"} | ${doc.actNumber} | Administered by ${doc.agency}`;
+}
+
+  const hash = decodeURIComponent(location.hash);
+
+if (hash) {
+  requestAnimationFrame(() => {
+    const el = document.querySelector(hash);
+    if (el) {
+      const rect = el.getBoundingClientRect();
+
+      window.scrollTo({
+        top: window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2,
+        behavior: "auto"
+      });
+    }
+  });
+}
+}
+
+function parseLegislation(text) {
+  const lines = text.split("\n");
+
+  let doc = {
+    title: "",
+    actNumber: "",
+    type: "",
+    status: "",
+    version: "",
+    versionTitle: "",
+    agency: "",
+    dateOfAssent: "",
+    commencement: "",
+    parts: [],
+    schedules: [],
+  };
+
+  let currentPart = null;
+  let currentSubpart = null;
+  let currentSection = null;
+  let currentBlock = null;
+  let currentSchedule = null;
+
+
+  for (let line of lines) {
+    line = line.trim();
+
+    if (line.startsWith("TITLE:")) doc.title = line.replace("TITLE:", "").trim();
+
+    else if (line.startsWith("ACTNUMBER:"))
+      doc.actNumber = line.replace("ACTNUMBER:", "").trim();
+
+    else if (line.startsWith("AGENCY:"))
+      doc.agency = line.replace("AGENCY:", "").trim();
+
+    else if (line.startsWith("DATEOFASSENT:"))
+      doc.dateOfAssent = line.replace("DATEOFASSENT:", "").trim();
+
+    else if (line.startsWith("COMMENCEMENT:"))
+      doc.commencement = line.replace("COMMENCEMENT:", "").trim();
+
+
+else if (line.startsWith("TYPE:"))
+  doc.type = line.replace("TYPE:", "").trim();
+
+      else if (line.startsWith("STATUS:"))
+  doc.status = line.replace("STATUS:", "").trim();
+
+else if (line.startsWith("VERSION:"))
+  doc.version = line.replace("VERSION:", "").trim();
+
+  else if (line.startsWith("VERSIONTITLE:"))
+  doc.versionTitle = line.replace("VERSIONTITLE:", "").trim();
+
+    else if (line.startsWith("PARTNUMBER:")) {
+    currentPart = {
+      number: line.replace("PARTNUMBER:", "").trim(),
+      title: "",
+      subparts: [],
+      sections: []
+    };
+
+      currentSubpart = null;
+      doc.parts.push(currentPart);
+    }
+
+    else if (line.startsWith("PARTTITLE:")) {
+      if (currentPart) {
+        currentPart.title = line.replace("PARTTITLE:", "").trim();
+      }
+    }
+
+      else if (line.startsWith("SUBPARTNUMBER:")) {
+    currentSubpart = {
+      number: line.replace("SUBPARTNUMBER:", "").trim(),
+      title: "",
+      sections: []
+    };
+
+    if (currentPart) {
+      currentPart.subparts.push(currentSubpart);
+    }
+  }
+
+  else if (line.startsWith("SUBPARTTITLE:")) {
+    if (currentSubpart) {
+      currentSubpart.title =
+        line.replace("SUBPARTTITLE:", "").trim();
+    }
+  }
+
+        else if (line.startsWith("SCHEDULENUMBER:")) {
+          currentSchedule = {
+            number: line.replace("SCHEDULENUMBER:", "").trim(),
+            title: "",
+            sections: []
+          };
+
+          currentSubpart = null;
+
+          doc.schedules.push(currentSchedule);
+
+          currentPart = null;
+          currentSubpart = null;
+          currentscheduleSection = null;
+        }
+
+        else if (line.startsWith("SCHEDULETITLE:")) {
+          if (currentSchedule) {
+            currentSchedule.title =
+              line.replace("SCHEDULETITLE:", "").trim();
+          }
+        }
+
+else if (
+  !currentBlock &&
+  (
+    line.startsWith("SECTION:") ||
+    line.startsWith("SCHEDULESECTION:")
+  )
+) {
+
+  const isSchedule =
+    line.startsWith("SCHEDULESECTION:");
+
+const sectionNumber = line
+  .replace(
+    isSchedule
+      ? "SCHEDULESECTION:"
+      : "SECTION:",
+    ""
+  )
+  .trim();
+
+  currentSection = {
+    number: sectionNumber,
+
+    // UNIQUE INTERNAL ID
+    id: isSchedule
+      ? `schedule-${currentSchedule.number}-${sectionNumber}`
+      : `section-${sectionNumber}`,
+
+    heading: "",
+    clauses: [],
+    footnotes: [],
+    scheduleSection: isSchedule
+  };
+
+  currentBlock = null;
+
+  if (isSchedule && currentSchedule) {
+    currentSchedule.sections.push(currentSection);
+
+  } else if (currentSubpart) {
+    currentSubpart.sections.push(currentSection);
+
+  } else if (currentPart) {
+    currentPart.sections.push(currentSection);
+  }
+}
+
+    else if (line.startsWith("HEADING:")) {
+
+      if (currentBlock && currentBlock.type === "insert") {
+        currentBlock.heading = line.replace("HEADING:", "").trim();
+      } else if (currentSection) {
+        currentSection.heading = line.replace("HEADING:", "").trim();
+      }
+
+    }
+
+    else if (/^\d+\./.test(line)) {
+      currentSection.clauses.push(line);
+    }
+
+    else if (line.startsWith("CENTER:")) {
+  const value = line.replace("CENTER:", "").trim();
+
+  if (currentSection) {
+    currentSection.clauses.push({ type: "center", text: value });
+  }
+}
+
+else if (line.startsWith("INSERT:")) {
+
+  const block = {
+    type: "insert",
+    number: "",
+    heading: "",
+    clauses: []
+  };
+
+  currentSection.clauses.push(block);
+  currentBlock = block;
+}
+
+else if (line === "ENDINSERT") {
+  currentBlock = null;
+}
+    
+    /* 👇 ADD THIS BLOCK RIGHT HERE */
+else if (line.startsWith("AMENDMENT:")) {
+  if (currentSection) {
+    currentSection.footnotes.push(
+      line.replace("AMENDMENT:", "").trim()
+    );
+  }
+}
+
+    else {
+
+    if (currentBlock && currentBlock.type === "insert") {
+
+      if (line.startsWith("SECTION:")) {
+        currentBlock.number =
+          line.replace("SECTION:", "").trim();
+      }
+
+      else if (line.startsWith("HEADING:")) {
+        currentBlock.heading =
+          line.replace("HEADING:", "").trim();
+      }
+
+      else {
+        currentBlock.clauses.push(line);
+      }
+    }
+
+      else if (currentSection) {
+        currentSection.clauses.push(line);
+      }
+
+    }
+
+    
+  }
+
+  return doc;
+}
+
+function renderSection(section) {
+      let html = `
+      <div
+        class="
+          section
+          ${section.scheduleSection ? "schedule-section" : ""}
+        "
+        id="${section.id}"
+      >
+      `;
+
+  html += `
+    <div class="section-header">
+      <div class="section-number">${section.number}</div>
+      <div class="section-title">${section.heading}</div>
+    </div>
+    <div class="section-text">
+  `;
+
+for (const clause of section.clauses) {
+
+  // CENTER BLOCK
+if (typeof clause === "object" && clause.type === "center") {
+
+  let formatted = clause.text
+    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+  html += `<div class="center-block">${formatted}</div>`;
+  continue;
+}
+
+if (typeof clause === "object" && clause.type === "insert") {
+
+  html += `
+    <div class="insert-box">
+
+      <div class="section-header">
+        <div class="section-number">
+          ${clause.number}
+        </div>
+
+        <div class="section-title">
+          ${clause.heading}
+        </div>
+      </div>
+
+      <div class="section-text">
+  `;
+
+  clause.clauses.forEach(text => {
+
+      let level = 1;
+
+      if (/^\(\([a-z]+\)\)/i.test(text)) {
+        level = 3;
+      } else if (/^\([a-z]+\)/i.test(text)) {
+        level = 2;
+      }
+
+    let formatted = text
+      .replace(/^(\d+)\.\s*/, "($1) ")
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.*?)\*/g, "<em>$1</em>");
+
+    html += `<div class="clause level-${level}">${formatted}</div>`;
+  });
+
+  html += `
+      </div>
+    </div>
+  `;
+
+  continue;
+}
+
+  let level = 1;
+  if (/^\(\w+\)/.test(clause)) level = 2;
+  if (/^\(\([a-z]+\)\)/.test(clause)) level = 3;
+
+let formatted = clause
+  .replace(/^(\d+)\.\s*/, "($1) ")
+  .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*(.*?)\*/g, "<em>$1</em>")
+
+  // Part links
+.replace(
+  /\[\[Part:(.*?)\]\]/g,
+  `<a href="#" class="leg-link" onclick="jumpToPart('$1'); return false;">Part $1</a>`
+)
+.replace(
+  /\[\[section:([^\]]+)\]\]/gi,
+  (match, ref) => `
+    <a href="#" class="leg-link" onclick="scrollSectionToMiddle('${ref}'); return false;"> section ${ref}</a>`
+)
+.replace(
+  /\[\[Schedule:(.*?)\]\]/g,
+  `<a href="#" class="leg-link" onclick="jumpToSchedule('$1'); return false;">Schedule $1</a>`
+)
+.replace(
+  /\[\[Act:(.*?)\]\]/g,
+  (match, actName) => {
+
+    const yearMatch = actName.match(/\b(18|19|20|21)\d{2}\b/);
+
+    if (!yearMatch) {
+      return actName;
+    }
+
+    const year = yearMatch[0];
+
+    const century =
+      year.startsWith("18") ? "1800-1899" :
+      year.startsWith("19") ? "1900-1999" :
+      year.startsWith("20") ? "2000-2099" :
+      "2100-2199";
+
+    const slug = actName
+      .toLowerCase()
+      .replace(year, "")
+      .replace(/act/g, "act")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+    const filename =
+      `${slug}-${year}.txt`;
+
+    const path =
+      `${century}/${year}/${filename}`;
+
+    return `
+      <a href="viewer.html?act=${path}" class="leg-link">
+        ${actName}</a>`;
+  }
+);
+
+html += `<div class="clause level-${level}">${formatted}</div>`;
+}
+
+  if (section.footnotes?.length) {
+    html += `<div class="footnotes">`;
+    section.footnotes.forEach(note => {
+let formattedNote = note
+  .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*(.*?)\*/g, "<em>$1</em>")
+
+  .replace(
+  /\[\[Act:(.*?)\|section:([^\]]+)\]\]/g,
+  (match, actName, sectionRef) => {
+
+    const yearMatch = actName.match(/\b(18|19|20|21)\d{2}\b/);
+    if (!yearMatch) return match;
+
+    const year = yearMatch[0];
+
+    const century =
+      year.startsWith("18") ? "1800-1899" :
+      year.startsWith("19") ? "1900-1999" :
+      year.startsWith("20") ? "2000-2099" :
+      "2100-2199";
+
+    const slug = actName
+      .toLowerCase()
+      .replace(year, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+    const path = `${century}/${year}/${slug}-${year}.txt`;
+
+    return `${actName} <a class="leg-link" href="viewer.html?act=${path}#section-${encodeURIComponent(sectionRef)}"> section ${sectionRef}</a>`;
+  }
+)
+      html += `<div class="footnote">${formattedNote}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  html += `</div></div>`;
+  return html;
+}
+
+function renderLegislation(doc) {
+
+  let html = `
+<div class="act-header">
+
+  <div class="act-header-title">
+    ${doc.title}
+  </div>
+
+  <div class="act-header-details">
+    <div class="government-bill">
+        <div class="government-bill-type">Government Bill</div>
+        <div class="government-bill-number">${doc.actNumber}</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- MAIN CONTENTS BAR -->
+<div class="main-contents" id="mainContents">
+
+  <div class="main-contents-header">
+
+    <div class="main-contents-title">
+      Contents
+    </div>
+
+    <button
+      class="main-contents-toggle"
+      onclick="toggleMainContents()"
+    >
+      <span id="contentsToggleText">Show contents</span>
+      <span class="main-contents-arrow"></span>
+    </button>
+
+  </div>
+
+  <div class="main-contents-list">
+`;
+
+  // BUILD MAIN CONTENTS LIST
+  for (const part of doc.parts) {
+
+    html += `
+      <a
+        href="#"
+        class="main-contents-item main-contents-part"
+        onclick="jumpToPart('${part.number}'); return false;"
+      >
+        <div class="main-contents-number">
+          Part ${part.number}
+        </div>
+
+        <div class="main-contents-name">
+          ${part.title || ""}
+        </div>
+      </a>
+    `;
+
+    // Sections directly under the Part
+    for (const section of part.sections) {
+
+      html += `
+        <a
+          href="#"
+          class="main-contents-item"
+          onclick="scrollSectionToMiddle('${section.number}'); return false;"
+        >
+          <div class="main-contents-number">
+            ${section.number}
+          </div>
+
+          <div class="main-contents-name">
+            ${section.heading || ""}
+          </div>
+        </a>
+      `;
+    }
+
+// Subparts
+for (const subpart of part.subparts) {
+
+  html += `
+    <div class="main-contents-item main-contents-subpart">
+      <div class="main-contents-name">
+        Subpart ${subpart.number}—${subpart.title || ""}
+      </div>
+    </div>
+  `;
+
+      for (const section of subpart.sections) {
+
+        html += `
+          <a
+            href="#"
+            class="main-contents-item"
+            onclick="scrollSectionToMiddle('${section.number}'); return false;"
+          >
+            <div class="main-contents-number">
+              ${section.number}
+            </div>
+
+            <div class="main-contents-name">
+              ${section.heading || ""}
+            </div>
+          </a>
+        `;
+      }
+    }
+  }
+
+  // Schedules
+  for (const schedule of doc.schedules) {
+
+    html += `
+      <a
+        href="#"
+        class="main-contents-item main-contents-part"
+        onclick="jumpToSchedule('${schedule.number}'); return false;"
+      >
+        <div class="main-contents-number">
+          Schedule ${schedule.number}
+        </div>
+
+        <div class="main-contents-name">
+          ${schedule.title || ""}
+        </div>
+      </a>
+    `;
+
+    for (const section of schedule.sections) {
+
+      html += `
+        <a
+          href="#"
+          class="main-contents-item"
+          onclick="scrollSectionToMiddle('${section.number}', true); return false;"
+        >
+          <div class="main-contents-number">
+            ${section.number}
+          </div>
+
+          <div class="main-contents-name">
+            ${section.heading || ""}
+          </div>
+        </a>
+      `;
+    }
+  }
+
+  html += `
+  </div>
+</div>
+`;
+
+for (const part of doc.parts) {
+  html += `
+    <div class="part" id="part-${part.number}">
+      <div class="part-number">Part ${part.number}</div>
+      <div class="part-title">${part.title}</div>
+    </div>
+  `;
+
+  // CASE 1: sections directly under part (no subparts)
+  for (const section of part.sections) {
+    html += renderSection(section);
+  }
+
+  // CASE 2: subparts
+  for (const subpart of part.subparts) {
+    html += `
+      <div class="subpart" id="subpart-${part.number}-${subpart.number}">
+        <div class="subpart-title">
+          Subpart ${subpart.number}—${subpart.title}
+        </div>
+      </div>
+    `;
+
+    for (const section of subpart.sections) {
+      html += renderSection(section);
+    }
+    
+  }
+
+
+  
+}
+
+  // RENDER SCHEDULES AFTER LAST SECTION
+  for (const schedule of doc.schedules) {
+
+    html += `
+      <div
+        class="part"
+        id="schedule-${schedule.number}"
+      >
+        <div class="part-number">
+          Schedule ${schedule.number}
+        </div>
+
+        <div class="part-title">
+          ${schedule.title}
+        </div>
+      </div>
+    `;
+
+    for (const section of schedule.sections) {
+      html += renderSection(section);
+    }
+  }
+
+  return html;
+}
+
+function scrollSectionToMiddle(ref, isSchedule = false) {
+
+  // Gets "5" from:
+  // 5
+  // 5(1)
+  // 5(1)(b)
+  // 5A(2)(c)
+  const sectionNumber = ref.match(/^[0-9]+[A-Za-z]*/)?.[0];
+
+  if (!sectionNumber) return;
+
+  const selector = isSchedule
+    ? `#schedule-section-${sectionNumber}`
+    : `#section-${sectionNumber}`;
+
+  const el = document.querySelector(selector);
+
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      window.innerHeight / 2 +
+      rect.height / 2,
+    behavior: "auto"
+  });
+
+  highlightSection(el);
+}
+
+function buildSidebar(doc) {
+  const sidebar = document.getElementById("sidebar");
+  const partFirstSection = {};
+
+  sidebar.innerHTML = `
+    <div class="section-link contents-row">
+      <div class="contents-code">Contents</div>
+      <div class="section-name"></div>
+      <button id="sidebarCloseBtn" class="sidebar-close">☰</button>
+    </div>
+  `;
+
+  sectionLinks = {}; // reset
+
+  doc.parts.forEach(part => {
+    // PART ROW
+    const partEl = document.createElement("div");
+    partEl.className = "section-link part-link";
+
+    partEl.innerHTML = `
+      <div class="section-code">Part ${part.number}</div>
+      <div class="section-name">${part.title || ""}</div>
+    `;
+
+    partEl.onclick = () => {
+      const first = partFirstSection[part.number];
+      if (!first) return;
+
+      document.querySelector(`#section-${first}`)
+        ?.scrollIntoView({ behavior: "auto" });
+
+      setActive(first);
+    };
+
+    sidebar.appendChild(partEl);
+
+    // 🔵 DIRECT SECTIONS (no subpart)
+    part.sections.forEach(sec => {
+      if (!partFirstSection[part.number]) {
+        partFirstSection[part.number] = sec.number;
+      }
+
+      const row = document.createElement("div");
+      row.className = "section-link";
+
+      row.innerHTML = `
+        <div class="section-code">${sec.number}</div>
+        <div class="section-name">${sec.heading}</div>
+      `;
+
+      row.onclick = () => {
+        scrollSectionToMiddle(sec.number);
+        setActive(sec.number);
+      };
+
+      sidebar.appendChild(row);
+      sectionLinks[sec.number] = row;
+    });
+
+    // 🟣 SUBPARTS + THEIR SECTIONS (THIS WAS MISSING)
+    part.subparts.forEach(subpart => {
+
+      const subpartEl = document.createElement("div");
+      subpartEl.className = "section-link subpart-link";
+
+        subpartEl.innerHTML = `
+          <div class="section-code">
+            Subpart ${subpart.number}
+          </div>
+          <div class="section-name">
+            ${subpart.title || ""}
+          </div>
+        `;
+
+      sidebar.appendChild(subpartEl);
+
+      subpart.sections.forEach(sec => {
+        if (!partFirstSection[part.number]) {
+          partFirstSection[part.number] = sec.number;
+        }
+
+        const row = document.createElement("div");
+        row.className = "section-link";
+
+        row.innerHTML = `
+          <div class="section-code">${sec.number}</div>
+          <div class="section-name">${sec.heading}</div>
+        `;
+
+        row.onclick = () => {
+          scrollSectionToMiddle(sec.number);
+          setActive(sec.number);
+        };
+
+        sidebar.appendChild(row);
+        sectionLinks[sec.number] = row;
+      });
+    });
+  });
+
+  // SCHEDULES
+doc.schedules?.forEach(schedule => {
+
+  const scheduleEl =
+    document.createElement("div");
+
+  scheduleEl.className =
+    "section-link part-link";
+
+  scheduleEl.innerHTML = `
+    <div class="section-code">
+      Schedule ${schedule.number}
+    </div>
+
+    <div class="section-name">
+      ${schedule.title}
+    </div>
+  `;
+
+  scheduleEl.onclick = () => {
+
+    const anchor =
+      document.querySelector(
+        `#schedule-${schedule.number}`
+      );
+
+    if (!anchor) return;
+
+    anchor.scrollIntoView({
+      behavior: "auto",
+      block: "start"
+    });
+  };
+
+  sidebar.appendChild(scheduleEl);
+
+  schedule.sections.forEach(sec => {
+
+    const row =
+      document.createElement("div");
+
+    row.className =
+      "section-link";
+
+    row.innerHTML = `
+      <div class="section-code">
+        ${sec.number}
+      </div>
+
+      <div class="section-name">
+        ${sec.heading}
+      </div>
+    `;
+
+      row.onclick = () => {
+        scrollSectionToMiddle(
+          sec.number,
+          true
+        );
+
+      setActive(
+        `schedule-${sec.number}`
+      );
+    };
+
+    sidebar.appendChild(row);
+
+    sectionLinks[
+    `schedule-${sec.number}`
+  ] = row;
+
+  });
+
+});
+}
+
+function setActive(id) {
+  document.querySelectorAll(".section-link").forEach(el => {
+    el.classList.remove("active");
+  });
+
+  const active = sectionLinks[id];
+
+  if (active) {
+    active.classList.add("active");
+    keepInSidebarView(active);
+  }
+
+  activeId = id;
+
+  // 💙 NEW: highlight the part too
+  const sectionEl = document.querySelector(`#section-${id}`);
+  if (sectionEl) {
+    const partBlock = sectionEl.closest(".part");
+    
+    document.querySelectorAll(".part").forEach(p => {
+      p.classList.remove("active-part");
+    });
+
+    if (partBlock) {
+      partBlock.classList.add("active-part");
+    }
+  }
+}
+
+function keepInSidebarView(el) {
+  const container = document.getElementById("sidebar");
+
+  const elTop = el.offsetTop;
+  const elBottom = elTop + el.offsetHeight;
+
+  const viewTop = container.scrollTop;
+  const viewBottom = viewTop + container.clientHeight;
+
+  if (elTop < viewTop) {
+    container.scrollTop = elTop - 20;
+  } else if (elBottom > viewBottom) {
+    container.scrollTop = elBottom - container.clientHeight + 20;
+  }
+}
+
+window.addEventListener("scroll", () => {
+  const viewportMiddle = window.innerHeight / 2;
+
+  let closestId = null;
+  let closestDistance = Infinity;
+
+  document.querySelectorAll(".section").forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+
+    const sectionMiddle = rect.top + rect.height / 2;
+    const distance = Math.abs(sectionMiddle - viewportMiddle);
+
+    if (distance < closestDistance) {
+      closestDistance = distance;
+      closestId =
+      sec.id.startsWith("schedule-section-")
+        ? `schedule-${sec.id.replace("schedule-section-", "")}`
+        : sec.id.replace("section-", "");
+    }
+  });
+
+  if (closestId && closestId !== activeId) {
+    setActive(closestId);
+  }
+});
+
+function toggleContents() {
+  document.getElementById("contents-box").classList.toggle("open");
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.id === "sidebarCloseBtn") {
+    document.body.classList.add("sidebar-hidden");
+  }
+});
+
+function openSidebar() {
+  document.body.classList.remove("sidebar-hidden");
+}
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+  const current = window.scrollY;
+
+  if (current > 40) {
+    document.body.classList.add("nav-hidden");
+  } else {
+    document.body.classList.remove("nav-hidden");
+  }
+
+  lastScroll = current;
+});
+
+window.addEventListener("scroll", () => {
+
+  // Mobile is always compact
+  if (window.innerWidth <= 768) return;
+
+  const y = window.scrollY;
+
+  if (y > 120) {
+    document.body.classList.add("compact-header");
+    document.body.classList.add("header-fixed");
+  } else {
+    document.body.classList.remove("compact-header");
+    document.body.classList.remove("header-fixed");
+  }
+});
+
+function downloadActPDF() {
+  if (!currentDoc || !currentDoc.actNumber) return;
+
+  const fileName = currentDoc.actNumber.trim() + ".pdf";
+  const filePath = "formatted-legislation/" + fileName;
+
+  // IMPORTANT: just open it directly (most reliable)
+  window.open(filePath, "_blank");
+}
+
+function updateBadges(doc) {
+  const typeEl = document.getElementById("badgeType");
+  const statusEl = document.getElementById("badgeStatus");
+  const versionEl = document.getElementById("badgeVersion");
+
+  // TYPE
+ if (doc.type?.toLowerCase() === "act") {
+    typeEl.textContent = "Act";
+    typeEl.className = "badge badge-gray";
+  } else if (doc.type?.toLowerCase() === "bill") {
+    typeEl.textContent = "Bill";
+    typeEl.className = "badge badge-gray";
+  } else if (doc.type?.toLowerCase() === "secondary") {
+    typeEl.textContent = "Secondary Legislation";
+    typeEl.className = "badge badge-gray";    
+  } else {
+    typeEl.textContent = doc.type || "Unknown";
+    typeEl.className = "badge badge-gray";
+  }
+
+  
+  // STATUS (example logic)
+  if (doc.status?.toLowerCase() === "in force") {
+    statusEl.textContent = "In force";
+    statusEl.className = "badge badge-green";
+  } else if (doc.status?.toLowerCase() === "current") {
+    statusEl.textContent = "Current";
+    statusEl.className = "badge badge-green";
+  } else if (doc.status?.toLowerCase() === "repealed") {
+    statusEl.textContent = "Repealed";
+    statusEl.className = "badge badge-red";
+  } else if (doc.status?.toLowerCase() === "not yet in force") {
+    statusEl.textContent = "Not yet in force";
+    statusEl.className = "badge badge-red";
+  } else if (doc.status?.toLowerCase() === "revoked") {
+    statusEl.textContent = "Revoked";
+    statusEl.className = "badge badge-red";
+  } else if (doc.status?.toLowerCase() === "terminated") {
+    statusEl.textContent = "Terminated";
+    statusEl.className = "badge badge-red";
+  } else {
+    statusEl.textContent = doc.status || "Unknown";
+    statusEl.className = "badge badge-gray";
+  }
+
+  // VERSION
+  if (doc.version?.toLowerCase() === "latest") {
+    versionEl.textContent = "Latest version";
+    versionEl.className = "badge badge-green";    
+  } 
+  else {
+    versionEl.textContent = doc.version || "Previous Version";
+    versionEl.className = "badge badge-red";
+  }
+}
+
+let searchMatches = [];
+let currentMatch = -1;
+
+function openSearchBox() {
+  document.getElementById("searchOverlay").style.display = "block";
+  document.getElementById("searchInput").focus();
+}
+
+function closeSearchBox() {
+  document.getElementById("searchOverlay").style.display = "none";
+}
+
+function clearHighlights() {
+  document.querySelectorAll(".search-match").forEach(el => {
+    el.outerHTML = el.textContent;
+  });
+}
+
+function highlightMatches(term) {
+  clearHighlights();
+
+  if (!term) return;
+
+  const regex = new RegExp(
+    term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+    "gi"
+  );
+
+  document.querySelectorAll(
+    ".section-title, .clause, .footnote"
+  ).forEach(el => {
+    el.innerHTML = el.innerHTML.replace(
+      regex,
+      match => `<span class="search-match">${match}</span>`
+    );
+  });
+}
+
+function searchContent() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim()
+    .toLowerCase();
+
+  searchMatches = [];
+  currentMatch = -1;
+
+  clearHighlights();
+
+  if (!term) return;
+
+  highlightMatches(term);
+
+  document.querySelectorAll(".section").forEach(section => {
+    if (section.textContent.toLowerCase().includes(term)) {
+      searchMatches.push(section);
+    }
+  });
+
+  document.getElementById("searchCount").textContent =
+    `${searchMatches.length} result(s)`;
+
+  if (searchMatches.length) {
+    currentMatch = 0;
+    goToMatch();
+  }
+}
+
+function goToMatch() {
+
+  document
+    .querySelectorAll(".search-match")
+    .forEach(el => el.classList.remove("current-match"));
+
+  if (
+    currentMatch < 0 ||
+    currentMatch >= searchMatches.length
+  ) return;
+
+  const section = searchMatches[currentMatch];
+
+  const firstMatch =
+    section.querySelector(".search-match");
+
+  if (firstMatch) {
+    firstMatch.classList.add("current-match");
+  }
+
+  const rect = section.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "smooth"
+  });
+
+  document.getElementById("searchCount").textContent =
+    `${currentMatch + 1} of ${searchMatches.length}`;
+}
+
+function searchNext() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim();
+
+  if (!searchMatches.length) {
+    searchContent();
+    return;
+  }
+
+  currentMatch++;
+
+  if (currentMatch >= searchMatches.length) {
+    currentMatch = 0;
+  }
+
+  goToMatch();
+}
+
+function searchPrevious() {
+  const term = document
+    .getElementById("searchInput")
+    .value
+    .trim();
+
+  if (!searchMatches.length) {
+    searchContent();
+    return;
+  }
+
+  currentMatch--;
+
+  if (currentMatch < 0) {
+    currentMatch = searchMatches.length - 1;
+  }
+
+  goToMatch();
+}
+
+function jumpToPart(number) {
+  const el = document.getElementById(`part-${number}`);
+
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "auto"
+  });
+}
+
+function jumpToSchedule(number) {
+  const el = document.getElementById(`schedule-${number}`);
+
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top:
+      window.scrollY +
+      rect.top -
+      (window.innerHeight / 2) +
+      (rect.height / 2),
+    behavior: "auto"
+  });
+}
+
+searchButton.addEventListener("click", () => {
+  const query = searchInput.value.trim();
+
+  if (!query) return;
+
+  window.dispatchEvent(new CustomEvent("navbar-search", {
+    detail: query
+  }));
+});
+
+function updateHeaderMode() {
+  if (window.innerWidth <= 768) {
+    document.body.classList.remove("compact-header");
+    document.body.classList.remove("header-fixed");
+  }
+}
+
+function highlightSection(el) {
+  document.querySelectorAll(".section-highlight")
+    .forEach(s => s.classList.remove("section-highlight"));
+
+  el.classList.add("section-highlight");
+
+  setTimeout(() => {
+    el.classList.remove("section-highlight");
+  }, 1000);
+}
+
+function toggleMainContents() {
+  const box = document.getElementById("mainContents");
+  const text = document.getElementById("contentsToggleText");
+
+  box.classList.toggle("open");
+
+  if (box.classList.contains("open")) {
+    text.textContent = "Hide contents";
+  } else {
+    text.textContent = "Show contents";
+  }
+}
+
+</script>
+<script src="components/navbar.js"></script>
+<script src="components/footer.js"></script>
+
+<div id="searchOverlay" style="display:none;">
+  <div id="searchBox">
+    <div class="search-header">
+      Search content
+      <button onclick="closeSearchBox()">✕</button>
+    </div>
+
+    <div class="search-body">
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Search this Act..."
+        onkeydown="if(event.key==='Enter') searchContent()"
+      >
+
+      <button onclick="searchPrevious()">◀</button>
+      <button onclick="searchNext()">▶</button>
+    </div>
+
+    <div id="searchCount"></div>
+  </div>
+</div>
+
+</body>
+</html>
