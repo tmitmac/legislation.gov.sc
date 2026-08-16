@@ -1,12 +1,15 @@
 const acts = [
   /* 2020s */
-  { number: "189—1", name: "Referendums Bill", file: "viewer.html?act=2000-2099/2026/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  /* 2026 */
+  { number: "190—1", name: "Electoral Amendment Bill", file: "billviewer.html?act=2000-2099/2026/electoral-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  { number: "189—1", name: "Referendums Bill", file: "billviewer.html?act=2000-2099/2026/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 04", name: "Westland (Tierras del oeste) Empowerment Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 03", name: "Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026", file: "viewer.html?act=2000-2099/2026/ministry-of-agriculture-fisheries-and-natural-resources-establishment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},  
-  { number: "188—1", name: "Employment Holidays Bill", file: "viewer.html?act=2000-2099/2026/employment-holidays-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Labour & Employment"},
-  { number: "187—1", name: "Appropriations (June Estimates) Bill", file: "viewer.html?act=2000-2099/2026/appropriations-(june-estimates)-bill-2026.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Finance"},
+  { number: "188—1", name: "Employment Holidays Bill", file: "billviewer.html?act=2000-2099/2026/employment-holidays-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Labour & Employment"},
+  { number: "187—1", name: "Appropriations (June Estimates) Bill", file: "billviewer.html?act=2000-2099/2026/appropriations-(june-estimates)-bill-2026.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Finance"},
   { number: "2026 No 02", name: "Immigration Security and Border Integrity Act 2026", file: "viewer.html?act=2000-2099/2026/immigration-security-and-border-integrity-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Immigration & Customs"},
   { number: "2026 No 01", name: "Electoral (Online Voting) Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-(online-voting)-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  /* 2025 */
   { number: "2025 No 44", name: "Criminal Responsibility (Age Reduction) Amendment Act 2025", file: "viewer.html?act=2000-2099/2025/criminal-responsibility-age-reduction-amendment-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2025 No 43", name: "Defence Expansion Act 2025", file: "viewer.html?act=2000-2099/2025/defence-expansion-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Defence"},
   { number: "2025 No 42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=2000-2099/2025/federal-revenue-and-tax-reform-act-2025-version-2.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
@@ -30,6 +33,7 @@ const acts = [
   { number: "1983 No 124", name: "Agriculture Act 1983", file: "viewer.html?act=1900-1999/1983/agriculture-act-1983.txt", year: 1983, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
   /* 1970s */
   { number: "1979 No 12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979.txt", year: 1979, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
+  { number: "1975 No 99", name: "Injury Rehabilitation and Compensation Act 1975", file: "viewer.html?act=1900-1999/1975/injury-rehabilitation-and-compensation-act-1975.txt", year: 1975, type: "act", inForce: true, bill: false, agency: "Injury Rehabilitation and Compensation Commission"},
   /* 1960s */
   { number: "1967 No 29", name: "Decimal Currency Act 1967", file: "viewer.html?act=1900-1999/1967/decimal-currency-act-1967.txt", year: 1967, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
   { number: "1964 No 32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt", year: 1963, type: "act", inForce: true, bill: false, agency: "Department of Internal Affairs"}, 
