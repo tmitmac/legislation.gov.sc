@@ -1498,6 +1498,38 @@ body.compact-header .bottom-row {
   width: 18px;
   height: 30px;
 }
+
+/* Mobile act header fixes */
+@media (max-width: 768px) {
+  .act-header {
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .act-header-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .act-header-details {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .act-header-details .government-bill {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.act-header-after-commentary {
+  margin-top: 10px;
+}
 </style>
 
 
@@ -2186,6 +2218,21 @@ function renderLegislation(doc) {
 
 ${renderCommentary(doc)}
 
+<div class="act-header act-header-after-commentary">
+
+  <div class="act-header-title">
+    ${doc.title}
+  </div>
+
+  <div class="act-header-details">
+    <div class="government-bill">
+      <div class="government-bill-type">Government Bill</div>
+      <div class="government-bill-number">${doc.actNumber}</div>
+    </div>
+  </div>
+
+</div>
+
 <!-- MAIN CONTENTS BAR -->
 <div class="main-contents" id="mainContents">
 
@@ -2221,6 +2268,8 @@ ${renderCommentary(doc)}
       </a>
     `;
   }
+
+  
 
   // BUILD MAIN CONTENTS LIST
   for (const part of doc.parts) {
