@@ -12,15 +12,91 @@ VERSIONTITLE: Introduction 5 August 2026
 
 AGENCY: Ministry of Justice & Corrections
 
-DATEOFASSENT: see section 2
+COMMENTARYTITLE: As reported from the Justice & Governance Committee
+COMMENTARYHEADING: Commentary
 
-COMMENCEMENT: see section 2
+COMMENTARYSECTION: Recommendation
+The Justice and Governance Committee has examined the Bill and recommends by majority that it be passed.
+
+COMMENTARYSECTION: About the bill as introduced
+The Referendums Bill (the **Bill**) seeks to repeal Part 15 of the *Electoral Act 1986* and establish a permanent legislative framework for the conduct of referendums in Square Country.
+
+The bill is intended to provide a clear and consistent set of rules governing the administration of referendums, while ensuring that the conduct of a referendum is integrated with the country’s wider electoral system. The framework is designed to apply to referendums held on matters referred to electors by Parliament or otherwise authorised by legislation.
+
+The bill would transfer the principal statutory framework for the conduct of referendums from Part 15 of the *Electoral Act 1986* into a dedicated Referendums Act. This would make the rules relating to referendums easier to identify and administer, while allowing the electoral legislation governing general elections to continue to apply where appropriate.
+
+The bill provides for the **Electoral Commission** to administer referendums and establishes rules concerning the appointment and functions of electoral officials, polling places, voter eligibility, referendum voting papers, voting procedures, the counting and declaration of referendum votes, and the publication of official results.
+
+The bill would also establish procedures for questioning the validity or result of a referendum, including mechanisms for applications to the courts where an alleged irregularity may have materially affected the outcome. It provides for appropriate offences and penalties in connection with the conduct of referendums.
+
+A significant purpose of the bill is to provide a framework that can be used for different types of referendums without requiring a separate procedural regime to be enacted for each individual referendum. The substantive question put to electors would continue to be determined by the legislation or other authority establishing the referendum, while the bill would provide the machinery through which that referendum is conducted.
+
+The bill also provides for referendum advertising and campaigning to be subject to appropriate controls. These provisions are intended to promote transparency around referendum promoters and expenditure and to provide safeguards against excessive or unauthorised expenditure during a regulated period.
+
+The framework broadly follows the principles and administrative arrangements used for parliamentary elections. This approach would allow existing electoral infrastructure, personnel, polling places and administrative systems to be used for referendums wherever practicable. It would also provide voters and campaign participants with a familiar and consistent set of electoral procedures.
+
+The bill accordingly seeks to replace the existing referendum provisions in Part 15 of the *Electoral Act 1986* with a dedicated and comprehensive legislative framework, providing greater clarity, consistency and certainty for the conduct of referendums in Square Country.
+
+COMMENTARYSECTION: Legislative scrutiny
+The Committee has examined the Bill to ensure that its proposed referendum framework is clear, workable, and consistent with the wider electoral system of Square Country.
+
+Key matters considered include:
+
+• Repeal of Part 15: Whether the repeal of Part 15 of the Electoral Act 1986 appropriately removes the existing referendum framework.
+• Electoral Commission: Whether the Commission has appropriate powers and responsibilities to administer referendums.
+• Voting procedures: Whether the proposed rules provide clear and accessible procedures for voters.
+• Campaigning and advertising: Whether appropriate safeguards are provided for referendum campaigns and expenditure.
+• Offences and enforcement: Whether the proposed offences and penalties are proportionate and enforceable.
+• Judicial oversight: Whether sufficient mechanisms exist to challenge referendum irregularities and the validity of results.
+
+The bill is intended to provide a clear, standalone legislative framework while maintaining consistency with established electoral law and administrative practice.
+
+COMMENTARYSECTION: Our process and proposed amendments
+
+Our process and proposed amendments
+
+The bill has been considered through the legislative scrutiny process, with particular attention given to whether the proposed referendum framework is clear, practical, and consistent with existing electoral law.
+
+Following this consideration, the following amendments are proposed:
+
+• **Clarifying the Electoral Commission’s role** in administering and supervising referendums.
+• **Improving drafting consistency** between the proposed Act and existing electoral legislation.
+• **Clarifying referendum procedures**, including voting, counting, and the declaration of results.
+• **Strengthening transparency requirements** for referendum advertising and campaign expenditure.
+• **Clarifying transitional provisions** following the repeal of Part 15 of the *Electoral Act 1986*.
+• **Correcting minor drafting and consequential amendments** required as a result of establishing the new framework.
+
+These amendments are intended to improve the clarity and operation of the bill without changing its fundamental purpose of establishing a dedicated legislative framework for referendums in Square Country.
+
+COMMENTARYSECTION: Square Country Greens differing view
+
+The Square Country Greens do not support this bill. Throughout the committee process we have seen time and again the government removing the powers of the Electoral Commission, in favour of their own rules and regulations that undermine the freeness, fairness, and independence of electoral matters in Square Country.
+
+We believe that Part 15 of the *Electoral Act 1986* is currently perfectly capable of providing the legal framework for which referendums are held under in Square Country. Not to mention the fact that referendums do not take place in Square Country often—the last one being in 1986 for the transition to Mixed-Member Proportional (MMP).
+
+We also believe that this bill opens the door to more campaigning, making it easier to sway voters in a particular direction when it comes to referendum voting. Whilst this was never illegal, it was heavily regulated under the *Electoral Act 1986*. Now, a number of critical checks, balances, and rules have been abolished, opening the door to significant interference in genuine referendums.
+
+It is for these reasons that the Square Country Greens do not support this bill.
+
+COMMENTARYSECTION: Innovation Party differing view
+
+The Innovation Party does not support this bill. We believe that the Referendums Bill is not neccessary and does not address the key issues around party donations, lobbying, opening voting rights to non-citizens.
+
+It is for this reason that the Innovation Party does not support this bill.
+
+COMMENTARYSECTION: Committee membership
+
+Rt Hon Trent McKenzie (Chairperson)
+Hon David Bradham
+Hon Norman Chylinski
+Anna Corfield
+Rt Hon Ryan Parker
+Erin Starling
+David Thornfield
+Sarah Voss
 
 PARTNUMBER: 1
-
-PARTTITLE: Explanatory Note
-
-The objective of the Employment Holiday Bill (the **Bill**) is to 
+PARTTITLE: Preliminary provisions
 
 SECTION: 1
 
@@ -40,7 +116,11 @@ HEADING: Purpose
 
 The purpose of this act is to—
 (a) repeal Part 15 (Referendums) of the [[Act:Electoral Act 1986]];
-(b) provide for clear and consistent law in regards to the conduct of referendums in Square Country.
+(b) to provide for the conduct of referendums in Square Country;
+(c) to ensure that referendums are administered fairly and impartially;
+(d) to regulate campaigning and advertising relating to referendum questions;
+(e) to provide for the counting and certification of referendum results;
+(f) to distinguish between binding and indicative referendums.
 
 SECTION: 4
 
@@ -53,8 +133,56 @@ SECTION: 5
 HEADING: Interpretation
 
 1. In this Act, unless the context otherwise requires—
-**Act** means the [[Act:Electoral Act 1986]].
-**advance vote** means a vote cast before polling day in accordance with Part 10 of the Act.
+**advertisement** means any form of communication, whether published in print, broadcast, displayed electronically, distributed physically, or communicated by any other means, that is intended to influence the outcome of a referendum or encourage or discourage voting on a referendum question;
+**approved form** means a form approved by the Electoral Commission for the purposes of this Act;
+**campaign** means any organised activity undertaken for the purpose of promoting or opposing a referendum question or a particular response to that question;
+**campaign expenditure** means expenditure incurred for the purpose of promoting or opposing a referendum question and includes expenditure on advertising, publications, events, broadcasting, digital communications, opinion polling, and any other prescribed matter;
+**campaign organisation** means a body, association, incorporated society, company, political party, or other organisation that is registered under this Act to campaign in relation to a referendum;
+**candidate** has the same meaning as in the [[Act:Electoral Act 1986]] where the context requires;
+**Chief Electoral Officer** means the Chief Electoral Officer appointed under the [[Act:Electoral Act 1986]];
+**Commission** means the Electoral Commission established under the [[Act:Electoral Act 1986]];
+**count** includes the preliminary count, official count, recount, and any verification of referendum votes conducted under this Act;
+**declaration of the result** means the formal declaration of the official result of a referendum by the Electoral Commission;
+**elector** means a person whose name appears on an electoral roll and who is entitled to vote in a referendum under this Act;
+**electoral district** means an electoral district established under the Electoral Act 1986;
+**electoral roll** means a roll of electors prepared and maintained under the Electoral Act 1986;
+**electronic communication** includes communication by email, internet website, social media platform, text message, mobile application, or any other digital means;
+**government agency** means any Ministry, department, Crown entity, statutory authority, local authority, or other public body established by or under an enactment;
+**Minister** means the Minister of Justice & Corrections;
+**Ministry** means the Ministry of Justice & Corrections;
+**official count** means the final count of referendum votes undertaken by the Electoral Commission under this Act;
+**official result** means the result declared following completion of the official count;
+**Parliament** means His Majesty's Parliament of Square Country;
+**person** includes an individual, corporation, incorporated society, partnership, trust, government agency, political party, or any other legal entity;
+**polling day** means the day appointed for the holding of a referendum;
+**polling place** means a place appointed by the Electoral Commission at which referendum votes may be cast;
+**postal vote** means a referendum vote cast by post in accordance with this Act;
+**prescribed** means prescribed by regulations made under this Act;
+**question** means the proposition, proposal, or matter submitted to electors for determination at a referendum and includes any explanatory wording approved under this Act;
+**referendum** means a poll of electors conducted under this Act for the purpose of determining the opinion or decision of electors on one or more specified questions;
+**referendum period** means the period beginning on the day a referendum is formally announced and ending on the day the official result is declared;
+**referendum vote** means a vote cast by an elector at a referendum conducted under this Act;
+**regulations** means regulations made under this Act;
+**returning officer** means a returning officer appointed under the Electoral Act 1986 or under this Act;
+**scrutineer** means a person appointed under this Act to observe voting, counting, recounting, or other referendum procedures;
+**special vote** means a referendum vote cast under the special voting provisions of this Act;
+**tied result** means a result in which the number of valid votes cast in favour of each available response is equal;
+**valid vote** means a referendum vote that is accepted as valid under this Act;
+**voter** means an elector who is entitled to cast, or who casts, a referendum vote.
+2. A reference in this Act to voting includes voting in person, by post, by advance voting, by special voting, by online voting, or by any other method authorised by this Act.
+3. Unless expressly provided otherwise, words and expressions defined in the Electoral Act 1986 have the same meanings in this Act.
+4. A reference in this Act to a referendum includes—
+(a) a binding referendum; and
+(b) a non-binding or indicative referendum; and
+(c) a constitutional referendum; and
+(d) a citizens-initiated referendum; and
+(e) any other class of referendum authorised by or under an enactment.
+5. In interpreting this Act, regard must be had to the principles that—
+(a) every eligible elector should have a reasonable opportunity to vote;
+(b) referendum processes should be conducted fairly, impartially, transparently, and efficiently;
+(c) referendum results should accurately reflect the valid votes cast by electors; and
+(d) public confidence in the integrity of referendum processes should be maintained.
+
 
 
 SECTION: 6
@@ -64,10 +192,41 @@ HEADING: Applications of this Act
 1. This Act shall apply within all Square Country territory.
 2. This Act applies to all referendums held after its commencement.
 
+SECTION: 7
+
+HEADING: Relationship with the Electoral Act 1986
+
 
 PARTNUMBER: 2
 
 PARTTITLE: Referendums
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: General Provisions of Referendums
+
+SECTION: 8
+
+HEADING: Types of Referendums
+
+SECTION: 9
+
+HEADING: Binding referendums
+
+SECTION: 10
+
+HEADING: Indicative referendums
+
+SECTION: 11
+
+HEADING: Referendums required by other acts
+
+SECTION: 12
+
+HEADING: Referendums on constitutional matters
+
+
+
 
 
 SCHEDULENUMBER: 1
