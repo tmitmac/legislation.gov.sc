@@ -8,11 +8,269 @@ STATUS: Current
 
 VERSION: Latest
 
+VERSIONTITLE: Reported from the Education & Workforce Committee
+
 AGENCY: Ministry of Labour & Employment
 
-DATEOFASSENT: see section 2
+COMMENTARYTITLE: As reported from the Education & Workforce Committee
 
-COMMENCEMENT: see section 2
+COMMENTARYHEADING: Commentary
+
+COMMENTARYSECTION: Recommendation
+
+The Education & Workforce Committee has examined the Bill and recommends by majority that it be passed, with the amendments set out in this commentary.
+
+The Committee considers that the Bill would make significant improvements to the operation of employment leave entitlements in Square Country by replacing the existing statutory framework with a clearer and more consistent system for annual holidays, public holidays, sick leave, bereavement leave, family violence leave, and other employment-related leave.
+
+The Committee recognises that the Bill represents a substantial reform of employment law. While members have differing views about the appropriate balance between employee entitlements and obligations on employers, the majority considers that the existing framework has become unnecessarily complex and that legislative reform is required.
+
+COMMENTARYSECTION: About the bill as introduced
+
+The Employment Holidays Bill (the **Bill**) seeks to reform and consolidate the statutory framework governing holidays and leave entitlements for employees in Square Country.
+
+The Bill is intended to provide employees and employers with a clearer understanding of their respective rights and obligations while reducing uncertainty around the calculation, administration, and payment of employment leave.
+
+The principal purpose of the Bill is to establish a modern and more straightforward system for determining minimum employment leave entitlements. It would replace a number of existing rules and calculation methods with a more consistent statutory framework.
+
+The Bill would provide for minimum entitlements relating to:
+
+• **Annual holidays**, including the entitlement to paid annual leave and rules governing when and how annual holidays may be taken.
+
+• **Public holidays**, including rules concerning an employee's entitlement to be absent from work on a public holiday and the circumstances in which an employee may be required to work.
+
+• **Alternative holidays**, including circumstances in which an employee who works on a public holiday may receive an alternative day off.
+
+• **Sick leave**, including the circumstances in which an employee may take paid sick leave and the evidence that may be required.
+
+• **Bereavement leave**, providing employees with leave following the death of a close family member or another person where the statutory criteria are met.
+
+• **Family violence leave**, providing protections for employees affected by family violence.
+
+• **Parental and other statutory leave**, where those entitlements interact with the wider holidays framework.
+
+A central feature of the Bill is the simplification of holiday and leave calculations.
+
+The existing framework can require employers to apply different calculations depending on the type of leave being taken, an employee's work pattern, and the nature of their remuneration. The Bill seeks to reduce this complexity by establishing clearer statutory definitions and calculation methods.
+
+The Bill would also provide rules for employees whose working hours or patterns are irregular. These provisions are intended to ensure that employees working part-time, variable, casual, or non-standard hours are able to determine their entitlements without requiring employers to rely on unnecessarily complicated calculations.
+
+The Bill would establish rules for the treatment of ordinary earnings and other payments when calculating holiday and leave payments. The Committee considers that greater clarity in this area is particularly important because disputes over holiday pay can result in significant financial consequences for both employees and employers.
+
+The Bill would also clarify the circumstances in which an employee and employer may agree that annual holidays will be taken at particular times. It would preserve the principle that employees are entitled to take their minimum statutory holidays and that employers cannot contract out of minimum employment standards.
+
+The Bill would provide employers with greater flexibility to manage leave where there are legitimate operational requirements, while retaining statutory protections for employees.
+
+The Bill also addresses the treatment of public holidays.
+
+It would establish a clearer framework for determining whether a public holiday falls on a day that would otherwise be a working day for an employee. This is particularly relevant for employees who work rotating rosters, irregular hours, or non-standard working weeks.
+
+Where an employee works on a public holiday, the Bill would provide for the applicable payment and alternative holiday arrangements. The Committee considers that these provisions should provide greater certainty for employers while preserving the principle that employees who work on public holidays should receive the statutory benefits associated with doing so.
+
+The Bill further provides for record-keeping requirements.
+
+Employers would be required to maintain sufficient records to demonstrate employees' hours, leave entitlements, leave taken, and payments made under the Act. These requirements are intended to support compliance and allow employees and enforcement authorities to establish whether statutory entitlements have been correctly provided.
+
+The Bill would also contain enforcement provisions.
+
+Employees would retain avenues for raising employment disputes where they believe their statutory entitlements have not been provided. Employers who fail to comply with the Act could be subject to enforcement action and applicable penalties.
+
+The Committee considers that effective enforcement is necessary because minimum employment standards are intended to apply universally and should not depend solely on an employee's ability to negotiate with their employer.
+
+The Bill would also include transitional provisions to manage the change from the existing holidays framework to the new system.
+
+These provisions are particularly important because employees may have accrued leave under the existing legislation before the new Act comes into force. The Committee has therefore considered whether employees could lose accrued entitlements as a consequence of the reform.
+
+The Committee considers that accrued minimum entitlements should be protected during the transition and that employers should be given sufficient time and guidance to update payroll and employment systems.
+
+Overall, the Bill seeks to create a more comprehensible and administratively workable holidays system while maintaining minimum statutory protections for employees.
+
+COMMENTARYSECTION: Legislative scrutiny
+
+The Committee has undertaken detailed legislative scrutiny of the Bill because of the breadth of the proposed changes and their potential effect on almost every employment relationship in Square Country.
+
+The Committee's consideration focused particularly on whether the Bill would produce a simpler and more predictable system without reducing the minimum protections currently available to employees.
+
+Key matters considered include:
+
+• **Annual holidays:** Whether the proposed entitlement and accrual arrangements provide employees with a meaningful right to paid annual leave.
+
+• **Holiday pay:** Whether the proposed calculation methods are sufficiently clear and accurately reflect the employee's ordinary earnings.
+
+• **Public holidays:** Whether the Bill appropriately determines when an employee is entitled to a public holiday and how work performed on public holidays should be compensated.
+
+• **Alternative holidays:** Whether employees who work on public holidays receive an appropriate alternative entitlement.
+
+• **Sick leave:** Whether the proposed entitlement provides adequate protection for employees while remaining workable for employers.
+
+• **Bereavement leave:** Whether the statutory framework appropriately recognises different family and personal circumstances.
+
+• **Family violence leave:** Whether the Bill provides sufficient protection for employees affected by family violence.
+
+• **Irregular and variable work:** Whether employees with non-standard working arrangements can readily determine their entitlements.
+
+• **Casual employees:** Whether the Bill provides appropriate treatment for employees whose hours and working patterns vary significantly.
+
+• **Record keeping:** Whether employers have sufficient obligations to demonstrate compliance with the Act.
+
+• **Enforcement:** Whether employees have effective avenues for recovering unpaid or incorrectly calculated entitlements.
+
+• **Transitional arrangements:** Whether employees' existing entitlements are adequately protected when the new framework comes into force.
+
+• **Employer compliance costs:** Whether the proposed framework can reasonably be implemented by businesses of different sizes.
+
+• **Interaction with employment agreements:** Whether employers and employees can negotiate additional benefits while retaining the statutory minimum standards established by the Bill.
+
+The Committee received submissions from employees, employers, businesses, unions, professional organisations, and other interested parties.
+
+A number of submitters supported the objective of simplifying the Holidays framework but expressed concern about the transition to the new system.
+
+Other submitters argued that the Bill should go further by increasing minimum leave entitlements, while some employers argued that the proposed framework should provide greater flexibility and reduce compliance costs.
+
+The Committee has considered these competing views and has recommended amendments intended to improve the clarity and operation of the Bill.
+
+COMMENTARYSECTION: Our process and proposed amendments
+
+The Committee has undertaken its consideration of the Bill through written submissions, oral evidence, departmental advice, and detailed examination of the Bill's individual provisions.
+
+Given the significance of the Bill, the Committee has not treated the legislation as a simple technical amendment. Members have considered the practical consequences for employees, employers, payroll systems, small businesses, and the wider employment system.
+
+The Committee proposes amendments in several key areas.
+
+**Clarification of holiday calculations**
+
+The Committee recommends amendments to clarify the calculation of annual holiday payments and other leave payments. The intention is to reduce uncertainty and ensure that employees receive the amount to which they are legally entitled.
+
+**Protection of accrued entitlements**
+
+The Committee recommends strengthening the transitional provisions so that employees do not lose accrued statutory entitlements solely because the legislative framework changes.
+
+**Public holiday arrangements**
+
+The Committee recommends amendments clarifying how public holidays apply to employees working irregular or rotating schedules.
+
+**Alternative holidays**
+
+The Committee recommends clearer provisions concerning when an alternative holiday arises and when it may be taken.
+
+**Sick leave evidence**
+
+The Committee recommends clarifying when an employer may request medical evidence and who is responsible for any associated costs.
+
+**Record keeping**
+
+The Committee recommends clearer requirements for employers to maintain records relating to hours worked, leave taken, and payments made.
+
+**Small-business implementation**
+
+The Committee recommends transitional and guidance provisions to assist smaller employers in moving to the new framework without compromising employees' statutory rights.
+
+**Drafting and consequential amendments**
+
+The Committee recommends a number of technical amendments to improve consistency with other employment legislation and correct drafting, cross-referencing, and consequential issues identified during scrutiny.
+
+The Committee considers that these amendments would improve the workability of the Bill without altering its fundamental purpose.
+
+COMMENTARYSECTION: Freedoms Party differing view
+
+The Freedoms Party does not support the Bill in its present form.
+
+We believe the Government has approached this legislation from the wrong direction. Instead of treating paid holidays and leave as fundamental employment protections, the Bill places too much emphasis on simplifying the system for employers while failing to provide a sufficiently ambitious improvement in the rights of working people.
+
+The existing Holidays framework is undoubtedly complicated. However, complexity is not in itself a reason to reduce or restrict an employee's entitlement. Where the existing system is difficult to administer, the answer should be to improve the law and provide employers with better guidance—not to make employees carry the cost of reform.
+
+The Freedoms Party is particularly concerned about the treatment of annual holidays.
+
+Employees should have a clear and meaningful right to take paid time away from work. We are concerned that the proposed framework could create circumstances where employees have less certainty about when leave can be taken or how much they are entitled to receive.
+
+We are also concerned about the treatment of workers with irregular hours.
+
+Many workers do not work a conventional Monday-to-Friday week. Rosters, variable hours, shift work, and casual employment are increasingly common. The law must ensure that these workers are not disadvantaged simply because their working arrangements are different.
+
+The Freedoms Party also considers that the Bill does not go far enough in strengthening sick leave and family-related leave.
+
+People should not be forced to choose between attending work while sick and losing income. Nor should employees facing serious family circumstances have to negotiate basic dignity and security with their employer.
+
+We therefore consider that the Bill should have been accompanied by a broader increase in minimum leave entitlements.
+
+The Freedoms Party also opposes provisions that we believe give employers excessive flexibility in determining when employees can take leave.
+
+Employment is not an equal bargaining relationship in every circumstance. An employee may technically have a right under an employment agreement while lacking the practical ability to exercise that right.
+
+For these reasons, the Freedoms Party does not support the Bill.
+
+We believe a substantially stronger employment holidays framework is required—one that places the wellbeing, security, and rights of working people at its centre.
+
+COMMENTARYSECTION: Square Country Greens differing view
+
+The Square Country Greens support the objective of reforming the holidays system but do not support the Bill in its present form.
+
+We believe the Bill represents a missed opportunity to establish a genuinely modern employment leave framework for Square Country.
+
+The Greens agree that the existing system can be unnecessarily complicated. However, simplification must not become a justification for weakening employee protections.
+
+We are particularly concerned that the Bill treats leave primarily as an administrative issue rather than recognising its importance to workers' health, family life, and wellbeing.
+
+The Greens believe employees should have a stronger statutory entitlement to paid annual leave, sick leave, and family-related leave.
+
+We are also concerned about the position of workers in insecure employment.
+
+Casual workers, workers on variable rosters, and people employed across multiple workplaces can experience particular difficulty exercising their leave entitlements. A system that works well for a permanent full-time employee may not work equally well for someone whose hours change from week to week.
+
+The Greens therefore believe that the Bill should contain stronger protections against employees losing practical access to their statutory entitlements because of their employment arrangements.
+
+We also believe that family violence leave should be treated as a fundamental employment protection. Employees experiencing family violence may require flexibility, time away from work, and financial security. The legislation should make it as easy as reasonably possible for those employees to access their entitlements without exposing them to unnecessary scrutiny.
+
+The Greens further believe that the Bill should do more to address the environmental and social consequences of long working hours and inadequate access to rest.
+
+Annual holidays are not simply a financial benefit. They provide employees with an opportunity to rest, spend time with family and friends, and participate in their communities.
+
+We therefore believe the Bill should establish a stronger minimum standard and provide additional protections for vulnerable workers.
+
+While we acknowledge the work undertaken by the Committee to improve the Bill, the Greens cannot support the legislation in its current form.
+
+COMMENTARYSECTION: Innovation Party differing view
+
+The Innovation Party opposes the Bill.
+
+Our position differs from both the Freedoms Party and the Square Country Greens. We do not believe that the central problem with the existing holidays system is that employees have insufficient leave or that employers have excessive flexibility.
+
+Instead, we believe the Bill is an unnecessarily large intervention in an area that could be addressed through a substantially simpler legislative framework.
+
+The Bill attempts to rewrite a large part of the employment holidays system while introducing significant new compliance obligations for employers.
+
+For businesses, particularly small and innovative businesses, changing payroll systems and employment processes can carry significant costs. Those costs ultimately have to be absorbed by businesses, employees, or consumers.
+
+The Innovation Party supports clear minimum employment standards, but legislation should be proportionate, technologically neutral, and straightforward to administer.
+
+We are also concerned that the Bill does not adequately account for modern workplaces.
+
+Employment is changing rapidly. Flexible working arrangements, remote work, project-based employment, contracting, and variable hours are increasingly common.
+
+Rather than creating another highly prescriptive framework, Parliament should establish clear minimum standards and allow employers and employees to agree on arrangements that suit their circumstances.
+
+The Innovation Party is particularly concerned about the administrative complexity created by the Bill's record-keeping and calculation provisions.
+
+We believe modern payroll technology should be used to simplify compliance rather than requiring employers to navigate increasingly detailed statutory rules.
+
+The Innovation Party also considers that the Government has not adequately demonstrated why such a comprehensive rewrite is required at this time.
+
+There are genuine problems with the existing system, but those problems could have been addressed through targeted amendments, improved guidance, and modernisation of payroll requirements.
+
+We therefore believe the Bill is too broad, too prescriptive, and likely to impose unnecessary compliance costs.
+
+The Innovation Party does not support the Bill and would instead support a narrower reform package focused on simplifying calculations, digitising employment records, and ensuring that existing minimum employee protections are properly enforced.
+
+COMMENTARYSECTION: Committee membership
+
+Rt Hon Trent McKenzie (Chairperson)
+Lisa Bancroft
+Hon David Campbell
+Hon Jenny Crossfield
+Greg Redfern
+Abbey Renfield
+Sarah Voss
+Nicola Wong
+
 
 PARTNUMBER: 1
 
