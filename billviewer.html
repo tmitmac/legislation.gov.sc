@@ -345,6 +345,100 @@ body.sidebar-hidden #sidebar {
   margin-bottom: 20px;
 }
 
+/* =========================================
+   BILL COMMENTARY / EXPLANATORY NOTES
+   ========================================= */
+.commentary {
+  max-width: 100%;
+  margin: 0 auto 45px auto;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+
+.commentary-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 18px 0;
+}
+
+.commentary-heading {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 28px 0;
+}
+
+.commentary-section {
+  margin: 0 0 25px 0;
+}
+
+.commentary-section-title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 8px 0;
+}
+
+.commentary-paragraph {
+  font-size: 16.64px;
+  line-height: 1.25;
+  margin: 3px 0;
+  color: #111;
+}
+
+.commentary-list {
+  margin: 4px 0 4px 28px;
+  padding-left: 20px;
+}
+
+.commentary-list .commentary-paragraph {
+  margin: 2px 0;
+}
+
+.commentary-list.level-2 {
+  margin-left: 48px;
+}
+
+.commentary-empty-line {
+  height: 8px;
+}
+
+@media (max-width: 768px) {
+  .commentary {
+    margin-bottom: 30px;
+  }
+
+  .commentary-title {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .commentary-heading {
+    font-size: 23px;
+    margin-bottom: 22px;
+  }
+
+  .commentary-section-title {
+    font-size: 21px;
+  }
+
+  .commentary-paragraph {
+    font-size: 16px;
+  }
+
+  .commentary-list {
+    margin-left: 12px;
+    padding-left: 18px;
+  }
+
+  .commentary-list.level-2 {
+    margin-left: 24px;
+  }
+}
+
 
 
 
@@ -898,6 +992,20 @@ h2 {
 }
 
 /* SUBPART row in sidebar */
+.commentary-link {
+  background: #fff;
+}
+
+.commentary-link .section-code,
+.commentary-link .section-name {
+  color: #126cd3;
+  font-weight: 700;
+}
+
+.main-contents-commentary {
+  margin-bottom: 10px;
+}
+
 .subpart-link {
   font-size: 20px;
   opacity: 0.9;
@@ -1414,9 +1522,9 @@ body.compact-header .bottom-row {
     <!-- Tabs + Actions -->
     <div class="bottom-row">
       <div class="tabs">
-        <a href="#" class="tab active">Principal Act</a>
+        <a href="#" class="tab active">Bill</a>
         <a href="index.html" class="tab-version">Versions (2)</a>
-        <a href="#" class="tab-related">Related Bill (0)</a>
+        <a href="#" class="tab-related">Related Act (1)</a>
       </div>
 
       <div class="actions">
@@ -1526,6 +1634,11 @@ function parseLegislation(text) {
     commencement: "",
     parts: [],
     schedules: [],
+    commentary: {
+      title: "",
+      heading: "",
+      sections: []
+    }
   };
 
   let currentPart = null;
@@ -1533,6 +1646,7 @@ function parseLegislation(text) {
   let currentSection = null;
   let currentBlock = null;
   let currentSchedule = null;
+  let currentCommentarySection = null;
 
 
   for (let line of lines) {
@@ -1564,6 +1678,31 @@ else if (line.startsWith("VERSION:"))
 
   else if (line.startsWith("VERSIONTITLE:"))
   doc.versionTitle = line.replace("VERSIONTITLE:", "").trim();
+
+    else if (line.startsWith("COMMENTARYTITLE:")) {
+      doc.commentary.title = line.replace("COMMENTARYTITLE:", "").trim();
+      currentCommentarySection = null;
+    }
+
+    else if (line.startsWith("COMMENTARYHEADING:")) {
+      doc.commentary.heading = line.replace("COMMENTARYHEADING:", "").trim();
+      currentCommentarySection = null;
+    }
+
+    else if (line.startsWith("COMMENTARYSECTION:")) {
+      currentCommentarySection = {
+        heading: line.replace("COMMENTARYSECTION:", "").trim(),
+        lines: []
+      };
+      doc.commentary.sections.push(currentCommentarySection);
+      currentBlock = null;
+      currentSection = null;
+      currentSubpart = null;
+    }
+
+    else if (line === "ENDCOMMENTARY") {
+      currentCommentarySection = null;
+    }
 
     else if (line.startsWith("PARTNUMBER:")) {
     currentPart = {
@@ -1603,6 +1742,7 @@ else if (line.startsWith("VERSION:"))
   }
 
         else if (line.startsWith("SCHEDULENUMBER:")) {
+          currentCommentarySection = null;
           currentSchedule = {
             number: line.replace("SCHEDULENUMBER:", "").trim(),
             title: "",
@@ -1632,6 +1772,8 @@ else if (
     line.startsWith("SCHEDULESECTION:")
   )
 ) {
+
+  currentCommentarySection = null;
 
   const isSchedule =
     line.startsWith("SCHEDULESECTION:");
@@ -1719,6 +1861,10 @@ else if (line.startsWith("AMENDMENT:")) {
     );
   }
 }
+
+    else if (currentCommentarySection) {
+      currentCommentarySection.lines.push(line);
+    }
 
     else {
 
@@ -1932,6 +2078,94 @@ let formattedNote = note
   return html;
 }
 
+function formatCommentaryInline(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.*?)\*/g, "<em>$1</em>")
+    .replace(
+      /\[\[Part:(.*?)\]\]/g,
+      `<a href="#" class="leg-link" onclick="jumpToPart('$1'); return false;">Part $1</a>`
+    )
+    .replace(
+      /\[\[section:([^\]]+)\]\]/gi,
+      (match, ref) => `<a href="#" class="leg-link" onclick="scrollSectionToMiddle('${ref}'); return false;">section ${ref}</a>`
+    )
+    .replace(
+      /\[\[Schedule:(.*?)\]\]/g,
+      `<a href="#" class="leg-link" onclick="jumpToSchedule('$1'); return false;">Schedule $1</a>`
+    );
+}
+
+function renderCommentary(doc) {
+  if (doc.type?.toLowerCase() !== "bill") return "";
+
+  const commentary = doc.commentary;
+  if (!commentary || !commentary.sections?.length) return "";
+
+  let html = `
+    <section class="commentary" id="commentary">
+  `;
+
+  if (commentary.title) {
+    html += `<div class="commentary-title">${formatCommentaryInline(commentary.title)}</div>`;
+  }
+
+  if (commentary.heading) {
+    html += `<div class="commentary-heading">${formatCommentaryInline(commentary.heading)}</div>`;
+  }
+
+  commentary.sections.forEach((section, index) => {
+    html += `
+      <section class="commentary-section" id="commentary-${index + 1}">
+        <div class="commentary-section-title">${formatCommentaryInline(section.heading || "")}</div>
+    `;
+
+    let inList = false;
+    let listLevel = 0;
+
+    const closeList = () => {
+      if (inList) {
+        html += `</div>`;
+        inList = false;
+        listLevel = 0;
+      }
+    };
+
+    section.lines.forEach(line => {
+      if (!line) {
+        closeList();
+        html += `<div class="commentary-empty-line"></div>`;
+        return;
+      }
+
+      const bulletMatch = line.match(/^(•|◦|▪|[-–—])\s+(.*)$/);
+      if (bulletMatch) {
+        const marker = bulletMatch[1];
+        const content = bulletMatch[2];
+        const level = marker === "◦" || marker === "▪" ? 2 : 1;
+
+        if (!inList || listLevel !== level) {
+          closeList();
+          html += `<div class="commentary-list level-${level}">`;
+          inList = true;
+          listLevel = level;
+        }
+
+        html += `<div class="commentary-paragraph">${marker} ${formatCommentaryInline(content)}</div>`;
+      } else {
+        closeList();
+        html += `<div class="commentary-paragraph">${formatCommentaryInline(line)}</div>`;
+      }
+    });
+
+    closeList();
+    html += `</section>`;
+  });
+
+  html += `</section>`;
+  return html;
+}
+
 function renderLegislation(doc) {
 
   let html = `
@@ -1949,6 +2183,8 @@ function renderLegislation(doc) {
   </div>
 
 </div>
+
+${renderCommentary(doc)}
 
 <!-- MAIN CONTENTS BAR -->
 <div class="main-contents" id="mainContents">
@@ -1971,6 +2207,20 @@ function renderLegislation(doc) {
 
   <div class="main-contents-list">
 `;
+
+  // BILL COMMENTARY
+  if (doc.type?.toLowerCase() === "bill" && doc.commentary?.sections?.length) {
+    html += `
+      <a
+        href="#commentary"
+        class="main-contents-item main-contents-commentary"
+        onclick="scrollToCommentary(); return false;"
+      >
+        <div class="main-contents-number">Commentary</div>
+        <div class="main-contents-name">${doc.commentary.heading || "Explanatory notes"}</div>
+      </a>
+    `;
+  }
 
   // BUILD MAIN CONTENTS LIST
   for (const part of doc.parts) {
@@ -2146,6 +2396,20 @@ for (const part of doc.parts) {
   return html;
 }
 
+function scrollToCommentary() {
+  const el = document.getElementById("commentary");
+  if (!el) return;
+
+  const rect = el.getBoundingClientRect();
+
+  window.scrollTo({
+    top: window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2,
+    behavior: "auto"
+  });
+
+  highlightSection(el);
+}
+
 function scrollSectionToMiddle(ref, isSchedule = false) {
 
   // Gets "5" from:
@@ -2192,6 +2456,24 @@ function buildSidebar(doc) {
   `;
 
   sectionLinks = {}; // reset
+
+  // BILL COMMENTARY
+  if (doc.type?.toLowerCase() === "bill" && doc.commentary?.sections?.length) {
+    const commentaryEl = document.createElement("div");
+    commentaryEl.className = "section-link commentary-link";
+    commentaryEl.innerHTML = `
+      <div class="section-code">Commentary</div>
+      <div class="section-name">${doc.commentary.heading || ""}</div>
+    `;
+
+    commentaryEl.onclick = () => {
+      scrollToCommentary();
+      setActive("commentary");
+    };
+
+    sidebar.appendChild(commentaryEl);
+    sectionLinks.commentary = commentaryEl;
+  }
 
   doc.parts.forEach(part => {
     // PART ROW
@@ -2370,6 +2652,8 @@ function setActive(id) {
   activeId = id;
 
   // 💙 NEW: highlight the part too
+  if (id === "commentary") return;
+
   const sectionEl = document.querySelector(`#section-${id}`);
   if (sectionEl) {
     const partBlock = sectionEl.closest(".part");
@@ -2582,7 +2866,7 @@ function highlightMatches(term) {
   );
 
   document.querySelectorAll(
-    ".section-title, .clause, .footnote"
+    ".section-title, .clause, .footnote, .commentary-paragraph, .commentary-section-title, .commentary-title, .commentary-heading"
   ).forEach(el => {
     el.innerHTML = el.innerHTML.replace(
       regex,
