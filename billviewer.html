@@ -1498,38 +1498,6 @@ body.compact-header .bottom-row {
   width: 18px;
   height: 30px;
 }
-
-/* Mobile act header fixes */
-@media (max-width: 768px) {
-  .act-header {
-    width: 100%;
-    box-sizing: border-box;
-    align-items: center;
-  }
-
-  .act-header-title {
-    width: 100%;
-    text-align: center;
-  }
-
-  .act-header-details {
-    width: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    box-sizing: border-box;
-  }
-
-  .act-header-details .government-bill {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-.act-header-after-commentary {
-  margin-top: 10px;
-}
 </style>
 
 
@@ -2218,21 +2186,6 @@ function renderLegislation(doc) {
 
 ${renderCommentary(doc)}
 
-<div class="act-header act-header-after-commentary">
-
-  <div class="act-header-title">
-    ${doc.title}
-  </div>
-
-  <div class="act-header-details">
-    <div class="government-bill">
-      <div class="government-bill-type">Government Bill</div>
-      <div class="government-bill-number">${doc.actNumber}</div>
-    </div>
-  </div>
-
-</div>
-
 <!-- MAIN CONTENTS BAR -->
 <div class="main-contents" id="mainContents">
 
@@ -2264,7 +2217,7 @@ ${renderCommentary(doc)}
         onclick="scrollToCommentary(); return false;"
       >
         <div class="main-contents-number">Commentary</div>
-        <div class="main-contents-name">${doc.commentary.heading || "Explanatory notes"}</div>
+        <div class="main-contents-name">${doc.commentary.heading && doc.commentary.heading.toLowerCase() !== "commentary" ? doc.commentary.heading : ""}</div>
       </a>
     `;
   }
@@ -2451,8 +2404,10 @@ function scrollToCommentary() {
 
   const rect = el.getBoundingClientRect();
 
+  // Put the top of the commentary at the top of the reading area
+  // rather than centring the whole commentary block.
   window.scrollTo({
-    top: window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2,
+    top: window.scrollY + rect.top - 140,
     behavior: "auto"
   });
 
@@ -2512,7 +2467,7 @@ function buildSidebar(doc) {
     commentaryEl.className = "section-link commentary-link";
     commentaryEl.innerHTML = `
       <div class="section-code">Commentary</div>
-      <div class="section-name">${doc.commentary.heading || ""}</div>
+      <div class="section-name"></div>
     `;
 
     commentaryEl.onclick = () => {
