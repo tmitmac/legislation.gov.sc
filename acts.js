@@ -1,6 +1,7 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "191—1", name: "English Language Bill", file: "billviewer.html?act=2000-2099/2026/english-language-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "190—1", name: "Electoral Amendment Bill", file: "billviewer.html?act=2000-2099/2026/electoral-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "189—1", name: "Referendums Bill", file: "billviewer.html?act=2000-2099/2026/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 04", name: "Westland (Tierras del oeste) Empowerment Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
