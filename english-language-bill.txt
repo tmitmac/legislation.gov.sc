@@ -8,6 +8,8 @@ STATUS: Current
 
 VERSION: Latest
 
+VERSIONTITLE: Introduction 18 August 2026
+
 AGENCY: Ministry of Justice & Corrections
 
 DATEOFASSENT: see section 2
