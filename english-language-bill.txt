@@ -1,0 +1,55 @@
+TITLE: English Language Bill
+
+ACTNUMBER: 191—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: see section 2
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: English Language
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the **English Language Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into effect the day it receives royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this Act is to provide legislative recognition of the status of English as an official language of Square Country.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 5
+
+HEADING: English as an official language
+
+English is an official language of Square Country
+
+
+
+
+
+
