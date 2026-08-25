@@ -10,7 +10,7 @@ VERSION: Latest
 
 VERSIONTITLE: Introduction 18 August 2026
 
-AGENCY: Ministry of Environment and Conservation
+AGENCY: Ministry for the Environment; and Wildlife Conservation Agency
 
 PARTNUMBER: 1
 
@@ -1562,7 +1562,7 @@ SECTION: 128
 
 HEADING: Act to be administered
 
-This Act is to be administered by the Ministry of Environment and Conservation.
+This Act is to be administered by the Ministry for the Environment; and Wildlife Conservation Agency.
 
 SCHEDULENUMBER: 1
 
