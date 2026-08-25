@@ -1,0 +1,1545 @@
+TITLE: Referendums Act 2026
+
+ACTNUMBER: 2026 No 05
+
+TYPE: Act
+
+STATUS: In force
+
+VERSION: Latest
+
+VERSIONTITLE: as enacted
+
+AGENCY: Ministry of Justice & Corrections; and Electoral Commission
+
+DATEOFASSENT: 26 August 2026
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+PARTTITLE: Preliminary provisions
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the **Referendums Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force the day after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this act is to—
+(a) repeal Part 15 (Referendums) of the [[Act:Electoral Act 1986]];
+(b) to provide for the conduct of referendums in Square Country;
+(c) to ensure that referendums are administered fairly and impartially;
+(d) to regulate campaigning and advertising relating to referendum questions;
+(e) to provide for the counting and certification of referendum results;
+(f) to distinguish between binding and indicative referendums.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+1. In this Act, unless the context otherwise requires—
+**advertisement** means any form of communication, whether published in print, broadcast, displayed electronically, distributed physically, or communicated by any other means, that is intended to influence the outcome of a referendum or encourage or discourage voting on a referendum question;
+**approved form** means a form approved by the Electoral Commission for the purposes of this Act;
+**campaign** means any organised activity undertaken for the purpose of promoting or opposing a referendum question or a particular response to that question;
+**campaign expenditure** means expenditure incurred for the purpose of promoting or opposing a referendum question and includes expenditure on advertising, publications, events, broadcasting, digital communications, opinion polling, and any other prescribed matter;
+**campaign organisation** means a body, association, incorporated society, company, political party, or other organisation that is registered under this Act to campaign in relation to a referendum;
+**candidate** has the same meaning as in the [[Act:Electoral Act 1986]] where the context requires;
+**Chief Electoral Officer** means the Chief Electoral Officer appointed under the [[Act:Electoral Act 1986]];
+**Commission** means the Electoral Commission established under the [[Act:Electoral Act 1986]];
+**count** includes the preliminary count, official count, recount, and any verification of referendum votes conducted under this Act;
+**declaration of the result** means the formal declaration of the official result of a referendum by the Electoral Commission;
+**elector** means a person whose name appears on an electoral roll and who is entitled to vote in a referendum under this Act;
+**electoral district** means an electoral district established under the Electoral Act 1986;
+**electoral roll** means a roll of electors prepared and maintained under the Electoral Act 1986;
+**electronic communication** includes communication by email, internet website, social media platform, text message, mobile application, or any other digital means;
+**government agency** means any Ministry, department, Crown entity, statutory authority, local authority, or other public body established by or under an enactment;
+**Minister** means the Minister of Justice & Corrections;
+**Ministry** means the Ministry of Justice & Corrections;
+**official count** means the final count of referendum votes undertaken by the Electoral Commission under this Act;
+**official result** means the result declared following completion of the official count;
+**Parliament** means His Majesty's Parliament of Square Country;
+**person** includes an individual, corporation, incorporated society, partnership, trust, government agency, political party, or any other legal entity;
+**polling day** means the day appointed for the holding of a referendum;
+**polling place** means a place appointed by the Electoral Commission at which referendum votes may be cast;
+**postal vote** means a referendum vote cast by post in accordance with this Act;
+**prescribed** means prescribed by regulations made under this Act;
+**question** means the proposition, proposal, or matter submitted to electors for determination at a referendum and includes any explanatory wording approved under this Act;
+**referendum** means a poll of electors conducted under this Act for the purpose of determining the opinion or decision of electors on one or more specified questions;
+**referendum period** means the period beginning on the day a referendum is formally announced and ending on the day the official result is declared;
+**referendum vote** means a vote cast by an elector at a referendum conducted under this Act;
+**regulations** means regulations made under this Act;
+**returning officer** means a returning officer appointed under the Electoral Act 1986 or under this Act;
+**scrutineer** means a person appointed under this Act to observe voting, counting, recounting, or other referendum procedures;
+**special vote** means a referendum vote cast under the special voting provisions of this Act;
+**tied result** means a result in which the number of valid votes cast in favour of each available response is equal;
+**valid vote** means a referendum vote that is accepted as valid under this Act;
+**voter** means an elector who is entitled to cast, or who casts, a referendum vote.
+2. A reference in this Act to voting includes voting in person, by post, by advance voting, by special voting, by online voting, or by any other method authorised by this Act.
+3. Unless expressly provided otherwise, words and expressions defined in the Electoral Act 1986 have the same meanings in this Act.
+4. A reference in this Act to a referendum includes—
+(a) a binding referendum; and
+(b) a non-binding or indicative referendum; and
+(c) a constitutional referendum; and
+(d) a citizens-initiated referendum; and
+(e) any other class of referendum authorised by or under an enactment.
+5. In interpreting this Act, regard must be had to the principles that—
+(a) every eligible elector should have a reasonable opportunity to vote;
+(b) referendum processes should be conducted fairly, impartially, transparently, and efficiently;
+(c) referendum results should accurately reflect the valid votes cast by electors; and
+(d) public confidence in the integrity of referendum processes should be maintained.
+
+SECTION: 5
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 6
+
+HEADING: Relationship with Electoral Act
+
+1. The Electoral Act applies to a referendum except to the extent that this Act expressly provides otherwise.
+
+2. If there is an inconsistency between this Act and the Electoral Act in relation to the conduct of a referendum, this Act prevails to the extent of the inconsistency.
+
+PARTNUMBER: 2
+
+PARTTITLE: Initiation of referendums
+
+SECTION: 7
+
+HEADING: Referendums may be initiated by Parliament
+
+1. Parliament may provide by Act for a referendum to be held on any question that is not otherwise prohibited by law.
+
+2. An Act providing for a referendum must specify—
+
+(a) the referendum question; and
+
+(b) whether the referendum is binding or indicative; and
+
+(c) the date or period during which the referendum is to be held; and
+
+(d) any special voting threshold required for the referendum; and
+
+(e) any other matter necessary for the conduct of the referendum.
+
+SECTION: 8
+
+HEADING: Referendum initiated by resolution of Parliament
+
+1. Parliament may, by resolution passed by a majority of the total number of Members of Parliament, direct that a referendum be held.
+
+2. A resolution under subsection (1) must specify—
+
+(a) the referendum question; and
+
+(b) whether the referendum is binding or indicative; and
+
+(c) the proposed polling date; and
+
+(d) the voting threshold, if any.
+
+3. A referendum directed by resolution under this section must be conducted in accordance with this Act.
+
+SECTION: 9
+
+HEADING: Referendum initiated by petition
+
+1. A referendum may be initiated by a petition signed by not fewer than 10 percent of all enrolled electors.
+
+2. A petition under subsection (1) must—
+
+(a) state the referendum question; and
+
+(b) state whether the proposed referendum is intended to be binding or indicative; and
+
+(c) contain the full name and address of each person signing the petition; and
+
+(d) contain the signature or other prescribed authentication of each person signing the petition; and
+
+(e) comply with any other requirements prescribed by regulation.
+
+SECTION: 10
+
+HEADING: Form of referendum petition
+
+1. A referendum petition must be in the prescribed form.
+
+2. The Commission must publish a standard form for referendum petitions.
+
+3. A petition may be submitted electronically if the Commission has approved an electronic method for submitting petitions.
+
+SECTION: 11
+
+HEADING: Petition promoters
+
+1. Every referendum petition must have at least one promoter.
+
+2. A promoter is responsible for—
+
+(a) submitting the petition to the Commission;
+
+(b) providing information reasonably required by the Commission;
+
+(c) ensuring that the petition complies with this Act; and
+
+(d) notifying the Commission of any material change affecting the petition.
+
+SECTION: 12
+
+HEADING: Verification of referendum petition
+
+1. The Commission must verify every referendum petition submitted under [[section:9]].
+
+2. The Commission may—
+
+(a) compare signatures with electoral records;
+
+(b) remove duplicate signatures;
+
+(c) remove signatures of persons who are not eligible electors;
+
+(d) remove signatures that cannot reasonably be authenticated; and
+
+(e) require further information from the promoter.
+
+3. The Commission must determine the number of valid signatures within 90 days after receiving the petition.
+
+SECTION: 13
+
+HEADING: Certification of petition
+
+1. If the Commission is satisfied that a referendum petition contains the required number of valid signatures, it must certify the petition.
+
+2. If the Commission determines that the petition does not contain the required number of valid signatures, it must reject the petition.
+
+3. The Commission must publish its decision and the number of valid signatures counted.
+
+SECTION: 14
+
+HEADING: Effect of certified petition
+
+1. A certified referendum petition must be referred to the House of Representatives.
+
+2. The House must consider the petition within 60 sitting days after it is referred.
+
+3. Parliament must, by Act or resolution, determine whether the referendum is to be held.
+
+SECTION: 15
+
+HEADING: Prohibited referendum subjects
+
+A referendum must not be held on a question that—
+
+(a) would require the Commission to act unlawfully; or
+
+(b) concerns the appointment or removal of a judicial officer except where expressly authorised by law; or
+
+(c) would determine the guilt or innocence of an individual; or
+
+(d) concerns a matter that cannot lawfully be determined by referendum; or
+
+(e) is otherwise prohibited by an Act of Parliament.
+
+SECTION: 16
+
+HEADING: Multiple referendum questions
+
+1. More than one referendum may be held on the same polling day.
+
+2. Each referendum question must be presented separately to electors.
+
+3. The Commission must ensure that an elector can vote independently on each referendum question.
+
+PARTNUMBER: 3
+
+PARTTITLE: Referendum questions
+
+SECTION: 17
+
+HEADING: Requirements for referendum question
+
+1. A referendum question must be expressed in clear and concise language.
+
+2. A referendum question must be capable of being answered by selecting one of the options specified on the ballot paper.
+
+3. A referendum question must not—
+
+(a) contain language that is misleading or deceptive; or
+
+(b) contain a statement that is presented as fact when the statement is disputed; or
+
+(c) unfairly favour one possible answer.
+
+SECTION: 18
+
+HEADING: Commission approval of question
+
+1. The Commission must review every proposed referendum question before the referendum is held.
+
+2. The Commission may recommend amendments to the wording of a proposed question if the Commission considers that the question does not comply with [[section:17]].
+
+3. The Commission must publish its assessment.
+
+SECTION: 19
+
+HEADING: Parliamentary approval of question
+
+1. Where a referendum is established by Act of Parliament, the referendum question must be specified in that Act.
+
+2. Where a referendum is initiated by petition, the Commission must submit the proposed question to Parliament for approval.
+
+3. Parliament may amend the wording of the question if the amendment does not materially alter the subject of the proposed referendum.
+
+SECTION: 20
+
+HEADING: Two-option referendum
+
+1. A referendum may provide electors with two possible answers.
+
+2. Unless otherwise provided by the Act establishing the referendum, the ballot paper must contain the options—
+
+(a) “Yes”; and
+
+(b) “No”.
+
+SECTION: 21
+
+HEADING: Multiple-option referendum
+
+1. A referendum may contain more than two possible answers if authorised by the Act establishing the referendum.
+
+2. The Act must specify the method by which the winning option is to be determined.
+
+SECTION: 22
+
+HEADING: Approval of referendum question by elector
+
+1. The Commission must publish an explanation of the referendum question before polling begins.
+
+2. The explanation must state—
+
+(a) the question to be put to electors;
+
+(b) the effect of each possible answer;
+
+(c) whether the referendum is binding or indicative; and
+
+(d) any voting threshold that applies.
+
+SECTION: 23
+
+HEADING: Alteration of referendum question
+
+1. A referendum question must not be altered after the official referendum period has begun.
+
+2. If a referendum question is altered before the official referendum period begins, the Commission must publish the altered question and notify registered referendum campaigners.
+
+PARTNUMBER: 4
+
+PARTTITLE: Calling and administration of referendums
+
+SECTION: 24
+
+HEADING: Order for referendum
+
+1. A referendum must be called by an order made by the Governor-General.
+
+2. The order must specify—
+
+(a) the referendum question;
+
+(b) the polling day;
+
+(c) whether the referendum is binding or indicative; and
+
+(d) the voting threshold, if any.
+
+SECTION: 25
+
+HEADING: Polling day
+
+1. The polling day for a referendum must be a Saturday unless Parliament otherwise provides.
+
+2. Polling must be conducted during the hours prescribed by the Commission.
+
+SECTION: 26
+
+HEADING: Notice of referendum
+
+1. The Commission must publish notice of a referendum at least 60 days before polling day.
+
+2. The notice must include—
+
+(a) the referendum question;
+
+(b) the polling day;
+
+(c) the voting system;
+
+(d) the applicable voting threshold;
+
+(e) information about advance and special voting; and
+
+(f) information about referendum campaign finance.
+
+SECTION: 27
+
+HEADING: Referendum timetable
+
+The Commission must publish a timetable specifying the deadlines for—
+
+(a) registration of campaigners;
+
+(b) applications for special voting;
+
+(c) submission of campaign finance returns;
+
+(d) appointment of scrutineers;
+
+(e) advance voting; and
+
+(f) any other matter necessary for the administration of the referendum.
+
+SECTION: 28
+
+HEADING: Returning officers
+
+1. The Commission must appoint a returning officer for each electoral district in which a referendum is held.
+
+2. A returning officer is responsible for—
+
+(a) establishing polling places;
+
+(b) supervising polling;
+
+(c) securing ballot papers;
+
+(d) counting votes; and
+
+(e) reporting the preliminary result to the Commission.
+
+SECTION: 29
+
+HEADING: Polling places
+
+1. The Commission must establish sufficient polling places to enable electors to vote conveniently.
+
+2. The Commission must have regard to—
+
+(a) population;
+
+(b) geographic accessibility;
+
+(c) accessibility for persons with disabilities; and
+
+(d) the expected number of electors.
+
+SECTION: 30
+
+HEADING: Ballot papers
+
+1. The Commission must prepare ballot papers for every referendum.
+
+2. A ballot paper must—
+
+(a) contain the referendum question;
+
+(b) contain the voting options;
+
+(c) provide clear instructions for voting; and
+
+(d) contain any security features prescribed by the Commission.
+
+SECTION: 31
+
+HEADING: Security of ballot papers
+
+1. The Commission must take reasonable steps to prevent—
+
+(a) unauthorised access to ballot papers;
+
+(b) theft or destruction of ballot papers;
+
+(c) fraudulent reproduction of ballot papers; and
+
+(d) interference with the counting of votes.
+
+2. A person who knowingly interferes with ballot papers commits an offence.
+
+PARTNUMBER: 5
+
+PARTTITLE: Entitlement to vote
+
+SECTION: 32
+
+HEADING: Entitlement to vote
+
+1. A person is entitled to vote in a referendum if the person—
+
+(a) is enrolled as an elector; and
+
+(b) is otherwise entitled to vote under the Electoral Act.
+
+2. A person may vote only once in each referendum.
+
+SECTION: 33
+
+HEADING: Electoral roll for referendum
+
+1. The electoral roll used for a referendum must be the roll prepared under the Electoral Act.
+
+2. The Commission may make administrative amendments to the roll for the purpose of conducting the referendum.
+
+SECTION: 34
+
+HEADING: Voting in referendum
+
+1. An elector must indicate their preferred answer in the manner specified on the ballot paper.
+
+2. A ballot paper is informal if—
+
+(a) the elector cannot reasonably be identified as having selected an answer; or
+
+(b) the ballot paper contains information that identifies the elector; or
+
+(c) the ballot paper is otherwise invalid under regulations made under this Act.
+
+SECTION: 35
+
+HEADING: Assistance to voters
+
+1. An elector who requires assistance to vote may receive assistance in accordance with the Electoral Act.
+
+2. A person assisting an elector must not influence the elector's vote.
+
+SECTION: 36
+
+HEADING: Advance voting
+
+1. Advance voting may be conducted during the period specified by the Commission.
+
+2. An elector voting in advance must comply with the same voting requirements as an elector voting on polling day.
+
+SECTION: 37
+
+HEADING: Special voting
+
+1. An elector may cast a special vote if the elector is unable to vote at an ordinary polling place for a reason authorised under the Electoral Act.
+
+2. Special votes must be processed and counted in accordance with regulations made under this Act.
+
+SECTION: 38
+
+HEADING: Overseas voting
+
+1. An elector who is overseas may vote in a referendum if entitled to vote under the Electoral Act.
+
+2. The Commission may establish facilities for overseas voting.
+
+SECTION: 39
+
+HEADING: Secrecy of referendum vote
+
+1. Every elector is entitled to vote in secret.
+
+2. A person must not—
+
+(a) require an elector to disclose how the elector voted;
+
+(b) observe an elector marking a ballot paper;
+
+(c) interfere with an elector while voting; or
+
+(d) obtain or attempt to obtain information about how another person voted.
+
+3. A person who contravenes this section commits an offence.
+
+PARTNUMBER: 6
+
+PARTTITLE: Referendum campaigners
+
+SECTION: 40
+
+HEADING: Registration of referendum campaigners
+
+1. A person or organisation must register with the Commission before conducting a referendum campaign if the person or organisation—
+
+(a) incurs referendum expenditure above the prescribed threshold; or
+
+(b) receives referendum donations above the prescribed threshold.
+
+2. The Commission must maintain a register of referendum campaigners.
+
+SECTION: 41
+
+HEADING: Application for registration
+
+An application for registration as a referendum campaigner must—
+
+(a) be made in the prescribed form;
+
+(b) identify the campaigner;
+
+(c) identify whether the campaigner supports or opposes the referendum proposal;
+
+(d) state the name of the financial agent; and
+
+(e) contain any other information required by the Commission.
+
+SECTION: 42
+
+HEADING: Financial agent
+
+1. Every registered referendum campaigner must appoint a financial agent.
+
+2. The financial agent is responsible for—
+
+(a) authorising referendum expenditure;
+
+(b) receiving referendum donations;
+
+(c) maintaining financial records;
+
+(d) filing expenditure returns; and
+
+(e) ensuring compliance with this Act.
+
+SECTION: 43
+
+HEADING: Campaigner names
+
+1. A referendum campaigner must not use a name that—
+
+(a) is misleading or deceptive;
+
+(b) falsely suggests that the campaigner represents the Government or Commission; or
+
+(c) is substantially similar to the name of another registered campaigner.
+
+SECTION: 44
+
+HEADING: Deregistration of campaigners
+
+1. A campaigner may apply to cancel its registration.
+
+2. The Commission may cancel a campaigner's registration if—
+
+(a) the campaigner ceases to exist;
+
+(b) the campaigner obtained registration by fraud;
+
+(c) the campaigner repeatedly breaches this Act; or
+
+(d) the campaigner is otherwise no longer eligible for registration.
+
+3. Before cancelling registration, the Commission must—
+
+(a) notify the campaigner;
+
+(b) invite submissions; and
+
+(c) consider any submissions received.
+
+PARTNUMBER: 7
+
+PARTTITLE: Referendum advertising
+
+SECTION: 45
+
+HEADING: Referendum advertisements
+
+1. A referendum advertisement is an advertisement that may reasonably be regarded as encouraging voters to vote for or against a referendum proposal.
+
+2. A referendum advertisement must comply with this Part.
+
+SECTION: 46
+
+HEADING: Authorisation statement
+
+1. Every referendum advertisement must contain an authorisation statement.
+
+2. The authorisation statement must—
+
+(a) identify the person or organisation responsible for the advertisement; and
+
+(b) state the physical or electronic address of that person or organisation.
+
+3. The Commission may prescribe the form of an authorisation statement.
+
+SECTION: 47
+
+HEADING: False or misleading referendum advertising
+
+A person must not publish or distribute a referendum advertisement that—
+
+(a) contains a statement that the person knows to be materially false; or
+
+(b) deliberately misrepresents the effect of the referendum proposal; or
+
+(c) falsely claims that the advertisement has been authorised by the Commission.
+
+SECTION: 48
+
+HEADING: Government referendum advertising
+
+1. The Government may publish factual information concerning a referendum.
+
+2. Government information must—
+
+(a) be accurate;
+
+(b) be impartial;
+
+(c) explain the legal and practical effect of the proposal; and
+
+(d) not expressly encourage electors to vote for or against the proposal.
+
+SECTION: 49
+
+HEADING: Referendum information booklet
+
+1. The Commission must prepare an official referendum information booklet.
+
+2. The booklet must contain—
+
+(a) the referendum question;
+
+(b) an impartial explanation of the proposal;
+
+(c) arguments supporting the proposal;
+
+(d) arguments opposing the proposal; and
+
+(e) information about voting.
+
+3. The Commission must take reasonable steps to ensure that the booklet is distributed to every household.
+
+SECTION: 50
+
+HEADING: Arguments for and against
+
+1. The Commission must invite registered campaigners supporting and opposing the referendum proposal to submit arguments for publication in the official information booklet.
+
+2. The Commission may impose a reasonable word limit.
+
+3. The Commission must not alter the substance of an argument except to correct—
+
+(a) spelling;
+
+(b) grammar;
+
+(c) formatting; or
+
+(d) material that is unlawful.
+
+SECTION: 51
+
+HEADING: Digital referendum advertising
+
+1. A digital referendum advertisement is subject to the same requirements as any other referendum advertisement.
+
+2. A digital advertisement must contain an authorisation statement that is reasonably visible to the viewer.
+
+3. A person must not deliberately conceal the identity of the person responsible for a referendum advertisement.
+
+SECTION: 52
+
+HEADING: Third-party campaigners
+
+1. A person who is not a registered referendum campaigner may publish referendum material provided that—
+
+(a) the person complies with the authorisation requirements; and
+
+(b) the person's expenditure does not exceed the prescribed threshold.
+
+2. A person who exceeds the threshold must register as a referendum campaigner.
+
+PARTNUMBER: 8
+
+PARTTITLE: Referendum finance
+
+SECTION: 53
+
+HEADING: Referendum expenditure
+
+Referendum expenditure includes expenditure incurred for the purpose of—
+
+(a) promoting a vote for a referendum proposal;
+
+(b) promoting a vote against a referendum proposal;
+
+(c) encouraging participation in a referendum; or
+
+(d) otherwise influencing the outcome of a referendum.
+
+SECTION: 54
+
+HEADING: Spending limits
+
+1. The maximum amount that a registered referendum campaigner may spend during a referendum campaign is ₴1,500,000.
+
+2. A campaigner must not knowingly avoid the limit by dividing expenditure between associated persons or organisations.
+
+3. The Commission may prescribe lower limits for local referendums.
+
+SECTION: 55
+
+HEADING: Donations
+
+1. A referendum campaigner may receive donations for referendum purposes.
+
+2. A donation must not be accepted if the campaigner knows that the donor is prohibited from making the donation.
+
+3. Donations must be recorded in accordance with this Act.
+
+SECTION: 56
+
+HEADING: Anonymous donations
+
+1. A campaigner must not accept an anonymous donation exceeding ₴1,000.
+
+2. An anonymous donation exceeding that amount must be returned to the donor if the donor can be identified.
+
+3. If the donor cannot be identified, the donation must be paid to the Commission.
+
+SECTION: 57
+
+HEADING: Disclosure of large donations
+
+1. A referendum campaigner must disclose every donation exceeding ₴10,000.
+
+2. The disclosure must state—
+
+(a) the amount of the donation;
+
+(b) the date on which it was received; and
+
+(c) the identity of the donor.
+
+SECTION: 58
+
+HEADING: Financial records
+
+1. Every registered referendum campaigner must keep complete and accurate financial records.
+
+2. Records must be retained for at least 7 years after polling day.
+
+SECTION: 59
+
+HEADING: Return of referendum expenditure
+
+1. Every registered referendum campaigner must submit a return of referendum expenditure to the Commission.
+
+2. The return must include—
+
+(a) total expenditure;
+
+(b) expenditure by category;
+
+(c) the identity of suppliers receiving more than ₴5,000;
+
+(d) donations received; and
+
+(e) any other information prescribed by regulation.
+
+SECTION: 60
+
+HEADING: Time for filing return
+
+A referendum expenditure return must be filed within 90 days after polling day.
+
+SECTION: 61
+
+HEADING: Audit of campaign returns
+
+1. The Commission may audit a referendum campaigner's financial return.
+
+2. A campaigner must provide documents reasonably required for an audit.
+
+3. A person who knowingly provides false information during an audit commits an offence.
+
+PARTNUMBER: 9
+
+PARTTITLE: Polling and counting
+
+SECTION: 62
+
+HEADING: Conduct of polling
+
+1. Polling must be conducted in accordance with this Act and the Electoral Act.
+
+2. The Commission must take reasonable steps to ensure that—
+
+(a) polling is conducted fairly;
+
+(b) ballot papers are securely handled;
+
+(c) electors are able to vote without intimidation; and
+
+(d) the secrecy of voting is maintained.
+
+SECTION: 63
+
+HEADING: Close of poll
+
+1. Polling closes at the time specified by the Commission.
+
+2. A person who is in a polling place at the time polling closes may vote if otherwise entitled to do so.
+
+SECTION: 64
+
+HEADING: Preliminary count
+
+1. As soon as practicable after polling closes, the returning officer must conduct a preliminary count.
+
+2. The preliminary count must be conducted in the presence of authorised observers.
+
+3. The preliminary result must be transmitted to the Commission.
+
+SECTION: 65
+
+HEADING: Informal votes
+
+1. A ballot paper is informal if it does not clearly indicate the elector's choice.
+
+2. The returning officer must determine whether a ballot paper is informal.
+
+3. A ballot paper must not be rejected merely because of a minor error if the elector's intention is clear.
+
+SECTION: 66
+
+HEADING: Special vote count
+
+1. Special votes must be counted after the close of ordinary polling.
+
+2. A special vote may be counted only if the Commission is satisfied that the elector was entitled to vote.
+
+SECTION: 67
+
+HEADING: Official count
+
+1. The Commission must conduct an official count after polling day.
+
+2. The official count must include—
+
+(a) ordinary votes;
+
+(b) advance votes;
+
+(c) special votes; and
+
+(d) overseas votes.
+
+SECTION: 68
+
+HEADING: Recount
+
+1. The Commission may order a recount if—
+
+(a) the margin between the leading options is sufficiently small to justify a recount; or
+
+(b) a material counting error is suspected; or
+
+(c) otherwise considers a recount necessary.
+
+2. A recount must be conducted in accordance with procedures prescribed by the Commission.
+
+SECTION: 69
+
+HEADING: Observers
+
+1. A registered referendum campaigner may appoint observers to observe the counting of votes.
+
+2. An observer must not interfere with the counting process.
+
+3. The Commission may remove an observer who breaches this section.
+
+PARTNUMBER: 10
+
+PARTTITLE: Determination of result
+
+SECTION: 70
+
+HEADING: Declaration of result
+
+1. The Commission must declare the result of a referendum as soon as practicable after the official count is completed.
+
+2. The declaration must state—
+
+(a) the number of votes cast for each option;
+
+(b) the number of informal votes;
+
+(c) the total number of votes cast; and
+
+(d) whether the proposal has passed or failed.
+
+SECTION: 71
+
+HEADING: Simple majority
+
+1. Unless another threshold is specified by law, a referendum proposal is approved if more valid votes are cast in favour of the proposal than against it.
+
+2. If more valid votes are cast against the proposal than in favour, the proposal is rejected.
+
+SECTION: 72
+
+HEADING: Special majority
+
+1. An Act establishing a referendum may require a special majority for approval.
+
+2. A special majority may include—
+
+(a) a specified percentage of valid votes;
+
+(b) a specified proportion of enrolled electors; or
+
+(c) approval in a specified number of electoral districts.
+
+SECTION: 73
+
+HEADING: Binding referendum
+
+1. A referendum is binding only if the Act or resolution establishing the referendum expressly provides that it is binding.
+
+2. If a binding referendum approves a proposal, the Government must give effect to the proposal in accordance with the Act establishing the referendum.
+
+SECTION: 74
+
+HEADING: Indicative referendum
+
+1. An indicative referendum expresses the view of electors but does not itself alter the law.
+
+2. The Government must publish a response to an indicative referendum within 90 days after the declaration of the result.
+
+SECTION: 75
+
+HEADING: Publication of result
+
+The Commission must publish the official result—
+
+(a) on its website;
+
+(b) in the Gazette; and
+
+(c) in any other manner the Commission considers appropriate.
+
+PARTNUMBER: 11
+
+PARTTITLE: Effect of referendum
+
+SECTION: 76
+
+HEADING: Effect of approval
+
+1. If a binding referendum approves a proposal to enact, amend, or repeal legislation, the relevant legislation must be enacted, amended, or repealed in accordance with the referendum Act.
+
+2. A referendum does not itself amend an Act unless the referendum Act expressly provides that it does so.
+
+SECTION: 77
+
+HEADING: Effect of rejection
+
+1. If a referendum proposal is rejected, the proposal has no legal effect.
+
+2. The rejection of a proposal does not prevent Parliament from considering a substantially similar proposal unless the referendum Act provides otherwise.
+
+SECTION: 78
+
+HEADING: Repetition of referendum
+
+1. A referendum on substantially the same question must not be held within 3 years after the previous referendum unless—
+
+(a) Parliament resolves otherwise by a majority of the total number of Members of Parliament; or
+
+(b) the law has materially changed since the previous referendum.
+
+SECTION: 79
+
+HEADING: No effect on existing rights
+
+Unless expressly provided otherwise, a referendum does not—
+
+(a) retrospectively invalidate an act done before the referendum;
+
+(b) affect a person's existing legal proceedings; or
+
+(c) remove a right or obligation that arose before the referendum.
+
+PARTNUMBER: 12
+
+PARTTITLE: Challenges and judicial review
+
+SECTION: 80
+
+HEADING: Challenge to conduct of referendum
+
+1. A person may apply to the High Court for a declaration that a referendum was not conducted in accordance with this Act.
+
+2. An application must be made within 28 days after the declaration of the result.
+
+SECTION: 81
+
+HEADING: Grounds for challenge
+
+A referendum may be challenged on the ground that—
+
+(a) a material irregularity occurred in the conduct of polling;
+
+(b) votes were improperly counted;
+
+(c) unlawful interference materially affected the result;
+
+(d) fraudulent voting materially affected the result; or
+
+(e) the Commission acted unlawfully in determining the result.
+
+SECTION: 82
+
+HEADING: Effect of irregularity
+
+The High Court must not invalidate a referendum merely because of an irregularity unless satisfied that the irregularity could reasonably have affected the result.
+
+SECTION: 83
+
+HEADING: Order for fresh referendum
+
+1. If the High Court is satisfied that the result of a referendum was materially affected by an irregularity, it may order that a fresh referendum be held.
+
+2. A fresh referendum must be conducted in accordance with this Act.
+
+SECTION: 84
+
+HEADING: Commission may correct errors
+
+1. The Commission may correct an administrative or clerical error in a referendum result.
+
+2. The Commission must publish notice of any correction that materially affects the result.
+
+SECTION: 85
+
+HEADING: Finality of result
+
+Subject to [[section:80]], the result declared by the Commission is final and conclusive.
+
+PARTNUMBER: 13
+
+PARTTITLE: Offences
+
+SECTION: 86
+
+HEADING: False voting
+
+A person commits an offence if the person knowingly—
+
+(a) votes more than once in a referendum;
+
+(b) votes in the name of another person; or
+
+(c) votes knowing that the person is not entitled to vote.
+
+SECTION: 87
+
+HEADING: Interference with voting
+
+A person commits an offence if the person—
+
+(a) intimidates an elector;
+
+(b) prevents an elector from voting;
+
+(c) improperly influences an elector at a polling place; or
+
+(d) interferes with the secrecy of an elector's vote.
+
+SECTION: 88
+
+HEADING: Bribery
+
+A person commits an offence if the person—
+
+(a) gives or offers a benefit to another person to influence how that person votes; or
+
+(b) receives or agrees to receive a benefit in return for voting in a particular manner.
+
+SECTION: 89
+
+HEADING: Fraudulent referendum material
+
+A person commits an offence if the person knowingly publishes referendum material that—
+
+(a) falsely claims to be issued by the Commission;
+
+(b) falsely claims to be official referendum material; or
+
+(c) materially misrepresents the referendum question.
+
+SECTION: 90
+
+HEADING: Unauthorised campaign expenditure
+
+A person commits an offence if the person knowingly incurs referendum expenditure in contravention of a spending limit imposed by this Act.
+
+SECTION: 91
+
+HEADING: False financial return
+
+A person commits an offence if the person knowingly submits a referendum financial return containing materially false or misleading information.
+
+SECTION: 92
+
+HEADING: Penalties
+
+1. A person convicted of an offence under this Part is liable—
+
+(a) in the case of an individual, to a fine not exceeding ₴50,000; or
+
+(b) in the case of a body corporate, to a fine not exceeding ₴250,000.
+
+2. A court may impose a higher penalty where another Act provides for a higher penalty for the same conduct.
+
+PARTNUMBER: 14
+
+PARTTITLE: Enforcement and compliance
+
+SECTION: 93
+
+HEADING: Compliance notices
+
+1. The Commission may issue a compliance notice to a person whom it reasonably believes is contravening this Act.
+
+2. A compliance notice may require the person to—
+
+(a) stop publishing specified material;
+
+(b) correct a statement;
+
+(c) provide information;
+
+(d) amend a financial return; or
+
+(e) take any other reasonable step to remedy the contravention.
+
+SECTION: 94
+
+HEADING: Commission investigations
+
+1. The Commission may investigate an alleged contravention of this Act.
+
+2. For the purposes of an investigation, the Commission may require a person to provide documents or information reasonably necessary for the investigation.
+
+SECTION: 95
+
+HEADING: Powers of entry
+
+1. An authorised officer may enter premises used for referendum campaign purposes if—
+
+(a) the occupier consents; or
+
+(b) a warrant has been issued by a court.
+
+2. An authorised officer exercising powers under this section must produce evidence of their authority on request.
+
+SECTION: 96
+
+HEADING: Protection from liability
+
+The Commission, a member of the Commission, and an authorised officer are not personally liable for an act or omission done in good faith in the exercise of powers under this Act.
+
+PARTNUMBER: 15
+
+PARTTITLE: Regulations and miscellaneous provisions
+
+SECTION: 97
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for the purpose of—
+
+(a) prescribing forms;
+
+(b) prescribing procedures for referendum petitions;
+
+(c) prescribing campaign expenditure limits;
+
+(d) prescribing financial disclosure requirements;
+
+(e) prescribing procedures for counting votes;
+
+(f) prescribing requirements for electronic voting or electronic petitions; and
+
+(g) prescribing any other matter necessary for carrying out or giving effect to this Act.
+
+SECTION: 98
+
+HEADING: Commission guidelines
+
+1. The Commission may issue guidelines concerning the administration of referendums.
+
+2. Guidelines issued under this section must be published.
+
+3. Guidelines do not have the force of law unless expressly provided by an Act or regulation.
+
+SECTION: 99
+
+HEADING: Annual report
+
+The Commission must include in its annual report information about—
+
+(a) referendums conducted during the year;
+
+(b) expenditure incurred by the Commission;
+
+(c) campaign finance returns;
+
+(d) offences and enforcement action; and
+
+(e) any recommendations for improving the administration of referendums.
+
+SECTION: 100
+
+HEADING: Review of Act
+
+1. The Minister must arrange for this Act to be reviewed within 5 years after its commencement.
+
+2. The review must consider—
+
+(a) the effectiveness of referendum procedures;
+
+(b) campaign finance rules;
+
+(c) the regulation of referendum advertising;
+
+(d) public participation;
+
+(e) accessibility of voting; and
+
+(f) any other matter relevant to the operation of this Act.
+
+3. A report of the review must be presented to Parliament.
+
+SECTION: 101
+
+HEADING: Transitional provision
+
+1. A referendum initiated before the commencement of this Act may be conducted under the law in force immediately before commencement.
+
+2. The Commission may apply provisions of this Act to a referendum referred to in subsection (1) where necessary for administrative consistency.
+
+SECTION: 102
+
+HEADING: Consequential amendments
+
+The enactments specified in Schedule 1 are amended in accordance with that Schedule.
+
+SECTION: 103
+
+HEADING: Repeals
+
+The enactments specified in Schedule 2 are repealed to the extent specified in that Schedule.
+
+SECTION: 104
+
+HEADING: Saving provision
+
+Nothing in this Act affects—
+
+(a) anything lawfully done under an enactment repealed or amended by this Act;
+
+(b) a right or obligation that arose before the commencement of this Act; or
+
+(c) any proceeding commenced before the commencement of this Act.
+
+PARTNUMBER: 16
+
+PARTTITLE: Referendum integrity
+
+SECTION: 105
+
+HEADING: Duty to maintain integrity of referendum
+
+1. Every person exercising a function under this Act must act so as to maintain the integrity of the referendum.
+
+2. The Commission must take reasonable steps to protect the referendum from—
+
+(a) fraud;
+
+(b) intimidation;
+
+(c) unlawful foreign interference;
+
+(d) unauthorised manipulation of voting systems;
+
+(e) unlawful campaign finance; and
+
+(f) other conduct capable of materially undermining public confidence in the referendum.
+
+SECTION: 106
+
+HEADING: Foreign interference
+
+1. A person must not knowingly accept referendum campaign funding from a foreign government.
+
+2. A person must not knowingly use referendum campaign funding for the purpose of concealing foreign government involvement in a referendum campaign.
+
+3. A person who contravenes this section commits an offence.
+
+SECTION: 107
+
+HEADING: Misuse of Commission name
+
+A person must not represent that referendum campaign material—
+
+(a) has been approved by the Commission; or
+
+(b) is issued by the Commission;
+
+unless the representation is authorised by the Commission.
+
+SECTION: 108
+
+HEADING: Protection of referendum systems
+
+1. A person must not knowingly interfere with an electronic system used by the Commission for the administration of a referendum.
+
+2. A person must not—
+
+(a) alter referendum results without authority;
+
+(b) destroy referendum records;
+
+(c) gain unauthorised access to referendum systems; or
+
+(d) knowingly introduce malicious code into a referendum system.
+
+3. A person who contravenes this section commits an offence.
+
+PARTNUMBER: 17
+
+PARTTITLE: Final provisions
+
+SECTION: 109
+
+HEADING: Delegation by Commission
+
+1. The Commission may delegate any of its functions under this Act to—
+
+(a) a returning officer;
+
+(b) an employee of the Commission; or
+
+(c) another person authorised by the Commission.
+
+2. The Commission must not delegate the power to—
+
+(a) declare the final result of a referendum;
+
+(b) certify a referendum petition; or
+
+(c) issue regulations.
+
+SECTION: 110
+
+HEADING: Records of referendum
+
+1. The Commission must retain referendum records for at least 10 years after polling day.
+
+2. Records must include—
+
+(a) ballot papers;
+
+(b) counting records;
+
+(c) campaign finance returns;
+
+(d) referendum petitions;
+
+(e) official results; and
+
+(f) other records prescribed by regulation.
+
+SECTION: 111
+
+HEADING: Public access to referendum information
+
+1. The Commission must make publicly available, as soon as reasonably practicable—
+
+(a) the referendum question;
+
+(b) the official information booklet;
+
+(c) registered campaigners;
+
+(d) campaign finance returns;
+
+(e) the official result; and
+
+(f) any report concerning the administration of the referendum.
+
+SECTION: 112
+
+HEADING: Protection of personal information
+
+1. The Commission must not publish personal information collected under this Act unless publication is authorised by this Act or another enactment.
+
+2. The Commission must take reasonable steps to protect personal information from unauthorised disclosure.
+
+SECTION: 113
+
+HEADING: Electronic administration
+
+1. The Commission may provide for any function under this Act to be performed electronically.
+
+2. Electronic systems used under this section must provide reasonable security, reliability, accessibility, and auditability.
+
+SECTION: 114
+
+HEADING: Crown expenditure
+
+All expenditure incurred by the Crown in giving effect to a referendum authorised under this Act is payable out of money appropriated by Parliament.
+
+SECTION: 115
+
+HEADING: Review of referendum result
+
+Nothing in this Act prevents Parliament from reviewing the political or policy consequences of a referendum result.
+
+SECTION: 116
+
+HEADING: Act to be read as a whole
+
+This Act must be read as a whole to give effect to its purpose of ensuring that referendums in Square Country are conducted freely, fairly, transparently, and with public confidence in their integrity.
+
+
+
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION:1
+
+HEADING: Electoral Act 1986
+
+Part 15 of the *Electoral Act 1986* is repealed.
+
+SCHEDULESECTION: 2
+
+HEADING: Westland (Tierras del oeste) Empowerment Act 1996
+
+In section 9(4), replace "Electoral Act 1986" with "Referendums Act 2026".
+
+
+
