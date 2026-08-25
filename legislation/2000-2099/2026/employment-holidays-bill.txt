@@ -278,26 +278,2287 @@ Abbey Renfield
 Sarah Voss
 Nicola Wong
 
-
 PARTNUMBER: 1
 
-PARTTITLE: Explanatory Note
-
-The objective of the Employment Holiday Bill (the **Bill**) is to 
+PARTTITLE: Preliminary provisions
 
 SECTION: 1
 
-HEADING: Short Title
+HEADING: Title
 
-This Act is the **Employment Holidays Act 2026**.
+1. This Act is the Employment Holidays Act 2026.
 
 SECTION: 2
 
 HEADING: Commencement
 
-This Act comes into force the day after it receives Royal assent.
+1. This Act comes into force on 1 January 2027.
+
+2. The Minister may, by Order in Council, appoint different days for the commencement of different provisions of this Act.
+
+3. An order made under subsection (2) may not appoint a day later than 1 January 2028.
 
 SECTION: 3
 
 HEADING: Purpose
+
+The purposes of this Act are—
+
+(a) to promote balance between work and other aspects of employees' lives; and
+
+(b) to provide minimum entitlements to paid annual holidays; and
+
+(c) to provide minimum entitlements to public holidays; and
+
+(d) to provide minimum entitlements to alternative holidays where employees work on public holidays; and
+
+(e) to provide minimum entitlements to paid sick leave; and
+
+(f) to provide minimum entitlements to bereavement leave; and
+
+(g) to provide minimum entitlements to family violence leave; and
+
+(h) to ensure that employees receive the correct payments for holidays and leave; and
+
+(i) to establish clear requirements for employers to keep employment records; and
+
+(j) to provide effective mechanisms for enforcing minimum holiday and leave entitlements.
+
+SECTION: 4
+
+HEADING: Overview
+
+1. This Act establishes minimum employment entitlements relating to holidays and leave.
+
+2. Part 1 contains preliminary provisions.
+
+3. Part 2 deals with annual holidays.
+
+4. Part 3 deals with public holidays.
+
+5. Part 4 deals with alternative holidays.
+
+6. Part 5 deals with sick leave.
+
+7. Part 6 deals with bereavement leave.
+
+8. Part 7 deals with family violence leave.
+
+9. Part 8 deals with parental and other forms of leave.
+
+10. Part 9 deals with payment calculations.
+
+11. Part 10 deals with employment records.
+
+12. Part 11 deals with enforcement and disputes.
+
+13. Part 12 deals with offences and penalties.
+
+14. Part 13 deals with special employment circumstances.
+
+15. Part 14 deals with annual closedowns.
+
+16. Part 15 deals with public holiday arrangements.
+
+17. Part 16 deals with administration and powers.
+
+18. Part 17 deals with regulations.
+
+19. Part 18 contains transitional and miscellaneous provisions.
+
+SECTION: 5
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+
+“annual holiday” means a paid holiday to which an employee becomes entitled under Part 2:
+
+“average daily pay” means the amount determined under [[section:145]]:
+
+“average weekly earnings” means the amount determined under [[section:143]]:
+
+“Commission” means the Employment Relations Commission:
+
+“day” means a calendar day:
+
+“employee” has the meaning given to that term by the Employment Relations Act:
+
+“employer” has the meaning given to that term by the Employment Relations Act:
+
+“employment agreement” means an individual or collective employment agreement:
+
+“family violence” has the meaning given to that term by the Family Violence Act:
+
+“family violence leave” means leave taken under Part 7:
+
+“leave” includes annual holidays, alternative holidays, sick leave, bereavement leave, family violence leave, parental leave, and any other leave provided under this Act:
+
+“ordinary weekly pay” means the amount determined under [[section:142]]:
+
+“otherwise working day” means a day that would otherwise be a working day for the employee:
+
+“public holiday” means a day declared to be a public holiday under this Act:
+
+“relevant daily pay” means the amount determined under [[section:140]]:
+
+“working day” means a day on which an employee would otherwise be expected to work for the employer.
+
+SECTION: 6
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 7
+
+HEADING: Minimum entitlements
+
+1. An employment agreement must not provide an employee with an entitlement that is less favourable than an entitlement provided by this Act.
+
+2. An employer and employee may agree to provide an entitlement more favourable than the minimum entitlement under this Act.
+
+3. A provision in an employment agreement that purports to exclude or reduce a minimum entitlement under this Act is void to the extent of the exclusion or reduction.
+
+SECTION: 8
+
+HEADING: Contracting out prohibited
+
+1. An employee must not agree to waive an entitlement under this Act.
+
+2. An employer must not require or induce an employee to agree to waive an entitlement under this Act.
+
+3. An agreement contrary to this section has no effect.
+
+SECTION: 9
+
+HEADING: Relationship with other legislation
+
+1. This Act must be read together with the Employment Relations Act and other employment legislation.
+
+2. If another enactment provides a more favourable employment entitlement than this Act, the more favourable entitlement applies.
+
+SECTION: 10
+
+HEADING: Employment agreements
+
+1. Every employer must ensure that the employee's employment agreement identifies the employee's minimum entitlements under this Act.
+
+2. An employer must provide an employee with information about the employee's holiday and leave entitlements on request.
+
+SECTION: 11
+
+HEADING: Prohibition on discrimination
+
+An employer must not disadvantage an employee because the employee—
+
+(a) exercises a right under this Act;
+
+(b) requests leave under this Act;
+
+(c) takes leave under this Act; or
+
+(d) makes a complaint concerning a breach of this Act.
+
+PARTNUMBER: 2
+
+PARTTITLE: Annual holidays
+
+SECTION: 12
+
+HEADING: Entitlement to annual holidays
+
+1. An employee is entitled to at least 4 weeks' paid annual holidays for each completed year of employment.
+
+2. An employer may provide an employee with more than 4 weeks' annual holidays.
+
+3. An additional contractual entitlement must be recorded in the employment agreement.
+
+SECTION: 13
+
+HEADING: When annual holiday entitlement arises
+
+1. An employee becomes entitled to annual holidays on completing 12 months' continuous employment with the employer.
+
+2. Each subsequent entitlement arises on the anniversary of the date on which the employee became entitled to the previous entitlement.
+
+SECTION: 14
+
+HEADING: Continuous employment
+
+For the purposes of determining annual holiday entitlement, employment is continuous despite—
+
+(a) an employee taking leave under this Act;
+
+(b) an employee taking parental leave;
+
+(c) a temporary cessation of work;
+
+(d) a transfer of employment where continuity is preserved by law; or
+
+(e) any other circumstance prescribed by regulation.
+
+SECTION: 15
+
+HEADING: Amount of annual holidays
+
+1. An employee's annual holiday entitlement is 4 weeks for every completed year of employment.
+
+2. An employer may agree to provide annual holidays in excess of the minimum entitlement.
+
+SECTION: 16
+
+HEADING: Taking annual holidays
+
+1. An employer and employee must try to agree on when annual holidays are to be taken.
+
+2. An employer must not unreasonably refuse an employee's request to take annual holidays.
+
+3. Annual holidays may be taken in periods agreed between the employer and employee.
+
+SECTION: 17
+
+HEADING: Employer may require annual holidays
+
+1. An employer may require an employee to take annual holidays if—
+
+(a) the employer and employee cannot agree on when the holidays are to be taken; and
+
+(b) the employer has given at least 14 days' notice.
+
+2. An employer must not require an employee to take annual holidays at a time that would unfairly disadvantage the employee.
+
+SECTION: 18
+
+HEADING: Division of annual holidays
+
+1. Annual holidays may be taken in separate periods.
+
+2. An employee may take annual holidays in periods of less than 1 week if the employer agrees.
+
+3. An employer must allow an employee to take at least 2 weeks of annual holidays continuously if the employee requests it.
+
+SECTION: 19
+
+HEADING: Advance annual holidays
+
+1. An employer may agree to allow an employee to take annual holidays before the entitlement has arisen.
+
+2. Annual holidays taken in advance may be deducted from the employee's subsequent entitlement.
+
+3. An employer must not require an employee to take annual holidays in advance.
+
+SECTION: 20
+
+HEADING: Annual holidays during employment
+
+Annual holidays must not be treated as sick leave, bereavement leave, or family violence leave unless this Act expressly provides otherwise.
+
+SECTION: 21
+
+HEADING: Carry-over of annual holidays
+
+1. Unused annual holidays remain available to the employee until taken or otherwise dealt with under this Act.
+
+2. An employer must not cancel annual holidays merely because the employee has failed to take them within a particular year.
+
+SECTION: 22
+
+HEADING: Cashing up annual holidays
+
+1. An employee may request payment instead of taking up to 1 week of annual holidays in each entitlement year.
+
+2. A request under subsection (1) must be made in writing.
+
+3. An employer may agree to the request but is not required to do so.
+
+4. An employer must not pressure or encourage an employee to cash up annual holidays.
+
+SECTION: 23
+
+HEADING: Payment of cashed-up holidays
+
+1. If an employer agrees to cash up annual holidays, the employer must pay the employee the amount agreed before the holidays would otherwise have been taken.
+
+2. The payment must not be less than the amount the employee would have received under Part 9.
+
+SECTION: 24
+
+HEADING: Cancellation of annual holidays
+
+1. An employer must not cancel annual holidays after they have commenced except where reasonably necessary.
+
+2. If an employer cancels annual holidays, the employer must reimburse the employee for reasonable non-refundable costs caused by the cancellation.
+
+SECTION: 25
+
+HEADING: Employee cancellation
+
+1. An employee may request cancellation of annual holidays before the holidays begin.
+
+2. The employer may agree to the request.
+
+SECTION: 26
+
+HEADING: Annual holidays during sickness
+
+1. If an employee becomes sick during annual holidays, the employee may request that the affected period be treated as sick leave.
+
+2. An employer must approve the request if the employee satisfies the requirements for sick leave.
+
+SECTION: 27
+
+HEADING: Annual holidays during bereavement
+
+1. If an employee suffers a bereavement during annual holidays, the affected period must be treated as bereavement leave if the employee is entitled to bereavement leave.
+
+2. Annual holidays must not be deducted for the period treated as bereavement leave.
+
+SECTION: 28
+
+HEADING: Annual holidays during family violence leave
+
+1. If an employee becomes entitled to family violence leave during annual holidays, the employee may take family violence leave instead of annual holidays.
+
+2. Annual holidays must not be deducted for the period treated as family violence leave.
+
+SECTION: 29
+
+HEADING: Annual holidays and public holidays
+
+1. A public holiday occurring during annual holidays must not be deducted from the employee's annual holiday entitlement if the day would otherwise be a working day.
+
+2. The employee must receive the public holiday entitlement provided by Part 3.
+
+SECTION: 30
+
+HEADING: Annual holiday entitlement on termination
+
+1. When employment ends, the employer must calculate the employee's outstanding annual holiday entitlement.
+
+2. The employer must pay the employee all annual holiday pay owing at the end of employment.
+
+SECTION: 31
+
+HEADING: Payment of outstanding holidays
+
+Outstanding annual holiday pay must be paid no later than the employee's final payday unless another time is authorised by regulation.
+
+PARTNUMBER: 3
+
+PARTTITLE: Public holidays
+
+SECTION: 32
+
+HEADING: Public holidays
+
+The following days are public holidays in Square Country—
+
+(a) New Year's Day;
+
+(b) the day after New Year's Day;
+
+(c) National Day;
+
+(d) Good Friday;
+
+(e) Easter Monday;
+
+(f) King's Birthday;
+
+(g) Matariki;
+
+(h) Labour Day;
+
+(i) Christmas Day;
+
+(j) Boxing Day; and
+
+(k) any other day declared by Act or Order in Council to be a public holiday.
+
+SECTION: 33
+
+HEADING: Public holiday falling on weekend
+
+1. If Christmas Day, Boxing Day, New Year's Day, or the day after New Year's Day falls on a Saturday or Sunday, the public holiday must be observed on the next applicable working day.
+
+2. Regulations may provide for the observance of other public holidays that fall on weekends.
+
+SECTION: 34
+
+HEADING: Entitlement to public holiday
+
+1. An employee is entitled to a public holiday if the public holiday falls on an otherwise working day.
+
+2. An employee is entitled to be absent from work on the public holiday unless required to work under section 36.
+
+SECTION: 35
+
+HEADING: Payment for public holiday not worked
+
+1. If an employee does not work on a public holiday that is an otherwise working day, the employer must pay the employee the amount determined under Part 9.
+
+2. No annual holiday entitlement may be deducted for the public holiday.
+
+SECTION: 36
+
+HEADING: Employee required to work on public holiday
+
+An employer may require an employee to work on a public holiday only if—
+
+(a) the employment agreement provides that the employee may be required to work on the public holiday; or
+
+(b) the employee agrees to work on the public holiday.
+
+SECTION: 37
+
+HEADING: Payment for work on public holiday
+
+1. An employee who works on a public holiday must be paid at least 1.5 times the employee's relevant daily pay for the time worked on the public holiday.
+
+2. An employment agreement may provide for a higher rate.
+
+SECTION: 38
+
+HEADING: Alternative holiday
+
+1. An employee who works on a public holiday that is an otherwise working day is entitled to an alternative holiday.
+
+2. The alternative holiday must be a paid day off.
+
+SECTION: 39
+
+HEADING: Date of alternative holiday
+
+1. The employer and employee must agree on when the alternative holiday is to be taken.
+
+2. If no agreement is reached, the employer may designate a date by giving at least 14 days' notice.
+
+3. The alternative holiday must be taken on a day that would otherwise be a working day for the employee.
+
+SECTION: 40
+
+HEADING: Transfer of public holiday
+
+1. An employer and employee may agree to transfer a public holiday to another day.
+
+2. A transferred public holiday must be treated as a public holiday for the purposes of this Act.
+
+3. The agreement must be recorded in writing.
+
+SECTION: 41
+
+HEADING: Transfer restrictions
+
+A public holiday must not be transferred if the transfer would—
+
+(a) result in an employee losing a minimum entitlement;
+
+(b) result in a public holiday being transferred to a day that is not a working day unless permitted by regulation; or
+
+(c) otherwise contravene this Act.
+
+SECTION: 42
+
+HEADING: Alternative holiday for part-day work
+
+1. If an employee works only part of a public holiday, the employee may be entitled to an alternative holiday if the employee would otherwise have worked the whole day.
+
+2. Regulations may prescribe methods for calculating the entitlement.
+
+SECTION: 43
+
+HEADING: Sickness on public holiday
+
+1. If an employee is unable to work on a public holiday because of sickness or injury, the day must be treated as a public holiday if it would otherwise have been a working day.
+
+2. The day must not be deducted from the employee's sick leave entitlement.
+
+SECTION: 44
+
+HEADING: Bereavement on public holiday
+
+1. If an employee suffers a bereavement on a public holiday, the day must be treated as a public holiday.
+
+2. The day must not be deducted from the employee's bereavement leave entitlement.
+
+SECTION: 45
+
+HEADING: Family violence on public holiday
+
+1. If an employee is unable to work on a public holiday because of circumstances giving rise to family violence leave, the day must continue to be treated as a public holiday.
+
+2. The day must not be deducted from the employee's family violence leave entitlement.
+
+SECTION: 46
+
+HEADING: Public holiday during parental leave
+
+1. A public holiday occurring during parental leave does not create an additional entitlement unless the employee would otherwise have worked on that day.
+
+2. Regulations may provide for special circumstances.
+
+SECTION: 47
+
+HEADING: Public holiday falling during annual closedown
+
+A public holiday occurring during an annual closedown must be treated as a public holiday and must not be deducted from annual holiday entitlement.
+
+PARTNUMBER: 4
+
+PARTTITLE: Alternative holidays
+
+SECTION: 48
+
+HEADING: Purpose of alternative holidays
+
+The purpose of this Part is to provide employees who work on public holidays with paid time away from work.
+
+SECTION: 49
+
+HEADING: Entitlement to alternative holiday
+
+1. An employee is entitled to an alternative holiday if—
+
+(a) the employee works on a public holiday; and
+
+(b) the public holiday is an otherwise working day.
+
+2. The entitlement arises immediately after the public holiday is worked.
+
+SECTION: 50
+
+HEADING: Alternative holiday must be paid
+
+An alternative holiday must be paid at the employee's relevant daily pay or average daily pay, as applicable.
+
+SECTION: 51
+
+HEADING: Taking alternative holiday
+
+An employee may take an alternative holiday on any day agreed with the employer.
+
+SECTION: 52
+
+HEADING: Employer may designate day
+
+1. If an employer and employee cannot agree on the date of an alternative holiday, the employer may designate a date.
+
+2. The employer must give at least 14 days' notice.
+
+3. The designated day must be reasonable having regard to the employee's circumstances.
+
+SECTION: 53
+
+HEADING: Alternative holiday on termination
+
+1. If employment ends before an alternative holiday is taken, the employer must pay the employee for the outstanding alternative holiday.
+
+2. The payment must be included in the employee's final holiday payment.
+
+SECTION: 54
+
+HEADING: Exchange of alternative holiday for payment
+
+1. An employee may request payment instead of taking an alternative holiday.
+
+2. The employer may agree to the request.
+
+3. Payment must be made as soon as practicable after agreement.
+
+SECTION: 55
+
+HEADING: Expiry of alternative holiday
+
+1. An alternative holiday does not expire merely because the employee does not take it within a specified period.
+
+2. An employer must ensure that the employee is provided with a reasonable opportunity to take the alternative holiday.
+
+PARTNUMBER: 5
+
+PARTTITLE: Sick leave
+
+SECTION: 56
+
+HEADING: Entitlement to sick leave
+
+1. An employee is entitled to 10 days' paid sick leave for each 12-month period of employment after satisfying the eligibility requirements.
+
+2. An employer may provide additional sick leave.
+
+SECTION: 57
+
+HEADING: Eligibility for sick leave
+
+An employee becomes entitled to sick leave after—
+
+(a) completing 6 months' continuous employment; or
+
+(b) satisfying an alternative eligibility test prescribed by regulation.
+
+SECTION: 58
+
+HEADING: Uses of sick leave
+
+An employee may take sick leave if—
+
+(a) the employee is sick or injured;
+
+(b) the employee's spouse or partner is sick or injured;
+
+(c) the employee's child is sick or injured; or
+
+(d) a person who depends on the employee for care is sick or injured.
+
+SECTION: 59
+
+HEADING: Sick leave entitlement period
+
+1. Sick leave is provided for each 12-month period following the employee's initial eligibility.
+
+2. Sick leave entitlements must be recorded by the employer.
+
+SECTION: 60
+
+HEADING: Carrying over sick leave
+
+1. An employee may carry unused sick leave into a subsequent entitlement period.
+
+2. An employee may accumulate up to 20 days of sick leave unless the employment agreement provides for a greater entitlement.
+
+SECTION: 61
+
+HEADING: Sick leave in advance
+
+1. An employer may agree to provide sick leave before the employee becomes entitled to it.
+
+2. Sick leave taken in advance may be deducted from the employee's future entitlement.
+
+SECTION: 62
+
+HEADING: Notice of sick leave
+
+1. An employee who intends to take sick leave must notify the employer as early as reasonably practicable.
+
+2. Notice may be given by the employee or by another person acting on the employee's behalf.
+
+SECTION: 63
+
+HEADING: Proof of sickness or injury
+
+1. An employer may require reasonable evidence of sickness or injury.
+
+2. An employer must meet the reasonable cost of obtaining evidence where the employer requires evidence without reasonable grounds for suspicion.
+
+SECTION: 64
+
+HEADING: Sick leave for appointments
+
+An employee may use sick leave for a medical, dental, counselling, or other health appointment where the employee is unable to reasonably attend outside working hours.
+
+SECTION: 65
+
+HEADING: Part-day sick leave
+
+1. An employee may take sick leave for part of a working day.
+
+2. The employee's sick leave balance must be reduced only by the amount of leave actually taken.
+
+SECTION: 66
+
+HEADING: Payment for sick leave
+
+1. An employer must pay an employee for sick leave taken on an otherwise working day.
+
+2. Payment must be calculated under Part 9.
+
+SECTION: 67
+
+HEADING: Sick leave during annual holidays
+
+If an employee becomes sick during annual holidays, the employee may have the affected period treated as sick leave in accordance with [[section:26]].
+
+SECTION: 68
+
+HEADING: Sick leave and public holidays
+
+A public holiday must not be deducted from an employee's sick leave balance merely because the employee is sick on that day.
+
+PARTNUMBER: 6
+
+PARTTITLE: Bereavement leave
+
+SECTION: 69
+
+HEADING: Entitlement to bereavement leave
+
+1. An eligible employee is entitled to paid bereavement leave when the employee suffers a bereavement.
+
+2. Bereavement leave is separate from annual holidays and sick leave.
+
+SECTION: 70
+
+HEADING: Close family bereavement
+
+An employee suffers a qualifying bereavement on the death of the employee's—
+
+(a) spouse or partner;
+
+(b) parent;
+
+(c) child;
+
+(d) brother or sister;
+
+(e) grandparent;
+
+(f) grandchild; or
+
+(g) spouse's or partner's parent.
+
+SECTION: 71
+
+HEADING: Other bereavement
+
+1. An employee may take bereavement leave following the death of another person if the employer accepts that the employee has suffered a bereavement.
+
+2. The employer must consider—
+
+(a) the closeness of the relationship;
+
+(b) the employee's responsibility for funeral arrangements;
+
+(c) cultural responsibilities;
+
+(d) the employee's involvement in the deceased person's care; and
+
+(e) any other relevant circumstance.
+
+SECTION: 72
+
+HEADING: Duration of bereavement leave
+
+1. An employee is entitled to at least 3 days' bereavement leave for a qualifying close-family bereavement.
+
+2. An employee is entitled to at least 1 day for another qualifying bereavement.
+
+3. An employer may provide additional bereavement leave.
+
+SECTION: 73
+
+HEADING: Multiple bereavements
+
+If more than one qualifying bereavement occurs at substantially the same time, the employee may take the applicable entitlement for each bereavement.
+
+SECTION: 74
+
+HEADING: Notice of bereavement leave
+
+An employee must notify the employer of an intention to take bereavement leave as soon as reasonably practicable.
+
+SECTION: 75
+
+HEADING: Evidence of bereavement
+
+1. An employer may request reasonable evidence of a bereavement.
+
+2. The employer must consider the cultural and personal circumstances of the employee when requesting evidence.
+
+SECTION: 76
+
+HEADING: Payment for bereavement leave
+
+An employee must be paid for bereavement leave taken on an otherwise working day.
+
+SECTION: 77
+
+HEADING: Bereavement during annual holidays
+
+If a qualifying bereavement occurs during annual holidays, the affected days must be treated as bereavement leave.
+
+SECTION: 78
+
+HEADING: Bereavement and public holidays
+
+A public holiday occurring during a period of bereavement leave must remain a public holiday.
+
+PARTNUMBER: 7
+
+PARTTITLE: Family violence leave
+
+SECTION: 79
+
+HEADING: Entitlement to family violence leave
+
+1. An employee affected by family violence is entitled to paid family violence leave in accordance with this Part.
+
+2. The minimum entitlement is 10 days in each 12-month period.
+
+SECTION: 80
+
+HEADING: Meaning of affected by family violence
+
+An employee is affected by family violence if—
+
+(a) the employee is a victim of family violence;
+
+(b) a child living with the employee is affected by family violence; or
+
+(c) another circumstance prescribed by the Family Violence Act applies.
+
+SECTION: 81
+
+HEADING: Uses of family violence leave
+
+Family violence leave may be taken for the purpose of—
+
+(a) obtaining medical treatment;
+
+(b) obtaining legal assistance;
+
+(c) attending court;
+
+(d) obtaining counselling;
+
+(e) arranging alternative accommodation;
+
+(f) protecting the employee or a child from family violence; or
+
+(g) any other purpose reasonably connected with the effects of family violence.
+
+SECTION: 82
+
+HEADING: Notice
+
+1. An employee must notify the employer as soon as reasonably practicable.
+
+2. An employer must not require an employee to disclose unnecessary details concerning family violence.
+
+SECTION: 83
+
+HEADING: Evidence
+
+1. An employer may request reasonable evidence of eligibility for family violence leave.
+
+2. Evidence may include—
+
+(a) a protection order;
+
+(b) a report from a medical professional;
+
+(c) a report from a social service provider;
+
+(d) a court document; or
+
+(e) another form of evidence reasonably sufficient to establish eligibility.
+
+SECTION: 84
+
+HEADING: Confidentiality
+
+1. An employer must keep information concerning an employee's family violence leave confidential.
+
+2. Information may be disclosed only—
+
+(a) with the employee's consent;
+
+(b) where required by law; or
+
+(c) where necessary to protect a person from serious harm.
+
+SECTION: 85
+
+HEADING: Payment
+
+An employee taking family violence leave must be paid in accordance with Part 9.
+
+SECTION: 86
+
+HEADING: Family violence leave and annual holidays
+
+Family violence leave taken during annual holidays must not be deducted from the employee's annual holiday entitlement.
+
+SECTION: 87
+
+HEADING: Family violence leave and public holidays
+
+A public holiday occurring during family violence leave remains a public holiday and must not be deducted from the employee's family violence leave balance.
+
+PARTNUMBER: 8
+
+PARTTITLE: Parental and related leave
+
+SECTION: 88
+
+HEADING: Relationship with parental leave
+
+1. Parental leave is governed principally by the Parental Leave and Employment Protection Act.
+
+2. Nothing in this Act reduces an entitlement provided under that Act.
+
+SECTION: 89
+
+HEADING: Annual holidays following parental leave
+
+1. An employee returning from parental leave retains annual holiday entitlements that arose before the leave.
+
+2. The employer must update the employee's holiday records to reflect the employee's return.
+
+SECTION: 90
+
+HEADING: Sick leave following parental leave
+
+An employee's accrued sick leave must not be cancelled because the employee takes parental leave.
+
+SECTION: 91
+
+HEADING: Bereavement following parental leave
+
+An employee returning from parental leave is entitled to bereavement leave in accordance with Part 6.
+
+SECTION: 92
+
+HEADING: Family violence leave following parental leave
+
+An employee returning from parental leave is entitled to family violence leave in accordance with Part 7.
+
+SECTION: 93
+
+HEADING: Protection of leave entitlements
+
+An employer must not terminate or disadvantage an employee because the employee takes parental leave or another form of leave protected by law.
+
+PARTNUMBER: 9
+
+PARTTITLE: Payment for holidays and leave
+
+SECTION: 94
+
+HEADING: General payment principle
+
+An employee must receive at least the amount required by this Act for every paid holiday or leave day.
+
+SECTION: 95
+
+HEADING: Relevant daily pay
+
+Relevant daily pay is the amount an employee would have received had the employee worked the relevant day.
+
+SECTION: 96
+
+HEADING: Components of relevant daily pay
+
+Relevant daily pay may include—
+
+(a) ordinary wages;
+
+(b) regular allowances;
+
+(c) regular overtime;
+
+(d) regular commission;
+
+(e) regular productivity payments; and
+
+(f) other payments that would have been received for work on the relevant day.
+
+SECTION: 97
+
+HEADING: Average daily pay
+
+1. Average daily pay may be used where relevant daily pay cannot reasonably be determined.
+
+2. Average daily pay must be calculated using the employee's gross earnings over the prescribed calculation period.
+
+SECTION: 98
+
+HEADING: Ordinary weekly pay
+
+Ordinary weekly pay is the amount the employee ordinarily receives for an ordinary week of work.
+
+SECTION: 99
+
+HEADING: Average weekly earnings
+
+Average weekly earnings must be calculated by dividing the employee's gross earnings during the relevant 12-month period by the number of weeks in that period.
+
+SECTION: 100
+
+HEADING: Annual holiday payment
+
+An employee taking annual holidays must receive the greater of—
+
+(a) the employee's ordinary weekly pay attributable to the holiday period; or
+
+(b) the employee's average weekly earnings attributable to the holiday period.
+
+SECTION: 101
+
+HEADING: Public holiday payment
+
+An employee who does not work on a public holiday that is an otherwise working day must receive the employee's relevant daily pay or average daily pay.
+
+SECTION: 102
+
+HEADING: Alternative holiday payment
+
+An alternative holiday must be paid at the employee's relevant daily pay or average daily pay.
+
+SECTION: 103
+
+HEADING: Sick leave payment
+
+Sick leave must be paid at the employee's relevant daily pay or average daily pay.
+
+SECTION: 104
+
+HEADING: Bereavement leave payment
+
+Bereavement leave must be paid at the employee's relevant daily pay or average daily pay.
+
+SECTION: 105
+
+HEADING: Family violence leave payment
+
+Family violence leave must be paid at the employee's relevant daily pay or average daily pay.
+
+SECTION: 106
+
+HEADING: Payment where hours vary
+
+1. Where an employee's hours vary significantly, the employer must use a reasonable calculation method that reflects the employee's actual earnings.
+
+2. The method must be recorded in the employer's records.
+
+SECTION: 107
+
+HEADING: Payment of allowances
+
+Regular allowances must be included in holiday and leave calculations where the employee would otherwise have received the allowance.
+
+SECTION: 108
+
+HEADING: Commission payments
+
+Regular commission payments must be included in calculations where required by this Act.
+
+SECTION: 109
+
+HEADING: Overtime
+
+Regular overtime may be included in holiday and leave calculations if the employee would otherwise have worked the overtime.
+
+SECTION: 110
+
+HEADING: Deductions
+
+An employer must not make a deduction from holiday or leave pay except—
+
+(a) where authorised by law;
+
+(b) where authorised in writing by the employee; or
+
+(c) where otherwise permitted by the employment agreement.
+
+PARTNUMBER: 10
+
+PARTTITLE: Employment records
+
+SECTION: 111
+
+HEADING: Employer must keep records
+
+Every employer must maintain accurate records showing each employee's—
+
+(a) name;
+
+(b) employment commencement date;
+
+(c) hours worked;
+
+(d) annual holiday entitlement;
+
+(e) annual holidays taken;
+
+(f) public holidays worked;
+
+(g) alternative holidays;
+
+(h) sick leave;
+
+(i) bereavement leave;
+
+(j) family violence leave;
+
+(k) holiday payments;
+
+(l) leave payments; and
+
+(m) other information prescribed by regulation.
+
+SECTION: 112
+
+HEADING: Records of hours worked
+
+1. An employer must keep records of the hours worked by an employee where necessary to determine holiday or leave entitlements.
+
+2. Records may be kept electronically.
+
+SECTION: 113
+
+HEADING: Records of public holidays
+
+An employer must record—
+
+(a) every public holiday on which the employee worked;
+
+(b) whether the day was an otherwise working day;
+
+(c) the hours worked; and
+
+(d) any alternative holiday arising from the work.
+
+SECTION: 114
+
+HEADING: Records of leave
+
+An employer must record every period of leave taken by an employee and the balance remaining after the leave is taken.
+
+SECTION: 115
+
+HEADING: Employee access to records
+
+1. An employee may request access to their holiday and leave records.
+
+2. The employer must provide the records within 10 working days.
+
+SECTION: 116
+
+HEADING: Correction of records
+
+1. An employee may request correction of an inaccurate record.
+
+2. The employer must investigate the request.
+
+3. If the employer refuses to correct the record, the employer must provide written reasons.
+
+SECTION: 117
+
+HEADING: Retention of records
+
+1. Records required by this Act must be retained for at least 7 years.
+
+2. A longer period may be prescribed by regulation.
+
+SECTION: 118
+
+HEADING: Electronic records
+
+Electronic records must be—
+
+(a) accessible;
+
+(b) capable of being reproduced in a readable form;
+
+(c) protected from unauthorised alteration; and
+
+(d) backed up in accordance with reasonable business practices.
+
+PARTNUMBER: 11
+
+PARTTITLE: Annual closedowns
+
+SECTION: 119
+
+HEADING: Annual closedown
+
+1. An employer may have an annual closedown period during which the employer's business or part of the business does not operate.
+
+2. The employer may require employees to take annual holidays during the closedown period.
+
+SECTION: 120
+
+HEADING: Notice of closedown
+
+An employer must give employees at least 14 days' notice of an annual closedown.
+
+SECTION: 121
+
+HEADING: Closedown period
+
+1. An annual closedown period must not exceed 2 weeks unless otherwise agreed.
+
+2. An employer may establish more than one closedown period where different parts of the business operate at different times.
+
+SECTION: 122
+
+HEADING: Public holidays during closedown
+
+A public holiday occurring during an annual closedown must remain a public holiday.
+
+SECTION: 123
+
+HEADING: Employee without sufficient annual holidays
+
+1. If an employee does not have sufficient annual holidays to cover the closedown period, the employer must provide the employee with—
+
+(a) annual holidays to the extent available; and
+
+(b) unpaid leave for the remainder; or
+
+(c) another arrangement agreed with the employee.
+
+SECTION: 124
+
+HEADING: New employees and closedowns
+
+An employer may require an employee who has not yet become entitled to annual holidays to take leave during a closedown period in accordance with regulations.
+
+SECTION: 125
+
+HEADING: Closedown records
+
+An employer must record the dates of every annual closedown period.
+
+PARTNUMBER: 12
+
+PARTTITLE: Flexible and irregular work arrangements
+
+SECTION: 126
+
+HEADING: Irregular work patterns
+
+1. This Act applies to employees regardless of whether their hours are regular or irregular.
+
+2. An employer must use a reasonable method for determining otherwise working days.
+
+SECTION: 127
+
+HEADING: Part-time employees
+
+A part-time employee has the same minimum rights under this Act as a full-time employee, subject to the employee's hours and working pattern.
+
+SECTION: 128
+
+HEADING: Casual employees
+
+1. A casual employee is entitled to holiday and leave entitlements where the employee satisfies the applicable eligibility requirements.
+
+2. An employer must not classify an employee as casual for the purpose of avoiding holiday or leave obligations.
+
+SECTION: 129
+
+HEADING: Employees with changing hours
+
+1. Where an employee's hours change during the year, the employer must review the employee's holiday and leave calculations.
+
+2. The review must be conducted at least annually.
+
+SECTION: 130
+
+HEADING: Shift workers
+
+1. A shift worker is entitled to the same minimum holiday and leave rights as other employees.
+
+2. Special calculation rules may be prescribed for shift workers.
+
+SECTION: 131
+
+HEADING: Employees working multiple locations
+
+An employee working at multiple locations for the same employer remains entitled to the same holiday and leave entitlements.
+
+SECTION: 132
+
+HEADING: Multiple employment agreements
+
+1. Where an employee works under more than one employment agreement with the same employer, the employer must not use separate agreements to unlawfully avoid holiday or leave entitlements.
+
+2. The Commission may treat substantially connected employment as a single employment relationship for the purposes of this Act.
+
+PARTNUMBER: 13
+
+PARTTITLE: Special employment circumstances
+
+SECTION: 133
+
+HEADING: Transfer of business
+
+1. Where employment is transferred as part of a transfer of business, holiday and leave entitlements must be dealt with in accordance with the Employment Relations Act.
+
+2. An employee must not lose an entitlement solely because of a transfer of employment where continuity is preserved by law.
+
+SECTION: 134
+
+HEADING: Sale of business
+
+The sale of a business does not, by itself, extinguish an employee's accrued holiday or leave entitlement.
+
+SECTION: 135
+
+HEADING: Temporary suspension
+
+A temporary suspension of work does not automatically terminate accrued holiday or leave entitlements.
+
+SECTION: 136
+
+HEADING: Strike or lockout
+
+1. A period during which an employee is lawfully participating in a strike may affect holiday calculations only as provided by regulation.
+
+2. An employer must not cancel an existing holiday entitlement merely because an employee has participated in lawful industrial action.
+
+SECTION: 137
+
+HEADING: Suspension of employee
+
+An employee suspended on full pay continues to accrue entitlements unless otherwise provided by law.
+
+SECTION: 138
+
+HEADING: Employee detained or imprisoned
+
+An employee who is absent because of detention or imprisonment is subject to the rules prescribed by employment law concerning accrual of leave.
+
+PARTNUMBER: 14
+
+PARTTITLE: Calculations and determination of working days
+
+SECTION: 139
+
+HEADING: Purpose of this Part
+
+This Part provides rules for determining otherwise working days and calculating holiday and leave payments.
+
+SECTION: 140
+
+HEADING: Relevant daily pay
+
+1. Relevant daily pay is the amount an employee would have received had the employee worked the relevant day.
+
+2. Relevant daily pay must include payments that would otherwise have been received for work performed on that day.
+
+SECTION: 141
+
+HEADING: Average daily pay
+
+1. Average daily pay is calculated by dividing the employee's gross earnings for the relevant period by the number of days in that period.
+
+2. The Commission may prescribe alternative calculation methods where the ordinary method would produce an unreasonable result.
+
+SECTION: 142
+
+HEADING: Ordinary weekly pay
+
+Ordinary weekly pay must include—
+
+(a) ordinary wages;
+
+(b) regular allowances;
+
+(c) regular productivity payments; and
+
+(d) any other payment forming part of the employee's normal weekly remuneration.
+
+SECTION: 143
+
+HEADING: Average weekly earnings
+
+Average weekly earnings must be calculated using the employee's gross earnings over the 12 months immediately preceding the calculation date.
+
+SECTION: 144
+
+HEADING: Gross earnings
+
+Gross earnings include all payments received by an employee for work except payments expressly excluded by regulation.
+
+SECTION: 145
+
+HEADING: Alternative calculation methods
+
+The Commission may prescribe alternative methods where—
+
+(a) the employee's hours vary;
+
+(b) the employee has recently changed roles;
+
+(c) the employee receives commission;
+
+(d) the employee works irregular shifts; or
+
+(e) another calculation would produce an unreasonable result.
+
+SECTION: 146
+
+HEADING: Determining an otherwise working day
+
+1. In determining whether a day would otherwise be a working day, regard must be had to—
+
+(a) the employee's employment agreement;
+
+(b) the employee's work patterns;
+
+(c) rosters;
+
+(d) previous work;
+
+(e) employer expectations; and
+
+(f) any other relevant circumstances.
+
+2. An employer must not manipulate rosters for the purpose of avoiding a holiday entitlement.
+
+SECTION: 146A
+
+HEADING: Presumption of otherwise working day
+
+1. If an employee has regularly worked on a particular day during the preceding 4 weeks, the day is presumed to be an otherwise working day unless evidence indicates otherwise.
+
+2. The presumption may be rebutted by evidence of a genuine change in the employee's work pattern.
+
+SECTION: 146B
+
+HEADING: Irregular schedules
+
+Where an employee works irregularly, the employer must use a reasonable assessment of the employee's established work pattern.
+
+SECTION: 146C
+
+HEADING: Roster changes
+
+1. An employer must not change a roster solely to prevent an employee obtaining an entitlement under this Act.
+
+2. A roster change made for that purpose is ineffective.
+
+SECTION: 146D
+
+HEADING: Disagreement about working day
+
+1. If an employer and employee disagree about whether a day is an otherwise working day, either party may refer the matter to the Commission.
+
+2. The Commission may determine the matter.
+
+PARTNUMBER: 15
+
+PARTTITLE: Interaction between holidays and leave
+
+SECTION: 147
+
+HEADING: General rule
+
+1. Each type of leave provided by this Act is separate unless this Act expressly provides otherwise.
+
+2. An employee must not be required to use one form of leave merely because another entitlement has been exhausted.
+
+SECTION: 148
+
+HEADING: Annual holidays and sick leave
+
+An employee may use sick leave instead of annual holidays where the requirements of [[section:26]] are satisfied.
+
+SECTION: 149
+
+HEADING: Annual holidays and bereavement leave
+
+An employee may use bereavement leave instead of annual holidays where the requirements of [[section:27]] are satisfied.
+
+SECTION: 150
+
+HEADING: Annual holidays and family violence leave
+
+An employee may use family violence leave instead of annual holidays where the requirements of [[section:28]] are satisfied.
+
+SECTION: 151
+
+HEADING: Sick leave and bereavement leave
+
+1. Sick leave and bereavement leave are separate entitlements.
+
+2. An employee may not be required to use sick leave for a qualifying bereavement.
+
+SECTION: 152
+
+HEADING: Sick leave and family violence leave
+
+An employee may not be required to use sick leave for circumstances giving rise to family violence leave.
+
+SECTION: 153
+
+HEADING: Bereavement leave and family violence leave
+
+Bereavement leave and family violence leave are separate entitlements.
+
+SECTION: 154
+
+HEADING: Public holidays during leave
+
+A public holiday must be treated as a public holiday rather than another form of leave where the requirements of this Act are satisfied.
+
+SECTION: 155
+
+HEADING: Alternative holidays during leave
+
+An alternative holiday remains available while an employee is taking another form of leave unless the employee agrees to take it during that period and the law permits it.
+
+PARTNUMBER: 16
+
+PARTTITLE: Requests, approvals, and administration
+
+SECTION: 156
+
+HEADING: Leave requests
+
+1. An employee may request leave orally or in writing.
+
+2. An employer may establish reasonable procedures for requesting leave.
+
+3. Procedures must not make it unreasonably difficult for an employee to exercise an entitlement.
+
+SECTION: 157
+
+HEADING: Employer response
+
+1. An employer must respond to a request for leave within a reasonable time.
+
+2. If an employer declines a request for discretionary leave, the employer must provide reasons on request.
+
+SECTION: 158
+
+HEADING: Emergency leave
+
+1. An employee may take emergency leave where circumstances arise unexpectedly and prevent the employee from attending work.
+
+2. Emergency leave must be treated as the appropriate statutory leave where the requirements for that leave are satisfied.
+
+SECTION: 159
+
+HEADING: Evidence requests
+
+1. An employer may request evidence where authorised by this Act.
+
+2. An employer must not use evidence requirements to unreasonably delay or prevent leave.
+
+SECTION: 160
+
+HEADING: Confidentiality of leave information
+
+1. Information about an employee's medical condition, bereavement, family violence, or other sensitive personal circumstances must be kept confidential.
+
+2. An employer must limit access to such information to persons who reasonably require it.
+
+SECTION: 161
+
+HEADING: Privacy
+
+An employer must handle personal information obtained under this Act in accordance with applicable privacy legislation.
+
+PARTNUMBER: 17
+
+PARTTITLE: Enforcement
+
+SECTION: 162
+
+HEADING: Enforcement by employee
+
+1. An employee may enforce an entitlement under this Act through the Employment Relations Commission.
+
+2. An employee may also seek relief through the Employment Court.
+
+SECTION: 163
+
+HEADING: Representative enforcement
+
+A union or other authorised representative may bring proceedings on behalf of an employee with the employee's consent.
+
+SECTION: 164
+
+HEADING: Compliance orders
+
+The Commission may order an employer to—
+
+(a) provide an unpaid entitlement;
+
+(b) correct employment records;
+
+(c) pay outstanding holiday or leave payments;
+
+(d) cease unlawful conduct; or
+
+(e) take another action necessary to comply with this Act.
+
+SECTION: 165
+
+HEADING: Recovery of unpaid entitlements
+
+1. An employee may recover unpaid holiday or leave payments as a debt.
+
+2. The Commission may order interest on unpaid amounts.
+
+SECTION: 166
+
+HEADING: Employer audits
+
+1. The Commission may audit an employer's compliance with this Act.
+
+2. An employer must provide records reasonably required for the audit.
+
+SECTION: 167
+
+HEADING: Inspection powers
+
+An authorised officer may inspect employment records for the purpose of determining compliance with this Act.
+
+SECTION: 168
+
+HEADING: Information notices
+
+1. The Commission may require an employer to provide information relevant to compliance.
+
+2. An employer must comply within the period specified in the notice.
+
+SECTION: 169
+
+HEADING: Failure to comply
+
+A person who knowingly fails to comply with a lawful requirement of the Commission commits an offence.
+
+PARTNUMBER: 18
+
+PARTTITLE: Offences
+
+SECTION: 170
+
+HEADING: Failure to provide minimum entitlement
+
+An employer commits an offence if the employer knowingly fails to provide a minimum entitlement under this Act.
+
+SECTION: 171
+
+HEADING: False records
+
+An employer commits an offence if the employer knowingly creates, maintains, or provides a materially false holiday or leave record.
+
+SECTION: 172
+
+HEADING: Destruction of records
+
+A person commits an offence if the person knowingly destroys, conceals, or alters a record required to be retained under this Act for the purpose of avoiding compliance.
+
+SECTION: 173
+
+HEADING: Obstruction
+
+A person commits an offence if the person intentionally obstructs an authorised officer exercising a power under this Act.
+
+SECTION: 174
+
+HEADING: Retaliation against employee
+
+An employer commits an offence if the employer knowingly penalises an employee for exercising a right under this Act.
+
+SECTION: 175
+
+HEADING: Coercion to cash up holidays
+
+An employer commits an offence if the employer coerces or improperly pressures an employee to exchange annual holidays for payment.
+
+SECTION: 176
+
+HEADING: Maximum penalties
+
+1. An individual convicted of an offence under this Part is liable to a fine not exceeding ₴50,000.
+
+2. A body corporate convicted of an offence under this Part is liable to a fine not exceeding ₴250,000.
+
+3. The court may order an employer to pay outstanding entitlements in addition to any penalty.
+
+PARTNUMBER: 19
+
+PARTTITLE: Disputes
+
+SECTION: 177
+
+HEADING: Dispute about entitlement
+
+A dispute concerning an entitlement under this Act may be referred to the Employment Relations Commission.
+
+SECTION: 178
+
+HEADING: Mediation
+
+1. The Commission may direct the parties to participate in mediation.
+
+2. Mediation proceedings are confidential unless the parties agree otherwise.
+
+SECTION: 179
+
+HEADING: Determination
+
+1. If a dispute cannot be resolved through agreement, the Commission may determine the dispute.
+
+2. A determination may include—
+
+(a) payment of outstanding entitlements;
+
+(b) correction of records;
+
+(c) compensation;
+
+(d) penalties; and
+
+(e) any other remedy authorised by law.
+
+SECTION: 180
+
+HEADING: Appeal
+
+A party dissatisfied with a determination may appeal to the Employment Court in accordance with the Employment Relations Act.
+
+SECTION: 181
+
+HEADING: Limitation period
+
+1. A claim for an unpaid entitlement must generally be brought within 6 years after the entitlement became payable.
+
+2. The Commission may extend the period where exceptional circumstances justify doing so.
+
+PARTNUMBER: 20
+
+PARTTITLE: Powers of the Employment Relations Commission
+
+SECTION: 182
+
+HEADING: General powers
+
+The Commission may—
+
+(a) investigate alleged breaches;
+
+(b) require information;
+
+(c) inspect records;
+
+(d) issue compliance orders;
+
+(e) facilitate mediation;
+
+(f) make determinations; and
+
+(g) perform any other function conferred by this Act.
+
+SECTION: 183
+
+HEADING: Guidelines
+
+1. The Commission may issue guidelines concerning compliance with this Act.
+
+2. Guidelines must be published.
+
+3. Guidelines do not have the force of law unless authorised by legislation.
+
+SECTION: 184
+
+HEADING: Compliance notices
+
+1. The Commission may issue a compliance notice where it reasonably believes that an employer is failing to comply.
+
+2. A compliance notice may specify—
+
+(a) the contravention;
+
+(b) the steps required to remedy it; and
+
+(c) the deadline for compliance.
+
+SECTION: 185
+
+HEADING: Review of compliance notice
+
+An employer may apply to the Commission for review of a compliance notice within 14 days after receiving it.
+
+SECTION: 186
+
+HEADING: Failure to comply with notice
+
+Failure to comply with a compliance notice without reasonable excuse is an offence.
+
+PARTNUMBER: 21
+
+PARTTITLE: Special rules for employers
+
+SECTION: 187
+
+HEADING: Employer responsibility
+
+1. An employer is responsible for ensuring that employees receive their minimum entitlements.
+
+2. An employer must not rely solely on an employee to identify errors in holiday or leave calculations.
+
+SECTION: 188
+
+HEADING: Payroll systems
+
+1. An employer must maintain a payroll system capable of accurately recording statutory holiday and leave entitlements.
+
+2. An employer with more than 20 employees must conduct an annual review of its payroll compliance.
+
+SECTION: 189
+
+HEADING: Payroll errors
+
+1. If an employer discovers an error in holiday or leave payments, the employer must correct the error as soon as reasonably practicable.
+
+2. The correction must include any amount that should have been paid to the employee.
+
+SECTION: 190
+
+HEADING: Systemic errors
+
+1. If an employer discovers that a payroll error affects multiple employees, the employer must investigate the extent of the error.
+
+2. The employer must correct all affected records.
+
+3. The employer must notify the Commission if the error materially affects 20 or more employees.
+
+SECTION: 191
+
+HEADING: Employer insolvency
+
+Where an employer becomes insolvent, unpaid holiday and leave entitlements rank as employment-related debts to the extent provided by insolvency law.
+
+PARTNUMBER: 22
+
+PARTTITLE: Special rules for employees
+
+SECTION: 192
+
+HEADING: Employee responsibility
+
+An employee must provide reasonable information necessary to determine an entitlement under this Act.
+
+SECTION: 193
+
+HEADING: Employee not required to calculate entitlement
+
+An employee is not required to calculate their own statutory entitlement as a condition of receiving it.
+
+SECTION: 194
+
+HEADING: Protection of employee
+
+An employee must not be disadvantaged for—
+
+(a) taking statutory leave;
+
+(b) requesting statutory leave;
+
+(c) making a complaint;
+
+(d) participating in an investigation; or
+
+(e) enforcing an entitlement.
+
+SECTION: 195
+
+HEADING: Change of employment
+
+A change from full-time to part-time employment does not extinguish accrued entitlements.
+
+SECTION: 196
+
+HEADING: Return to employment
+
+Where an employee returns to employment with the same employer after an approved period of leave, accrued entitlements must be restored in accordance with this Act.
+
+PARTNUMBER: 23
+
+PARTTITLE: Public holiday administration
+
+SECTION: 197
+
+HEADING: Additional public holidays
+
+The Governor-General may, by Order in Council, declare an additional day to be a public holiday for a specified year.
+
+SECTION: 198
+
+HEADING: National occasions
+
+Parliament may declare a day to be a public holiday to commemorate a significant national event.
+
+SECTION: 199
+
+HEADING: Local public holidays
+
+1. A public holiday may be declared for a particular region or locality.
+
+2. A local public holiday applies only to employees whose employment is principally based in the relevant area.
+
+SECTION: 200
+
+HEADING: Substitute public holidays
+
+1. The Minister may prescribe substitute days where necessary to accommodate—
+
+(a) national events;
+
+(b) calendar arrangements;
+
+(c) exceptional circumstances; or
+
+(d) another reason of significant public importance.
+
+2. A substitute day has the same legal effect as the public holiday for which it is substituted.
+
+SECTION: 201
+
+HEADING: Public holiday calendar
+
+The Minister must publish an official public holiday calendar before the beginning of each calendar year.
+
+PARTNUMBER: 24
+
+PARTTITLE: Regulations
+
+SECTION: 202
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for the purposes of this Act.
+
+SECTION: 203
+
+HEADING: Matters that may be prescribed
+
+Regulations may prescribe—
+
+(a) methods for calculating holiday and leave payments;
+
+(b) record-keeping requirements;
+
+(c) forms;
+
+(d) evidence requirements;
+
+(e) procedures for inspections;
+
+(f) procedures for disputes;
+
+(g) rules concerning irregular employees;
+
+(h) rules concerning shift workers;
+
+(i) rules concerning annual closedowns;
+
+(j) public holiday arrangements;
+
+(k) electronic record requirements; and
+
+(l) any other matter necessary to give effect to this Act.
+
+SECTION: 204
+
+HEADING: Regulations concerning calculations
+
+Regulations may prescribe alternative calculation methods where standard calculations would produce an unreasonable or impracticable result.
+
+SECTION: 205
+
+HEADING: Regulations concerning evidence
+
+Regulations may prescribe—
+
+(a) acceptable forms of evidence;
+
+(b) time limits for providing evidence;
+
+(c) procedures for verifying evidence; and
+
+(d) circumstances in which evidence may not be required.
+
+PARTNUMBER: 25
+
+PARTTITLE: Review and reporting
+
+SECTION: 206
+
+HEADING: Annual report on holidays
+
+The Minister must include in the Ministry's annual report information concerning—
+
+(a) compliance with this Act;
+
+(b) enforcement action;
+
+(c) complaints;
+
+(d) unpaid holiday entitlements;
+
+(e) significant employment trends affecting leave; and
+
+(f) recommendations for legislative reform.
+
+SECTION: 207
+
+HEADING: Five-year review
+
+1. The Minister must arrange a review of this Act at least once every 5 years.
+
+2. The review must consider—
+
+(a) whether minimum entitlements remain adequate;
+
+(b) whether the Act is understandable;
+
+(c) whether employers can reasonably comply;
+
+(d) whether employees are receiving their entitlements;
+
+(e) whether payment calculations remain appropriate;
+
+(f) whether the public holiday system remains appropriate; and
+
+(g) whether amendments are necessary.
+
+SECTION: 208
+
+HEADING: Parliamentary report
+
+A report prepared under [[section:207]] must be presented to Parliament within 20 sitting days after completion.
+
+PARTNUMBER: 26
+
+PARTTITLE: Transitional provisions
+
+SECTION: 209
+
+HEADING: Existing entitlements
+
+1. An entitlement accrued under the Holidays Act or another enactment before the commencement of this Act remains enforceable.
+
+2. An employer must not retrospectively remove an accrued entitlement.
+
+SECTION: 210
+
+HEADING: Existing employment agreements
+
+1. An employment agreement in force immediately before commencement continues in force.
+
+2. Any provision inconsistent with this Act is modified to the extent necessary to comply with this Act.
+
+SECTION: 211
+
+HEADING: Existing holiday balances
+
+1. Annual holiday balances existing immediately before commencement must be transferred to the employee's holiday record under this Act.
+
+2. Sick leave balances must also be transferred.
+
+3. Alternative holiday balances must be preserved.
+
+SECTION: 212
+
+HEADING: Transitional calculations
+
+1. The Minister may prescribe transitional calculation methods for employees whose entitlement periods overlap the commencement of this Act.
+
+2. A transitional method must not reduce an employee's accrued entitlement.
+
+SECTION: 213
+
+HEADING: Existing disputes
+
+A proceeding concerning an entitlement under an earlier enactment that was commenced before the commencement of this Act may continue under the earlier enactment unless the parties agree otherwise.
+
+SECTION: 214
+
+HEADING: References to repealed legislation
+
+A reference in an employment agreement to the Holidays Act 2003 or another repealed holiday enactment must, so far as practicable, be read as a reference to the corresponding provision of this Act.
+
+PARTNUMBER: 27
+
+PARTTITLE: Miscellaneous provisions
+
+SECTION: 215
+
+HEADING: Crown employees
+
+1. Employees of the Crown are entitled to the minimum entitlements under this Act.
+
+2. The Crown must comply with this Act in the same manner as any other employer.
+
+SECTION: 216
+
+HEADING: Local authorities
+
+Local authorities are employers for the purposes of this Act.
+
+SECTION: 217
+
+HEADING: Public corporations
+
+A public corporation is an employer for the purposes of this Act.
+
+SECTION: 218
+
+HEADING: Contractors
+
+1. This Act does not apply to a person who is genuinely an independent contractor.
+
+2. A person must not be classified as an independent contractor for the purpose of avoiding an entitlement under this Act.
+
+SECTION: 219
+
+HEADING: Employee status
+
+The Employment Relations Commission or Employment Court may determine whether a person is an employee for the purposes of this Act.
+
+SECTION: 220
+
+HEADING: Severability
+
+If a provision of this Act is held to be invalid, the remaining provisions continue in force to the extent that they can operate independently.
+
+SECTION: 221
+
+HEADING: No contracting out
+
+1. An employer and employee must not contract out of this Act.
+
+2. Subsection (1) does not prevent an employer from providing an entitlement more favourable than the entitlement required by this Act.
+
+SECTION: 222
+
+HEADING: Greater contractual entitlements
+
+1. An employment agreement may provide for—
+
+(a) additional annual holidays;
+
+(b) additional sick leave;
+
+(c) additional bereavement leave;
+
+(d) additional family violence leave;
+
+(e) higher public holiday rates;
+
+(f) additional alternative holidays; or
+
+(g) any other more favourable entitlement.
+
+2. A greater contractual entitlement must not be used to disguise a reduction in another statutory entitlement.
+
+SECTION: 223
+
+HEADING: Employer policies
+
+1. An employer may establish policies concerning holidays and leave.
+
+2. A policy must comply with this Act.
+
+3. An employee must not be disadvantaged because a policy provides less than the minimum entitlement under this Act.
+
+PARTNUMBER: 28
+
+PARTTITLE: Final provisions
+
+SECTION: 224
+
+HEADING: Repeal
+
+The Holidays Act 2003 is repealed.
+
+SECTION: 225
+
+HEADING: Consequential amendments
+
+The enactments specified in Schedule 1 are amended as set out in that Schedule.
+
+SECTION: 226
+
+HEADING: Savings
+
+1. Anything lawfully done under an enactment repealed by this Act remains valid.
+
+2. Any notice, determination, agreement, record, or proceeding made under a repealed enactment continues to have effect to the extent that it is consistent with this Act.
+
+SECTION: 227
+
+HEADING: Crown liability
+
+Nothing in this Act limits any right of an employee to bring proceedings against the Crown where the Crown has failed to comply with this Act.
+
+SECTION: 228
+
+HEADING: Act to be administered by Minister
+
+This Act is administered by the Minister responsible for employment.
+
+SECTION: 229
+
+HEADING: Review of administration
+
+The Minister must monitor the operation of this Act and may recommend amendments to Parliament where necessary.
+
+SECTION: 230
+
+HEADING: Commencement of repeal
+
+The repeal of the Holidays Act 2003 takes effect on the commencement of this Act.
+
+SECTION: 231
+
+HEADING: Expiry of transitional powers
+
+Any power to make transitional regulations under this Act expires 3 years after the commencement of this Act unless extended by Act of Parliament.
+
+SECTION: 232
+
+HEADING: Act prevails over inconsistent employment agreement
+
+If an employment agreement is inconsistent with this Act, this Act prevails to the extent of the inconsistency.
+
+SECTION: 233
+
+HEADING: Act does not limit better conditions
+
+Nothing in this Act prevents an employer from providing an employee with conditions more favourable than those required by this Act.
+
+SECTION: 234
+
+HEADING: Protection of accrued rights
+
+An employee's accrued holiday, leave, or payment entitlement must not be extinguished solely because this Act replaces another enactment.
+
+SECTION: 235
+
+HEADING: Final interpretation
+
+This Act must be interpreted in a manner consistent with its purpose of providing employees with fair, predictable, and enforceable minimum entitlements to holidays and leave.
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION: 1
+
+HEADING: Amendments
+
+(1) The Employment Relations Act is amended by inserting references to the Employment Holidays Act 2026 wherever necessary.
+(2) The Employment Relations Act is amended to provide that disputes concerning holiday and leave entitlements may be referred to the Employment Relations Commission.
+(3) The Electoral and other public administration legislation is amended to recognise the public holidays established under this Act.
+(4) Any reference to the Holidays Act 2003 is replaced by a reference to the Employment Holidays Act 2026.
+
+SCHEDULESECTION: 2
+
+HEADING: Repeals
+
+(1) The Holidays Act 2003 is repealed.
+(2) Any regulations made under the Holidays Act 2003 remain in force to the extent that they are not inconsistent with this Act until replaced or revoked.
+(3) Any order declaring a public holiday under repealed legislation remains effective unless revoked or replaced.
+
+
+
 
