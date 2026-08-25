@@ -8,7 +8,7 @@ STATUS: Current
 
 VERSION: Latest
 
-VERSIONTITLE: Introduction 5 August 2026
+VERSIONTITLE: Reported from the Justice & Governance Committee
 
 AGENCY: Ministry of Justice & Corrections; and Electoral Commission
 
