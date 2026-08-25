@@ -1,13 +1,15 @@
 const acts = [
   /* 2020s */
   /* 2026 */
-  { number: "191—1", name: "English Language Bill", file: "billviewer.html?act=2000-2099/2026/english-language-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
-  { number: "190—1", name: "Electoral Amendment Bill", file: "billviewer.html?act=2000-2099/2026/electoral-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
-  { number: "189—1", name: "Referendums Bill", file: "billviewer.html?act=2000-2099/2026/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  { number: "2026 No 05", name: "Referendums Act 2026", file: "viewer.html?act=2000-2099/2026/referendums-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections; and Electoral Commission"},
+  { number: "192—1", name: "Great Northern National Park Bill", file: "billviewer.html?act=2000-2099/2026/bills/great-northern-national-park-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry for the Environment; and Wildlife Conservation Agency"},
+  { number: "191—1", name: "English Language Bill", file: "billviewer.html?act=2000-2099/2026/bills/english-language-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  { number: "190—1", name: "Electoral Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/electoral-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  { number: "189—1", name: "Referendums Bill", file: "billviewer.html?act=2000-2099/2026/bills/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 04", name: "Westland (Tierras del oeste) Empowerment Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 03", name: "Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026", file: "viewer.html?act=2000-2099/2026/ministry-of-agriculture-fisheries-and-natural-resources-establishment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},  
-  { number: "188—1", name: "Employment Holidays Bill", file: "billviewer.html?act=2000-2099/2026/employment-holidays-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Labour & Employment"},
-  { number: "187—1", name: "Appropriations (June Estimates) Bill", file: "billviewer.html?act=2000-2099/2026/appropriations-(june-estimates)-bill-2026.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Finance"},
+  { number: "188—1", name: "Employment Holidays Bill", file: "billviewer.html?act=2000-2099/2026/bills/employment-holidays-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Labour & Employment"},
+  { number: "187—1", name: "Appropriations (June Estimates) Bill", file: "billviewer.html?act=2000-2099/2026/bills/appropriations-(june-estimates)-bill-2026.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Finance"},
   { number: "2026 No 02", name: "Immigration Security and Border Integrity Act 2026", file: "viewer.html?act=2000-2099/2026/immigration-security-and-border-integrity-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Immigration & Customs"},
   { number: "2026 No 01", name: "Electoral (Online Voting) Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-(online-voting)-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 2025 */
@@ -30,7 +32,7 @@ const acts = [
   { number: "1990 No 59", name: "Public Information Act 1990", file: "viewer.html?act=1900-1999/1990/public-information-act-1990.txt", year: 1990, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
   /* 1980s */
   { number: "1988 No 72", name: "Public Holidays Act 1988", file: "viewer.html?act=1900-1999/1988/public-holidays-act-1988.txt", year: 1988, type: "act", inForce: true, bill: false, agency: "Ministry of Labour & Employment"}, 
-  { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986-version-2.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1983 No 124", name: "Agriculture Act 1983", file: "viewer.html?act=1900-1999/1983/agriculture-act-1983.txt", year: 1983, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
   /* 1970s */
   { number: "1979 No 12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979.txt", year: 1979, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
