@@ -8,9 +8,9 @@ STATUS: in force
 
 VERSION: latest 
 
-VERSIONTITLE: as at 18 June 2026
+VERSIONTITLE: as at 26 August 2026
 
-AGENCY: the Ministry of Justice & Corrections
+AGENCY: the Ministry of Justice & Corrections; and Electoral Commission
 
 DATEOFASSENT: 18 May 1986
 
@@ -102,6 +102,7 @@ HEADING: Interpretation
 **police** means the Square Country Police continued under the [[Act:Law Enforcement Act 2001]].
 **polling place** means a place designated under [[Part:10]] for the casting of votes.
 **political party** means an organisation registered under [[Part:4]].
+**regulated broadcasting period** has the meaning given to it in [[section:5B]]
 **returning officer** means a person appointed under [[section:157]] to oversee the conduct of an election in an electoral district.
 **sainte‑laguë method** means the method of allocating seats described in [[Schedule:1]].
 **special vote** means a vote cast in accordance with [[section:169]] to [[section:172]].
@@ -124,6 +125,12 @@ HEADING: Meaning of Ruby Country born Square Citizen
 All citizens of Ruby Country who have lawfully moved to Square Country under the *Trans-Mexican Agreement Adoption Act 2009* are Ruby Country born Square Citizens.
 
 AMENDMENT: Section 5A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 5B
+
+HEADING: Meaning of regulated broadcasting period
+
+For the purposes of [[section:146]] to [[section:146JF]], regulated broadcasting period means 
 
 SECTION: 6
 
@@ -1451,13 +1458,27 @@ SECTION: 128
 
 HEADING: Purpose
 
-The purposes of this part are—
-(a) to ensure that election campaigning is conducted fairly and transparently;
-(b) to regulate election advertising
-(c) to impose limits on campaign spending
-(d) to require disclosure of donations
-(e) to prevent corrupt and illegal practices;
-(f) to promote public confidence in the integrity of elections.
+The purposes of this Part are—
+
+(a) to regulate election advertising and campaign communications;
+
+(b) to promote transparency in the financing of election campaigns;
+
+(c) to regulate expenditure incurred by political parties, candidates, and third-party promoters;
+
+(d) to require the disclosure of political donations and loans;
+
+(e) to regulate the use of public resources during an election;
+
+(f) to prevent bribery, treating, undue influence, and other corrupt or illegal practices;
+
+(g) to establish rules governing election advertising in broadcast, print, digital, and other media;
+
+(h) to provide for the administration and enforcement of the requirements of this Part;
+
+(i) to promote public confidence in the fairness and integrity of elections; and
+
+(j) to ensure that electors are able to identify the persons and organisations responsible for political communications.
 
 SUBPARTNUMBER: 1
 
@@ -1467,52 +1488,157 @@ SECTION: 129
 
 HEADING: Campaign period
 
-1. The campaign period begins on the day the writ is issued.
-2. The campaign period ends at midnight on the day of polling.
-3. No person may engage in election advertising outside the campaign period except as permitted by regulation.
+1. The campaign period for an election begins on the day on which the writ for the election is issued.
+
+2. The campaign period ends at midnight on polling day.
+
+3. For the purposes of this Part, a reference to the campaign period includes any period prescribed by regulations as a period during which election advertising is subject to this Part.
+
+4. A person must not publish an election advertisement during a period outside the campaign period if—
+
+(a) the advertisement is intended to influence the outcome of the election; and
+
+(b) the publication would, if undertaken during the campaign period, constitute regulated election advertising.
+
+5. Subsection (4) does not apply to—
+
+(a) ordinary news reporting;
+
+(b) editorial comment;
+
+(c) private political communication;
+
+(d) communications made for genuine academic, educational, or research purposes; or
+
+(e) communications of a class prescribed by regulations.
 
 SECTION: 130
 
 HEADING: Right to campaign
 
-1. Every candidate and political party has the right to campaign freely, subject to this Act.
-2. No person may obstruct or interfere with lawful campaigning.
-3. A person who contravenes subsection (2) commits an offence.
+1. Every candidate and registered political party has the right to campaign during an election.
+
+2. A person must not, without reasonable justification, obstruct, prevent, or interfere with the lawful campaigning activities of another person.
+
+3. Nothing in this section authorises—
+
+(a) trespass;
+
+(b) the obstruction of a public road or footpath;
+
+(c) the commission of an offence; or
+
+(d) the use of property without the consent of its owner or occupier.
+
+4. A person who intentionally contravenes subsection (2) commits an offence.
+
+5. A person does not commit an offence against this section merely because the person—
+
+(a) expresses opposition to a candidate or political party;
+
+(b) engages in peaceful protest; or
+
+(c) declines to provide access to private property.
 
 SECTION: 131
 
 HEADING: Use of public resources prohibited
 
-1. A Minister, Member of Parliament, or candidate must not use public resources for campaigning.
+1. A Minister, Member of Parliament, candidate, political party, or person acting on behalf of a political party must not knowingly use public resources for the purpose of promoting or opposing—
+
+(a) a candidate;
+
+(b) a political party; or
+
+(c) an election proposition.
+
 2. Public resources include—
-(a) government vehicles;
-(b) staff employed by the Crown;
-(c) government premises;
-(d) official stationary;
-(e) public funds.
-3. A person who contravenes this section commits an illegal practice.
+
+(a) public money;
+
+(b) government vehicles;
+
+(c) Crown aircraft;
+
+(d) Crown-owned or leased premises;
+
+(e) official stationery;
+
+(f) government mailing systems;
+
+(g) government advertising channels;
+
+(h) publicly funded staff time; and
+
+(i) equipment or information systems owned or controlled by the Crown.
+
+3. Subsection (1) does not prohibit—
+
+(a) the ordinary performance of a Minister's official functions;
+
+(b) official communications required by law;
+
+(c) the publication of information necessary for the administration of government; or
+
+(d) the use of public facilities on terms generally available to members of the public.
+
+4. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+5. A political party that knowingly benefits from a contravention of this section is liable as if it had incurred the expenditure itself.
 
 SECTION: 132
 
 HEADING: Bribery and treating prohibited
 
-1. A person must not—
-(a) give or offer any gift, loan, or advantage to influence an elector;
-(b) provide food, drink, or entertainment for the purpose of influencing an elector.
-2. Subsection (1) does not apply to—
-(a) ordinary hospitality;
-(b) public meetings open to all electors.
-3. A person who contravenes this section commits a corrupt practice.
+1. A person must not, directly or indirectly—
+
+(a) give, provide, promise, or offer any money, gift, loan, employment, service, or other advantage to an elector for the purpose of influencing the elector's vote;
+
+(b) receive or agree to receive any such advantage in consideration of voting or refraining from voting;
+
+(c) provide food, drink, entertainment, or other benefit to electors with the intention of influencing their votes; or
+
+(d) offer any advantage to a person for procuring or assisting in procuring the vote of another elector.
+
+2. A person who knowingly accepts an advantage offered in contravention of subsection (1) commits an offence.
+
+3. Subsection (1) does not apply to—
+
+(a) reasonable refreshments provided at a public political meeting;
+
+(b) ordinary hospitality;
+
+(c) campaign merchandise of negligible value;
+
+(d) reasonable expenses incurred in transporting electors where the transportation is equally available to all electors; or
+
+(e) any other class of activity prescribed by regulations.
+
+4. The fact that an elector did not ultimately vote in accordance with the request or inducement is not a defence to an offence against this section.
 
 SECTION: 133
 
 HEADING: Undue influence
 
 1. A person must not—
-(a) intimidate, threaten, or coerce an elector;
-(b) use force or violence to influence voting;
-(c) prevent an elector from voting.
-2. A person who contravenes this section commits a corrupt practice.
+
+(a) use or threaten to use violence against an elector;
+
+(b) threaten an elector with financial, employment, educational, or other disadvantage;
+
+(c) intimidate or coerce an elector;
+
+(d) prevent or attempt to prevent an elector from voting;
+
+(e) interfere with an elector while the elector is preparing to vote; or
+
+(f) induce an elector to refrain from voting by threats or intimidation.
+
+2. Nothing in this section prevents legitimate political persuasion or criticism.
+
+3. A person who contravenes subsection (1) commits a corrupt practice.
+
+4. A court may order a person convicted under this section to pay compensation to a person who suffered loss as a result of the offence.
 
 SUBPARTNUMBER: 2
 
@@ -1522,73 +1648,319 @@ SECTION: 134
 
 HEADING: Meaning of election advertisement
 
-1. An election advertisement is any form of communication that—
-(a) encourages or persuades voters to vote or not vote for a candidate or party; or
-(b) encourages or persuades voters to vote or not vote in a particular way on a referendum question.
-2. Election advertisements include—
-(a) posters, banners, and billboards;
-(b) printed material;
-(c) radio, television, and online advertising;
-(d) social media posts; [amended]
-(e) videos, audio recordings, and livestreams; [amended]
-(f) text messages and emails. [amended]
-3. The following are not election advertisements:
-(a) news or editorial content;
-(b) personal political opinions not paid for;
-(c) private conversations;
-(d) academic analysis.
+1. In this Part, election advertisement means an advertisement that may reasonably be regarded as—
+
+(a) encouraging or persuading voters to vote, or not vote, for a candidate or political party; or
+
+(b) encouraging or persuading voters to vote, or not vote, in a particular way on an election proposition.
+
+2. An election advertisement includes—
+
+(a) a poster, banner, billboard, leaflet, pamphlet, newspaper advertisement, or other printed material;
+
+(b) a television or radio advertisement;
+
+(c) an advertisement published on a website;
+
+(d) a paid social media advertisement;
+
+(e) a sponsored post;
+
+(f) a promoted video;
+
+(g) a podcast advertisement;
+
+(h) an electronic message;
+
+(i) a text message;
+
+(j) an email;
+
+(k) an online search advertisement;
+
+(l) an advertisement delivered through an application or digital platform;
+
+(m) a livestream containing paid political promotion; and
+
+(n) any other communication prescribed by regulations.
+
+3. A communication is not an election advertisement merely because it—
+
+(a) contains personal political opinion;
+
+(b) constitutes ordinary news reporting;
+
+(c) constitutes genuine editorial content;
+
+(d) is a private communication between individuals;
+
+(e) is produced for academic or educational purposes without payment from a candidate, party, or promoter; or
+
+(f) constitutes satire, parody, or artistic expression, unless the communication is paid for or otherwise controlled by a candidate, party, or promoter for an electoral purpose.
+
+4. The Commission may issue guidance on whether a particular form of communication constitutes an election advertisement.
+
+AMENDMENT: Section 134(2): paragraphs (d) to (n) substituted, on 1 January 2024, by section 4 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
 
 SECTION: 135
 
 HEADING: Promoter statements required
 
 1. Every election advertisement must include a promoter statement.
-2. A promoter statement must include—
-(a) the name of the promoter;
-(b) the physical address of the promoter.
-3. An advertisement without a promoter statement is prohibited.
-4. A person who publishes an advertisement without a promoter statement commits an illegal practice.
+
+2. The promoter statement must—
+
+(a) state the name of the person or organisation promoting the advertisement; and
+
+(b) state the physical address of the promoter.
+
+3. If the promoter is a registered political party, the promoter statement must identify the party.
+
+4. If the promoter is a candidate, the promoter statement must identify the candidate.
+
+5. The promoter statement must be—
+
+(a) clearly displayed in a printed advertisement;
+
+(b) clearly audible in a broadcast advertisement;
+
+(c) readily visible in a digital advertisement; or
+
+(d) provided in another form approved by the Commission.
+
+6. A promoter statement must remain accessible for the period for which the advertisement is publicly available.
+
+7. A person who knowingly publishes an election advertisement without the required promoter statement commits an illegal practice.
+
+AMENDMENT: Section 135(5): substituted, on 1 January 2024, by section 8 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
 
 SECTION: 136
 
 HEADING: Third-party promoters
 
-1. A person who is not a candidate or party may promote election advertising as a third-party promoter.
-2. A third-party promoter must register with the Commission if they spend more than **₴1,000**.
-3. A third-party promoter must file spending returns.
-4. A person who fails to register commits an offence.
+1. A person who is not a candidate or registered political party may promote an election advertisement as a third-party promoter.
+
+2. A third-party promoter must register with the Commission if the promoter—
+
+(a) incurs expenditure of more than ₴1,000 on election advertising during an election period; or
+
+(b) intends to incur expenditure exceeding that amount.
+
+3. An application for registration must contain—
+
+(a) the name of the promoter;
+
+(b) the promoter's physical address;
+
+(c) the promoter's contact details;
+
+(d) the name of any organisation on whose behalf the promoter is acting; and
+
+(e) any other information prescribed by regulations.
+
+4. The Commission must maintain a public register of third-party promoters.
+
+5. A person who knowingly fails to register as required by this section commits an offence.
+
+AMENDMENT: Section 136: substituted, on 18 May 2017, by section 14 of the Electoral Campaign Finance Amendment Act 2017 (2017 No 11).
+
+SECTION: 136A
+
+HEADING: Register of third-party promoters
+
+1. The Commission must maintain an electronic register of registered third-party promoters.
+
+2. The register must contain—
+
+(a) the promoter's name;
+
+(b) the promoter's address;
+
+(c) the date of registration;
+
+(d) the amount of expenditure declared by the promoter; and
+
+(e) any information required by regulations.
+
+3. The register must be publicly accessible without charge.
+
+4. The Commission may remove information from the register if publication would—
+
+(a) endanger the safety of an individual;
+
+(b) disclose personal information that is not required for electoral transparency; or
+
+(c) otherwise be contrary to the public interest.
+
+AMENDMENT: Section 136A: inserted, on 18 May 2017, by section 15 of the Electoral Campaign Finance Amendment Act 2017 (2017 No 11).
 
 SECTION: 137
 
-HEADING: Prohibited advertising
+HEADING: Prohibited election advertising
 
-A person must not publish—
-(a) false statements about a candidate's eligibility;
-(b) false statements about a candidate's criminal record;
-(c) advertisements likely to mislead or deceive electors;
-(d) advertisements purporting to be from the Commission;
-(e) advertisements that simulate ballot papers.
+1. A person must not knowingly publish an election advertisement that—
+
+(a) falsely states that a person is or is not eligible to stand for election;
+
+(b) falsely states that a candidate has been convicted of an offence;
+
+(c) falsely represents the position of the Commission;
+
+(d) falsely represents the contents or appearance of a ballot paper;
+
+(e) falsely represents that a communication has been authorised by the Commission;
+
+(f) is likely to deceive or materially mislead electors as to the manner in which voting is conducted; or
+
+(g) impersonates a candidate, political party, or electoral authority for the purpose of influencing voting.
+
+2. Nothing in subsection (1) prevents—
+
+(a) criticism of a candidate or political party;
+
+(b) political satire;
+
+(c) publication of an honest opinion; or
+
+(d) publication of allegations that are clearly identified as allegations.
+
+3. The Commission may apply to the High Court for an order requiring the removal or correction of an advertisement published in contravention of this section.
+
+AMENDMENT: Section 137: substituted, on 9 November 2022, by section 19 of the Electoral Communications Amendment Act 2022 (2022 No 27).
 
 SECTION: 138
 
 HEADING: Election signs
 
-1. Election signs may be displayed only during the campaign period.
-2. A sign must not—
-(a) exceed the size prescribed by regulation;
-(b) obstruct traffic or pedestrians;
-(c) be placed on private property without permission.
-3. The Commission may order the removal of unlawful signs.
+1. An election sign may be displayed during the campaign period subject to this Act and any regulations made under this Act.
+
+2. An election sign must not—
+
+(a) obstruct a road, footpath, cycleway, or public entrance;
+
+(b) interfere with traffic signs or signals;
+
+(c) be attached to public property except as authorised;
+
+(d) exceed the dimensions prescribed by regulations; or
+
+(e) be displayed on private property without the consent of the occupier.
+
+3. A local authority may make reasonable rules concerning the location, size, and duration of election signs.
+
+4. A rule made under subsection (3) must not unreasonably prevent lawful election campaigning.
+
+5. The Commission may direct the removal of an election sign that contravenes this Act.
+
+6. If the promoter fails to comply with a direction under subsection (5), the Commission may arrange for the sign to be removed.
+
+7. The reasonable cost of removal may be recovered from the promoter as a debt due to the Crown.
+
+AMENDMENT: Section 138(3): inserted, on 22 June 2019, by section 11 of the Local Electoral Advertising Amendment Act 2019 (2019 No 15).
 
 SECTION: 139
 
-HEADING: Social media advertising 
+HEADING: Election advertising on social media
 
-1. Election advertising on social media must comply with this Act.
-2. A promoter statement must be included in a manner appropriate to the platform
-3. Paid political advertising must be clearly identified as such.
+1. Election advertising published through a social media service is subject to this Part.
 
-AMENDMENT: Section 139: inserted, on 1 January 2014, by section 4 of the Electoral (Social Media Advertising) Amendment Act 2013 (2023 No 36).
+2. A promoter statement must be displayed in a form that is reasonably capable of being seen or accessed by an elector.
+
+3. A paid political advertisement must be clearly identifiable as paid political communication.
+
+4. A person must not knowingly create a false account or automated account for the primary purpose of publishing election advertising while concealing the identity of the promoter.
+
+5. Subsection (4) does not apply to—
+
+(a) anonymous political commentary that is not paid advertising;
+
+(b) accounts operated for satire or parody; or
+
+(c) accounts authorised by the Commission for testing or research.
+
+6. A social media platform that provides paid election advertising must, where reasonably practicable, retain records of—
+
+(a) the promoter;
+
+(b) the amount paid;
+
+(c) the dates on which the advertisement was displayed;
+
+(d) the geographical audience targeted; and
+
+(e) the number of impressions or equivalent measure.
+
+AMENDMENT: Section 139: inserted, on 1 January 2014, by section 4 of the Electoral (Social Media Advertising) Amendment Act 2013 (2013 No 36).
+
+AMENDMENT: Section 139(4) to (6): inserted, on 1 January 2024, by section 10 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139A
+
+HEADING: Digital election advertising library
+
+1. A digital platform that publishes paid election advertising must maintain an electronic advertising library for the duration of the campaign period.
+
+2. The library must contain, in respect of each advertisement—
+
+(a) the promoter statement;
+
+(b) the amount paid;
+
+(c) the dates on which the advertisement was displayed;
+
+(d) the number of times the advertisement was displayed;
+
+(e) the broad audience criteria used to select recipients; and
+
+(f) a copy of the advertisement.
+
+3. The library must remain publicly accessible for at least 2 years after polling day.
+
+4. The Commission may prescribe additional requirements by regulation.
+
+AMENDMENT: Section 139A: inserted, on 1 January 2024, by section 11 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139B
+
+HEADING: Targeting of election advertisements
+
+1. A promoter must not use personal information obtained unlawfully for the purpose of targeting an elector with election advertising.
+
+2. A promoter must not target election advertising on the basis of—
+
+(a) information unlawfully obtained;
+
+(b) information obtained through deception; or
+
+(c) information that the promoter knows to be materially inaccurate and is used for the purpose of manipulating voting behaviour.
+
+3. The Commission may issue standards concerning the use of targeting technologies in election advertising.
+
+4. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 139B: inserted, on 1 January 2024, by section 12 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139C
+
+HEADING: Artificially generated election material
+
+1. A person who publishes election advertising containing materially altered audio, video, or photographic material that purports to depict a candidate must clearly identify the material as digitally altered.
+
+2. Subsection (1) applies whether the alteration is made by artificial intelligence or by another technological process.
+
+3. Subsection (1) does not apply to—
+
+(a) clearly satirical material;
+
+(b) parody;
+
+(c) material that could not reasonably be understood as depicting a real event; or
+
+(d) material prescribed by regulations.
+
+4. The Commission may issue guidance concerning compliance with this section.
+
+AMENDMENT: Section 139C: inserted, on 12 April 2025, by section 17 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
 
 SUBPARTNUMBER: 3
 
@@ -1596,167 +1968,1323 @@ SUBPARTTITLE: Campaign Finance
 
 SECTION: 140
 
-HEADING: Campaign spending limits
+HEADING: Campaign expenditure limits
 
-1. A candidate must not spend more than **₴50,000** during the campaign period.
-2. A political party must not spend more than—
-(a) **₴200,000**; plus
-(b) **₴10,000** for each electorate contested.
-3. Spending includes
+1. A candidate must not incur election expenditure exceeding ₴50,000 during an election period.
+
+2. A registered political party must not incur election expenditure exceeding—
+
+(a) ₴200,000; plus
+
+(b) ₴10,000 for each electorate in which the party has endorsed a candidate.
+
+3. Election expenditure includes expenditure incurred on—
+
 (a) advertising;
-(b) staff costs
-(c) events;
-(d) travel;
-(e) polling and research;
-4. Spending does not include—
-(a) volunteer labour;
-(b) personal travel not reimbursed;
-(c) internal party communications.
+
+(b) printing;
+
+(c) campaign staff;
+
+(d) campaign offices;
+
+(e) opinion polling;
+
+(f) market research;
+
+(g) travel;
+
+(h) telephone and internet services;
+
+(i) campaign events;
+
+(j) digital advertising;
+
+(k) production of campaign material; and
+
+(l) any other expenditure prescribed by regulations.
+
+4. Election expenditure does not include—
+
+(a) the reasonable value of voluntary labour;
+
+(b) personal expenditure incurred by a volunteer that is not reimbursed;
+
+(c) internal party communications not intended for the public;
+
+(d) expenditure incurred in the ordinary administration of a registered political party; or
+
+(e) expenditure expressly excluded by regulations.
+
+5. Where expenditure is incurred jointly by two or more persons, the expenditure must be apportioned between them in accordance with regulations.
+
+AMENDMENT: Section 140: substituted, on 1 July 2022, by section 24 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 140A
+
+HEADING: Election expenditure period
+
+1. For the purposes of calculating a candidate's election expenditure, expenditure is incurred during the election period if—
+
+(a) the contract for the expenditure is entered into during that period; or
+
+(b) the goods or services are supplied during that period.
+
+2. Expenditure incurred before the campaign period for advertising that continues to be publicly available during the campaign period must be treated as election expenditure to the extent prescribed by regulations.
+
+3. The Commission may issue guidance concerning the treatment of expenditure incurred across more than one election period.
+
+AMENDMENT: Section 140A: inserted, on 1 July 2022, by section 25 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 140B
+
+HEADING: Apportionment of shared expenditure
+
+1. If expenditure benefits more than one candidate or party, the person responsible for the expenditure must determine the proportion attributable to each candidate or party.
+
+2. The proportion must be determined according to the reasonable value of the benefit received.
+
+3. The Commission may require evidence supporting an apportionment.
+
+4. If the Commission considers an apportionment unreasonable, it may determine a different amount for the purposes of this Part.
+
+AMENDMENT: Section 140B: inserted, on 1 July 2022, by section 26 of the Electoral Finance Amendment Act 2022 (2022 No 18).
 
 SECTION: 141
 
-HEADING: Donation disclosure
+HEADING: Political donations
 
-1. A candidate must disclose all donations exceeding **₴1,000**.
-2. A party must disclose all donations exceeding **₴5,000**.
-3. Anonymous donations exceeding **₴500** are prohibited.
-4. Foreign donations are prohibited.
-5. A person who knowingly conceals a donation commits an illegal practice.
+1. A political donation is any money, goods, services, property, or other benefit provided to—
+
+(a) a political party;
+
+(b) a candidate; or
+
+(c) a third-party promoter,
+
+for an electoral purpose.
+
+2. A donation includes—
+
+(a) a gift;
+
+(b) a subscription;
+
+(c) the provision of goods or services at less than their reasonable market value;
+
+(d) the forgiveness of a debt;
+
+(e) a loan treated as a donation under section 142; and
+
+(f) a donation made through an intermediary.
+
+3. The value of a donation consisting of goods or services is the reasonable market value of those goods or services.
+
+4. A candidate must disclose donations exceeding ₴1,000.
+
+5. A registered political party must disclose donations exceeding ₴5,000.
+
+6. Anonymous donations exceeding ₴500 must not be accepted.
+
+7. A political party or candidate who receives an anonymous donation exceeding ₴500 must return the donation or pay the amount to the Commission within 20 working days.
+
+8. A person must not knowingly conceal the true source of a political donation.
+
+AMENDMENT: Section 141: substituted, on 4 February 2020, by section 30 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141A
+
+HEADING: Splitting of donations prohibited
+
+1. A person must not knowingly divide a donation into 2 or more payments for the purpose of avoiding a disclosure requirement under this Part.
+
+2. Where the Commission has reasonable grounds to believe that donations have been divided for the purpose described in subsection (1), the donations may be treated as a single donation.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 141A: inserted, on 4 February 2020, by section 31 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141B
+
+HEADING: Donations through intermediaries
+
+1. A person must not knowingly provide a donation to a candidate or political party through another person for the purpose of concealing the identity of the donor.
+
+2. An intermediary who knowingly assists in concealing the identity of a donor commits an illegal practice.
+
+3. This section does not apply where an intermediary merely provides a payment service and has no knowledge of the identity or purpose of the transaction.
+
+AMENDMENT: Section 141B: inserted, on 4 February 2020, by section 32 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141C
+
+HEADING: Foreign donations
+
+1. A political party, candidate, or third-party promoter must not accept a donation from a foreign person exceeding ₴1,500.
+
+2. A person must not knowingly structure a donation for the purpose of avoiding subsection (1).
+
+3. A foreign person includes—
+
+(a) an individual who is neither a citizen nor ordinarily resident in Square Country;
+
+(b) a body corporate incorporated outside Square Country;
+
+(c) a political party or organisation established outside Square Country; and
+
+(d) a government or agency of a foreign state.
+
+4. Subsection (1) does not apply to—
+
+(a) a donation made by a citizen ordinarily resident overseas; or
+
+(b) a donation made from an account maintained in Square Country where the donor can establish that the donor is not a foreign person.
+
+AMENDMENT: Section 141C: inserted, on 4 February 2020, by section 33 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+AMENDMENT: Section 141C(1): amended, on 15 March 2026, by section 7 of the Political Finance Reform Amendment Act 2026 (2026 No 4).
 
 SECTION: 142
 
 HEADING: Loans treated as donations
 
-1. A loan to a candidate or party is treated as a donation unless—
-(a) it is made at a commercial interest rate; and
-(b) it is repaid within 12 months.
-2. A loan from a foreign person is prohibited.
+1. A loan made to a political party, candidate, or third-party promoter is treated as a donation unless—
+
+(a) the loan is made on commercial terms;
+
+(b) the lender is not a foreign person prohibited from making the loan;
+
+(c) the interest rate is not less than the prescribed commercial rate; and
+
+(d) the loan is repayable within the period specified in the agreement.
+
+2. A loan that is forgiven or written off is treated as a donation at the time of forgiveness or write-off.
+
+3. A loan made by a foreign person in contravention of section 141C is prohibited.
+
+4. The Commission may require evidence concerning the terms and source of a loan.
+
+AMENDMENT: Section 142: substituted, on 4 February 2020, by section 34 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 142A
+
+HEADING: Credit arrangements
+
+1. A credit arrangement entered into by a political party or candidate for an electoral purpose is treated as a loan for the purposes of this Part.
+
+2. Subsection (1) applies whether or not interest is charged.
+
+3. Ordinary trade credit for goods or services supplied in the ordinary course of business is not a loan for the purposes of this section if payment is due within 60 days.
+
+AMENDMENT: Section 142A: inserted, on 4 February 2020, by section 35 of the Political Finance Amendment Act 2020 (2020 No 5).
 
 SECTION: 143
 
-HEADING: Reporting of donations
+HEADING: Donation and loan returns
 
-1. Candidates must file a donation return within 40 days after polling day.
-2. Parties must file a donation return within 60 days after polling day.
-3. Returns must include—
+1. Every candidate must provide the Commission with a return of donations and loans received during the election period.
+
+2. The return must be provided within 40 days after polling day.
+
+3. Every registered political party must provide a return within 60 days after polling day.
+
+4. A return must include—
+
 (a) the name of each donor;
-(b) the amount donated;
-(c) the date of donation;
-(d) any conditions attached to the donation.
+
+(b) the address of each donor where required;
+
+(c) the amount or value of each donation;
+
+(d) the date on which the donation was received;
+
+(e) the source of the donation;
+
+(f) the nature and terms of any loan;
+
+(g) the amount of any loan;
+
+(h) the date on which the loan was entered into; and
+
+(i) any other information prescribed by regulations.
+
+5. The Commission must publish returns received under this section as soon as reasonably practicable.
+
+AMENDMENT: Section 143: substituted, on 4 February 2020, by section 38 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 143A
+
+HEADING: Return of election expenses
+
+1. Every candidate must file a return of election expenses within 60 days after polling day.
+
+2. Every registered political party must file a return of election expenses within 90 days after polling day.
+
+3. A return must—
+
+(a) state the total amount of election expenditure;
+
+(b) identify each payment exceeding ₴1,000;
+
+(c) identify the person to whom each payment was made;
+
+(d) identify the purpose of each payment; and
+
+(e) include a declaration that the return is complete and accurate.
+
+4. The Commission may require further information where it considers that necessary to verify a return.
+
+AMENDMENT: Section 143A: inserted, on 1 July 2022, by section 39 of the Electoral Finance Amendment Act 2022 (2022 No 18).
 
 SECTION: 144
 
 HEADING: Auditing of party finances
 
-1. Every registered party must appoint an auditor.
-2. The auditor must be independent.
-3. The auditor must examine the party’s financial statements and donation returns.
-4. The auditor must report any irregularities to the Commission.
+1. Every registered political party must appoint an auditor approved by the Commission.
+
+2. An auditor must—
+
+(a) be independent of the party;
+
+(b) have appropriate professional qualifications; and
+
+(c) comply with standards prescribed by regulations.
+
+3. The auditor must examine—
+
+(a) the party's annual financial statements;
+
+(b) the party's donation returns;
+
+(c) the party's election expense returns; and
+
+(d) the party's records relating to political finance.
+
+4. The auditor must report any material irregularity to the Commission.
+
+5. A political party must provide the auditor with all documents reasonably required for the audit.
+
+AMENDMENT: Section 144: substituted, on 30 June 2015, by section 22 of the Electoral Finance Amendment Act 2015 (2015 No 12).
+
+SECTION: 144A
+
+HEADING: Financial records to be retained
+
+1. A political party, candidate, or third-party promoter must retain records sufficient to establish compliance with this Part.
+
+2. Records must be retained for at least 5 years after the date on which the relevant return is filed.
+
+3. Records may be retained electronically.
+
+4. A person who knowingly destroys or falsifies a record required to be retained commits an offence.
+
+AMENDMENT: Section 144A: inserted, on 30 June 2015, by section 23 of the Electoral Finance Amendment Act 2015 (2015 No 12).
 
 SUBPARTNUMBER: 4
 
-SUBPARTTITLE: Broadcasting and Media
+SUBPARTTITLE: Broadcasting, Media, and Political Communications
 
 SECTION: 145
 
 HEADING: Broadcasting allocation
 
-1. The Commission must allocate broadcasting time to registered parties.
-2. Allocation must take into account—
-(a) the party’s share of the party vote at the previous election;
-(b) the number of candidates nominated;
-(c) the party’s representation in Parliament.
-3. The Commission must publish the allocation.
+1. The Commission must determine an allocation of publicly funded broadcasting resources among registered political parties for each general election.
+
+2. In making the allocation, the Commission must have regard to—
+
+(a) the party's share of the party vote at the previous election;
+
+(b) the number of Members of Parliament belonging to the party;
+
+(c) the number of candidates nominated by the party;
+
+(d) the level of public support reasonably demonstrated for the party;
+
+(e) whether the party is newly registered; and
+
+(f) any other matter prescribed by regulations.
+
+(3) The Commission must publish its allocation before the commencement of the regulated broadcasting period.
+
+4. A party dissatisfied with an allocation may apply to the Commission for reconsideration in accordance with regulations.
+
+AMENDMENT: Section 145: substituted, on 1 August 2019, by section 18 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
 
 SECTION: 146
 
-HEADING: Broadcasting restrictions
+HEADING: Political broadcasting
 
-1. Broadcasters must not favour any candidate or party.
-2. Broadcasters must not charge different rates for political advertising.
-3. Broadcasters must not refuse lawful political advertising.
+1. A broadcaster must comply with this Act in relation to election advertising.
+
+2. A broadcaster must not knowingly publish an election advertisement—
+
+(a) without the required promoter statement;
+
+(b) outside the permitted broadcasting period where prohibited by this Act; or
+
+(c) in circumstances that conceal the identity of the promoter.
+
+3. A broadcaster must not knowingly charge materially different rates for substantially equivalent political advertising solely because of the political party or candidate purchasing the advertising.
+
+4. Nothing in this section—
+
+(a) requires a broadcaster to publish an advertisement that is unlawful;
+
+(b) prevents a broadcaster from applying reasonable technical or editorial standards; or
+
+(c) affects the ordinary operation of broadcasting standards legislation.
+
+AMENDMENT: Section 146: substituted, on 1 August 2019, by section 19 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146A
+
+HEADING: Regulated broadcasting period
+
+1. The regulated broadcasting period begins on the day specified by regulations.
+
+2. The regulated broadcasting period ends at midnight on polling day.
+
+3. Election advertising broadcast during the regulated broadcasting period must comply with this Part.
+
+AMENDMENT: Section 146A: inserted, on 1 August 2019, by section 20 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146B
+
+HEADING: Equal access to broadcasting
+
+1. A broadcaster that accepts paid election advertising from one registered political party must make its political advertising facilities reasonably available to other registered political parties on substantially equivalent terms.
+
+2. A broadcaster may impose reasonable restrictions relating to—
+
+(a) technical quality;
+
+(b) maximum duration;
+
+(c) scheduling;
+
+(d) legal compliance; and
+
+(e) broadcasting standards.
+
+3. A broadcaster must not discriminate against a political party solely because of its political views.
+
+AMENDMENT: Section 146B: inserted, on 1 August 2019, by section 21 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146C
+
+HEADING: Broadcasting of election debates
+
+1. A broadcaster may conduct an election debate involving candidates or political parties.
+
+2. A broadcaster must determine its criteria for participation in a debate before the debate is conducted.
+
+3. The criteria must be applied consistently.
+
+4. Nothing in this section requires a broadcaster to provide equal airtime to every candidate.
+
+AMENDMENT: Section 146C: inserted, on 1 August 2019, by section 22 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146D
+
+HEADING: Online political advertising
+
+1. An online service that provides paid political advertising to persons in Square Country must comply with the requirements of this Part prescribed for digital platforms.
+
+2. The Commission may designate a class of online service as a digital political advertising service.
+
+3. A designation may be made by notice published on the Commission's website.
+
+AMENDMENT: Section 146D: inserted, on 1 January 2024, by section 18 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146E
+
+HEADING: Political advertising records
+
+1. A digital platform must retain records of political advertising for not less than 2 years after polling day.
+
+2. Records must be sufficient to identify—
+
+(a) the promoter;
+
+(b) the amount paid;
+
+(c) the period during which the advertisement was displayed;
+
+(d) the number of impressions;
+
+(e) the general location of the audience; and
+
+(f) the advertisement itself.
+
+3. The Commission may require a digital platform to provide records under this section.
+
+AMENDMENT: Section 146E: inserted, on 1 January 2024, by section 19 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146F
+
+HEADING: Electoral advertising transparency notice
+
+1. The Commission may require a digital platform to provide a transparency notice for election advertising.
+
+2. A transparency notice may contain—
+
+(a) the promoter;
+
+(b) the amount spent;
+
+(c) the dates of publication;
+
+(d) the number of persons reached; and
+
+(e) the targeting categories used.
+
+3. The notice must not disclose personal information unless authorised by this Act.
+
+AMENDMENT: Section 146F: inserted, on 1 January 2024, by section 20 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146G
+
+HEADING: Political advertising purchased by overseas persons
+
+1. A person must not purchase election advertising for publication in Square Country on behalf of a foreign person where the advertising would constitute a prohibited donation or expenditure.
+
+2. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+3. A digital platform may require a promoter to provide reasonable evidence of identity and residence before accepting political advertising.
+
+AMENDMENT: Section 146G: inserted, on 15 March 2026, by section 11 of the Political Finance Reform Amendment Act 2026 (2026 No 4).
+
+SECTION: 146H
+
+HEADING: Electoral advertising accounts
+
+1. A registered political party may establish one or more accounts for the payment of election advertising.
+
+2. A candidate must maintain records of any account used primarily for election advertising.
+
+3. The Commission may prescribe requirements relating to—
+
+(a) identification of accounts;
+
+(b) payment records;
+
+(c) electronic transactions; and
+
+(d) reporting.
+
+AMENDMENT: Section 146H: inserted, on 1 July 2022, by section 44 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 146I
+
+HEADING: Payments made through digital platforms
+
+1. A digital platform that receives payment for election advertising must provide the promoter with a receipt specifying—
+
+(a) the amount paid;
+
+(b) the date of payment;
+
+(c) the advertisement concerned; and
+
+(d) any applicable taxes or fees.
+
+2. The receipt must be retained by the promoter for the purposes of section 144A.
+
+AMENDMENT: Section 146I: inserted, on 1 January 2024, by section 21 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146J
+
+HEADING: Commission directions relating to digital advertising
+
+1. Where the Commission has reasonable grounds to believe that a digital election advertisement contravenes this Part, it may issue a direction to the promoter requiring—
+
+(a) correction of the advertisement;
+
+(b) addition of a promoter statement;
+
+(c) removal of the advertisement; or
+
+(d) publication of a correction.
+
+2. A direction under this section must state—
+
+(a) the grounds for the direction;
+
+(b) the action required; and
+
+(c) the period within which the action must be taken.
+
+3. A person may appeal a direction to the High Court.
+
+AMENDMENT: Section 146J: inserted, on 12 April 2025, by section 25 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JA
+
+HEADING: Emergency removal of unlawful advertising
+
+1. If the Commission considers that an election advertisement presents an immediate and substantial risk of misleading electors about voting procedures, it may direct the person responsible for the advertisement to remove it immediately.
+
+2. A direction under subsection (1) must be confirmed by the High Court within 48 hours if the advertisement is to remain prohibited.
+
+3. If the Court does not confirm the direction within that period, the direction expires.
+
+AMENDMENT: Section 146JA: inserted, on 12 April 2025, by section 26 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JB
+
+HEADING: Election advertising repositories
+
+1. The Commission may establish an electronic repository containing election advertisements supplied under this Part.
+
+2. The repository may contain—
+
+(a) copies of advertisements;
+
+(b) promoter information;
+
+(c) expenditure information;
+
+(d) dates of publication; and
+
+(e) information concerning enforcement action.
+
+3. The Commission must take reasonable steps to protect personal information held in the repository.
+
+AMENDMENT: Section 146JB: inserted, on 12 April 2025, by section 27 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JC
+
+HEADING: Notice of digitally altered material
+
+1. A person who publishes election advertising containing digitally altered material must ensure that the advertisement contains a notice in the form prescribed by regulations.
+
+2. The notice must be reasonably visible or audible to an ordinary elector.
+
+3. The Commission may prescribe different requirements for—
+
+(a) audio;
+
+(b) video;
+
+(c) photographic material;
+
+(d) interactive media; and
+
+(e) emerging forms of digital communication.
+
+AMENDMENT: Section 146JC: inserted, on 12 April 2025, by section 28 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JD
+
+HEADING: Synthetic impersonation of candidates
+
+1. A person must not knowingly publish synthetic audio or video that purports to show a candidate making a statement that the candidate did not make, if the person intends the material to be understood as authentic.
+
+2. A person who contravenes subsection (1) commits an illegal practice.
+
+3. It is a defence if the person proves that—
+
+(a) the material was clearly identified as synthetic; or
+
+(b) the publication was for genuine news, research, educational, artistic, or satirical purposes.
+
+AMENDMENT: Section 146JD: inserted, on 12 April 2025, by section 29 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JE
+
+HEADING: Preservation of evidence
+
+1. A person who receives a notice under section 146J must preserve the relevant advertisement and associated records until—
+
+(a) the investigation is completed; or
+
+(b) the Commission confirms in writing that preservation is no longer required.
+
+2. A person must not knowingly destroy or alter material preserved under this section.
+
+3. A person who contravenes subsection (2) commits an offence.
+
+AMENDMENT: Section 146JE: inserted, on 12 April 2025, by section 30 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JF
+
+HEADING: Application of this Subpart to emerging technologies
+
+1. The requirements of this Subpart apply to a communication regardless of the technology by which the communication is created, transmitted, displayed, or accessed.
+
+2. Without limiting subsection (1), this Subpart applies to—
+
+(a) artificial intelligence systems;
+
+(b) virtual reality;
+
+(c) augmented reality;
+
+(d) automated messaging systems;
+
+(e) generative media;
+
+(f) digital avatars;
+
+(g) synthetic voices;
+
+(h) interactive websites; and
+
+(i) any substantially similar technology.
+
+3. The Governor-General may, by Order in Council, make regulations prescribing additional classes of communication for the purposes of this section.
+
+AMENDMENT: Section 146JF: inserted, on 12 April 2025, by section 31 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
 
 SECTION: 147
 
 HEADING: Opinion polls
 
-1. Opinion polls must disclose—
+1. A person who publishes an opinion poll relating to an election must, at the time of publication, disclose—
+
 (a) the sample size;
-(b) the margin of error;
-(c) the commissioning party;
-(d) the methodology.
-2. A poll that fails to comply must not be published.
+
+(b) the date or dates on which the poll was conducted;
+
+(c) the margin of error, where applicable;
+
+(d) the organisation responsible for conducting the poll;
+
+(e) the person or organisation commissioning the poll;
+
+(f) the methodology used;
+
+(g) the method by which respondents were selected; and
+
+(h) whether the poll has been weighted.
+
+2. The requirements of subsection (1) apply to publication through—
+
+(a) newspapers;
+
+(b) television;
+
+(c) radio;
+
+(d) websites;
+
+(e) social media;
+
+(f) podcasts; and
+
+(g) other prescribed media.
+
+3. This section does not apply to—
+
+(a) private polling not published to the public;
+
+(b) internal party research; or
+
+(c) academic research where the results are not published for electoral campaigning purposes.
+
+AMENDMENT: Section 147: substituted, on 6 May 2021, by section 17 of the Electoral Research Amendment Act 2021 (2021 No 13).
+
+SECTION: 147A
+
+HEADING: Publication of election results and projections
+
+1. A person must not publish a projection of the result of an election before polling closes.
+
+2. Subsection (1) does not prohibit—
+
+(a) discussion of polling data;
+
+(b) academic analysis;
+
+(c) commentary concerning campaign strategy; or
+
+(d) publication of results from a poll conducted before polling day.
+
+3. The Commission may issue guidance concerning the distinction between an opinion poll and an election result projection.
+
+AMENDMENT: Section 147A: inserted, on 6 May 2021, by section 18 of the Electoral Research Amendment Act 2021 (2021 No 13).
 
 SUBPARTNUMBER: 5
 
-SUBPARTTITLE: Prohibited Conduct
+SUBPARTTITLE: Polling-Day Restrictions and Prohibited Conduct
 
 SECTION: 148
 
 HEADING: Campaigning near polling places
 
-1. No person may campaign within 100 metres of a polling place.
-2. A person must not—
-(a) display campaign material;
-(b) wear campaign clothing;
-(c) distribute leaflets;
-(d) solicit votes.
-3. A person who contravenes this section commits an offence.
+1. A person must not, on polling day, conduct election campaigning within 100 metres of a polling place.
+
+2. Without limiting subsection (1), a person must not within that area—
+
+(a) display election signs;
+
+(b) distribute campaign material;
+
+(c) wear clothing prominently displaying the name or logo of a candidate or political party for the purpose of soliciting votes;
+
+(d) solicit votes;
+
+(e) canvass electors; or
+
+(f) communicate material intended to influence an elector's vote.
+
+3. Subsection (1) does not prohibit—
+
+(a) an elector entering or leaving a polling place while wearing ordinary clothing;
+
+(b) an elector discussing politics privately;
+
+(c) accredited observers carrying out their functions; or
+
+(d) activity authorised by the Commission.
+
+4. A person who contravenes this section commits an offence.
+
+AMENDMENT: Section 148: substituted, on 10 October 2018, by section 34 of the Electoral Administration Amendment Act 2018 (2018 No 19).
+
+SECTION: 148A
+
+HEADING: Publication of election material on polling day
+
+1. A person must not publish a new election advertisement on polling day before 7 pm.
+
+2. An advertisement published before polling day may remain available on a website or social media service provided that—
+
+(a) it is not materially altered; and
+
+(b) no additional payment is made to promote it.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 148A: inserted, on 1 January 2024, by section 34 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 148B
+
+HEADING: Electronic messages on polling day
+
+1. A person must not send a bulk electronic message containing election advertising to electors on polling day before 7 pm.
+
+2. This section applies to—
+
+(a) text messages;
+
+(b) email;
+
+(c) messaging applications; and
+
+(d) other electronic communication systems prescribed by regulations.
+
+3. A message sent in response to an individual request is not a bulk electronic message for the purposes of this section.
+
+AMENDMENT: Section 148B: inserted, on 1 January 2024, by section 35 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
 
 SECTION: 149
 
-HEADING: False statements 
+HEADING: False statements concerning candidates
 
-1. A person must not publish a false statement about—
-(a) a candidate’s personal character;
-(b) a candidate’s conduct;
-(c) a candidate’s eligibility.
-2. A person who contravenes this section commits an illegal practice.
+1. A person must not knowingly publish a statement that is false in a material particular concerning—
+
+(a) the personal character of a candidate;
+
+(b) the conduct of a candidate;
+
+(c) the professional qualifications of a candidate;
+
+(d) the eligibility of a candidate to stand for election; or
+
+(e) the withdrawal or death of a candidate.
+
+2. A statement is not false merely because it—
+
+(a) expresses an opinion;
+
+(b) contains political criticism;
+
+(c) is satire; or
+
+(d) is based on a genuinely held interpretation of publicly available information.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+4. The Commission may apply to the High Court for an order requiring a person to—
+
+(a) cease publication;
+
+(b) remove the statement;
+
+(c) publish a correction; or
+
+(d) publish a statement identifying the material as disputed.
+
+AMENDMENT: Section 149: substituted, on 9 November 2022, by section 28 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 149A
+
+HEADING: False information concerning voting procedures
+
+1. A person must not knowingly publish materially false information concerning—
+
+(a) the date of polling;
+
+(b) the location of polling places;
+
+(c) the eligibility of electors;
+
+(d) the method of voting;
+
+(e) the opening or closing time of polling places; or
+
+(f) the manner in which ballot papers must be completed.
+
+2. A person who contravenes subsection (1) commits a corrupt practice.
+
+3. The Commission may require the immediate correction or removal of material published in contravention of this section.
+
+AMENDMENT: Section 149A: inserted, on 9 November 2022, by section 29 of the Electoral Communications Amendment Act 2022 (2022 No 27).
 
 SECTION: 150
 
 HEADING: Interference with campaign material
 
-1. A person must not remove, deface, or destroy campaign material belonging to another person.
-2. A person who contravenes this section commits an offence.
+1. A person must not intentionally—
+
+(a) remove;
+
+(b) destroy;
+
+(c) deface;
+
+(d) conceal; or
+
+(e) materially alter
+
+lawfully displayed election advertising belonging to another person.
+
+2. Subsection (1) does not apply where—
+
+(a) the person owns or lawfully occupies the property on which the material is displayed;
+
+(b) the material has been displayed without permission; or
+
+(c) the material has been displayed in contravention of this Act or another enactment.
+
+3. A person who contravenes subsection (1) commits an offence.
+
+4. This section does not limit any civil remedy available to the owner of election material.
 
 SUBPARTNUMBER: 6
 
-SUBPARTTITLE: Offences
+SUBPARTTITLE: Administration, Enforcement, and Offences
 
 SECTION: 151
 
 HEADING: Corrupt practices
 
-A person commits a corrupt practice if the person—
+1. A person commits a corrupt practice if the person—
+
 (a) engages in bribery;
+
 (b) engages in treating;
-(c) engages in undue influence;
-(d) knowingly published false statements about eligibility;
-(e) knowingly falsifies donation returns.
+
+(c) exercises undue influence;
+
+(d) knowingly publishes false information concerning voting procedures;
+
+(e) knowingly falsifies a donation or expenditure return;
+
+(f) knowingly conceals the true source of a political donation;
+
+(g) knowingly provides false information to the Commission in relation to an investigation; or
+
+(h) commits any other conduct declared by this Act to be a corrupt practice.
+
+2. A political party may be liable for a corrupt practice committed by an officer or agent of the party if the party authorised, directed, or knowingly permitted the conduct.
 
 SECTION: 152
 
 HEADING: Illegal practices
 
-A person commits an illegal practice if the person—
-(a) exceeds spending limits;
-(b) fails to disclose donations
-(c) publishes advertising without a proper statement;
-(d) misuses public resources.
+1. A person commits an illegal practice if the person—
+
+(a) exceeds an applicable election expenditure limit;
+
+(b) fails to provide a required return;
+
+(c) knowingly provides an incomplete or inaccurate return;
+
+(d) publishes election advertising without a promoter statement;
+
+(e) accepts a prohibited donation;
+
+(f) uses public resources for an electoral purpose in contravention of this Part;
+
+(g) publishes prohibited election advertising;
+
+(h) unlawfully interferes with campaign material;
+
+(i) breaches a direction issued by the Commission under this Part; or
+
+(j) commits any other conduct declared by this Act to be an illegal practice.
+
+2. A person does not commit an illegal practice merely because of an administrative error if the person—
+
+(a) took reasonable steps to comply with this Part; and
+
+(b) corrected the error as soon as practicable after becoming aware of it.
+
+SECTION: 152A
+
+HEADING: Liability of political parties
+
+1. A registered political party is liable for an offence committed by an officer, employee, agent, or candidate of the party where the offence—
+
+(a) was committed with the authority of the party;
+
+(b) was committed for the benefit of the party; or
+
+(c) resulted from a failure by the party to take reasonable steps to prevent the conduct.
+
+2. A party is not liable under subsection (1) if it proves that it—
+
+(a) had appropriate systems for compliance;
+
+(b) took reasonable steps to prevent the conduct; and
+
+(c) did not knowingly benefit from the conduct.
+
+AMENDMENT: Section 152A: inserted, on 4 February 2020, by section 51 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152B
+
+HEADING: Liability of campaign agents
+
+1. A campaign agent appointed by a candidate is responsible for ensuring that the candidate's election expenditure records are maintained in accordance with this Part.
+
+2. A campaign agent who knowingly fails to comply with subsection (1) commits an offence.
+
+3. A candidate is not liable for an offence committed solely by a campaign agent if the candidate proves that—
+
+(a) the candidate took reasonable steps to ensure compliance; and
+
+(b) the candidate had no knowledge of the conduct.
+
+AMENDMENT: Section 152B: inserted, on 1 July 2022, by section 53 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 152C
+
+HEADING: Compliance notices
+
+1. If the Commission has reasonable grounds to believe that a person is contravening this Part, it may issue a compliance notice.
+
+2. A compliance notice may require the person to—
+
+(a) cease specified conduct;
+
+(b) remove or correct an advertisement;
+
+(c) provide specified information;
+
+(d) preserve records; or
+
+(e) take another action reasonably necessary to achieve compliance.
+
+3. A compliance notice must specify—
+
+(a) the provision of this Act concerned;
+
+(b) the conduct alleged to constitute the contravention;
+
+(c) the action required; and
+
+(d) the date by which the action must be completed.
+
+4. A person may apply to the High Court for review of a compliance notice.
+
+AMENDMENT: Section 152C: inserted, on 9 November 2022, by section 35 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 152D
+
+HEADING: Investigation powers of Commission
+
+1. For the purpose of determining whether this Part has been complied with, the Commission may—
+
+(a) require a person to provide information;
+
+(b) require production of documents;
+
+(c) inspect records;
+
+(d) interview a person who may have relevant information; and
+
+(e) obtain information from a public authority.
+
+2. A requirement under this section must be reasonable and proportionate.
+
+3. A person must not knowingly provide false or misleading information to the Commission.
+
+4. This section does not authorise the Commission to require disclosure of legally privileged communications.
+
+AMENDMENT: Section 152D: inserted, on 4 February 2020, by section 54 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152E
+
+HEADING: Referral to Director of Public Prosecutions
+
+1. If the Commission has reasonable grounds to believe that a person has committed a serious offence under this Part, it may refer the matter to the Director of Public Prosecutions.
+
+2. A referral may include—
+
+(a) documents obtained by the Commission;
+
+(b) witness statements;
+
+(c) financial records; and
+
+(d) the Commission's findings.
+
+3. The Commission must not determine criminal liability.
+
+AMENDMENT: Section 152E: inserted, on 4 February 2020, by section 55 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152F
+
+HEADING: Recovery of unlawful election expenditure
+
+1. Where a court determines that expenditure was incurred in contravention of this Part, the court may order the person responsible to pay an amount equal to the unlawful expenditure to the Crown.
+
+2. An order under subsection (1) is in addition to any fine or other penalty imposed.
+
+3. The court may reduce the amount payable if satisfied that—
+
+(a) the contravention was inadvertent;
+
+(b) the person took reasonable steps to comply; and
+
+(c) the expenditure did not materially affect the election.
+
+AMENDMENT: Section 152F: inserted, on 1 July 2022, by section 56 of the Electoral Finance Amendment Act 2022 (2022 No 18).
 
 SECTION: 153
 
 HEADING: Penalties
 
-1. A person convicted of a corrupt practice is liable to imprisonment for up to 5 years.
-2. A person convicted of an illegal practice is liable to a fine not exceeding **₴50,000**.
-3. A person convicted of an offence under this Part may be disqualified from voting or standing for an election for up to 3 years.
+1. A person convicted of a corrupt practice is liable to imprisonment for a term not exceeding 5 years or a fine not exceeding ₴100,000, or both.
 
-PARTNUMBER: 9A
+2. A person convicted of an illegal practice is liable to a fine not exceeding ₴50,000.
 
-PARTTITLE: Donations
+3. A person convicted of an offence against this Part may be ordered to pay the reasonable costs incurred by the Commission in investigating the offence.
 
+4. A court may, in addition to any penalty imposed under this section, order that—
+
+(a) unlawfully obtained funds be forfeited;
+
+(b) an unlawful advertisement be removed;
+
+(c) a correction be published;
+
+(d) an unlawful donation be repaid or paid to the Commission; or
+
+(e) the person comply with a specified requirement of this Part.
+
+5. A person convicted of a corrupt practice may be disqualified from—
+
+(a) voting; or
+
+(b) being nominated as a candidate,
+
+for a period not exceeding 3 years if the court considers disqualification necessary to protect the integrity of the electoral system.
+
+AMENDMENT: Section 153: substituted, on 4 February 2020, by section 60 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+AMENDMENT: Section 153(5): inserted, on 12 September 2020, by section 41 of the Public Resources and Elections Amendment Act 2020 (2020 No 14).
+
+SECTION: 153A
+
+HEADING: Aggravating factors
+
+1. In determining a penalty for an offence under this Part, a court may have regard to whether—
+
+(a) the offence was committed deliberately;
+
+(b) the offender attempted to conceal the offence;
+
+(c) the offender obtained a financial benefit;
+
+(d) the offence involved a significant amount of money;
+
+(e) the offender was previously convicted of an electoral offence;
+
+(f) the offence was committed by a person holding public office; or
+
+(g) the conduct was likely to materially affect the outcome of an election.
+
+2. Nothing in this section limits the discretion of the court to impose any penalty authorised by this Act.
+
+AMENDMENT: Section 153A: inserted, on 4 February 2020, by section 61 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153B
+
+HEADING: Liability of directors and officers
+
+1. If an offence under this Part is committed by a body corporate, a director or officer of the body corporate is also liable if—
+
+(a) the director or officer authorised or permitted the offence; or
+
+(b) the director or officer knew, or ought reasonably to have known, that the offence was being committed and failed to take reasonable steps to prevent it.
+
+2. This section does not apply merely because a person is a director or officer.
+
+AMENDMENT: Section 153B: inserted, on 4 February 2020, by section 62 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153C
+
+HEADING: Proceedings for offences
+
+1. Proceedings for an offence against this Part may be commenced by the Commission or by the Director of Public Prosecutions.
+
+2. Proceedings for an offence under this Part must be commenced within 3 years after the date on which the Commission first became aware, or ought reasonably to have become aware, of the conduct constituting the offence.
+
+3. The limitation period in subsection (2) does not apply to an offence punishable by imprisonment for more than 2 years.
+
+AMENDMENT: Section 153C: inserted, on 4 February 2020, by section 63 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153D
+
+HEADING: Publication of enforcement action
+
+1. The Commission may publish details of enforcement action taken under this Part.
+
+2. The publication may include—
+
+(a) the name of the person concerned;
+
+(b) the nature of the contravention;
+
+(c) the amount of any unlawful expenditure or donation;
+
+(d) the action taken by the Commission; and
+
+(e) the outcome of any court proceedings.
+
+3. The Commission must not publish information where publication would—
+
+(a) prejudice an ongoing criminal investigation;
+
+(b) identify a protected witness; or
+
+(c) otherwise be prohibited by law.
+
+AMENDMENT: Section 153D: inserted, on 4 February 2020, by section 64 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153E
+
+HEADING: Annual report on political finance
+
+1. The Commission must include in its annual report information concerning compliance with this Part.
+
+2. The report must include—
+
+(a) the total amount of political donations disclosed;
+
+(b) the total amount of election expenditure disclosed;
+
+(c) the number of enforcement investigations commenced;
+
+(d) the number of offences referred for prosecution;
+
+(e) the number of compliance notices issued; and
+
+(f) any recommendations for legislative reform.
+
+AMENDMENT: Section 153E: inserted, on 4 February 2020, by section 65 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153F
+
+HEADING: Regulations
+
+1. The Governor-General may, by Order in Council, make regulations for the purposes of this Part.
+
+2. Regulations may prescribe—
+
+(a) election expenditure limits;
+
+(b) donation disclosure thresholds;
+
+(c) forms of promoter statements;
+
+(d) requirements for digital advertising;
+
+(e) requirements concerning political finance returns;
+
+(f) requirements concerning financial records;
+
+(g) standards for auditors;
+
+(h) requirements for electronic records;
+
+(i) requirements concerning election signs;
+
+(j) additional classes of election advertisements;
+
+(k) procedures for investigations; and
+
+(l) any other matter necessary for giving effect to this Part.
+
+3. Regulations made under this section are secondary legislation for the purposes of the Legislation Act 2019.
+
+AMENDMENT: Section 153F: substituted, on 1 January 2020, by section 72 of the Legislation Modernisation Amendment Act 2019 (2019 No 31).
+
+SECTION: 153G
+
+HEADING: Commission guidance
+
+1. The Commission may publish guidance concerning compliance with this Part.
+
+2. Guidance may include examples of—
+
+(a) election advertisements;
+
+(b) political donations;
+
+(c) election expenditure;
+
+(d) prohibited conduct;
+
+(e) promoter statements; and
+
+(f) digital political communications.
+
+3. Guidance published under this section does not create an offence or impose a legal obligation unless the obligation is imposed by this Act or regulations.
+
+AMENDMENT: Section 153G: inserted, on 9 November 2022, by section 41 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 153H
+
+HEADING: Review of Part
+
+1. The Commission must, following every second general election, conduct a review of the operation of this Part.
+
+2. The review must consider—
+
+(a) whether expenditure limits remain appropriate;
+
+(b) whether donation thresholds remain appropriate;
+
+(c) the effectiveness of disclosure requirements;
+
+(d) developments in digital advertising;
+
+(e) the use of artificial intelligence in election campaigning;
+
+(f) the effectiveness of enforcement mechanisms; and
+
+(g) any other matter the Commission considers relevant.
+
+3. The Commission must provide a report of the review to the Minister.
+
+4. The Minister must present the report to Parliament within 20 sitting days after receiving it.
+
+AMENDMENT: Section 153H: inserted, on 12 April 2025, by section 42 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
 
 PARTNUMBER: 10
 
@@ -2880,12 +4408,10 @@ SECTION: 253
 
 HEADING: Purpose
 
-The purposes of this Part are—
-(a) to provide for the conduct of referendums in Square Country;
-(b) to ensure that referendums are administered fairly and impartially;
-(c) to regulate campaigning and advertising relating to referendum questions;
-(d) to provide for the counting and certification of referendum results;
-(e) to distinguish between binding and indicative referendums.
+[Repealed]
+
+AMENDMENT: Section 253: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
+
 
 SUBPARTNUMBER: 1
 
@@ -2895,35 +4421,25 @@ SECTION: 254
 
 HEADING: Types of referendums
 
-1. A referendum may be—
-(a) binding, if expressly declared binding by an Act of Parliament; or
-(b) indicative, if held for the purpose of gauging public opinion.
-2. A binding referendum has legal effect as specified in the enabling Act.
-3. An indicative referendum does not have legal effect but must be reported to Parliament.
+[Repealed]
+
+AMENDMENT: Section 254: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 255
 
 HEADING: Referendum questions
 
-1. A referendum question must be—
-(a) clear;
-(b) neutral;
-(c) capable of being answered “Yes” or “No”, unless otherwise provided.
-2. The wording of the question must be approved by Parliament.
-3. The Commission must publish the question at least 60 days before polling day.
+[Repealed]
+
+AMENDMENT: Section 255: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 256
 
 HEADING: Application of electoral procedure
 
-1. Except as otherwise provided in this Part, the procedures for general elections apply to referendums with necessary modifications.
-2. This includes—
-(a) enrolment;
-(b) polling places;
-(c) ballot papers;
-(d) special votes;
-(e) counting;
-(f) offences.
+[Repealed]
+
+AMENDMENT: Section 256: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SUBPARTNUMBER: 2
 
@@ -2933,27 +4449,17 @@ SECTION: 257
 
 HEADING: Issue of writ for referendum
 
-1. The Governor-General must issue a writ for a referendum when required by law.
-2. The writ must specify—
-(a) the referendum question;
-(b) the polling day;
-(c) the date for the return of the writ.
-3. The Commission must publish the writ in the Gazette.
+[Repealed]
+
+AMENDMENT: Section 257: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 258
 
 HEADING: Referendum timetable
 
-1. The following timetable applies unless otherwise provided:
-(a) Day 0: Writ issued;
-(b) Day 10: Close of registration for referendum promoters;
-(c) Day 14: Publication of official information statement;
-(d) Day 16: Advance voting begins;
-(e) Day 30: Polling day;
-(f) Day 45: Official results declared;
-(g) Day 50: Return of writ.
-2. The Commission may adjust dates for administrative reasons.
-3. The Governor-General may postpone polling day in accordance with [[Part:7]].
+[Repealed]
+
+AMENDMENT: Section 258: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SUBPARTNUMBER: 3
 
@@ -2963,40 +4469,35 @@ SECTION: 259
 
 HEADING: Official information statement
 
-1. The Commission must prepare an official information statement.
-2. The statement must include—
-(a) the referendum question;
-(b) a neutral explanation of the proposal, if provided by Parliament.
+[Repealed]
+
+AMENDMENT: Section 259: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 260
 
 HEADING: Referendum promoters
 
-1. A person who spends more than **₴1,000** on referendum advertising must register as a referendum promoter.
-2. A promoter must file spending returns.
-3. A promoter must include a promoter statement on all advertising.
+[Repealed]
+
+AMENDMENT: Section 260: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 261
 
 HEADING: Referendum advertising
 
-1. Referendum advertising must comply with the rules in [[Part:9]].
-2. Advertising must not—
-(a) mislead or deceive electors;
-(b) simulate ballot papers;
-(c) purport to be from the Commission.
-3. A person who contravenes this section commits an illegal practice.
+
+[Repealed]
+
+AMENDMENT: Section 261: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 262
 
 HEADING: Prohibited conduct
 
-1. A person must not—
-(a) bribe or treat electors;
-(b) intimidate electors;
-(c) interfere with polling;
-(d) campaign within 100 metres of a polling place.
-2. A person who contravenes this section commits an offence.
+
+[Repealed]
+
+AMENDMENT: Section 262: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SUBPARTNUMBER: 4
 
@@ -3006,20 +4507,17 @@ SECTION: 263
 
 HEADING: Form of referendum ballot paper
 
-1. A referendum ballot paper must contain—
-(a) the referendum question;
-(b) the options “Yes” and “No”, unless otherwise provided;
-(c) instructions for voting;
-(d) a unique serial number.
-2. The Commission may prescribe alternative formats for multi-option referendums.
+[Repealed]
+
+AMENDMENT: Section 263: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 264
 
 HEADING: Voting procedure
 
-1. An elector must make the ballot paper in secret.
-2. A ballot paper must be marked in a manner that clearly indicates the voter’s intention.
-3. A ballot paper that does not clearly indicate intention must be rejected.
+[Repealed]
+
+AMENDMENT: Section 264: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SUBPARTNUMBER: 5
 
@@ -3029,39 +4527,33 @@ SECTION: 265
 
 HEADING: Preliminary count
 
-1. The preliminary count must begin immediately after the close of polling.
-2. The preliminary count must include all ordinary referendum votes.
-3. Special votes must not be counted during the preliminary count.
+[Repealed]
+
+AMENDMENT: Section 265: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 265
 
 HEADING: Official count
 
-1. The official count must begin on the first business day after polling day.
-2. The official count must include—
-(a) ordinary votes;
-(b) special votes;
-(c) tendered votes.
-3. The returning officer must determine the number of valid “Yes” and “No” votes.
+[Repealed]
+
+AMENDMENT: Section 266: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 267
 
 HEADING: Declaration of results
 
-1. The Commission must declare the official results within 45 days after polling day.
-2. The declaration must include—
-(a) the number of valid votes for each option;
-(b) the number of rejected votes;
-(c) the turnout;
-(d) ballot validity;
-(e) results timing.
-3. The declaration must be published in the Gazette.
+[Repealed]
+
+AMENDMENT: Section 267: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 268
 
 HEADING: Effect of results
-1. If the referendum is binding, the result has legal effect as specified in the enabling Act.
-2. If the referendum is indicative, the Commission must present the results to Parliament.
+
+[Repealed]
+
+AMENDMENT: Section 268: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SUBPARTNUMBER: 6
 
@@ -3071,21 +4563,17 @@ SECTION: 269
 
 HEADING: Offences relating to referendums
 
-A person commits an offence if the person—
-(a) knowingly publishes false information about the referendum question;
-(b) interferes with referendum ballot papers;
-(c) obstructs referendum officials
-(d) impersonates a referendum official;
-(e) destroys or alters referendum documents.
+[Repealed]
+
+AMENDMENT: Section 269: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 SECTION: 270
 
 HEADING: Penalties
 
-1. A person convicted of an offence under this Part is liable to—
-(a) imprisonment for up to 2 years; or
-(b) a fine not exceeding **₴50,000**.
-2. A person convicted of a corrupt practice under this Part is disqualified from voting for 3 years.
+[Repealed]
+
+AMENDMENT: Section 270: repealed, on 26 August 2026, by schedule 1 of the Referendums Act (2026 No 05).
 
 PARTNUMBER: 16
 
