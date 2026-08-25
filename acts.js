@@ -32,7 +32,7 @@ const acts = [
   { number: "1990 No 59", name: "Public Information Act 1990", file: "viewer.html?act=1900-1999/1990/public-information-act-1990.txt", year: 1990, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
   /* 1980s */
   { number: "1988 No 72", name: "Public Holidays Act 1988", file: "viewer.html?act=1900-1999/1988/public-holidays-act-1988.txt", year: 1988, type: "act", inForce: true, bill: false, agency: "Ministry of Labour & Employment"}, 
-  { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986-version-2.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1983 No 124", name: "Agriculture Act 1983", file: "viewer.html?act=1900-1999/1983/agriculture-act-1983.txt", year: 1983, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
   /* 1970s */
   { number: "1979 No 12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979.txt", year: 1979, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
