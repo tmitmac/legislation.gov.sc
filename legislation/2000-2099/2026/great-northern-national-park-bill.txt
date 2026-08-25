@@ -1,0 +1,1593 @@
+TITLE: Great Northern National Park Bill
+
+ACTNUMBER: 192—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+VERSIONTITLE: Introduction 18 August 2026
+
+AGENCY: Ministry of Environment and Conservation
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the **Great Northern National Park Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force on the day after the date on which it receives royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this Act is—
+
+(a) to establish the Great Northern National Park; and
+
+(b) to provide for the protection, preservation, and enhancement of the natural, scenic, ecological, geological, and recreational values of the Park; and
+
+(c) to provide for the responsible enjoyment of the Park by members of the public; and
+
+(d) to establish a statutory framework for the administration and management of the Park; and
+
+(e) to protect indigenous flora and fauna within the Park; and
+
+(f) to ensure that the Park is managed for the benefit and enjoyment of present and future generations.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 5
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+
+**Board** means the Great Northern National Park Board established by section 18;
+
+**conservation officer** means a person appointed as a conservation officer under section 64;
+
+**Director-General** means the Director-General of the Ministry;
+
+**Minister** means the Minister responsible for the administration of this Act;
+
+**Ministry** means the Ministry of Environment and Conservation;
+
+**National Park** or **Park** means the Great Northern National Park established by section 7;
+
+**Park management plan** means a management plan prepared and approved under Part 3;
+
+**Park ranger** means a person appointed as a ranger under section 61;
+
+**public road** means a road declared to be a public road under an enactment;
+
+**reserve land** means land forming part of the Park and held for conservation and public recreation purposes;
+
+**vehicle** includes a motor vehicle, motorcycle, bicycle, trailer, and any other mechanically propelled conveyance.
+
+SECTION: 6
+
+HEADING: Application of other enactments
+
+(1) Nothing in this Act limits or affects the operation of any other enactment relating to—
+
+(a) the protection of wildlife;
+
+(b) the protection of forests;
+
+(c) the protection of waterways;
+
+(d) biosecurity;
+
+(e) public health and safety;
+
+(f) the management of public roads; or
+
+(g) the protection of historic or archaeological sites.
+
+(2) Where a provision of this Act is inconsistent with another enactment, this Act prevails to the extent of the inconsistency unless the other enactment expressly provides otherwise.
+
+PARTNUMBER: 2
+
+PARTTITLE: Establishment of the Great Northern National Park
+
+SECTION: 7
+
+HEADING: Establishment of Great Northern National Park
+
+(1) There is established a national park to be known as the **Great Northern National Park**.
+
+(2) The Park is declared to be a national park for the purposes of this Act.
+
+(3) The Park is to be managed in accordance with this Act and the Park management plan.
+
+SECTION: 8
+
+HEADING: Boundaries of Park
+
+(1) The boundaries of the Park are the boundaries described in Schedule 1.
+
+(2) The Minister may, by notice published in the Gazette, correct a clerical or surveying error in the description of the boundaries.
+
+(3) A correction under subsection (2) must not substantially alter the area or character of the Park.
+
+SECTION: 9
+
+HEADING: Addition of land to Park
+
+(1) The Minister may, by notice published in the Gazette, add Crown land to the Park.
+
+(2) Land may be added to the Park only if the Minister is satisfied that the addition—
+
+(a) contributes to the conservation of the natural environment; or
+
+(b) provides significant scenic, ecological, geological, cultural, or recreational value; or
+
+(c) is necessary for the effective management or protection of the Park.
+
+(3) A notice under this section must describe the land added to the Park.
+
+SECTION: 10
+
+HEADING: Removal of land from Park
+
+(1) Land forming part of the Park must not be removed from the Park except by an Act of Parliament.
+
+(2) The Minister must not recommend the removal of land from the Park unless the Minister is satisfied that—
+
+(a) there is an exceptional public interest in the removal; and
+
+(b) there is no reasonably practicable alternative; and
+
+(c) the environmental consequences have been fully assessed.
+
+SECTION: 11
+
+HEADING: Status of Park land
+
+(1) Land forming part of the Park is held for the purposes of this Act.
+
+(2) Park land must be managed primarily for the preservation of its natural and scenic values.
+
+(3) No part of the Park may be sold, transferred, or otherwise disposed of except as expressly authorised by this Act or another Act of Parliament.
+
+SECTION: 12
+
+HEADING: National park status
+
+The declaration of the Park constitutes a permanent statutory recognition that the land within its boundaries is of national importance for conservation, recreation, scientific research, education, and the enjoyment of the public.
+
+SECTION: 13
+
+HEADING: Objects of management
+
+The objects of management of the Park are—
+
+(a) to preserve its indigenous ecosystems;
+
+(b) to protect indigenous species and their habitats;
+
+(c) to preserve landscapes and geological features;
+
+(d) to protect rivers, lakes, wetlands, springs, and other waterways;
+
+(e) to maintain the ecological integrity of the Park;
+
+(f) to provide opportunities for public recreation consistent with conservation;
+
+(g) to provide for scientific research and education;
+
+(h) to protect sites of historic or archaeological significance; and
+
+(i) to prevent activities that would permanently or materially degrade the Park.
+
+SECTION: 14
+
+HEADING: Precautionary principle
+
+In making decisions under this Act, the Minister, Board, and officers administering the Park must take a precautionary approach where there is a risk of serious or irreversible environmental damage.
+
+SECTION: 15
+
+HEADING: Public ownership
+
+(1) The Park is held for the benefit of the people of Square Country.
+
+(2) No person acquires a private right of ownership over any part of the Park merely by occupying, using, or improving that part of the Park.
+
+SECTION: 16
+
+HEADING: Official name
+
+The official name of the Park is **Great Northern National Park**.
+
+(2) The Minister may assign names to tracks, facilities, rivers, lakes, peaks, valleys, campsites, and other features within the Park.
+
+PARTNUMBER: 3
+
+PARTTITLE: Administration and Governance
+
+SECTION: 17
+
+HEADING: Administration of Park
+
+(1) The Ministry is responsible for the administration of this Act.
+
+(2) The Ministry must ensure that the Park is managed in accordance with the purposes and objects of this Act.
+
+SECTION: 18
+
+HEADING: Great Northern National Park Board
+
+(1) There is established a body called the **Great Northern National Park Board**.
+
+(2) The Board is responsible for advising the Minister and the Ministry on the management and protection of the Park.
+
+SECTION: 19
+
+HEADING: Membership of Board
+
+(1) The Board consists of not fewer than 7 and not more than 11 members appointed by the Minister.
+
+(2) In appointing members, the Minister must seek to ensure that the Board collectively possesses knowledge and experience in—
+
+(a) conservation;
+
+(b) ecology;
+
+(c) forestry;
+
+(d) recreation;
+
+(e) tourism;
+
+(f) environmental science;
+
+(g) local government;
+
+(h) land management; and
+
+(i) public administration.
+
+SECTION: 20
+
+HEADING: Term of appointment
+
+(1) A member of the Board holds office for a term of 4 years.
+
+(2) A member may be reappointed.
+
+(3) A member must not serve more than 3 consecutive terms unless the Minister considers that exceptional circumstances justify further appointment.
+
+SECTION: 21
+
+HEADING: Functions of Board
+
+The functions of the Board are—
+
+(a) to advise the Minister on the Park;
+
+(b) to review the Park management plan;
+
+(c) to advise on major development proposals;
+
+(d) to promote public understanding of conservation;
+
+(e) to monitor the condition of the Park;
+
+(f) to advise on visitor management;
+
+(g) to review reports concerning environmental damage; and
+
+(h) to perform any other function conferred on it by this Act.
+
+SECTION: 22
+
+HEADING: Meetings of Board
+
+(1) The Board must meet at least 4 times in every calendar year.
+
+(2) The Board may regulate its own procedure, subject to this Act.
+
+(3) The Board must keep minutes of its meetings.
+
+SECTION: 23
+
+HEADING: Annual report
+
+(1) The Board must provide the Minister with an annual report concerning the administration and condition of the Park.
+
+(2) The report must include—
+
+(a) the financial position of the Park;
+
+(b) visitor numbers;
+
+(c) major conservation projects;
+
+(d) significant environmental incidents;
+
+(e) enforcement activity;
+
+(f) the condition of major infrastructure; and
+
+(g) recommendations for the following year.
+
+SECTION: 24
+
+HEADING: Director of Great Northern National Park
+
+(1) The Minister may appoint a Director of Great Northern National Park.
+
+(2) The Director is responsible for the day-to-day administration of the Park.
+
+(3) The Director must report to the Director-General.
+
+SECTION: 25
+
+HEADING: Duties of Director
+
+The Director must—
+
+(a) implement the Park management plan;
+
+(b) supervise Park staff;
+
+(c) maintain Park infrastructure;
+
+(d) protect the natural environment;
+
+(e) facilitate lawful public access;
+
+(f) enforce this Act and regulations made under it; and
+
+(g) provide information and advice to the Minister and Board.
+
+PARTNUMBER: 4
+
+PARTTITLE: Park Management Plan
+
+SECTION: 26
+
+HEADING: Requirement for management plan
+
+(1) The Director must prepare a Park management plan.
+
+(2) The plan must provide for the long-term management of the Park.
+
+(3) The plan must be reviewed at least once every 10 years.
+
+SECTION: 27
+
+HEADING: Contents of management plan
+
+The management plan must include provisions relating to—
+
+(a) conservation objectives;
+
+(b) biodiversity protection;
+
+(c) fire management;
+
+(d) pest and invasive species control;
+
+(e) visitor management;
+
+(f) tracks and roads;
+
+(g) camping;
+
+(h) hunting and fishing;
+
+(i) scientific research;
+
+(j) commercial activities;
+
+(k) emergency management;
+
+(l) waste management;
+
+(m) protection of waterways;
+
+(n) protection of historic sites;
+
+(o) climate and environmental resilience; and
+
+(p) any other matter considered necessary for the effective management of the Park.
+
+SECTION: 28
+
+HEADING: Public consultation
+
+(1) Before approving a management plan, the Minister must ensure that reasonable opportunities are provided for members of the public to make submissions.
+
+(2) The Minister must consider submissions received.
+
+SECTION: 29
+
+HEADING: Approval of management plan
+
+(1) A management plan has no effect until approved by the Minister.
+
+(2) The Minister may approve the plan with or without amendments.
+
+(3) The approved plan must be published on the Ministry's website and made available for public inspection.
+
+SECTION: 30
+
+HEADING: Effect of management plan
+
+(1) The Director and every officer administering the Park must have regard to the management plan when exercising powers under this Act.
+
+(2) A person undertaking an activity under a permit or concession must comply with the applicable provisions of the management plan.
+
+PARTNUMBER: 5
+
+PARTTITLE: Conservation and Protection of the Park
+
+SECTION: 31
+
+HEADING: General duty to protect Park
+
+Every person entering or undertaking an activity within the Park must take all reasonable steps to avoid unnecessary damage to the natural environment.
+
+SECTION: 32
+
+HEADING: Protection of indigenous vegetation
+
+(1) A person must not cut, remove, damage, destroy, uproot, or otherwise interfere with indigenous vegetation within the Park except—
+
+(a) under a permit issued under this Act; or
+
+(b) as reasonably necessary for public safety or emergency management.
+
+(2) Subsection (1) applies whether or not the vegetation is alive.
+
+SECTION: 33
+
+HEADING: Protection of wildlife
+
+(1) A person must not hunt, capture, kill, injure, disturb, or deliberately interfere with indigenous wildlife in the Park except as authorised by this Act or another enactment.
+
+(2) A person must not knowingly destroy or interfere with the nest, den, breeding place, or habitat of protected wildlife.
+
+SECTION: 34
+
+HEADING: Introduction of animals
+
+(1) A person must not release or introduce an animal into the Park without a permit.
+
+(2) This section does not apply to an animal being lawfully transported through the Park on a public road.
+
+SECTION: 35
+
+HEADING: Introduced plants and organisms
+
+A person must not knowingly introduce a plant, seed, fungus, microorganism, pest, or other organism into the Park where the introduction is reasonably likely to harm the natural environment.
+
+SECTION: 36
+
+HEADING: Fire
+
+(1) A person must not light, maintain, or use a fire within the Park except in—
+
+(a) a designated fireplace;
+
+(b) an area specified by the Director; or
+
+(c) circumstances authorised by a permit.
+
+(2) The Director may prohibit all fires in any part of the Park where conditions create a significant risk of wildfire.
+
+SECTION: 37
+
+HEADING: Firearms
+
+(1) A person must not discharge a firearm within the Park except—
+
+(a) for lawful hunting in an area where hunting is permitted;
+
+(b) for the destruction of an injured animal where reasonably necessary; or
+
+(c) for a purpose authorised by the Director.
+
+(2) The Director may prohibit the possession or use of firearms in specified areas.
+
+SECTION: 38
+
+HEADING: Pollution
+
+A person must not discharge, deposit, release, or allow to escape into the Park any substance that is reasonably likely to cause significant environmental harm.
+
+SECTION: 39
+
+HEADING: Waterways
+
+(1) A person must not knowingly pollute or materially alter a river, stream, lake, wetland, spring, or other natural waterway within the Park.
+
+(2) No person may construct a dam, diversion, drainage system, or other substantial obstruction in a waterway within the Park without a permit.
+
+SECTION: 40
+
+HEADING: Mining and extraction
+
+(1) No person may undertake mining, quarrying, drilling, gravel extraction, or the extraction of minerals within the Park.
+
+(2) Subsection (1) does not prevent the removal of material where authorised by the Director for—
+
+(a) track construction;
+
+(b) erosion control;
+
+(c) public safety; or
+
+(d) restoration of the Park.
+
+SECTION: 41
+
+HEADING: Commercial forestry
+
+Commercial forestry operations must not be undertaken within the Park.
+
+SECTION: 42
+
+HEADING: Waste
+
+(1) A person must not leave rubbish, waste, equipment, or other material in the Park except in a place provided for that purpose.
+
+(2) A person who brings material into the Park must, so far as reasonably practicable, remove it when leaving.
+
+SECTION: 43
+
+HEADING: Damage to natural features
+
+A person must not intentionally or recklessly damage, deface, remove, or interfere with any natural feature of the Park.
+
+SECTION: 44
+
+HEADING: Cave and geological protection
+
+A person must not damage or remove rocks, fossils, caves, mineral formations, or other geological features within the Park except as authorised by a permit.
+
+PARTNUMBER: 6
+
+PARTTITLE: Public Access and Recreation
+
+SECTION: 45
+
+HEADING: Right of public access
+
+(1) Members of the public may enter and travel through the Park for lawful recreational purposes.
+
+(2) The right of access under subsection (1) is subject to—
+
+(a) this Act;
+
+(b) regulations;
+
+(c) the Park management plan;
+
+(d) reasonable directions of Park officers; and
+
+(e) temporary closures made under this Act.
+
+SECTION: 46
+
+HEADING: Tracks
+
+(1) The Director must establish and maintain a network of public walking tracks appropriate to the character and environmental sensitivity of the Park.
+
+(2) The Director may classify tracks according to their difficulty, environmental sensitivity, or permitted uses.
+
+SECTION: 47
+
+HEADING: Vehicles
+
+(1) A person must not operate a motor vehicle anywhere in the Park other than—
+
+(a) on a public road;
+
+(b) on a designated vehicle track; or
+
+(c) with the authority of the Director.
+
+(2) The Director may prohibit vehicles from any track where necessary for conservation or safety.
+
+SECTION: 48
+
+HEADING: Cycling
+
+The Director may designate tracks or areas for cycling and may prohibit cycling in areas where it would cause unreasonable environmental damage or interfere with public safety.
+
+SECTION: 49
+
+HEADING: Camping
+
+(1) A person must not camp in the Park except—
+
+(a) at a designated campsite; or
+
+(b) with a permit issued under this Act.
+
+(2) The Director may establish different classes of campsite.
+
+(3) The Director may impose reasonable conditions relating to the use of campsites.
+
+SECTION: 50
+
+HEADING: Permanent structures
+
+A person must not erect a permanent structure within the Park without the written authority of the Director.
+
+SECTION: 51
+
+HEADING: Dogs and domestic animals
+
+(1) A person must not bring a dog into the Park except in an area designated for dogs or with the authority of the Director.
+
+(2) A person must not allow a domestic animal to roam freely within the Park.
+
+(3) This section does not prevent the use of animals by Park staff for management purposes.
+
+SECTION: 52
+
+HEADING: Drones
+
+(1) A person must not operate an unmanned aircraft within the Park without a permit.
+
+(2) A permit may be issued for—
+
+(a) scientific research;
+
+(b) conservation;
+
+(c) emergency response;
+
+(d) search and rescue;
+
+(e) approved commercial purposes; or
+
+(f) other purposes considered appropriate by the Director.
+
+SECTION: 53
+
+HEADING: Public events
+
+(1) A person must not organise a sporting event, concert, festival, commercial gathering, or other organised public event within the Park without a permit.
+
+(2) The Director must consider the likely environmental and recreational effects of the event before issuing a permit.
+
+SECTION: 54
+
+HEADING: Visitor safety
+
+The Director may issue directions concerning—
+
+(a) dangerous weather;
+
+(b) flooding;
+
+(c) fire;
+
+(d) landslides;
+
+(e) dangerous wildlife;
+
+(f) track conditions; and
+
+(g) any other threat to public safety.
+
+PARTNUMBER: 7
+
+PARTTITLE: Permits, Concessions, and Commercial Activities
+
+SECTION: 55
+
+HEADING: Requirement for permit
+
+A person must not undertake an activity for which this Act requires a permit unless a permit has been issued and remains in force.
+
+SECTION: 56
+
+HEADING: Application for permit
+
+An application for a permit must—
+
+(a) be made in the prescribed form;
+
+(b) identify the proposed activity;
+
+(c) identify the area in which the activity is proposed;
+
+(d) state the proposed duration; and
+
+(e) contain any other information reasonably required by the Director.
+
+SECTION: 57
+
+HEADING: Grant of permit
+
+The Director may grant a permit if satisfied that the activity—
+
+(a) is consistent with the purposes of this Act;
+
+(b) is consistent with the management plan;
+
+(c) will not cause unacceptable environmental damage; and
+
+(d) can be adequately monitored.
+
+SECTION: 58
+
+HEADING: Conditions of permit
+
+A permit may contain conditions relating to—
+
+(a) location;
+
+(b) hours of operation;
+
+(c) environmental protection;
+
+(d) waste disposal;
+
+(e) public safety;
+
+(f) insurance;
+
+(g) restoration of affected land;
+
+(h) payment of fees; and
+
+(i) any other matter reasonably necessary.
+
+SECTION: 59
+
+HEADING: Suspension and cancellation
+
+The Director may suspend or cancel a permit if—
+
+(a) the holder breaches a condition;
+
+(b) the activity causes unforeseen environmental harm;
+
+(c) the holder provided materially false information; or
+
+(d) suspension or cancellation is necessary for public safety.
+
+SECTION: 60
+
+HEADING: Commercial activities
+
+A person must not conduct a commercial activity within the Park unless authorised under a permit or concession.
+
+SECTION: 61
+
+HEADING: Concessions
+
+(1) The Minister may grant a concession for the operation of facilities or services within the Park.
+
+(2) A concession may relate to—
+
+(a) accommodation;
+
+(b) guided tours;
+
+(c) transport;
+
+(d) food services;
+
+(e) visitor facilities;
+
+(f) educational services; or
+
+(g) other activities compatible with the purposes of the Park.
+
+(3) A concession must not confer ownership of Park land.
+
+PARTNUMBER: 8
+
+PARTTITLE: Park Officers and Enforcement
+
+SECTION: 62
+
+HEADING: Park rangers
+
+(1) The Director may appoint persons as Park rangers.
+
+(2) A ranger must carry identification in the prescribed form.
+
+SECTION: 63
+
+HEADING: Functions of rangers
+
+A ranger may—
+
+(a) patrol the Park;
+
+(b) provide information and assistance to visitors;
+
+(c) enforce this Act;
+
+(d) issue directions authorised by this Act;
+
+(e) investigate suspected offences;
+
+(f) protect Park property; and
+
+(g) assist in emergencies.
+
+SECTION: 64
+
+HEADING: Conservation officers
+
+The Minister may appoint conservation officers for the purposes of enforcing this Act.
+
+SECTION: 65
+
+HEADING: Power to require information
+
+(1) An enforcement officer may require a person whom the officer reasonably suspects has committed an offence under this Act to provide the person's name and address.
+
+(2) A person must comply with a lawful requirement under this section.
+
+SECTION: 66
+
+HEADING: Direction to leave Park
+
+(1) An enforcement officer may direct a person to leave the Park or a specified part of the Park if the officer reasonably believes that—
+
+(a) the person is committing an offence;
+
+(b) the person is creating a danger to themselves or another person; or
+
+(c) the person's conduct is causing significant environmental harm.
+
+(2) A person must comply with a lawful direction under this section.
+
+SECTION: 67
+
+HEADING: Seizure
+
+An enforcement officer may seize any thing if the officer reasonably believes that the thing—
+
+(a) has been used in the commission of an offence; or
+
+(b) constitutes evidence of an offence under this Act.
+
+SECTION: 68
+
+HEADING: Search of abandoned property
+
+An enforcement officer may inspect or search property apparently abandoned within the Park for the purpose of determining—
+
+(a) its owner;
+
+(b) whether it constitutes a danger; or
+
+(c) whether it is evidence of an offence.
+
+SECTION: 69
+
+HEADING: Obstruction of officers
+
+A person must not intentionally obstruct, hinder, threaten, or assault an officer exercising a function under this Act.
+
+PARTNUMBER: 9
+
+PARTTITLE: Offences and Penalties
+
+SECTION: 70
+
+HEADING: General offence
+
+A person commits an offence who knowingly or recklessly contravenes a provision of this Act or a condition of a permit.
+
+SECTION: 71
+
+HEADING: Serious environmental offence
+
+A person commits a serious environmental offence if the person intentionally causes substantial or permanent damage to the natural environment of the Park.
+
+SECTION: 72
+
+HEADING: Penalty for individuals
+
+A person convicted of an offence under this Act is liable to—
+
+(a) in the case of a minor offence, a fine not exceeding $5,000; or
+
+(b) in the case of a serious environmental offence, a fine not exceeding $100,000 or imprisonment for a term not exceeding 2 years, or both.
+
+SECTION: 73
+
+HEADING: Penalty for bodies corporate
+
+A body corporate convicted of an offence under this Act is liable to a fine not exceeding—
+
+(a) $25,000 for a minor offence; or
+
+(b) $500,000 for a serious environmental offence.
+
+SECTION: 74
+
+HEADING: Continuing offences
+
+Where an offence continues for more than 1 day, the offender commits a further offence for each day during which the offence continues.
+
+SECTION: 75
+
+HEADING: Liability for damage
+
+A person who causes damage to the Park may be required to—
+
+(a) restore the affected area;
+
+(b) remove structures or materials;
+
+(c) undertake rehabilitation work; or
+
+(d) pay the reasonable cost of restoration.
+
+SECTION: 76
+
+HEADING: Court orders
+
+On convicting a person of an offence, a court may order—
+
+(a) forfeiture of equipment used in the commission of the offence;
+
+(b) restoration of damaged land;
+
+(c) payment of costs incurred by the Crown;
+
+(d) removal of an unlawful structure; or
+
+(e) any other remedy authorised by law.
+
+PARTNUMBER: 10
+
+PARTTITLE: Fire, Emergency, and Closure Powers
+
+SECTION: 77
+
+HEADING: Temporary closure
+
+(1) The Director may temporarily close all or part of the Park if satisfied that closure is necessary because of—
+
+(a) fire;
+
+(b) flooding;
+
+(c) severe weather;
+
+(d) disease;
+
+(e) environmental damage;
+
+(f) dangerous wildlife;
+
+(g) search and rescue operations; or
+
+(h) another significant threat to public safety or the environment.
+
+(2) A closure must be publicised by reasonable means.
+
+SECTION: 78
+
+HEADING: Emergency directions
+
+During an emergency, the Director or a ranger may give reasonable directions to persons within the Park.
+
+SECTION: 79
+
+HEADING: Evacuation
+
+A person must comply with a lawful direction to evacuate an area of the Park.
+
+SECTION: 80
+
+HEADING: Emergency works
+
+The Director may undertake works necessary to protect life, property, or the environment without obtaining a permit otherwise required by this Act.
+
+PARTNUMBER: 11
+
+PARTTITLE: Scientific Research and Education
+
+SECTION: 81
+
+HEADING: Scientific research
+
+(1) The Director may issue permits for scientific research within the Park.
+
+(2) A research permit may authorise activities that would otherwise be prohibited if the Director is satisfied that the research is justified and appropriately controlled.
+
+SECTION: 82
+
+HEADING: Research conditions
+
+A research permit may require—
+
+(a) the submission of research results to the Ministry;
+
+(b) the protection of specimens;
+
+(c) the restoration of research sites;
+
+(d) restrictions on collection;
+
+(e) monitoring of environmental effects; and
+
+(f) compliance with recognised scientific standards.
+
+SECTION: 83
+
+HEADING: Educational activities
+
+The Director must encourage educational use of the Park where such use is consistent with conservation.
+
+SECTION: 84
+
+HEADING: Visitor centres
+
+The Ministry may establish visitor centres, information facilities, museums, educational facilities, and other public amenities within the Park.
+
+PARTNUMBER: 12
+
+PARTTITLE: Hunting, Fishing, and Natural Resource Use
+
+SECTION: 85
+
+HEADING: Hunting
+
+(1) Hunting is prohibited within areas designated by the Minister.
+
+(2) The Minister may designate specified areas where controlled hunting may occur.
+
+(3) Any hunting permitted under this section must be carried out in accordance with regulations and the management plan.
+
+SECTION: 86
+
+HEADING: Fishing
+
+(1) Fishing may be permitted in specified waterways within the Park.
+
+(2) The Minister may establish restrictions relating to—
+
+(a) species;
+
+(b) seasons;
+
+(c) catch limits;
+
+(d) methods of fishing; and
+
+(e) areas where fishing is permitted.
+
+SECTION: 87
+
+HEADING: Protection of endangered species
+
+The Minister may prohibit hunting, fishing, collection, or other interference with any species considered threatened or endangered.
+
+SECTION: 88
+
+HEADING: Collection of natural materials
+
+A person must not remove plants, rocks, fossils, soil, sand, timber, or other natural materials from the Park except as authorised by permit or regulations.
+
+PARTNUMBER: 13
+
+PARTTITLE: Heritage and Archaeological Protection
+
+SECTION: 89
+
+HEADING: Protection of historic sites
+
+A person must not damage, alter, remove, or interfere with a historic structure, monument, archaeological site, or other place of historic significance within the Park.
+
+SECTION: 90
+
+HEADING: Discovery of archaeological material
+
+A person who discovers an object or site that may be of archaeological significance must—
+
+(a) cease disturbing the object or site; and
+
+(b) notify the Ministry as soon as reasonably practicable.
+
+SECTION: 91
+
+HEADING: Register of protected sites
+
+The Ministry must maintain a register of historic, archaeological, geological, and other significant sites within the Park.
+
+PARTNUMBER: 14
+
+PARTTITLE: Infrastructure and Development
+
+SECTION: 92
+
+HEADING: Park infrastructure
+
+The Ministry may construct and maintain—
+
+(a) roads;
+
+(b) bridges;
+
+(c) walking tracks;
+
+(d) huts;
+
+(e) visitor centres;
+
+(f) toilets;
+
+(g) campsites;
+
+(h) signs;
+
+(i) communication facilities; and
+
+(j) other infrastructure necessary for the administration and enjoyment of the Park.
+
+SECTION: 93
+
+HEADING: Environmental assessment
+
+Before approving a major development within the Park, the Director must ensure that an assessment is undertaken of—
+
+(a) effects on biodiversity;
+
+(b) effects on waterways;
+
+(c) effects on landscape values;
+
+(d) effects on recreation;
+
+(e) effects on historic sites; and
+
+(f) cumulative environmental effects.
+
+SECTION: 94
+
+HEADING: Development prohibited where unacceptable
+
+The Director must not approve a development if satisfied that its effects would be inconsistent with the fundamental conservation purposes of the Park.
+
+SECTION: 95
+
+HEADING: Restoration
+
+Where a temporary facility or structure is authorised within the Park, the person responsible must restore the affected land when the activity ends unless the Director determines otherwise.
+
+PARTNUMBER: 15
+
+PARTTITLE: Funding and Financial Administration
+
+SECTION: 96
+
+HEADING: Great Northern National Park Fund
+
+(1) There is established a fund called the **Great Northern National Park Fund**.
+
+(2) The Fund is administered by the Ministry.
+
+SECTION: 97
+
+HEADING: Money paid into Fund
+
+The following must be paid into the Fund—
+
+(a) appropriations made by Parliament;
+
+(b) fees and charges collected under this Act;
+
+(c) concession payments;
+
+(d) donations and grants accepted by the Ministry; and
+
+(e) any other money authorised to be paid into the Fund.
+
+SECTION: 98
+
+HEADING: Application of Fund
+
+Money in the Fund may be applied only for—
+
+(a) conservation;
+
+(b) Park infrastructure;
+
+(c) scientific research;
+
+(d) visitor facilities;
+
+(e) environmental restoration;
+
+(f) ranger services;
+
+(g) fire management;
+
+(h) pest control; and
+
+(i) administration of the Park.
+
+SECTION: 99
+
+HEADING: Fees
+
+The Minister may prescribe fees for—
+
+(a) permits;
+
+(b) concessions;
+
+(c) camping;
+
+(d) commercial activities;
+
+(e) scientific research; and
+
+(f) other services provided under this Act.
+
+SECTION: 100
+
+HEADING: No general admission fee
+
+No person may be charged a general admission fee merely for entering the Park on foot unless authorised by an Act of Parliament.
+
+PARTNUMBER: 16
+
+PARTTITLE: Pests, Invasive Species, and Restoration
+
+SECTION: 101
+
+HEADING: Pest management
+
+The Director must establish programmes for the control or eradication of invasive species and pests that threaten the ecological integrity of the Park.
+
+SECTION: 102
+
+HEADING: Pest control operations
+
+The Director may undertake—
+
+(a) trapping;
+
+(b) poisoning;
+
+(c) fencing;
+
+(d) removal;
+
+(e) biological control; and
+
+(f) other methods approved under the management plan.
+
+SECTION: 103
+
+HEADING: Notice of pest control
+
+Where reasonably practicable, the Ministry must give public notice of pest control operations that may affect visitors.
+
+SECTION: 104
+
+HEADING: Ecological restoration
+
+The Ministry may undertake restoration projects for—
+
+(a) degraded forests;
+
+(b) wetlands;
+
+(c) waterways;
+
+(d) grasslands;
+
+(e) habitats of threatened species; and
+
+(f) other damaged ecosystems.
+
+SECTION: 105
+
+HEADING: Restoration agreements
+
+The Ministry may enter into agreements with public bodies, scientific institutions, community organisations, and other persons for the restoration of the Park.
+
+PARTNUMBER: 17
+
+PARTTITLE: Regulations and Administrative Matters
+
+SECTION: 106
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for the purposes of this Act.
+
+SECTION: 107
+
+HEADING: Matters that may be prescribed
+
+Without limiting section 106, regulations may provide for—
+
+(a) camping;
+
+(b) fees;
+
+(c) permits;
+
+(d) concessions;
+
+(e) hunting;
+
+(f) fishing;
+
+(g) vehicles;
+
+(h) fires;
+
+(i) dogs and domestic animals;
+
+(j) drones;
+
+(k) commercial activities;
+
+(l) public events;
+
+(m) waste;
+
+(n) scientific research;
+
+(o) conservation activities;
+
+(p) offences against regulations; and
+
+(q) any other matter necessary for giving effect to this Act.
+
+SECTION: 108
+
+HEADING: Bylaws
+
+(1) The Minister may make bylaws for the orderly management of particular areas of the Park.
+
+(2) A bylaw may—
+
+(a) restrict access to a particular area;
+
+(b) regulate visitor behaviour;
+
+(c) regulate vehicles;
+
+(d) establish camping requirements;
+
+(e) protect sensitive environmental areas; or
+
+(f) regulate any other matter consistent with this Act.
+
+SECTION: 109
+
+HEADING: Publication of bylaws
+
+Every bylaw made under this Act must be published in the Gazette and made publicly available.
+
+SECTION: 110
+
+HEADING: Review of Act
+
+The Minister must review the operation of this Act at least once every 10 years and report the results of the review to Parliament.
+
+SECTION: 111
+
+HEADING: Annual state of the Park report
+
+The Minister must, once every calendar year, present to Parliament a report on the state of the Great Northern National Park.
+
+The report must include—
+
+(a) the ecological condition of the Park;
+
+(b) significant environmental threats;
+
+(c) visitor numbers;
+
+(d) major developments;
+
+(e) enforcement activity;
+
+(f) expenditure;
+
+(g) conservation achievements; and
+
+(h) priorities for the following year.
+
+PARTNUMBER: 18
+
+PARTTITLE: Miscellaneous and Transitional Provisions
+
+SECTION: 112
+
+HEADING: Existing rights and interests
+
+Nothing in this Act extinguishes a lawful right or interest existing immediately before the commencement of this Act unless the right or interest is expressly extinguished by this Act.
+
+SECTION: 113
+
+HEADING: Existing agreements
+
+An agreement relating to land incorporated into the Park continues in force according to its terms unless—
+
+(a) the agreement is inconsistent with this Act; or
+
+(b) the agreement is terminated in accordance with its terms.
+
+SECTION: 114
+
+HEADING: Existing facilities
+
+A facility existing within the boundaries of the Park immediately before commencement may continue to operate subject to—
+
+(a) this Act;
+
+(b) regulations;
+
+(c) the management plan; and
+
+(d) any conditions imposed by the Director.
+
+SECTION: 115
+
+HEADING: Transitional permits
+
+A permit or authorisation relating to land incorporated into the Park remains valid for 12 months after commencement unless earlier cancelled or replaced.
+
+SECTION: 116
+
+HEADING: Crown land transferred to Park
+
+Any Crown land identified in Schedule 1 as forming part of the Park is, on commencement, declared to constitute part of the Great Northern National Park.
+
+SECTION: 117
+
+HEADING: Protection of existing public roads
+
+A public road within the boundaries of the Park remains a public road unless lawfully closed under another enactment.
+
+SECTION: 118
+
+HEADING: Saving of existing offences
+
+Nothing in this Act affects proceedings for an offence committed before the commencement of this Act.
+
+SECTION: 119
+
+HEADING: Delegation
+
+(1) The Minister, Director-General, Director, or Board may delegate any function or power under this Act to an employee of the Ministry or another person who is appropriately qualified.
+
+(2) A delegation must be in writing.
+
+(3) A person exercising a delegated power must comply with any conditions of the delegation.
+
+SECTION: 120
+
+HEADING: Protection from liability
+
+A person is not personally liable for anything done or omitted to be done in good faith in the exercise of a power or function under this Act.
+
+SECTION: 121
+
+HEADING: Crown not liable for certain loss
+
+The Crown is not liable for loss suffered by a person merely because the person—
+
+(a) enters the Park;
+
+(b) uses a track or facility;
+
+(c) relies on information provided by a Park officer; or
+
+(d) is unable to undertake an activity because an area of the Park is closed.
+
+SECTION: 122
+
+HEADING: Regulations not to authorise inconsistency
+
+No regulation or bylaw made under this Act may authorise conduct that is inconsistent with the fundamental conservation purposes of the Park.
+
+SECTION: 123
+
+HEADING: Repeal and consequential amendments
+
+The enactments specified in Schedule 2 are amended or repealed to the extent specified in that Schedule.
+
+SECTION: 124
+
+HEADING: Crown land schedule
+
+The land described in Schedule 1 is declared to be part of the Great Northern National Park on the commencement of this Act.
+
+SECTION: 125
+
+HEADING: Parliamentary control
+
+No provision of this Act authorises the permanent disposal of land forming part of the Great Northern National Park.
+
+SECTION: 126
+
+HEADING: Review of Park boundaries
+
+(1) The Minister must review the boundaries of the Park at least once every 15 years.
+
+(2) The purpose of the review is to determine whether additional land should be incorporated into the Park.
+
+(3) The Minister must consult the Board before completing a review.
+
+SECTION: 127
+
+HEADING: Enlargement of Park
+
+The Minister may recommend to Parliament that additional land be incorporated into the Park where the land has significant—
+
+(a) ecological value;
+
+(b) scenic value;
+
+(c) geological value;
+
+(d) recreational value;
+
+(e) conservation value; or
+
+(f) cultural or historical value.
+
+SECTION: 128
+
+HEADING: Act to be administered
+
+This Act is to be administered by the Ministry of Environment and Conservation.
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Description of Great Northern National Park
+
+SCHEDULESECTION: 1
+
+(1) The Great Northern National Park comprises the areas of Crown land identified on the official survey plans deposited with the Registrar-General of Lands for the purposes of this Act.
+(2) The boundaries of the Park are to be shown on an official map maintained by the Ministry.
+(3) The official map must identify—
+(a) the external boundaries of the Park;
+(b) public roads;
+(c) waterways;
+(d) designated recreational areas;
+(e) restricted conservation areas; and
+(f) other areas required for the effective administration of the Park.
+(4) Where there is an inconsistency between a general description of the Park and the official survey plan, the official survey plan prevails.
+
+SCHEDULENUMBER: 2
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION: 1
+
+(1) The Conservation Act is amended by inserting, after the provisions relating to national parks, a reference to the Great Northern National Park.
+(2) The Land Management Act is amended so that land forming part of the Great Northern National Park is subject to the provisions of this Act.
+(3) The Public Reserves Act is amended to recognise the Great Northern National Park as a national park established by Act of Parliament.
+(4) Any reference in an enactment to a national park administered by the Ministry is taken, where the context permits, to include the Great Northern National Park.
