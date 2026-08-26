@@ -128,29 +128,37 @@ body {
     padding: 0 12px !important;
   }
 
-.act-header-details {
-  width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
+@media (max-width: 768px) {
 
-.government-bill {
-  width: 100%;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-}
+  .act-header-details {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    text-align: center !important;
+  }
 
-.government-bill-type {
-  font-size: 20px;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 5px;
-}
+  .government-bill {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 
-.government-bill-number {
-  font-size: 17px;
-  color: #444;
-  font-weight: 400;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+
+  .government-bill-type,
+  .government-bill-number {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
 }
 
 .act-header-row {
@@ -2812,6 +2820,9 @@ function updateBadges(doc) {
     statusEl.className = "badge badge-green";
   } else if (doc.status?.toLowerCase() === "current") {
     statusEl.textContent = "Current";
+    statusEl.className = "badge badge-green";
+  } else if (doc.status?.toLowerCase() === "enacted") {
+    statusEl.textContent = "Enacted";
     statusEl.className = "badge badge-green";
   } else if (doc.status?.toLowerCase() === "repealed") {
     statusEl.textContent = "Repealed";
