@@ -22,6 +22,361 @@
       }
     }
   </script>
+
+    <style>
+
+    /* =========================
+       GENERAL
+    ========================= */
+
+    body {
+      color: #1f2937;
+      background: #f7f7f7;
+    }
+
+    .official-blue {
+      color: #034490;
+    }
+
+    .official-link {
+      color: #005cc8;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .official-link:hover {
+      color: #003f88;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .legislation-hero {
+      background: #034490;
+      color: white;
+      border-bottom: 1px solid #02356f;
+    }
+
+    .hero-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 52px 24px 58px;
+    }
+
+    .hero-kicker {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      opacity: .88;
+      margin-bottom: 10px;
+    }
+
+    .hero-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.08;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .hero-description {
+      max-width: 720px;
+      margin-top: 14px;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #e5eef9;
+    }
+
+    .hero-search {
+      margin-top: 30px;
+      display: flex;
+      max-width: 850px;
+      background: white;
+      border-radius: 3px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,.18);
+    }
+
+    .hero-search input {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      outline: none;
+      padding: 17px 18px;
+      font-size: 17px;
+      color: #111827;
+    }
+
+    .hero-search button {
+      border: 0;
+      background: #126cd3;
+      color: white;
+      padding: 0 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s ease;
+    }
+
+    .hero-search button:hover {
+      background: #0d5db8;
+    }
+
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin-top: 17px;
+      font-size: 14px;
+    }
+
+    .hero-links a {
+      color: white;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .hero-links a:hover {
+      opacity: .8;
+    }
+
+    /* =========================
+       SECTION HEADERS
+    ========================= */
+
+    .section-heading {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #034490;
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .section-intro {
+      color: #5b6470;
+      margin-top: 6px;
+      font-size: 15px;
+    }
+
+    /* =========================
+       BROWSE CARDS
+    ========================= */
+
+    .browse-card {
+      display: block;
+      background: white;
+      border: 1px solid #d1d5db;
+      padding: 27px;
+      min-height: 185px;
+      transition:
+        border-color .2s ease,
+        box-shadow .2s ease,
+        transform .2s ease;
+    }
+
+    .browse-card:hover {
+      border-color: #8baed6;
+      box-shadow: 0 5px 15px rgba(0,0,0,.07);
+      transform: translateY(-2px);
+    }
+
+    .browse-icon {
+      width: 31px;
+      height: 31px;
+      color: #034490;
+      margin-bottom: 19px;
+    }
+
+    .browse-title {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #034490;
+      font-size: 23px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .browse-description {
+      color: #5b6470;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .browse-arrow {
+      margin-top: 18px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #005cc8;
+    }
+
+    /* =========================
+       LIST PANELS
+    ========================= */
+
+    .list-panel {
+      background: white;
+      border: 1px solid #d1d5db;
+    }
+
+    .legislation-item {
+      display: block;
+      padding: 18px 20px;
+      border-bottom: 1px solid #e1e5e9;
+      transition: background .15s ease;
+    }
+
+    .legislation-item:last-child {
+      border-bottom: 0;
+    }
+
+    .legislation-item:hover {
+      background: #f7f9fb;
+    }
+
+    .legislation-name {
+      display: block;
+      color: #005cc8;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 600;
+    }
+
+    .legislation-meta {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      font-weight: 600;
+    }
+
+    .list-footer {
+      padding: 14px 20px;
+      background: #f8fafc;
+      border-top: 1px solid #e1e5e9;
+    }
+
+    /* =========================
+       ABOUT
+    ========================= */
+
+    .about-section {
+      background: white;
+      border-top: 1px solid #d1d5db;
+      border-bottom: 1px solid #d1d5db;
+    }
+
+    .about-inner {
+      max-width: 1280px;
+      margin: auto;
+      padding: 44px 24px;
+    }
+
+    .about-title {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #034490;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .about-text {
+      max-width: 850px;
+      color: #4b5563;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    /* =========================
+       STATISTICS
+    ========================= */
+
+    .stat-card {
+      background: white;
+      border: 1px solid #d1d5db;
+      padding: 24px;
+    }
+
+    .stat-number {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #034490;
+      font-size: 34px;
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    .stat-label {
+      margin-top: 7px;
+      color: #5b6470;
+      font-size: 14px;
+    }
+
+    /* =========================
+       SEARCH DROPDOWN
+    ========================= */
+
+    #searchDropdown {
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 768px) {
+
+      .hero-inner {
+        padding: 36px 20px 42px;
+      }
+
+      .hero-description {
+        font-size: 15px;
+      }
+
+      .hero-search {
+        display: block;
+      }
+
+      .hero-search input {
+        width: 100%;
+        padding: 15px;
+      }
+
+      .hero-search button {
+        width: 100%;
+        padding: 14px;
+      }
+
+      .hero-links {
+        gap: 12px 18px;
+      }
+
+      .section-heading {
+        font-size: 26px;
+      }
+
+      .browse-card {
+        min-height: auto;
+        padding: 22px;
+      }
+
+      .legislation-name {
+        font-size: 17px;
+      }
+
+      .about-inner {
+        padding: 36px 20px;
+      }
+
+    }
+
+  </style>
 </head>
 
 <body class="bg-gray-50 min-h-screen flex flex-col antialiased">
@@ -47,291 +402,446 @@
 
 
   <!-- BROWSE SECTIONS -->
-  <section class="max-w-7xl mx-auto px-6 py-12">
 
-    <h2 class="text-2xl font-bold text-slate-800 mb-6">
-      Browse Legislation
-    </h2>
+    <section class="max-w-7xl mx-auto px-6 py-12 md:py-14">
 
-    <div class="grid md:grid-cols-3 gap-6">
+      <div class="mb-7">
 
+        <h2 class="section-heading">
+          Browse Legislation
+        </h2>
 
-      <a href="actsearch.html?q=act&status=inforce&search=title"
-      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
-
-        <i data-feather="clock" class="mb-3"></i>
-
-        <h3 class="font-semibold text-lg mb-2">
-          Acts
-        </h3>
-
-        <p class="text-gray-600 text-sm">
-          View all in force Acts passed by Parliament
-        </p>
-
-      </a>
-
-
-      <a href="billsearch.html?q=bill&status=bill&search=title"
-      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
-
-        <i data-feather="archive" class="mb-3"></i>
-
-        <h3 class="font-semibold text-lg mb-2">
-          Bills
-        </h3>
-
-        <p class="text-gray-600 text-sm">
-          View current bills in Parliament
-        </p>
-
-      </a>
-
-
-      <a href="declaration.html"
-      class="bg-white border rounded-xl p-6 hover:shadow-md transition">
-
-        <i data-feather="book-open" class="mb-3"></i>
-
-        <h3 class="font-semibold text-lg mb-2">
-          Agencies
-        </h3>
-
-        <p class="text-gray-600 text-sm">
-          Browse legislation by agencies
-        </p>
-
-      </a>
-
-    </div>
-
-  </section>
-
-  <!-- MOST VIEWED / RECENTLY UPDATED -->
-<section class="max-w-7xl mx-auto px-6 py-14">
-
-  <div class="grid lg:grid-cols-2 gap-8">
-
-    <!-- MOST VIEWED -->
-    <div>
-
-      <p class="text-[#034490] text-3xl font-serif font-semibold leading-none">
-        Most viewed
-      </p>
-
-      <div class="mt-6 space-y-3">
-
-        <a href="viewer.html?act=1900-1999/1964/crimes-act-1964.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Crimes Act 1964
-          </span>
-        </a>
-
-        <a href="#"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Employment Act 1988
-          </span>
-        </a>
-
-        <a href="viewer.html?act=1900-1999/1986/electoral-act-1986.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Electoral Act 1986
-          </span>
-        </a>
-
-        <a href="#"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Road User Rules 2010
-          </span>
-        </a>
-
-        <a href="viewer.html?act=1900-1999/1950/constitution-act-1950.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Constitution Act 1950
-          </span>
-        </a>
-
-        <a href="viewer.html?act=2000-2099/2015/education-and-training-act-2015.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Education and Training Act 2015
-          </span>
-        </a>
-
-        <a href="viewer.html?act=1900-1999/1996/westland-tierras-del-oeste-empowerment-act-1996.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Westland (Tierras del oeste) Empowerment Act 1996
-          </span>
-        </a>
-
-        <a href="#"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Privacy Act 2020
-          </span>
-        </a>
-
-      </div>
-
-    </div>
-
-    <!-- RECENTLY UPDATED -->
-    <div>
-
-      <p class="text-[#034490] text-3xl font-serif font-semibold leading-none">
-        Recently updated Acts and Bills
-      </p>
-
-      <div class="mt-6 space-y-3">
-
-        <a href="viewer.html?act=2000-2099/2026/referendums-act-2026.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Referendums Act 2026
-          </span>
-        </a>
-
-        <a href="billviewer.html?act=2000-2099/2026/bills/great-northern-national-park-bill.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Great Northern National Park Bill
-          </span>
-        </a>
-
-        <a href="billviewer.html?act=2000-2099/2026/bills/english-language-bill.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            English Language Bill
-          </span>
-        </a>
-
-        <a href="billviewer.html?act=2000-2099/2026/bills/electoral-amendment-bill.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Electoral Amendment Bill
-          </span>
-        </a>
-
-        <a href="viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Westland (Tierras del oeste) Empowerment Amendment Act 2026
-          </span>
-        </a>
-
-        <a href="viewer.html?act=2000-2099/2026/ministry-of-agriculture-fisheries-and-natural-resources-establishment-act-2026.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Ministry of Agriculture, Fisheries & Natural Resources Establishment Act 2026
-          </span>
-        </a>
-
-        <a href="billviewer.html?act=2000-2099/2026/bills/employment-holidays-bill.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Employment Holidays Bill
-          </span>
-        </a>
-
-        <a href="billviewer.html?act=2000-2099/2026/bills/appropriations-(june-estimates)-bill-2026.txt"
-           class="flex items-center min-h-[64px] border border-gray-300 bg-white px-5 py-4 hover:bg-gray-50 transition">
-          <span class="text-[#005cc8] underline text-xl font-medium">
-            Appropriations (June Estimates) Bill
-          </span>
-        </a>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-  <!-- ABOUT -->
-  <section class="bg-white border-y">
-
-    <div class="max-w-7xl mx-auto px-6 py-12">
-
-      <h2 class="text-2xl font-bold mb-4">
-        About Square Country Legislation
-      </h2>
-
-      <p class="text-gray-600 max-w-3xl leading-relaxed">
-
-        Legislation published on this portal is the official law of Square Country.
-
-        Acts are passed by Parliament and receive Royal Assent before becoming law.
-
-        This website is maintained by the Office of Legislative Counsel.
-
-      </p>
-
-    </div>
-
-  </section>
-
-
-
-  <!-- STATISTICS -->
-  <section class="max-w-7xl mx-auto px-6 py-12">
-
-    <h2 class="text-2xl font-bold mb-6">
-      Legislation Statistics
-    </h2>
-
-    <div class="grid md:grid-cols-3 gap-6">
-
-
-      <div class="bg-white border p-6 rounded-xl">
-
-        <p class="text-3xl font-bold">
-          3,946
-        </p>
-
-        <p class="text-gray-600">
-          Total Acts
+        <p class="section-intro">
+          Explore current Acts, Bills and legislation administered by
+          Square Country government agencies.
         </p>
 
       </div>
 
 
-      <div class="bg-white border p-6 rounded-xl">
+      <div class="grid md:grid-cols-3 gap-5">
 
-        <p class="text-3xl font-bold">
-          1798
+
+        <!-- ACTS -->
+
+        <a
+          href="actsearch.html?q=act&status=inforce&search=title"
+          class="browse-card">
+
+          <i data-feather="book-open" class="browse-icon"></i>
+
+          <h3 class="browse-title">
+            Acts
+          </h3>
+
+          <p class="browse-description">
+            View Acts passed by Parliament and currently in force.
+          </p>
+
+          <div class="browse-arrow">
+            Browse Acts →
+          </div>
+
+        </a>
+
+
+        <!-- BILLS -->
+
+        <a
+          href="billsearch.html?q=bill&status=bill&search=title"
+          class="browse-card">
+
+          <i data-feather="file-text" class="browse-icon"></i>
+
+          <h3 class="browse-title">
+            Bills
+          </h3>
+
+          <p class="browse-description">
+            View Bills currently before Parliament and follow their
+            progress through the legislative process.
+          </p>
+
+          <div class="browse-arrow">
+            Browse Bills →
+          </div>
+
+        </a>
+
+
+        <!-- AGENCIES -->
+
+        <a
+          href="agencies.html"
+          class="browse-card">
+
+          <i data-feather="layers" class="browse-icon"></i>
+
+          <h3 class="browse-title">
+            Agencies
+          </h3>
+
+          <p class="browse-description">
+            Find legislation by the ministry, department or agency
+            responsible for administering it.
+          </p>
+
+          <div class="browse-arrow">
+            Browse agencies →
+          </div>
+
+        </a>
+
+      </div>
+
+    </section>
+
+  <!-- =====================================
+         MOST VIEWED / RECENTLY UPDATED
+    ====================================== -->
+
+    <section class="max-w-7xl mx-auto px-6 pb-14">
+
+      <div class="grid lg:grid-cols-2 gap-8">
+
+
+        <!-- MOST VIEWED -->
+
+        <section>
+
+          <div class="mb-5">
+
+            <h2 class="section-heading">
+              Most viewed
+            </h2>
+
+            <p class="section-intro">
+              Legislation most frequently viewed on this site.
+            </p>
+
+          </div>
+
+
+          <div class="list-panel">
+
+
+            <a
+              href="viewer.html?act=1900-1999/1964/crimes-act-1964.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Crimes Act 1964
+              </span>
+
+            </a>
+
+
+            <a
+              href="#"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Employment Act 1988
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=1900-1999/1986/electoral-act-1986.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Electoral Act 1986
+              </span>
+
+            </a>
+
+
+            <a
+              href="#"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Road User Rules 2010
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=1900-1999/1950/constitution-act-1950.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Constitution Act 1950
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=2000-2099/2015/education-and-training-act-2015.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Education and Training Act 2015
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=1900-1999/1996/westland-tierras-del-oeste-empowerment-act-1996.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Westland (Tierras del oeste) Empowerment Act 1996
+              </span>
+
+            </a>
+
+
+            <a
+              href="#"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Privacy Act 2020
+              </span>
+
+            </a>
+
+          </div>
+
+        </section>
+
+
+
+        <!-- RECENTLY UPDATED -->
+
+        <section>
+
+          <div class="mb-5">
+
+            <h2 class="section-heading">
+              Recently updated
+            </h2>
+
+            <p class="section-intro">
+              Recently enacted, amended or introduced legislation.
+            </p>
+
+          </div>
+
+
+          <div class="list-panel">
+
+
+            <a
+              href="viewer.html?act=2000-2099/2026/referendums-act-2026.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Referendums Act 2026
+              </span>
+
+
+            </a>
+
+
+            <a
+              href="billviewer.html?act=2000-2099/2026/bills/great-northern-national-park-bill.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Great Northern National Park Bill
+              </span>
+
+
+            </a>
+
+
+            <a
+              href="billviewer.html?act=2000-2099/2026/bills/english-language-bill.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                English Language Bill
+              </span>
+
+            </a>
+
+
+            <a
+              href="billviewer.html?act=2000-2099/2026/bills/electoral-amendment-bill.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Electoral Amendment Bill
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Westland (Tierras del oeste) Empowerment Amendment Act 2026
+              </span>
+
+            </a>
+
+
+            <a
+              href="viewer.html?act=2000-2099/2026/ministry-of-agriculture-fisheries-and-natural-resources-establishment-act-2026.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Ministry of Agriculture, Fisheries & Natural Resources Establishment Act 2026
+              </span>
+
+            </a>
+
+
+            <a
+              href="billviewer.html?act=2000-2099/2026/bills/employment-holidays-bill.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Employment Holidays Bill
+              </span>
+
+            </a>
+
+
+            <a
+              href="billviewer.html?act=2000-2099/2026/bills/appropriations-(june-estimates)-bill-2026.txt"
+              class="legislation-item">
+
+              <span class="legislation-name">
+                Appropriations (June Estimates) Bill
+              </span>
+
+            </a>
+
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about-section">
+
+      <div class="about-inner">
+
+        <h2 class="about-title">
+          About Square Country Legislation
+        </h2>
+
+        <p class="about-text">
+
+          Legislation published on this portal is the official law of
+          Square Country. Acts are passed by Parliament and receive
+          Royal Assent before becoming law.
+
+          <br><br>
+
+          This website provides access to current legislation,
+          historical legislation, Bills and legislative information.
+          It is maintained by the Office of Legislative Counsel.
+
         </p>
 
-        <p class="text-gray-600">
-          Oldest Act
+        <div class="mt-5">
+
+          <a
+            href="#"
+            class="official-link text-sm font-semibold">
+
+            About this legislation website →
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         STATISTICS
+    ====================================== -->
+
+    <section class="max-w-7xl mx-auto px-6 py-12 md:py-14">
+
+      <div class="mb-7">
+
+        <h2 class="section-heading">
+          Legislation statistics
+        </h2>
+
+        <p class="section-intro">
+          An overview of the legislation held on this website.
         </p>
 
       </div>
 
 
-      <div class="bg-white border p-6 rounded-xl">
+      <div class="grid md:grid-cols-3 gap-5">
 
-        <p class="text-3xl font-bold">
-          2025
-        </p>
 
-        <p class="text-gray-600">
-          Latest Act
-        </p>
+        <div class="stat-card">
+
+          <p class="stat-number">
+            3,946
+          </p>
+
+          <p class="stat-label">
+            Total Acts
+          </p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <p class="stat-number">
+            1798
+          </p>
+
+          <p class="stat-label">
+            Oldest Act
+          </p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <p class="stat-number">
+            2025
+          </p>
+
+          <p class="stat-label">
+            Latest Act
+          </p>
+
+        </div>
+
 
       </div>
 
-
-    </div>
-
-  </section>
+    </section>
 
 
 </main>
