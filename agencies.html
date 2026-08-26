@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/SCL.png">
+
+
+<title>Browse agencies | Square Country Legislation</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #f7f7f8;
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* TOP BREADCRUMB AREA */
+    .hero {
+        background: linear-gradient(to bottom, #f1f1f3, #ececee);
+        border-bottom: 1px solid #e2e2e4;
+    }
+
+    .hero-inner {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 30px 32px 34px;
+    }
+
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 23px;
+        font-size: 13px;
+    }
+
+    .breadcrumb a {
+        color: #126cd3;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .breadcrumb span {
+        color: #777;
+    }
+
+    .breadcrumb .current {
+        color: #555;
+        font-weight: 500;
+    }
+
+    h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.12;
+    }
+
+    .maori-title {
+        display: block;
+        color: #034490;
+        font-size: 29.3625px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .english-title {
+        display: block;
+        color: #393939;
+        font-size: 34.98px;
+        font-weight: 600;
+    }
+
+    /* MAIN CONTENT */
+    .content {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 24px 32px 50px;
+    }
+
+    /* SEARCH */
+    .search-row {
+        display: flex;
+        align-items: stretch;
+        width: 800px;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .search-box {
+        position: relative;
+        flex: 1;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 17px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 17px;
+        height: 17px;
+        border: 2px solid #333;
+        border-radius: 50%;
+        opacity: 0.75;
+    }
+
+    .search-icon::after {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 2px;
+        background: #333;
+        transform: rotate(45deg);
+        right: -5px;
+        bottom: -3px;
+    }
+
+    input {
+        width: 100%;
+        height: 59px;
+        padding: 0 20px 0 45px;
+        border: 1px solid #c7cbd1;
+        background: #fafafa;
+        color: #333;
+        font-size: 18px;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: #60656d;
+        opacity: 1;
+    }
+
+    input:focus {
+        border-color: #2764a3;
+        box-shadow: 0 0 0 2px rgba(39, 100, 163, 0.12);
+    }
+
+    .search-button {
+        width: 120px;
+        margin-left: 14px;
+        border: none;
+        background: #126cd3;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .search-button:hover {
+        background: #0f5cb4;
+    }
+
+    /* COUNT */
+    .count {
+        margin: 0 0 18px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 23.745px;
+        font-weight: bold;
+        color: #3e3e3e;
+    }
+
+    /* AGENCY GRID */
+    .agency-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px 24px;
+    }
+
+    .agency-card {
+        min-height: 123px;
+        padding: 18px 18px 17px;
+        background: #f8f8f9;
+        border: 1px solid #c9cdd2;
+    }
+
+    .agency-card a {
+        display: inline;
+        color: #136cd3;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.45;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+    }
+
+    .agency-card a:hover {
+        color: #143d68;
+    }
+
+    .agency-meta {
+        margin-top: 10px;
+        color: #343434;
+        font-size: 16px;
+        line-height: 1.55;
+    }
+
+    .agency-meta + .agency-meta {
+        margin-top: 2px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1000px) {
+        .agency-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 650px) {
+        .hero-inner,
+        .content {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+
+        .maori-title {
+            font-size: 29px;
+        }
+
+        .english-title {
+            font-size: 32px;
+        }
+
+        .search-row {
+            flex-direction: column;
+        }
+
+        .search-button {
+            width: 100%;
+            height: 56px;
+            margin: 12px 0 0;
+        }
+
+        .agency-grid {
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    }
+</style>
+</head>
+
+<custom-navbar></custom-navbar>
+
+<body>
+
+    <header class="hero">
+        <div class="hero-inner">
+
+            <nav class="breadcrumb">
+                <a href="#">Home</a>
+                <span>/</span>
+                <span class="current">Browse agencies</span>
+            </nav>
+
+            <h1>
+                <span class="maori-title">Explorar agencias</span>
+                <span class="english-title">Browse agencies</span>
+            </h1>
+
+        </div>
+    </header>
+
+    <main class="content">
+
+        <div class="search-row">
+            <div class="search-box">
+                <span class="search-icon"></span>
+                <input
+                    id="agencySearch"
+                    type="text"
+                    placeholder="Start typing to search for an agency"
+                >
+            </div>
+
+            <button class="search-button" onclick="filterAgencies()">
+                Search
+            </button>
+        </div>
+
+        <h2 class="count" id="agencyCount">112 agencies</h2>
+
+        <div class="agency-grid" id="agencyGrid">
+
+            <div class="agency-card" data-name="Accident Compensation Corporation">
+                <a href="#">Academy for Civil Service Excellence</a>
+                <div class="agency-meta">Act (1)</div>
+                <div class="agency-meta">Secondary legislation (1)</div>
+            </div>
+
+            <div class="agency-card" data-name="Advisory Committee on Assisted Reproductive Technology">
+                <a href="#">Administration for Public Records</a>
+                <div class="agency-meta">Secondary legislation (14)</div>
+            </div>
+
+            <div class="agency-card" data-name="Archives New Zealand">
+                <a href="#">Agency for Advanced Technology and <br>Innovation</a>
+                <div class="agency-meta">Act (1)</div>
+                <div class="agency-meta">Secondary legislation (1)</div>
+            </div>
+
+            <div class="agency-card" data-name="Broadcasting Standards Authority">
+                <a href="#">Agricultural Development Corporation</a>
+                <div class="agency-meta">Secondary legislation (3)</div>
+            </div>
+
+            <div class="agency-card" data-name="Building Practitioners Board">
+                <a href="#">Air Navigation Authority</a>
+                <div class="agency-meta">Secondary legislation (9)</div>
+            </div>
+
+            <div class="agency-card" data-name="Cadastral Surveyors Licensing Board of New Zealand">
+                <a href="#">Cadastral Surveyors Licensing Board of New<br>Zealand</a>
+                <div class="agency-meta">Secondary legislation (1)</div>
+            </div>
+
+            <div class="agency-card" data-name="Chinese Medicine Council of New Zealand">
+                <a href="#">Chinese Medicine Council of New Zealand</a>
+                <div class="agency-meta">Secondary legislation (12)</div>
+            </div>
+
+            <div class="agency-card" data-name="Chiropractic Board">
+                <a href="#">Chiropractic Board</a>
+                <div class="agency-meta">Secondary legislation (9)</div>
+            </div>
+
+            <div class="agency-card" data-name="Civil Aviation Authority">
+                <a href="#">Civil Aviation Authority</a>
+                <div class="agency-meta">Secondary legislation (65)</div>
+            </div>
+
+            <div class="agency-card" data-name="Commerce Commission">
+                <a href="#">Commerce Commission</a>
+                <div class="agency-meta">Act (2)</div>
+                <div class="agency-meta">Secondary legislation (8)</div>
+            </div>
+
+            <div class="agency-card" data-name="Crown Law Office">
+                <a href="#">Crown Law Office</a>
+                <div class="agency-meta">Secondary legislation (4)</div>
+            </div>
+
+            <div class="agency-card" data-name="Dental Council">
+                <a href="#">Dental Council</a>
+                <div class="agency-meta">Secondary legislation (11)</div>
+            </div>
+
+            <div class="agency-card" data-name="Dental Council">
+                <a href="#">Ministry of Justice & Corrections</a>
+                <div class="agency-meta">Secondary legislation (11)</div>
+            </div>
+        </div>
+
+    </main>
+
+<script>
+    const searchInput = document.getElementById("agencySearch");
+
+    searchInput.addEventListener("input", filterAgencies);
+
+    searchInput.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            filterAgencies();
+        }
+    });
+
+    function filterAgencies() {
+        const query = searchInput.value.trim().toLowerCase();
+        const cards = document.querySelectorAll(".agency-card");
+        let visible = 0;
+
+        cards.forEach(card => {
+            const name = card.dataset.name.toLowerCase();
+
+            if (name.includes(query)) {
+                card.style.display = "";
+                visible++;
+            } else {
+                card.style.display = "none";
+            }
+        });
+
+        document.getElementById("agencyCount").textContent =
+            query ? visible + (visible === 1 ? " agency" : " agencies") : "112 agencies";
+    }
+</script>
+
+<script src="components/navbar.js"></script>
+
+
+</body>
+</html>
