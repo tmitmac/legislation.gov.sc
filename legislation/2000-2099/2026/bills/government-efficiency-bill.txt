@@ -1,0 +1,943 @@
+TITLE: Government Efficiency Bill
+
+ACTNUMBER: 193—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+VERSIONTITLE: Introduction 27 August 2026
+
+AGENCY: Government Efficiency Agency
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the **Government Efficiency Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into effect on the day after the date on which it receives royal assent.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purpose of this Act is to promote fiscal efficiency, responsibility, and value for money in the administration of government in Square Country by—
+
+(a) establishing the Government Efficiency Agency; and
+
+(b) providing for the systematic review of government expenditure, programmes, services, and functions; and
+
+(c) identifying expenditure that may be unnecessary, ineffective, excessive, duplicative, or insufficiently efficient; and
+
+(d) providing independent advice and recommendations to Ministers concerning opportunities to reduce, reallocate, or discontinue government expenditure; and
+
+(e) promoting accountability for the use of public money and public resources; and
+
+(f) supporting the efficient and effective delivery of public services.
+
+SECTION: 4
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+
+**Agency** means the Government Efficiency Agency established under [[section:19]]:
+
+**Agency employee** means an employee of the Agency, including the chief executive of the Agency:
+
+**appropriation** means authority granted by Parliament for the expenditure of public money for a specified purpose:
+
+**chief executive** means the chief executive of the Agency:
+
+**confidential information** means information that—
+
+(a) is subject to an obligation of confidence; or
+
+(b) is commercially sensitive; or
+
+(c) relates to personal information; or
+
+(d) is protected from disclosure by or under an enactment; or
+
+(e) the disclosure of which could reasonably be expected to prejudice the effective conduct of government or the legitimate interests of a person or organisation:
+
+**Crown** means the Sovereign in right of Square Country and includes the Government of Square Country:
+
+**Crown entity** means an entity established, constituted, or continued under an enactment that performs public functions and is owned, controlled, funded, or substantially influenced by the Crown:
+
+**department** means a department of the public service:
+
+**efficiency review** means a review, examination, investigation, assessment, or analysis conducted by the Agency under this Act for the purpose of identifying opportunities to improve efficiency, reduce unnecessary expenditure, improve value for money, or otherwise promote the purposes of this Act:
+
+**financial year** means the period beginning on 1 July in any year and ending on 30 June in the following year:
+
+**funding** includes—
+
+(a) money appropriated by Parliament; and
+
+(b) grants, subsidies, contributions, or other payments made from public money; and
+
+(c) financial assistance provided by or on behalf of the Crown; and
+
+(d) any other financial resource made available to support a programme, service, activity, project, organisation, or function:
+
+**government expenditure** means any expenditure, commitment, liability, transfer, grant, payment, subsidy, financial assistance, or other use of public money by or on behalf of a public organisation:
+
+**government programme** means a planned or continuing course of activity, initiative, scheme, service, project, or arrangement funded wholly or partly from public money:
+
+**government service** means a service provided by, on behalf of, or substantially funded by the Crown or a public organisation:
+
+**inefficient expenditure** means government expenditure that the Agency reasonably considers—
+
+(a) does not provide reasonable value for money; or
+
+(b) does not substantially contribute to the achievement of its intended purpose or outcome; or
+
+(c) duplicates or substantially overlaps with another government programme, service, activity, or function; or
+
+(d) exceeds the expenditure reasonably required to achieve its intended purpose or outcome; or
+
+(e) continues to be incurred for a purpose that is no longer necessary, relevant, or effective; or
+
+(f) could reasonably be reduced without materially impairing the intended outcome of the expenditure; or
+
+(g) results from unnecessarily inefficient administrative, procurement, staffing, contracting, or operational arrangements; or
+
+(h) is otherwise inconsistent with the principles of government efficiency set out in [[section:6]]:
+
+**information** includes a document, record, report, account, contract, agreement, correspondence, electronic record, data, analysis, advice, or any other material in any form:
+
+**local authority** means a body responsible for local government functions under an enactment:
+
+**Minister** means a Minister of the Crown:
+
+**Minister for Government Efficiency** means the Minister designated by the Prime Minister to be responsible for the administration of this Act:
+
+**Minister responsible for the expenditure** means the Minister who is responsible for the public organisation, programme, service, activity, or appropriation to which the expenditure relates:
+
+**personal information** means information about an identifiable individual:
+
+**prescribed** means prescribed by regulations made under this Act:
+
+**public money** means money belonging to, received by, or held on behalf of the Crown or otherwise available for expenditure by a public organisation:
+
+**public organisation** means—
+
+(a) a department; or
+
+(b) a Crown entity; or
+
+(c) a statutory body; or
+
+(d) a local authority, where the matter under review concerns expenditure of public money or funding provided by the Crown; or
+
+(e) any other body, organisation, office, or person that receives or administers public money and is prescribed for the purposes of this Act:
+
+**public resource** means public money, property, equipment, information, infrastructure, facilities, personnel, or any other resource owned, controlled, funded, or substantially maintained by the Crown:
+
+**recommendation** means a recommendation made by the Agency under this Act, and includes a recommendation to—
+
+(a) reduce expenditure; or
+
+(b) discontinue expenditure; or
+
+(c) reallocate funding; or
+
+(d) merge, transfer, abolish, or restructure a government function, programme, service, or activity; or
+
+(e) improve administrative or operational arrangements; or
+
+(f) undertake further review or investigation:
+
+**responsible Minister** means the Minister responsible for the public organisation, programme, service, activity, function, or expenditure to which a recommendation relates:
+
+**review** includes an efficiency review:
+
+**significant recommendation** means a recommendation that the Agency reasonably considers—
+
+(a) is likely to result in a substantial reduction or reallocation of government expenditure; or
+
+(b) concerns the establishment, abolition, merger, or substantial restructuring of a public organisation or government programme; or
+
+(c) is likely to materially affect the delivery of a public service; or
+
+(d) otherwise has significant financial, administrative, or public consequences:
+
+**value for money** means the efficient, economical, effective, and responsible use of public money and public resources having regard to the outcomes reasonably expected from that use.
+
+SECTION: 5
+
+HEADING: Meaning of government efficiency
+
+For the purposes of this Act, government efficiency means the achievement of government objectives and public outcomes through the responsible and effective use of public money and public resources while avoiding, so far as reasonably practicable—
+
+(a) unnecessary expenditure; and
+
+(b) duplication of functions or services; and
+
+(c) avoidable administrative costs; and
+
+(d) inefficient procurement or contracting practices; and
+
+(e) expenditure that does not provide reasonable value for money; and
+
+(f) the continued funding of programmes or activities that no longer reasonably serve their intended purpose.
+
+SECTION: 6
+
+HEADING: Principles of government efficiency
+
+All public organisations must, so far as is reasonably practicable, conduct their affairs in a manner that promotes—
+
+(a) efficiency in the use of public money and public resources; and
+
+(b) economy and value for money; and
+
+(c) accountability for expenditure and financial decisions; and
+
+(d) the elimination or reduction of unnecessary expenditure; and
+
+(e) the avoidance of unnecessary duplication of functions and services; and
+
+(f) effective and proportionate administration; and
+
+(g) the proper management of public assets and resources; and
+
+(h) the achievement of intended outcomes at a reasonable cost.
+
+SECTION: 7
+
+HEADING: Duty to have regard to efficiency
+
+In exercising functions and powers involving the expenditure of public money or the use of public resources, a Minister or public organisation must have regard to the principles set out in [[section:6]].
+
+SECTION: 8
+
+HEADING: No requirement to reduce expenditure regardless of consequences
+
+Nothing in this Act requires a Minister or public organisation to reduce expenditure where the reduction would be inconsistent with—
+
+(a) an enactment; or
+
+(b) the proper performance of a statutory function; or
+
+(c) national security; or
+
+(d) public safety; or
+
+(e) the protection of life or property; or
+
+(f) any other matter that the responsible Minister reasonably considers to be of overriding public importance.
+
+SECTION: 9
+
+HEADING: Agency to have regard to wider consequences
+
+In performing its functions, the Agency must have regard, where relevant, to—
+
+(a) the intended public outcomes of the expenditure under consideration; and
+
+(b) the likely consequences of reducing or discontinuing expenditure; and
+
+(c) statutory obligations; and
+
+(d) risks to the continuity of essential public services; and
+
+(e) the likely costs of implementing a recommendation; and
+
+(f) any other matter relevant to the public interest.
+
+SECTION: 10
+
+HEADING: Identification of inefficient expenditure
+
+For the purposes of this Act, the Agency may identify expenditure as potentially inefficient if the expenditure—
+
+(a) does not reasonably contribute to the achievement of a legitimate government objective; or
+
+(b) duplicates services, functions, or programmes provided elsewhere within government; or
+
+(c) provides insufficient value when compared with the cost of the expenditure; or
+
+(d) continues to be incurred for a purpose that is no longer necessary or effective; or
+
+(e) could reasonably be reduced without materially impairing the intended outcomes of the expenditure; or
+
+(f) has not been subject to adequate review despite significant or continuing costs; or
+
+(g) is associated with avoidable administrative, procurement, staffing, or operational costs.
+
+SECTION: 11
+
+HEADING: Efficiency does not require uniformity
+
+Nothing in this Act requires public organisations performing similar functions to adopt identical administrative arrangements where different arrangements are reasonably justified by differences in—
+
+(a) statutory responsibilities; or
+
+(b) geographical circumstances; or
+
+(c) the nature of the services provided; or
+
+(d) the needs of the persons served; or
+
+(e) any other relevant circumstance.
+
+SECTION: 12
+
+HEADING: Recommendations for reduction or cessation of funding
+
+The Agency may recommend to a responsible Minister that funding for a programme, activity, service, project, public organisation, or other government expenditure be—
+
+(a) reduced; or
+
+(b) reallocated; or
+
+(c) reviewed; or
+
+(d) suspended; or
+
+(e) discontinued.
+
+SECTION: 13
+
+HEADING: Recommendations for structural change
+
+The Agency may recommend that a responsible Minister consider—
+
+(a) merging public organisations or functions; or
+
+(b) transferring a function from one public organisation to another; or
+
+(c) abolishing a government programme, service, activity, or function; or
+
+(d) consolidating administrative or support services; or
+
+(e) restructuring the delivery of a public service.
+
+SECTION: 14
+
+HEADING: Recommendations not binding
+
+A recommendation made by the Agency—
+
+(a) is advisory; and
+
+(b) does not require a Minister, public organisation, or any other person to take a particular action; and
+
+(c) does not authorise the Agency to alter or prevent expenditure that has been lawfully authorised.
+
+SECTION: 15
+
+HEADING: Consideration of recommendations
+
+A responsible Minister who receives a recommendation from the Agency must consider the recommendation within a reasonable period.
+
+SECTION: 16
+
+HEADING: Ministerial response to significant recommendations
+
+(1) A responsible Minister who receives a significant recommendation must provide a written response to the Agency within 90 days after receiving the recommendation, unless the Minister for Government Efficiency agrees to a longer period.
+
+(2) The response must state whether the recommendation is—
+
+(a) accepted; or
+
+(b) accepted in part; or
+
+(c) rejected; or
+
+(d) still under consideration.
+
+(3) If a recommendation is rejected or accepted only in part, the response must include the reasons for that decision.
+
+SECTION: 17
+
+HEADING: Follow-up on recommendations
+
+The Agency may monitor action taken in response to a recommendation and may report to the Minister for Government Efficiency on—
+
+(a) whether the recommendation has been accepted or rejected; and
+
+(b) the action taken to implement an accepted recommendation; and
+
+(c) any delay in implementation; and
+
+(d) the reasons provided for non-implementation.
+
+SECTION: 18
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+PARTNUMBER: 2
+
+PARTTITLE: Government Efficiency Agency
+
+SECTION: 19
+
+HEADING: Government Efficiency Agency established
+
+(1) The Government Efficiency Agency is established.
+
+(2) The Agency is a department of the public service.
+
+(3) The Agency is responsible to the Minister for Government Efficiency.
+
+SECTION: 20
+
+HEADING: Functions of Agency
+
+The functions of the Agency are—
+
+(a) to identify opportunities for improving efficiency in government; and
+
+(b) to identify government expenditure that may be unnecessary, ineffective, duplicative, excessive, or insufficiently efficient; and
+
+(c) to conduct efficiency reviews; and
+
+(d) to provide recommendations to Ministers regarding the reduction, reallocation, or cessation of government expenditure; and
+
+(e) to identify opportunities to reduce duplication between public organisations; and
+
+(f) to review the efficiency of government programmes, services, and administrative arrangements; and
+
+(g) to review procurement and contracting practices; and
+
+(h) to promote value for money and responsible fiscal management throughout government; and
+
+(i) to monitor action taken in response to recommendations; and
+
+(j) to provide advice and information to Ministers on matters relating to government efficiency; and
+
+(k) to perform any other function conferred or imposed on it by or under this Act or any other enactment.
+
+SECTION: 21
+
+HEADING: Powers of Agency
+
+(1) For the purpose of performing its functions, the Agency may—
+
+(a) conduct reviews, examinations, investigations, and assessments relating to government expenditure or public resources; and
+
+(b) request information from a public organisation; and
+
+(c) examine policies, programmes, contracts, and financial arrangements; and
+
+(d) consult persons and organisations; and
+
+(e) make recommendations to a Minister or public organisation; and
+
+(f) prepare and publish reports in accordance with this Act; and
+
+(g) do anything else reasonably necessary to perform its functions.
+
+(2) The powers conferred by this section must be exercised consistently with any applicable enactment relating to official information, privacy, security, confidentiality, or protected information.
+
+SECTION: 22
+
+HEADING: Chief executive
+
+(1) The Agency must have a chief executive.
+
+(2) The chief executive is responsible for—
+
+(a) the efficient and effective administration of the Agency; and
+
+(b) the performance of the Agency's functions; and
+
+(c) ensuring that reviews and recommendations are conducted in accordance with this Act; and
+
+(d) the management of Agency employees and resources.
+
+SECTION: 23
+
+HEADING: Independence of advice
+
+(1) In providing advice and recommendations under this Act, the Agency must provide its assessment honestly and independently, having regard to the information reasonably available to it.
+
+(2) Nothing in subsection (1) prevents the Agency from receiving a direction from the Minister for Government Efficiency concerning—
+
+(a) the general priorities of the Agency; or
+
+(b) matters to be reviewed; or
+
+(c) the allocation of the Agency's resources.
+
+SECTION: 24
+
+HEADING: Information requests
+
+(1) The Agency may request from a public organisation any information that the Agency reasonably requires to perform its functions.
+
+(2) A request under subsection (1) must specify—
+
+(a) the information requested; and
+
+(b) the purpose for which the information is requested; and
+
+(c) the period within which the information is to be provided.
+
+(3) A public organisation must, so far as reasonably practicable, provide the requested information within the period specified by the Agency.
+
+SECTION: 25
+
+HEADING: Access to financial information
+
+For the purpose of reviewing government expenditure, the Agency may request access to—
+
+(a) financial information; and
+
+(b) expenditure records; and
+
+(c) performance information; and
+
+(d) contracts and procurement records; and
+
+(e) information relating to grants and subsidies; and
+
+(f) other relevant documents or information held by a public organisation.
+
+SECTION: 26
+
+HEADING: Limits on information requirements
+
+Nothing in this Act requires a public organisation to provide information where—
+
+(a) disclosure would be contrary to an enactment; or
+
+(b) disclosure would prejudice national security; or
+
+(c) disclosure would unlawfully disclose personal information; or
+
+(d) the information is subject to legal professional privilege.
+
+SECTION: 27
+
+HEADING: Co-operation with Agency
+
+Public organisations must, so far as reasonably practicable, co-operate with the Agency in the performance of its functions.
+
+SECTION: 28
+
+HEADING: Agency may consult
+
+The Agency may consult with—
+
+(a) Ministers; and
+
+(b) departments; and
+
+(c) Crown entities; and
+
+(d) local authorities; and
+
+(e) persons or organisations affected by an efficiency review; and
+
+(f) employees or representatives of employees of a public organisation; and
+
+(g) any other person or organisation that the Agency considers appropriate.
+
+SECTION: 29
+
+HEADING: Experts and advisers
+
+(1) The Agency may engage a person with appropriate knowledge or expertise to assist it in the performance of its functions.
+
+(2) A person engaged under subsection (1) may be required to comply with any reasonable confidentiality requirements imposed by the Agency.
+
+PARTNUMBER: 3
+
+PARTTITLE: Efficiency Reviews
+
+SECTION: 30
+
+HEADING: Commencement of efficiency reviews
+
+The Agency may commence an efficiency review—
+
+(a) on its own initiative; or
+
+(b) at the request of a Minister; or
+
+(c) following a direction from the Minister for Government Efficiency.
+
+SECTION: 31
+
+HEADING: Notice of review
+
+(1) Before commencing an efficiency review of a public organisation, the Agency must, where reasonably practicable, give notice to the public organisation.
+
+(2) The notice may specify—
+
+(a) the subject matter of the review; and
+
+(b) the proposed scope of the review; and
+
+(c) information that may be required; and
+
+(d) any other matter that the Agency considers relevant.
+
+SECTION: 32
+
+HEADING: Scope of review
+
+An efficiency review may examine—
+
+(a) expenditure and financial management; and
+
+(b) staffing and administrative arrangements; and
+
+(c) procurement and contracting; and
+
+(d) government programmes and services; and
+
+(e) duplication of functions; and
+
+(f) the use of government property and resources; and
+
+(g) grants, subsidies, and financial assistance; and
+
+(h) the effectiveness of previous expenditure; and
+
+(i) any other matter relevant to government efficiency.
+
+SECTION: 33
+
+HEADING: Matters to be considered in efficiency reviews
+
+In conducting an efficiency review, the Agency may consider—
+
+(a) the purpose and intended outcomes of the expenditure being reviewed; and
+
+(b) the cost of delivering the relevant programme, service, or function; and
+
+(c) whether similar functions are performed elsewhere in government; and
+
+(d) whether the expenditure represents value for money; and
+
+(e) whether the intended outcomes could reasonably be achieved at a lower cost; and
+
+(f) whether the expenditure remains necessary; and
+
+(g) the likely consequences of reducing or discontinuing expenditure; and
+
+(h) any other matter that the Agency considers relevant.
+
+SECTION: 34
+
+HEADING: Review findings
+
+Following an efficiency review, the Agency may prepare findings identifying—
+
+(a) expenditure that could be reduced or avoided; and
+
+(b) services or programmes that could be combined or discontinued; and
+
+(c) functions that unnecessarily duplicate other functions; and
+
+(d) opportunities to improve administrative efficiency; and
+
+(e) procurement or contracting practices that could be improved; and
+
+(f) other measures that could improve value for money.
+
+SECTION: 35
+
+HEADING: Opportunity to comment
+
+(1) Before making a final significant recommendation affecting a public organisation, the Agency must, where reasonably practicable, provide the public organisation with an opportunity to comment on the proposed recommendation.
+
+(2) The Agency must consider any comments received before finalising the recommendation.
+
+SECTION: 36
+
+HEADING: Consideration of alternative options
+
+In making a recommendation, the Agency must, where reasonably practicable, consider whether the objective of the relevant expenditure could instead be achieved through—
+
+(a) reduced expenditure; or
+
+(b) a different method of service delivery; or
+
+(c) consolidation with another programme or organisation; or
+
+(d) improved administrative arrangements; or
+
+(e) another reasonably practicable alternative.
+
+SECTION: 37
+
+HEADING: Completion of review
+
+Following the completion of an efficiency review, the Agency may—
+
+(a) take no further action; or
+
+(b) provide advice to the relevant public organisation; or
+
+(c) make a recommendation to a responsible Minister; or
+
+(d) prepare a report on the review; or
+
+(e) take any combination of the actions referred to in paragraphs (a) to (d).
+
+PARTNUMBER: 4
+
+PARTTITLE: Recommendations and Government Response
+
+SECTION: 38
+
+HEADING: Recommendations to Ministers
+
+(1) The Agency may provide a recommendation directly to the responsible Minister.
+
+(2) A recommendation may include—
+
+(a) the expenditure or activity to which the recommendation relates; and
+
+(b) the reasons for the recommendation; and
+
+(c) the estimated financial effect of implementing the recommendation, if reasonably practicable; and
+
+(d) any risks or consequences identified by the Agency; and
+
+(e) alternative action considered by the Agency; and
+
+(f) the proposed timeframe for implementation.
+
+SECTION: 39
+
+HEADING: Recommendations concerning expenditure
+
+The Agency may recommend that a responsible Minister consider—
+
+(a) reducing expenditure; or
+
+(b) declining to renew funding for a programme or activity; or
+
+(c) transferring or reallocating funding; or
+
+(d) reducing future expenditure; or
+
+(e) discontinuing a programme, service, or activity; or
+
+(f) reviewing the effectiveness of existing expenditure.
+
+SECTION: 40
+
+HEADING: Recommendations concerning public organisations
+
+The Agency may recommend that a responsible Minister consider—
+
+(a) merging public organisations or functions; or
+
+(b) transferring functions between public organisations; or
+
+(c) abolishing an unnecessary public organisation or function, where authorised by law; or
+
+(d) consolidating administrative services; or
+
+(e) restructuring the delivery of government services.
+
+SECTION: 41
+
+HEADING: No power to determine appropriations
+
+Nothing in this Act authorises the Agency to—
+
+(a) appropriate public money; or
+
+(b) alter an appropriation; or
+
+(c) direct that public money not be spent where expenditure has been lawfully authorised; or
+
+(d) require a Minister to accept a recommendation; or
+
+(e) exercise a statutory function of another public organisation merely because that function is under review.
+
+SECTION: 42
+
+HEADING: Publication of recommendations
+
+(1) The Agency may publish a recommendation made under this Act.
+
+(2) Before publishing a recommendation, the Agency must have regard to—
+
+(a) the need to protect confidential information; and
+
+(b) any applicable enactment; and
+
+(c) whether publication could prejudice national security or the effective conduct of government; and
+
+(d) whether personal information should be withheld.
+
+SECTION: 43
+
+HEADING: Publication of Ministerial responses
+
+The Agency may publish a response provided by a responsible Minister under [[section:16]], subject to any lawful requirement to withhold information.
+
+SECTION: 44
+
+HEADING: Implementation monitoring
+
+(1) Where a responsible Minister accepts a recommendation, the Agency may monitor the implementation of the recommendation.
+
+(2) For that purpose, the Agency may request information from the relevant public organisation concerning—
+
+(a) action taken to implement the recommendation; and
+
+(b) progress toward implementation; and
+
+(c) any obstacles or delays; and
+
+(d) the financial effects of implementation.
+
+SECTION: 45
+
+HEADING: Implementation reports
+
+The Agency may report to the Minister for Government Efficiency on the implementation of recommendations and may identify—
+
+(a) recommendations that have been fully implemented; and
+
+(b) recommendations that have been partly implemented; and
+
+(c) recommendations that have not been implemented; and
+
+(d) the reasons provided for non-implementation or delay.
+
+PARTNUMBER: 5
+
+PARTTITLE: Reporting and Accountability
+
+SECTION: 46
+
+HEADING: Annual report
+
+(1) The Agency must, after the end of each financial year, prepare an annual report on the performance of its functions.
+
+(2) The annual report must include—
+
+(a) the number of efficiency reviews undertaken during the year; and
+
+(b) a summary of significant recommendations made by the Agency; and
+
+(c) where reasonably practicable, an estimate of savings identified by the Agency; and
+
+(d) a summary of significant efficiency improvements identified during the year; and
+
+(e) information concerning the implementation of accepted recommendations; and
+
+(f) any other matter that the Minister for Government Efficiency directs to be included.
+
+SECTION: 47
+
+HEADING: Savings estimates
+
+An estimate of savings made or identified by the Agency must distinguish, where reasonably practicable, between—
+
+(a) savings already achieved; and
+
+(b) savings expected to result from a decision already made; and
+
+(c) potential savings that would depend on the implementation of a recommendation; and
+
+(d) estimated savings that have not been independently verified.
+
+SECTION: 48
+
+HEADING: Accuracy of public statements
+
+When publishing information concerning savings or efficiency improvements, the Agency must, so far as reasonably practicable, ensure that the information does not represent a potential saving as an actual saving.
+
+SECTION: 49
+
+HEADING: Minister may request report
+
+The Minister for Government Efficiency may request the Agency to prepare a report on any matter relating to—
+
+(a) government expenditure; or
+
+(b) public sector efficiency; or
+
+(c) fiscal responsibility; or
+
+(d) the functions of a public organisation; or
+
+(e) the effectiveness or efficiency of a government programme or service.
+
+SECTION: 50
+
+HEADING: Special reports
+
+(1) The Agency may prepare a special report on a matter of significant public importance relating to government efficiency.
+
+(2) A special report may be provided to the Minister for Government Efficiency and the responsible Minister.
+
+PARTNUMBER: 6
+
+PARTTITLE: Miscellaneous Provisions
+
+SECTION: 51
+
+HEADING: Delegation
+
+(1) The chief executive may delegate any of the chief executive's functions or powers under this Act to an employee of the Agency.
+
+(2) A delegation—
+
+(a) must be in writing; and
+
+(b) may be subject to conditions; and
+
+(c) does not prevent the chief executive from exercising the relevant function or power.
+
+SECTION: 52
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for all or any of the following purposes:
+
+(a) prescribing matters necessary or desirable for giving full effect to this Act:
+
+(b) prescribing requirements relating to efficiency reviews:
+
+(c) prescribing requirements relating to reports and recommendations:
+
+(d) prescribing information or matters that must be included in annual reports:
+
+(e) prescribing any other matter contemplated by this Act.
+
+SECTION: 53
+
+HEADING: Review of Act
+
+(1) The Minister for Government Efficiency must arrange for a review of the operation and effectiveness of this Act not later than 5 years after its commencement.
+
+(2) The review must consider—
+
+(a) whether the Agency has improved the efficiency of government expenditure; and
+
+(b) whether the Agency has contributed to improved value for money; and
+
+(c) whether the functions and powers of the Agency remain appropriate; and
+
+(d) whether adequate safeguards apply to the Agency's powers; and
+
+(e) whether any amendments to this Act are desirable.
+
+(3) The Minister must present the findings of the review to Parliament as soon as reasonably practicable after the review is completed.
