@@ -1,6 +1,7 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "193—1", name: "Government Efficiency Bill", file: "billviewer.html?act=2000-2099/2026/bills/government-efficiency-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Government Efficiency Agency"},
   { number: "2026 No 05", name: "Referendums Act 2026", file: "viewer.html?act=2000-2099/2026/referendums-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections; and Electoral Commission"},
   { number: "192—1", name: "Great Northern National Park Bill", file: "billviewer.html?act=2000-2099/2026/bills/great-northern-national-park-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry for the Environment; and Wildlife Conservation Agency"},
   { number: "191—1", name: "English Language Bill", file: "billviewer.html?act=2000-2099/2026/bills/english-language-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
@@ -42,6 +43,7 @@ const acts = [
   { number: "1964 No 32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt", year: 1963, type: "act", inForce: true, bill: false, agency: "Department of Internal Affairs"}, 
   { number: "1963 No 08", name: "Crimes Act 1964", file: "viewer.html?act=1900-1999/1964/crimes-act-1964.txt", year: 1964, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
   /* 1950s */
+  { number: "1956 No 18", name: "Prisons Act 1956", file: "viewer.html?act=1900-1999/1956/prisons-act-1956.txt", year: 1956, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1953 No 47", name: "Electoral Act 1953", file: "viewer.html?act=1900-1999/1953/electoral-act-1953.txt", year: 1953, type: "act", inForce: false, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1950 No 78", name: "Constitution Act 1950", file: "viewer.html?act=1900-1999/1950/constitution-act-1950.txt", year: 1950, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1950 No 02", name: "Wildlife Act 1950", file: "viewer.html?act=1900-1999/1950/wildlife-act-1950.txt", year: 1950, type: "act", inForce: true, bill: false, agency: "Wildlife Conservation Agency"},
@@ -53,7 +55,7 @@ const acts = [
   /* 1920s */
   { number: "1923 No 05", name: "Legal Tender Act 1923", file: "viewer.html?act=1900-1999/1923/legal-tender-act-1923.txt", year: 1923, type: "act", inForce: false, bill: false, agency: "His Majesty's Treasury of Square Country"},
   /* 1910s */
-  { number: "1915 No 62", name: "Extended Wartime Measures Act 1915", file: "viewer.html?act=1900-1999/1915/extended-wartime-measures-act-1915.txt", year: 2025, type: "act", inForce: false, bill: false, agency: "Square Country Army Corps"},
+  { number: "1915 No 62", name: "Extended Wartime Measures Act 1915", file: "viewer.html?act=1900-1999/1915/extended-wartime-measures-act-1915.txt", year: 1915, type: "act", inForce: false, bill: false, agency: "Square Country Army Corps"},
   /* 1900s */
   { number: "1902 No 52", name: "Public Service Act 1902", file: "viewer.html?act=1900-1999/1902/public-service-act-1902.txt", year: 1902, type: "act", inForce: true, bill: false, agency: "Ministry for Municipal Affairs"},
   /* 1850s */
