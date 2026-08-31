@@ -143,7 +143,7 @@ class CustomFooter extends HTMLElement {
           <div class="disclaimer-box">
             <strong>Disclaimer:</strong>
             This website is a fictional representation of the Government of Square Country.
-            Square Country is a fictional country and this website, its departments, agencies,
+            Square Country is a fictional country and this website, its Ministries, agencies,
             legislation, services, and other content are created for fictional and entertainment
             purposes only. It does not represent a real government, country, institution, or organisation.
           </div>
