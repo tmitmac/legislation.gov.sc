@@ -1,0 +1,80 @@
+TITLE: Westland (Tierras del oeste) Independence Referendum Order 2026
+
+ACTNUMBER: LI 2026/33
+
+TYPE: Secondary
+
+STATUS: In force
+
+VERSION: Latest
+
+VERSIONTITLE: (as made)
+
+AGENCY: Ministry of Justice & Corrections
+
+PARTNUMBER: 1
+
+PARTTITLE: Order
+
+SECTION: 1
+
+HEADING: Title
+
+This Order is the **Westland (Tierras del oeste) Independence Referendum Order 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Order comes into force the day it receives royal assent.
+
+SECTION: 3
+
+HEADING: Declaration of referendum for purposes of Referendums Act 2026
+
+A referendum on the question set out in [[section:4]] is a referendum for the purposes of the [[Act:Referendums Act 2026]].
+
+SECTION: 4
+
+HEADING: Referendum only to take place in Westland (Tierras del oeste)
+
+For the purposes of conducting this referendum, only electors registered in Westland (Tierras del oeste) shall vote.
+
+SECTION: 5
+
+HEADING: Wording of first question to be put to electors
+
+The wording of the first question to be put to electors in the referendum is—
+
+CENTER: **"Should Westland (Tierras del oeste) be an independent country?"**
+
+SECTION: 6
+
+HEADING: Wording of options for first question which electors may vote
+
+The wording of the 2 options for the second question which electors may vote in response to the question is—
+
+CENTER: **Yes, Westland (Tierras del oeste) should be an independent country.**
+
+CENTER: **No, Westland (Tierras del oeste) should not be an independent country.**
+
+SECTION: 7
+
+HEADING: Wording of second question to be put to electors
+
+The wording of the second question to be put to electors in the referendum is—
+
+CENTER: **"If Westland (Tierras del oeste) were to be an independent country, which system of government should it have?"**
+
+SECTION: 8
+
+HEADING: Wording of options for second question which electors may vote
+
+CENTER:  **"I would choose a Parliamentary republic."**
+
+CENTER:  **"I would choose a Presidential republic."**
+
+CENTER:  **"I would choose a Constitutional monarchy."**
+
+CENTER:  **"I would choose a Semi-presidential republic."**
+
