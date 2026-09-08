@@ -1,6 +1,7 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "LI 2026/33", name: "Westland (Tierras del oeste) Independence Referendum Order 2026", file: "orderviewer.html?act=2000-2099/2026/westland-tierras-del-oeste-independence-referendum-order-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "193—1", name: "Government Efficiency Bill", file: "billviewer.html?act=2000-2099/2026/bills/government-efficiency-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Government Efficiency Agency"},
   { number: "2026 No 05", name: "Referendums Act 2026", file: "viewer.html?act=2000-2099/2026/referendums-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections; and Electoral Commission"},
   { number: "192—1", name: "Great Northern National Park Bill", file: "billviewer.html?act=2000-2099/2026/bills/great-northern-national-park-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry for the Environment; and Wildlife Conservation Agency"},
@@ -9,6 +10,7 @@ const acts = [
   { number: "189—1", name: "Referendums Bill", file: "billviewer.html?act=2000-2099/2026/bills/referendums-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 04", name: "Westland (Tierras del oeste) Empowerment Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/westland-tierras-del-oeste-empowerment-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 03", name: "Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026", file: "viewer.html?act=2000-2099/2026/ministry-of-agriculture-fisheries-and-natural-resources-establishment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},  
+  { number: "189—1", name: "Ministry of Agriculture, Fisheries, and Natural Resources Establishment Bill", file: "billviewer.html?act=2000-2099/2026/bills/ministry-of-agriculture-fisheries-and-natural-resources-establishment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
   { number: "188—1", name: "Employment Holidays Bill", file: "billviewer.html?act=2000-2099/2026/bills/employment-holidays-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Labour & Employment"},
   { number: "187—1", name: "Appropriations (June Estimates) Bill", file: "billviewer.html?act=2000-2099/2026/bills/appropriations-(june-estimates)-bill-2026.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Finance"},
   { number: "2026 No 02", name: "Immigration Security and Border Integrity Act 2026", file: "viewer.html?act=2000-2099/2026/immigration-security-and-border-integrity-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Immigration & Customs"},
@@ -61,7 +63,7 @@ const acts = [
   /* 1850s */
   { number: "1852 No 13", name: "Statistical Returns Act 1852", file: "viewer.html?act=1800-1899/1852/statistical-returns-act-1852.txt", year: 1852, type: "act", inForce: false, bill: false, agency: "Ministry of Statistical Cooperations"},
   /* 1790s */
-  { number: "1796 No 01", name: "Declaration of Independent Sovereignty", file: "declaration.html"},
+  { number: "1796 No 01", name: "Declaration of Independent Sovereignty", file: "declaration.html",  year: 1798, type: "act", inForce: true, bill: false, agency: "Government of Square Country"},
   /* 1660s */
   { number: "", name: "Bill of Rights 1688", file: "viewer.html?act=1688/bill-of-rights-1688.txt", year: 1688, type: "act", inForce: true, bill: false, agency: ""},
 
