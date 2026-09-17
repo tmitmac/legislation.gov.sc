@@ -26,6 +26,7 @@ const acts = [
   /* 2000s */
   { number: "2006 No 44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=2000-2099/2006/immigration-(open-arms)-act-2006.txt", year: 2006, type: "act", inForce: false, bill: false, agency: "Ministry of Immigration & Customs"},
   { number: "2004 No 169", name: "Statistics Amendment Act 2004", file: "viewer.html?act=2000-2099/2004/statistics-amendment-act-2004.txt", year: 2004, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
+  { number: "2003 No 102", name: "Tax Act 2003", file: "viewer.html?act=2000-2099/2003/tax-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "Ministry of Finance; HM Treasury"},
   { number: "2003 No 98", name: "Extended Wartime Measures Act Repeal Act 2003", file: "viewer.html?act=2000-2099/2003/extended-wartime-measures-act-repeal-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "His Majesty's Treasury of Square Country"},
   { number: "2001 No 145", name: "Law Enforcement Act 2001", file: "viewer.html?act=2000-2099/2001/law-enforcement-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Square Country Police"},
   /* 1990s */
