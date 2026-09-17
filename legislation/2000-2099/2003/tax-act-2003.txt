@@ -4,7 +4,7 @@ TYPE: Act
 STATUS: In force
 VERSION: Latest
 VERSIONTITLE: as at 17 September 2026
-AGENCY: the Ministry of Finance & Revenue
+AGENCY: Ministry of Finance; and HM Treasury
 DATEOFASSENT: 18 December 2003
 COMMENCEMENT: see section 2
 
