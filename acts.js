@@ -29,6 +29,7 @@ const acts = [
   { number: "2003 No 102", name: "Tax Act 2003", file: "viewer.html?act=2000-2099/2003/tax-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "Ministry of Finance; HM Treasury"},
   { number: "2003 No 98", name: "Extended Wartime Measures Act Repeal Act 2003", file: "viewer.html?act=2000-2099/2003/extended-wartime-measures-act-repeal-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "His Majesty's Treasury of Square Country"},
   { number: "2001 No 145", name: "Law Enforcement Act 2001", file: "viewer.html?act=2000-2099/2001/law-enforcement-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Square Country Police"},
+  { number: "2001 No 47", name: "Harmful Places Act 2001", file: "viewer.html?act=2000-2099/2001/harmful-places-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Ministry of Environment & Local Government"}, 
   /* 1990s */
   { number: "1996 No 109", name: "Electoral Amendment Act 1996", file: "viewer.html?act=1900-1999/1996/electoral-amendment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1996 No 108", name: "Westland (Tierras del oeste) Empowerment Act 1996", file: "viewer.html?act=1900-1999/1996/westland-tierras-del-oeste-empowerment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
