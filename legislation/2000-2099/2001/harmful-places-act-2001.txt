@@ -1,0 +1,898 @@
+TITLE: Harmful Places Act 2001
+
+ACTNUMBER: 2001 No 47
+
+TYPE: Act
+
+STATUS: In force
+
+VERSION: Latest
+
+VERSIONTITLE: as at 22 September 2026
+
+AGENCY: the Ministry of Environment and Local Government
+
+DATEOFASSENT: 18 December 2001
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act may be cited as the **Harmful Places Act 2001**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+1. This Act comes into force on 1 March 2002.
+2. Different provisions of this Act may be brought into force on different dates by Order in Council.
+
+SECTION: 3
+
+HEADING: Interpretation
+
+In this Act, unless the context otherwise requires—
+
+**authorised officer** means a person appointed as an authorised officer under section 35.
+
+**dangerous place** means any place which presents, or is likely to present, a serious and immediate risk to the life, health, or safety of persons entering or remaining in that place.
+
+**harmful place** means any place which, by reason of its condition, use, activities, substances, structures, environmental conditions, or other circumstances, presents or is likely to present a material risk of harm to persons or property.
+
+**occupier**, in relation to any place, means the person who has the right to occupy that place or, where there is no such person, the person apparently in charge of that place.
+
+**owner** means, in relation to any place, the person who holds the legal estate or other legal interest in that place.
+
+**place** includes any land, building, structure, road, reserve, beach, river, lake, waterway, foreshore, or other area, whether public or private.
+
+**regional council** means a regional council established under the Local Government Act 1989.
+
+**restriction notice** means a notice issued under section 18.
+
+**serious risk** means a risk which is reasonably capable of causing death, serious injury, significant illness, or substantial damage.
+
+SECTION: 4
+
+HEADING: Purpose
+
+The purpose of this Act is to provide for the identification and control of places which are harmful or dangerous to persons or property, and in particular—
+
+(a) to provide for the declaration of harmful and dangerous places; and
+
+(b) to confer powers upon regional councils to restrict or prohibit access to such places; and
+
+(c) to provide for the inspection and supervision of such places; and
+
+(d) to provide for the taking of measures to remove or reduce hazards; and
+
+(e) to provide for the protection of members of the public from unnecessary exposure to danger.
+
+SECTION: 5
+
+HEADING: Act binds the Crown
+
+This Act binds the Crown.
+
+SECTION: 6
+
+HEADING: Relationship with other enactments
+
+1. Nothing in this Act limits any power conferred by any other enactment in relation to public safety, environmental protection, emergency management, building safety, or public health.
+2. A power exercised under this Act shall, so far as practicable, be exercised consistently with other enactments.
+
+AMENDMENT: Section 6(2): inserted, on 14 October 2011, by section 4 of the Harmful Places Amendment Act 2011 (2011 No 31).
+
+PARTNUMBER: 2
+
+PARTTITLE: Identification and Declaration of Places
+
+SECTION: 7
+
+HEADING: Functions of regional councils
+
+1. Every regional council shall take such steps as are reasonably practicable to identify places within its region which may constitute harmful places or dangerous places.
+2. In exercising its functions under this Act, a regional council shall have regard to—
+   (a) the nature of the hazard;
+   (b) the seriousness of the hazard;
+   (c) the likelihood of persons being exposed to the hazard;
+   (d) the number of persons likely to be affected; and
+   (e) the availability of reasonable measures for reducing the risk.
+
+SECTION: 8
+
+HEADING: Investigation of places
+
+1. A regional council may investigate any place where it has reasonable grounds to believe that the place may be a harmful place or dangerous place.
+2. For the purposes of subsection (1), the council may—
+   (a) inspect the place;
+   (b) inspect any building, structure, machinery, equipment, or substance;
+   (c) take photographs, measurements, or samples;
+   (d) require information from the owner or occupier; and
+   (e) obtain expert advice.
+3. The council shall, where practicable, give reasonable notice of an inspection to the owner or occupier.
+
+SECTION: 9
+
+HEADING: Notice requiring information
+
+1. A regional council may require the owner or occupier of a place to provide information relating to any hazard existing at that place.
+2. A notice under this section may require information relating to—
+   (a) the nature of the hazard;
+   (b) the activities undertaken at the place;
+   (c) measures taken to control the hazard; and
+   (d) the persons who may reasonably be expected to be exposed to the hazard.
+3. A person upon whom a notice is served shall comply with the notice within the time specified therein.
+
+SECTION: 10
+
+HEADING: Declaration of harmful place
+
+1. Where a regional council is satisfied that a place presents a material risk of harm, the council may, by notice, declare that place to be a harmful place.
+2. A declaration under subsection (1) shall specify—
+   (a) the place concerned;
+   (b) the nature of the hazard;
+   (c) the reasons for the declaration; and
+   (d) any restriction or requirement imposed by the council.
+
+SECTION: 11
+
+HEADING: Declaration of dangerous place
+
+1. Where a regional council is satisfied that a place presents a serious and immediate risk to persons, the council may declare the place to be a dangerous place.
+2. A declaration under this section may be made notwithstanding that the place has not previously been declared a harmful place.
+3. The declaration shall remain in force until revoked under this Act.
+
+SECTION: 12
+
+HEADING: Matters to be considered before declaration
+
+Before declaring any place under section 10 or section 11, the regional council shall, so far as practicable, consider—
+
+(a) whether the danger may be removed or reduced;
+
+(b) whether warning signs would be sufficient;
+
+(c) whether access may be restricted rather than prohibited;
+
+(d) the interests of the owner and occupier; and
+
+(e) the interests of persons who ordinarily use the place.
+
+SECTION: 12A
+
+HEADING: Certain places deemed harmful places
+
+1. The Governor-General may, by Order in Council, declare a class of places to be harmful places for the purposes of this Act.
+2. No declaration under this section shall prevent a regional council from determining that a particular place within that class is not a harmful place where the council is satisfied that the relevant risk does not exist.
+
+AMENDMENT: Section 12A: inserted, on 22 June 2006, by section 5 of the Harmful Places Amendment Act 2006 (2006 No 18).
+
+SECTION: 13
+
+HEADING: Notice of declaration
+
+1. A regional council declaring a place under section 10 or section 11 shall cause notice of the declaration to be given to—
+   (a) the owner;
+   (b) the occupier, if any; and
+   (c) such other persons as the council considers likely to be materially affected.
+2. The council shall also cause reasonable public notice of the declaration to be given.
+
+SECTION: 14
+
+HEADING: Register of harmful places
+
+1. Every regional council shall maintain a register of places declared under this Act.
+2. The register shall contain—
+   (a) a description of the place;
+   (b) the date of declaration;
+   (c) the nature of the hazard;
+   (d) the restrictions applying to the place; and
+   (e) the date of the most recent review.
+3. The register shall be available for inspection by members of the public.
+
+AMENDMENT: Section 14(3): amended, on 3 March 2018, by section 7 of the Harmful Places Amendment Act 2018 (2018 No 09).
+
+PARTNUMBER: 3
+
+PARTTITLE: Restrictions on Access
+
+SECTION: 15
+
+HEADING: Power to restrict access
+
+1. A regional council may restrict access to any harmful place where it considers such restriction necessary for the protection of persons.
+2. A restriction may—
+   (a) prohibit entry;
+   (b) prohibit entry during specified times;
+   (c) prohibit particular activities;
+   (d) restrict entry to particular persons;
+   (e) require supervision; or
+   (f) apply to any specified part of the place.
+
+SECTION: 16
+
+HEADING: Closure of dangerous places
+
+1. Where a place has been declared a dangerous place, the regional council may order that the place be closed.
+2. An order under subsection (1) may prohibit all persons from entering the place except persons authorised under this Act.
+3. The council may maintain the closure for so long as it considers necessary.
+
+SECTION: 17
+
+HEADING: Conditional access
+
+1. A regional council may permit access to a restricted place subject to such conditions as it thinks fit.
+2. Without limiting subsection (1), conditions may relate to—
+   (a) protective clothing or equipment;
+   (b) supervision;
+   (c) the time of entry;
+   (d) the number of persons entering;
+   (e) the route to be followed; or
+   (f) any other reasonable safety requirement.
+
+SECTION: 18
+
+HEADING: Restriction notices
+
+1. A restriction notice shall state—
+   (a) the place to which it applies;
+   (b) the nature of the restriction;
+   (c) the reason for imposing the restriction; and
+   (d) the date upon which the restriction takes effect.
+2. A restriction notice may be amended or revoked by the regional council.
+
+SECTION: 18A
+
+HEADING: Electronic publication of notices
+
+1. A regional council may publish any notice under this Act by electronic means in addition to any other form of publication required by this Act.
+2. Publication under this section does not remove any requirement to give notice directly to an owner or occupier.
+
+AMENDMENT: Section 18A: inserted, on 17 September 2015, by section 8 of the Harmful Places Amendment Act 2015 (2015 No 42).
+
+SECTION: 19
+
+HEADING: Warning signs
+
+1. A regional council may erect warning signs at or near any harmful place or dangerous place.
+2. A warning sign may state—
+   (a) that the place is dangerous or harmful;
+   (b) that entry is prohibited or restricted;
+   (c) the nature of the hazard; and
+   (d) any conditions applying to entry.
+3. No person shall intentionally remove, damage, obscure, or deface a warning sign erected under this Act.
+
+SECTION: 20
+
+HEADING: Fences and barriers
+
+1. A regional council may erect fences, gates, barriers, or other structures for the purpose of preventing or controlling access to a place.
+2. The owner or occupier may be required to maintain such measures where specified by notice.
+3. No person shall intentionally interfere with any fence, gate, or barrier established under this Act.
+
+SECTION: 21
+
+HEADING: Exceptions for authorised persons
+
+Nothing in this Part prevents entry by—
+
+(a) a member of the police;
+
+(b) a firefighter;
+
+(c) an ambulance officer;
+
+(d) an authorised officer;
+
+(e) a person carrying out emergency work; or
+
+(f) any other person authorised by the regional council.
+
+SECTION: 22
+
+HEADING: Public rights and existing interests
+
+A restriction imposed under this Part shall not, by itself, extinguish any right of ownership, easement, right of way, or other lawful interest in land.
+
+PARTNUMBER: 4
+
+PARTTITLE: Emergency Powers
+
+SECTION: 23
+
+HEADING: Immediate closure
+
+1. Where an authorised officer is satisfied that an immediate danger exists, the officer may close a place or prohibit access to it without first obtaining the approval of the regional council.
+2. An officer exercising the power under subsection (1) shall report the action to the regional council as soon as practicable.
+3. A closure under this section shall expire 72 hours after it is imposed unless continued by the regional council.
+
+SECTION: 23A
+
+HEADING: Emergency warning
+
+1. Where the circumstances require immediate action, an authorised officer may cause a warning to be issued by any reasonable means.
+2. A warning under this section may include a direction to leave the place immediately.
+
+AMENDMENT: Section 23A: inserted, on 8 May 2009, by section 9 of the Harmful Places Amendment Act 2009 (2009 No 22).
+
+SECTION: 24
+
+HEADING: Directions to leave
+
+1. An authorised officer may direct any person to leave a harmful place or dangerous place.
+2. A person who is directed to leave shall leave the place as soon as reasonably practicable.
+3. This section does not apply where compliance would place the person in greater danger.
+
+SECTION: 25
+
+HEADING: Evacuation
+
+1. A regional council may direct the evacuation of a place where it considers that persons are exposed to serious danger.
+2. An evacuation direction may apply to the whole or any part of a place.
+3. Every person to whom an evacuation direction applies shall comply with it.
+
+SECTION: 26
+
+HEADING: Emergency services
+
+Nothing in this Act limits the powers of an emergency service to enter a place where entry is necessary to save life or protect property.
+
+PARTNUMBER: 5
+
+PARTTITLE: Duties of Owners and Occupiers
+
+SECTION: 27
+
+HEADING: Duty to notify council of serious hazards
+
+1. Every owner or occupier who becomes aware of a serious hazard at a place shall, as soon as practicable, notify the regional council.
+2. The notification shall contain such particulars of the hazard as are reasonably known to the owner or occupier.
+
+SECTION: 28
+
+HEADING: Duty to take precautions
+
+1. The owner or occupier of a harmful place shall take all reasonable precautions to prevent unnecessary exposure of persons to any known hazard.
+2. Without limiting subsection (1), the owner or occupier may be required to—
+   (a) secure the place;
+   (b) remove the hazard;
+   (c) provide warnings;
+   (d) restrict access; or
+   (e) undertake remedial work.
+
+SECTION: 29
+
+HEADING: Remedial notice
+
+1. A regional council may serve a notice requiring an owner or occupier to carry out specified work.
+2. The notice shall specify the work required and the period within which it is to be completed.
+3. The council shall allow a reasonable period for compliance except where the hazard is immediate.
+
+SECTION: 30
+
+HEADING: Failure to carry out remedial work
+
+1. Where an owner or occupier fails to comply with a remedial notice, the regional council may carry out the work itself.
+2. The reasonable cost of work undertaken under this section may be recovered from the owner or occupier as a debt due to the council.
+
+SECTION: 31
+
+HEADING: Emergency remedial work
+
+Where the regional council considers that immediate work is necessary to prevent serious harm, it may undertake or arrange for such work to be undertaken without first serving a remedial notice.
+
+SECTION: 32
+
+HEADING: Recovery of costs
+
+The costs incurred by a regional council under section 30 or section 31 may be recovered in a court of competent jurisdiction.
+
+PARTNUMBER: 6
+
+PARTTITLE: Inspection and Enforcement
+
+SECTION: 33
+
+HEADING: Power of entry
+
+1. An authorised officer may enter a place at any reasonable time for the purpose of determining whether this Act is being complied with.
+2. An authorised officer may enter without notice where the officer has reasonable grounds to believe that immediate entry is necessary to prevent serious harm.
+
+SECTION: 34
+
+HEADING: Powers of inspection
+
+An authorised officer entering a place under this Act may—
+
+(a) inspect the place;
+
+(b) inspect any structure, equipment, machinery, or substance;
+
+(c) take photographs or measurements;
+
+(d) take samples;
+
+(e) require reasonable information; and
+
+(f) undertake any other reasonable inspection necessary for the purposes of this Act.
+
+SECTION: 35
+
+HEADING: Appointment of authorised officers
+
+1. A regional council may appoint persons to be authorised officers for the purposes of this Act.
+2. An authorised officer shall carry evidence of appointment and shall produce it on request.
+
+SECTION: 35A
+
+HEADING: Identification cards
+
+1. A regional council shall issue an identification card to every authorised officer.
+2. The card shall contain—
+   (a) the name of the officer;
+   (b) a photograph of the officer;
+   (c) the date of appointment; and
+   (d) such other particulars as may be prescribed.
+3. An authorised officer exercising a power under this Act shall, on request, produce the identification card.
+
+AMENDMENT: Section 35A: inserted, on 12 February 2004, by section 6 of the Harmful Places Amendment Act 2004 (2004 No 06).
+
+SECTION: 36
+
+HEADING: Obstruction of authorised officers
+
+No person shall obstruct, hinder, threaten, or deceive an authorised officer exercising a power under this Act.
+
+SECTION: 37
+
+HEADING: Warrants
+
+1. A District Court Judge may issue a warrant authorising an authorised officer to enter a place where satisfied that there are reasonable grounds to believe that evidence of an offence against this Act is present.
+2. A warrant may authorise the use of reasonable force.
+
+PARTNUMBER: 7
+
+PARTTITLE: Review of Declarations and Restrictions
+
+SECTION: 38
+
+HEADING: Review by regional council
+
+1. An owner or occupier affected by a declaration or restriction may apply to the regional council for a review.
+2. An application shall be made in writing and shall state the grounds upon which the review is sought.
+3. The council shall consider the application and may—
+   (a) confirm the decision;
+   (b) vary the decision;
+   (c) suspend the decision; or
+   (d) revoke the decision.
+
+SECTION: 39
+
+HEADING: Periodic review
+
+1. Every declaration continuing for more than 12 months shall be reviewed by the regional council at least once in every 12-month period.
+2. The council shall consider whether the declaration or restriction remains necessary.
+
+SECTION: 40
+
+HEADING: Revocation of declaration
+
+1. A regional council shall revoke a declaration where it is satisfied that the circumstances giving rise to the declaration no longer exist.
+2. The revocation shall be recorded in the register.
+
+SECTION: 41
+
+HEADING: Appeal to District Court
+
+1. A person directly affected by a declaration or access restriction may appeal against the decision to the District Court.
+2. An appeal shall be filed within 28 days after notice of the decision is received.
+3. The filing of an appeal shall not, of itself, suspend the operation of the decision.
+
+SECTION: 42
+
+HEADING: Powers of District Court
+
+On an appeal under section 41, the District Court may—
+
+(a) confirm the decision;
+
+(b) vary the decision;
+
+(c) refer the matter back to the regional council; or
+
+(d) make such other order as the Court considers just.
+
+PARTNUMBER: 8
+
+PARTTITLE: Offences
+
+SECTION: 43
+
+HEADING: Unlawful entry
+
+1. Every person commits an offence who knowingly enters or remains in a place in contravention of an access restriction imposed under this Act.
+2. A person convicted of an offence against subsection (1) is liable to a fine not exceeding $5,000.
+
+AMENDMENT: Section 43(2): substituted, on 1 July 2019, by section 10 of the Harmful Places Amendment Act 2019 (2019 No 27).
+
+SECTION: 44
+
+HEADING: Failure to comply with direction
+
+A person commits an offence who knowingly fails to comply with a lawful direction given by an authorised officer under this Act.
+
+SECTION: 45
+
+HEADING: Damage to warning signs and barriers
+
+1. Every person commits an offence who intentionally or recklessly damages, removes, destroys, or interferes with any warning sign, fence, gate, or barrier established under this Act.
+2. A person convicted of an offence against this section is liable to a fine not exceeding $10,000.
+
+SECTION: 46
+
+HEADING: False information
+
+Every person commits an offence who knowingly gives false or misleading information to a regional council or authorised officer in connection with the administration of this Act.
+
+SECTION: 47
+
+HEADING: Failure to comply with notice
+
+Every person commits an offence who fails, without reasonable excuse, to comply with a notice lawfully issued under this Act.
+
+SECTION: 48
+
+HEADING: Continuing offences
+
+Where an offence against this Act is a continuing offence, the offender commits a further offence on each day during which the offence continues.
+
+PARTNUMBER: 9
+
+PARTTITLE: Management and Remediation
+
+SECTION: 49
+
+HEADING: Management plans
+
+1. A regional council may prepare a management plan for any harmful place or dangerous place.
+2. A management plan may provide for—
+   (a) the removal of hazards;
+   (b) restrictions on access;
+   (c) monitoring;
+   (d) inspections;
+   (e) public warnings;
+   (f) emergency procedures;
+   (g) remediation; and
+   (h) reopening of the place.
+
+SECTION: 50
+
+HEADING: Monitoring
+
+A regional council may monitor a place subject to a declaration under this Act for the purpose of determining whether the relevant hazard has been reduced or removed.
+
+SECTION: 51
+
+HEADING: Remediation
+
+1. A regional council may require the owner or occupier of a harmful place to undertake reasonable measures to remediate the place.
+2. The measures may include—
+   (a) removal of contaminated material;
+   (b) demolition or repair of unsafe structures;
+   (c) stabilisation of land;
+   (d) removal of dangerous substances; and
+   (e) restoration of safe access.
+
+SECTION: 52
+
+HEADING: Reopening of places
+
+1. A regional council may permit a harmful place or dangerous place to be reopened where satisfied that the relevant risk has been adequately controlled.
+2. The reopening may be subject to conditions.
+
+SECTION: 53
+
+HEADING: Temporary reopening
+
+A regional council may temporarily reopen a restricted place for inspection, maintenance, remediation, scientific investigation, or any other purpose approved by the council.
+
+PARTNUMBER: 10
+
+PARTTITLE: Special Classes of Harmful Places
+
+SECTION: 54
+
+HEADING: Abandoned buildings
+
+A regional council may declare an abandoned building or structure to be a harmful place where the condition of the building or structure creates a material risk to persons.
+
+SECTION: 55
+
+HEADING: Contaminated land
+
+1. A place may be declared a harmful place where it is contaminated by any substance capable of causing harm.
+2. A restriction under this section may prohibit or limit—
+   (a) excavation;
+   (b) removal of soil;
+   (c) disturbance of the land;
+   (d) access to water;
+   (e) consumption of food produced at the place; or
+   (f) any other activity likely to increase exposure.
+
+SECTION: 56
+
+HEADING: Dangerous natural places
+
+1. A regional council may declare any area to be a dangerous place where a natural hazard presents a serious risk to persons.
+2. Natural hazards include—
+   (a) unstable cliffs;
+   (b) landslides;
+   (c) rockfalls;
+   (d) unstable ground;
+   (e) flooding;
+   (f) dangerous waterways;
+   (g) geothermal activity; and
+   (h) coastal erosion.
+
+SECTION: 57
+
+HEADING: Industrial and commercial places
+
+A place used for industrial or commercial purposes may be declared a harmful place where activities undertaken there create a material risk to persons outside the place.
+
+SECTION: 58
+
+HEADING: Places affected by fire
+
+A building or other place affected by fire may be declared a dangerous place where the building, structure, smoke, substances, or other consequences of the fire present a serious risk.
+
+SECTION: 59
+
+HEADING: Dangerous substances
+
+A place containing any substance which presents a serious risk to persons may be declared a dangerous place.
+
+PARTNUMBER: 11
+
+PARTTITLE: Administration
+
+SECTION: 60
+
+HEADING: Council policies
+
+1. Every regional council shall establish procedures for the administration of this Act.
+2. Such procedures shall include provision for—
+   (a) the identification of hazards;
+   (b) assessment of risks;
+   (c) declarations;
+   (d) access restrictions;
+   (e) inspections;
+   (f) enforcement; and
+   (g) review of decisions.
+
+SECTION: 61
+
+HEADING: Cooperation between regional councils
+
+Regional councils may cooperate with one another in relation to harmful places or dangerous places affecting more than one region.
+
+SECTION: 62
+
+HEADING: Cooperation with other authorities
+
+A regional council may request information or assistance from any department of State, local authority, emergency service, or other public authority.
+
+SECTION: 63
+
+HEADING: Delegation
+
+1. A regional council may delegate any of its functions or powers under this Act to—
+   (a) a committee;
+   (b) an employee;
+   (c) an authorised officer; or
+   (d) any other suitable person.
+2. The council shall remain responsible for the proper exercise of delegated functions.
+
+SECTION: 64
+
+HEADING: Records
+
+Every regional council shall keep proper records of declarations, restrictions, inspections, notices, reviews, and enforcement proceedings under this Act.
+
+SECTION: 65
+
+HEADING: Annual report
+
+Every regional council shall include in its annual report a summary of the administration of this Act during the preceding year.
+
+PARTNUMBER: 12
+
+PARTTITLE: Miscellaneous
+
+SECTION: 66
+
+HEADING: Regulations
+
+The Governor-General may, by Order in Council, make regulations for the purposes of this Act, including regulations—
+
+(a) prescribing forms;
+
+(b) prescribing fees;
+
+(c) prescribing standards for warning signs;
+
+(d) prescribing requirements relating to registers;
+
+(e) prescribing procedures for applications and notices; and
+
+(f) generally giving effect to this Act.
+
+SECTION: 67
+
+HEADING: Fees
+
+1. A regional council may prescribe reasonable fees for applications, inspections, certificates, or other services provided under this Act.
+2. No fee shall be imposed for an emergency inspection undertaken solely for the protection of the public.
+
+AMENDMENT: Section 67: substituted, on 16 November 2012, by section 11 of the Harmful Places Amendment Act 2012 (2012 No 38).
+
+SECTION: 68
+
+HEADING: No compensation for restrictions
+
+No person shall be entitled to compensation merely by reason of a restriction imposed under this Act.
+
+SECTION: 69
+
+HEADING: Protection of officers
+
+No regional council, member of a regional council, officer, or authorised officer shall be personally liable for any act done in good faith in the exercise of a power under this Act.
+
+SECTION: 70
+
+HEADING: Application to Crown land
+
+This Act applies to Crown land.
+
+SECTION: 71
+
+HEADING: Application to private land
+
+This Act applies to private land.
+
+SECTION: 72
+
+HEADING: Saving of existing restrictions
+
+Any lawful restriction applying to a place immediately before the commencement of this Act shall continue until revoked, replaced, or otherwise dealt with under this Act or any other enactment.
+
+PARTNUMBER: 13
+
+PARTTITLE: Transitional and Final Provisions
+
+SECTION: 73
+
+HEADING: Existing declarations
+
+Any place declared dangerous or unsafe under an enactment in force immediately before the commencement of this Act may be treated as a harmful place or dangerous place under this Act.
+
+SECTION: 74
+
+HEADING: Existing notices
+
+Any notice issued before the commencement of this Act in relation to a place which would have constituted a harmful place or dangerous place under this Act shall continue in force until reviewed by the appropriate regional council.
+
+SECTION: 75
+
+HEADING: Review of Act
+
+1. The Minister shall commission a review of the operation of this Act not later than 5 years after its commencement.
+2. The review shall consider—
+   (a) the effectiveness of the Act;
+   (b) the use of access restrictions;
+   (c) enforcement;
+   (d) public safety;
+   (e) the effect on owners and occupiers; and
+   (f) whether amendments are desirable.
+
+SECTION: 76
+
+HEADING: Annual review of long-term closures
+
+1. A place which has been continuously closed under this Act for a period exceeding 3 years shall be subject to a special review.
+2. The review shall determine whether—
+   (a) the closure should continue;
+   (b) the closure should be varied;
+   (c) alternative measures are available; or
+   (d) the place may safely be reopened.
+
+AMENDMENT: Section 76: inserted, on 20 August 2020, by section 12 of the Harmful Places Amendment Act 2020 (2020 No 19).
+
+SECTION: 77
+
+HEADING: No duty to identify every harmful place
+
+Nothing in this Act imposes a duty upon a regional council to identify every harmful place or dangerous place within its region.
+
+SECTION: 78
+
+HEADING: Emergency legislation
+
+Nothing in this Act limits any power conferred under any enactment relating to emergency management, civil defence, public health, fire, or national security.
+
+SECTION: 79
+
+HEADING: Repeals and consequential amendments
+
+The enactments specified in Schedule 1 are amended or repealed as provided in that Schedule.
+
+SECTION: 80
+
+HEADING: Savings
+
+1. Nothing in this Act affects proceedings commenced before the commencement of this Act.
+2. Proceedings commenced under any enactment repealed by this Act may be continued as if that enactment had not been repealed.
+
+SECTION: 81
+
+HEADING: Further review of restrictions
+
+A regional council may review any declaration or restriction at any time where new information concerning the relevant hazard becomes available.
+
+AMENDMENT: Section 81: inserted, on 4 April 2024, by section 6 of the Harmful Places Amendment Act 2024 (2024 No 11).
+
+SECTION: 82
+
+HEADING: Transitional provision relating to electronic notices
+
+Nothing in section 18A affects the validity of a notice issued before the commencement of that section.
+
+AMENDMENT: Section 82: inserted, on 17 September 2015, by section 9 of the Harmful Places Amendment Act 2015 (2015 No 42).
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: Consequential Amendments
+
+SCHEDULESECTION: 1
+
+HEADING: Local Government Act 1989
+
+After the provisions relating to regional council public safety functions, insert—
+
+A regional council has the functions and powers conferred upon it by the Harmful Places Act 2001.
+
+ENDINSERT
+
+SCHEDULESECTION: 2
+
+HEADING: Emergency Management Act 1995
+
+After the provisions relating to emergency response, insert—
+
+Nothing in this Act limits the powers of a regional council or authorised officer under the Harmful Places Act 2001.
+
+ENDINSERT
+
+SCHEDULESECTION: 3
+
+HEADING: Environmental Protection Act 1978
+
+After the provisions relating to contaminated land, insert—
+
+A regional council may exercise its powers under the Harmful Places Act 2001 in respect of contaminated or otherwise hazardous land.
+
+ENDINSERT
+
+SCHEDULESECTION: 4
+
+HEADING: Transitional provisions
+
+All declarations, notices, orders, and restrictions lawfully made before the commencement of this Act and relating to the safety of persons at a particular place shall, so far as they are not inconsistent with this Act, continue in force until revoked or replaced.
+
+ENDINSERT
