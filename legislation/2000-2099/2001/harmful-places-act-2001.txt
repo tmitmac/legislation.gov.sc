@@ -37,25 +37,77 @@ SECTION: 3
 
 HEADING: Interpretation
 
-In this Act, unless the context otherwise requires—
+1. In this Act, unless the context otherwise requires—
+
+**access restriction** means any prohibition, limitation, condition, or other control imposed under this Act in respect of entry to, or use of, a place.
 
 **authorised officer** means a person appointed as an authorised officer under [[section:35]].
 
+**council** means the regional council having jurisdiction in respect of the place concerned.
+
 **dangerous place** means any place which presents, or is likely to present, a serious and immediate risk to the life, health, or safety of persons entering or remaining in that place.
+
+**declaration** means a declaration made under [[section:10]] or [[section:11]] declaring a place to be a harmful place or dangerous place.
+
+**emergency closure** means the closure of a place under [[section:23]] in circumstances where an immediate danger exists.
+
+**harm** includes—
+(a) death or personal injury; and
+(b) illness or disease; and
+(c) exposure to any substance or condition capable of causing illness or injury; and
+(d) damage to property; and
+(e) any other adverse effect prescribed by regulations made under this Act.
 
 **harmful place** means any place which, by reason of its condition, use, activities, substances, structures, environmental conditions, or other circumstances, presents or is likely to present a material risk of harm to persons or property.
 
-**occupier**, in relation to any place, means the person who has the right to occupy that place or, where there is no such person, the person apparently in charge of that place.
+**hazard** means any thing, circumstance, condition, substance, activity, structure, or combination of those matters that has the potential to cause harm.
 
-**owner** means, in relation to any place, the person who holds the legal estate or other legal interest in that place.
+**immediate risk** means a risk which requires action to be taken without unreasonable delay in order to prevent harm.
 
-**place** includes any land, building, structure, road, reserve, beach, river, lake, waterway, foreshore, or other area, whether public or private.
+**occupier**, in relation to any place, means—
+(a) the person entitled to occupy the place; or
+(b) where there is no such person, the person apparently in charge of the place; or
+(c) where the place is unoccupied, the owner of the place.
+
+**owner**, in relation to any place, means the person who is for the time being entitled to receive the rent or profits from the place, whether as owner, trustee, mortgagee in possession, or otherwise.
+
+**place** includes—
+(a) any land, whether public or private; and
+(b) any building or structure; and
+(c) any road, track, reserve, park, or other area; and
+(d) any beach, foreshore, river, lake, stream, waterway, or other body of water; and
+(e) any part of a place; and
+(f) any thing situated on or within a place.
+
+**public place** means a place to which members of the public have lawful access, whether as of right or by permission.
 
 **regional council** means a regional council established under the [[Act:Local Government Act 1989]].
 
+**remedial work** means any work undertaken for the purpose of removing, reducing, containing, controlling, or otherwise addressing a hazard.
+
 **restriction notice** means a notice issued under [[section:18]].
 
-**serious risk** means a risk which is reasonably capable of causing death, serious injury, significant illness, or substantial damage.
+**risk** means the likelihood that a hazard will cause harm, having regard to the nature and seriousness of the possible harm.
+
+**serious injury** means an injury which is likely to require substantial medical treatment or which is likely to have a substantial and lasting effect on the person injured.
+
+**serious risk** means a risk which is reasonably capable of causing death, serious injury, significant illness, or substantial damage to property.
+
+**temporary closure** means the closure of a place for a specified period or until the occurrence of a specified event.
+
+**warning sign** means any sign, notice, barrier, marking, or other indication erected or displayed for the purpose of warning persons of a hazard or restricting access under this Act.
+
+2. A reference in this Act to a person entering a place includes a reference to a person who—
+   (a) enters the place on foot; or
+   (b) enters the place by means of a vehicle, vessel, aircraft, or other conveyance; or
+   (c) causes another person to enter the place; or
+   (d) remains in the place after being directed to leave.
+
+3. A reference in this Act to restricting access to a place includes a reference to restricting access to any particular part of that place.
+
+4. Where a power under this Act is expressed to be exercisable where a regional council is satisfied of a particular matter, the council shall not be required to be satisfied beyond reasonable grounds.
+
+5. Nothing in this section shall be taken to limit the ordinary meaning of any word or expression used in this Act where the context otherwise requires.
 
 SECTION: 4
 
