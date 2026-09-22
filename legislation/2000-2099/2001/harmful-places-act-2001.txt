@@ -10,7 +10,7 @@ VERSION: Latest
 
 VERSIONTITLE: as at 22 September 2026
 
-AGENCY: the Ministry of Environment and Local Government
+AGENCY: the Ministry of Environment & Local Government
 
 DATEOFASSENT: 18 December 2001
 
