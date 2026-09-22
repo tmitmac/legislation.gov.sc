@@ -39,7 +39,7 @@ HEADING: Interpretation
 
 In this Act, unless the context otherwise requires—
 
-**authorised officer** means a person appointed as an authorised officer under section 35.
+**authorised officer** means a person appointed as an authorised officer under [[section:35]].
 
 **dangerous place** means any place which presents, or is likely to present, a serious and immediate risk to the life, health, or safety of persons entering or remaining in that place.
 
@@ -51,9 +51,9 @@ In this Act, unless the context otherwise requires—
 
 **place** includes any land, building, structure, road, reserve, beach, river, lake, waterway, foreshore, or other area, whether public or private.
 
-**regional council** means a regional council established under the Local Government Act 1989.
+**regional council** means a regional council established under the [[Act:Local Government Act 1989]].
 
-**restriction notice** means a notice issued under section 18.
+**restriction notice** means a notice issued under [[section:18]].
 
 **serious risk** means a risk which is reasonably capable of causing death, serious injury, significant illness, or substantial damage.
 
@@ -152,7 +152,7 @@ SECTION: 12
 
 HEADING: Matters to be considered before declaration
 
-Before declaring any place under section 10 or section 11, the regional council shall, so far as practicable, consider—
+Before declaring any place under [[section:10]] or [[section:11]], the regional council shall, so far as practicable, consider—
 
 (a) whether the danger may be removed or reduced;
 
@@ -177,7 +177,7 @@ SECTION: 13
 
 HEADING: Notice of declaration
 
-1. A regional council declaring a place under section 10 or section 11 shall cause notice of the declaration to be given to—
+1. A regional council declaring a place under [[section:10]] or [[section:11]] shall cause notice of the declaration to be given to—
    (a) the owner;
    (b) the occupier, if any; and
    (c) such other persons as the council considers likely to be materially affected.
@@ -391,7 +391,7 @@ SECTION: 32
 
 HEADING: Recovery of costs
 
-The costs incurred by a regional council under section 30 or section 31 may be recovered in a court of competent jurisdiction.
+The costs incurred by a regional council under [[section:30]] or [[section:31]] may be recovered in a court of competent jurisdiction.
 
 PARTNUMBER: 6
 
@@ -498,7 +498,7 @@ SECTION: 42
 
 HEADING: Powers of District Court
 
-On an appeal under section 41, the District Court may—
+On an appeal under [[section:41]], the District Court may—
 
 (a) confirm the decision;
 
@@ -851,7 +851,7 @@ SECTION: 82
 
 HEADING: Transitional provision relating to electronic notices
 
-Nothing in section 18A affects the validity of a notice issued before the commencement of that section.
+Nothing in [[section:18A]] affects the validity of a notice issued before the commencement of that section.
 
 AMENDMENT: Section 82: inserted, on 17 September 2015, by section 9 of the Harmful Places Amendment Act 2015 (2015 No 42).
 
@@ -865,7 +865,7 @@ HEADING: Local Government Act 1989
 
 After the provisions relating to regional council public safety functions, insert—
 
-A regional council has the functions and powers conferred upon it by the Harmful Places Act 2001.
+"A regional council has the functions and powers conferred upon it by the Harmful Places Act 2001."
 
 ENDINSERT
 
@@ -875,7 +875,7 @@ HEADING: Emergency Management Act 1995
 
 After the provisions relating to emergency response, insert—
 
-Nothing in this Act limits the powers of a regional council or authorised officer under the Harmful Places Act 2001.
+"Nothing in this Act limits the powers of a regional council or authorised officer under the Harmful Places Act 2001."
 
 ENDINSERT
 
@@ -885,7 +885,7 @@ HEADING: Environmental Protection Act 1978
 
 After the provisions relating to contaminated land, insert—
 
-A regional council may exercise its powers under the Harmful Places Act 2001 in respect of contaminated or otherwise hazardous land.
+"A regional council may exercise its powers under the Harmful Places Act 2001 in respect of contaminated or otherwise hazardous land."
 
 ENDINSERT
 
@@ -893,6 +893,6 @@ SCHEDULESECTION: 4
 
 HEADING: Transitional provisions
 
-All declarations, notices, orders, and restrictions lawfully made before the commencement of this Act and relating to the safety of persons at a particular place shall, so far as they are not inconsistent with this Act, continue in force until revoked or replaced.
+"All declarations, notices, orders, and restrictions lawfully made before the commencement of this Act and relating to the safety of persons at a particular place shall, so far as they are not inconsistent with this Act, continue in force until revoked or replaced."
 
 ENDINSERT
