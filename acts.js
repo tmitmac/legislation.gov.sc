@@ -19,29 +19,40 @@ const acts = [
   { number: "2025 No 44", name: "Criminal Responsibility (Age Reduction) Amendment Act 2025", file: "viewer.html?act=2000-2099/2025/criminal-responsibility-age-reduction-amendment-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2025 No 43", name: "Defence Expansion Act 2025", file: "viewer.html?act=2000-2099/2025/defence-expansion-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Defence"},
   { number: "2025 No 42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=2000-2099/2025/federal-revenue-and-tax-reform-act-2025-version-2.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
+  /* 2021 */
+  { number: "2021 No 48", name: "Aviation Act 2021", file: "viewer.html?act=2000-2099/2021/aviation-act-2021.txt", year: 2021, type: "act", inForce: true, bill: false, agency: "National Aviation Authority "},
+  { number: "2021 No 32", name: "Sale and Supply of Alcohol Act 2021", file: "viewer.html?act=2000-2099/2021/sale-and-supply-of-alcohol-act-2021.txt", year: 2021, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 2010s */
-  { number: "", name: "", file: "viewer.html?act=2000-2099/", year: 2015, type: "act", inForce: true, bill: false, agency: ""},
+  { number: "2019 No 15", name: "Education and Training (Power to Change) Amendment Act 2019", file: "viewer.html?act=2000-2099/2019/education-and-training-power-to-change-amendment-act-2019.txt", year: 2016, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "2016 No 70", name: "District Court Act 2016", file: "viewer.html?act=2000-2099/2016/district-court-act-2016.txt", year: 2016, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2015 No 53", name: "Education and Training Act 2015", file: "viewer.html?act=2000-2099/2015/education-and-training-act-2015.txt", year: 2015, type: "act", inForce: true, bill: false, agency: "Ministry of Education"},
   { number: "2013 No 36", name: "Electoral (Social Media Advertising) Amendment Act 2013", file: "viewer.html?act=2000-2099/2013/electoral-(social-media-advertising)-amendment-act-2013.txt", year: 2013, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 2000s */
+  { number: "2009 No 57", name: "Trans-Mexican Agreement Adoption Act 2009", file: "viewer.html?act=2000-2099/2009/trans-mexican-agreement-adoption-act-2009.txt", year: 2009, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2006 No 44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=2000-2099/2006/immigration-(open-arms)-act-2006.txt", year: 2006, type: "act", inForce: false, bill: false, agency: "Ministry of Immigration & Customs"},
+  { number: "2005 No 97", name: "Health Practitioners Act 2005", file: "viewer.html?act=2000-2099/2005/health-practitioners-act-2005.txt", year: 2005, type: "act", inForce: true, bill: false, agency: "Ministry of Health"},
   { number: "2004 No 169", name: "Statistics Amendment Act 2004", file: "viewer.html?act=2000-2099/2004/statistics-amendment-act-2004.txt", year: 2004, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
   { number: "2003 No 102", name: "Tax Act 2003", file: "viewer.html?act=2000-2099/2003/tax-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "Ministry of Finance; HM Treasury"},
   { number: "2003 No 98", name: "Extended Wartime Measures Act Repeal Act 2003", file: "viewer.html?act=2000-2099/2003/extended-wartime-measures-act-repeal-act-2003.txt", year: 2003, type: "act", inForce: true, bill: false, agency: "His Majesty's Treasury of Square Country"},
   { number: "2001 No 145", name: "Law Enforcement Act 2001", file: "viewer.html?act=2000-2099/2001/law-enforcement-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Square Country Police"},
   { number: "2001 No 47", name: "Harmful Places Act 2001", file: "viewer.html?act=2000-2099/2001/harmful-places-act-2001.txt", year: 2001, type: "act", inForce: true, bill: false, agency: "Ministry of Environment & Local Government"}, 
   /* 1990s */
+  { number: "1997 No 58", name: "Electoral Amendment Act 1997", file: "viewer.html?act=1900-1999/1997/electoral-amendment-act-1997.txt", year: 1997, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1996 No 109", name: "Electoral Amendment Act 1996", file: "viewer.html?act=1900-1999/1996/electoral-amendment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1996 No 108", name: "Westland (Tierras del oeste) Empowerment Act 1996", file: "viewer.html?act=1900-1999/1996/westland-tierras-del-oeste-empowerment-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "1996 No 70", name: "Telecommunications Act 1996", file: "viewer.html?act=1900-1999/1996/telecommunications-act-1996.txt", year: 1996, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1992 No 107", name: "Electoral Amendment Act 1992", file: "viewer.html?act=1900-1999/1992/electoral-amendment-act-1992.txt", year: 1992, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
   { number: "1990 No 59", name: "Public Information Act 1990", file: "viewer.html?act=1900-1999/1990/public-information-act-1990.txt", year: 1990, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"}, 
   /* 1980s */
+  { number: "1989 No 12", name: "Local Government Act 1989", file: "viewer.html?act=1900-1999/1989/local-government-act-1989.txt", year: 1989, type: "act", inForce: true, bill: false, agency: "Ministry of Local Government"}, 
   { number: "1988 No 72", name: "Public Holidays Act 1988", file: "viewer.html?act=1900-1999/1988/public-holidays-act-1988.txt", year: 1988, type: "act", inForce: true, bill: false, agency: "Ministry of Labour & Employment"}, 
   { number: "1986 No 33", name: "Electoral Act 1986", file: "viewer.html?act=1900-1999/1986/electoral-act-1986.txt", year: 1986, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "1983 No 124", name: "Agriculture Act 1983", file: "viewer.html?act=1900-1999/1983/agriculture-act-1983.txt", year: 1983, type: "act", inForce: true, bill: false, agency: "Ministry of Agriculture, Fisheries, and Natural Resources"},
+  { number: "1981 No 05", name: "Citizenship Act 1981", file: "viewer.html?act=1900-1999/1981/citizenship-act-1981.txt", year: 1981, type: "act", inForce: true, bill: false, agency: "Ministry of Immigration & Customs"},
   /* 1970s */
   { number: "1979 No 12", name: "Statistics Act 1979", file: "viewer.html?act=1900-1999/1979/statistics-act-1979.txt", year: 1979, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
   { number: "1975 No 99", name: "Injury Rehabilitation and Compensation Act 1975", file: "viewer.html?act=1900-1999/1975/injury-rehabilitation-and-compensation-act-1975.txt", year: 1975, type: "act", inForce: true, bill: false, agency: "Injury Rehabilitation and Compensation Commission"},
+  { number: "1973 No 97", name: "Firearms & Weapons Act 1973", file: "viewer.html?act=1900-1999/1973/firearms-and-weapons-act-1973.txt", year: 1973, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 1960s */
   { number: "1967 No 29", name: "Decimal Currency Act 1967", file: "viewer.html?act=1900-1999/1967/decimal-currency-act-1967.txt", year: 1967, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
   { number: "1964 No 32", name: "Passports Act 1963", file: "viewer.html?act=1900-1999/1963/passports-act-1963.txt", year: 1963, type: "act", inForce: true, bill: false, agency: "Department of Internal Affairs"}, 
