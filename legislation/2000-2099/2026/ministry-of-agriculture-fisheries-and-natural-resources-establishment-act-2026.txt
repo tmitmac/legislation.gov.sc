@@ -1,14 +1,14 @@
-TITLE: Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026
+TITLE: Ministry of Agriculture, Fisheries & Natural Resources Establishment Act 2026
 
 ACTNUMBER: 2026 No 03
 
 TYPE: Act
 
-STATUS: not yet in force
+STATUS: in force
 
 VERSION: Latest
 
-AGENCY: Ministry of Agriculture, Fisheries, and Natural Resources
+AGENCY: Ministry of Agriculture, Fisheries & Natural Resources
 
 DATEOFASSENT: 25 July 2026
 
@@ -20,9 +20,9 @@ PARTTITLE: Preliminary Provisions
 
 SECTION: 1
 
-HEADING: Short Title
+HEADING: Title
 
-This Act is the **Ministry of Agriculture, Fisheries, and Natural Resources Establishment Act 2026**.
+This Act is the **Ministry of Agriculture, Fisheries & Natural Resources Establishment Act 2026**.
 
 SECTION: 2
 
@@ -220,7 +220,7 @@ Repealed.
 
 SCHEDULESECTION: 2
 
-HEADING: Ministry of Fisheries Establishment Act 1974
+HEADING: Fisheries Act 1974
 
 Repealed.
 
