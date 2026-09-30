@@ -1,0 +1,558 @@
+TITLE: Electoral (Artificial Intelligence and Digital Advertising) Amendment Bill
+
+ACTNUMBER: 194—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+VERSIONTITLE: Introduction 14 September 2026
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: see section 2
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the **Electoral (Regulation of AI Advertising) Amendment Act 2026**.
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force the day after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Principal Act
+
+This Act amends the Electoral Act 1986.
+
+PARTNUMBER: 2
+
+PARTTITLE: Amendments to principal Act
+
+SECTION: 4
+
+HEADING: Section 5 amended (Interpretation)
+
+In section 5(1), insert in their appropriate alphabetical order:
+INSERT:
+**AI disclosure** means notice identifying material as generated or altered using an artificial intelligence system.
+**AI-generated material** means digital material generated wholly or substantially by an artificial intelligence system.
+**AI-generated political content** means AI-generated or AI-assisted material used in an election advertisement.
+**AI-assisted material** means material created by a person where an artificial intelligence system has materially contributed to its generation, alteration, translation, editing, targeting, or presentation.
+**artificial intelligence system** means a system that generates, modifies, analyses, recommends, or processes content or information using artificial intelligence.
+**automated political advertising** means election advertising generated, selected, personalised, delivered, or materially modified by an automated system.
+**deepfake** means synthetic media realistically depicting a person saying or doing something they did not say or do.
+**political chatbot** means an artificial intelligence system or automated service used to communicate with electors for an electoral purpose.
+**synthetic media** means digitally generated or materially altered audio, video, images, or other media purporting to depict a real person, event, place, or communication.
+ENDINSERT
+
+SECTION: 5
+
+HEADING: Section 134 amended (Meaning of election advertisement)
+
+After section 134(2)(n), insert:
+
+INSERT:
+(o) AI-generated or AI-assisted audio, video, photographic, graphical, or textual material;
+(p) an advertisement generated or materially modified by an artificial intelligence system;
+(q) an advertisement delivered through an automated conversational service or political chatbot;
+(r) personalised or dynamically generated political advertising;
+(s) an advertisement in which different electors may receive materially different content generated from the same advertising campaign.
+ENDINSERT
+
+SECTION: 6
+
+HEADING: Section 135 amended (Promoter statements required)
+
+1. After section 135(5), insert: 
+
+INSERT:
+(6) Where an election advertisement contains AI-generated material or AI-assisted material, the advertisement must, in addition to the promoter statement, contain an AI disclosure in the form prescribed by regulations.
+(7) The AI disclosure must be reasonably visible or audible to an ordinary elector.
+(8) The AI disclosure must not be concealed solely through:
+(a) a hyperlink;
+(b) a hover-over feature;
+(c) metadata;
+(d) terms and conditions; or
+(e) another mechanism requiring technical knowledge to access.
+(9) A person who knowingly publishes AI-generated election advertising without the required disclosure commits an illegal practice.
+ENDINSERT
+
+2. Renumber sections 135(6) and 135(7) to **135(10)** and **135(11)**, respectively.
+
+SECTION: 7
+
+HEADING: Section 137 amended (Prohibited election advertising)
+
+After section 137(1)(g), insert:
+
+INSERT:
+(h) contains synthetic media that falsely depicts a candidate, political party, electoral official, or other person as making a statement or engaging in conduct that did not occur, where the material is reasonably likely to be understood as authentic.
+(i) AI-generated material that falsely represents an electoral authority, polling place, ballot paper, voting instruction, election result, or other official electoral communication.
+(j) AI-generated or AI-assisted material that falsely represents that a person has endorsed a candidate, political party, or election proposition.
+(k) the use of synthetic media to falsely depict a candidate withdrawing from an election, conceding an election, endorsing another candidate, or making a statement concerning voting.
+ENDINSERT
+
+SECTION: 8
+
+HEADING: Section 139A amended (Digital election advertising library)
+
+1. After section 139A(2)(f), insert:
+
+INSERT:
+(g) whether the advertisement contains AI-generated, AI-assisted, synthetic, or digitally altered material;
+(h) the type of artificial intelligence system used, where applicable;
+(i) whether the advertisement was generated or materially modified automatically;
+(j) whether the advertisement was personalised or dynamically generated;
+(k) the number of materially different versions of the advertisement; and
+(l) any AI disclosure required under this Act.
+ENDINSERT
+
+2. After section 139A(4), insert:
+
+INSERT:
+(5) Where an election advertisement is materially modified or generated automatically during the period in which it is published, the promoter must ensure that the information required by this section remains reasonably accurate.
+(6) The Commission may prescribe additional information required to be retained or published in relation to AI-generated or automatically generated election advertising
+ENDINSERT
+
+SECTION: 9
+
+HEADING: Section 139B amended (Targeting of election advertisements)
+
+After section 139B(4), insert:
+
+INSERT:
+(5) A promoter must not use an artificial intelligence system to infer personal information for the purpose of targeting an elector where the information could not lawfully have been obtained or used for that purpose.
+(6) A promoter must not use an artificial intelligence system to target an elector on the basis of—
+(a) an inferred political opinion;
+(b) an inferred political affiliation;
+(c) an inferred voting intention;
+(d) an inferred susceptibility to political persuasion; or
+(e) an inferred personal characteristic prescribed by regulations.
+(7) For the purposes of this section, information is inferred if it is produced, predicted, estimated, or otherwise derived by an artificial intelligence system or other automated processing system from other information concerning an elector.
+(8) A person who knowingly contravenes subsection (5) or (6) commits an illegal practice.
+ENDINSERT
+
+SECTION: 10
+
+HEADING: Section 139C replaced (Artificially generated election material)
+
+Replace section 139C with:
+
+INSERT:
+SECTION: 139C
+HEADING: AI-generated and synthetic election material
+(1) A person who publishes an election advertisement containing AI-generated, AI-assisted, synthetic, or materially digitally altered material must ensure that the material is clearly identified in accordance with this Act.
+(2) Subsection (1) applies to material consisting of—
+(a) text;
+(b) audio;
+(c) video;
+(d) photographic or other visual material;
+(e) an image or representation of a person;
+(f) a digitally generated or altered voice;
+(g) an artificial or digitally generated person; or
+(h) any combination of those forms of material.
+(3) The disclosure required by subsection (1) must be reasonably visible or audible to an ordinary elector.
+(4) A person must not knowingly publish synthetic material in an election advertisement in a manner that is reasonably likely to cause an elector to believe that—
+(a) a person said or did something that the person did not say or do;
+(b) an event occurred that did not occur;
+(c) an image, recording, or other material is an authentic record of an event when it is not;
+(d) a candidate, political party, or other person endorsed a statement or position that they did not endorse; or
+(e) the material was created without the use of artificial intelligence when the person knows that representation to be false.
+(5) Subsection (4) does not apply to material that is clearly identified as synthetic or digitally altered.
+(6) This section does not apply to—
+(a) genuine news reporting;
+(b) genuine documentary material;
+(c) academic research;
+(d) educational material;
+(e) satire;
+(f) parody;
+(g) artistic expression; or
+(h) material prescribed by regulations,
+unless the material is published as an election advertisement.
+(7) A person who knowingly contravenes subsection (4) commits an illegal practice.
+(8) The Commission may issue guidance concerning the application of this section.
+ENDINSERT
+
+SECTION: 11
+
+HEADING: New sections 139D to 139F inserted
+
+After section 139C, insert:
+
+INSERT:
+SECTION: 139D
+HEADING: AI-generated textual election advertising
+(1) A person must not publish an election advertisement containing text generated wholly or substantially by an artificial intelligence system unless the advertisement clearly identifies that the text was generated or materially produced using artificial intelligence.
+(2) Subsection (1) does not apply where artificial intelligence is used only for—
+(a) spelling or grammar correction;
+(b) translation;
+(c) transcription;
+(d) formatting;
+(e) accessibility purposes;
+(f) correction of typographical errors; or
+(g) other minor editorial assistance that does not materially affect the substance or meaning of the advertisement.
+(3) For the purposes of subsection (1), text is materially produced using artificial intelligence if an artificial intelligence system has generated, rewritten, or substantially altered the words used to communicate the principal message of the advertisement.
+(4) The disclosure required by subsection (1) must be—
+(a) clearly visible in a written advertisement;
+(b) clearly audible in an audio advertisement; or
+(c) displayed in a manner reasonably likely to be noticed by an ordinary elector in any other form of advertisement.
+(5) A person who knowingly publishes an advertisement in contravention of subsection (1) commits an illegal practice.
+(6) The Commission may issue guidance concerning the application of this section to different forms of election advertising.
+
+SECTION: 139E
+HEADING: Political chatbots
+(1) A person who operates an artificial intelligence system that communicates with electors for an electoral purpose must clearly identify the system as an automated system.
+(2) An artificial intelligence system to which subsection (1) applies must not—
+(a) represent itself as a human elector;
+(b) represent itself as a candidate;
+(c) represent itself as a political party officer or representative;
+(d) represent itself as an officer or employee of the Commission;
+(e) falsely represent that a communication originated from a candidate, political party, public authority, or other person; or
+(f) conceal the identity of the person responsible for operating the system.
+(3) A person who operates a political chatbot must ensure that the chatbot provides, on request, the name of the person or organisation responsible for its operation.
+(4) Where a political chatbot generates substantive political or election-related content, the chatbot must inform the user that the response was generated by an artificial intelligence system.
+(5) A person must not knowingly use an artificial intelligence system to generate or distribute communications designed to give the false impression that a significant number of independent electors support or oppose a candidate, political party, or election proposition.
+(6) Subsection (5) does not apply merely because an artificial intelligence system is used to respond to individual communications or to provide information requested by an elector.
+(7) A person who knowingly contravenes this section commits an illegal practice.
+(8) The Commission may issue guidance concerning the operation of political chatbots and other automated conversational systems.
+
+SECTION: 139F
+HEADING: Automated and personalised election advertising
+(1) A promoter who uses an automated system to generate, select, modify, or deliver different versions of an election advertisement must retain records sufficient to identify—
+(a) the system used;
+(b) the principal criteria used to generate or select the advertisement;
+(c) the categories of electors to whom the advertisement was directed;
+(d) the number of materially different versions of the advertisement;
+(e) the period during which the system was used; and
+(f) the expenditure incurred in operating or using the system.
+(2) A promoter must not use an artificial intelligence system to target election advertising on the basis of—
+(a) an elector's inferred political opinion or political affiliation;
+(b) an elector's inferred intention to vote for or against a candidate or political party;
+(c) an inferred psychological characteristic or vulnerability;
+(d) information obtained unlawfully; or
+(e) information obtained through deception.
+(3) A promoter must take reasonable steps to ensure that an automated system does not generate materially different election advertisements containing false information concerning—
+(a) voting procedures;
+(b) polling places;
+(c) candidates;
+(d) political parties;
+(e) election dates;
+(f) ballot papers; or
+(g) the result of an election.
+(4) The Commission may require a promoter to provide records relating to automated or personalised election advertising.
+(5) A person who knowingly contravenes subsection (2) commits an illegal practice.
+(6) The requirements of this section do not apply merely because an advertisement is displayed to an elector according to ordinary non-political technical criteria, including—
+(a) language;
+(b) device type;
+(c) geographic availability;
+(d) time of day; or
+(e) accessibility requirements.
+ENDINSERT
+
+SECTION: 12
+
+HEADING: Section 146E amended (Political advertising records)
+
+After section 146E(2), insert:
+
+INSERT:
+(2A) Where an advertisement contains AI-generated, AI-assisted, synthetic, or digitally altered material, the records retained under subsection (1) must also identify—
+(a) whether artificial intelligence was used;
+(b) the nature of the AI-generated or AI-assisted material;
+(c) whether the advertisement was automatically generated or modified;
+(d) whether the advertisement was personalised;
+(e) the AI disclosure displayed with the advertisement; and
+(f) the materially different versions of the advertisement, where applicable.
+(2B) A digital platform must retain the records required by subsection (2A) for the same period as the advertisement records required under subsection (1).
+ENDINSERT
+
+SECTION: 13
+
+HEADING: Section 146F amended (Electoral advertising transparency notice)
+
+1. After section 146F(2), insert:
+
+INSERT:
+(2A) A transparency notice may also state—
+(a) whether artificial intelligence was used in producing the advertisement;
+(b) whether the advertisement contains synthetic material;
+(c) whether the advertisement was automatically generated or modified;
+(d) whether the advertisement was personalised; and
+(e) the categories of targeting used.
+ENDINSERT
+
+2. After section 146F(3), insert:
+
+INSERT:
+(3A) A digital platform must display information required under subsection (2A) in a manner reasonably accessible to an ordinary elector.
+ENDINSERT
+
+SECTION: 14
+
+HEADING: Section 146J amended (Commission directions relating to digital advertising)
+
+1. After section 146J(1)(d), insert: 
+
+INSERT:
+(e) the addition of an AI disclosure;
+(f) the suspension of automated distribution of the advertisement;
+(g) the preservation of AI-generated or source material; or
+(h) the provision of information concerning the creation or modification of the advertisement.
+ENDINSERT
+
+2. After section 146J(3), insert:
+
+INSERT:
+(4) A direction under this section must not require a person to remove or alter an advertisement merely because the advertisement expresses a political opinion or criticism.
+ENDINSERT
+
+SECTION: 15
+
+HEADING: Section 146JA replaced (Emergency removal of unlawful advertising)
+
+Replace section 146JA with:
+
+INSERT:
+SECTION: 146JA
+HEADING: Emergency removal of unlawful advertising
+(1) If the Commission considers that an election advertisement presents an immediate and substantial risk of misleading electors about—
+(a) voting procedures;
+(b) the date or time of polling;
+(c) the location of a polling place;
+(d) the identity or actions of a candidate;
+(e) the identity or position of a political party;
+(f) the identity or actions of an electoral officer;
+(g) a ballot paper or voting document;
+(h) an election result; or
+(i) another matter prescribed by regulations,
+the Commission may direct the person responsible for the advertisement to remove it immediately.
+(2) A direction under subsection (1) may be given where the misleading material is wholly or partly generated, altered, or distributed using artificial intelligence.
+(3) A direction under subsection (1) must be confirmed by the High Court within 48 hours if the advertisement is to remain prohibited.
+(4) If the Court does not confirm the direction within that period, the direction expires.
+ENDINSERT
+
+SECTION: 16
+
+HEADING: Section 146JC replaced
+
+Replace section 146JC with:
+
+INSERT:
+SECTION: 146JC
+HEADING: Notice of AI-generated and digitally altered material
+(1) A person who publishes election advertising containing AI-generated, AI-assisted, synthetic, or materially digitally altered material must ensure that the advertisement contains a notice in the form prescribed by regulations.
+(2) The notice must be reasonably visible or audible to an ordinary elector.
+(3) The notice must be provided
+(a) in or immediately accompanying written material;
+(b) on or immediately accompanying an image or video;
+(c) at the beginning and end of an audio communication, where prescribed; or
+(d) in another form prescribed by regulations.
+(4) A notice must not be placed solely in metadata, a hyperlink, a privacy policy, terms of service, or another location that an ordinary elector would not reasonably be expected to examine.
+(5) The Commission may prescribe different requirements for—
+(a) audio;
+(b) video;
+(c) photographic material;
+(d) written material;
+(e) interactive media;
+(f) automated communications; and
+(g) emerging forms of digital communication.
+ENDINSERT
+
+SECTION: 17
+
+HEADING: Section 146JD replaced
+
+Replace section 146JD with:
+
+INSERT:
+SECTION: 146JD
+HEADING: Synthetic impersonation
+(1) A person must not knowingly publish synthetic audio, video, photographic, textual, or other digital material that purports to show or represent—
+(a) a candidate;
+(b) a political party;
+(c) a party leader;
+(d) a Member of Parliament;
+(e) a referendum promoter;
+(f) an electoral officer;
+(g) an officer or employee of the Commission; or
+(h) another person prescribed by regulations,
+making a statement, undertaking an action, expressing a view, giving an endorsement, withdrawing from an election, resigning, conceding an election, or giving a voting instruction that the person did not make, undertake, express, endorse, or give.
+(2) Subsection (1) applies only where the material is reasonably likely to be understood by an ordinary elector as authentic.
+(3) A person who contravenes subsection (1) commits an illegal practice.
+(4) It is a defence if the person proves that—
+(a) the material was clearly identified as synthetic;
+(b) the material was published for genuine news reporting;
+(c) the material was published for academic or educational research;
+(d) the material was published for artistic, satirical, or parody purposes; or
+(e) the person took reasonable steps to ensure that the material could not reasonably be understood as authentic.
+ENDINSERT
+
+SECTION: 18
+
+HEADING: New sections 146JG to 146JI inserted
+
+After sectin 146JD, insert:
+
+INSERT:
+SECTION: 146JG
+HEADING: AI provenance records
+(1) A promoter who publishes election advertising containing material to which section 139C applies must retain records sufficient to establish—
+(a) the original material supplied to an artificial intelligence system, where applicable;
+(b) the final material published;
+(c) the artificial intelligence system used;
+(d) the date on which the material was generated or modified;
+(e) the person who authorised publication;
+(f) the nature of the material generated or modified; and
+(g) the principal instructions given to the artificial intelligence system where those instructions materially affected the published material.
+(2) Records required by subsection (1) must be retained for at least 5 years after polling day.
+(3) Subsection (1)(g) does not require a person to retain a complete record of an instruction where the instruction relates only to—
+(a) spelling;
+(b) grammar;
+(c) formatting;
+(d) translation;
+(e) accessibility; or
+(f) another minor editorial function.
+(4) The Commission may require a person to produce records under this section for the purpose of investigating compliance with this Part.
+(5) A person who knowingly destroys or falsifies a record required to be retained under this section commits an offence.
+
+SECTION: 146JH
+HEADING: Verification of synthetic material
+(1) Where the Commission has reasonable grounds to believe that an election advertisement contains material represented as an authentic recording, image, document, statement, or other evidence, it may require the promoter to provide reasonable information concerning the authenticity of that material.
+(2) A requirement under subsection (1) may include a requirement to provide—
+(a) the original source material;
+(b) information concerning the creation or modification of the material;
+(c) information identifying whether artificial intelligence was used;
+(d) records required under section 146JG; or
+(e) other information reasonably necessary to establish whether the material is authentic.
+(3) The Commission must exercise a power under this section only for the purpose of determining whether the material has been falsely represented as authentic.
+(4) Nothing in this section authorises the Commission to determine whether a political opinion, interpretation, criticism, prediction, or policy claim is correct.
+(5) A person must not knowingly provide false or misleading information to the Commission under this section.
+
+SECTION: 146JI
+HEADING: Deceptive use of artificial intelligence to impersonate persons or organisations
+(1) A person must not knowingly use an artificial intelligence system to generate or materially alter election advertising for the purpose of impersonating another person or organisation.
+(2) Subsection (1) applies where the impersonation is reasonably likely to cause an elector to believe that the communication originated from the person or organisation being impersonated.
+(3) Without limiting subsection (1), a person must not use an artificial intelligence system to impersonate—
+(a) a candidate;
+(b) a political party;
+(c) an electoral officer;
+(d) the Commission;
+(e) a government department or agency; or
+(f) another person or organisation prescribed by regulations.
+(4) A person who contravenes this section commits an illegal practice.
+(5) This section does not apply to clearly identified satire, parody, artistic expression, academic research, or educational material that is not presented as authentic.
+ENDINSERT
+
+SECTION: 19
+
+HEADING: Section 152 amended (Illegal practices)
+
+After section 152(1)(j), insert:
+
+INSERT:
+(k) publishes an election advertisement without an AI disclosure required by this Part;
+(l) knowingly publishes prohibited synthetic material;
+(m) knowingly operates a political chatbot in contravention of section 139E;
+(n) knowingly uses prohibited artificial intelligence targeting;
+(o) knowingly fails to retain records required by section 146JG;
+(p) knowingly provides false or misleading information concerning the use or operation of an artificial intelligence system; or
+(q) commits any other conduct declared by this Act to be an illegal practice.
+ENDINSERT
+
+SECTION: 20
+
+HEADING: Section 152A amended (Liability of political parties)
+
+After section 152A(2), insert:
+
+INSERT:
+(3) A political party must take reasonable steps to ensure that election advertising produced or authorised on its behalf complies with the requirements relating to artificial intelligence and synthetic material.
+(4) Reasonable steps may include—
+(a) approval procedures for AI-generated advertising;
+(b) verification of synthetic material;
+(c) requirements for AI disclosures
+(d) recordkeeping procedures;
+(e) instructions to employees, candidates, agents, and contractors; and
+(f) procedures for responding to Commission directions.
+(5) A political party is not liable under subsection (3) merely because an artificial intelligence system operated by an independent contractor produces material without the knowledge or authorisation of the party, if the party had taken reasonable steps to prevent the conduct.
+ENDINSERT
+
+SECTION: 21
+
+HEADING: Section 153F amended (Regulations)
+
+After section 135F(2)(l), insert:
+
+INSERT:
+(m) the form, wording, size, placement, duration, and accessibility of AI disclosures;
+(n) standards for identifying AI-generated, AI-assisted, synthetic, and digitally altered material;
+(o) requirements for disclosures in audio, video, photographic, textual, interactive, and emerging media;
+(p) requirements concerning political chatbots and automated communications;
+(q) requirements concerning automated and personalised election advertising;
+(r) requirements concerning AI advertising libraries and transparency notices;
+(s) standards for AI provenance and recordkeeping;
+(t) classes of artificial intelligence use that constitute minor editorial assistance;
+(u) requirements concerning machine-readable AI disclosures or provenance information;
+(v) requirements concerning targeting using automated systems;
+(w) additional classes of synthetic material or artificial intelligence systems; and
+(x) any other matter necessary to give effect to sections 139C to 139F and sections 146JC to 146JI.
+ENDINSERT
+
+SECTION: 22
+
+HEADING: Section 153G amended (Commission guidance)
+
+After section 153G(2)(f), insert:
+
+INSERT:
+(g) artificial intelligence systems;
+(h) AI-generated and AI-assisted election advertising;
+(i) synthetic media and digitally altered material;
+(j) political chatbots;
+(k) automated and personalised election advertising;
+(l) AI targeting;
+(m) AI provenance and recordkeeping; and
+(n) examples of material that is or is not subject to an AI disclosure.
+ENDINSERT
+
+SECTION: 23
+
+HEADING: Section 153H amended (Review of Part)
+
+1. In section 153H(2), delete "any other matter the Commission considers relevant."
+
+2. Replace section 153H(2)(g) with:
+
+INSERT:
+(g) the use of synthetic media, including synthetic audio, video, images, and text;
+ENDINSERT
+
+3. After section 153H(2)(G), insert
+
+INSERT:
+(h) the use of political chatbots and automated campaign communications;
+(i) the use of artificial intelligence for personalised election advertising;
+(j) the use of artificial intelligence for voter targeting;
+(k) the effectiveness of AI disclosure requirements;
+(l) the effectiveness of provenance and recordkeeping requirements;
+(m) the operation of digital advertising platforms;
+(n) the effect of this Part on journalism, satire, academic research, artistic expression, and political communication;
+(o) technological developments that may require amendment of this Part; and
+(p) any other matter the Commission considers relevant.
+ENDINSERT
+
+
