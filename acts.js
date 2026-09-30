@@ -1,6 +1,8 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "195—1", name: "Vehicle Insurance (Mandatory Third Party) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/vehicle-insurance-mandatory-third-party-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
+  { number: "194—1", name: "Electoral (Artificial Intelligence and Digital Advertising) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/electoral-artificial-intelligence-and-digital-advertising-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "LI 2026/33", name: "Westland (Tierras del oeste) Independence Referendum Order 2026", file: "orderviewer.html?act=2000-2099/2026/westland-tierras-del-oeste-independence-referendum-order-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "193—1", name: "Government Efficiency Bill", file: "billviewer.html?act=2000-2099/2026/bills/government-efficiency-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Government Efficiency Agency"},
   { number: "2026 No 05", name: "Referendums Act 2026", file: "viewer.html?act=2000-2099/2026/referendums-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections; and Electoral Commission"},
@@ -29,6 +31,7 @@ const acts = [
   { number: "2013 No 36", name: "Electoral (Social Media Advertising) Amendment Act 2013", file: "viewer.html?act=2000-2099/2013/electoral-(social-media-advertising)-amendment-act-2013.txt", year: 2013, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   /* 2000s */
   { number: "2009 No 57", name: "Trans-Mexican Agreement Adoption Act 2009", file: "viewer.html?act=2000-2099/2009/trans-mexican-agreement-adoption-act-2009.txt", year: 2009, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
+  { number: "2008 No 05", name: "Vehicle Insurance Act 2008", file: "viewer.html?act=2000-2099/2008/vehicle-insurance-act-2008.txt", year: 2008, type: "act", inForce: true, bill: false, agency: "Ministry of Transport & Infrastructure"},
   { number: "2006 No 44", name: "Immigration (Open Arms) Act 2006", file: "viewer.html?act=2000-2099/2006/immigration-(open-arms)-act-2006.txt", year: 2006, type: "act", inForce: false, bill: false, agency: "Ministry of Immigration & Customs"},
   { number: "2005 No 97", name: "Health Practitioners Act 2005", file: "viewer.html?act=2000-2099/2005/health-practitioners-act-2005.txt", year: 2005, type: "act", inForce: true, bill: false, agency: "Ministry of Health"},
   { number: "2004 No 169", name: "Statistics Amendment Act 2004", file: "viewer.html?act=2000-2099/2004/statistics-amendment-act-2004.txt", year: 2004, type: "act", inForce: true, bill: false, agency: "National Statistics Office"},
