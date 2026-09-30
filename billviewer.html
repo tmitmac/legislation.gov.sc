@@ -1436,6 +1436,12 @@ body.compact-header .bottom-row {
   align-items: flex-end;
 }
 
+.four-star-text {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: .9em;
+}
+
 /* Tabs */
 .tabs {
   display: flex;
@@ -2183,6 +2189,12 @@ function formatInsertedClause(text) {
       "($1) "
     )
 
+    /* ****text**** → Arial with four stars on both sides */
+    .replace(
+      /\*\*\*\*(.*?)\*\*\*\*/g,
+      '<span class="four-star-text">****$1****</span>'
+    )
+
     /* Bold */
     .replace(
       /\*\*(.*?)\*\*/g,
@@ -2253,7 +2265,7 @@ function formatInsertedClause(text) {
             .toLowerCase()
             .replace(year, "")
             .replace(/[^a-z0-9]+/g, "-")
-            .replace(/^ -|-$/g, "");
+            .replace(/^-|-$/g, "");
 
         const filename =
           `${slug}-${year}.txt`;
@@ -2620,11 +2632,14 @@ if (
 
 
     let formatted = clause
-
-      /* 1. → (1) */
       .replace(
         /^(\d+)\.\s*/,
         "($1) "
+      )
+
+      .replace(
+        /\*\*\*\*(.*?)\*\*\*\*/g,
+        '<span class="four-star-text">****$1****</span>'
       )
 
       .replace(
