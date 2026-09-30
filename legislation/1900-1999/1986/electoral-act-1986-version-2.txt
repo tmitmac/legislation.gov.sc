@@ -1,0 +1,4871 @@
+﻿TITLE: Electoral Act 1986
+
+ACTNUMBER: 1986 No 33
+
+TYPE: Act
+
+STATUS: in force
+
+VERSION: Previous version 
+
+VERSIONTITLE: as at 18 June 2026
+
+AGENCY: the Ministry of Justice & Corrections; and Electoral Commission
+
+DATEOFASSENT: 18 May 1986
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+LONGTITLE: An Act to provide for the election of Members of Parliament under a mixed‑member proportional electoral system; to establish and maintain electoral rolls; to regulate the registration of political parties; to provide for the conduct of elections and referendums; to establish the Electoral Commission; and for related purposes.
+
+SECTION: 1
+
+HEADING: Short Title
+
+This Act may be cited as the **Electoral Act 1986**.
+
+SECTION: 2
+
+HEADING: Commencement
+        
+1. This Act comes into force on **1 January 1987**.
+2. Different provisions of this Act may be brought into force on different dates by Order in Council, if so provided.
+
+SECTION: 3
+
+HEADING: Purpose
+
+The purposes of this Act are—
+(a) to establish a lawful, transparent, and impartial system for the election of Members of Parliament of Square Country;
+(b) to provide for the conduct of elections under a mixed-member proportional electoral system consisting of 13 electorate seats and 13 list seats;
+(c) to ensure that the allocation of list seats is determined by the party vote using the Sainte‑Laguë method;
+(d) to provide for the registration and regulation of political parties;
+(e) to establish and maintain electoral rolls;
+(f) to ensure the independence and integrity of the Electoral Commission;
+(g) to promote public confidence in the democratic process; and
+(h) to provide for offences and penalties relating to electoral matters.
+
+SECTION: 4
+
+HEADING: Act binds the Crown
+
+This act binds the Crown of Square Country
+
+SECTION: 5
+
+HEADING: Interpretation
+
+1. In this Act, unless the context otherwise requires—
+**advance vote** means a vote cast before polling day in accordance with [[Part:10]].
+**armed forces** means a member of the Square Country Naval Forces, the Square Country Army, or the Royal Square Country Air Force.
+**ballot paper** means a ballot paper issued to an elector for the purpose of recording—
+(a) an electorate vote; and
+(b) a party vote.
+**Boundary Commission** means the Boundary Commission established under [[Part:6]].
+**bribery** has the meaning assigned to that term by [[section:230]].
+**by-election** means any election other than a general election.
+**candidate** means a person nominated under [[Part:8]] as—
+(a) an electorate candidate; or
+(b) a list candidate; or
+(c) both.
+**census** means the census of population and dwellings carried out by the National Statistics Office under the [[Act:Statistics Act 1979]].
+**Chief Electoral Commissioner** means the person appointed under [[section:18]].
+**citizen** means any person granted citizenship under the [[Act:Citizenship Act 1981]] or the meaning given by [[section:5A]].
+**Commission** means the Electoral Commission established under [[Part:2]].
+**corrupt practice** means any act declared by this Act to be a corrupt practice.
+**Crown** means the Sovereign in respect of the Government of Square Country.
+**elector** means a person whose name lawfully appears on an electoral roll.
+**electoral district** means a district established under [[Part:6]] for the purpose of electing an electorate Member of Parliament.
+**electorate Vote** means the vote cast by an elector for a candidate seeking election as the Member of Parliament for an electoral district.
+**general election** means 
+(a) an election held for all seats in Parliament; and
+(b) takes place after the dissolution or expiration of Parliament.
+**general electoral population** means the total group of the national population that is theoretically eligible to vote in any general election, by-election, or referendum.
+**Government** means the Government of Square Country.
+**illegal practice** means any act declared by this Act to be an illegal practice.
+**list candidate** means a candidate included on a party list submitted under [[Part:5]].
+**list MP** means a Member of Parliament declared elected under [[Part:12]] as a result of the allocation of list seats.
+**list seat** means a seat in Parliament allocated to a political party under [[Part:12]].
+**Member of Parliament** means a person declared elected under this Act as—
+(a) an electorate MP; or
+(b) a list MP.
+**mental impairment**, in relation to any person, means an impairment causing a person to lack, wholly or partly, the capacity to understand the nature of any decision about registering as an elector or candidate.
+**overhang seat** means a seat held by a party in excess of the number of seats to which it is entitled under [[section:206]].
+**Parliament** means His Majesty's Parliament of Square Country.
+**party list** means a list of candidates submitted by a registered political party under [[Part:5]].
+**party secretary** means the person appointed by a political party as its secretary for the purposes of this Act.
+**party vote** means the vote cast by an elector for a political party for the purpose of determining the allocation of list seats.
+**police** means the Square Country Police continued under the [[Act:Law Enforcement Act 2001]].
+**polling place** means a place designated under [[Part:10]] for the casting of votes.
+**political party** means an organisation registered under [[Part:4]].
+**regulated broadcasting period** has the meaning given to it in [[section:5B]]
+**returning officer** means a person appointed under [[section:157]] to oversee the conduct of an election in an electoral district.
+**sainte‑laguë method** means the method of allocating seats described in [[Schedule:1]].
+**special vote** means a vote cast in accordance with [[section:169]] to [[section:172]].
+**treating** has the meaning assigned to that term by [[section:231]].
+**undue influence** has the meaning assigned to that term by [[section:232]].
+**Westland citizen** means a citizen of Westland (Tierras del oeste).
+**writ** means a writ issued under [[section:97]] for the purpose of holding an election.
+2. A reference in this Act to the masculine includes the feminine and vice versa.
+3. A reference to the singular includes the plural and vice versa.
+4. Headings are for convenience only and do not affect interpretation.
+
+AMENDMENT: Section 5(1) **citizen**: inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+AMENDMENT: Section 5(1) **general electoral population**: inserted, on 1 January 1998, by section 4 of the Electoral Amendment Act 1992 (1992 No 13).
+AMENDMENT: Section 5(1) **Westland citizen**: inserted, on 1 August 1996, by [[Act:Electoral Amendment Act 1996|section:5]] of the Electoral Amendment Act 1996 (1996 No 143).
+
+SECTION: 5A
+
+HEADING: Meaning of Ruby Country born Square Citizen
+
+All citizens of Ruby Country who have lawfully moved to Square Country under the *Trans-Mexican Agreement Adoption Act 2009* are Ruby Country born Square Citizens.
+
+AMENDMENT: Section 5A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 5B
+
+HEADING: Meaning of regulated broadcasting period
+
+For the purposes of [[section:146]] to [[section:146JF]], regulated broadcasting period means 
+
+SECTION: 6
+
+HEADING: Applications of this Act
+
+1. This Act applies to all general elections, by-elections, and referendums held after its commencement.
+2. This Act does not apply to local government elections unless expressly provided by another enactment.
+
+SECTION: 6A
+
+HEADING: Application of this Act outside Square Country
+
+All parts of this Act apply outside of Square Country within Square Country territory except where [[section:6AA]] applies.
+
+SECTION: 6AA
+
+HEADING: Application of this Act in Westland (Tierras del oeste)
+
+This Act applies to all Citizens in Westland (Tierras del oeste) unless otherwise determined by the Westland (Tierras del oeste) Council under section 15 of the [[Act:Westland (Tierras del oeste) Empowerment Act 1996]].
+
+AMENDMENT: Section 6AA inserted, on 18 August 1996, by [[Act:Westland (Tierras del oeste) Empowerment Act 1996|schedule:2]] of the Westland (Tierras del oeste) Empowerment Act 1996 (1996 No 108).
+
+SECTION: 7
+
+HEADING: Principles of electoral administration
+
+In exercising powers and performing functions under this Act, all persons must act in accordance with the following principles—
+(a) impartiality: electoral processes must be administered without political bias;
+(b) transparency: electoral processes must be open to public scrutiny;
+(c) integrity: electoral processes must be conducted honestly and securely;
+(d) accessibility: all eligible electors must have a reasonable opportunity to enrol and vote;
+(e) accuracy: electoral information must be recorded and maintained correctly; and
+(f) proportionality: the allocation of list seats must reflect the party vote as closely as practicable.
+
+SECTION: 8
+
+HEADING: Crown not liable for certain acts
+
+The Crown is not liable for any act or omission of the Commission, a returning officer, or any other person acting under this Act unless the act or omission was done in bad faith.
+
+SECTION: 9
+
+HEADING: Protection from personal liability
+       
+No person acting under this Act is personally liable for any act done in good faith in the performance of their duties.
+
+SECTION: 10
+
+HEADING: Relationship with other enactments
+
+1. If any provision of this Act conflicts with another enactment, this Act prevails unless the other enactment expressly states otherwise.
+2. Nothing in this Act limits the powers of the courts to review electoral matters.
+
+PARTNUMBER: 2
+
+PARTTITLE: Electoral Commission
+
+SECTION: 11
+
+HEADING: Establishment of Electoral Commission
+
+1. There is hereby established a body to be known as the Electoral Commission.
+2. The Commission—
+(a) is a body corporate with perpetual succession; and
+(b) has a common seal; and
+(c) may sue and be sued in its corporate name; and
+(d) may acquire, hold, and dispose of property, and
+(e) may do all things necessary or convenient to be done for or in connection with the performance of its functions.
+
+SECTION: 12
+
+HEADING: Independence of Commission
+
+1. The Commission shall act independently in the performance of its functions.
+2. No Minister, Member of Parliament, political party, or candidate may direct or attempt to direct the Commission in relation to—
+(a) the performance of its statutory duties; or
+(b) the exercise of its powers; or
+(c) any decision relating to the conduct of an election.
+3. Any attempt to influence the Commission contrary to subsection (2) constitutes an illegal practice under this Act.
+
+SECTION: 13
+
+HEADING: Functions of Commissions
+
+The functions of the Commission are—
+(a) to conduct all general elections, by-elections, and referendums;
+(b) to maintain and update electoral rolls;
+(c) to register political parties and maintain the Register of Political Parties;
+(d) to receive, examine, and publish party list;
+(e) to allocate list seats in accordance with [[Part:12]];
+(f) to appoint returning officers and other electoral officials;
+(g) to promote public awareness of electoral matters;
+(h) to provide advice to Parliament of electoral law;
+(i) to monitor compliance with this Act;
+(j) to investigate possible breaches of this Act;
+(k) to conduct research relevant to electoral integrity; and
+(l) to perform any other functions conferred by this Act or any other enactment.
+
+SECTION: 14
+
+HEADING: Powers of Commissions
+
+1. The Commission has all powers necessary to perform its functions.
+2. Without limiting subsection (1), the Commission may—
+(a) issue binding directions to returning officers;
+(b) require information from political parties, candidates, and electors;
+(c) enter into contracts;
+(d) employ staff;
+(e) establish advisory committees;
+(f) publish guidelines, codes of practice, and explanatory material;
+(g) conduct audits of party records;
+(h) refer matters to law enforcement agencies.
+
+SECTION: 15
+
+HEADING: Membership of Commission
+
+1. The Commission consists of—
+(a) the Chief Electoral Commissioner, and
+(b) two Deputy Electoral Commissioners; and
+(c) up to three appointed members with expertise in law, public administration, statistics, or democratic systems.
+2. Members are appointed by the Governor-General on the recommendation of Parliament.
+3. Parliament must consult all registered political parties before making a recommendation under subsection (2).
+
+SECTION: 16
+
+HEADING: Term of office
+
+1. The Chief Electoral Commissioner is appointed for a term not exceeding 7 years.
+2. Deputy Commissioners and appointed members are appointed for terms not exceeding 5 years.
+3. Members may be reappointed.
+4. A member continues in office until—
+(a) the expiry of their term; or
+(b) they resign; or
+(c) they are removed under [[section:17]].
+
+SECTION: 17
+
+HEADING: Removal from office
+
+1. A member of Commission may be removed from office only for—
+(a) misconduct;
+(b) inability to perform functions of office;
+(c) neglect of duty;
+(d) conviction for an offence punishable by imprisonment for 2 years or more.
+2. Removal must be made by the Governor-General on an address from Parliament.
+3. The address must be supported by at least 75% of all Members of Parliament.
+
+SECTION: 18
+
+HEADING: Chief Electoral Commissioner
+
+1. The Chief Electoral Commissioner is the chief executive of the Commission.
+2. The Chief Electoral Commissioner is responsible for—
+(a) the overall administration of elections;
+(b) the supervision of returning officers;
+(c) the certification of election results;
+(d) the allocation of list seats;
+(e) the publication of official returns;
+(f) the management of staff and resources.
+3. The Chief Electoral Commissioner may delegate any function except—
+(a) the certification of results;
+(b) the allocation of list seats;
+(c) the approval of party registration.
+
+SECTION: 19
+
+HEADING: Deputy Electoral Commissioners
+
+1. Deputy Commissioners shall assist the Chief Electoral Commissioner.
+2. A Deputy Commissioner may exercise any power of the Chief Electoral Commissioner except those listed in [[section:18(3)]].
+3. If the Chief Electoral Commissioner is absent or incapacitated, a Deputy Commissioner designated by the Commission shall act in their place.
+
+SECTION: 20
+
+HEADING: Appointed members
+
+1. Appointed members shall provide specialist advice to the Commission.
+2. Appointed members may participate in all deliberations but may not exercise any power to the Chief Electoral Commissioner.
+3. Appointed members may chair committees established under [[section:22]].
+
+SECTION: 21
+
+HEADING: Meetings of Commission
+
+1. The Commission shall meet as often as necessary to perform its functions.
+2. A meeting may be convened by—
+(a) the Chief Electoral Commissioner; or
+(b) any two members of the Commission.
+3. A quorum is three members.
+4. Decisions are made by majority vote.
+5. In the event of a tie, the Chief Electoral Commissioner has a casting vote.
+
+SECTION: 22
+
+HEADING: Committees of Commission
+
+1. The Commission may establish committees to assist in the performance of its functions.
+2. A committee may include persons who are not members of the Commission.
+3. A committee may be delegated any function except—
+(a) the certification of results;
+(b) the allocation of list seats;
+(c) the approval or cancellation of party registration.
+
+SECTION: 23
+
+HEADING: Delegation of powers
+
+1. The Commission may delegate any of its powers to—
+        (a) the Chief Electoral Commissioner;
+        (b) a Deputy Commissioner;
+        (c) a returning officer;
+        (d) any employee of the Commission.
+2. A delegation—
+(a) must be in writing; and
+(b) does not prevent the Commission from exercising the power itself; and
+(c) may be revoked at any time.
+
+SECTION: 24
+
+HEADING: Staff of Commission
+
+1. The Commission may employ staff as necessary.
+2. Staff are employed on terms and conditions determined by the Commission.
+3. Staff must act impartially and independently.
+
+SECTION: 25
+
+HEADING: Funding of Commission
+
+1. Parliament shall appropriate funds sufficient for the Commission to perform its functions.
+2. Funding must be provided in a manner that does not compromise the independence of the Commission.
+3. The Commission may receive grants for research or education, provided such grants do not create a conflict of interest.
+
+SECTION: 26
+
+HEADING: Annual report
+
+1. The Commission must, within 6 months after the end of each financial year, provide to Parliament an annual report containing—
+(a) a summary of its activities;
+(b) audited financial statements;
+(c) any recommendations for legislative change;
+(d) any other information the Commission considers appropriate.
+2. The report must be published.
+
+SECTION: 27
+
+HEADING: Protection of information
+
+1. The Commission must take reasonable steps to protect personal information.
+2. Information obtained under this Act may be used for electoral purposes unless otherwise authorised by law.
+3. Unauthorised disclosure of information is an offence under [[Part:14]].
+
+SECTION: 28
+
+HEADING: Power to issue guidelines
+
+1. The Commission may issue guidelines relating to the interpretation or application of this Act.
+2. Guidelines are not legally binding but must be taken into account by electoral officials.
+
+SECTION: 29
+
+HEADING: Judicial review
+
+Nothing in this Act limits the jurisdiction of the High Court to review decisions of the commission. 
+
+PARTNUMBER: 3
+
+PARTTITLE: Electoral Rolls
+
+SECTION: 30
+
+HEADING: Electoral rolls to be maintained
+
+1. The Commission shall maintain an electoral roll for each electoral district.
+2. Each roll must contain the name, address, and unique elector identifier of every person entitled to be enrolled in that district.
+3. Electoral rolls must be kept in both printed and electronic form.
+4. The Commission must ensure that electoral rolls are accurate, complete, and up to date.
+
+SECTION: 31
+
+HEADING: Right to enrol
+
+1. Every person is entitled to enrol as an elector if—
+(a) the person is a citizen of Square Country; and
+(b) the person is aged 18 years or older; and
+(c) the person ordinarily resides in Square Country.
+2. A person may be enrolled only once.
+3. A person may be enrolled only in the electoral district in which they ordinarily reside.
+
+SECTION: 32
+
+HEADING: Obligation to enrol
+
+1. Every person who is entitled to enrol must apply for enrolment within 30 days of becoming eligible.
+2. Failure to enrol is an offence punishable by a fine not exceeding **₴500**.
+3. A person who fails to enrol remains entitled to enrol at any time.
+
+AMENDMENT: Section 32: replaced, on 1 January 1998, by section 4 of the Electoral Amendment Act 1997 (1997 No 58).
+
+SECTION: 33
+
+HEADING: Application for enrolment
+
+1. An application for enrolment must—
+(a) be in the prescribed form; and
+(b) include the applicant’s full name, date of birth, residential address, and proof of identity; and
+(c) include evidence of citizenship if required by the Commission; and
+(d) be signed by the applicant.
+2. The Commission may require additional information to verify eligibility.
+
+SECTION: 34
+
+HEADING: Verification of enrolment information
+
+1. The Commission may verify enrolment information using—
+(a) government records;
+(b) citizenship registers;
+(c) address databases;
+(d) any other lawful source.
+2. The Commission may require an applicant to provide further identity or residence.
+
+SECTION: 35
+
+HEADING: Enrolment of persons with no fixed address
+
+1. A person who has no fixed address may enrol using—
+(a) the address of a shelter, community organisation, or other place where they habitually stay; or
+(b) any address approved by the Commission.
+2. The Commission must take reasonable steps to ensure such persons are not disadvantaged.
+
+SECTION: 36
+
+HEADING: Provisional enrolment
+
+1. A person who will turn 18 years of age on or before polling day may apply for provisional enrolment.
+2. A provisionally enrolled person becomes an elector automatically on turning 18.
+3. A provisional enrolment does not entitle the person to vote before turning 18.
+
+SECTION: 37
+
+HEADING: Change of address
+
+1. An elector must notify the Commission of any change of address within 30 days.
+2. The Commission must transfer the elector to the appropriate electoral roll.
+3. Failure to notify a change of address is an offence punishable by a fine not exceeding **₴200**.
+
+SECTION: 38
+
+HEADING: Removal from roll
+
+The Commission must remove a person from the roll if—
+1. the person has died; or
+2. the person has ceased to reside in Square Country; or
+3. the person has been enrolled in error.
+
+SECTION: 39
+
+HEADING: Objections to enrolment
+
+1. Any elector may object to the enrolment of another person on the grounds that the person—
+(a) is not entitled to be enrolled; or
+(b) is enrolled in the wrong district.
+2. An objection must—
+(a) be in writing; and
+(b) state the grounds for the objection; and
+(c) be signed by the objector.
+3. The Commission must notify the person whose enrolment is objected to and invite a response.
+4. The Commission must determine the objection within 30 days.
+
+SECTION: 40
+
+HEADING: Correction of rolls
+
+1. The Commission may correct clerical errors in any electoral roll.
+2. The Commission may update an elector’s details based on reliable information.
+3. The Commission must notify the elector of any correction that materially affects their enrolment.
+
+SECTION: 41
+
+HEADING: Public inspection of rolls
+
+1. Electoral rolls must be available for public inspection at designated offices.
+2. A person may inspect a roll without charge.
+3. A person may not—
+(a) copy a roll;
+(b) photograph a roll;
+(c) use roll information for commercial purposes; except as permitted by regulation.
+4. The Commission may publish anonymised statistical information derived from the rolls.
+
+SECTION: 42
+
+HEADING: Confidentiality of certain electors
+
+1. An elector may apply to have their address withheld from the publicly available roll if—
+(a) a publication would endanger their safety; or
+(b) the elector is a protected person under a court order; or
+(c) the Commission is satisfied that non-publication is justified.
+2. The Commission may require evidence supporting the application.
+3. If approved, the elector’s name shall appear on the roll with the notation “address withheld”.
+
+SECTION: 43
+
+HEADING: Supply of rolls to political parties
+
+1. The Commission may supply copies of electoral rolls to registered political parties.
+2. Rolls supplied under this section may be used only for—
+(a) communicating with electors;
+(b) verifying enrolment information;
+(c) electoral research.
+3. A party that misuses roll information commits an offence under [[Part:14]].
+
+SECTION: 44
+
+HEADING: Closed rolls
+
+1. Electoral rolls close 30 days before polling day.
+2. No changes may be made to the printed rolls after closure except—
+(a) corrections of clerical errors; or
+(b) removal of deceased persons.
+3. Electronic rolls may continue to be updated for the purpose of issuing special votes.
+
+SECTION: 45
+
+HEADING: Inspection of closed rolls
+
+1. Closed rolls must be available for inspection at all polling places on polling day.
+2. A person may not challenge an elector’s right to vote at a polling place except as provided in [[Part:10]].
+
+SECTION: 46
+
+HEADING: Offences relating to enrolment
+
+A person commits an offence if the person—
+(a) knowingly provides false information for the purpose of enrolment; or 
+(b) enrols more than one district; or 
+(c) impersonates another person for the purpose of enrolment; or 
+(d) obstructs the Commission in maintaining the rolls.
+
+PARTNUMBER: 4
+
+PARTTITLE: Political Parties
+
+SECTION: 47
+
+HEADING: Political parties to be registered
+
+1. A political party may participate in a general election only if it is registered under this Part.
+2. A party may apply for registration at any time.
+3. A party is not eligible to submit a party list unless it is registered.
+
+SECTION: 48
+
+HEADING: Register of Political Parties
+
+1. The Commission must maintain a register of Political Parties.
+2. The Register must contain, for each registered party—
+(a) the party’s name;
+(b) the party’s abbreviation (if any);
+(c) the party’s emblem (if any);
+(d) the name and contact details of the party secretary;
+(e) the date of registration;
+(f) any conditions or restrictions imposed under this Act.
+3. The Register must be available for public inspection.
+
+SECTION: 49
+
+HEADING: Application for registration
+
+1. An application for registration must—
+(a) be made in writing to the Commission;
+(b) be signed by the party secretary;
+(c) include the party’s constitution;
+(d) include the names and addresses of at least 200 financial members who are eligible electors;
+(e) include a declaration that the party has at least 200 members;
+(f) include the party’s proposed name, abbreviation, and emblem;
+(g) include any other information required by the Commission.
+2. The Commission may require evidence verifying the membership list.
+3. The Commission may reject an application that is incomplete or misleading.
+
+SECTION: 50
+
+HEADING: Requirements for party names
+
+1. A party name must not—
+(a) be obscene or offensive;
+(b) be excessively long;
+(c) resemble the name of another registered party;
+(d) mislead or confuse electors;
+(e) include the words “Government”, “State”, or “Crown” unless approved by the Commission.
+2. The Commission may refuse to register a name that does not comply with subsection (1).
+
+SECTION: 51
+
+HEADING: Party emblems
+
+1. A party may register an emblem for use on ballot papers.
+2. An emblem must not—
+(a) be obscene or offensive;
+(b) resemble the emblem of another party;
+(c) resemble any official symbol of the Crown or the Commission.
+3. The Commission may refuse to register an emblem that does not comply with this section.
+
+SECTION: 52
+
+HEADING: Party constitution
+
+A party’s constitution must include—
+(a) rules for membership;
+(b) rules for selecting candidates;
+(c) rules for electing or appointing office holders;
+(d) rules for financial management;
+(e) rules for resolving internal disputes;
+(f) rules for amending the constitution.
+
+SECTION: 53
+
+HEADING: Determination of application
+
+1. The Commission must determine an application for registration within 60 days.
+2. The Commission must register the party if satisfied that—
+(a) the party has at least 200 eligible members;
+(b) the party has a constitution that complies with [[section:52]];
+(c) the party name and emblem comply with [[section:50]] and [[section:51]];
+(d) the application is complete and accurate.
+3. The Commission must notify the party secretary of its decision.
+
+SECTION: 54
+
+HEADING: Publication of registration
+
+1. The Commission must publish a notice of registration in the Gazette.
+2. The notice must include—
+(a) the party’s name;
+(b) the party’s abbreviation;
+(c) the party’s emblem;
+(d) the date of registration.
+
+SECTION: 55
+
+HEADING: Annual return of membership
+
+1. Each registered party must file an annual return confirming that it has at least 200 eligible members.
+2. The return must—
+(a) be signed by the party secretary;
+(b) include a statutory declaration;
+(c) be filled within 3 months after the end of each calendar year.
+3. The Commission may require evidence verifying the return.
+
+SECTION: 56
+
+HEADING: Duty to notify changes
+
+1. A party must notify the Commission within 30 days of any change to—
+(a) the party secretary;
+(b) the party’s constitution;
+(c) the party’s name, abbreviation, or emblem;
+(d) the party’s office address.
+2. A party that fails to comply commits an offence.
+
+SECTION: 57
+
+HEADING: Volunatary cancellation of registration
+
+1. A party may apply to cancel its registration.
+2. The application must be signed by the party secretary.
+3. The Commission must cancel the registration and publish a notice in the Gazette.
+
+SECTION: 58
+
+HEADING: Involunatry cancellation of registration
+
+1. The Commission may cancel a party’s registration if—
+(a) the party has fewer than 200 eligible members;
+(b) the party fails to file an annual return;
+(c) the party ceases to exist;
+(d) the party obtained registration by fraud;
+(e) the party name or emblem becomes misleading or unlawful.
+2. Before cancelling registration, the Commission must—
+(a) notify the party secretary;
+(b) invite submissions
+(c) consider any submissions received.
+3. The Commission must publish a notice of cancellation in the Gazette.
+
+SECTION: 59
+
+HEADING: Effect of cancellation
+
+1. A party whose registration is cancelled—
+(a) may not submit a party list;
+(b) may not receive list seats;
+(c) may not receive public funding under this Act;
+(d) must cease using its registered emblem on ballot papers.
+2. Cancellation does not affect the status of any Member of Parliament elected before cancellation.
+
+SECTION: 60
+
+HEADING: Party secretaries
+
+1. Every registered party must appoint a party secretary.
+2. The part secretary is responsible for—
+(a) filing documents with the Commission;
+(b) certifying the party list;
+(c) receiving notices from the Commission;
+(d) ensuring compliance with this Act.
+3. The part secretary must be an eligible elector.
+
+SECTION: 61
+
+HEADING: Inspection of party documents
+
+1. The Commission may inspect any document relating to a party’s registration.
+2. A party must provide any document requested by the Commission within 14 days.
+3. Failure to comply is an offence.
+
+SECTION: 62
+
+HEADING: Offences relating to party registration
+
+A person commits an offence if the person— 
+(a) knowingly provides false information in support of a party’s registration; 
+(b) falsely claims to be a member of a registered party; 
+(c) impersonates a party secretary; 
+(d) obstructs the Commission in verifying party membership; (e) misuses information obtained from the Register of Political Parties.
+
+PARTNUMBER: 5
+
+PARTTITLE: Party Lists
+
+SECTION: 63
+
+HEADING: Party lists required for list seats
+
+1. A registered political party may contest list seats only if it submits a party list in accordance with this Part.
+2. A party that does not submit a party list is not eligible to receive list seats under [[Part:13]].
+3. A party list must be submitted for each general election.
+
+SECTION: 64
+
+HEADING: Form of party list
+
+1. A party list must—
+(a) be in writing; and
+(b) be signed by the party secretary; and
+(c) contain the full names of all candidates on the list; and
+(d) list candidates in the order in which the party wishes them to be elected; and
+(e) include a statutory declaration by the party secretary that the list complies with this Act.
+2. A party list may contain any number of candidates, including fewer than 13.
+3. A party list may include candidates who are also standing as electorate candidates.
+
+SECTION: 65
+
+HEADING: Eligibility of list candidates
+
+1. A person may be included on a party list only if the person—
+(a) is qualified to be a Member of Parliament under [[Part:13]]; and
+(b) has consented in writing to be included on the list.
+2. A person may not be included on more than one party list.
+3. A person may not be included on a party list and simultaneously be a candidate for a foreign legislature.
+
+SECTION: 66
+
+HEADING: Submission of party lists
+
+1. A party list must be submitted to the Commission no later than noon on nomination day.
+2. The Commission must acknowledge receipt of the list in writing.
+3. A party list submitted after the deadline is invalid.
+
+SECTION: 67
+
+HEADING: Confidentiality of party lists before publication
+
+1. A party list is confidential until the close of nomination.
+2. The Commission must take reasonable steps to ensure confidentiality.
+3. A person who unlawfully discloses information about a party list before publication commits an offence.
+
+SECTION: 67
+
+HEADING: Publication of party lists
+
+1. As soon as practicable after the close of nominations, the Commission must publish all party lists.
+2. Publication must include—
+(a) the full list of candidates;
+(b) the order of candidates;
+(c) any notes required under this Act.
+3. The Commission may publish party lists in any manner it considers appropriate.
+
+SECTION: 69
+
+HEADING: Amendment of party lists
+
+1. A party may amend its party list at any time before the close of nominations.
+2. After the close of nominations, a party list may not be amended except—
+(a) to remove a candidate who has died;
+(b) to remove a candidate who has become ineligible;
+(c) to correct a clerical error.
+3. A party may not add new candidates after the close of nominations.
+4. The Commission must publish any amendment made under this section.
+
+SECTION: 70
+
+HEADING: Withdrawal of list candidates
+
+1. A list candidate may withdraw by giving written notice to the party secretary.
+2. The party secretary must notify the Commission immediately.
+3. A candidate who withdraws may not be reinstated.
+4. If a withdrawal occurs after the close of nomination, the candidate’s name must remain on the published list but the candidate is not eligible to be elected.
+
+SECTION: 71
+
+HEADING: Death of list candidates
+
+1. If a list candidate dies before polling day—
+(a) the party may amend its list to remove the candidate; and
+(b) the Commission must publish notice of the amendment.
+2. If a list candidate dies after polling day, the candidate is treated as if having never been elected.
+
+SECTION: 72
+
+HEADING: Order of candidates on party lists
+
+1. The order of candidates on a party list is determined solely by the party.
+2. The Commission must not alter the order of candidates.
+3. A party may not submit a list that includes two or more candidates with identical names unless distinguishing information is provided.
+
+SECTION: 72
+
+HEADING: Dual candidacy
+
+1. A person may be both—
+(a) an electorate candidate; and
+(b) a list candidate.
+2. A person who is elected as an electorate MP is not eligible to be elected as a list MP.
+3. A person who is not elected as an electorate MP remains eligible to be elected as a list MP.
+
+SECTION: 74
+
+HEADING: Party lists to be used for allocation of list seats
+
+1. List seats must be allocated to candidates in the order in which they appear on the party list.
+2. If a party is entitled to more list seats than it has candidates on its list, the excess seats remain vacant.
+3. A vacant list seat does not affect the allocation of seats to other parties.
+
+SECTION: 74
+
+HEADING: Replacement of list MPs
+
+1. If a list MP’s seat becomes vacant, the Commission must declare elected the next available candidate on that party’s list.
+2. A candidate is not available if—
+(a) the candidate has died;
+(b) the candidate has withdrawn;
+(c) the candidate is ineligible to be a Member of Parliament.
+3. If no candidates remain on the list, the seat remains vacant.
+
+SECTION: 76
+
+HEADING: Party lists to be used for by-elections
+
+1. A vacancy in an electorate seat must be filled by a by-election.
+2. A party list may not be used to fill an electorate vacancy.
+
+SECTION: 77
+
+HEADING: Offences relating to party lists
+
+A person commits an offence if the person— 
+(a) knowingly submits a false or misleading party list; 
+(b) includes a person on a party list without their consent; 
+(c) unlawfully discloses a confidential party list; 
+(d) alters a party list without authority; 
+(e) obstructs the Commission in verifying list information.
+
+PARTNUMBER: 6
+
+PARTTITLE: Electoral Districts and Boundaries
+
+SECTION: 78
+
+HEADING: Number of electoral districts
+
+1. Square Country shall be divided into 13 electoral districts.
+2. Each district shall return one electorate Member of Parliament.
+3. Electoral districts must be contiguous and must cover the entire territory of Square Country.
+
+SECTION: 79
+
+HEADING: Boundary Commission established
+
+1. There is hereby established a Boundary Commission.
+2. The Boundary Commission is responsible for—
+(a) reviewing electoral district boundaries;
+(b) determining the boundaries of the 13 districts;
+(c) conducting public consultation on proposed boundaries;
+(d) publishing final boundary determinations.
+3. The Boundary Commission is independent and must act without political influence.
+
+SECTION: 80
+
+HEADING: Membership of Boundary Commissions
+
+1. The Boundary Commission consists of—
+(a) the Chief Electoral Commissioner, who shall be Chairperson;
+(b) the Surveyor-General;
+(c) a Judge appointed by the Chief Justice;
+(d) two additional members appointed by the Commission for expertise in geography, statistics, or demography.
+2. A member appointed under subsection (1)(d) shall hold office for a term not exceeding 5 years.
+3. Members may be reappointed.
+
+SECTION: 81
+
+HEADING: Functions of Boundary Commissions
+
+The functions of the Boundary Commission are—
+(a) to divide Square Country into 13 electoral districts;
+(b) to review boundaries at intervals required by this Act.
+(c) to consider population changes and demographic trends;
+(d) to ensure that districts comply with criteria in [[section:84]];
+(e) to publish proposed and final boundaries;
+(f) to receive and consider public submissions.
+
+SECTION: 82
+
+HEADING: Frequency of boundary reviews
+
+1. The Boundary Commission must conduct a boundary review—
+(a) after each census; or
+(b) at least once every 10 years; whichever occurs first.
+2. A boundary review must be completed no later than 18 months before the next general election.
+
+SECTION: 83
+
+HEADING: Population quota
+
+1. For the purpose of drawing boundaries, the Commission must determine a population quota.
+2. The population of each electoral district must be within ±10% of the population quota.
+3. The Commission may depart from subsection (2) only if—
+(a) strict compliance would result in severe distortion of communities of interest; or
+(b) geographic features make compliance impracticable.
+
+SECTION: 83A
+
+HEADING: Calculation of population quota
+
+The population quota, as required in [[section:83(1)]], shall be calculated as follows—
+(a) the Commission shall find the general electoral population of Square Country;
+(b) the Commission shall divide the general electoral population by 13;
+(c) the resulting figure shall be the population quota.
+
+AMENDMENT: Section 83A: inserted, on 1 June 1992, by section 5 of the Electoral Amendment Act 1992 (1992 No 13).
+
+
+
+SECTION: 84
+
+HEADING: Criteria for determining boundaries
+
+In determining electoral district boundaries, the Boundary Commission must consider—
+(a) population equality in accordance with [[section:83]];
+(b) existing administrative and community boundaries;
+(c) facilities of communication and travel;
+(d) topographical features;
+(e) communities of interest, including cultural, economic, and social ties;
+(f) the need to avoid unnecessary disruption to existing boundaries.
+
+SECTION: 85
+
+HEADING: Proposed boundaries
+
+1. The Boundary Commission must prepare proposed boundaries for all 13 districts.
+2. Proposed boundaries must be published in the Gazette and on the Commission’s website. [amended]
+3. The publication must include—
+(a) maps of proposed districts;
+(b) descriptions of boundaries;
+(c) the population of each proposed district;
+(d) reasons for the proposed changes.
+
+SECTION: 86
+
+HEADING: Public submissions
+
+1. Any person may make a submission on the proposed boundaries.
+2. Submissions must be made within 60 days of publication.
+3. The Boundary Commission must—
+(a) consider all submissions;
+(b) hold public hearings in affected districts;
+(c) publish a summary of submissions received.
+
+SECTION: 87
+
+HEADING: Revised proposals
+
+1. After considering submissions, the Boundary Commission may—
+(a) confirm the proposed boundaries; or
+(b) amend the proposed boundaries.
+2. If the Commission makes substantial amendments, it must publish revised proposals and invite further submissions for a period of 30 days.
+
+SECTION: 88
+
+HEADING: Final determination
+
+1. The Boundary Commission must publish its final determination of boundaries in the Gazette.
+2. The final determination must include—
+(a) maps of all districts;
+(b) boundary descriptions;
+(c) population figures;
+(d) reasons for decisions.
+3. The final determination takes effect at the next general election.
+
+SECTION: 89
+
+HEADING: Judicial review of boundary decisions
+
+1. A person may apply to the High Court for judicial review of a boundary determination.
+2. An application must be made within 30 days of publication of the final determination.
+3. The Court may—
+(a) dismiss the application;
+(b) direct the Boundary Commission to reconsider the determination; but may not substitute its own boundaries.
+
+SECTION: 90
+
+HEADING: Maps and boundary descriptions
+
+1. The Commission must maintain authoritative maps of all electoral districts.
+2. Maps must be made publicly available.
+3. If there is any inconsistency between a map and a written boundary description, the written description prevails.
+
+SECTION: 91
+
+HEADING: Temporary adjustments
+
+1. The Commission may make temporary adjustments to boundaries if—
+(a) a natural disaster renders part of a district uninhabitable; or
+(b) significant population displacement occurs.
+2. Temporary adjustments must be reviewed within 12 months.
+
+SECTION: 92
+
+HEADING: Naming of districts
+
+1. The Boundary Commission must assign a name to each electoral district.
+2. A district name must—
+(a) reflect geographical, historical, or cultural features;
+(b) not be offensive;
+(c) not be misleading.
+3. The Commission may change a district name during a boundary review.
+
+SECTION: 93
+
+HEADING: Transitional provisions for boundary changes
+
+1. If boundaries are changed, the new boundaries apply only to the next general election.
+2. Electors remain enrolled in their existing district until the new boundaries take effect.
+3. Candidates may stand only in the district in which they are enrolled at the close of nominations.
+
+SECTION: 94
+
+HEADING: Offences relating to boundary processes
+
+A person commits an offence if the person— 
+(a) knowingly provides false information to the Boundary Commission; 
+(b) obstructs the Commission in performing its functions; 
+(c) attempts to influence the Commission contrary to [[section:12]]; 
+(d) interferes with maps or boundary records.
+
+PARTNUMBER: 7
+
+PARTTITLE: Writs, General Elections, and By-Elections
+
+SECTION: 95
+
+HEADING: General elections to be held every three years
+
+1. A general election must be held—
+(a) on the expiry of three years from the date fixed for the return of the writs for the previous general election; or
+(b) earlier, if Parliament is dissolved under this Part.
+2. Nothing in this section prevents Parliament from being dissolved sooner.
+
+SECTION: 96
+
+HEADING: Dissolution of Parliament
+
+1. Parliament is dissolved—
+(a) by the Governor-General on the advice of the Prime Minister; or
+(b) automatically, three years after the return of the writs.
+2. The Governor-General may refuse a request for dissolution if—
+(a) the Prime Minister has lost the confidence of the House; or
+(b) dissolution would undermine the proper administration of elections.
+3. Upon dissolution—
+(a) all seats in Parliament become vacant;
+(b) the Commission must prepare for a general election.
+
+SECTION: 97
+
+HEADING: Issue of writs for general elections
+
+1. Within 7 days after the dissolution of Parliament, the Governor-General must issue writs for a general election.
+2. A writ must be addressed to the Chief Electoral Commissioner.
+3. A writ must specify—
+(a) the date for the close of nominations;
+(b) the polling day;
+(c) the date by which the writ must be returned;
+(d) any other matter prescribed by regulation.
+4. The Commission must publish the writs in the Gazette.
+
+SECTION: 98
+
+HEADING: Election timetable
+
+1. The following timetable applies to every general election:
+(a) Day 0: Writ issued;
+(b) Day 10: Close of party list submissions;
+(c) Day 14: Close of nominations for electorate candidates;
+(d) Day 15: Publication of party lists;
+(e) Day 16: Advance voting begins;
+(f) Day 30: Polling day;
+(g) Day 31: Preliminary count;
+(h) Day 36: Official count begins;
+(i) Day 45: Declaration of official results;
+(j) Day 50: Return of writs.
+2. The Commission may adjust the timetable by up to 3 days if necessary for administrative reasons.
+3. The Governor-General may, on the advice of the Commission, extend any date if—
+(a) a natural disaster occurs;
+(b) a state of emergency is declared;
+(c) circumstances beyond the Commission’s control make compliance impracticable.
+
+SECTION: 99
+
+HEADING: Postponement of polling day
+
+1. The Governor-General may postpone polling day if—
+(a) a natural disaster affects a significant portion of electors;
+(b) a pandemic or public health emergency makes voting unsafe;
+(c) war or civil unrest prevents the safe conduct of elections;
+(d) the Commission advises that polling cannot be conducted fairly.
+2. Polling day may be postponed for up to 21 days.
+3. The Commission must publish a notice of postponement.
+
+SECTION: 100
+
+HEADING: Adjournment of polling at specific polling places
+
+1. The Commission may adjourn polling at a polling place if—
+(a) the polling place becomes unavailable;
+(b) voting is disrupted by violence, disorder, or emergency;
+(c) ballot papers are destroyed or lost;
+(d) any other circumstance makes polling impracticable.
+2. Polling must resume as soon as practicable.
+3. The Commission must notify affected electors.
+
+SECTION: 101
+
+HEADING: Return of writs
+
+1. The Chief Electoral Commissioner must return each writ to the Governor-General endorsed with—
+(a) the name of the elected MP;
+(b) a certificate of the allocation of list seats.
+2. The writ must be returned no later than the date specified in the writ.
+3. The Commission must publish the return of writs.
+
+SECTION: 102
+
+HEADING: Failure of election in a district
+
+1. If an election in an electoral district fails because—
+(a) no candidate is nominated;
+(b) a candidate dies after the close of nominations;
+(c) polling cannot be conducted; the Governor-General must issue a new writ for that district.
+2. The new writ must specify a fresh timetable.
+
+SECTION: 103
+
+HEADING: By-elections required for electorate vacancies
+
+1. A vacancy in an electorate seat must be filled by a by-election.
+2. A vacancy occurs if—
+(a) the MP dies;
+(b) the MP resigns;
+(c) the MP becomes disqualified;
+(d) the MP’s election is declared void.
+3. A by-election must be held within 90 days of the vacancy.
+
+SECTION: 104
+
+HEADING: No by-election close to general election
+
+1. A by-election must not be held if the vacancy occurs within 6 months before the next general election.
+2. The seat remains vacant until the general election.
+
+SECTION: 105
+
+HEADING: Writs for by-elections
+
+1. The Speaker must notify the Governor-General of a vacancy.
+2. The Governor-General must issue a writ for a by-election within 7 days.
+3. The writ must specify—
+(a) the polling day;
+(b) the date for the close of nominations;
+(c) the date for the return of the writ.
+
+SECTION: 106
+
+HEADING: Procedure for by-elections
+
+1. The procedures for general elections apply to by-elections with necessary modifications.
+2. No party lists may be submitted for a by-election.
+3. Only electorate votes are counted.
+
+SECTION: 107
+
+HEADING: Uncontested by-elections
+
+1. If only one candidate is nominated, the returning officer must declare that candidate elected.
+2. No polling shall be held.
+
+SECTION: 108
+
+HEADING: Death of candidate in by-election
+
+1. If a nominated candidate dies before polling day, the by-election is cancelled.
+2. The Governor-General must issue a new writ.
+
+SECTION: 109
+
+HEADING: Void elections
+
+1. An election may be declared void by the High Court if—
+(a) corrupt or illegal practices affected the result;
+(b) the winning candidate was ineligible;
+(c) serious irregularities occurred.
+2. If an election is declared void, the Governor-General must issue a new writ.
+
+SECTION: 110
+
+HEADING: Election petitions
+
+1. A candidate or elector may file a petition challenging an election.
+2. A petition must be filed within 20 days after the declaration of the results.
+3. The High Court must hear the petition as soon as practicable.
+4. The Court may—
+(a) dismiss the petition;
+(b) order a recount;
+(c) declare the election void;
+(d) declare another candidate elected.
+
+SECTION: 111
+
+HEADING: Criteria for determining boundaries
+
+1. The Court may order costs against any party to a petition.
+2. Costs may include—
+(a) legal fees;
+(b) witness expenses;
+(c) administrative costs.
+
+PARTNUMBER: 8
+
+PARTTITLE: Nominations of Candidates
+
+SECTION: 112
+
+HEADING: Nominations required for all candidates
+
+1. A person may stand as a candidate in a general election only if they are nominated in accordance with this Part.
+2. A person may be nominated as—
+(a) an electorate candidate;
+(b) a list candidate;
+(c) both an electorate and list candidate.
+3. A person may not be nominated in more than one electoral district.
+
+SECTION: 113
+
+HEADING: Qualifications for nomination
+
+1. A person is qualified to be nominated if the person—
+(a) is qualified to be a Member of Parliament under [[Part:13]];
+(b) has consented in writing to be nominated;
+(c) is not disqualified under this Act or any other enactment.
+2. A person may not be nominated if they—
+(a) are a sitting judge;
+(b) are a member of the armed forces or police;
+(c) hold an office of profit under the Crown, unless they resign before polling day.
+
+SECTION: 114
+
+HEADING: Nomination of electorate candidates
+
+1. A nomination for an electorate candidate must—
+(a) be in the prescribed form;
+(b) be signed by the candidate;
+(c) be supported by at least 10 electors enrolled in the district;
+(d) include the candidate’s full name, address, and occupation;
+(e) include the name of the political part (if any) that has endorsed the candidate;
+(f) be accompanied by the prescribed deposit.
+2. The deposit is forfeited if the candidate receives less than 5% of the electorate vote.
+
+SECTION: 115
+
+HEADING: Nomination of independent candidates
+
+1. A candidate who is not endorsed by a registered political party must be nominated as an independent.
+2. An independent candidate may not use a party name or emblem.
+3. The ballot paper must display the word independent beside the candidate’s name.
+
+SECTION: 116
+
+HEADING: Party endorsement of electorate candidates
+
+1. A political party may endorse only one candidate per electoral district.
+2. The party secretary must certify the endorsement in writing.
+3. A candidate may not claim party endorsement unless certified under subsection (2).
+4. A party may withdraw endorsement before the close of nominations.
+
+SECTION: 117
+
+HEADING: Submissions of electorate nominations
+
+1. Nominations must be submitted to the returning officer for the district.
+2. Nominations must be submitted no later than noon on nomination day.
+3. A nomination submitted after the deadline is invalid.
+4. The returning officer must acknowledge receipt of each nomination.
+
+SECTION: 118
+
+HEADING: Examination of nominations
+
+1. The returning officer must examine each nomination to ensure compliance with this Act.
+2. The returning officer may require additional information to verify eligibility.
+3. The returning officer must reject a nomination if—
+(a) the candidate is ineligible;
+(b) the nomination is incomplete;
+(c) the deposit has not yet been paid;
+(d) the supporting signatures are insufficient or invalid.
+4. The returning officer must notify the candidate of any rejection and the reasons for it.
+
+SECTION: 119
+
+HEADING: Withdrawal of nominations
+
+1. A candidate may withdraw their nomination by giving written notice to the returning officer.
+2. Withdrawal must occur no later than 48 hours before polling day.
+3. A withdrawn candidate’s name must be removed from the ballot paper if practicable.
+4. If removal is not practicable, votes for the withdrawn candidate are invalid.
+
+SECTION: 120
+
+HEADING: Death of candidate
+
+1. If a nominated candidate dies before polling day—
+(a) the election in that district is cancelled;
+(b) the Governor-General must issue a new writ;
+(c) all nominations must be reopened
+2. If a candidate dies after polling day but before the declaration of results, the election is void.
+
+SECTION: 121
+
+HEADING: Publication of nominated candidates
+
+1. As soon as practicable after the close of nominations, the returning officer must publish a list of all nominated candidates.
+2. The list must include—
+(a) the candidate’s name;
+(b) the candidate’s party affiliation (if any);
+(c) the candidate’s occupation;
+(d) the district in which the candidate is standing.
+3. The Commission may publish the list in any manner it considers appropriate.
+
+SECTION: 122
+
+HEADING: Uncontested elections
+
+1. If only one candidate is nominated in a district, the returning officer must declare that candidate elected.
+2. No polling shall be held in that district.
+3. The returning officer must publish a notice of uncontested election.
+
+SECTION: 123
+
+HEADING: Multiple nominations prohibited
+
+1. A person may not be nominated in more than one electoral district.
+2. If a person is nominated in more than one district, all nominations are invalid.
+3. A person may not be nominated on more than one party list.
+
+SECTION: 124
+
+HEADING: False statements in nomination papers
+
+1. A person must not knowingly make a false statement in a nomination paper.
+2. A person who contravenes subsection (1) commits a corrupt practice.
+
+SECTION: 125
+
+HEADING: Inspection of nomination papers
+
+1. Nomination papers must be available for public inspection after the close of nominations.
+2. A person may inspect nomination papers without charge.
+3. Nomination papers may not be copied except as permitted by regulation.
+
+SECTION: 126
+
+HEADING: Deposits
+
+1. The deposit for nomination is **₴500**.
+2. The deposit must be paid at the time of nomination.
+3. The deposit is refunded if the candidate—
+(a) is elected; or
+(b) receives at least 5% of the electorate vote.
+4. Deposits forfeited under this section must be paid into the Consolidated Fund.
+
+SECTION: 127
+
+HEADING: Offences relating to nominations
+
+A person commits an offence if the person—
+1. submits a nomination knowing it to be false or misleading;
+2. forges a signature on a nomination paper;
+3. impersonates a candidate;
+4. obstructs a returning officer in examining nominations;
+5. falsely claims party endorsement;
+6. knowingly nominates an ineligible person.
+
+PARTNUMBER: 9
+
+PARTTITLE: Election Advertising, and Political Finance
+
+SECTION: 128
+
+HEADING: Purpose
+
+The purposes of this Part are—
+
+(a) to regulate election advertising and campaign communications;
+
+(b) to promote transparency in the financing of election campaigns;
+
+(c) to regulate expenditure incurred by political parties, candidates, and third-party promoters;
+
+(d) to require the disclosure of political donations and loans;
+
+(e) to regulate the use of public resources during an election;
+
+(f) to prevent bribery, treating, undue influence, and other corrupt or illegal practices;
+
+(g) to establish rules governing election advertising in broadcast, print, digital, and other media;
+
+(h) to provide for the administration and enforcement of the requirements of this Part;
+
+(i) to promote public confidence in the fairness and integrity of elections; and
+
+(j) to ensure that electors are able to identify the persons and organisations responsible for political communications.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: General Rules of Campaigning
+
+SECTION: 129
+
+HEADING: Campaign period
+
+1. The campaign period for an election begins on the day on which the writ for the election is issued.
+
+2. The campaign period ends at midnight on polling day.
+
+3. For the purposes of this Part, a reference to the campaign period includes any period prescribed by regulations as a period during which election advertising is subject to this Part.
+
+4. A person must not publish an election advertisement during a period outside the campaign period if—
+
+(a) the advertisement is intended to influence the outcome of the election; and
+
+(b) the publication would, if undertaken during the campaign period, constitute regulated election advertising.
+
+5. Subsection (4) does not apply to—
+
+(a) ordinary news reporting;
+
+(b) editorial comment;
+
+(c) private political communication;
+
+(d) communications made for genuine academic, educational, or research purposes; or
+
+(e) communications of a class prescribed by regulations.
+
+SECTION: 130
+
+HEADING: Right to campaign
+
+1. Every candidate and registered political party has the right to campaign during an election.
+
+2. A person must not, without reasonable justification, obstruct, prevent, or interfere with the lawful campaigning activities of another person.
+
+3. Nothing in this section authorises—
+
+(a) trespass;
+
+(b) the obstruction of a public road or footpath;
+
+(c) the commission of an offence; or
+
+(d) the use of property without the consent of its owner or occupier.
+
+4. A person who intentionally contravenes subsection (2) commits an offence.
+
+5. A person does not commit an offence against this section merely because the person—
+
+(a) expresses opposition to a candidate or political party;
+
+(b) engages in peaceful protest; or
+
+(c) declines to provide access to private property.
+
+SECTION: 131
+
+HEADING: Use of public resources prohibited
+
+1. A Minister, Member of Parliament, candidate, political party, or person acting on behalf of a political party must not knowingly use public resources for the purpose of promoting or opposing—
+
+(a) a candidate;
+
+(b) a political party; or
+
+(c) an election proposition.
+
+2. Public resources include—
+
+(a) public money;
+
+(b) government vehicles;
+
+(c) Crown aircraft;
+
+(d) Crown-owned or leased premises;
+
+(e) official stationery;
+
+(f) government mailing systems;
+
+(g) government advertising channels;
+
+(h) publicly funded staff time; and
+
+(i) equipment or information systems owned or controlled by the Crown.
+
+3. Subsection (1) does not prohibit—
+
+(a) the ordinary performance of a Minister's official functions;
+
+(b) official communications required by law;
+
+(c) the publication of information necessary for the administration of government; or
+
+(d) the use of public facilities on terms generally available to members of the public.
+
+4. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+5. A political party that knowingly benefits from a contravention of this section is liable as if it had incurred the expenditure itself.
+
+SECTION: 132
+
+HEADING: Bribery and treating prohibited
+
+1. A person must not, directly or indirectly—
+
+(a) give, provide, promise, or offer any money, gift, loan, employment, service, or other advantage to an elector for the purpose of influencing the elector's vote;
+
+(b) receive or agree to receive any such advantage in consideration of voting or refraining from voting;
+
+(c) provide food, drink, entertainment, or other benefit to electors with the intention of influencing their votes; or
+
+(d) offer any advantage to a person for procuring or assisting in procuring the vote of another elector.
+
+2. A person who knowingly accepts an advantage offered in contravention of subsection (1) commits an offence.
+
+3. Subsection (1) does not apply to—
+
+(a) reasonable refreshments provided at a public political meeting;
+
+(b) ordinary hospitality;
+
+(c) campaign merchandise of negligible value;
+
+(d) reasonable expenses incurred in transporting electors where the transportation is equally available to all electors; or
+
+(e) any other class of activity prescribed by regulations.
+
+4. The fact that an elector did not ultimately vote in accordance with the request or inducement is not a defence to an offence against this section.
+
+SECTION: 133
+
+HEADING: Undue influence
+
+1. A person must not—
+
+(a) use or threaten to use violence against an elector;
+
+(b) threaten an elector with financial, employment, educational, or other disadvantage;
+
+(c) intimidate or coerce an elector;
+
+(d) prevent or attempt to prevent an elector from voting;
+
+(e) interfere with an elector while the elector is preparing to vote; or
+
+(f) induce an elector to refrain from voting by threats or intimidation.
+
+2. Nothing in this section prevents legitimate political persuasion or criticism.
+
+3. A person who contravenes subsection (1) commits a corrupt practice.
+
+4. A court may order a person convicted under this section to pay compensation to a person who suffered loss as a result of the offence.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Election Advertising
+
+SECTION: 134
+
+HEADING: Meaning of election advertisement
+
+1. In this Part, election advertisement means an advertisement that may reasonably be regarded as—
+
+(a) encouraging or persuading voters to vote, or not vote, for a candidate or political party; or
+
+(b) encouraging or persuading voters to vote, or not vote, in a particular way on an election proposition.
+
+2. An election advertisement includes—
+
+(a) a poster, banner, billboard, leaflet, pamphlet, newspaper advertisement, or other printed material;
+
+(b) a television or radio advertisement;
+
+(c) an advertisement published on a website;
+
+(d) a paid social media advertisement;
+
+(e) a sponsored post;
+
+(f) a promoted video;
+
+(g) a podcast advertisement;
+
+(h) an electronic message;
+
+(i) a text message;
+
+(j) an email;
+
+(k) an online search advertisement;
+
+(l) an advertisement delivered through an application or digital platform;
+
+(m) a livestream containing paid political promotion; and
+
+(n) any other communication prescribed by regulations.
+
+3. A communication is not an election advertisement merely because it—
+
+(a) contains personal political opinion;
+
+(b) constitutes ordinary news reporting;
+
+(c) constitutes genuine editorial content;
+
+(d) is a private communication between individuals;
+
+(e) is produced for academic or educational purposes without payment from a candidate, party, or promoter; or
+
+(f) constitutes satire, parody, or artistic expression, unless the communication is paid for or otherwise controlled by a candidate, party, or promoter for an electoral purpose.
+
+4. The Commission may issue guidance on whether a particular form of communication constitutes an election advertisement.
+
+AMENDMENT: Section 134(2): paragraphs (d) to (n) substituted, on 1 January 2024, by section 4 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 135
+
+HEADING: Promoter statements required
+
+1. Every election advertisement must include a promoter statement.
+
+2. The promoter statement must—
+
+(a) state the name of the person or organisation promoting the advertisement; and
+
+(b) state the physical address of the promoter.
+
+3. If the promoter is a registered political party, the promoter statement must identify the party.
+
+4. If the promoter is a candidate, the promoter statement must identify the candidate.
+
+5. The promoter statement must be—
+
+(a) clearly displayed in a printed advertisement;
+
+(b) clearly audible in a broadcast advertisement;
+
+(c) readily visible in a digital advertisement; or
+
+(d) provided in another form approved by the Commission.
+
+6. A promoter statement must remain accessible for the period for which the advertisement is publicly available.
+
+7. A person who knowingly publishes an election advertisement without the required promoter statement commits an illegal practice.
+
+AMENDMENT: Section 135(5): substituted, on 1 January 2024, by section 8 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 136
+
+HEADING: Third-party promoters
+
+1. A person who is not a candidate or registered political party may promote an election advertisement as a third-party promoter.
+
+2. A third-party promoter must register with the Commission if the promoter—
+
+(a) incurs expenditure of more than ₴1,000 on election advertising during an election period; or
+
+(b) intends to incur expenditure exceeding that amount.
+
+3. An application for registration must contain—
+
+(a) the name of the promoter;
+
+(b) the promoter's physical address;
+
+(c) the promoter's contact details;
+
+(d) the name of any organisation on whose behalf the promoter is acting; and
+
+(e) any other information prescribed by regulations.
+
+4. The Commission must maintain a public register of third-party promoters.
+
+5. A person who knowingly fails to register as required by this section commits an offence.
+
+AMENDMENT: Section 136: substituted, on 18 May 2017, by section 14 of the Electoral Campaign Finance Amendment Act 2017 (2017 No 11).
+
+SECTION: 136A
+
+HEADING: Register of third-party promoters
+
+1. The Commission must maintain an electronic register of registered third-party promoters.
+
+2. The register must contain—
+
+(a) the promoter's name;
+
+(b) the promoter's address;
+
+(c) the date of registration;
+
+(d) the amount of expenditure declared by the promoter; and
+
+(e) any information required by regulations.
+
+3. The register must be publicly accessible without charge.
+
+4. The Commission may remove information from the register if publication would—
+
+(a) endanger the safety of an individual;
+
+(b) disclose personal information that is not required for electoral transparency; or
+
+(c) otherwise be contrary to the public interest.
+
+AMENDMENT: Section 136A: inserted, on 18 May 2017, by section 15 of the Electoral Campaign Finance Amendment Act 2017 (2017 No 11).
+
+SECTION: 137
+
+HEADING: Prohibited election advertising
+
+1. A person must not knowingly publish an election advertisement that—
+
+(a) falsely states that a person is or is not eligible to stand for election;
+
+(b) falsely states that a candidate has been convicted of an offence;
+
+(c) falsely represents the position of the Commission;
+
+(d) falsely represents the contents or appearance of a ballot paper;
+
+(e) falsely represents that a communication has been authorised by the Commission;
+
+(f) is likely to deceive or materially mislead electors as to the manner in which voting is conducted; or
+
+(g) impersonates a candidate, political party, or electoral authority for the purpose of influencing voting.
+
+2. Nothing in subsection (1) prevents—
+
+(a) criticism of a candidate or political party;
+
+(b) political satire;
+
+(c) publication of an honest opinion; or
+
+(d) publication of allegations that are clearly identified as allegations.
+
+3. The Commission may apply to the High Court for an order requiring the removal or correction of an advertisement published in contravention of this section.
+
+AMENDMENT: Section 137: substituted, on 9 November 2022, by section 19 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 138
+
+HEADING: Election signs
+
+1. An election sign may be displayed during the campaign period subject to this Act and any regulations made under this Act.
+
+2. An election sign must not—
+
+(a) obstruct a road, footpath, cycleway, or public entrance;
+
+(b) interfere with traffic signs or signals;
+
+(c) be attached to public property except as authorised;
+
+(d) exceed the dimensions prescribed by regulations; or
+
+(e) be displayed on private property without the consent of the occupier.
+
+3. A local authority may make reasonable rules concerning the location, size, and duration of election signs.
+
+4. A rule made under subsection (3) must not unreasonably prevent lawful election campaigning.
+
+5. The Commission may direct the removal of an election sign that contravenes this Act.
+
+6. If the promoter fails to comply with a direction under subsection (5), the Commission may arrange for the sign to be removed.
+
+7. The reasonable cost of removal may be recovered from the promoter as a debt due to the Crown.
+
+AMENDMENT: Section 138(3): inserted, on 22 June 2019, by section 11 of the Local Electoral Advertising Amendment Act 2019 (2019 No 15).
+
+SECTION: 139
+
+HEADING: Election advertising on social media
+
+1. Election advertising published through a social media service is subject to this Part.
+
+2. A promoter statement must be displayed in a form that is reasonably capable of being seen or accessed by an elector.
+
+3. A paid political advertisement must be clearly identifiable as paid political communication.
+
+4. A person must not knowingly create a false account or automated account for the primary purpose of publishing election advertising while concealing the identity of the promoter.
+
+5. Subsection (4) does not apply to—
+
+(a) anonymous political commentary that is not paid advertising;
+
+(b) accounts operated for satire or parody; or
+
+(c) accounts authorised by the Commission for testing or research.
+
+6. A social media platform that provides paid election advertising must, where reasonably practicable, retain records of—
+
+(a) the promoter;
+
+(b) the amount paid;
+
+(c) the dates on which the advertisement was displayed;
+
+(d) the geographical audience targeted; and
+
+(e) the number of impressions or equivalent measure.
+
+AMENDMENT: Section 139: inserted, on 1 January 2014, by section 4 of the Electoral (Social Media Advertising) Amendment Act 2013 (2013 No 36).
+
+AMENDMENT: Section 139(4) to (6): inserted, on 1 January 2024, by section 10 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139A
+
+HEADING: Digital election advertising library
+
+1. A digital platform that publishes paid election advertising must maintain an electronic advertising library for the duration of the campaign period.
+
+2. The library must contain, in respect of each advertisement—
+
+(a) the promoter statement;
+
+(b) the amount paid;
+
+(c) the dates on which the advertisement was displayed;
+
+(d) the number of times the advertisement was displayed;
+
+(e) the broad audience criteria used to select recipients; and
+
+(f) a copy of the advertisement.
+
+3. The library must remain publicly accessible for at least 2 years after polling day.
+
+4. The Commission may prescribe additional requirements by regulation.
+
+AMENDMENT: Section 139A: inserted, on 1 January 2024, by section 11 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139B
+
+HEADING: Targeting of election advertisements
+
+1. A promoter must not use personal information obtained unlawfully for the purpose of targeting an elector with election advertising.
+
+2. A promoter must not target election advertising on the basis of—
+
+(a) information unlawfully obtained;
+
+(b) information obtained through deception; or
+
+(c) information that the promoter knows to be materially inaccurate and is used for the purpose of manipulating voting behaviour.
+
+3. The Commission may issue standards concerning the use of targeting technologies in election advertising.
+
+4. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 139B: inserted, on 1 January 2024, by section 12 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 139C
+
+HEADING: Artificially generated election material
+
+1. A person who publishes election advertising containing materially altered audio, video, or photographic material that purports to depict a candidate must clearly identify the material as digitally altered.
+
+2. Subsection (1) applies whether the alteration is made by artificial intelligence or by another technological process.
+
+3. Subsection (1) does not apply to—
+
+(a) clearly satirical material;
+
+(b) parody;
+
+(c) material that could not reasonably be understood as depicting a real event; or
+
+(d) material prescribed by regulations.
+
+4. The Commission may issue guidance concerning compliance with this section.
+
+AMENDMENT: Section 139C: inserted, on 12 April 2025, by section 17 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Campaign Finance
+
+SECTION: 140
+
+HEADING: Campaign expenditure limits
+
+1. A candidate must not incur election expenditure exceeding ₴50,000 during an election period.
+
+2. A registered political party must not incur election expenditure exceeding—
+
+(a) ₴200,000; plus
+
+(b) ₴10,000 for each electorate in which the party has endorsed a candidate.
+
+3. Election expenditure includes expenditure incurred on—
+
+(a) advertising;
+
+(b) printing;
+
+(c) campaign staff;
+
+(d) campaign offices;
+
+(e) opinion polling;
+
+(f) market research;
+
+(g) travel;
+
+(h) telephone and internet services;
+
+(i) campaign events;
+
+(j) digital advertising;
+
+(k) production of campaign material; and
+
+(l) any other expenditure prescribed by regulations.
+
+4. Election expenditure does not include—
+
+(a) the reasonable value of voluntary labour;
+
+(b) personal expenditure incurred by a volunteer that is not reimbursed;
+
+(c) internal party communications not intended for the public;
+
+(d) expenditure incurred in the ordinary administration of a registered political party; or
+
+(e) expenditure expressly excluded by regulations.
+
+5. Where expenditure is incurred jointly by two or more persons, the expenditure must be apportioned between them in accordance with regulations.
+
+AMENDMENT: Section 140: substituted, on 1 July 2022, by section 24 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 140A
+
+HEADING: Election expenditure period
+
+1. For the purposes of calculating a candidate's election expenditure, expenditure is incurred during the election period if—
+
+(a) the contract for the expenditure is entered into during that period; or
+
+(b) the goods or services are supplied during that period.
+
+2. Expenditure incurred before the campaign period for advertising that continues to be publicly available during the campaign period must be treated as election expenditure to the extent prescribed by regulations.
+
+3. The Commission may issue guidance concerning the treatment of expenditure incurred across more than one election period.
+
+AMENDMENT: Section 140A: inserted, on 1 July 2022, by section 25 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 140B
+
+HEADING: Apportionment of shared expenditure
+
+1. If expenditure benefits more than one candidate or party, the person responsible for the expenditure must determine the proportion attributable to each candidate or party.
+
+2. The proportion must be determined according to the reasonable value of the benefit received.
+
+3. The Commission may require evidence supporting an apportionment.
+
+4. If the Commission considers an apportionment unreasonable, it may determine a different amount for the purposes of this Part.
+
+AMENDMENT: Section 140B: inserted, on 1 July 2022, by section 26 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 141
+
+HEADING: Political donations
+
+1. A political donation is any money, goods, services, property, or other benefit provided to—
+
+(a) a political party;
+
+(b) a candidate; or
+
+(c) a third-party promoter,
+
+for an electoral purpose.
+
+2. A donation includes—
+
+(a) a gift;
+
+(b) a subscription;
+
+(c) the provision of goods or services at less than their reasonable market value;
+
+(d) the forgiveness of a debt;
+
+(e) a loan treated as a donation under section 142; and
+
+(f) a donation made through an intermediary.
+
+3. The value of a donation consisting of goods or services is the reasonable market value of those goods or services.
+
+4. A candidate must disclose donations exceeding ₴1,000.
+
+5. A registered political party must disclose donations exceeding ₴5,000.
+
+6. Anonymous donations exceeding ₴500 must not be accepted.
+
+7. A political party or candidate who receives an anonymous donation exceeding ₴500 must return the donation or pay the amount to the Commission within 20 working days.
+
+8. A person must not knowingly conceal the true source of a political donation.
+
+AMENDMENT: Section 141: substituted, on 4 February 2020, by section 30 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141A
+
+HEADING: Splitting of donations prohibited
+
+1. A person must not knowingly divide a donation into 2 or more payments for the purpose of avoiding a disclosure requirement under this Part.
+
+2. Where the Commission has reasonable grounds to believe that donations have been divided for the purpose described in subsection (1), the donations may be treated as a single donation.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 141A: inserted, on 4 February 2020, by section 31 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141B
+
+HEADING: Donations through intermediaries
+
+1. A person must not knowingly provide a donation to a candidate or political party through another person for the purpose of concealing the identity of the donor.
+
+2. An intermediary who knowingly assists in concealing the identity of a donor commits an illegal practice.
+
+3. This section does not apply where an intermediary merely provides a payment service and has no knowledge of the identity or purpose of the transaction.
+
+AMENDMENT: Section 141B: inserted, on 4 February 2020, by section 32 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 141C
+
+HEADING: Foreign donations
+
+1. A political party, candidate, or third-party promoter must not accept a donation from a foreign person exceeding ₴1,500.
+
+2. A person must not knowingly structure a donation for the purpose of avoiding subsection (1).
+
+3. A foreign person includes—
+
+(a) an individual who is neither a citizen nor ordinarily resident in Square Country;
+
+(b) a body corporate incorporated outside Square Country;
+
+(c) a political party or organisation established outside Square Country; and
+
+(d) a government or agency of a foreign state.
+
+4. Subsection (1) does not apply to—
+
+(a) a donation made by a citizen ordinarily resident overseas; or
+
+(b) a donation made from an account maintained in Square Country where the donor can establish that the donor is not a foreign person.
+
+AMENDMENT: Section 141C: inserted, on 4 February 2020, by section 33 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+AMENDMENT: Section 141C(1): amended, on 15 March 2026, by section 7 of the Political Finance Reform Amendment Act 2026 (2026 No 4).
+
+SECTION: 142
+
+HEADING: Loans treated as donations
+
+1. A loan made to a political party, candidate, or third-party promoter is treated as a donation unless—
+
+(a) the loan is made on commercial terms;
+
+(b) the lender is not a foreign person prohibited from making the loan;
+
+(c) the interest rate is not less than the prescribed commercial rate; and
+
+(d) the loan is repayable within the period specified in the agreement.
+
+2. A loan that is forgiven or written off is treated as a donation at the time of forgiveness or write-off.
+
+3. A loan made by a foreign person in contravention of section 141C is prohibited.
+
+4. The Commission may require evidence concerning the terms and source of a loan.
+
+AMENDMENT: Section 142: substituted, on 4 February 2020, by section 34 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 142A
+
+HEADING: Credit arrangements
+
+1. A credit arrangement entered into by a political party or candidate for an electoral purpose is treated as a loan for the purposes of this Part.
+
+2. Subsection (1) applies whether or not interest is charged.
+
+3. Ordinary trade credit for goods or services supplied in the ordinary course of business is not a loan for the purposes of this section if payment is due within 60 days.
+
+AMENDMENT: Section 142A: inserted, on 4 February 2020, by section 35 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 143
+
+HEADING: Donation and loan returns
+
+1. Every candidate must provide the Commission with a return of donations and loans received during the election period.
+
+2. The return must be provided within 40 days after polling day.
+
+3. Every registered political party must provide a return within 60 days after polling day.
+
+4. A return must include—
+
+(a) the name of each donor;
+
+(b) the address of each donor where required;
+
+(c) the amount or value of each donation;
+
+(d) the date on which the donation was received;
+
+(e) the source of the donation;
+
+(f) the nature and terms of any loan;
+
+(g) the amount of any loan;
+
+(h) the date on which the loan was entered into; and
+
+(i) any other information prescribed by regulations.
+
+5. The Commission must publish returns received under this section as soon as reasonably practicable.
+
+AMENDMENT: Section 143: substituted, on 4 February 2020, by section 38 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 143A
+
+HEADING: Return of election expenses
+
+1. Every candidate must file a return of election expenses within 60 days after polling day.
+
+2. Every registered political party must file a return of election expenses within 90 days after polling day.
+
+3. A return must—
+
+(a) state the total amount of election expenditure;
+
+(b) identify each payment exceeding ₴1,000;
+
+(c) identify the person to whom each payment was made;
+
+(d) identify the purpose of each payment; and
+
+(e) include a declaration that the return is complete and accurate.
+
+4. The Commission may require further information where it considers that necessary to verify a return.
+
+AMENDMENT: Section 143A: inserted, on 1 July 2022, by section 39 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 144
+
+HEADING: Auditing of party finances
+
+1. Every registered political party must appoint an auditor approved by the Commission.
+
+2. An auditor must—
+
+(a) be independent of the party;
+
+(b) have appropriate professional qualifications; and
+
+(c) comply with standards prescribed by regulations.
+
+3. The auditor must examine—
+
+(a) the party's annual financial statements;
+
+(b) the party's donation returns;
+
+(c) the party's election expense returns; and
+
+(d) the party's records relating to political finance.
+
+4. The auditor must report any material irregularity to the Commission.
+
+5. A political party must provide the auditor with all documents reasonably required for the audit.
+
+AMENDMENT: Section 144: substituted, on 30 June 2015, by section 22 of the Electoral Finance Amendment Act 2015 (2015 No 12).
+
+SECTION: 144A
+
+HEADING: Financial records to be retained
+
+1. A political party, candidate, or third-party promoter must retain records sufficient to establish compliance with this Part.
+
+2. Records must be retained for at least 5 years after the date on which the relevant return is filed.
+
+3. Records may be retained electronically.
+
+4. A person who knowingly destroys or falsifies a record required to be retained commits an offence.
+
+AMENDMENT: Section 144A: inserted, on 30 June 2015, by section 23 of the Electoral Finance Amendment Act 2015 (2015 No 12).
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Broadcasting, Media, and Political Communications
+
+SECTION: 145
+
+HEADING: Broadcasting allocation
+
+1. The Commission must determine an allocation of publicly funded broadcasting resources among registered political parties for each general election.
+
+2. In making the allocation, the Commission must have regard to—
+
+(a) the party's share of the party vote at the previous election;
+
+(b) the number of Members of Parliament belonging to the party;
+
+(c) the number of candidates nominated by the party;
+
+(d) the level of public support reasonably demonstrated for the party;
+
+(e) whether the party is newly registered; and
+
+(f) any other matter prescribed by regulations.
+
+(3) The Commission must publish its allocation before the commencement of the regulated broadcasting period.
+
+4. A party dissatisfied with an allocation may apply to the Commission for reconsideration in accordance with regulations.
+
+AMENDMENT: Section 145: substituted, on 1 August 2019, by section 18 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146
+
+HEADING: Political broadcasting
+
+1. A broadcaster must comply with this Act in relation to election advertising.
+
+2. A broadcaster must not knowingly publish an election advertisement—
+
+(a) without the required promoter statement;
+
+(b) outside the permitted broadcasting period where prohibited by this Act; or
+
+(c) in circumstances that conceal the identity of the promoter.
+
+3. A broadcaster must not knowingly charge materially different rates for substantially equivalent political advertising solely because of the political party or candidate purchasing the advertising.
+
+4. Nothing in this section—
+
+(a) requires a broadcaster to publish an advertisement that is unlawful;
+
+(b) prevents a broadcaster from applying reasonable technical or editorial standards; or
+
+(c) affects the ordinary operation of broadcasting standards legislation.
+
+AMENDMENT: Section 146: substituted, on 1 August 2019, by section 19 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146A
+
+HEADING: Regulated broadcasting period
+
+1. The regulated broadcasting period begins on the day specified by regulations.
+
+2. The regulated broadcasting period ends at midnight on polling day.
+
+3. Election advertising broadcast during the regulated broadcasting period must comply with this Part.
+
+AMENDMENT: Section 146A: inserted, on 1 August 2019, by section 20 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146B
+
+HEADING: Equal access to broadcasting
+
+1. A broadcaster that accepts paid election advertising from one registered political party must make its political advertising facilities reasonably available to other registered political parties on substantially equivalent terms.
+
+2. A broadcaster may impose reasonable restrictions relating to—
+
+(a) technical quality;
+
+(b) maximum duration;
+
+(c) scheduling;
+
+(d) legal compliance; and
+
+(e) broadcasting standards.
+
+3. A broadcaster must not discriminate against a political party solely because of its political views.
+
+AMENDMENT: Section 146B: inserted, on 1 August 2019, by section 21 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146C
+
+HEADING: Broadcasting of election debates
+
+1. A broadcaster may conduct an election debate involving candidates or political parties.
+
+2. A broadcaster must determine its criteria for participation in a debate before the debate is conducted.
+
+3. The criteria must be applied consistently.
+
+4. Nothing in this section requires a broadcaster to provide equal airtime to every candidate.
+
+AMENDMENT: Section 146C: inserted, on 1 August 2019, by section 22 of the Broadcasting and Elections Amendment Act 2019 (2019 No 21).
+
+SECTION: 146D
+
+HEADING: Online political advertising
+
+1. An online service that provides paid political advertising to persons in Square Country must comply with the requirements of this Part prescribed for digital platforms.
+
+2. The Commission may designate a class of online service as a digital political advertising service.
+
+3. A designation may be made by notice published on the Commission's website.
+
+AMENDMENT: Section 146D: inserted, on 1 January 2024, by section 18 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146E
+
+HEADING: Political advertising records
+
+1. A digital platform must retain records of political advertising for not less than 2 years after polling day.
+
+2. Records must be sufficient to identify—
+
+(a) the promoter;
+
+(b) the amount paid;
+
+(c) the period during which the advertisement was displayed;
+
+(d) the number of impressions;
+
+(e) the general location of the audience; and
+
+(f) the advertisement itself.
+
+3. The Commission may require a digital platform to provide records under this section.
+
+AMENDMENT: Section 146E: inserted, on 1 January 2024, by section 19 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146F
+
+HEADING: Electoral advertising transparency notice
+
+1. The Commission may require a digital platform to provide a transparency notice for election advertising.
+
+2. A transparency notice may contain—
+
+(a) the promoter;
+
+(b) the amount spent;
+
+(c) the dates of publication;
+
+(d) the number of persons reached; and
+
+(e) the targeting categories used.
+
+3. The notice must not disclose personal information unless authorised by this Act.
+
+AMENDMENT: Section 146F: inserted, on 1 January 2024, by section 20 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146G
+
+HEADING: Political advertising purchased by overseas persons
+
+1. A person must not purchase election advertising for publication in Square Country on behalf of a foreign person where the advertising would constitute a prohibited donation or expenditure.
+
+2. A person who knowingly contravenes subsection (1) commits an illegal practice.
+
+3. A digital platform may require a promoter to provide reasonable evidence of identity and residence before accepting political advertising.
+
+AMENDMENT: Section 146G: inserted, on 15 March 2026, by section 11 of the Political Finance Reform Amendment Act 2026 (2026 No 4).
+
+SECTION: 146H
+
+HEADING: Electoral advertising accounts
+
+1. A registered political party may establish one or more accounts for the payment of election advertising.
+
+2. A candidate must maintain records of any account used primarily for election advertising.
+
+3. The Commission may prescribe requirements relating to—
+
+(a) identification of accounts;
+
+(b) payment records;
+
+(c) electronic transactions; and
+
+(d) reporting.
+
+AMENDMENT: Section 146H: inserted, on 1 July 2022, by section 44 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 146I
+
+HEADING: Payments made through digital platforms
+
+1. A digital platform that receives payment for election advertising must provide the promoter with a receipt specifying—
+
+(a) the amount paid;
+
+(b) the date of payment;
+
+(c) the advertisement concerned; and
+
+(d) any applicable taxes or fees.
+
+2. The receipt must be retained by the promoter for the purposes of section 144A.
+
+AMENDMENT: Section 146I: inserted, on 1 January 2024, by section 21 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 146J
+
+HEADING: Commission directions relating to digital advertising
+
+1. Where the Commission has reasonable grounds to believe that a digital election advertisement contravenes this Part, it may issue a direction to the promoter requiring—
+
+(a) correction of the advertisement;
+
+(b) addition of a promoter statement;
+
+(c) removal of the advertisement; or
+
+(d) publication of a correction.
+
+2. A direction under this section must state—
+
+(a) the grounds for the direction;
+
+(b) the action required; and
+
+(c) the period within which the action must be taken.
+
+3. A person may appeal a direction to the High Court.
+
+AMENDMENT: Section 146J: inserted, on 12 April 2025, by section 25 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JA
+
+HEADING: Emergency removal of unlawful advertising
+
+1. If the Commission considers that an election advertisement presents an immediate and substantial risk of misleading electors about voting procedures, it may direct the person responsible for the advertisement to remove it immediately.
+
+2. A direction under subsection (1) must be confirmed by the High Court within 48 hours if the advertisement is to remain prohibited.
+
+3. If the Court does not confirm the direction within that period, the direction expires.
+
+AMENDMENT: Section 146JA: inserted, on 12 April 2025, by section 26 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JB
+
+HEADING: Election advertising repositories
+
+1. The Commission may establish an electronic repository containing election advertisements supplied under this Part.
+
+2. The repository may contain—
+
+(a) copies of advertisements;
+
+(b) promoter information;
+
+(c) expenditure information;
+
+(d) dates of publication; and
+
+(e) information concerning enforcement action.
+
+3. The Commission must take reasonable steps to protect personal information held in the repository.
+
+AMENDMENT: Section 146JB: inserted, on 12 April 2025, by section 27 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JC
+
+HEADING: Notice of digitally altered material
+
+1. A person who publishes election advertising containing digitally altered material must ensure that the advertisement contains a notice in the form prescribed by regulations.
+
+2. The notice must be reasonably visible or audible to an ordinary elector.
+
+3. The Commission may prescribe different requirements for—
+
+(a) audio;
+
+(b) video;
+
+(c) photographic material;
+
+(d) interactive media; and
+
+(e) emerging forms of digital communication.
+
+AMENDMENT: Section 146JC: inserted, on 12 April 2025, by section 28 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JD
+
+HEADING: Synthetic impersonation of candidates
+
+1. A person must not knowingly publish synthetic audio or video that purports to show a candidate making a statement that the candidate did not make, if the person intends the material to be understood as authentic.
+
+2. A person who contravenes subsection (1) commits an illegal practice.
+
+3. It is a defence if the person proves that—
+
+(a) the material was clearly identified as synthetic; or
+
+(b) the publication was for genuine news, research, educational, artistic, or satirical purposes.
+
+AMENDMENT: Section 146JD: inserted, on 12 April 2025, by section 29 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JE
+
+HEADING: Preservation of evidence
+
+1. A person who receives a notice under section 146J must preserve the relevant advertisement and associated records until—
+
+(a) the investigation is completed; or
+
+(b) the Commission confirms in writing that preservation is no longer required.
+
+2. A person must not knowingly destroy or alter material preserved under this section.
+
+3. A person who contravenes subsection (2) commits an offence.
+
+AMENDMENT: Section 146JE: inserted, on 12 April 2025, by section 30 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 146JF
+
+HEADING: Application of this Subpart to emerging technologies
+
+1. The requirements of this Subpart apply to a communication regardless of the technology by which the communication is created, transmitted, displayed, or accessed.
+
+2. Without limiting subsection (1), this Subpart applies to—
+
+(a) artificial intelligence systems;
+
+(b) virtual reality;
+
+(c) augmented reality;
+
+(d) automated messaging systems;
+
+(e) generative media;
+
+(f) digital avatars;
+
+(g) synthetic voices;
+
+(h) interactive websites; and
+
+(i) any substantially similar technology.
+
+3. The Governor-General may, by Order in Council, make regulations prescribing additional classes of communication for the purposes of this section.
+
+AMENDMENT: Section 146JF: inserted, on 12 April 2025, by section 31 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+SECTION: 147
+
+HEADING: Opinion polls
+
+1. A person who publishes an opinion poll relating to an election must, at the time of publication, disclose—
+
+(a) the sample size;
+
+(b) the date or dates on which the poll was conducted;
+
+(c) the margin of error, where applicable;
+
+(d) the organisation responsible for conducting the poll;
+
+(e) the person or organisation commissioning the poll;
+
+(f) the methodology used;
+
+(g) the method by which respondents were selected; and
+
+(h) whether the poll has been weighted.
+
+2. The requirements of subsection (1) apply to publication through—
+
+(a) newspapers;
+
+(b) television;
+
+(c) radio;
+
+(d) websites;
+
+(e) social media;
+
+(f) podcasts; and
+
+(g) other prescribed media.
+
+3. This section does not apply to—
+
+(a) private polling not published to the public;
+
+(b) internal party research; or
+
+(c) academic research where the results are not published for electoral campaigning purposes.
+
+AMENDMENT: Section 147: substituted, on 6 May 2021, by section 17 of the Electoral Research Amendment Act 2021 (2021 No 13).
+
+SECTION: 147A
+
+HEADING: Publication of election results and projections
+
+1. A person must not publish a projection of the result of an election before polling closes.
+
+2. Subsection (1) does not prohibit—
+
+(a) discussion of polling data;
+
+(b) academic analysis;
+
+(c) commentary concerning campaign strategy; or
+
+(d) publication of results from a poll conducted before polling day.
+
+3. The Commission may issue guidance concerning the distinction between an opinion poll and an election result projection.
+
+AMENDMENT: Section 147A: inserted, on 6 May 2021, by section 18 of the Electoral Research Amendment Act 2021 (2021 No 13).
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Polling-Day Restrictions and Prohibited Conduct
+
+SECTION: 148
+
+HEADING: Campaigning near polling places
+
+1. A person must not, on polling day, conduct election campaigning within 100 metres of a polling place.
+
+2. Without limiting subsection (1), a person must not within that area—
+
+(a) display election signs;
+
+(b) distribute campaign material;
+
+(c) wear clothing prominently displaying the name or logo of a candidate or political party for the purpose of soliciting votes;
+
+(d) solicit votes;
+
+(e) canvass electors; or
+
+(f) communicate material intended to influence an elector's vote.
+
+3. Subsection (1) does not prohibit—
+
+(a) an elector entering or leaving a polling place while wearing ordinary clothing;
+
+(b) an elector discussing politics privately;
+
+(c) accredited observers carrying out their functions; or
+
+(d) activity authorised by the Commission.
+
+4. A person who contravenes this section commits an offence.
+
+AMENDMENT: Section 148: substituted, on 10 October 2018, by section 34 of the Electoral Administration Amendment Act 2018 (2018 No 19).
+
+SECTION: 148A
+
+HEADING: Publication of election material on polling day
+
+1. A person must not publish a new election advertisement on polling day before 7 pm.
+
+2. An advertisement published before polling day may remain available on a website or social media service provided that—
+
+(a) it is not materially altered; and
+
+(b) no additional payment is made to promote it.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+AMENDMENT: Section 148A: inserted, on 1 January 2024, by section 34 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 148B
+
+HEADING: Electronic messages on polling day
+
+1. A person must not send a bulk electronic message containing election advertising to electors on polling day before 7 pm.
+
+2. This section applies to—
+
+(a) text messages;
+
+(b) email;
+
+(c) messaging applications; and
+
+(d) other electronic communication systems prescribed by regulations.
+
+3. A message sent in response to an individual request is not a bulk electronic message for the purposes of this section.
+
+AMENDMENT: Section 148B: inserted, on 1 January 2024, by section 35 of the Electoral (Digital Communications) Amendment Act 2023 (2023 No 36).
+
+SECTION: 149
+
+HEADING: False statements concerning candidates
+
+1. A person must not knowingly publish a statement that is false in a material particular concerning—
+
+(a) the personal character of a candidate;
+
+(b) the conduct of a candidate;
+
+(c) the professional qualifications of a candidate;
+
+(d) the eligibility of a candidate to stand for election; or
+
+(e) the withdrawal or death of a candidate.
+
+2. A statement is not false merely because it—
+
+(a) expresses an opinion;
+
+(b) contains political criticism;
+
+(c) is satire; or
+
+(d) is based on a genuinely held interpretation of publicly available information.
+
+3. A person who contravenes subsection (1) commits an illegal practice.
+
+4. The Commission may apply to the High Court for an order requiring a person to—
+
+(a) cease publication;
+
+(b) remove the statement;
+
+(c) publish a correction; or
+
+(d) publish a statement identifying the material as disputed.
+
+AMENDMENT: Section 149: substituted, on 9 November 2022, by section 28 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 149A
+
+HEADING: False information concerning voting procedures
+
+1. A person must not knowingly publish materially false information concerning—
+
+(a) the date of polling;
+
+(b) the location of polling places;
+
+(c) the eligibility of electors;
+
+(d) the method of voting;
+
+(e) the opening or closing time of polling places; or
+
+(f) the manner in which ballot papers must be completed.
+
+2. A person who contravenes subsection (1) commits a corrupt practice.
+
+3. The Commission may require the immediate correction or removal of material published in contravention of this section.
+
+AMENDMENT: Section 149A: inserted, on 9 November 2022, by section 29 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 150
+
+HEADING: Interference with campaign material
+
+1. A person must not intentionally—
+
+(a) remove;
+
+(b) destroy;
+
+(c) deface;
+
+(d) conceal; or
+
+(e) materially alter
+
+lawfully displayed election advertising belonging to another person.
+
+2. Subsection (1) does not apply where—
+
+(a) the person owns or lawfully occupies the property on which the material is displayed;
+
+(b) the material has been displayed without permission; or
+
+(c) the material has been displayed in contravention of this Act or another enactment.
+
+3. A person who contravenes subsection (1) commits an offence.
+
+4. This section does not limit any civil remedy available to the owner of election material.
+
+SUBPARTNUMBER: 6
+
+SUBPARTTITLE: Administration, Enforcement, and Offences
+
+SECTION: 151
+
+HEADING: Corrupt practices
+
+1. A person commits a corrupt practice if the person—
+
+(a) engages in bribery;
+
+(b) engages in treating;
+
+(c) exercises undue influence;
+
+(d) knowingly publishes false information concerning voting procedures;
+
+(e) knowingly falsifies a donation or expenditure return;
+
+(f) knowingly conceals the true source of a political donation;
+
+(g) knowingly provides false information to the Commission in relation to an investigation; or
+
+(h) commits any other conduct declared by this Act to be a corrupt practice.
+
+2. A political party may be liable for a corrupt practice committed by an officer or agent of the party if the party authorised, directed, or knowingly permitted the conduct.
+
+SECTION: 152
+
+HEADING: Illegal practices
+
+1. A person commits an illegal practice if the person—
+
+(a) exceeds an applicable election expenditure limit;
+
+(b) fails to provide a required return;
+
+(c) knowingly provides an incomplete or inaccurate return;
+
+(d) publishes election advertising without a promoter statement;
+
+(e) accepts a prohibited donation;
+
+(f) uses public resources for an electoral purpose in contravention of this Part;
+
+(g) publishes prohibited election advertising;
+
+(h) unlawfully interferes with campaign material;
+
+(i) breaches a direction issued by the Commission under this Part; or
+
+(j) commits any other conduct declared by this Act to be an illegal practice.
+
+2. A person does not commit an illegal practice merely because of an administrative error if the person—
+
+(a) took reasonable steps to comply with this Part; and
+
+(b) corrected the error as soon as practicable after becoming aware of it.
+
+SECTION: 152A
+
+HEADING: Liability of political parties
+
+1. A registered political party is liable for an offence committed by an officer, employee, agent, or candidate of the party where the offence—
+
+(a) was committed with the authority of the party;
+
+(b) was committed for the benefit of the party; or
+
+(c) resulted from a failure by the party to take reasonable steps to prevent the conduct.
+
+2. A party is not liable under subsection (1) if it proves that it—
+
+(a) had appropriate systems for compliance;
+
+(b) took reasonable steps to prevent the conduct; and
+
+(c) did not knowingly benefit from the conduct.
+
+AMENDMENT: Section 152A: inserted, on 4 February 2020, by section 51 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152B
+
+HEADING: Liability of campaign agents
+
+1. A campaign agent appointed by a candidate is responsible for ensuring that the candidate's election expenditure records are maintained in accordance with this Part.
+
+2. A campaign agent who knowingly fails to comply with subsection (1) commits an offence.
+
+3. A candidate is not liable for an offence committed solely by a campaign agent if the candidate proves that—
+
+(a) the candidate took reasonable steps to ensure compliance; and
+
+(b) the candidate had no knowledge of the conduct.
+
+AMENDMENT: Section 152B: inserted, on 1 July 2022, by section 53 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 152C
+
+HEADING: Compliance notices
+
+1. If the Commission has reasonable grounds to believe that a person is contravening this Part, it may issue a compliance notice.
+
+2. A compliance notice may require the person to—
+
+(a) cease specified conduct;
+
+(b) remove or correct an advertisement;
+
+(c) provide specified information;
+
+(d) preserve records; or
+
+(e) take another action reasonably necessary to achieve compliance.
+
+3. A compliance notice must specify—
+
+(a) the provision of this Act concerned;
+
+(b) the conduct alleged to constitute the contravention;
+
+(c) the action required; and
+
+(d) the date by which the action must be completed.
+
+4. A person may apply to the High Court for review of a compliance notice.
+
+AMENDMENT: Section 152C: inserted, on 9 November 2022, by section 35 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 152D
+
+HEADING: Investigation powers of Commission
+
+1. For the purpose of determining whether this Part has been complied with, the Commission may—
+
+(a) require a person to provide information;
+
+(b) require production of documents;
+
+(c) inspect records;
+
+(d) interview a person who may have relevant information; and
+
+(e) obtain information from a public authority.
+
+2. A requirement under this section must be reasonable and proportionate.
+
+3. A person must not knowingly provide false or misleading information to the Commission.
+
+4. This section does not authorise the Commission to require disclosure of legally privileged communications.
+
+AMENDMENT: Section 152D: inserted, on 4 February 2020, by section 54 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152E
+
+HEADING: Referral to Director of Public Prosecutions
+
+1. If the Commission has reasonable grounds to believe that a person has committed a serious offence under this Part, it may refer the matter to the Director of Public Prosecutions.
+
+2. A referral may include—
+
+(a) documents obtained by the Commission;
+
+(b) witness statements;
+
+(c) financial records; and
+
+(d) the Commission's findings.
+
+3. The Commission must not determine criminal liability.
+
+AMENDMENT: Section 152E: inserted, on 4 February 2020, by section 55 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 152F
+
+HEADING: Recovery of unlawful election expenditure
+
+1. Where a court determines that expenditure was incurred in contravention of this Part, the court may order the person responsible to pay an amount equal to the unlawful expenditure to the Crown.
+
+2. An order under subsection (1) is in addition to any fine or other penalty imposed.
+
+3. The court may reduce the amount payable if satisfied that—
+
+(a) the contravention was inadvertent;
+
+(b) the person took reasonable steps to comply; and
+
+(c) the expenditure did not materially affect the election.
+
+AMENDMENT: Section 152F: inserted, on 1 July 2022, by section 56 of the Electoral Finance Amendment Act 2022 (2022 No 18).
+
+SECTION: 153
+
+HEADING: Penalties
+
+1. A person convicted of a corrupt practice is liable to imprisonment for a term not exceeding 5 years or a fine not exceeding ₴100,000, or both.
+
+2. A person convicted of an illegal practice is liable to a fine not exceeding ₴50,000.
+
+3. A person convicted of an offence against this Part may be ordered to pay the reasonable costs incurred by the Commission in investigating the offence.
+
+4. A court may, in addition to any penalty imposed under this section, order that—
+
+(a) unlawfully obtained funds be forfeited;
+
+(b) an unlawful advertisement be removed;
+
+(c) a correction be published;
+
+(d) an unlawful donation be repaid or paid to the Commission; or
+
+(e) the person comply with a specified requirement of this Part.
+
+5. A person convicted of a corrupt practice may be disqualified from—
+
+(a) voting; or
+
+(b) being nominated as a candidate,
+
+for a period not exceeding 3 years if the court considers disqualification necessary to protect the integrity of the electoral system.
+
+AMENDMENT: Section 153: substituted, on 4 February 2020, by section 60 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+AMENDMENT: Section 153(5): inserted, on 12 September 2020, by section 41 of the Public Resources and Elections Amendment Act 2020 (2020 No 14).
+
+SECTION: 153A
+
+HEADING: Aggravating factors
+
+1. In determining a penalty for an offence under this Part, a court may have regard to whether—
+
+(a) the offence was committed deliberately;
+
+(b) the offender attempted to conceal the offence;
+
+(c) the offender obtained a financial benefit;
+
+(d) the offence involved a significant amount of money;
+
+(e) the offender was previously convicted of an electoral offence;
+
+(f) the offence was committed by a person holding public office; or
+
+(g) the conduct was likely to materially affect the outcome of an election.
+
+2. Nothing in this section limits the discretion of the court to impose any penalty authorised by this Act.
+
+AMENDMENT: Section 153A: inserted, on 4 February 2020, by section 61 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153B
+
+HEADING: Liability of directors and officers
+
+1. If an offence under this Part is committed by a body corporate, a director or officer of the body corporate is also liable if—
+
+(a) the director or officer authorised or permitted the offence; or
+
+(b) the director or officer knew, or ought reasonably to have known, that the offence was being committed and failed to take reasonable steps to prevent it.
+
+2. This section does not apply merely because a person is a director or officer.
+
+AMENDMENT: Section 153B: inserted, on 4 February 2020, by section 62 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153C
+
+HEADING: Proceedings for offences
+
+1. Proceedings for an offence against this Part may be commenced by the Commission or by the Director of Public Prosecutions.
+
+2. Proceedings for an offence under this Part must be commenced within 3 years after the date on which the Commission first became aware, or ought reasonably to have become aware, of the conduct constituting the offence.
+
+3. The limitation period in subsection (2) does not apply to an offence punishable by imprisonment for more than 2 years.
+
+AMENDMENT: Section 153C: inserted, on 4 February 2020, by section 63 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153D
+
+HEADING: Publication of enforcement action
+
+1. The Commission may publish details of enforcement action taken under this Part.
+
+2. The publication may include—
+
+(a) the name of the person concerned;
+
+(b) the nature of the contravention;
+
+(c) the amount of any unlawful expenditure or donation;
+
+(d) the action taken by the Commission; and
+
+(e) the outcome of any court proceedings.
+
+3. The Commission must not publish information where publication would—
+
+(a) prejudice an ongoing criminal investigation;
+
+(b) identify a protected witness; or
+
+(c) otherwise be prohibited by law.
+
+AMENDMENT: Section 153D: inserted, on 4 February 2020, by section 64 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153E
+
+HEADING: Annual report on political finance
+
+1. The Commission must include in its annual report information concerning compliance with this Part.
+
+2. The report must include—
+
+(a) the total amount of political donations disclosed;
+
+(b) the total amount of election expenditure disclosed;
+
+(c) the number of enforcement investigations commenced;
+
+(d) the number of offences referred for prosecution;
+
+(e) the number of compliance notices issued; and
+
+(f) any recommendations for legislative reform.
+
+AMENDMENT: Section 153E: inserted, on 4 February 2020, by section 65 of the Political Finance Amendment Act 2020 (2020 No 5).
+
+SECTION: 153F
+
+HEADING: Regulations
+
+1. The Governor-General may, by Order in Council, make regulations for the purposes of this Part.
+
+2. Regulations may prescribe—
+
+(a) election expenditure limits;
+
+(b) donation disclosure thresholds;
+
+(c) forms of promoter statements;
+
+(d) requirements for digital advertising;
+
+(e) requirements concerning political finance returns;
+
+(f) requirements concerning financial records;
+
+(g) standards for auditors;
+
+(h) requirements for electronic records;
+
+(i) requirements concerning election signs;
+
+(j) additional classes of election advertisements;
+
+(k) procedures for investigations; and
+
+(l) any other matter necessary for giving effect to this Part.
+
+3. Regulations made under this section are secondary legislation for the purposes of the Legislation Act 2019.
+
+AMENDMENT: Section 153F: substituted, on 1 January 2020, by section 72 of the Legislation Modernisation Amendment Act 2019 (2019 No 31).
+
+SECTION: 153G
+
+HEADING: Commission guidance
+
+1. The Commission may publish guidance concerning compliance with this Part.
+
+2. Guidance may include examples of—
+
+(a) election advertisements;
+
+(b) political donations;
+
+(c) election expenditure;
+
+(d) prohibited conduct;
+
+(e) promoter statements; and
+
+(f) digital political communications.
+
+3. Guidance published under this section does not create an offence or impose a legal obligation unless the obligation is imposed by this Act or regulations.
+
+AMENDMENT: Section 153G: inserted, on 9 November 2022, by section 41 of the Electoral Communications Amendment Act 2022 (2022 No 27).
+
+SECTION: 153H
+
+HEADING: Review of Part
+
+1. The Commission must, following every second general election, conduct a review of the operation of this Part.
+
+2. The review must consider—
+
+(a) whether expenditure limits remain appropriate;
+
+(b) whether donation thresholds remain appropriate;
+
+(c) the effectiveness of disclosure requirements;
+
+(d) developments in digital advertising;
+
+(e) the use of artificial intelligence in election campaigning;
+
+(f) the effectiveness of enforcement mechanisms; and
+
+(g) any other matter the Commission considers relevant.
+
+3. The Commission must provide a report of the review to the Minister.
+
+4. The Minister must present the report to Parliament within 20 sitting days after receiving it.
+
+AMENDMENT: Section 153H: inserted, on 12 April 2025, by section 42 of the Electoral (Artificial Media) Amendment Act 2025 (2025 No 9).
+
+PARTNUMBER: 10
+
+PARTTITLE: Voting, Polling Places, and Ballot Papers
+
+SECTION: 154
+
+HEADING: Right to vote
+
+[Repealed]
+
+AMENDMENT: Section 154 repealed, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 154A
+
+HEADING: Right to vote
+
+1. Every citizen is entitled to vote in the district of which their name belongs on the electoral roll.
+2. An elector may cast, except where Section 154B applies,—
+(a) one electorate vote; and
+(b) one party vote.
+3. No person may vote more than once.
+4. A person who votes more than once commits a corrupt practice.
+5. No person may vote on behalf of another person except as specified in [[section:167(5)]].
+6. A person who votes on behalf of another person commits a corrupt practice.
+
+AMENDMENT: Section 154A inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
+
+SECTION: 154B
+
+HEADING: Right of Westland (Tierras del oeste) citizens to vote
+
+1. Should the Westland (Tierras del oeste) Council decide to take part in a general election, Westland citizens may only cast a party vote.
+2. The same rules in [[section:154A]], from subsection (3) onwards, apply.
+
+AMENDMENT: Section 154B inserted, on 1 August 1996, by section 8 of the Electoral Amendment Act 1996 (1996 No 143).
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Polling Places
+
+SECTION: 155
+
+HEADING: Establishment of polling places
+
+1. The Commission must establish polling places in each electoral district.
+2. Polling places must be—
+(a) reasonably accessible;
+(b) safe and secure;
+(c) suitable for maintaining secrecy of the ballot.
+3. The Commission must publish a list of polling places at least 20 days before polling day.
+
+SECTION: 156
+
+HEADING: Hours of polling
+
+1. Polling places must be open from 9:00 a.m. to 7:00 p.m. on polling day and during advance voting.
+2. A polling place must not close while electors are waiting to vote.
+3. A person who is in line at 7:00 p.m. must be permitted to vote.
+
+SECTION: 157
+
+HEADING: Returning officers responsible for polling places
+
+1. A returning officer is responsible for the conduct of polling in their district.
+2. A returning officer may appoint deputy returning officers and polling officials.
+3. Polling officials must act impartially.
+
+SECTION: 158
+
+HEADING: Mobile polling station
+
+1. The Commission may establish mobile polling stations for—
+(a) hospitals;
+(b) rest homes;
+(c) remote communities;
+(d) correctional facilities.
+2. Mobile polling stations must comply with all requirements of this Act.
+
+SECTION: 156
+
+HEADING: Advance voting places
+
+1. The Commission must establish advance voting places.
+2. Advance voting may begin on the date specified in the election timetable.
+3. Advance voting places must comply with all requirements for voting places.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Ballot Papers
+
+SECTION: 160
+
+HEADING: Form of ballot papers
+
+1. The Commission must prepare ballot papers for each district.
+2. A ballot paper must contain—
+(a) the names of all electorate candidates;
+(b) the names and emblems of all registered parties;
+(c) instructions for voting;
+(d) a unique serial number.
+3. The order of electorate candidates must be alphabetical by surname.
+4. The order of political parties must be alphabetical by party name.
+
+SECTION: 161
+
+HEADING: Security of ballot papers
+
+1. Ballot papers must be printed on secure paper.
+2. Ballot papers must be stored securely before polling day.
+3. A person must not—
+(a) print unauthorised ballot papers.
+(b)possess unauthorised ballot papers;
+(c) destroy or alter ballot papers.
+4. A person who contravenes this section commits a corrupt practice.
+
+SECTION: 162
+
+HEADING: Issue of ballot papers
+
+1. A polling official must issue a ballot paper to each elector who—
+(a) states their name;
+(b) is found on the roll;
+(c) has not already voted
+2. The polling official must mark the roll to indicate that the elector has voted.
+3. A ballot paper must not be issued to a person whose name is not on the roll unless they cast a special vote.
+
+SECTION: 163
+
+HEADING: Spoiled ballot papers
+1. An elector who spoils a ballot may return it to a polling official.
+2. The polling official must—
+(a) mark the spoiled ballot paper “SPOILED”;
+(b) place it in the spoiled ballot envelope;
+(c) issue a new ballot paper.
+3. Spoiled ballot papers must not be counted.
+
+SECTION: 164
+
+HEADING: Lost ballot papers
+
+1. A person who claims to have lost a ballot paper may be issued a new one only if—
+(a) the original ballot paper has not been placed in the ballot box; and
+(b) the returning officer approves the issue.
+2. The original ballot paper is invalid.
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Casting of Votes
+
+SECTION: 165
+
+HEADING: Voting procedure
+
+1. An elector must—
+(a) receive a ballot paper
+(b) proceed to the voting booth;
+(c) mark the ballot paper in secret;
+(d) fold the ballot paper;
+(e) place the ballot paper in the ballot box.
+2. A polling official must not observe how an elector votes.
+
+SECTION: 166
+
+HEADING: Secrecy of voting
+
+1. Every elector has the right to vote in secret.
+2. A person must not—
+(a) attempt to discover how another person voted;
+(b) photograph a ballot paper;
+(c) require an elector to reveal their vote.
+3. A person who contravenes this section commits an offense.
+
+SECTION: 167
+
+HEADING: Assistance to voters
+
+1. An elector who is unable to vote without assistance may request help.
+2. Assistance may be provided by—
+(a) a polling official; or
+(b) a person chosen by the elector.
+3. A person assisting must—
+(a) mark the ballot paper as directed;
+(b) maintain secrecy;
+(c) not influence the elector.
+4. A person who influences an assisted voter commits a corrupt practice.
+5. A person who assists a voter is not committing a corrupt practice under [[section:154A(5)]].
+
+SECTION: 168
+
+HEADING: Tendered votes
+
+1. A tendered vote may be cast if—
+(a) the elector claims to be entitled to vote;
+(b) the elector’s name is marked as having already voted;
+(c) the elector insists they have not voted.
+2. A tendered vote must be placed in a sealed envelope.
+3. Tendered votes must be examined during the official count.
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Special Votes
+
+SECTION: 169
+
+HEADING: Who may cast a special vote
+
+A person may cast a special vote if—
+(a) The person is not on the printed roll but claims entitlement;
+(b) The person is voting outside their district;
+(c) The person is overseas;
+(d) The person is in hospital, prison, or a remote location;
+(e) The person’s name has been incorrectly removed from the roll.
+
+SECTION: 170
+
+HEADING: Special vote declaration
+
+1. A special voter must complete a special vote declaration.
+2. The declaration must include—
+(a) the voter’s name;
+(b) the voter’s address;
+(c) the reason for casting a special vote;
+(d) a signature.
+3. A special vote without a declaration is invalid.
+
+SECTION: 171
+
+HEADING: Special vote envelopes
+
+1. A special vote must be placed in a sealed envelope.
+2. The envelope must be marked with—
+(a) the voter’s name;
+(b) the voter’s district;
+(c) the polling place.
+3. Special vote envelopes must be delivered to the returning officer.
+
+SECTION: 172
+
+HEADING: Verification of special votes
+
+1. The returning officer must verify each special vote by—
+(a) checking the roll;
+(b) confirming the voter has not already voted;
+(c) confirming the declaration is complete.
+2. A special vote that fails verification is rejected.
+
+SECTION: 173
+
+HEADING: Ballot boxes
+
+1. Ballot boxes must be—
+(a) secure;
+(b) sealed before polling begins
+(c) opened only during the count.
+2. A polling official must record the seal number.
+
+SECTION: 174
+
+HEADING: Custody of ballot boxes
+
+1. Ballot boxes must remain under the control of polling officials at all times.
+2. A person must not tamper with a ballot box.
+3. A person who contravenes this section commits a corrupt practice.
+
+SECTION: 175
+
+HEADING: Closing of polling places
+
+1. At 7:00 p.m., the polling place must close.
+2. Polling officials must—
+(a) seal the ballot box;
+(b) complete the polling place return;
+(c) deliver materials to the returning officer.
+
+PARTNUMBER: 11
+
+PARTTITLE: Counting of Votes and Declaration of Results
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Preliminary Count
+
+SECTION: 176
+
+HEADING: Preliminary count to begin immediately after close of polling
+
+1. As soon as practicable after 7:00 p.m. on polling day, polling officials must begin the preliminary count.
+2. The preliminary count must be conducted at each polling place.
+3. The preliminary count must include—
+(a) all ordinary electorate votes;
+(b) all ordinary party votes;
+(c) all advance ordinary votes.
+4. Special votes must not be counted during the preliminary count.
+
+SECTION: 177
+
+HEADING: Procedure for preliminary count
+
+1. Polling officials must—
+(a) open the ballot box;
+(b) unfold each ballot paper;
+(c) examine each ballot paper;
+(d) sort ballot papers into electorate and party vote piles;
+(e) count the votes for each candidate and party
+2. Ballot papers must be rejected if—
+(a) they are not authentic;
+(b) they contain identifying marks;
+(c) they are blank;
+(d) they are marked in a way that does not clearly indicate the voter’s intention.
+
+SECTION: 178
+
+HEADING: Recording of preliminary results
+
+1. The polling place manager must record—
+(a) the number of votes for each electorate candidate;
+(b) the number of votes for each political party;
+(c) the number of rejected ballot papers;
+(d) the number of ballot papers issued.
+2. The polling place manager must sign the preliminary results.
+
+SECTION: 179
+
+HEADING: Transmission of preliminary results
+
+1. Preliminary results must be transmitted to the returning officer as soon as practicable.
+2. Transmission may be by—
+(a) secure electronic means;
+(b) telephone;
+(c) any other method approved by the Commission.
+3. The returning officer must forward preliminary results to the Commission
+
+SECTION: 180
+
+HEADING: Publication of preliminary results
+
+1. The Commission must publish preliminary results progressively on polling night.
+2. Preliminary results are not final and must be labelled as such.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Official Count
+
+SECTION: 181
+
+HEADING: Official count to begin on the first business day after polling
+
+1. The returning officer must begin the official count no later than the first business day after polling day.
+2. The official count must include—
+(a) all ordinary votes;
+(b) all special votes;
+(c) all tendered votes;
+(d) all advance votes;
+(e) all votes not counted in the preliminary count.
+
+SECTION: 182
+
+HEADING: Reconciliation of ballot papers
+
+1. Before counting begins, the returning officer must reconcile—
+(a) the number of ballot papers issued;
+(b) the number of ballot papers returned;
+(c) the number of unused ballot papers;
+(d) the number of spoiled ballot papers;
+(e) the number of ballot papers in the ballot box.
+2. Any discrepancy must be investigated and recorded.
+
+SECTION: 183
+
+HEADING: Scrutiny of ballot papers
+
+1. The returning officer must examine each ballot paper to determine its validity.
+2. A ballot paper must be rejected if—
+(a) it is not authentic;
+(b) it contains identifying marks;
+(c) it is blank;
+(d) it is marked in a way that does not clearly indicate the voter's intention.
+3. A ballot paper must not be rejected merely because—
+(a) it is incorrectly folded;
+(b) it contains extraneous marks that do not identify the voter.
+
+SECTION: 184
+
+HEADING: Counting of ordinary votes
+
+1. Ordinary votes must be counted first.
+2. The returning officer must record—
+(a) the number of valid electorate votes for each candidate;
+(b) the number of valid party votes for each party;
+(c) the number of rejected ordinary votes.
+
+SECTION: 185
+
+HEADING: Verification and counting of special votes
+
+1. Special vote declarations must be examined before the votes are counted.
+2. A special vote must be rejected if—
+(a) the declaration is incomplete;
+(b) the voter is not eligible;
+(c) the voter has already voted;
+(d) the voter is not enrolled.
+3. Verified special votes must be counted in the same manner as ordinary votes.
+
+SECTION: 186
+
+HEADING: Tendered votes
+
+1. Tendered votes must be examined separately.
+2. A tendered vote must be counted only if—
+(a) the vote is found to be eligible;
+(b) the voter has not voted elsewhere.
+3. Tendered votes must be recorded separately.
+
+SECTION: 187
+
+HEADING: Rejected votes
+
+1. The returning officer must keep a record of all rejected votes.
+2. Rejected votes must be placed in a sealed envelope marked “REJECTED”.
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Declaration of Electorate Results
+
+SECTION: 188
+
+HEADING: Determination of electorate winner
+
+1. The candidate with the highest number of valid electorate votes is elected.
+2. If two or more candidates receive the same number of votes, the returning officer must determine the winner by lot.
+3. The drawing of lots must be conducted publicly.
+
+SECTION: 189
+
+HEADING: Declaration of electorate results
+
+1. The returning officer must declare the elected candidate as soon as the official count is complete.
+2. The declaration must be published in the Gazette.
+3. The returning officer must notify the Commission.
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Recount
+
+SECTION: 190
+
+HEADING: Right to request recount
+
+1. A candidate may request a recount within 48 hours after the declaration of results.
+2. A request must—
+(a) be in writing;
+(b) state the grounds for the recount;
+(c) be accompanied by the prescribed fee.
+3. The fee is refundable if the recount changes the result.
+
+SECTION: 191
+
+HEADING: Conduct of recount
+
+1. The returning officer must conduct the recount as soon as practicable
+2. The recount must include—
+(a) all ordinary votes;
+(b) all special votes;
+(c) all tendered votes;
+(d) all rejected votes.
+3. The returning officer may revise decisions made during the official recount.
+
+SECTION: 192
+
+HEADING: Judicial recount
+
+1. A candidate may apply to the High Court for a judicial recount.
+2. The Court may—
+(a) order a recount;
+(b) supervise the recount;
+(c) make any necessary orders.
+3. The Court’s decision is final.
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Certification and Publication 
+
+SECTION: 193
+
+HEADING: Certification of official results
+
+1. When the official count is complete, the returning officer must certify—
+(a) the number of votes for each electorate candidate;
+(b) the number of votes for each political party;
+(c) the number of rejected votes;
+(d) the total number of valid votes.
+2. The certification must be sent to the Commission.
+
+SECTION: 194
+
+HEADING: Publication of official results
+
+1. The Commission must publish the official results within 5 days after receiving all certifications.
+2. Publication must include—
+(a) electorate results;
+(b) party vote totals;
+(c) turnout statistics;
+(d) the number of special votes;
+(e) the number of rejected votes;
+(f) ballot validity;
+(g); results timing.
+
+SECTION: 195
+
+HEADING: Transmission of results for seat allocation
+
+1. The Commission must transmit the party vote totals to the Chief Electoral Commissioner.
+2. The Chief Electoral Commissioner must allocate list seats in accordance with [[Part:12]].
+
+PARTNUMBER: 12
+
+PARTTITLE: Allocation of Seats (Mixed-Member Proportional System)
+
+SECTION: 196
+
+HEADING: Purpose
+
+The purpose of this Part is—
+(a) To provide for the allocation of seats in Parliament in proportion to the party vote;
+(b) To ensure that each political party’s total number of seats reflect its share of the party vote.
+(c) To provide for the use of the Sainte-Laguë method;
+(d) To provide for the allocation of list seats;
+(e) To provide for overhang seats;
+(f) To ensure that electorate seats are deducted from each party’s entitlement.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: General Principles
+
+SECTION: 197
+
+HEADING: Total number of seats
+
+1. Parliament consists of—
+(a) 13 electorate seats; and
+(b) 13 list seats;
+for a total of 26 seats.
+2. Parliament may temporarily exceed 26 seats if overhang seats arise under this Part.
+
+SECTION: 198
+
+HEADING: Party vote determines proportional entitlement
+
+1. The total number of seats to which a political party is entitled is determined solely by the party vote.
+2. Electorate seats won by a party are deducted from that entitlement.
+3. List seats are allocated to bring each party up to its entitlement.
+
+SECTION: 199
+
+HEADING:Threshold for eligibility
+
+1. A political party is eligible for list seats only if—
+(a) it receives at least **4%** of the total party vote; or
+(b) it wins at least **one electoral seat**.
+2. A party that does not meet either threshold is not entitled to any list seats.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Calculation of Party Entitlements
+
+SECTION: 200
+
+HEADING: Sainte-Laguë method to be used
+
+1. The Sainte-Laguë must be used to allocate seats to political parties.
+2. The method is set out in Schedule 1
+3. The divisors to be used are—
+(a) 1;
+(b) 3;
+(c) 5;
+(d) 7;
+(e) 9;
+and so one for as many seats as required.
+
+SECTION: 201
+
+HEADING: Party vote totals
+
+1. The Commission must determine the total number of valid party votes cast for each political party.
+2. Invalid or rejected party votes must not be included.
+3. The total number of valid party votes must be used for  the calculation of entitlements.
+
+SECTION: 202
+
+HEADING: Allocation of seats to parties
+
+1. The Chief Electoral Commissioner must—
+(a) apply the Sainte-Laguë method to the party vote totals;
+(b) allocate 26 seats among the eligible parties.
+2. The number of seats allocated to each party under subsection (1) is that party’s proportional entitlement.
+
+SECTION: 203
+
+HEADING: Deduction of electorate seats
+
+1. The number of electorate seats won by a party must be deducted from its proportional entitlement.
+2. If the number of electorate seats won by a party is—
+(a) less than its entitlement, the difference is filled by list seats;
+(b) equal to its entitlement, the party receives no list seats;
+(c) greater than its entitlement, the party has overhang seats.
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: List Seat Allocation
+
+SECTION: 204
+
+HEADING: Allocation of list seats
+
+1. List seats must be allocated to eligible parties in the order of candidates on their party lists.
+2. A candidate is not eligible to be allocated a list seat if—
+(a) the candidate has died;
+(b) the candidate has withdrawn;
+(c) the candidate is ineligible to be a Member of Parliament.
+3. If a party has fewer list candidates than the number of list seats it is entitled to, the remaining seats remain vacant. 
+
+SECTION: 205
+
+HEADING: Declaration of list MPs
+
+1. When list seats have been allocated, the Chief Electoral Commissioner must declare elected the candidates who fill those seats.
+2. The declaration must be published in the Gazette.
+3. A list MP takes office on the date of publication.
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Overhang Seats
+
+SECTION: 206
+
+HEADING: Overhang seats
+
+1. A party has overhang seats if the number of electorate seats it wins exceeds its proportional entitlement.
+2. Overhang seats are retained by the party.
+3. Parliament is increased by the number of overhang seats.
+4. Other parties do not receive additional seats to compensate for overhang.
+
+SECTION: 207
+
+HEADING: Effect of overhang on Parliament
+
+1. If overhang seats arise, the total number of seats in Parliament is—
+(a) 26; plus
+(b) the number of overhang seats.
+2. Overhang seats remain in Parliament until the next general election.
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Vacancies and Replacements
+
+SECTION: 208
+
+HEADING: Vacancy in list seats
+
+1. A list seat becomes vacant if—
+(a) the list MP dies;
+(b) the list MP resigns;
+(c) the list MP becomes disqualified;
+(d) the list MP’s election is declared void.
+2. A vacancy in a list seat must be filled under [[section:209]].
+
+SECTION: 209
+
+HEADING: Replacement of list MPs
+
+1. The Commission must declare elected the next available candidate on the party’s list.
+2. A candidate is not available if—
+(a) the candidate has died;
+(b) the candidate has withdrawn;
+(c) the candidate is ineligible.
+3. If no candidates remain on the list, the seat remains vacant.
+
+SECTION: 210
+
+HEADING: Vacancy in electorate seats
+1. A vacancy in an electorate seat must be filled by a by-election under [[Part:7]].
+2. A party list may not be used to fill an electorate vacancy.
+
+SUBPARTNUMBER: 6
+
+SUBPARTTITLE: Publication and Certification
+
+SECTION: 211
+
+HEADING: Publication of seat allocation
+
+1. The Commission must publish—
+(a) the total number of seats allocated to each party;
+(b) the number of electorate seats won by each party;
+(c) the number of list seats allocated to each party;
+(d) the number of overhang seats (if any).
+2. Publication must occur within 3 days after allocation.
+
+SECTION: 212
+
+HEADING: Certification of final composition of Parliament
+
+1. The Chief Electoral Commissioner must certify the final composition of Parliament.
+2. Certification must include—
+(a) the names of all electorate MPs;
+(b) the names of all list MPs;
+(c) the total number of seats held by each party;
+(d) the total number of seats in Parliament.
+3. Certification must be transmitted to the Governor-General.
+
+PARTNUMBER: 13
+
+PARTTITLE: Members of Parliament
+
+SECTION: 213
+
+HEADING: Composition of Parliament
+
+1. Parliament consists of—
+(a) 13 electorate Members of Parliament; and
+(b) 13 list Members of Parliament;
+subject to any overhang seats under [[Part:12]].
+2. All Members of Parliament have equal powers, rights, and privileges.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Qualifications and Disqualifications
+
+SECTION: 214
+
+HEADING: Qualifications for membership
+
+A person is qualified to be a Member of Parliament if the person—
+(a) is a citizen of Square Country;
+(b) is enrolled as an elector;
+(c) is at least 18 years of age;
+(d) is not disqualified under this Act or any other enactment.
+
+SECTION: 215
+
+HEADING: Disqualifications
+
+A person is disqualified from being a Member of Parliament if the person—
+(a) is a judge;
+(b) is a member of the armed forces or police;
+(c) is an undischarged bankrupt;
+(d) has been convicted of an offence punishable by imprisonment for 2 years or more, unless pardoned;
+(e) has a mental impairment as determined by a court;
+(f) hold an office of profit under the Crown, unless resigned before taking office;
+(g) is a member of a foreign legislature.
+
+SECTION: 216
+
+HEADING: Disqualification after election
+
+1. If a Member of Parliament becomes disqualified after being elected, the seat becomes vacant.
+2. The Speaker must notify the Governor-General and the Commission.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Oath of Office
+
+SECTION: 217
+
+HEADING: Oath or affirmation required
+
+1. A person elected as a Member of Parliament must, before taking their seat, take the oath of affirmation set out in schedule 2.
+2. The oath must be taken before the Governor-General of a person authorised by the Governor-General.
+3. A person who fails to take the oath within 30 days of being declared elected may not sit or vote until the oath is taken.
+
+SECTION: 218
+
+HEADING: Effect of failure to take oath
+
+1. A person who fails to take the oath within 90 days of being declared elected ceases to be a Member of Parliament.
+2. The seat becomes vacant.
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Conduct and Discipline
+
+SECTION: 219
+
+HEADING: Privileges of Members
+
+1. Members of Parliament have the privileges and immunities set out in the Parliamentary Privileges Act.
+2. Nothing in this Act limits parliamentary privilege.
+
+SECTION: 220
+
+HEADING: Misconduct by Members
+
+1. A Member commits misconduct if the Member—
+(a) engages in disorderly behaviour;
+(b)wilfully disrupts parliamentary proceedings;
+(c) brings Parliament into disrepute;
+(d) breaches the code of conduct.
+2. Misconduct may result in suspension or expulsion.
+
+SECTION: 221
+
+HEADING: Expulsion of Members
+
+1. Parliament may expel a Member only if—
+(a) the Member has committed serious misconduct; and
+(b) the motion to expel is supported by at least 75% of all Members.
+2. A Member who is expelled ceases to be a Member immediately.
+3. The seat becomes vacant.
+
+SECTION: 222
+
+HEADING: Suspension of Members
+
+1. Parliament may suspend a Member for misconduct.
+2. A suspension may not exceed 30 sitting days.
+3. A suspended Member may not sit, vote, or receive salary during the suspension.
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Remuneration and Entitlements
+
+SECTION: 223
+
+HEADING: Remuneration of Members
+
+1. Members are entitled to salary and allowances determined by the Remuneration Authority.
+2. Remuneration must not be altered during a Member’s term except as part of a general adjustment.
+
+SECTION: 224
+
+HEADING: Travel and accommodation
+
+1. Members are entitled to travel and accommodation allowances for parliamentary duties.
+2. The Commission may issue guidelines for the administration of allowances.
+
+SECTION: 225
+
+HEADING: Superannuation
+
+Members are entitled to participate in the parliamentary superannuation scheme established by law. 
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Miscellaneous
+
+SECTION: 226
+
+HEADING: Attendance of Members
+
+1. A Member must attend sittings of Parliament unless excused.
+2. A Member who is absent without leave for 30 consecutive sitting days ceases to be a Member.
+3. The seat becomes vacant.
+
+SECTION: 227
+
+HEADING: Prohibition on dual membership
+
+A Member may not simultaneously serve
+(a) in a foreign legislature;
+(b) as a judge;
+(c) as a member of the armed forces or police.
+
+SECTION: 228
+
+HEADING: Effect of dissolution
+
+1. All Members cease to hold office upon dissolution of Parliament.
+2. Members remain entitled to salary allowances until the return of the writs.
+
+PARTNUMBER: 14
+
+PARTTITLE: Electoral Offences
+
+SECTION: 229
+
+HEADING: Purpose
+
+The purposes of this Part are—
+(a) to define corrupt and illegal practices;
+(b) to provide penalties for electoral offences;
+(c) to ensure the integrity of elections;
+(d) to provide for enforcement and prosecution
+(e) to protect electors, candidates, and officials from coercion, fraud, and intimidation.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Corrupt Practices
+
+SECTION: 230
+
+HEADING: Bribery
+
+1. A person commits bribery if the person—
+(a) gives, offers, or promises any gift, loan, reward, or advantage, to influence and elector;
+(b) requests or receives any such benefit in exchange for voting or not voting;
+(c) induces a person to stand or withdraw as a candidate.
+2. Bribery is a corrupt practice.
+
+SECTION: 231
+
+HEADING: Treating
+
+1. A person commits treating if the person provides food, drink, entertainment, or hospitality for the purpose of influencing an elector.
+2. Treating is a corrupt practice.
+
+SECTION: 232
+
+HEADING: Undue influence
+
+1. A person commits undue influence if the person—
+(a) uses or threatens force, violence, or restraint;
+(b) inflicts or threatens harm;
+(c) intimidates or coerces an elector;
+(d) prevents an elector from voting.
+2. Undue influence is a corrupt practice.
+
+SECTION: 233
+
+HEADING: Personation
+
+1. A person commits personation if the person—
+(a) votes in the name of another person;
+(b) votes more than once;
+(c) impersonated a deceased or fictitious person;
+(d) induces another person to commit personation.
+2. Personation is a corrupt practice.
+
+SECTION: 234
+
+HEADING: False statements about candidates
+
+1. A person commits a corrupt practice if the person knowingly published a false statement alleging—
+(a) that a candidate has committed a crime;
+(b) that a candidate is disqualified;
+(c) that a candidate is guilty of misconduct.
+2. A person does not commit an offence if the statement was made in good faith and on reasonable grounds.
+
+SECTION: 235
+
+HEADING: Corrupt practices by officials
+
+1. A polling official, returning officer, or Commission employee commits a corrupt practice if the person—
+(a) falsifies a ballot paper or return;
+(b) destroys or alters a ballot paper;
+(c) permits unauthorised access to ballot papers;
+(d) knowingly counts invalid votes or rejects valid votes.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Illegal Practices
+
+SECTION: 236
+
+HEADING: Illegal practices defined
+
+A person commits an illegal practice if the person—
+(a) Exceeds spending limits;
+(b) Fails to disclose donations;
+(c) Publishes election advertising without a promoter statement;
+(d) Campaigns within 100 metres of a polling place;
+(e) Misuses public resources;
+(f) Knowingly provides false information for enrolment;
+(g) Interferes with campaign material;
+(h) Fails to file required returns.
+
+SECTION: 237
+
+HEADING: False statements in nomination papers
+
+A person commits an illegal practice if the person knowingly makes a false statement in a nomination paper.
+
+SECTION: 238
+
+HEADING: Breach of secrecy
+
+A person commits an illegal practice if the person—
+(a) attempts to discover how another person voted;
+(b) discloses information obtained in violation of ballot secrecy;
+(c) photographs or records a marked ballot paper.
+
+SECTION: 239
+
+HEADING: Interference with polling
+
+A person commits an illegal practice if the person—
+(a) obstructs electors;
+(b) disrupts polling;
+(c) interferes with ballot boxes;
+(d) refuses to leave a polling place when directed.
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Minor Offences
+
+SECTION: 240
+
+HEADING: Minor offences
+
+A person commits a minor offence if the person—
+(a) removes or defaces election signs;
+(b) fails to notify a change of address
+(c) fails to comply with a lawful direction of a polling official;
+(d) enters a polling booth without permission.
+
+SECTION: 241
+
+HEADING: Attempted offences
+
+A person who attempts to commit any offence under this Act is guilty of an offence of the same type. 
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Penalties
+
+SECTION: 242
+
+HEADING: Penalties for corrupt practices
+
+1. A person convicted of a corrupt practice is liable to—
+(a) imprisonment for up to 5 years; or
+(b) a fine not exceeding **₴100,000**; or
+(c) both.
+2. A person convicted of a corrupt practice is disqualified from—
+(a) voting for 3 years;
+
+SECTION: 243
+
+HEADING: Penalties for illegal practices
+
+1. A person convicted of an illegal practice is liable to—
+(a) a fine not exceeding **₴50,000**;
+(b) disqualification from voting for up to 1 year.
+2. A candidate convicted of an illegal practice may have their election declared void.
+
+SECTION: 244
+
+HEADING: Penalties for minor offences
+
+A person convicted of a minor offence is liable to a fine not exceeding **₴5,000**.
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Liability of Candidates and Parties
+
+SECTION: 245
+
+HEADING: Liability of candidates
+
+1. A candidate is liable for offences committed by their agents if—
+(a) the candidate authorised the conduct; or
+(b) the candidate failed to take reasonable steps to prevent the offence.
+2. A candidate is not liable if the offence was committed without their knowledge despite reasonable precautions.
+
+SECTION: 246
+
+HEADING: Liability of party secretaries
+
+1. A party secretary is liable for—
+(a) false donation returns;
+(b) false party list declarations;
+(c) failure to file required documents.
+2. A party secretary may be prosecuted personally.
+
+SECTION: 247
+
+HEADING: Liability of promoters
+
+A promoter is liable for any offence arising from election advertising they publish or cause to be published. 
+
+SUBPARTNUMBER: 6
+
+SUBPARTTITLE: Prosecution and Enforcement
+
+SECTION: 248
+
+HEADING: Time limits for prosecutions
+
+1. A prosecution for a corrupt practice must be commenced within 3 years.
+2. A prosecution for an illegal practice must be commenced within 1 year.
+3. A prosecution for a minor offence must be commenced within 6 months.
+
+SECTION: 249
+
+HEADING: Who may prosecute
+
+1. The Commission may prosecute any offence under this Act.
+2. The police may prosecute any offence under this Act.
+3. A private prosecution may be brought with leave of the High Court.
+
+SECTION: 250
+
+HEADING: Powers of investigation
+
+1. The commission may—
+(a) require documents;
+(b) require information;
+(c) summon witnesses;
+(d) inspect financial records;
+(e) enter premises with consent or warrant.
+2. A person who obstructs an investigation commits an offence.
+
+SECTION: 251
+
+HEADING: Evidence
+
+1. Certified copies of electoral documents are admissible as evidence.
+2. A certificate signed by the Chief Electoral Commissioner is prime facie evidence of its contents.
+
+SECTION: 252
+
+HEADING: Protection of whistleblowers
+
+A person who reports an electoral offence in good faith is protected from civil and criminal liability.
+
+PARTNUMBER: 15
+
+PARTTITLE: Referendums
+
+SECTION: 253
+
+HEADING: Purpose
+
+The purposes of this Part are—
+(a) to provide for the conduct of referendums in Square Country;
+(b) to ensure that referendums are administered fairly and impartially;
+(c) to regulate campaigning and advertising relating to referendum questions;
+(d) to provide for the counting and certification of referendum results;
+(e) to distinguish between binding and indicative referendums.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: General Provisions
+
+SECTION: 254
+
+HEADING: Types of referendums
+
+1. A referendum may be—
+(a) binding, if expressly declared binding by an Act of Parliament; or
+(b) indicative, if held for the purpose of gauging public opinion.
+2. A binding referendum has legal effect as specified in the enabling Act.
+3. An indicative referendum does not have legal effect but must be reported to Parliament.
+
+SECTION: 255
+
+HEADING: Referendum questions
+
+1. A referendum question must be—
+(a) clear;
+(b) neutral;
+(c) capable of being answered “Yes” or “No”, unless otherwise provided.
+2. The wording of the question must be approved by Parliament.
+3. The Commission must publish the question at least 60 days before polling day.
+
+SECTION: 256
+
+HEADING: Application of electoral procedure
+
+1. Except as otherwise provided in this Part, the procedures for general elections apply to referendums with necessary modifications.
+2. This includes—
+(a) enrolment;
+(b) polling places;
+(c) ballot papers;
+(d) special votes;
+(e) counting;
+(f) offences.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Writs and Timetable
+
+SECTION: 257
+
+HEADING: Issue of writ for referendum
+
+1. The Governor-General must issue a writ for a referendum when required by law.
+2. The writ must specify—
+(a) the referendum question;
+(b) the polling day;
+(c) the date for the return of the writ.
+3. The Commission must publish the writ in the Gazette.
+
+SECTION: 258
+
+HEADING: Referendum timetable
+
+1. The following timetable applies unless otherwise provided:
+(a) Day 0: Writ issued;
+(b) Day 10: Close of registration for referendum promoters;
+(c) Day 14: Publication of official information statement;
+(d) Day 16: Advance voting begins;
+(e) Day 30: Polling day;
+(f) Day 45: Official results declared;
+(g) Day 50: Return of writ.
+2. The Commission may adjust dates for administrative reasons.
+3. The Governor-General may postpone polling day in accordance with [[Part:7]].
+
+SUBPARTNUMBER: 3
+
+SUBPARTTITLE: Information and Campaigning
+
+SECTION: 259
+
+HEADING: Official information statement
+
+1. The Commission must prepare an official information statement.
+2. The statement must include—
+(a) the referendum question;
+(b) a neutral explanation of the proposal, if provided by Parliament.
+
+SECTION: 260
+
+HEADING: Referendum promoters
+
+1. A person who spends more than **₴1,000** on referendum advertising must register as a referendum promoter.
+2. A promoter must file spending returns.
+3. A promoter must include a promoter statement on all advertising.
+
+SECTION: 261
+
+HEADING: Referendum advertising
+
+1. Referendum advertising must comply with the rules in [[Part:9]].
+2. Advertising must not—
+(a) mislead or deceive electors;
+(b) simulate ballot papers;
+(c) purport to be from the Commission.
+3. A person who contravenes this section commits an illegal practice.
+
+SECTION: 262
+
+HEADING: Prohibited conduct
+
+1. A person must not—
+(a) bribe or treat electors;
+(b) intimidate electors;
+(c) interfere with polling;
+(d) campaign within 100 metres of a polling place.
+2. A person who contravenes this section commits an offence.
+
+SUBPARTNUMBER: 4
+
+SUBPARTTITLE: Ballot Papers and Voting
+
+SECTION: 263
+
+HEADING: Form of referendum ballot paper
+
+1. A referendum ballot paper must contain—
+(a) the referendum question;
+(b) the options “Yes” and “No”, unless otherwise provided;
+(c) instructions for voting;
+(d) a unique serial number.
+2. The Commission may prescribe alternative formats for multi-option referendums.
+
+SECTION: 264
+
+HEADING: Voting procedure
+
+1. An elector must make the ballot paper in secret.
+2. A ballot paper must be marked in a manner that clearly indicates the voter’s intention.
+3. A ballot paper that does not clearly indicate intention must be rejected.
+
+SUBPARTNUMBER: 5
+
+SUBPARTTITLE: Counting and Results
+
+SECTION: 265
+
+HEADING: Preliminary count
+
+1. The preliminary count must begin immediately after the close of polling.
+2. The preliminary count must include all ordinary referendum votes.
+3. Special votes must not be counted during the preliminary count.
+
+SECTION: 265
+
+HEADING: Official count
+
+1. The official count must begin on the first business day after polling day.
+2. The official count must include—
+(a) ordinary votes;
+(b) special votes;
+(c) tendered votes.
+3. The returning officer must determine the number of valid “Yes” and “No” votes.
+
+SECTION: 267
+
+HEADING: Declaration of results
+
+1. The Commission must declare the official results within 45 days after polling day.
+2. The declaration must include—
+(a) the number of valid votes for each option;
+(b) the number of rejected votes;
+(c) the turnout;
+(d) ballot validity;
+(e) results timing.
+3. The declaration must be published in the Gazette.
+
+SECTION: 268
+
+HEADING: Effect of results
+1. If the referendum is binding, the result has legal effect as specified in the enabling Act.
+2. If the referendum is indicative, the Commission must present the results to Parliament.
+
+SUBPARTNUMBER: 6
+
+SUBPARTTITLE: Offences and Penalties
+
+SECTION: 269
+
+HEADING: Offences relating to referendums
+
+A person commits an offence if the person—
+(a) knowingly publishes false information about the referendum question;
+(b) interferes with referendum ballot papers;
+(c) obstructs referendum officials
+(d) impersonates a referendum official;
+(e) destroys or alters referendum documents.
+
+SECTION: 270
+
+HEADING: Penalties
+
+1. A person convicted of an offence under this Part is liable to—
+(a) imprisonment for up to 2 years; or
+(b) a fine not exceeding **₴50,000**.
+2. A person convicted of a corrupt practice under this Part is disqualified from voting for 3 years.
+
+PARTNUMBER: 16
+
+PARTTITLE: Miscellaneous and Transitional Provisions
+
+SECTION: 271
+
+HEADING: Regulations
+
+1. The Governor-General may, by Order in Council made on the recommendation of the Commission, make regulations for the purpose of—
+(a) prescribing forms required under this Act;
+(b) prescribing procedures for enrolment, voting, counting, and certification;
+(c) prescribing requirements for ballot papers, ballot boxes, and polling materials;
+(d) prescribing spending limits, disclosure thresholds, and reporting formats;
+(e) prescribing offences for breaches of regulations;
+(f) any other matter necessary for the administration of this Act.
+2. Regulations must be consistent with the purposes of this Act.
+
+SECTION: 272
+
+HEADING: Power to issue guidelines
+
+1. The Commission may issue guidelines relating to—
+(a) the conduct of polling
+(b) the duties of returning officers and polling officials;
+(c) the interpretation of this Act;
+(d) the administration of campaign finance rules.
+2. Guidelines are not legally binding but must be taken into account by officials.
+
+SECTION: 273
+
+HEADING: Protection of Commission and officials
+
+1. No civil or criminal proceedings may be brought against the Commission, a returning officer, or a polling official for any act done in good faith in the performance of their duties.
+2. This section does not apply to acts done in bad faith or with gross negligence.
+
+SECTION: 274
+
+HEADING: Service of documents
+
+1. Any notice or document required to be served under this Act may be served—
+(a) personally;
+(b) by post;
+(c) by electronic means approved by the Commission.
+2. Service by post is deemed effective 3 days after posting.
+
+SECTION: 275
+
+HEADING: Publication requirements
+
+1. Any matter required to be published under this Act must be published—
+(a) in the Gazette; and
+(b) on the Commission’s website. [amended]
+2. The Commission may publish additional notices it considers appropriate.
+
+SECTION: 276
+
+HEADING: Fees
+
+1. The Commission may prescribe fees for—
+(a) nomination deposits;
+(b) recount applications;
+(c) inspection of documents;
+(d) certification services.
+2. Fees must be reasonable and proportionate.
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Savings and Transitional Provisions
+
+SECTION: 277
+
+HEADING: Existing electoral rolls
+
+1. Electoral rolls in force immediately before the commencement of this Act continue in force until replaced under [[Part:4]].
+2. Electors enrolled under previous legislation are deemed enrolled under this Act.
+
+SECTION: 278
+
+HEADING: Existing political parties
+
+1. A political party registered under previous legislation is deemed registered under this Act.
+2. The party must comply with the requirements of [[Part:4]] within 12 months of commencement.
+
+SECTION: 279
+
+HEADING: Transitional arrangements for boundaries
+
+1. Electoral district boundaries in force immediately before the commencement of this Act remain in force until replaced under [[Part:6]].
+2. The first boundary review under this Act must be completed within 3 years of commencement.
+
+SECTION: 280
+
+HEADING: Transitional arrangements for campaign finance
+
+1. Campaign finance rules under this Act apply to any election held after the commencement date.
+2. Donations received before commencement must be disclosed if they would have been required under this Act.
+
+SECTION: 281
+
+HEADING: Transitional arrangements for referendums
+
+1. Any referendum process commenced before the commencement of this Act continues under previous law unless otherwise directed by Parliament.
+2. The Commission may apply procedures under this Act if doing so does not prejudice any person.
+
+SUBPARTNUMBER: 2
+
+SUBPARTTITLE: Repeals and Commencement
+
+SECTION: 282
+
+HEADING: Repeal of previous enactments
+
+1. The following enactments are repealed:
+(a) the [[Act:Electoral Act 1953]];
+(b) the [[Act:Electoral Finance Act 1979]];
+(c) any amendments to the [[Act:Electoral Act 1953]];
+(d) any other enactment inconsistent with this Act.
+2. Regulations made under repealed enactments continue in force until replaced.
+
+SECTION: 283
+
+HEADING: Savings
+
+1. Anything lawfully done under a repealed enactment is deemed to have been done under this Act.
+2. Any investigation, prosecution, or proceeding commenced under a repealed enactment may continue as if this Act has not been passed.
+
+SECTION: 284
+
+HEADING: Review of this Act
+
+1. The Commission must review the operation of this Act after the second general election held under it.
+2. The Commission must report to Parliament on—
+(a) the effectiveness of the MMP system;
+(b) the administration of elections;
+(c) any recommended amendments.
+
+SCHEDULENUMBER: 1
+
+SCHEDULETITLE: SAINTE‑LAGUË SEAT ALLOCATION METHOD
+
+SCHEDULESECTION: 1
+
+HEADING: Purpose of this Schedule
+
+The purpose of this Schedule is to set out the mathematical method used to allocate seats in Parliament to political parties in proportion to their share of the party vote.
+
+SCHEDULESECTION: 2
+
+HEADING: Definitions
+
+In this Schedule—
+**“party vote”** means the total number of valid party votes cast for a political party at a general election.
+**“eligible party”** means a political party that meets the threshold in [[section:199]].
+**“divisor”** means a number used to divide a party’s vote total to generate quotients for ranking.
+
+SCHEDULESECTION: 3
+
+HEADING: Divisors
+
+(1) The Sainte‑Laguë method uses the following sequence of divisors:
+
+
+CENTER: 1, 3, 5, 7, 9, 11, 13
+  
+(2) Additional divisors must be used as necessary to allocate all seats.
+
+SCHEDULESECTION: 4
+
+HEADING: Calculation of quotients
+
+(1) For each eligible party, a series of quotients must be calculated by dividing the party’s total party votes by each divisor.
+(2) The formula is—
+
+CENTER: n=V/Dn
+
+
+Where—
+Qn is the nth quotient;
+V is the party’s total party votes;
+Dn is the nth divisor
+
+SCHEDULESECTION: 5
+
+HEADING: Ranking of quotients
+
+(1) All quotients calculated under clause 4 must be arranged in descending numerical order.
+(2) The highest 26 quotients correspond to the 26 seats in Parliament (subject to overhang under [[Part:12]]).
+(3) Each quotient is assigned to the party from which it was derived.
+
+SCHEDULESECTION: 6
+
+HEADING: Allocation of seats
+
+(1) Each time a party’s quotient appears in the ranked list, that party is allocated one seat.
+(2) The total number of seats allocated to a party under this Schedule is that party’s proportional entitlement under [[section:198]].
+
+SCHEDULESECTION: 7
+
+HEADING: Deduction of electorate seats
+
+(1) The number of electorate seats won by a party must be deducted from its proportional entitlement.
+(2) If the number of electorate seats exceeds the entitlement, the party retains all electorate seats and creates overhang seats.
+
+SCHEDULESECTION: 8
+
+HEADING: Worked example (illustrative only)
+
+(1) Suppose the following party votes are cast:
+Party A: 120,000
+Party B: 80,000
+Party C: 40,000
+Party D: 10,000 (below threshold; excluded)
+(2) Quotients are calculated using divisors 1, 3, 5, 7, etc.
+(3) The highest 26 quotients are selected.
+(4) Seats are allocated accordingly.
+(5) This example is for illustration only and does not form part of the law.
+
+SCHEDULENUMBER: 2
+
+SCHEDULETITLE: OATH OR AFFIRMATION OF MEMBERS OF PARLIAMENT
+
+SCHEDULESECTION: 1
+
+HEADING: Oath of Allegiance
+
+A Member of Parliament taking the oath must say:
+
+
+**“I, [name], swear that I will be faithful and bear true allegiance to Square Country and to the Constitution of Square Country, and that I will faithfully perform the duties of a Member of Parliament. So help me God.”**
+
+SCHEDULESECTION: 2
+
+HEADING: Affirmation of Allegiance
+
+A Member of Parliament making an affirmation must say:
+
+
+**“I, [name], solemnly, sincerely, and truly declare and affirm that I will be faithful and bear true allegiance to Square Country and to the Constitution of Square Country, and that I will faithfully perform the duties of a Member of Parliament.”**
+
+SCHEDULESECTION: 3
+
+HEADING: Manner of taking oath or affirmation
+
+1.  The oath or affirmation must be taken before—
+(a) the Governor-General; or
+(b) a person authorised by the Governor-General
+2. The oath or affirmation must be taken before the Member may sit or vote in Parliament.
+
+SCHEDULESECTION: 4
+
+HEADING: Record of oath or affirmation
+
+1. The Clerk of the House must record the taking of the oath or affirmation.
+2. The record must be kept in the parliamentary archives.
