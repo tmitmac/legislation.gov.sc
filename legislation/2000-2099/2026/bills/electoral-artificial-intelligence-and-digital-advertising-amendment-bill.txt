@@ -8,7 +8,7 @@ STATUS: Current
 
 VERSION: Latest
 
-VERSIONTITLE: Introduction 14 September 2026
+VERSIONTITLE: Reported from the Committee of the whole House
 
 AGENCY: Ministry of Justice & Corrections
 
@@ -24,7 +24,7 @@ SECTION: 1
 
 HEADING: Title
 
-This Act is the Electoral (Regulation of AI Advertising) Amendment Act ****2026****.
+This Act is the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act ****2026****.
 
 SECTION: 2
 
@@ -49,9 +49,9 @@ HEADING: Section 5 amended (Interpretation)
 In section 5(1), insert in their appropriate alphabetical order:
 INSERT:
 **AI disclosure** means notice identifying material as generated or altered using an artificial intelligence system.
+**AI-assisted material** means material created by a person where an artificial intelligence system has materially contributed to its generation, alteration, translation, editing, targeting, or presentation.
 **AI-generated material** means digital material generated wholly or substantially by an artificial intelligence system.
 **AI-generated political content** means AI-generated or AI-assisted material used in an election advertisement.
-**AI-assisted material** means material created by a person where an artificial intelligence system has materially contributed to its generation, alteration, translation, editing, targeting, or presentation.
 **artificial intelligence system** means a system that generates, modifies, analyses, recommends, or processes content or information using artificial intelligence.
 **automated political advertising** means election advertising generated, selected, personalised, delivered, or materially modified by an automated system.
 **deepfake** means synthetic media realistically depicting a person saying or doing something they did not say or do.
@@ -495,7 +495,7 @@ SECTION: 21
 
 HEADING: Section 153F amended (Regulations)
 
-After section 135F(2)(l), insert:
+After section 153F(2)(l), insert:
 
 INSERT:
 (m) the form, wording, size, placement, duration, and accessibility of AI disclosures;
@@ -539,7 +539,7 @@ INSERT:
 (g) the use of synthetic media, including synthetic audio, video, images, and text;
 ENDINSERT
 
-3. After section 153H(2)(g), insert
+2. After section 153H(2)(g), insert
 
 INSERT:
 (h) the use of political chatbots and automated campaign communications;
