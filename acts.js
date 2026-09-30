@@ -1,6 +1,7 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "2026 No 06", name: "Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-artificial-intelligence-and-digital-advertising-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "195—1", name: "Vehicle Insurance (Mandatory Third Party) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/vehicle-insurance-mandatory-third-party-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "194—1", name: "Electoral (Artificial Intelligence and Digital Advertising) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/electoral-artificial-intelligence-and-digital-advertising-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "LI 2026/33", name: "Westland (Tierras del oeste) Independence Referendum Order 2026", file: "orderviewer.html?act=2000-2099/2026/westland-tierras-del-oeste-independence-referendum-order-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
