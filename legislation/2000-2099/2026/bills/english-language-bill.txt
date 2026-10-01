@@ -24,7 +24,7 @@ SECTION: 1
 
 HEADING: Title
 
-This Act is the **English Language Act 2026**.
+This Act is the English Language Act ****2026****.
 
 SECTION: 2
 
