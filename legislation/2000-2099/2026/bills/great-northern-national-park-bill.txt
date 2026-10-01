@@ -576,7 +576,7 @@ SECTION: 1
 
 HEADING: Title
 
-This Act is the **Great Northern National Park Act 2026**.
+This Act is the Great Northern National Park Act ****2026****.
 
 SECTION: 2
 
