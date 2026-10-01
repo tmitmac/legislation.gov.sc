@@ -286,7 +286,7 @@ SECTION: 1
 
 HEADING: Title
 
-1. This Act is the Employment Holidays Act 2026.
+1. This Act is the Employment Holidays Act ****2026****.
 
 SECTION: 2
 
