@@ -20,7 +20,7 @@ SECTION: 1
 
 HEADING: Title
 
-This Act is the **Government Efficiency Act 2026**.
+This Act is the Government Efficiency Act ****2026****.
 
 SECTION: 2
 
