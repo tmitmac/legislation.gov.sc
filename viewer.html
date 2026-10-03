@@ -1416,6 +1416,7 @@ body.header-fixed #searchBox {
   font-size: 19.968px;
 }
 
+
   </style>
 <style>
 /* Page background */
@@ -1610,30 +1611,8 @@ body.compact-header .bottom-row {
   sans-serif;
 }
 
-.tab {
-  text-decoration: none;
-  color: #1261d1;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 14px 18px;
-}
-
-.tab:hover {
-  background: #eaeaea;
-}
-
-.tab-version {
-  text-decoration: none;
-  color: #1261d1;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 14px 18px;
-}
-
-.tab-version:hover {
-  background: #eaeaea;
-}
-
+.tab,
+.tab-version,
 .tab-related {
   text-decoration: none;
   color: #1261d1;
@@ -1642,11 +1621,30 @@ body.compact-header .bottom-row {
   padding: 14px 18px;
 }
 
+.tab:hover,
+.tab-version:hover,
 .tab-related:hover {
   background: #eaeaea;
 }
 
+/* Active Principal Act tab */
 .tab.active {
+  background: #fff;
+  color: #111;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* Active Versions tab */
+.tab-version.active {
+  background: #fff;
+  color: #111;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* Active Related Bill tab, if used later */
+.tab-related.active {
   background: #fff;
   color: #111;
   border-top-left-radius: 2px;
@@ -1679,6 +1677,443 @@ body.compact-header .bottom-row {
 }
 </style>
 
+<style>
+  /* =========================================
+   VERSIONS VIEW — NZ LEGISLATION STYLE
+   ========================================= */
+
+#versionsView {
+  display: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body.versions-active #sidebar {
+  display: none;
+}
+
+body.versions-active #main {
+  width: 100%;
+  padding: 0 50px 50px 50px;
+  box-sizing: border-box;
+}
+
+body.versions-active #versionsView {
+  display: block;
+}
+
+body.versions-active #legislationContent,
+body.versions-active #searchOverlay {
+  display: none !important;
+}
+
+
+/* =========================================
+   TOP TAB BAR
+   ========================================= */
+
+body.versions-active .bottom-row {
+  margin-top: 36px;
+}
+
+body.versions-active .tabs {
+  align-items: stretch;
+}
+
+body.versions-active .tab-version.active {
+  background: #fff;
+  color: #111;
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =========================================
+   VERSIONS CONTENT
+   ========================================= */
+
+.versions-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* Yellow amendment notice */
+
+.versions-notice {
+  background: #fff2c9;
+  border: 1px solid #f0d889;
+  padding: 20px 18px 25px 18px;
+  margin: 26px 0 18px 0;
+  box-sizing: border-box;
+}
+
+.versions-notice-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #664D03;
+  margin-bottom: 12px;
+}
+
+.versions-notice-intro {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #664D03;
+  margin-bottom: 10px;
+}
+
+.versions-notice-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.versions-notice-list li {
+  margin: 5px 0;
+}
+
+.versions-notice-list a {
+  color: #765500;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+/* =========================================
+   PAGINATION + SORT
+   ========================================= */
+
+.versions-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 18px 0 10px 0;
+  gap: 30px;
+}
+
+.versions-pagination {
+  display: flex;
+  align-items: stretch;
+}
+
+.version-page-button {
+  min-width: 62px;
+  height: 62px;
+  padding: 0 18px;
+  border: 1px solid #c8c8c8;
+  border-right: none;
+  background: #fff;
+  color: #126cd3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.version-page-button:last-child {
+  border-right: 1px solid #c8c8c8;
+}
+
+.version-page-button:hover {
+  background: #f3f3f3;
+}
+
+.version-page-button.active {
+  background: #126cd3;
+  color: #fff;
+  border-color: #126cd3;
+}
+
+.version-page-button.next {
+  min-width: 90px;
+}
+
+
+/* Sort */
+
+.versions-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.versions-sort-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+}
+
+.versions-sort select {
+  height: 60px;
+  min-width: 180px;
+  padding: 0 40px 0 18px;
+  border: 1px solid #c8c8c8;
+  background: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+/* Showing text */
+
+.versions-showing {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin: 10px 0 11px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+
+/* =========================================
+   VERSION CARDS
+   ========================================= */
+
+.versions-list {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.version-row {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 20px 18px 20px 20px;
+
+  margin-bottom: 16px;
+
+  border: 1px solid #c8c8c8;
+  background: #fff;
+
+  text-decoration: none;
+  color: #111;
+
+  transition: background 0.15s ease;
+}
+
+.version-row:hover {
+  background: #fafafa;
+}
+
+.version-row.current {
+  border-left: 4px solid #126cd3;
+  padding-left: 17px;
+  background: #f7f7f7;
+}
+
+
+/* Metadata row */
+
+.version-card-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  sans-serif;
+
+  margin-bottom: 10px;
+
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+}
+
+.version-card-badge {
+  display: inline-block;
+  padding: 4px 8px;
+
+  background: #e7e7e7;
+  color: #666;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.version-card-badge.in-force {
+  background: #cfe9c9;
+  color: #28751e;
+}
+
+.version-card-badge.current {
+  background: #cfe9c9;
+  color: #28751e;
+}
+
+.version-card-badge.previous {
+  background: #edcfce;
+  color: #a40c0b;
+}
+
+
+/* Main title */
+
+.version-row-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-decoration: underline;
+
+  color: #005FCC;
+
+  margin-bottom: 10px;
+}
+
+
+
+/* Italic amendment line */
+
+.version-card-subtitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+
+  margin-bottom: 9px;
+}
+
+
+/* Amendment entries */
+
+.version-amendments {
+  margin-left: 18px;
+  padding-left: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.version-amendment {
+  margin: 0;
+}
+
+.version-amendment a {
+  color: #126cd3;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
+/* Download link */
+
+/* Download link */
+.version-download {
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  color: #126cd3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+
+  text-decoration: none;
+}
+
+.version-download:hover {
+  text-decoration: underline;
+}
+
+.version-download-icon {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  body.versions-active #main {
+    width: 100% !important;
+    padding: 0 12px 30px 12px !important;
+  }
+
+  .versions-notice {
+    margin-top: 15px;
+    padding: 15px;
+  }
+
+  .versions-notice-title {
+    font-size: 18px;
+  }
+
+  .versions-notice-intro {
+    font-size: 14px;
+  }
+
+  .versions-controls {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .versions-sort {
+    width: 100%;
+  }
+
+  .versions-sort select {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .version-page-button {
+    height: 50px;
+    min-width: 48px;
+    padding: 0 12px;
+    font-size: 14px;
+  }
+
+  .version-page-button.next {
+    min-width: 65px;
+  }
+
+  .version-row {
+    padding: 16px;
+  }
+
+  .version-row.current {
+    padding-left: 13px;
+  }
+
+  .version-row-title {
+    font-size: 19px;
+    padding-right: 0;
+  }
+
+  .version-card-meta {
+    font-size: 13px;
+  }
+
+  .version-download {
+    position: static;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .version-amendments {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+}
+</style>
+
 
 <body>
 <custom-navbar></custom-navbar>
@@ -1698,34 +2133,38 @@ body.compact-header .bottom-row {
     <!-- Title -->
     <h1 class="title" id="actTitle"></h1>
 
-    <!-- Tabs + Actions -->
-    <div class="bottom-row">
-      <div class="tabs">
-        <a href="#" class="tab active">Principal Act</a>
-        <a href="index.html" class="tab-version">Versions (2)</a>
-        <a href="#" class="tab-related">Related Bill (1)</a>
-      </div>
+<!-- Tabs + Actions -->
+<!-- Tabs + Actions -->
+<div class="bottom-row">
 
-      <div class="actions">
-        <a href="#" class="action" onclick="downloadActPDF()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 3v12"></path>
-            <path d="M7 10l5 5 5-5"></path>
-            <path d="M5 21h14"></path>
-          </svg>
-          Download
-        </a>
-
-        <a href="#" class="action" onclick="openSearchBox(); return false;">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="7"></circle>
-            <path d="M20 20l-4-4"></path>
-          </svg>
-          Search content
-        </a>
-      </div>
-    </div>
+  <div class="tabs">
+    <a href="#" id="principalTab" class="tab active">Principal Act</a>
+    <a href="#" id="versionsTab" class="tab-version">Versions</a>
+    <a href="#" class="tab-related">Related Bill (1)</a>
   </div>
+
+  <div class="actions">
+
+    <a href="#" class="action" onclick="downloadActPDF(); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 3v12"></path>
+        <path d="M7 10l5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </svg>
+      Download
+    </a>
+
+    <a href="#" class="action" onclick="openSearchBox(); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-4-4"></path>
+      </svg>
+      Search content
+    </a>
+
+  </div>
+
+</div>
 </section>
 
 <div id="layout">
@@ -1736,59 +2175,142 @@ body.compact-header .bottom-row {
 
   <div id="main">
 
-    <div id="searchOverlay">
+<div id="searchOverlay">
 
-      <div id="searchBox">
+  <div id="searchBox">
 
-        <div class="search-body">
+    <div class="search-body">
 
-          <div class="search-input-wrapper">
+      <div class="search-input-wrapper">
 
-            <svg
-              class="search-input-icon"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <circle cx="11" cy="11" r="7"></circle>
-              <path d="M20 20l-4-4"></path>
-            </svg>
+        <svg
+          class="search-input-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M20 20l-4-4"></path>
+        </svg>
 
-            <input
-              id="searchInput"
-              type="text"
-              placeholder="Search this Act..."
-              onkeydown="if(event.key==='Enter') searchContent()"
-            >
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search this Act..."
+          onkeydown="if(event.key==='Enter') searchContent()"
+        >
 
-          </div>
+      </div>
 
-          <button
-            class="search-submit"
-            onclick="searchContent()"
-          >
-            Search
-          </button>
+      <button
+        class="search-submit"
+        onclick="searchContent()"
+      >
+        Search
+      </button>
 
-          <button
-            class="search-close"
-            onclick="closeSearchBox()"
-          >
-            ×
-          </button>
+      <button
+        class="search-close"
+        onclick="closeSearchBox()"
+      >
+        ×
+      </button>
 
-        </div>
+    </div>
 
-        <div id="searchCount"></div>
+    <div id="searchCount"></div>
+
+  </div>
+
+</div>
+
+<div id="legislationContent">
+  Select a document
+</div>
+
+<!-- =========================================
+     VERSIONS VIEW
+     ========================================= -->
+
+<div id="versionsView">
+
+  <div class="versions-container">
+
+    <!-- Controls -->
+    <div class="versions-controls">
+
+      <div class="versions-pagination">
+
+        <button
+          type="button"
+          class="version-page-button active"
+          data-page="1"
+        >
+          1
+        </button>
+
+        <button
+          type="button"
+          class="version-page-button"
+          data-page="2"
+        >
+          2
+        </button>
+
+        <button
+          type="button"
+          class="version-page-button"
+          data-page="3"
+        >
+          3
+        </button>
+
+        <button
+          type="button"
+          class="version-page-button next"
+          data-page="next"
+        >
+          Next
+        </button>
+
+      </div>
+
+
+      <div class="versions-sort">
+
+        <span class="versions-sort-label">
+          Sort by
+        </span>
+
+        <select id="versionsSort">
+          <option value="newest">
+            Newest first
+          </option>
+
+          <option value="oldest">
+            Oldest first
+          </option>
+        </select>
 
       </div>
 
     </div>
 
-    <div id="legislationContent">
-      Select a document
+
+    <div class="versions-showing" id="versionsShowing">
+      Showing versions
     </div>
+
+
+    <!-- Version cards -->
+    <div class="versions-list" id="versionsList">
+      Loading versions...
+    </div>
+
+  </div>
+
+</div>
 
   </div>
 
@@ -1814,6 +2336,697 @@ if (file) {
   loadAct("legislation/" + file);
 }
 
+function getVersionDate(version) {
+  /*
+   * Prefer VERSIONTITLE, e.g.
+   * "as at 1 October 2026"
+   *
+   * Falls back to DATEOFASSENT if no
+   * usable version date is present.
+   */
+
+  const text =
+    version.versionTitle ||
+    version.dateOfAssent ||
+    "";
+
+  if (!text) return null;
+
+  /*
+   * Look for dates such as:
+   * 1 October 2026
+   * 01 October 2026
+   * 1/10/2026
+   * 01/10/2026
+   */
+
+  const longDate =
+    text.match(
+      /\b(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/i
+    );
+
+  if (longDate) {
+    const months = {
+      january: 0,
+      february: 1,
+      march: 2,
+      april: 3,
+      may: 4,
+      june: 5,
+      july: 6,
+      august: 7,
+      september: 8,
+      october: 9,
+      november: 10,
+      december: 11
+    };
+
+    return new Date(
+      Number(longDate[3]),
+      months[longDate[2].toLowerCase()],
+      Number(longDate[1])
+    );
+  }
+
+  const numericDate =
+    text.match(
+      /\b(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})\b/
+    );
+
+  if (numericDate) {
+    return new Date(
+      Number(numericDate[3]),
+      Number(numericDate[2]) - 1,
+      Number(numericDate[1])
+    );
+  }
+
+  return null;
+}
+
+async function updateVersionsTab(doc) {
+
+  const tab = document.getElementById("versionsTab");
+
+  if (!tab || !file) return;
+
+  const parts = file.split("/");
+
+  if (parts.length < 3) {
+    tab.textContent = "Versions";
+    return;
+  }
+
+  const filename = parts[parts.length - 1];
+
+  const directory = parts
+    .slice(0, -1)
+    .join("/");
+
+
+  /*
+   * ==========================================
+   * CURRENTLY VIEWED VERSION
+   * ==========================================
+   */
+
+  const versions = [
+    {
+      filename: filename,
+      path: file,
+      title: doc.title,
+      version: doc.version || "",
+      versionTitle: doc.versionTitle || "",
+      actNumber: doc.actNumber || "",
+      agency: doc.agency || "",
+      status: doc.status || "",
+      dateOfAssent: doc.dateOfAssent || "",
+      current: true,
+      latest: false
+    }
+  ];
+
+
+  /*
+   * ==========================================
+   * LOAD ALL OTHER VERSIONS
+   * ==========================================
+   */
+
+  if (doc.versionFiles) {
+
+    for (const versionFile of doc.versionFiles) {
+
+      if (!versionFile) continue;
+
+      if (versionFile === filename) continue;
+
+      const versionPath =
+        `${directory}/${versionFile}`;
+
+      let versionData = {
+        filename: versionFile,
+        path: versionPath,
+        title: doc.title,
+        version: "",
+        versionTitle: "",
+        actNumber: doc.actNumber || "",
+        agency: doc.agency || "",
+        status: doc.status || "",
+        dateOfAssent: "",
+        current: false,
+        latest: false
+      };
+
+
+      /*
+       * Fetch the actual version file.
+       */
+
+      try {
+
+        const response =
+          await fetch("legislation/" + versionPath);
+
+        if (response.ok) {
+
+          const text =
+            await response.text();
+
+          const previousDoc =
+            parseLegislation(text);
+
+
+          versionData.title =
+            previousDoc.title || doc.title;
+
+          versionData.version =
+            previousDoc.version || "";
+
+          versionData.versionTitle =
+            previousDoc.versionTitle || "";
+
+          versionData.actNumber =
+            previousDoc.actNumber || doc.actNumber;
+
+          versionData.agency =
+            previousDoc.agency || doc.agency;
+
+          versionData.status =
+            previousDoc.status || doc.status;
+
+          versionData.dateOfAssent =
+            previousDoc.dateOfAssent || "";
+
+        }
+
+      } catch (error) {
+
+        console.warn(
+          "Could not load version:",
+          versionPath,
+          error
+        );
+
+      }
+
+
+      versions.push(versionData);
+
+    }
+
+  }
+
+
+  /*
+   * ==========================================
+   * DETERMINE THE ACTUAL LATEST VERSION
+   * ==========================================
+   *
+   * We do NOT trust VERSION: latest here.
+   *
+   * Instead, compare the dates of all versions.
+   */
+
+  let latestVersion = null;
+  let latestDate = null;
+
+  versions.forEach(version => {
+
+    const date =
+      getVersionDate(version);
+
+    if (
+      date &&
+      (!latestDate || date > latestDate)
+    ) {
+
+      latestDate = date;
+      latestVersion = version;
+
+    }
+
+  });
+
+
+  /*
+   * If at least one version has a usable date,
+   * that version becomes the latest.
+   */
+
+  if (latestVersion) {
+
+    versions.forEach(version => {
+
+      version.latest =
+        version === latestVersion;
+
+    });
+
+  }
+
+
+  /*
+   * ==========================================
+   * STORE VERSION INFORMATION
+   * ==========================================
+   */
+
+  window.legislationVersions = {
+
+    title: doc.title,
+
+    actNumber: doc.actNumber,
+
+    agency: doc.agency,
+
+    currentFile: file,
+
+    versions: versions
+
+  };
+
+
+  /*
+   * Update tab count.
+   */
+
+  tab.textContent =
+    `Versions (${versions.length})`;
+
+
+  /*
+   * Render.
+   */
+
+  renderVersions();
+
+}
+
+function showPrincipalAct() {
+
+  document.body.classList.remove("versions-active");
+
+  document
+    .getElementById("principalTab")
+    .classList.add("active");
+
+  document
+    .getElementById("versionsTab")
+    .classList.remove("active");
+
+  window.scrollTo({
+    top: 0,
+    behavior: "auto"
+  });
+}
+
+
+function showVersions() {
+
+  document.body.classList.add("versions-active");
+
+  document
+    .getElementById("principalTab")
+    .classList.remove("active");
+
+  document
+    .getElementById("versionsTab")
+    .classList.add("active");
+
+  renderVersions();
+
+  window.scrollTo({
+    top: 0,
+    behavior: "auto"
+  });
+}
+
+
+function renderVersions(doc) {
+
+  const versionsView =
+    document.getElementById("versionsView");
+
+  const list =
+    document.getElementById("versionsList");
+
+  const showing =
+    document.getElementById("versionsShowing");
+
+  if (!versionsView || !list) return;
+
+  const data =
+    window.legislationVersions;
+
+  if (!data || !data.versions) {
+
+    list.innerHTML = `
+      <div style="
+        padding:20px;
+        background:#fff;
+        border:1px solid #c8c8c8;
+        font-family:Arial,sans-serif;
+        color:#666;
+      ">
+        No version information is available.
+      </div>
+    `;
+
+    return;
+  }
+
+
+  /*
+   * Number of versions
+   */
+
+  const totalVersions = data.versions.length;
+
+
+  /*
+   * Showing text
+   */
+
+  if (showing) {
+
+    showing.textContent =
+      `Showing ${totalVersions} version${totalVersions === 1 ? "" : "s"}`;
+
+  }
+
+
+/*
+ * Clear existing cards
+ */
+
+list.innerHTML = "";
+
+
+/*
+ * Sort versions by their actual version date.
+ *
+ * Default: newest first.
+ *
+ * VERSIONTITLE is preferred by getVersionDate(),
+ * with DATEOFASSENT used as a fallback.
+ */
+
+const sortSelect =
+  document.getElementById("versionsSort");
+
+const sortOrder =
+  sortSelect
+    ? sortSelect.value
+    : "newest";
+
+const sortedVersions =
+  [...data.versions].sort((a, b) => {
+
+    const dateA = getVersionDate(a);
+    const dateB = getVersionDate(b);
+
+    /*
+     * Versions with dates come before
+     * versions without dates.
+     */
+
+    if (dateA && !dateB) return -1;
+    if (!dateA && dateB) return 1;
+
+    /*
+     * If neither version has a usable date,
+     * retain their original order.
+     */
+
+    if (!dateA && !dateB) return 0;
+
+    /*
+     * Newest first or oldest first.
+     */
+
+    return sortOrder === "oldest"
+      ? dateA - dateB
+      : dateB - dateA;
+
+  });
+
+
+/*
+ * Create cards
+ */
+
+sortedVersions.forEach((version, index) => {
+
+    const row =
+      document.createElement("a");
+
+    row.className =
+      "version-row" +
+      (version.current ? " current" : "");
+
+    row.href =
+      "viewer.html?act=" +
+      encodeURIComponent(version.path);
+
+
+    /*
+     * Metadata
+     */
+
+const statusBadge =
+  version.latest
+    ? `
+      <span class="version-card-badge current">
+        Latest version
+      </span>
+    `
+    : `
+      <span class="version-card-badge previous">
+        Previous version
+      </span>
+    `;
+
+
+    /*
+     * Title
+     */
+
+    const title =
+      escapeHtml(
+        version.title ||
+        data.title ||
+        "Legislation"
+      );
+
+
+    /*
+     * Version metadata
+     */
+
+    const asAtText =
+      escapeHtml(
+        version.versionTitle ||
+        ""
+      );
+
+    const actNumberText =
+      escapeHtml(
+        version.actNumber ||
+        ""
+      );
+
+    const agencyText =
+      escapeHtml(
+        version.agency ||
+        ""
+      );
+
+
+    row.innerHTML = `
+
+      <div class="version-card-meta">
+
+        ${statusBadge}
+
+        ${
+          asAtText
+            ? `<span> ${asAtText} |</span>`
+            : ""
+        }
+
+        ${
+          actNumberText
+            ? `<span>Act ${actNumberText} |</span>`
+            : ""
+        }
+
+        ${
+          agencyText
+            ? `<span>Administered by ${agencyText}</span>`
+            : ""
+        }
+
+      </div>
+
+
+            <div class="version-row-title">
+        ${title}
+        ${
+          version.current
+            ? `<span class="viewing-now"> (Viewing now)</span>`
+            : ""
+        }
+      </div>
+
+
+      <div class="version-card-subtitle">
+        ${version.current
+          ? "New amendments incorporated in this version"
+          : "Version of this legislation"
+        }
+      </div>
+
+
+      <a
+      class="version-download"
+      href="#"
+      onclick="event.stopPropagation(); event.preventDefault(); return false;"
+    >
+      <svg
+        class="version-download-icon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M12 3v12"></path>
+        <path d="M7 10l5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </svg>
+      <span>Download (PDF)</span>
+    </a>
+
+    `;
+
+
+    /*
+     * Prevent the nested download link from
+     * interfering with the version link.
+     */
+
+    const download =
+      row.querySelector(".version-download");
+
+    if (download) {
+
+      download.onclick = function(event) {
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        /*
+         * Keep the download action available
+         * for your existing PDF system.
+         */
+
+        if (typeof downloadActPDF === "function") {
+          downloadActPDF();
+        }
+
+      };
+
+    }
+
+
+    list.appendChild(row);
+
+  });
+
+
+  /*
+   * Pagination appearance.
+   *
+   * The actual number of pages can later be
+   * connected to a large version collection.
+   */
+
+  const pageButtons =
+    document.querySelectorAll(".version-page-button");
+
+  pageButtons.forEach(button => {
+
+    button.onclick = function() {
+
+      pageButtons.forEach(btn =>
+        btn.classList.remove("active")
+      );
+
+      if (this.dataset.page !== "next") {
+        this.classList.add("active");
+      }
+
+    };
+
+  });
+
+
+  /*
+   * Sort control
+   */
+
+  const sort =
+    document.getElementById("versionsSort");
+
+  if (sort) {
+
+    sort.onchange = function() {
+
+      const sorted =
+        [...data.versions];
+
+      if (this.value === "oldest") {
+        sorted.reverse();
+      }
+
+      data.versions = sorted;
+
+      renderVersions();
+
+    };
+
+  }
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const sortSelect =
+    document.getElementById("versionsSort");
+
+  if (!sortSelect) return;
+
+  sortSelect.addEventListener("change", () => {
+    renderVersions();
+  });
+
+});
+
+
+function escapeHtml(value) {
+
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+}
+
 async function loadAct(path) {
   const res = await fetch(path);
   const text = await res.text();
@@ -1827,6 +3040,8 @@ document.title = `${doc.title} | Square Country Legislation`;
 
 // 👇 update header dynamically
 document.getElementById("actTitle").textContent = doc.title;
+
+updateVersionsTab(doc);
 
 buildSidebar(doc);
 document.getElementById("legislationContent").innerHTML = renderLegislation(doc);
@@ -1862,19 +3077,20 @@ if (hash) {
 function parseLegislation(text) {
   const lines = text.split("\n");
 
-  let doc = {
-    title: "",
-    actNumber: "",
-    type: "",
-    status: "",
-    version: "",
-    versionTitle: "",
-    agency: "",
-    dateOfAssent: "",
-    commencement: "",
-    parts: [],
-    schedules: [],
-  };
+let doc = {
+  title: "",
+  actNumber: "",
+  type: "",
+  status: "",
+  version: "",
+  versionTitle: "",
+  versionFiles: [],
+  agency: "",
+  dateOfAssent: "",
+  commencement: "",
+  parts: [],
+  schedules: [],
+};
 
   let currentPart = null;
   let currentSubpart = null;
@@ -1913,6 +3129,15 @@ else if (line.startsWith("VERSION:"))
 
   else if (line.startsWith("VERSIONTITLE:"))
   doc.versionTitle = line.replace("VERSIONTITLE:", "").trim();
+
+  else if (line.startsWith("VERSIONFILE:")) {
+  const versionFile =
+    line.replace("VERSIONFILE:", "").trim();
+
+  if (versionFile) {
+    doc.versionFiles.push(versionFile);
+  }
+}
 
     else if (line.startsWith("PARTNUMBER:")) {
     currentPart = {
@@ -3356,15 +4581,22 @@ function jumpToSchedule(number) {
   });
 }
 
-searchButton.addEventListener("click", () => {
-  const query = searchInput.value.trim();
+const searchButton = document.getElementById("searchButton");
+const searchInput = document.getElementById("searchInput");
 
-  if (!query) return;
+if (searchButton && searchInput) {
+  searchButton.addEventListener("click", () => {
+    const query = searchInput.value.trim();
 
-  window.dispatchEvent(new CustomEvent("navbar-search", {
-    detail: query
-  }));
-});
+    if (!query) return;
+
+    window.dispatchEvent(
+      new CustomEvent("navbar-search", {
+        detail: query
+      })
+    );
+  });
+}
 
 function updateHeaderMode() {
   if (window.innerWidth <= 768) {
@@ -3429,6 +4661,40 @@ function toggleMainContents() {
     text.textContent = "Show contents";
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const principalTab =
+    document.getElementById("principalTab");
+
+  const versionsTab =
+    document.getElementById("versionsTab");
+
+  if (principalTab) {
+
+    principalTab.addEventListener("click", (event) => {
+
+      event.preventDefault();
+
+      showPrincipalAct();
+
+    });
+
+  }
+
+  if (versionsTab) {
+
+    versionsTab.addEventListener("click", (event) => {
+
+      event.preventDefault();
+
+      showVersions();
+
+    });
+
+  }
+
+});
 
 </script>
 <script src="components/navbar.js"></script>
