@@ -8,7 +8,9 @@ TYPE: Act
 
 VERSION: Latest
 
-AGENCY: Ministry of Justice & Corrections and Electoral Commission
+VERSIONTITLE: as at 01 January 2026
+
+AGENCY: Ministry of Justice & Corrections
 
 DATEOFASSENT: 20 January 2026
 
@@ -49,7 +51,7 @@ The purposes of this Act are—
 1. to permit electors to cast votes electronically using an approved online voting system;
 2. to ensure that online voting is secure, accessible, and verifiable;
 3. to maintain the secrecy and integrity of the ballot;
-4. to supplement the Electoral Act 1986 without replacing existing voting methods.
+4. to supplement the [[Act:Electoral Act 1986]] without replacing existing voting methods.
 
 
 SECTION: 4
@@ -66,10 +68,10 @@ SECTION: 5
 HEADING: Interpretation
         
 In this Act, unless the context otherwise requires—
-**“Commission”** means the Electoral Commission established under the Electoral Act 1986.
+**“Commission”** means the Electoral Commission established under the [[Act:Electoral Act 1986]].
 **“Online vote”** means a vote cast using the online voting system established under this Act.
 **“Online voting system”** means the secure electronic system approved by the Commission for the purpose of casting votes.
-**“Polling day”** has the meaning given in the Electoral Act 1986.
+**“Polling day”** has the meaning given in the [[Act:Electoral Act 1986]].
 
 PARTNUMBER: 2
 
@@ -93,7 +95,7 @@ SECTION: 7
 
 HEADING: Application of this Act
         
-This Act applies in addition to the Electoral Act 1986.
+This Act applies in addition to the [[Act:Electoral Act 1986]].
 
 
 SECTION: 8
@@ -101,7 +103,7 @@ SECTION: 8
 
 HEADING: Relationship with Electoral Act 1986
         
-If any provision of this Act conflicts with the Electoral Act 1986, the Electoral Act prevails unless this Act expressly states otherwise.
+If any provision of this Act conflicts with the [[Act:Electoral Act 1986]], the Electoral Act prevails unless this Act expressly states otherwise.
 
 PARTNUMBER: 3
 
