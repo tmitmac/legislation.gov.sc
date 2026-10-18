@@ -1,0 +1,65 @@
+TITLE: Electoral Amendment Bill
+
+ACTNUMBER: 195—1
+
+TYPE: Bill
+
+STATUS: Current
+
+VERSION: Latest
+
+VERSIONTITLE: Introduction 18 October 2026
+
+AGENCY: Ministry of Justice & Corrections
+
+DATEOFASSENT: see section 2
+
+COMMENCEMENT: see section 2
+
+PARTNUMBER: 1
+
+PARTTITLE: Preliminary Provisions
+
+SECTION: 1
+
+HEADING: Title
+
+This Act is the Electoral Amendment Act ****2026****
+
+SECTION: 2
+
+HEADING: Commencement
+
+This Act comes into force immediately after it receives Royal assent.
+
+SECTION: 3
+
+HEADING: Principle Act
+
+This Act amends the Electoral Act 1986.
+
+PARTNUMBER: 2
+
+PARTTITLE: Amendments to principle Act
+
+SUBPARTNUMBER: 1
+
+SUBPARTTITLE: Amendment to Part 12
+
+SECTION: 4
+
+HEADING: Section 197A replaced
+
+Replace section 197 with:
+
+
+
+INSERT:
+SECTION: 197
+HEADING: Total number of seats
+(1) Parliament shall consist of 96 seats.
+(2) These seats consist of—
+(a) 64 electorate seats; and
+(b) 32 list seats.
+(3) Parliament may temporarily exceed 96 seats if an overhang arises under this part.
+ENDINSERT
