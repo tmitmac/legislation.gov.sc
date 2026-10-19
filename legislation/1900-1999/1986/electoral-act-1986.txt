@@ -8,8 +8,9 @@ STATUS: in force
 
 VERSION: latest 
 
-VERSIONTITLE: as at 01 October 2026
+VERSIONTITLE: as at 19 October 2026
 
+VERSIONFILE: electoral-act-1986-2026-10-01.txt
 VERSIONFILE: electoral-act-1986-2026-08-26.txt
 VERSIONFILE: electoral-act-1986-2026-06-18.txt
 VERSIONFILE: electoral-act-1986-1986-01-01.txt
@@ -45,13 +46,15 @@ HEADING: Purpose
 
 The purposes of this Act are—
 (a) to establish a lawful, transparent, and impartial system for the election of Members of Parliament of Square Country;
-(b) to provide for the conduct of elections under a mixed-member proportional electoral system consisting of 13 electorate seats and 13 list seats;
+(b) to provide for the conduct of elections under a mixed-member proportional electoral system consisting of 66 electorate seats and 30 list seats;
 (c) to ensure that the allocation of list seats is determined by the party vote using the Sainte‑Laguë method;
 (d) to provide for the registration and regulation of political parties;
 (e) to establish and maintain electoral rolls;
 (f) to ensure the independence and integrity of the Electoral Commission;
 (g) to promote public confidence in the democratic process; and
 (h) to provide for offences and penalties relating to electoral matters.
+
+AMENDMENT: Section 3(b): amended, on 19 October 2026, by section 4 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 4
 
@@ -127,15 +130,15 @@ HEADING: Interpretation
 3. A reference to the singular includes the plural and vice versa.
 4. Headings are for convenience only and do not affect interpretation.
 
-AMENDMENT: Section 5(1) **AI disclosure**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **AI-assisted material**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **AI-generated material**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **AI-generated political content**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **artificial intelligence system**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **automated political advertising**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **deepfake**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **political chatbot**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
-AMENDMENT: Section 5(1) **synthetic media**: inserted, on 1 October 2026, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **AI disclosure**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **AI-assisted material**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **AI-generated material**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **AI-generated political content**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **artificial intelligence system**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **automated political advertising**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **deepfake**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **political chatbot**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
+AMENDMENT: Section 5(1) **synthetic media**: inserted, on 1 October 2016, by section 4 of the Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026 (2026 No 06).
 AMENDMENT: Section 5(1) **citizen**: inserted, on 1 January 2010, by schedule 1 of the Trans-Mexican Agreement Adoption Act 2009 (2009 No 112).
 AMENDMENT: Section 5(1) **general electoral population**: inserted, on 1 January 1998, by section 4 of the Electoral Amendment Act 1992 (1992 No 13).
 AMENDMENT: Section 5(1) **Westland citizen**: inserted, on 1 August 1996, by [[Act:Electoral Amendment Act 1996|section:5]] of the Electoral Amendment Act 1996 (1996 No 143).
@@ -933,9 +936,11 @@ SECTION: 78
 
 HEADING: Number of electoral districts
 
-1. Square Country shall be divided into 13 electoral districts.
+1. Square Country shall be divided into 66 electoral districts.
 2. Each district shall return one electorate Member of Parliament.
 3. Electoral districts must be contiguous and must cover the entire territory of Square Country.
+
+AMENDMENT: Section 78(1): amended, on 19 October 2026, by section 5 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 79
 
@@ -966,12 +971,14 @@ SECTION: 81
 HEADING: Functions of Boundary Commissions
 
 The functions of the Boundary Commission are—
-(a) to divide Square Country into 13 electoral districts;
+(a) to divide Square Country into 66 electoral districts;
 (b) to review boundaries at intervals required by this Act.
 (c) to consider population changes and demographic trends;
 (d) to ensure that districts comply with criteria in [[section:84]];
 (e) to publish proposed and final boundaries;
 (f) to receive and consider public submissions.
+
+AMENDMENT: Section 81(a): amended, on 19 October 2026, by section 6 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 82
 
@@ -998,12 +1005,11 @@ HEADING: Calculation of population quota
 
 The population quota, as required in [[section:83(1)]], shall be calculated as follows—
 (a) the Commission shall find the general electoral population of Square Country;
-(b) the Commission shall divide the general electoral population by 13;
+(b) the Commission shall divide the general electoral population by 66;
 (c) the resulting figure shall be the population quota.
 
 AMENDMENT: Section 83A: inserted, on 1 June 1992, by section 5 of the Electoral Amendment Act 1992 (1992 No 13).
-
-
+AMENDMENT: Section 83A(b): amended, on 19 October 2026, by section 7 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 84
 
@@ -4411,10 +4417,12 @@ SECTION: 197
 HEADING: Total number of seats
 
 1. Parliament consists of—
-(a) 13 electorate seats; and
-(b) 13 list seats;
-for a total of 26 seats.
-2. Parliament may temporarily exceed 26 seats if overhang seats arise under this Part.
+(a) 66 electorate seats; and
+(b) 30 list seats;
+for a total of 96 seats.
+2. Parliament may temporarily exceed 96 seats if overhang seats arise under this Part.
+
+AMENDMENT: Section 197: replaced, on 19 October 2026, by section 8 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 198
 
@@ -4465,8 +4473,10 @@ HEADING: Allocation of seats to parties
 
 1. The Chief Electoral Commissioner must—
 (a) apply the Sainte-Laguë method to the party vote totals;
-(b) allocate 26 seats among the eligible parties.
+(b) allocate 96 seats among the eligible parties.
 2. The number of seats allocated to each party under subsection (1) is that party’s proportional entitlement.
+
+AMENDMENT: Section 202(1)(b): amended, on 19 October 2026, by section 9 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SECTION: 203
 
@@ -4519,9 +4529,11 @@ SECTION: 207
 HEADING: Effect of overhang on Parliament
 
 1. If overhang seats arise, the total number of seats in Parliament is—
-(a) 26; plus
+(a) 96; plus
 (b) the number of overhang seats.
 2. Overhang seats remain in Parliament until the next general election.
+
+AMENDMENT: Section 207(1)(a): amended, on 19 October 2026, by section 10 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SUBPARTNUMBER: 5
 
@@ -5347,8 +5359,10 @@ SCHEDULESECTION: 5
 HEADING: Ranking of quotients
 
 (1) All quotients calculated under clause 4 must be arranged in descending numerical order.
-(2) The highest 26 quotients correspond to the 26 seats in Parliament (subject to overhang under [[Part:12]]).
+(2) The highest 96 quotients correspond to the 96 seats in Parliament (subject to overhang under [[Part:12]]).
 (3) Each quotient is assigned to the party from which it was derived.
+
+AMENDMENT: Clause 5(2): amended, on 19 October 2026, by section 8 of the Electoral Amendment Act 2026 (2026 No 07).
 
 SCHEDULESECTION: 6
 
