@@ -40,26 +40,94 @@ This Act amends the Electoral Act 1986.
 
 PARTNUMBER: 2
 
-PARTTITLE: Amendments to principle Act
-
-SUBPARTNUMBER: 1
-
-SUBPARTTITLE: Amendment to Part 12
+PARTTITLE: Composition of Parliament
 
 SECTION: 4
 
-HEADING: Section 197A replaced
+HEADING: Section 3 amended (Purpose)
 
-Replace section 197 with:
+In section 3(b), replace “13 electorate seats and 13 list seats” with “66 electorate seats and 30 list seats”.
 
+SECTION: 5
 
+HEADING: Section 78 amended (Number of electoral districts)
+
+Replace section 78(1) with:
 
 INSERT:
-SECTION: 197
-HEADING: Total number of seats
-(1) Parliament shall consist of 96 seats.
-(2) These seats consist of—
-(a) 64 electorate seats; and
-(b) 32 list seats.
-(3) Parliament may temporarily exceed 96 seats if an overhang arises under this part.
+(1) Square Country shall be divided into 66 electoral districts.
 ENDINSERT
+
+SECTION: 6
+
+HEADING: Section 81 amended (Functions of Boundary Commission)
+
+Replace section 81(a) with:
+
+INSERT:
+(a) to divide Square Country into 66 electoral districts;
+ENDINSERT
+
+SECTION: 7
+
+HEADING: Section 83A amended (Calculation of population quota)
+
+In section 83A(b), replace “13” with “66”.
+
+PARTNUMBER: 2
+
+PARTTITLE: Allocation of seats
+
+SECTION: 8
+
+HEADING: Section 197 amended (Total number of seats)
+
+Replace section 197(1) with:
+
+INSERT:
+(1) Parliament consists of—
+(a) 64 electorate seats; and
+(b) 30 list seats.
+for a total of 96 seats.
+(2) Parliament may temporarily exceed 96 seats if an overhang arises under this part.
+ENDINSERT
+
+SECTION: 9
+
+HEADING: Section 202 amended (Allocation of seats to parties)
+
+In section 202(1)(b), replace “26 seats” with “96 seats”.
+
+SECTION: 10
+
+HEADING: Section 207 amended (Effect of overhang on Parliament)
+
+In section 207(1)(a), replace “26” with “96”.
+
+PARTNUMBER: 3
+
+PARTTITLE: Consequential amendments
+
+SECTION: 11
+
+HEADING: Schedule 1 amended (Sainte-Laguë method)
+
+In clause 5(2), replace "26" with “96”, wherever it appears.
+
+SECTION: 12
+
+HEADING: Transitional arrangements
+
+1. The Electoral Commission must conduct a review of electoral boundaries to establish 66 electoral districts.
+2. The new electoral boundaries must take effect at the first general election held after this Act comes into force.
+3. The existing composition of Parliament remains unchanged until that general election.
+
+PARTNUMBER: 4
+
+PARTTITLE: Final provision
+
+SECTION: 13
+
+HEADING: Savings
+
+Except as expressly amended by this Act, the Electoral Act 1986 continues in force.
