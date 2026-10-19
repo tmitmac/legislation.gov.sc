@@ -1,6 +1,7 @@
 const acts = [
   /* 2020s */
   /* 2026 */
+  { number: "2026 No 07", name: "Electoral Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2026 No 06", name: "Electoral (Artificial Intelligence and Digital Advertising) Amendment Act 2026", file: "viewer.html?act=2000-2099/2026/electoral-artificial-intelligence-and-digital-advertising-amendment-act-2026.txt", year: 2026, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "195—1", name: "Vehicle Insurance (Mandatory Third Party) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/vehicle-insurance-mandatory-third-party-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
   { number: "194—1", name: "Electoral (Artificial Intelligence and Digital Advertising) Amendment Bill", file: "billviewer.html?act=2000-2099/2026/bills/electoral-artificial-intelligence-and-digital-advertising-amendment-bill.txt", year: 2026, type: "bill", inForce: false, bill: true, agency: "Ministry of Justice & Corrections"},
@@ -21,7 +22,7 @@ const acts = [
   /* 2025 */
   { number: "2025 No 44", name: "Criminal Responsibility (Age Reduction) Amendment Act 2025", file: "viewer.html?act=2000-2099/2025/criminal-responsibility-age-reduction-amendment-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
   { number: "2025 No 43", name: "Defence Expansion Act 2025", file: "viewer.html?act=2000-2099/2025/defence-expansion-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Defence"},
-  { number: "2025 No 42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=2000-2099/2025/federal-revenue-and-tax-reform-act-2025-version-2.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
+  { number: "2025 No 42", name: "Federal Revenue and Tax Reform Act 2025", file: "viewer.html?act=2000-2099/2025/federal-revenue-and-tax-reform-act-2025.txt", year: 2025, type: "act", inForce: true, bill: false, agency: "Ministry of Finance"},
   /* 2021 */
   { number: "2021 No 48", name: "Aviation Act 2021", file: "viewer.html?act=2000-2099/2021/aviation-act-2021.txt", year: 2021, type: "act", inForce: true, bill: false, agency: "National Aviation Authority "},
   { number: "2021 No 32", name: "Sale and Supply of Alcohol Act 2021", file: "viewer.html?act=2000-2099/2021/sale-and-supply-of-alcohol-act-2021.txt", year: 2021, type: "act", inForce: true, bill: false, agency: "Ministry of Justice & Corrections"},
