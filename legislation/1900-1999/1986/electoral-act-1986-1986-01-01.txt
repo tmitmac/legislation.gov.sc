@@ -11,8 +11,10 @@ VERSION: Previous version
 VERSIONTITLE: as at 01 January 1986
 
 VERSIONFILE: electoral-act-1986.txt
+VERSIONFILE: electoral-act-1986-2026-10-01.txt
 VERSIONFILE: electoral-act-1986-2026-08-26.txt
 VERSIONFILE: electoral-act-1986-2026-06-18.txt
+VERSIONFILE: electoral-act-1986-1986-01-01.txt
 
 AGENCY: the Ministry of Justice & Corrections; and Electoral Commission
 
